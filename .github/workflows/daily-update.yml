@@ -1,0 +1,78 @@
+# 毎日の価格更新 & GitHub Pages デプロイ（完全自動・Claude非依存）
+#   schedule      … 毎日定時に スクレイピング→履歴追記→ビルド→デプロイ
+#   workflow_dispatch … 手動実行（Actionsタブのボタン）
+#   push(main)    … コード更新時はビルド&デプロイのみ（スクレイピングはしない）
+name: Daily price update & deploy
+
+on:
+  schedule:
+    # UTC表記。'0 22 * * *' = 毎日 07:00 JST。時刻を変えたいときはここを編集。
+    - cron: '0 22 * * *'
+  workflow_dispatch:
+  push:
+    branches: [main]
+
+# GITHUB_TOKEN の権限: 履歴コミット(contents) と Pages デプロイ(pages,id-token)
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+# デプロイの同時実行を防ぐ（実行中のものは止めない）
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build-deploy:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci
+
+      # --- スクレイピング（schedule / 手動実行のときだけ） ---
+      - name: Scrape prices
+        if: github.event_name != 'push'
+        run: npm run scrape
+
+      - name: Commit updated history
+        if: github.event_name != 'push'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/history
+          if git diff --staged --quiet; then
+            echo "履歴の変更なし"
+          else
+            git commit -m "chore: update price history ($(date -u +%Y-%m-%d))"
+            git push
+          fi
+
+      # --- ビルド（最新価格で静的HTML再生成） ---
+      - name: Build
+        run: npm run build
+
+      # --- GitHub Pages へデプロイ ---
+      - name: Configure Pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: dist
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

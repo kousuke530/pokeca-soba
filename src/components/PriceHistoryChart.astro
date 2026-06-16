@@ -1,0 +1,114 @@
+---
+import type { PricePoint } from '../data/types';
+
+interface Props {
+  history: PricePoint[];
+}
+const { history } = Astro.props;
+
+// SVGの描画領域
+const W = 640;
+const H = 220;
+const PAD = { top: 16, right: 12, bottom: 28, left: 56 };
+const innerW = W - PAD.left - PAD.right;
+const innerH = H - PAD.top - PAD.bottom;
+
+const sells = history.map((p) => p.sell);
+const buys = history.map((p) => p.buy);
+// 買取データがある場合のみ買取線を描く（駿河屋など販売のみのショップ対応）
+const hasBuy = buys.some((b) => b > 0);
+const scaleVals = hasBuy ? [...sells, ...buys] : sells;
+const maxV = Math.max(...scaleVals);
+const minV = Math.min(...scaleVals);
+const range = maxV - minV || maxV || 1;
+
+const n = history.length;
+// 点が1つだけのときは中央に配置（0除算回避）
+const x = (i: number) => (n === 1 ? PAD.left + innerW / 2 : PAD.left + (innerW * i) / (n - 1));
+const y = (v: number) => PAD.top + innerH - ((v - minV) / range) * innerH;
+
+const toPath = (vals: number[]) =>
+  vals.map((v, i) => `${i === 0 ? 'M' : 'L'}${x(i).toFixed(1)},${y(v).toFixed(1)}`).join(' ');
+
+const sellPath = toPath(sells);
+const buyPath = hasBuy ? toPath(buys) : '';
+// 点が少ないときに見えるようマーカー座標を用意
+const sellDots = sells.map((v, i) => ({ cx: x(i), cy: y(v) }));
+
+// Y軸の目盛り（4分割）
+const ticks = Array.from({ length: 4 }, (_, i) => Math.round(minV + (range * i) / 3));
+// X軸ラベル（最初・中間・最後。点が少ないときは重複を除く）
+const xLabels = [...new Set([0, Math.floor((n - 1) / 2), n - 1])].map((i) => ({
+  i,
+  label: history[i].date.slice(5).replace('-', '/'),
+}));
+
+const fmt = (v: number) => v.toLocaleString('ja-JP');
+---
+
+<figure class="chart">
+  <svg viewBox={`0 0 ${W} ${H}`} role="img" aria-label="価格推移グラフ" preserveAspectRatio="xMidYMid meet">
+    <!-- グリッド & Y軸ラベル -->
+    {
+      ticks.map((t) => (
+        <g>
+          <line x1={PAD.left} y1={y(t)} x2={W - PAD.right} y2={y(t)} stroke="#eee" />
+          <text x={PAD.left - 8} y={y(t) + 4} text-anchor="end" class="ax">
+            {fmt(t)}
+          </text>
+        </g>
+      ))
+    }
+    <!-- X軸ラベル -->
+    {
+      xLabels.map((xl) => (
+        <text x={x(xl.i)} y={H - 8} text-anchor="middle" class="ax">
+          {xl.label}
+        </text>
+      ))
+    }
+    <!-- 折れ線 -->
+    {hasBuy && <path d={buyPath} fill="none" stroke="#43a047" stroke-width="2" />}
+    <path d={sellPath} fill="none" stroke="var(--brand)" stroke-width="2" />
+    <!-- 点マーカー（点数が少ないときに見えるように） -->
+    {sellDots.map((d) => <circle cx={d.cx} cy={d.cy} r="2.5" fill="var(--brand)" />)}
+  </svg>
+  <figcaption class="legend">
+    <span class="lg lg-sell">販売価格</span>
+    {hasBuy && <span class="lg lg-buy">買取価格</span>}
+  </figcaption>
+</figure>
+
+<style>
+  .chart {
+    margin: 12px 0 0;
+  }
+  .chart svg {
+    width: 100%;
+    height: auto;
+    background: #fff;
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+  }
+  .ax {
+    font-size: 11px;
+    fill: var(--text-sub);
+  }
+  .legend {
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+    margin-top: 8px;
+    font-size: 12px;
+  }
+  .lg::before {
+    content: "";
+    display: inline-block;
+    width: 14px;
+    height: 3px;
+    margin-right: 5px;
+    vertical-align: middle;
+  }
+  .lg-sell::before { background: var(--brand); }
+  .lg-buy::before { background: #43a047; }
+</style>

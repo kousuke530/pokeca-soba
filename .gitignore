@@ -1,0 +1,17 @@
+# build output
+dist/
+# dependencies
+node_modules/
+# generated types
+.astro/
+# logs
+npm-debug.log*
+# environment
+.env
+.env.production
+# macOS
+.DS_Store
+# 私用の受け渡し/作業中ファイル（公開リポジトリに含めない。参考スクショの著作物対策も兼ねる）
+input/
+work/
+output/

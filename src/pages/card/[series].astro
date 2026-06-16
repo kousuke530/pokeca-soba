@@ -1,0 +1,231 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import PriceModal from '../../components/PriceModal.astro';
+import { series as allSeries } from '../../data/cards';
+import type { CardSeries } from '../../data/types';
+
+export function getStaticPaths() {
+  return allSeries.map((s) => ({
+    params: { series: s.slug },
+    props: { series: s },
+  }));
+}
+
+interface Props {
+  series: CardSeries;
+}
+const { series } = Astro.props;
+
+const priceDate = '2026年6月15日';
+const seriesPath = `/card/${series.slug}`;
+const yen = (v: number | null) => (v == null ? '—' : `${v.toLocaleString('ja-JP')}円`);
+
+const title = `【ポケカ】${series.name}(全${series.variants.length}種)の買取・販売価格相場一覧【ポケモンカード】`;
+const description = `${series.name}の最新の販売価格・買取価格をショップ横断で比較。レアリティ別（${series.variants
+  .map((v) => v.rarity)
+  .join('・')}）の相場と価格推移をまとめています。`;
+
+// 構造化データ（ItemList × Product/AggregateOffer）
+const jsonLd = JSON.stringify({
+  '@context': 'https://schema.org',
+  '@type': 'ItemList',
+  name: title,
+  itemListElement: series.variants.map((c, i) => {
+    const prices = c.sellShops.map((s) => s.price).filter((p): p is number => p != null);
+    return {
+      '@type': 'ListItem',
+      position: i + 1,
+      item: {
+        '@type': 'Product',
+        name: `${c.name}(${c.rarity}) ${c.cardNumber}`,
+        category: c.category,
+        image: new URL(c.image, Astro.site).href,
+        offers: {
+          '@type': 'AggregateOffer',
+          priceCurrency: 'JPY',
+          lowPrice: Math.min(...prices),
+          highPrice: Math.max(...prices),
+          offerCount: prices.length,
+          availability: 'https://schema.org/InStock',
+        },
+      },
+    };
+  }),
+});
+---
+
+<BaseLayout title={title} description={description} path={seriesPath} jsonLd={jsonLd}>
+  <nav class="crumbs" aria-label="パンくず">
+    <a href="/">ホーム</a> <span>›</span> <span>{series.name}</span>
+  </nav>
+
+  <h1 class="page-title">{title}</h1>
+  <p class="lead">
+    {series.name}の最新の販売価格・買取価格を主要ショップ横断で比較できます（{priceDate}時点）。
+    各カードの「価格を見る」から、ショップ別の最新価格・価格推移・購入リンクを確認できます。
+  </p>
+
+  <ul class="card-list">
+    {
+      series.variants.map((c) => (
+        <li class="card-row">
+          <img class="card-thumb" src={c.image} alt={`${c.name}(${c.rarity})`} width="80" height="112" />
+          <div class="card-main">
+            <p class="card-name">
+              {c.name} <span class="rarity">{c.rarity}</span>
+            </p>
+            <p class="card-no">{c.cardNumber} ／ {c.pack}</p>
+            <dl class="card-prices">
+              <div><dt>販売</dt><dd class="p-sell">{yen(c.sellPrice)}</dd></div>
+              <div><dt>買取</dt><dd class="p-buy">{yen(c.buyPrice)}</dd></div>
+            </dl>
+          </div>
+          <button class="open-btn" data-open-modal={`modal-${c.slug}`}>価格を見る</button>
+        </li>
+      ))
+    }
+  </ul>
+
+  {
+    series.variants.map((c) => (
+      <PriceModal card={c} seriesUrl={seriesPath} seriesName={c.name} priceDate={priceDate} />
+    ))
+  }
+</BaseLayout>
+
+<script>
+  // モーダルの開閉のみJSで制御（中身のHTMLはSSGで出力済み＝クローラーは読める）
+  function setup() {
+    document.querySelectorAll<HTMLButtonElement>('[data-open-modal]').forEach((btn) => {
+      btn.addEventListener('click', () => {
+        const id = btn.getAttribute('data-open-modal');
+        if (!id) return;
+        const dlg = document.getElementById(id) as HTMLDialogElement | null;
+        dlg?.showModal();
+      });
+    });
+    document.querySelectorAll<HTMLButtonElement>('[data-close-modal]').forEach((btn) => {
+      btn.addEventListener('click', () => {
+        btn.closest('dialog')?.close();
+      });
+    });
+    // 背景クリックで閉じる
+    document.querySelectorAll<HTMLDialogElement>('dialog.pm').forEach((dlg) => {
+      dlg.addEventListener('click', (e) => {
+        if (e.target === dlg) dlg.close();
+      });
+    });
+  }
+  setup();
+</script>
+
+<style>
+  .crumbs {
+    font-size: 12px;
+    color: var(--text-sub);
+    margin-bottom: 12px;
+  }
+  .crumbs a { text-decoration: none; }
+  .crumbs span { margin: 0 4px; }
+
+  .page-title {
+    font-size: 20px;
+    line-height: 1.5;
+    margin: 0 0 12px;
+  }
+  .lead {
+    font-size: 14px;
+    color: var(--text-sub);
+    margin: 0 0 20px;
+  }
+
+  .card-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+  .card-row {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 12px;
+    background: #fff;
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+  }
+  .card-thumb {
+    flex: 0 0 auto;
+    width: 64px;
+    height: auto;
+    border-radius: 4px;
+    border: 1px solid var(--border);
+  }
+  .card-main {
+    flex: 1;
+    min-width: 0;
+  }
+  .card-name {
+    margin: 0;
+    font-weight: 700;
+    font-size: 15px;
+  }
+  .rarity {
+    display: inline-block;
+    margin-left: 4px;
+    padding: 1px 6px;
+    font-size: 11px;
+    color: #fff;
+    background: var(--brand);
+    border-radius: 4px;
+    vertical-align: middle;
+  }
+  .card-no {
+    margin: 2px 0 6px;
+    font-size: 11px;
+    color: var(--text-sub);
+  }
+  .card-prices {
+    display: flex;
+    gap: 16px;
+    margin: 0;
+  }
+  .card-prices div {
+    display: flex;
+    align-items: baseline;
+    gap: 4px;
+  }
+  .card-prices dt {
+    font-size: 11px;
+    color: var(--text-sub);
+    margin: 0;
+  }
+  .card-prices dd {
+    margin: 0;
+    font-weight: 700;
+    font-size: 14px;
+  }
+  .p-sell { color: var(--accent-red); }
+  .p-buy { color: #2e7d32; }
+
+  .open-btn {
+    flex: 0 0 auto;
+    align-self: stretch;
+    padding: 8px 14px;
+    border: none;
+    background: var(--brand);
+    color: #fff;
+    font-weight: 700;
+    font-size: 13px;
+    border-radius: var(--radius);
+    cursor: pointer;
+  }
+  .open-btn:hover { background: var(--brand-dark); }
+
+  @media (max-width: 480px) {
+    .card-row { flex-wrap: wrap; }
+    .open-btn { width: 100%; align-self: auto; }
+  }
+</style>

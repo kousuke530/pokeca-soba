@@ -1,0 +1,308 @@
+---
+import type { Card } from '../data/types';
+import PriceHistoryChart from './PriceHistoryChart.astro';
+
+interface Props {
+  card: Card;
+  /** カード一覧（シリーズ）へのリンク先 */
+  seriesUrl: string;
+  /** 「◯◯のカード一覧」に出す表示名 */
+  seriesName: string;
+  /** 価格基準日（表示用） */
+  priceDate: string;
+}
+const { card, seriesUrl, seriesName, priceDate } = Astro.props;
+const yen = (v: number | null) => (v == null ? '—' : `${v.toLocaleString('ja-JP')}円`);
+const id = `modal-${card.slug}`;
+// 自動取得の実データが含まれるか（駿河屋など）
+const hasReal = card.sellShops.some((s) => s.real) || card.buyShops.some((s) => s.real);
+---
+
+<dialog id={id} class="pm">
+  <div class="pm-head">
+    <h2 class="pm-title">
+      {card.name}({card.rarity}) <span class="pm-no">{card.cardNumber}</span>
+    </h2>
+    <button class="pm-x" data-close-modal aria-label="閉じる">×</button>
+  </div>
+
+  <div class="pm-body">
+    <div class="pm-top">
+      <figure class="pm-img">
+        <img src={card.image} alt={`${card.name}(${card.rarity}) ${card.cardNumber}`} width="220" height="307" />
+        <figcaption>出典: card-rush-pokemon.jp</figcaption>
+      </figure>
+
+      <table class="pm-info">
+        <tbody>
+          <tr><th>レアリティ</th><td>{card.rarity}</td></tr>
+          <tr><th>カード種別</th><td>{card.category}</td></tr>
+          <tr><th>型番</th><td>{card.cardNumber}</td></tr>
+          <tr><th>イラスト</th><td>{card.illustrator}</td></tr>
+          <tr class="pm-price-row">
+            <th>買取価格</th>
+            <td>
+              <span class="pm-price">{yen(card.buyPrice)}</span>
+              <small>過去最高 {yen(card.buyPriceHigh)}（{card.highDate.replaceAll('-', '.')}）</small>
+            </td>
+          </tr>
+          <tr class="pm-price-row">
+            <th>販売価格</th>
+            <td>
+              <span class="pm-price">{yen(card.sellPrice)}</span>
+              <small>過去最高 {yen(card.sellPriceHigh)}（{card.highDate.replaceAll('-', '.')}）</small>
+            </td>
+          </tr>
+          <tr><th>収録パック</th><td>{card.pack}</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <details class="pm-history">
+      <summary>価格履歴詳細を見る</summary>
+      <PriceHistoryChart history={card.history} />
+    </details>
+
+    <p class="pm-date">{priceDate}時点の価格です。</p>
+    {
+      hasReal && (
+        <p class="pm-note">
+          <span class="pm-real">実</span> は自動取得した実価格（駿河屋）。価格推移は毎日蓄積しています。他ショップ・過去最高は現状ダミーです。
+        </p>
+      )
+    }
+
+    <p class="pm-sub-head">▼最新販売価格▼</p>
+    <ul class="pm-shops">
+      {
+        card.sellShops.map((s) => (
+          <li>
+            <a href={s.url} class="pm-shop" target="_blank" rel="nofollow sponsored noopener">
+              <span class="pm-shop-name">{s.shop}{s.real && <span class="pm-real">実</span>}</span>
+              <span class="pm-shop-price">{yen(s.price)}</span>
+            </a>
+          </li>
+        ))
+      }
+    </ul>
+
+    <p class="pm-sub-head">▼最新買取価格▼</p>
+    <ul class="pm-shops">
+      {
+        card.buyShops.map((s) => (
+          <li>
+            <a href={s.url} class="pm-shop" target="_blank" rel="nofollow sponsored noopener">
+              <span class="pm-shop-name">{s.shop}{s.real && <span class="pm-real">実</span>}</span>
+              <span class="pm-shop-price">{yen(s.price)}</span>
+            </a>
+          </li>
+        ))
+      }
+    </ul>
+
+    <a href={seriesUrl} class="pm-cta">{seriesName}のカード一覧 <span>→</span></a>
+
+    <div class="pm-close-wrap">
+      <button class="pm-close" data-close-modal>閉じる</button>
+    </div>
+  </div>
+</dialog>
+
+<style>
+  .pm {
+    width: min(92vw, 460px);
+    max-height: 90vh;
+    padding: 0;
+    border: none;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 12px 40px rgba(0, 0, 0, 0.3);
+  }
+  .pm::backdrop {
+    background: rgba(0, 0, 0, 0.5);
+  }
+  .pm-head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 8px;
+    padding: 10px 14px;
+    background: #f0f0f0;
+    border-bottom: 1px solid var(--border);
+  }
+  .pm-title {
+    margin: 0;
+    font-size: 14px;
+    font-weight: 700;
+  }
+  .pm-no {
+    font-weight: 400;
+    color: var(--text-sub);
+    font-size: 12px;
+  }
+  .pm-x {
+    border: none;
+    background: none;
+    font-size: 22px;
+    line-height: 1;
+    color: var(--text-sub);
+    cursor: pointer;
+  }
+  .pm-body {
+    padding: 14px;
+    overflow-y: auto;
+    max-height: calc(90vh - 44px);
+  }
+  .pm-top {
+    display: flex;
+    gap: 12px;
+  }
+  .pm-img {
+    margin: 0;
+    flex: 0 0 38%;
+  }
+  .pm-img img {
+    width: 100%;
+    border-radius: 4px;
+    border: 1px solid var(--border);
+  }
+  .pm-img figcaption {
+    font-size: 9px;
+    color: var(--text-sub);
+    text-align: center;
+    margin-top: 2px;
+  }
+  .pm-info {
+    flex: 1;
+    border-collapse: collapse;
+    font-size: 12px;
+  }
+  .pm-info th,
+  .pm-info td {
+    border: 1px solid var(--border);
+    padding: 5px 8px;
+    text-align: center;
+  }
+  .pm-info th {
+    background: #fafafa;
+    white-space: nowrap;
+    font-weight: 500;
+    width: 38%;
+  }
+  .pm-price {
+    font-weight: 700;
+    font-size: 15px;
+    color: var(--accent-red);
+  }
+  .pm-price-row td small {
+    display: block;
+    font-size: 9px;
+    color: var(--text-sub);
+  }
+  .pm-history {
+    margin-top: 14px;
+  }
+  .pm-history summary {
+    text-align: center;
+    color: var(--brand);
+    font-weight: 700;
+    cursor: pointer;
+    padding: 8px;
+    border: 1px solid var(--brand-light);
+    border-radius: var(--radius);
+    background: var(--brand-light);
+    list-style: none;
+  }
+  .pm-history summary::-webkit-details-marker { display: none; }
+  .pm-date {
+    text-align: center;
+    font-size: 12px;
+    color: var(--text-sub);
+    margin: 14px 0 6px;
+  }
+  .pm-note {
+    font-size: 11px;
+    color: var(--text-sub);
+    background: #f3f8ff;
+    border: 1px solid var(--brand-light);
+    border-radius: var(--radius);
+    padding: 8px 10px;
+    margin: 8px 0 0;
+    line-height: 1.5;
+  }
+  .pm-real {
+    display: inline-block;
+    background: #2e7d32;
+    color: #fff;
+    font-size: 9px;
+    font-weight: 700;
+    line-height: 1;
+    padding: 2px 4px;
+    border-radius: 3px;
+    margin-left: 4px;
+    vertical-align: middle;
+  }
+  .pm-sub-head {
+    text-align: center;
+    color: var(--accent-red);
+    font-weight: 700;
+    font-size: 13px;
+    margin: 14px 0 8px;
+  }
+  .pm-shops {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 8px;
+  }
+  .pm-shop {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 4px;
+    padding: 9px 10px;
+    border: 1.5px solid var(--brand);
+    border-radius: var(--radius);
+    text-decoration: none;
+    color: var(--brand);
+    font-size: 13px;
+    font-weight: 600;
+    background: #fff;
+  }
+  .pm-shop:hover { background: var(--brand-light); }
+  .pm-shop-price {
+    font-size: 11px;
+    color: var(--text-sub);
+    font-weight: 500;
+  }
+  .pm-cta {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    margin-top: 20px;
+    padding: 16px;
+    background: var(--brand);
+    color: #fff;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 15px;
+    border-radius: var(--radius);
+  }
+  .pm-cta:hover { background: var(--brand-dark); }
+  .pm-close-wrap {
+    text-align: center;
+    margin-top: 16px;
+  }
+  .pm-close {
+    padding: 8px 40px;
+    border: 1px solid var(--border);
+    background: #fff;
+    border-radius: var(--radius);
+    cursor: pointer;
+    font-size: 13px;
+    color: var(--text-sub);
+  }
+</style>

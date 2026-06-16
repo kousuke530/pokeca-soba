@@ -1,0 +1,97 @@
+---
+interface Props {
+  title: string;
+  description: string;
+  /** ページのcanonical用パス（任意） */
+  path?: string;
+  /** 構造化データ(JSON-LD)の文字列（任意） */
+  jsonLd?: string;
+}
+const { title, description, path = '', jsonLd } = Astro.props;
+const canonical = new URL(path, Astro.site).href;
+---
+
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>{title}</title>
+    <meta name="description" content={description} />
+    <link rel="canonical" href={canonical} />
+    <!-- OGP -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+    <meta property="og:url" content={canonical} />
+    <meta name="twitter:card" content="summary_large_image" />
+    {jsonLd && <script type="application/ld+json" set:html={jsonLd} />}
+  </head>
+  <body>
+    <header class="site-header">
+      <a href="/" class="site-logo">ポケカ価格相場ナビ</a>
+    </header>
+    <main class="site-main">
+      <slot />
+    </main>
+    <footer class="site-footer">
+      <p>
+        当サイトはアフィリエイトプログラムにより収益を得ています。表示価格は参考値であり、実際の価格は各販売サイトをご確認ください。
+      </p>
+      <p class="copyright">© ポケカ価格相場ナビ</p>
+    </footer>
+
+    <style is:global>
+      :root {
+        --brand: #1565c0;
+        --brand-dark: #0d47a1;
+        --brand-light: #e3f0fc;
+        --accent-red: #e53935;
+        --text: #1a1a1a;
+        --text-sub: #666;
+        --border: #d6d6d6;
+        --bg: #f4f6f8;
+        --radius: 8px;
+        --maxw: 720px;
+      }
+      * { box-sizing: border-box; }
+      html { -webkit-text-size-adjust: 100%; }
+      body {
+        margin: 0;
+        font-family: "Hiragino Kaku Gothic ProN", "Hiragino Sans", "Noto Sans JP",
+          system-ui, sans-serif;
+        color: var(--text);
+        background: var(--bg);
+        line-height: 1.7;
+      }
+      a { color: var(--brand); }
+      img { max-width: 100%; height: auto; }
+
+      .site-header {
+        background: #fff;
+        border-bottom: 1px solid var(--border);
+        padding: 12px 16px;
+      }
+      .site-logo {
+        font-weight: 700;
+        font-size: 18px;
+        color: var(--brand-dark);
+        text-decoration: none;
+      }
+      .site-main {
+        max-width: var(--maxw);
+        margin: 0 auto;
+        padding: 16px;
+      }
+      .site-footer {
+        max-width: var(--maxw);
+        margin: 40px auto 0;
+        padding: 24px 16px;
+        font-size: 12px;
+        color: var(--text-sub);
+        border-top: 1px solid var(--border);
+      }
+      .copyright { margin-top: 8px; }
+    </style>
+  </body>
+</html>

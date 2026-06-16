@@ -1,0 +1,84 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { series } from '../data/cards';
+
+const title = 'ポケカ価格相場ナビ｜ポケモンカードの買取・販売価格を一括比較';
+const description =
+  'ポケモンカードの最新の販売価格・買取価格を主要ショップ横断で比較。レアリティ別の相場・価格推移をまとめ、最安・高価買取のショップへ直接アクセスできます。';
+const yen = (v: number) => `${v.toLocaleString('ja-JP')}円`;
+---
+
+<BaseLayout title={title} description={description} path="/">
+  <h1 class="hero-title">ポケカの買取・販売価格を一括比較</h1>
+  <p class="hero-lead">
+    ポケモンカードの最新相場・価格推移をショップ横断でチェック。気になるカードから最新価格と購入リンクを確認できます。
+  </p>
+
+  <h2 class="sec-title">注目のカード</h2>
+  <ul class="series-list">
+    {
+      series.map((s) => {
+        const top = s.variants[0];
+        return (
+          <li>
+            <a href={`/card/${s.slug}`} class="series-card">
+              <img src={top.image} alt={s.name} width="72" height="100" />
+              <div>
+                <p class="series-name">{s.name}</p>
+                <p class="series-meta">全{s.variants.length}種 ／ {top.pack}</p>
+                <p class="series-price">最高販売 {yen(Math.max(...s.variants.map((v) => v.sellPrice)))}〜</p>
+              </div>
+            </a>
+          </li>
+        );
+      })
+    }
+  </ul>
+</BaseLayout>
+
+<style>
+  .hero-title {
+    font-size: 22px;
+    margin: 8px 0 12px;
+  }
+  .hero-lead {
+    font-size: 14px;
+    color: var(--text-sub);
+    margin: 0 0 28px;
+  }
+  .sec-title {
+    font-size: 16px;
+    border-left: 4px solid var(--brand);
+    padding-left: 8px;
+    margin: 0 0 14px;
+  }
+  .series-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+  .series-card {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+    padding: 12px;
+    background: #fff;
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    text-decoration: none;
+    color: inherit;
+  }
+  .series-card:hover { border-color: var(--brand); }
+  .series-card img {
+    width: 56px;
+    height: auto;
+    border-radius: 4px;
+    border: 1px solid var(--border);
+  }
+  .series-name { margin: 0; font-weight: 700; font-size: 15px; }
+  .series-meta { margin: 2px 0; font-size: 12px; color: var(--text-sub); }
+  .series-price { margin: 0; font-size: 13px; font-weight: 700; color: var(--accent-red); }
+</style>

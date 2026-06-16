@@ -1,0 +1,7 @@
+# ポケカ価格相場ナビ
+# 検索エンジン・LLMクローラーの巡回を許可（コンテンツSEO/LLMO重視）
+User-agent: *
+Allow: /
+
+# ★公開前に必須: 下記を本番ドメインに差し替える
+Sitemap: https://example.com/sitemap-index.xml
