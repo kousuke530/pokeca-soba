@@ -1,0 +1,107 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import Breadcrumbs from '../../components/Breadcrumbs.astro';
+import VariantRow from '../../components/VariantRow.astro';
+import PriceModal from '../../components/PriceModal.astro';
+import { series as allSeries } from '../../data/cards';
+import type { CardSeries } from '../../data/types';
+
+export function getStaticPaths() {
+  return allSeries.map((s) => ({ params: { name: s.name }, props: { series: s } }));
+}
+
+interface Props {
+  series: CardSeries;
+}
+const { series } = Astro.props;
+
+const priceDate = '2026年6月18日';
+const seriesPath = `/card/${series.name}`;
+const first = series.variants[0];
+
+const title = `【ポケカ】${series.name}(全${series.variants.length}種)の買取・販売価格相場一覧【ポケモンカード】`;
+const description = `${series.name}の最新の販売価格・買取価格をショップ横断で比較。レアリティ別（${series.variants
+  .map((v) => v.rarity)
+  .join('・')}）の相場をまとめています。`;
+
+const jsonLd = JSON.stringify({
+  '@context': 'https://schema.org',
+  '@type': 'ItemList',
+  name: title,
+  itemListElement: series.variants.map((c, i) => {
+    const prices = c.sellShops.map((s) => s.price).filter((p): p is number => p != null);
+    return {
+      '@type': 'ListItem',
+      position: i + 1,
+      url: new URL(`/c/${c.id}`, Astro.site).href,
+      item: {
+        '@type': 'Product',
+        name: `${c.name}(${c.rarity}) ${c.cardNumber}`,
+        category: c.category,
+        image: new URL(c.image, Astro.site).href,
+        ...(prices.length
+          ? {
+              offers: {
+                '@type': 'AggregateOffer',
+                priceCurrency: 'JPY',
+                lowPrice: Math.min(...prices),
+                highPrice: Math.max(...prices),
+                offerCount: prices.length,
+                availability: 'https://schema.org/InStock',
+              },
+            }
+          : {}),
+      },
+    };
+  }),
+});
+---
+
+<BaseLayout title={title} description={description} path={seriesPath} jsonLd={jsonLd}>
+  <Breadcrumbs
+    items={[
+      { label: 'ホーム', href: '/' },
+      { label: first.pack, href: `/pack/${first.packSlug}` },
+      { label: series.name },
+    ]}
+  />
+
+  <h1 class="page-title">{title}</h1>
+  <p class="lead">
+    {series.name}の最新の販売価格・買取価格を主要ショップ横断で比較できます（{priceDate}時点）。
+    各カードの「価格を見る」でショップ別価格をサッと確認、「詳細」で価格推移を含む個別ページへ移動できます。
+  </p>
+
+  <ul class="card-list">
+    {series.variants.map((c) => <VariantRow card={c} popup />)}
+  </ul>
+
+  {
+    series.variants.map((c) => (
+      <PriceModal card={c} seriesUrl={seriesPath} seriesName={series.name} priceDate={priceDate} />
+    ))
+  }
+</BaseLayout>
+
+<script>
+  document.querySelectorAll<HTMLButtonElement>('[data-open-modal]').forEach((btn) => {
+    btn.addEventListener('click', () => {
+      const id = btn.getAttribute('data-open-modal');
+      if (id) (document.getElementById(id) as HTMLDialogElement | null)?.showModal();
+    });
+  });
+  document.querySelectorAll<HTMLButtonElement>('[data-close-modal]').forEach((btn) => {
+    btn.addEventListener('click', () => btn.closest('dialog')?.close());
+  });
+  document.querySelectorAll<HTMLDialogElement>('dialog.pm').forEach((dlg) => {
+    dlg.addEventListener('click', (e) => {
+      if (e.target === dlg) dlg.close();
+    });
+  });
+</script>
+
+<style>
+  .page-title { font-size: 20px; line-height: 1.5; margin: 0 0 12px; }
+  .lead { font-size: 14px; color: var(--text-sub); margin: 0 0 20px; }
+  .card-list { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 12px; }
+</style>

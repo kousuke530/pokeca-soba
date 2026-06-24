@@ -1,0 +1,75 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import Breadcrumbs from './Breadcrumbs.astro';
+import VariantRow from './VariantRow.astro';
+import type { Card, Pack } from '../data/types';
+
+interface Props {
+  pack: Pack;
+  cards: Card[]; // このページ分のカード
+  page: number;
+  totalPages: number;
+  total: number; // 全枚数
+}
+const { pack, cards, page, totalPages, total } = Astro.props;
+const base = `/pack/${pack.slug}`;
+const pageUrl = (n: number) => (n === 1 ? base : `${base}/${n}`);
+
+const pageSuffix = page > 1 ? `（${page}ページ目）` : '';
+const title = `${pack.name}の収録カード価格相場一覧【ポケカ】${pageSuffix}`;
+const description = `${pack.name}（${pack.releaseDate}発売）の収録カードの販売価格・買取価格を一覧。レアリティ別の相場をまとめています。`;
+
+// ページネーションに出す番号（先頭/末尾＋現在周辺）
+const nums = new Set<number>([1, totalPages, page - 1, page, page + 1]);
+const pageList = [...nums].filter((n) => n >= 1 && n <= totalPages).sort((a, b) => a - b);
+---
+
+<BaseLayout title={title} description={description} path={pageUrl(page)}>
+  <Breadcrumbs
+    items={[
+      { label: 'ホーム', href: '/' },
+      { label: 'パック一覧', href: '/packs' },
+      { label: pack.shortName },
+    ]}
+  />
+  <h1 class="page-title">{pack.name} の価格相場一覧{pageSuffix}</h1>
+  <p class="lead">{pack.releaseDate} 発売 ／ 全{total}枚{totalPages > 1 && `（${page}/${totalPages}ページ）`}。各カードの最新販売・買取価格を確認できます。</p>
+
+  <ul class="card-list">
+    {cards.map((c) => <VariantRow card={c} />)}
+  </ul>
+
+  {
+    totalPages > 1 && (
+      <nav class="pager" aria-label="ページ送り">
+        {page > 1 && <a class="pg pg-arrow" href={pageUrl(page - 1)}>‹ 前</a>}
+        {pageList.map((n, i) => (
+          <>
+            {i > 0 && pageList[i - 1] !== n - 1 && <span class="pg-gap">…</span>}
+            {n === page ? (
+              <span class="pg pg-cur">{n}</span>
+            ) : (
+              <a class="pg" href={pageUrl(n)}>{n}</a>
+            )}
+          </>
+        ))}
+        {page < totalPages && <a class="pg pg-arrow" href={pageUrl(page + 1)}>次 ›</a>}
+      </nav>
+    )
+  }
+</BaseLayout>
+
+<style>
+  .page-title { font-size: 20px; line-height: 1.5; margin: 0 0 8px; }
+  .lead { font-size: 13px; color: var(--text-sub); margin: 0 0 20px; }
+  .card-list { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 12px; }
+  .pager { display: flex; flex-wrap: wrap; gap: 6px; justify-content: center; margin-top: 24px; }
+  .pg {
+    min-width: 38px; text-align: center; padding: 8px 10px; border: 1px solid var(--border);
+    border-radius: 8px; text-decoration: none; color: var(--brand); font-weight: 700; background: #fff;
+  }
+  .pg:hover { background: var(--brand-light); }
+  .pg-cur { background: var(--brand); color: #fff; border-color: var(--brand); }
+  .pg-arrow { color: var(--text-sub); }
+  .pg-gap { align-self: center; color: var(--text-sub); padding: 0 2px; }
+</style>

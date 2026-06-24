@@ -1,0 +1,48 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import Breadcrumbs from '../components/Breadcrumbs.astro';
+
+const title = 'カード検索｜ポケカ価格相場ナビ';
+const description =
+  'カード名・レアリティ・収録パックでポケモンカードの販売価格・買取価格を検索できます。';
+---
+
+<BaseLayout title={title} description={description} path="/search">
+  <Breadcrumbs items={[{ label: 'ホーム', href: '/' }, { label: 'カード検索' }]} />
+  <h1 class="page-title">カード検索</h1>
+  <p class="lead">カード名で検索できます（例: リーリエ、ピカチュウ、メガリザードン）。</p>
+  <div id="search"></div>
+</BaseLayout>
+
+<link rel="stylesheet" href="/pagefind/pagefind-ui.css" is:inline />
+<script src="/pagefind/pagefind-ui.js" is:inline></script>
+<script is:inline>
+  window.addEventListener('DOMContentLoaded', () => {
+    // Pagefind の検索インデックスはビルド時に生成（dev では動作しない）
+    if (typeof PagefindUI === 'undefined') return;
+    new PagefindUI({
+      element: '#search',
+      showSubResults: false,
+      showImages: true,
+      pageSize: 10,
+      translations: {
+        placeholder: 'カード名で検索',
+        zero_results: '「[SEARCH_TERM]」に一致するカードが見つかりませんでした',
+      },
+    });
+  });
+</script>
+
+<style>
+  .page-title { font-size: 20px; margin: 0 0 8px; }
+  .lead { font-size: 13px; color: var(--text-sub); margin: 0 0 16px; }
+  /* Pagefind UI をサイトのブランドカラーに合わせる */
+  #search {
+    --pagefind-ui-primary: var(--brand);
+    --pagefind-ui-text: var(--text);
+    --pagefind-ui-background: #fff;
+    --pagefind-ui-border: var(--border);
+    --pagefind-ui-border-radius: 10px;
+    --pagefind-ui-font: inherit;
+  }
+</style>

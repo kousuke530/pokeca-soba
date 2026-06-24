@@ -4,7 +4,7 @@ import PriceHistoryChart from './PriceHistoryChart.astro';
 
 interface Props {
   card: Card;
-  /** カード一覧（シリーズ）へのリンク先 */
+  /** カード一覧（シリーズ）へのリンク先 例: /card/リーリエの決心 */
   seriesUrl: string;
   /** 「◯◯のカード一覧」に出す表示名 */
   seriesName: string;
@@ -12,297 +12,139 @@ interface Props {
   priceDate: string;
 }
 const { card, seriesUrl, seriesName, priceDate } = Astro.props;
-const yen = (v: number | null) => (v == null ? '—' : `${v.toLocaleString('ja-JP')}円`);
 const id = `modal-${card.slug}`;
-// 自動取得の実データが含まれるか（駿河屋など）
-const hasReal = card.sellShops.some((s) => s.real) || card.buyShops.some((s) => s.real);
+const detailUrl = `/c/${card.id}`;
+const yen = (v: number | null | undefined) => (v == null ? '調査中' : `¥${v.toLocaleString('ja-JP')}`);
+const surugayaUrl = card.sellShops.find((s) => s.shop === '駿河屋')?.url ?? card.sellShops[0]?.url;
+const categoryLabel =
+  card.category === 'ポケモン' && card.energyType ? `ポケモン・${card.energyType}` : card.category;
 ---
 
 <dialog id={id} class="pm">
-  <div class="pm-head">
-    <h2 class="pm-title">
-      {card.name}({card.rarity}) <span class="pm-no">{card.cardNumber}</span>
-    </h2>
-    <button class="pm-x" data-close-modal aria-label="閉じる">×</button>
-  </div>
+  <button class="pm-x" data-close-modal aria-label="閉じる">×</button>
 
   <div class="pm-body">
-    <div class="pm-top">
-      <figure class="pm-img">
-        <img src={card.image} alt={`${card.name}(${card.rarity}) ${card.cardNumber}`} width="220" height="307" />
-        <figcaption>出典: card-rush-pokemon.jp</figcaption>
-      </figure>
+    <header class="pm-hd">
+      <img class="pm-thumb" src={card.image} alt={`${card.name} ${card.rarity}`} width="72" height="100" loading="lazy" onerror="this.onerror=null;this.src='/images/cards/placeholder.svg'" />
+      <div class="pm-hd-main">
+        <h2 class="pm-name">{card.name}</h2>
+        <div class="pm-chips">
+          <span class="chip chip-rarity">{card.rarity}</span>
+          <span class="chip">{card.cardNumber}</span>
+          <span class="chip">{categoryLabel}</span>
+        </div>
+        <p class="pm-pack">{card.pack}</p>
+      </div>
+    </header>
 
-      <table class="pm-info">
-        <tbody>
-          <tr><th>レアリティ</th><td>{card.rarity}</td></tr>
-          <tr><th>カード種別</th><td>{card.category}</td></tr>
-          <tr><th>型番</th><td>{card.cardNumber}</td></tr>
-          <tr><th>イラスト</th><td>{card.illustrator}</td></tr>
-          <tr class="pm-price-row">
-            <th>買取価格</th>
-            <td>
-              <span class="pm-price">{yen(card.buyPrice)}</span>
-              <small>過去最高 {yen(card.buyPriceHigh)}（{card.highDate.replaceAll('-', '.')}）</small>
-            </td>
-          </tr>
-          <tr class="pm-price-row">
-            <th>販売価格</th>
-            <td>
-              <span class="pm-price">{yen(card.sellPrice)}</span>
-              <small>過去最高 {yen(card.sellPriceHigh)}（{card.highDate.replaceAll('-', '.')}）</small>
-            </td>
-          </tr>
-          <tr><th>収録パック</th><td>{card.pack}</td></tr>
-        </tbody>
-      </table>
+    <!-- 価格（駿河屋） -->
+    <div class="pm-hero">
+      <div class="hero-tile t-sell">
+        <span class="t-cap">販売価格</span>
+        <span class="t-val">{yen(card.sellPrice)}</span>
+        {card.soldOut && <span class="t-flag">品切れ</span>}
+      </div>
+      <div class="hero-tile t-buy">
+        <span class="t-cap">買取価格</span>
+        <span class="t-val">{yen(card.buyPrice)}</span>
+      </div>
     </div>
+    <p class="pm-src">価格は駿河屋（{priceDate}時点）</p>
 
-    <details class="pm-history">
-      <summary>価格履歴詳細を見る</summary>
+    <details class="pm-hist">
+      <summary>価格推移を見る</summary>
       <PriceHistoryChart history={card.history} />
     </details>
 
-    <p class="pm-date">{priceDate}時点の価格です。</p>
     {
-      hasReal && (
-        <p class="pm-note">
-          <span class="pm-real">実</span> は自動取得した実価格（駿河屋）。価格推移は毎日蓄積しています。他ショップ・過去最高は現状ダミーです。
-        </p>
+      surugayaUrl && (
+        <a href={surugayaUrl} class="pm-buy" target="_blank" rel="nofollow sponsored noopener">
+          駿河屋でチェック <span>↗</span>
+        </a>
       )
     }
 
-    <p class="pm-sub-head">▼最新販売価格▼</p>
-    <ul class="pm-shops">
-      {
-        card.sellShops.map((s) => (
-          <li>
-            <a href={s.url} class="pm-shop" target="_blank" rel="nofollow sponsored noopener">
-              <span class="pm-shop-name">{s.shop}{s.real && <span class="pm-real">実</span>}</span>
-              <span class="pm-shop-price">{yen(s.price)}</span>
-            </a>
-          </li>
-        ))
-      }
-    </ul>
-
-    <p class="pm-sub-head">▼最新買取価格▼</p>
-    <ul class="pm-shops">
-      {
-        card.buyShops.map((s) => (
-          <li>
-            <a href={s.url} class="pm-shop" target="_blank" rel="nofollow sponsored noopener">
-              <span class="pm-shop-name">{s.shop}{s.real && <span class="pm-real">実</span>}</span>
-              <span class="pm-shop-price">{yen(s.price)}</span>
-            </a>
-          </li>
-        ))
-      }
-    </ul>
-
-    <a href={seriesUrl} class="pm-cta">{seriesName}のカード一覧 <span>→</span></a>
-
-    <div class="pm-close-wrap">
-      <button class="pm-close" data-close-modal>閉じる</button>
+    <div class="pm-cta">
+      <a href={detailUrl} class="cta cta-main">詳細・価格推移を見る</a>
+      <a href={seriesUrl} class="cta cta-sub">{seriesName} の一覧</a>
     </div>
+
+    <p class="pm-note">価格は駿河屋から自動取得した実データです。推移は毎日蓄積しています。</p>
   </div>
 </dialog>
 
 <style>
   .pm {
-    width: min(92vw, 460px);
-    max-height: 90vh;
+    width: min(94vw, 420px);
+    max-height: 88vh;
     padding: 0;
     border: none;
-    border-radius: 10px;
-    overflow: hidden;
-    box-shadow: 0 12px 40px rgba(0, 0, 0, 0.3);
+    border-radius: 16px;
+    overflow: visible;
+    box-shadow: 0 20px 60px rgba(13, 71, 161, 0.25);
   }
-  .pm::backdrop {
-    background: rgba(0, 0, 0, 0.5);
-  }
-  .pm-head {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 8px;
-    padding: 10px 14px;
-    background: #f0f0f0;
-    border-bottom: 1px solid var(--border);
-  }
-  .pm-title {
-    margin: 0;
-    font-size: 14px;
-    font-weight: 700;
-  }
-  .pm-no {
-    font-weight: 400;
-    color: var(--text-sub);
-    font-size: 12px;
-  }
+  .pm::backdrop { background: rgba(15, 23, 42, 0.55); backdrop-filter: blur(2px); }
   .pm-x {
+    position: absolute;
+    top: -14px;
+    right: -14px;
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
     border: none;
-    background: none;
-    font-size: 22px;
-    line-height: 1;
+    background: #fff;
     color: var(--text-sub);
+    font-size: 20px;
+    line-height: 1;
     cursor: pointer;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
   }
   .pm-body {
-    padding: 14px;
+    padding: 20px;
     overflow-y: auto;
-    max-height: calc(90vh - 44px);
-  }
-  .pm-top {
-    display: flex;
-    gap: 12px;
-  }
-  .pm-img {
-    margin: 0;
-    flex: 0 0 38%;
-  }
-  .pm-img img {
-    width: 100%;
-    border-radius: 4px;
-    border: 1px solid var(--border);
-  }
-  .pm-img figcaption {
-    font-size: 9px;
-    color: var(--text-sub);
-    text-align: center;
-    margin-top: 2px;
-  }
-  .pm-info {
-    flex: 1;
-    border-collapse: collapse;
-    font-size: 12px;
-  }
-  .pm-info th,
-  .pm-info td {
-    border: 1px solid var(--border);
-    padding: 5px 8px;
-    text-align: center;
-  }
-  .pm-info th {
-    background: #fafafa;
-    white-space: nowrap;
-    font-weight: 500;
-    width: 38%;
-  }
-  .pm-price {
-    font-weight: 700;
-    font-size: 15px;
-    color: var(--accent-red);
-  }
-  .pm-price-row td small {
-    display: block;
-    font-size: 9px;
-    color: var(--text-sub);
-  }
-  .pm-history {
-    margin-top: 14px;
-  }
-  .pm-history summary {
-    text-align: center;
-    color: var(--brand);
-    font-weight: 700;
-    cursor: pointer;
-    padding: 8px;
-    border: 1px solid var(--brand-light);
-    border-radius: var(--radius);
-    background: var(--brand-light);
-    list-style: none;
-  }
-  .pm-history summary::-webkit-details-marker { display: none; }
-  .pm-date {
-    text-align: center;
-    font-size: 12px;
-    color: var(--text-sub);
-    margin: 14px 0 6px;
-  }
-  .pm-note {
-    font-size: 11px;
-    color: var(--text-sub);
-    background: #f3f8ff;
-    border: 1px solid var(--brand-light);
-    border-radius: var(--radius);
-    padding: 8px 10px;
-    margin: 8px 0 0;
-    line-height: 1.5;
-  }
-  .pm-real {
-    display: inline-block;
-    background: #2e7d32;
-    color: #fff;
-    font-size: 9px;
-    font-weight: 700;
-    line-height: 1;
-    padding: 2px 4px;
-    border-radius: 3px;
-    margin-left: 4px;
-    vertical-align: middle;
-  }
-  .pm-sub-head {
-    text-align: center;
-    color: var(--accent-red);
-    font-weight: 700;
-    font-size: 13px;
-    margin: 14px 0 8px;
-  }
-  .pm-shops {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 8px;
-  }
-  .pm-shop {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 4px;
-    padding: 9px 10px;
-    border: 1.5px solid var(--brand);
-    border-radius: var(--radius);
-    text-decoration: none;
-    color: var(--brand);
-    font-size: 13px;
-    font-weight: 600;
+    max-height: 88vh;
+    border-radius: 16px;
     background: #fff;
   }
-  .pm-shop:hover { background: var(--brand-light); }
-  .pm-shop-price {
-    font-size: 11px;
-    color: var(--text-sub);
-    font-weight: 500;
+
+  .pm-hd { display: flex; gap: 14px; align-items: flex-start; }
+  .pm-thumb { width: 64px; height: auto; border-radius: 8px; border: 1px solid var(--border); flex: 0 0 auto; }
+  .pm-hd-main { min-width: 0; }
+  .pm-name { margin: 0 0 6px; font-size: 18px; font-weight: 800; line-height: 1.3; }
+  .pm-chips { display: flex; flex-wrap: wrap; gap: 6px; }
+  .chip { font-size: 11px; padding: 2px 8px; border-radius: 999px; background: #eef2f7; color: var(--text-sub); font-weight: 600; }
+  .chip-rarity { background: var(--brand); color: #fff; }
+  .pm-pack { margin: 8px 0 0; font-size: 12px; color: var(--text-sub); }
+
+  .pm-hero { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin: 18px 0 0; }
+  .hero-tile { position: relative; border-radius: 12px; padding: 16px 12px; text-align: center; border: 1px solid var(--border); }
+  .t-sell { background: linear-gradient(160deg, #fff5f5, #ffe9ec); border-color: #ffd6dc; }
+  .t-buy { background: linear-gradient(160deg, #eefcf3, #d9f6e4); border-color: #c2ecd2; }
+  .t-cap { display: block; font-size: 12px; font-weight: 700; color: var(--text-sub); }
+  .t-val { display: block; font-size: 24px; font-weight: 800; margin-top: 4px; }
+  .t-sell .t-val { color: #e02e4d; }
+  .t-buy .t-val { color: #1c9e5a; }
+  .t-flag { position: absolute; top: 8px; right: 8px; background: #9e9e9e; color: #fff; font-size: 9px; padding: 2px 5px; border-radius: 4px; }
+  .pm-src { font-size: 11px; color: var(--text-sub); text-align: right; margin: 6px 2px 0; }
+
+  .pm-hist { margin-top: 16px; }
+  .pm-hist summary { cursor: pointer; font-size: 13px; font-weight: 700; color: var(--brand); list-style: none; padding: 6px 0; }
+  .pm-hist summary::-webkit-details-marker { display: none; }
+  .pm-hist summary::before { content: "📈 "; }
+
+  .pm-buy {
+    display: flex; align-items: center; justify-content: center; gap: 6px;
+    margin-top: 16px; padding: 14px; border-radius: 10px;
+    background: #ff6f00; color: #fff; font-weight: 800; font-size: 15px; text-decoration: none;
   }
-  .pm-cta {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 8px;
-    margin-top: 20px;
-    padding: 16px;
-    background: var(--brand);
-    color: #fff;
-    text-decoration: none;
-    font-weight: 700;
-    font-size: 15px;
-    border-radius: var(--radius);
-  }
-  .pm-cta:hover { background: var(--brand-dark); }
-  .pm-close-wrap {
-    text-align: center;
-    margin-top: 16px;
-  }
-  .pm-close {
-    padding: 8px 40px;
-    border: 1px solid var(--border);
-    background: #fff;
-    border-radius: var(--radius);
-    cursor: pointer;
-    font-size: 13px;
-    color: var(--text-sub);
-  }
+  .pm-buy:hover { background: #e65c00; }
+
+  .pm-cta { display: flex; flex-direction: column; gap: 8px; margin-top: 10px; }
+  .cta { display: block; text-align: center; text-decoration: none; font-weight: 800; padding: 12px; border-radius: 10px; font-size: 14px; }
+  .cta-main { background: var(--brand); color: #fff; }
+  .cta-main:hover { background: var(--brand-dark); }
+  .cta-sub { background: #fff; color: var(--brand); border: 1.5px solid var(--brand); }
+  .cta-sub:hover { background: var(--brand-light); }
+
+  .pm-note { font-size: 11px; color: var(--text-sub); margin: 14px 0 0; line-height: 1.6; }
 </style>

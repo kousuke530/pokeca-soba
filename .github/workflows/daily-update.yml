@@ -42,21 +42,27 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
-      # --- スクレイピング（schedule / 手動実行のときだけ） ---
-      - name: Scrape prices
+      # --- 価格収集（パック一括。schedule / 手動実行のときだけ） ---
+      # マスター(data/cards)更新＋当日の販売価格をパック別履歴(data/history)に追記
+      - name: Collect prices (all packs)
         if: github.event_name != 'push'
-        run: npm run scrape
+        run: npm run collect
 
-      - name: Commit updated history
+      # 買取価格（商品単位ページ。販売価格が高いカードに限定して取得）
+      - name: Collect buy prices
+        if: github.event_name != 'push'
+        run: npm run collect:buy
+
+      - name: Commit updated data
         if: github.event_name != 'push'
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add data/history
+          git add data/cards data/history
           if git diff --staged --quiet; then
-            echo "履歴の変更なし"
+            echo "価格データの変更なし"
           else
-            git commit -m "chore: update price history ($(date -u +%Y-%m-%d))"
+            git commit -m "chore: update card prices ($(date -u +%Y-%m-%d))"
             git push
           fi
 

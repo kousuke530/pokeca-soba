@@ -1,10 +1,10 @@
 import type { CardQuery } from './types.ts';
 
-// 取得対象カード。サイト側カードの slug と一致させること。
-// 横展開時はここに追加し、各 surugaya.number/rarity を埋める。
+// 価格スクレイピング対象カード。slug は data/history/<slug>.json のキー＝サイト側 Card.id と一致させる。
+// 横展開時はここに追加（将来は data/cards から自動生成も可）。
 export const targets: CardQuery[] = [
   {
-    slug: 'lillie-no-kesshin-sar',
+    slug: 'm1l-091-063-sar',
     name: 'リーリエの決心',
     surugaya: { number: '091/063', rarity: 'SAR' },
   },

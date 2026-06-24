@@ -28,7 +28,8 @@ export const surugaya: ShopAdapter = {
 
     let best: ScrapedPrice | null = null;
 
-    $('.item_detail').each((_, el) => {
+    // 商品コンテナ .item ごと（品切れ時に隣の価格を誤取得しないようコンテナ内で完結）
+    $('.item').each((_, el) => {
       const $el = $(el);
       const name = $el.find('.product-name').text().trim();
       if (!name) return;
@@ -41,8 +42,8 @@ export const surugaya: ShopAdapter = {
       if (q.rarity && !new RegExp(`\\[${q.rarity}\\]`).test(name)) return;
 
       const href = $el.find('.title a').attr('href') ?? '';
-      // 価格は item_detail の隣の .item_price ブロック
-      const priceText = $el.nextAll('.item_price').first().text();
+      // 価格は中古価格の専用要素 .text-red から（.item_price 全体には送料案内が混じるため）
+      const priceText = $el.find('.item_price .text-red').first().text();
       const sell = parsePrice(priceText);
       if (sell == null) return;
 

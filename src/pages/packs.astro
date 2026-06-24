@@ -1,0 +1,51 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import Breadcrumbs from '../components/Breadcrumbs.astro';
+import { packs } from '../data/packs';
+import { seriesByPack } from '../data/cards';
+
+const title = '収録パック一覧｜ポケカ価格相場ナビ';
+const description = 'ポケモンカードの拡張パック別にカードの価格相場を確認できます。';
+
+const rows = packs.map((p) => {
+  const ss = seriesByPack(p.slug);
+  return { p, cards: ss.reduce((n, s) => n + s.variants.length, 0), seriesCount: ss.length };
+});
+---
+
+<BaseLayout title={title} description={description} path="/packs">
+  <Breadcrumbs items={[{ label: 'ホーム', href: '/' }, { label: 'パック一覧' }]} />
+  <h1 class="page-title">収録パック一覧</h1>
+
+  <ul class="packs">
+    {
+      rows.map(({ p, cards, seriesCount }) => (
+        <li>
+          <a href={`/pack/${p.slug}`} class="pack-card">
+            <span class="pack-name">{p.name}</span>
+            <span class="pack-meta">{p.releaseDate} 発売 ／ {seriesCount}種のカード（全{cards}枚）</span>
+          </a>
+        </li>
+      ))
+    }
+  </ul>
+</BaseLayout>
+
+<style>
+  .page-title { font-size: 20px; margin: 0 0 16px; }
+  .packs { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 12px; }
+  .pack-card {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    padding: 16px;
+    background: #fff;
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    text-decoration: none;
+    color: inherit;
+  }
+  .pack-card:hover { border-color: var(--brand); }
+  .pack-name { font-weight: 700; font-size: 16px; }
+  .pack-meta { font-size: 12px; color: var(--text-sub); }
+</style>

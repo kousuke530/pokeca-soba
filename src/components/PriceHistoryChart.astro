@@ -5,6 +5,7 @@ interface Props {
   history: PricePoint[];
 }
 const { history } = Astro.props;
+const isEmpty = history.length === 0;
 
 // SVGの描画領域
 const W = 640;
@@ -18,13 +19,13 @@ const buys = history.map((p) => p.buy);
 // 買取データがある場合のみ買取線を描く（駿河屋など販売のみのショップ対応）
 const hasBuy = buys.some((b) => b > 0);
 const scaleVals = hasBuy ? [...sells, ...buys] : sells;
-const maxV = Math.max(...scaleVals);
-const minV = Math.min(...scaleVals);
+const maxV = isEmpty ? 0 : Math.max(...scaleVals);
+const minV = isEmpty ? 0 : Math.min(...scaleVals);
 const range = maxV - minV || maxV || 1;
 
 const n = history.length;
 // 点が1つだけのときは中央に配置（0除算回避）
-const x = (i: number) => (n === 1 ? PAD.left + innerW / 2 : PAD.left + (innerW * i) / (n - 1));
+const x = (i: number) => (n <= 1 ? PAD.left + innerW / 2 : PAD.left + (innerW * i) / (n - 1));
 const y = (v: number) => PAD.top + innerH - ((v - minV) / range) * innerH;
 
 const toPath = (vals: number[]) =>
@@ -38,14 +39,16 @@ const sellDots = sells.map((v, i) => ({ cx: x(i), cy: y(v) }));
 // Y軸の目盛り（4分割）
 const ticks = Array.from({ length: 4 }, (_, i) => Math.round(minV + (range * i) / 3));
 // X軸ラベル（最初・中間・最後。点が少ないときは重複を除く）
-const xLabels = [...new Set([0, Math.floor((n - 1) / 2), n - 1])].map((i) => ({
-  i,
-  label: history[i].date.slice(5).replace('-', '/'),
-}));
+const xLabels = [...new Set([0, Math.floor((n - 1) / 2), n - 1])]
+  .filter((i) => i >= 0 && i < n)
+  .map((i) => ({ i, label: history[i].date.slice(5).replace('-', '/') }));
 
 const fmt = (v: number) => v.toLocaleString('ja-JP');
 ---
 
+{isEmpty ? (
+  <p class="chart-empty">価格推移データを蓄積中です（毎日更新）。</p>
+) : (
 <figure class="chart">
   <svg viewBox={`0 0 ${W} ${H}`} role="img" aria-label="価格推移グラフ" preserveAspectRatio="xMidYMid meet">
     <!-- グリッド & Y軸ラベル -->
@@ -78,8 +81,19 @@ const fmt = (v: number) => v.toLocaleString('ja-JP');
     {hasBuy && <span class="lg lg-buy">買取価格</span>}
   </figcaption>
 </figure>
+)}
 
 <style>
+  .chart-empty {
+    text-align: center;
+    color: var(--text-sub);
+    font-size: 13px;
+    background: #fff;
+    border: 1px dashed var(--border);
+    border-radius: var(--radius);
+    padding: 24px 12px;
+    margin: 12px 0 0;
+  }
   .chart {
     margin: 12px 0 0;
   }

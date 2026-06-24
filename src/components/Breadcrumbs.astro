@@ -1,0 +1,43 @@
+---
+interface Crumb {
+  label: string;
+  href?: string;
+}
+interface Props {
+  items: Crumb[];
+}
+const { items } = Astro.props;
+// パンくずのJSON-LD（SEO）
+const jsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'BreadcrumbList',
+  itemListElement: items.map((c, i) => ({
+    '@type': 'ListItem',
+    position: i + 1,
+    name: c.label,
+    ...(c.href ? { item: new URL(c.href, Astro.site).href } : {}),
+  })),
+};
+---
+
+<nav class="crumbs" aria-label="パンくず">
+  {
+    items.map((c, i) => (
+      <>
+        {i > 0 && <span class="sep">›</span>}
+        {c.href ? <a href={c.href}>{c.label}</a> : <span aria-current="page">{c.label}</span>}
+      </>
+    ))
+  }
+</nav>
+<script type="application/ld+json" set:html={JSON.stringify(jsonLd)} is:inline />
+
+<style>
+  .crumbs {
+    font-size: 12px;
+    color: var(--text-sub);
+    margin-bottom: 14px;
+  }
+  .crumbs a { text-decoration: none; }
+  .sep { margin: 0 6px; }
+</style>

@@ -1,0 +1,88 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import Breadcrumbs from '../components/Breadcrumbs.astro';
+import { allCards, topByPrice, seriesByPack } from '../data/cards';
+import { packs } from '../data/packs';
+
+const title = 'ポケカ カード一覧・価格相場｜ポケカ価格相場ナビ';
+const description =
+  'ポケモンカードの販売価格・買取価格を収録パック別に一覧。各カードの相場と価格推移を確認できます。';
+const yen = (v: number | null) => (v == null ? '調査中' : `${v.toLocaleString('ja-JP')}円`);
+
+const packRows = packs.map((p) => ({
+  p,
+  count: seriesByPack(p.slug).reduce((n, s) => n + s.variants.length, 0),
+}));
+const top = topByPrice(20);
+---
+
+<BaseLayout title={title} description={description} path="/cards">
+  <Breadcrumbs items={[{ label: 'ホーム', href: '/' }, { label: 'カード一覧' }]} />
+
+  <h1 class="page-title">カード一覧・価格相場</h1>
+  <p class="lead">収録 {allCards.length.toLocaleString()} 枚（{packs.length}パック）。パックを選んでカードの相場を確認できます。</p>
+
+  <section class="sec">
+    <h2 class="sec-title">パックから探す</h2>
+    <ul class="packs">
+      {
+        packRows.map(({ p, count }) => (
+          <li>
+            <a href={`/pack/${p.slug}`} class="pack-card">
+              <span class="pack-name">{p.shortName}</span>
+              <span class="pack-meta">{p.releaseDate} ／ {count}枚</span>
+            </a>
+          </li>
+        ))
+      }
+    </ul>
+  </section>
+
+  <section class="sec">
+    <h2 class="sec-title">高額カード TOP20</h2>
+    <ol class="rank">
+      {
+        top.map((c) => (
+          <li>
+            <a href={`/c/${c.id}`} class="rank-item">
+              <img src={c.image} alt={c.name} width="40" height="56" loading="lazy" />
+              <span class="rank-name">{c.name} <span class="rarity">{c.rarity}</span></span>
+              <span class="rank-price">{yen(c.sellPrice)}</span>
+            </a>
+          </li>
+        ))
+      }
+    </ol>
+  </section>
+</BaseLayout>
+
+<style>
+  .page-title { font-size: 20px; margin: 0 0 8px; }
+  .lead { font-size: 13px; color: var(--text-sub); margin: 0 0 20px; }
+  .sec { margin-bottom: 28px; }
+  .sec-title { font-size: 16px; border-left: 4px solid var(--brand); padding-left: 8px; margin: 0 0 14px; }
+  .packs { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+  .pack-card {
+    display: flex; flex-direction: column; gap: 4px; padding: 12px;
+    background: #fff; border: 1px solid var(--border); border-radius: var(--radius);
+    text-decoration: none; color: inherit;
+  }
+  .pack-card:hover { border-color: var(--brand); }
+  .pack-name { font-weight: 700; font-size: 14px; }
+  .pack-meta { font-size: 11px; color: var(--text-sub); }
+  .rank { list-style: none; margin: 0; padding: 0; counter-reset: r; display: flex; flex-direction: column; gap: 8px; }
+  .rank li { counter-increment: r; }
+  .rank-item {
+    display: flex; align-items: center; gap: 10px; padding: 8px 12px;
+    background: #fff; border: 1px solid var(--border); border-radius: var(--radius);
+    text-decoration: none; color: inherit;
+  }
+  .rank-item::before { content: counter(r); flex: 0 0 22px; text-align: center; font-weight: 800; color: var(--brand); }
+  .rank-item img { border-radius: 3px; border: 1px solid var(--border); }
+  .rank-name { flex: 1; font-weight: 700; font-size: 14px; }
+  .rank-price { font-weight: 700; color: var(--accent-red); font-size: 14px; }
+  .rarity {
+    display: inline-block; margin-left: 4px; padding: 1px 6px; font-size: 10px;
+    color: #fff; background: var(--brand); border-radius: 4px; vertical-align: middle;
+  }
+</style>

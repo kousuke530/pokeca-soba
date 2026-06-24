@@ -1,0 +1,74 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import Breadcrumbs from '../components/Breadcrumbs.astro';
+import { topByPrice } from '../data/cards';
+
+const title = 'ポケカ高額カードランキング｜ポケカ価格相場ナビ';
+const description = 'ポケモンカードの販売価格が高い順のランキング。高額カードの最新相場を一覧で確認できます。';
+const yen = (v: number | null) => (v == null ? '調査中' : `${v.toLocaleString('ja-JP')}円`);
+const ranking = topByPrice(50);
+---
+
+<BaseLayout title={title} description={description} path="/ranking">
+  <Breadcrumbs items={[{ label: 'ホーム', href: '/' }, { label: 'ランキング' }]} />
+  <h1 class="page-title">高額カードランキング</h1>
+  <p class="lead">販売価格が高い順。価格は駿河屋（2026年6月18日時点）。</p>
+
+  <ol class="rank">
+    {
+      ranking.map((c) => (
+        <li>
+          <a href={`/c/${c.id}`} class="rank-item">
+            <img src={c.image} alt={c.name} width="48" height="67" loading="lazy" />
+            <span class="rank-main">
+              <span class="rank-name">{c.name} <span class="rarity">{c.rarity}</span></span>
+              <span class="rank-pack">{c.pack}</span>
+            </span>
+            <span class="rank-price">{yen(c.sellPrice)}</span>
+          </a>
+        </li>
+      ))
+    }
+  </ol>
+</BaseLayout>
+
+<style>
+  .page-title { font-size: 20px; margin: 0 0 8px; }
+  .lead { font-size: 13px; color: var(--text-sub); margin: 0 0 16px; }
+  .rank { list-style: none; margin: 0; padding: 0; counter-reset: r; display: flex; flex-direction: column; gap: 8px; }
+  .rank li { counter-increment: r; }
+  .rank-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 12px;
+    background: #fff;
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    text-decoration: none;
+    color: inherit;
+  }
+  .rank-item::before {
+    content: counter(r);
+    flex: 0 0 28px;
+    text-align: center;
+    font-weight: 800;
+    color: var(--brand);
+    font-size: 16px;
+  }
+  .rank-item img { border-radius: 3px; border: 1px solid var(--border); }
+  .rank-main { flex: 1; min-width: 0; }
+  .rank-name { display: block; font-weight: 700; font-size: 14px; }
+  .rank-pack { display: block; font-size: 11px; color: var(--text-sub); }
+  .rank-price { font-weight: 700; color: var(--accent-red); font-size: 15px; }
+  .rarity {
+    display: inline-block;
+    margin-left: 4px;
+    padding: 1px 6px;
+    font-size: 10px;
+    color: #fff;
+    background: var(--brand);
+    border-radius: 4px;
+    vertical-align: middle;
+  }
+</style>

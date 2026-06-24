@@ -1,11 +1,13 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
-import { series } from '../data/cards';
+import { series, topByPrice } from '../data/cards';
+import { packs } from '../data/packs';
 
 const title = 'ポケカ価格相場ナビ｜ポケモンカードの買取・販売価格を一括比較';
 const description =
   'ポケモンカードの最新の販売価格・買取価格を主要ショップ横断で比較。レアリティ別の相場・価格推移をまとめ、最安・高価買取のショップへ直接アクセスできます。';
-const yen = (v: number) => `${v.toLocaleString('ja-JP')}円`;
+const yen = (v: number | null) => (v == null ? '調査中' : `${v.toLocaleString('ja-JP')}円`);
+const ranking = topByPrice(10);
 ---
 
 <BaseLayout title={title} description={description} path="/">
@@ -14,70 +16,103 @@ const yen = (v: number) => `${v.toLocaleString('ja-JP')}円`;
     ポケモンカードの最新相場・価格推移をショップ横断でチェック。気になるカードから最新価格と購入リンクを確認できます。
   </p>
 
-  <h2 class="sec-title">注目のカード</h2>
-  <ul class="series-list">
-    {
-      series.map((s) => {
-        const top = s.variants[0];
-        return (
+  <section class="sec">
+    <h2 class="sec-title">高額カードランキング</h2>
+    <ol class="rank">
+      {
+        ranking.map((c) => (
           <li>
-            <a href={`/card/${s.slug}`} class="series-card">
-              <img src={top.image} alt={s.name} width="72" height="100" />
-              <div>
-                <p class="series-name">{s.name}</p>
-                <p class="series-meta">全{s.variants.length}種 ／ {top.pack}</p>
-                <p class="series-price">最高販売 {yen(Math.max(...s.variants.map((v) => v.sellPrice)))}〜</p>
-              </div>
+            <a href={`/c/${c.id}`} class="rank-item">
+              <img src={c.image} alt={c.name} width="44" height="62" loading="lazy" />
+              <span class="rank-name">{c.name} <span class="rarity">{c.rarity}</span></span>
+              <span class="rank-price">{yen(c.sellPrice)}</span>
             </a>
           </li>
-        );
-      })
-    }
-  </ul>
+        ))
+      }
+    </ol>
+  </section>
+
+  <section class="sec">
+    <h2 class="sec-title">パックから探す</h2>
+    <ul class="packs">
+      {
+        packs.map((p) => (
+          <li>
+            <a href={`/pack/${p.slug}`} class="pack-card">
+              <span class="pack-name">{p.shortName}</span>
+              <span class="pack-meta">{p.releaseDate} 発売</span>
+            </a>
+          </li>
+        ))
+      }
+    </ul>
+  </section>
+
+  <section class="sec">
+    <h2 class="sec-title">注目のカード</h2>
+    <ul class="series-list">
+      {
+        ranking.slice(0, 5).map((top) => {
+          const s = series.find((x) => x.name === top.name)!;
+          return (
+            <li>
+              <a href={`/card/${s.name}`} class="series-card">
+                <img src={top.image} alt={s.name} width="56" height="78" loading="lazy" />
+                <div>
+                  <p class="series-name">{s.name}</p>
+                  <p class="series-meta">全{s.variants.length}種 ／ {top.pack}</p>
+                  <p class="series-price">最高販売 {yen(top.sellPrice)}〜</p>
+                </div>
+              </a>
+            </li>
+          );
+        })
+      }
+    </ul>
+  </section>
 </BaseLayout>
 
 <style>
-  .hero-title {
-    font-size: 22px;
-    margin: 8px 0 12px;
+  .hero-title { font-size: 22px; margin: 8px 0 12px; }
+  .hero-lead { font-size: 14px; color: var(--text-sub); margin: 0 0 28px; }
+  .sec { margin-bottom: 32px; }
+  .sec-title { font-size: 16px; border-left: 4px solid var(--brand); padding-left: 8px; margin: 0 0 14px; }
+
+  .rank { list-style: none; margin: 0; padding: 0; counter-reset: r; display: flex; flex-direction: column; gap: 8px; }
+  .rank li { counter-increment: r; }
+  .rank-item {
+    display: flex; align-items: center; gap: 10px; padding: 8px 12px;
+    background: #fff; border: 1px solid var(--border); border-radius: var(--radius);
+    text-decoration: none; color: inherit;
   }
-  .hero-lead {
-    font-size: 14px;
-    color: var(--text-sub);
-    margin: 0 0 28px;
+  .rank-item::before { content: counter(r); flex: 0 0 24px; text-align: center; font-weight: 800; color: var(--brand); }
+  .rank-item img { border-radius: 3px; border: 1px solid var(--border); }
+  .rank-name { flex: 1; font-weight: 700; font-size: 14px; }
+  .rank-price { font-weight: 700; color: var(--accent-red); font-size: 14px; }
+  .rarity {
+    display: inline-block; margin-left: 4px; padding: 1px 6px; font-size: 10px;
+    color: #fff; background: var(--brand); border-radius: 4px; vertical-align: middle;
   }
-  .sec-title {
-    font-size: 16px;
-    border-left: 4px solid var(--brand);
-    padding-left: 8px;
-    margin: 0 0 14px;
+
+  .packs { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+  .pack-card {
+    display: flex; flex-direction: column; gap: 4px; padding: 14px;
+    background: #fff; border: 1px solid var(--border); border-radius: var(--radius);
+    text-decoration: none; color: inherit;
   }
-  .series-list {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    flex-direction: column;
-    gap: 12px;
-  }
+  .pack-card:hover { border-color: var(--brand); }
+  .pack-name { font-weight: 700; font-size: 15px; }
+  .pack-meta { font-size: 11px; color: var(--text-sub); }
+
+  .series-list { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 12px; }
   .series-card {
-    display: flex;
-    gap: 12px;
-    align-items: center;
-    padding: 12px;
-    background: #fff;
-    border: 1px solid var(--border);
-    border-radius: var(--radius);
-    text-decoration: none;
-    color: inherit;
+    display: flex; gap: 12px; align-items: center; padding: 12px;
+    background: #fff; border: 1px solid var(--border); border-radius: var(--radius);
+    text-decoration: none; color: inherit;
   }
   .series-card:hover { border-color: var(--brand); }
-  .series-card img {
-    width: 56px;
-    height: auto;
-    border-radius: 4px;
-    border: 1px solid var(--border);
-  }
+  .series-card img { border-radius: 4px; border: 1px solid var(--border); }
   .series-name { margin: 0; font-weight: 700; font-size: 15px; }
   .series-meta { margin: 2px 0; font-size: 12px; color: var(--text-sub); }
   .series-price { margin: 0; font-size: 13px; font-weight: 700; color: var(--accent-red); }
