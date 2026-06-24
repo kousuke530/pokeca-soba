@@ -9,7 +9,7 @@ import { politeGet, sleep, HttpError } from './http.ts';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const CARDS_DIR = path.resolve(__dirname, '../../data/cards');
-const BUY_THRESHOLD = 1000; // この販売価格(円)以上のカードだけ買取価格を取得
+const BUY_THRESHOLD = 300; // この販売価格(円)以上のカードだけ買取価格を取得
 const KAITORI = 'https://www.suruga-ya.jp/kaitori/kaitori_detail';
 
 interface MasterCard {

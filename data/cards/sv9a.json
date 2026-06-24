@@ -696,7 +696,8 @@
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN923787",
       "surugayaPrice": 480,
       "surugayaSoldOut": false,
-      "raritySlug": "ar"
+      "raritySlug": "ar",
+      "surugayaBuyPrice": null
     },
     {
       "name": "シロナのロズレイド（Bランク）",
@@ -707,7 +708,8 @@
       "surugayaUrl": "/product/detail/GN923788?branch_number=0077",
       "surugayaPrice": 950,
       "surugayaSoldOut": false,
-      "raritySlug": "ar"
+      "raritySlug": "ar",
+      "surugayaBuyPrice": 800
     },
     {
       "name": "シェイミ",
@@ -730,7 +732,8 @@
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN923790",
       "surugayaPrice": 480,
       "surugayaSoldOut": false,
-      "raritySlug": "ar"
+      "raritySlug": "ar",
+      "surugayaBuyPrice": null
     },
     {
       "name": "カミツオロチ",
@@ -741,7 +744,8 @@
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN923791",
       "surugayaPrice": 480,
       "surugayaSoldOut": false,
-      "raritySlug": "ar"
+      "raritySlug": "ar",
+      "surugayaBuyPrice": null
     },
     {
       "name": "ギャロップ",
@@ -752,7 +756,8 @@
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN923792",
       "surugayaPrice": 680,
       "surugayaSoldOut": false,
-      "raritySlug": "ar"
+      "raritySlug": "ar",
+      "surugayaBuyPrice": null
     },
     {
       "name": "ヒビキのバクフーン",
@@ -799,7 +804,8 @@
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN923796",
       "surugayaPrice": 480,
       "surugayaSoldOut": false,
-      "raritySlug": "ar"
+      "raritySlug": "ar",
+      "surugayaBuyPrice": null
     },
     {
       "name": "ロトム",
@@ -810,7 +816,8 @@
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN923797",
       "surugayaPrice": 480,
       "surugayaSoldOut": false,
-      "raritySlug": "ar"
+      "raritySlug": "ar",
+      "surugayaBuyPrice": null
     },
     {
       "name": "ペパーのヨクバリス",
@@ -821,7 +828,8 @@
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN923798",
       "surugayaPrice": 480,
       "surugayaSoldOut": false,
-      "raritySlug": "ar"
+      "raritySlug": "ar",
+      "surugayaBuyPrice": null
     },
     {
       "name": "メガヤンマex",
@@ -832,7 +840,8 @@
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN923778",
       "surugayaPrice": 480,
       "surugayaSoldOut": false,
-      "raritySlug": "sr"
+      "raritySlug": "sr",
+      "surugayaBuyPrice": null
     },
     {
       "name": "ヒビキのホウオウex",
@@ -843,7 +852,8 @@
       "surugayaUrl": "/product/other/GN923779",
       "surugayaPrice": 600,
       "surugayaSoldOut": true,
-      "raritySlug": "sr"
+      "raritySlug": "sr",
+      "surugayaBuyPrice": 400
     },
     {
       "name": "ヘイラッシャex",
@@ -854,7 +864,8 @@
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN923780",
       "surugayaPrice": 380,
       "surugayaSoldOut": false,
-      "raritySlug": "sr"
+      "raritySlug": "sr",
+      "surugayaBuyPrice": null
     },
     {
       "name": "エレキブルex",
@@ -865,7 +876,8 @@
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN923781",
       "surugayaPrice": 580,
       "surugayaSoldOut": false,
-      "raritySlug": "sr"
+      "raritySlug": "sr",
+      "surugayaBuyPrice": null
     },
     {
       "name": "シロナのガブリアスex",
@@ -876,7 +888,8 @@
       "surugayaUrl": "/product/other/GN923782",
       "surugayaPrice": 800,
       "surugayaSoldOut": true,
-      "raritySlug": "sr"
+      "raritySlug": "sr",
+      "surugayaBuyPrice": 1000
     },
     {
       "name": "ペパーのマフィティフex",
@@ -887,7 +900,8 @@
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN923783",
       "surugayaPrice": 480,
       "surugayaSoldOut": false,
-      "raritySlug": "sr"
+      "raritySlug": "sr",
+      "surugayaBuyPrice": null
     },
     {
       "name": "MCの盛り上げ",
@@ -922,7 +936,8 @@
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN923786",
       "surugayaPrice": 980,
       "surugayaSoldOut": false,
-      "raritySlug": "sr"
+      "raritySlug": "sr",
+      "surugayaBuyPrice": 450
     },
     {
       "name": "メガヤンマex",
@@ -1017,7 +1032,8 @@
       "surugayaUrl": "/product/other/GN923772",
       "surugayaPrice": 730,
       "surugayaSoldOut": true,
-      "raritySlug": "ur"
+      "raritySlug": "ur",
+      "surugayaBuyPrice": 600
     }
   ]
 }

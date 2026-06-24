@@ -91,7 +91,8 @@
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU404896",
       "surugayaPrice": 380,
       "surugayaSoldOut": false,
-      "raritySlug": "n"
+      "raritySlug": "n",
+      "surugayaBuyPrice": null
     },
     {
       "name": "ふうせん",
@@ -157,7 +158,8 @@
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU404902",
       "surugayaPrice": 980,
       "surugayaSoldOut": false,
-      "raritySlug": "n"
+      "raritySlug": "n",
+      "surugayaBuyPrice": 400
     }
   ]
 }
