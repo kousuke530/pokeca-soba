@@ -39,12 +39,17 @@ const description =
     grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
     gap: 8px;
   }
+  .grid li {
+    display: flex; /* 子の<a>をセル高さいっぱいに伸ばす */
+  }
   .grid a {
+    flex: 1;
+    min-height: 56px; /* 1行/2行で高さを揃える */
     display: flex;
     justify-content: space-between;
     align-items: center;
     gap: 6px;
-    padding: 9px 12px;
+    padding: 8px 12px;
     background: #fff;
     border: 1px solid var(--border);
     border-radius: var(--radius);
@@ -52,6 +57,7 @@ const description =
     color: var(--text);
     font-size: 13px;
     font-weight: 600;
+    box-sizing: border-box;
   }
   .grid a:hover { border-color: var(--brand); color: var(--brand); }
   .cnt { font-size: 11px; color: var(--text-sub); font-weight: 500; }
