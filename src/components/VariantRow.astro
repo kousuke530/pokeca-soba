@@ -7,7 +7,7 @@ interface Props {
   popup?: boolean;
 }
 const { card, popup = false } = Astro.props;
-const detailUrl = `/c/${card.id}`;
+const detailUrl = card.path;
 const yen = (v: number | null) => (v == null ? '調査中' : `${v.toLocaleString('ja-JP')}円`);
 ---
 

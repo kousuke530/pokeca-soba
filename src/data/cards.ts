@@ -3,6 +3,18 @@ import path from 'node:path';
 import type { Card, CardSeries, PricePoint, ShopPrice } from './types';
 import { allPacks } from './packs';
 import { cardSellHistory } from './history';
+import nameSlugs from '../../data/name-slugs.json';
+
+const SLUGS = nameSlugs as Record<string, string>;
+
+/** 処理仕様の括弧（ミラー/パラレル/ランク等）を除去して種名へ正規化。build-slugs.ts と一致させること。 */
+function normalizeName(name: string): string {
+  return name
+    .replace(/【[^】]*】/g, '') // 【ランクB】等の状態表記
+    .replace(/[（(][^）)]*(ミラー|パラレル|ランク)[^）)]*[)）]/g, '')
+    .replace(/\s{2,}/g, ' ')
+    .trim();
+}
 
 // data/cards/<packSlug>.json（collect-cards.ts が生成するマスター）の型
 interface MasterCard {
@@ -61,6 +73,8 @@ function buildCards(): Card[] {
       if (seenIds.has(id)) continue; // ID重複はスキップ（getStaticPaths重複回避）
       seenIds.add(id);
       const history = historyPoints(mf.packSlug, id);
+      const name = normalizeName(m.name);
+      const cardParam = `${m.cardNumber.replace(/\//g, '-')}-${m.raritySlug}`;
 
       // 現在価格: 履歴があれば最新、なければ駿河屋スナップショット
       const sellPrice = history.length ? history[history.length - 1].sell : m.surugayaPrice;
@@ -82,7 +96,9 @@ function buildCards(): Card[] {
       out.push({
         id,
         slug: id,
-        name: m.name,
+        path: `/pack/${mf.packSlug}/${cardParam}`,
+        nameSlug: SLUGS[name] ?? id,
+        name,
         rarity: m.rarity,
         raritySlug: m.raritySlug,
         category: m.category,
@@ -110,7 +126,7 @@ function buildCards(): Card[] {
 export const allCards: Card[] = buildCards();
 
 // ===== カード名でグルーピング（シリーズ） =====
-// series.slug ＝ カード名（/card/[name] のパラメータ。日本語URLはエンコードされる）
+// series.slug ＝ ポケモン名スラッグ（/list/[slug] のパラメータ）
 export const series: CardSeries[] = (() => {
   const map = new Map<string, Card[]>();
   for (const c of allCards) {
@@ -119,7 +135,7 @@ export const series: CardSeries[] = (() => {
     map.set(c.name, arr);
   }
   return [...map.entries()].map(([name, variants]) => ({
-    slug: name,
+    slug: variants[0].nameSlug,
     name,
     variants: variants.sort((a, b) => a.cardNumber.localeCompare(b.cardNumber)),
   }));
@@ -127,12 +143,18 @@ export const series: CardSeries[] = (() => {
 
 // ===== 取得ヘルパー =====
 
-export function getCardByCode(code: string): Card | undefined {
-  return allCards.find((c) => c.id === code);
+/** nameSlug からシリーズを取得（/list/[slug]） */
+export function getSeriesBySlug(slug: string): CardSeries | undefined {
+  return series.find((s) => s.slug === slug);
 }
 
 export function getSeriesByName(name: string): CardSeries | undefined {
   return series.find((s) => s.name === name);
+}
+
+/** ポケモンのシリーズのみ（/list 一覧用）。50音/型番順は呼び出し側で */
+export function pokemonSeries(): CardSeries[] {
+  return series.filter((s) => s.variants[0]?.category === 'ポケモン');
 }
 
 /** パックに属するシリーズ（variantsをそのパックのものだけに絞る） */

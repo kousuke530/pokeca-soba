@@ -5,7 +5,7 @@
   "private": true,
   "scripts": {
     "dev": "astro dev",
-    "build": "astro build && pagefind --site dist",
+    "build": "node scripts/build-slugs.ts && astro build && pagefind --site dist",
     "preview": "astro preview",
     "scrape": "node scripts/scrape/run.ts",
     "collect": "node scripts/scrape/collect-cards.ts",

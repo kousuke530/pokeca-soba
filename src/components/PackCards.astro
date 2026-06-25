@@ -13,7 +13,8 @@ interface Props {
 }
 const { pack, cards, page, totalPages, total } = Astro.props;
 const base = `/pack/${pack.slug}`;
-const pageUrl = (n: number) => (n === 1 ? base : `${base}/${n}`);
+// カード詳細(/pack/[pack]/[card])とのルート競合を避け、2ページ目以降は /page/[n] 配下
+const pageUrl = (n: number) => (n === 1 ? base : `${base}/page/${n}`);
 
 const pageSuffix = page > 1 ? `（${page}ページ目）` : '';
 const title = `${pack.name}の収録カード価格相場一覧【ポケカ】${pageSuffix}`;

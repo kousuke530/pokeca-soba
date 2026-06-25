@@ -18,7 +18,7 @@ const ranking = topByPrice(50);
     {
       ranking.map((c) => (
         <li>
-          <a href={`/c/${c.id}`} class="rank-item">
+          <a href={c.path} class="rank-item">
             <img src={c.image} alt={c.name} width="48" height="67" loading="lazy" />
             <span class="rank-main">
               <span class="rank-name">{c.name} <span class="rarity">{c.rarity}</span></span>

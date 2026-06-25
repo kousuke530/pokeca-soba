@@ -1,13 +1,17 @@
 ---
-import BaseLayout from '../../layouts/BaseLayout.astro';
-import Breadcrumbs from '../../components/Breadcrumbs.astro';
-import PriceHistoryChart from '../../components/PriceHistoryChart.astro';
-import VariantRow from '../../components/VariantRow.astro';
-import { allCards, getSeriesByName, seriesByPack } from '../../data/cards';
-import type { Card } from '../../data/types';
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+import Breadcrumbs from '../../../components/Breadcrumbs.astro';
+import PriceHistoryChart from '../../../components/PriceHistoryChart.astro';
+import VariantRow from '../../../components/VariantRow.astro';
+import { allCards, getSeriesByName, seriesByPack } from '../../../data/cards';
+import { getPack } from '../../../data/packs';
+import type { Card } from '../../../data/types';
 
 export function getStaticPaths() {
-  return allCards.map((card) => ({ params: { code: card.id }, props: { card } }));
+  return allCards.map((card) => ({
+    params: { pack: card.packSlug, card: `${card.cardNumber.replace(/\//g, '-')}-${card.raritySlug}` },
+    props: { card },
+  }));
 }
 
 interface Props {
@@ -16,21 +20,23 @@ interface Props {
 const { card } = Astro.props;
 
 const priceDate = '2026年6月18日';
-const seriesPath = `/card/${card.name}`;
+const setCode = getPack(card.packSlug)?.setCode ?? card.packSlug.toUpperCase();
 const yen = (v: number | null) => (v == null ? '調査中' : `¥${v.toLocaleString('ja-JP')}`);
 const surugayaUrl = card.sellShops.find((s) => s.shop === '駿河屋')?.url ?? card.sellShops[0]?.url;
 const categoryLabel =
   card.category === 'ポケモン' && card.energyType ? `ポケモン・${card.energyType}` : card.category;
+const isPokemon = card.category === 'ポケモン';
+const listUrl = `/list/${card.nameSlug}`;
 
-const seriesObj = getSeriesByName(card.name);
-const otherVariants = (seriesObj?.variants ?? []).filter((v) => v.id !== card.id);
+const otherVariants = (getSeriesByName(card.name)?.variants ?? []).filter((v) => v.id !== card.id);
 const samePack = seriesByPack(card.packSlug)
   .filter((s) => s.name !== card.name)
   .map((s) => s.variants.reduce((a, b) => ((b.sellPrice ?? 0) > (a.sellPrice ?? 0) ? b : a)))
   .sort((a, b) => (b.sellPrice ?? 0) - (a.sellPrice ?? 0))
   .slice(0, 6);
 
-const title = `${card.name}(${card.rarity}) ${card.cardNumber} の買取・販売価格相場【ポケカ】`;
+const crumbLabel = `${card.name}【${card.rarity}】${setCode} ${card.cardNumber}`;
+const title = `${card.name}(${card.rarity}) ${setCode} ${card.cardNumber} の買取・販売価格相場【ポケカ】`;
 const description = `${card.name}(${card.rarity})の最新の販売価格は${yen(card.sellPrice)}、買取価格は${yen(
   card.buyPrice,
 )}（${priceDate}時点・駿河屋）。${card.pack}収録。価格推移もまとめています。`;
@@ -59,19 +65,17 @@ const jsonLd = JSON.stringify({
 });
 ---
 
-<BaseLayout title={title} description={description} path={`/c/${card.id}`} jsonLd={jsonLd}>
+<BaseLayout title={title} description={description} path={card.path} jsonLd={jsonLd}>
   <Breadcrumbs
     items={[
       { label: 'ホーム', href: '/' },
       { label: card.pack, href: `/pack/${card.packSlug}` },
-      { label: card.name, href: seriesPath },
-      { label: card.rarity },
+      { label: crumbLabel },
     ]}
   />
 
   <!-- 検索インデックス対象（Pagefind）: カード名・レア・型番・パック -->
   <div data-pagefind-body data-pagefind-meta={`title:${card.name}（${card.rarity}）`}>
-  <!-- ヒーロー: 画像 + 価格パネル -->
   <div class="hero">
     <figure class="hero-img">
       <img
@@ -87,7 +91,7 @@ const jsonLd = JSON.stringify({
     </figure>
 
     <div class="panel">
-      <h1 class="ttl">{card.name}</h1>
+      <h1 class="ttl">{card.name} <span class="ttl-sub">【{card.rarity}】{setCode} {card.cardNumber}</span></h1>
       <div class="chips">
         <span class="chip chip-rarity" data-pagefind-filter="レアリティ">{card.rarity}</span>
         <span class="chip">{card.cardNumber}</span>
@@ -125,7 +129,7 @@ const jsonLd = JSON.stringify({
   </div>
 
   <p class="lead">
-    {card.name}（{card.rarity}・{card.cardNumber}）の最新相場は
+    {card.name}（{card.rarity}・{setCode} {card.cardNumber}）の最新相場は
     <strong>販売 {yen(card.sellPrice)}</strong> / <strong>買取 {yen(card.buyPrice)}</strong>です（{priceDate}時点・駿河屋）。{card.pack}に収録。
   </p>
   </div>
@@ -140,7 +144,10 @@ const jsonLd = JSON.stringify({
   {
     otherVariants.length > 0 && (
       <section class="sec">
-        <h2 class="sec-h">{card.name} の他レアリティ</h2>
+        <h2 class="sec-h">
+          {card.name} の他レアリティ
+          {isPokemon && <a class="sec-link" href={listUrl}>一覧 →</a>}
+        </h2>
         <ul class="rel">{otherVariants.map((v) => <VariantRow card={v} />)}</ul>
       </section>
     )
@@ -161,20 +168,13 @@ const jsonLd = JSON.stringify({
   .hero-img { margin: 0; flex: 0 0 240px; max-width: 240px; }
   .hero-img img { width: 100%; border-radius: 10px; border: 1px solid var(--border); display: block; }
   .hero-img figcaption { font-size: 10px; color: var(--text-sub); text-align: center; margin-top: 4px; }
-  .panel {
-    flex: 1;
-    min-width: 260px;
-    background: #fff;
-    border: 1px solid var(--border);
-    border-radius: 14px;
-    padding: 18px;
-  }
+  .panel { flex: 1; min-width: 260px; background: #fff; border: 1px solid var(--border); border-radius: 14px; padding: 18px; }
   .ttl { font-size: 22px; font-weight: 800; margin: 0 0 10px; line-height: 1.3; }
+  .ttl-sub { font-size: 13px; font-weight: 600; color: var(--text-sub); }
   .chips { display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 16px; }
   .chip { font-size: 12px; padding: 3px 10px; border-radius: 999px; background: #eef2f7; color: var(--text-sub); font-weight: 600; }
   .chip-rarity { background: var(--brand); color: #fff; }
   .chip-out { background: #9e9e9e; color: #fff; }
-
   .prices { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
   .ptile { border-radius: 12px; padding: 16px; text-align: center; border: 1px solid var(--border); }
   .t-sell { background: linear-gradient(160deg, #fff5f5, #ffe9ec); border-color: #ffd6dc; }
@@ -184,23 +184,17 @@ const jsonLd = JSON.stringify({
   .t-sell .pval { color: #e02e4d; }
   .t-buy .pval { color: #1c9e5a; }
   .src { font-size: 11px; color: var(--text-sub); text-align: right; margin: 8px 2px 0; }
-
-  .buy {
-    display: flex; align-items: center; justify-content: center; gap: 6px;
-    margin-top: 14px; padding: 14px; border-radius: 10px;
-    background: #ff6f00; color: #fff; font-weight: 800; font-size: 15px; text-decoration: none;
-  }
+  .buy { display: flex; align-items: center; justify-content: center; gap: 6px; margin-top: 14px; padding: 14px; border-radius: 10px; background: #ff6f00; color: #fff; font-weight: 800; font-size: 15px; text-decoration: none; }
   .buy:hover { background: #e65c00; }
-
   .spec { margin: 18px 0 0; display: flex; flex-direction: column; gap: 0; font-size: 13px; }
   .spec div { display: flex; gap: 12px; padding: 8px 0; border-top: 1px solid #f0f0f0; }
   .spec dt { flex: 0 0 88px; color: var(--text-sub); margin: 0; }
   .spec dd { margin: 0; font-weight: 600; }
   .spec a { text-decoration: none; }
-
   .lead { font-size: 14px; color: var(--text); margin: 20px 0 0; line-height: 1.9; }
   .sec { margin-top: 30px; }
-  .sec-h { font-size: 16px; border-left: 4px solid var(--brand); padding-left: 8px; margin: 0 0 12px; }
+  .sec-h { font-size: 16px; border-left: 4px solid var(--brand); padding-left: 8px; margin: 0 0 12px; display: flex; align-items: baseline; gap: 10px; }
+  .sec-link { font-size: 12px; font-weight: 600; }
   .note { font-size: 11px; color: var(--text-sub); margin: 10px 0 0; }
   .rel { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 10px; }
 </style>

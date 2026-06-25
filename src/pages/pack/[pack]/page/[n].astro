@@ -1,8 +1,8 @@
 ---
-import PackCards from '../../../components/PackCards.astro';
-import { packs } from '../../../data/packs';
-import { packVariants, PACK_PAGE_SIZE } from '../../../data/cards';
-import type { Pack } from '../../../data/types';
+import PackCards from '../../../../components/PackCards.astro';
+import { packs } from '../../../../data/packs';
+import { packVariants, PACK_PAGE_SIZE } from '../../../../data/cards';
+import type { Pack } from '../../../../data/types';
 
 export function getStaticPaths() {
   const paths = [];
@@ -11,7 +11,7 @@ export function getStaticPaths() {
     const totalPages = Math.ceil(total / PACK_PAGE_SIZE);
     // 2ページ目以降のみ（1ページ目は /pack/[pack]）
     for (let n = 2; n <= totalPages; n++) {
-      paths.push({ params: { pack: p.slug, page: String(n) }, props: { pack: p, page: n } });
+      paths.push({ params: { pack: p.slug, n: String(n) }, props: { pack: p, page: n } });
     }
   }
   return paths;

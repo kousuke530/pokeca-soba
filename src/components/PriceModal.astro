@@ -13,7 +13,7 @@ interface Props {
 }
 const { card, seriesUrl, seriesName, priceDate } = Astro.props;
 const id = `modal-${card.slug}`;
-const detailUrl = `/c/${card.id}`;
+const detailUrl = card.path;
 const yen = (v: number | null | undefined) => (v == null ? '調査中' : `¥${v.toLocaleString('ja-JP')}`);
 const surugayaUrl = card.sellShops.find((s) => s.shop === '駿河屋')?.url ?? card.sellShops[0]?.url;
 const categoryLabel =

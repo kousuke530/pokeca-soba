@@ -27,10 +27,14 @@ export interface PricePoint {
 
 /** カード1枚（1レアリティ＝1型番）の情報 */
 export interface Card {
-  /** 一意ID＝個別ページURLの型番スラッグ（例: m1l-091-063-sar）。/c/[code] */
+  /** 一意ID（履歴/検索のキー。例: m1l-091-063-sar） */
   id: string;
   /** 後方互換: id と同値 */
   slug: string;
+  /** カード詳細ページのURL（例: /pack/m1l/091-063-sar） */
+  path: string;
+  /** ポケモン名(正規化)のURLスラッグ（例: tropius）。/list/[slug] のキー */
+  nameSlug: string;
   /** カード名（例: リーリエの決心） */
   name: string;
   /** レアリティ（例: SAR / AR / SR / RR ...） */

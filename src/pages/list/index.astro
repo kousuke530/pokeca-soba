@@ -1,0 +1,58 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import Breadcrumbs from '../../components/Breadcrumbs.astro';
+import { pokemonSeries } from '../../data/cards';
+
+const list = pokemonSeries().sort((a, b) => a.name.localeCompare(b.name, 'ja'));
+const title = 'ポケモン一覧｜ポケカ価格相場ナビ';
+const description =
+  'ポケモンカードをポケモンごとに一覧。各ポケモンの販売価格・買取価格・価格推移を確認できます。';
+---
+
+<BaseLayout title={title} description={description} path="/list">
+  <Breadcrumbs items={[{ label: 'ホーム', href: '/' }, { label: 'ポケモン一覧' }]} />
+
+  <h1 class="page-title">ポケモン一覧</h1>
+  <p class="lead">全{list.length.toLocaleString()}種。ポケモンを選ぶと、そのカードの相場一覧（レアリティ別）を確認できます。</p>
+
+  <ul class="grid">
+    {
+      list.map((s) => (
+        <li>
+          <a href={`/list/${s.slug}`}>
+            {s.name} <span class="cnt">{s.variants.length}</span>
+          </a>
+        </li>
+      ))
+    }
+  </ul>
+</BaseLayout>
+
+<style>
+  .page-title { font-size: 20px; margin: 0 0 8px; }
+  .lead { font-size: 13px; color: var(--text-sub); margin: 0 0 18px; }
+  .grid {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 8px;
+  }
+  .grid a {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 6px;
+    padding: 9px 12px;
+    background: #fff;
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    text-decoration: none;
+    color: var(--text);
+    font-size: 13px;
+    font-weight: 600;
+  }
+  .grid a:hover { border-color: var(--brand); color: var(--brand); }
+  .cnt { font-size: 11px; color: var(--text-sub); font-weight: 500; }
+</style>

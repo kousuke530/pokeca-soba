@@ -22,7 +22,7 @@ const ranking = topByPrice(10);
       {
         ranking.map((c) => (
           <li>
-            <a href={`/c/${c.id}`} class="rank-item">
+            <a href={c.path} class="rank-item">
               <img src={c.image} alt={c.name} width="44" height="62" loading="lazy" />
               <span class="rank-name">{c.name} <span class="rarity">{c.rarity}</span></span>
               <span class="rank-price">{yen(c.sellPrice)}</span>
@@ -57,7 +57,7 @@ const ranking = topByPrice(10);
           const s = series.find((x) => x.name === top.name)!;
           return (
             <li>
-              <a href={`/card/${s.name}`} class="series-card">
+              <a href={`/list/${s.slug}`} class="series-card">
                 <img src={top.image} alt={s.name} width="56" height="78" loading="lazy" />
                 <div>
                   <p class="series-name">{s.name}</p>
