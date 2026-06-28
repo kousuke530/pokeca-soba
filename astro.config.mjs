@@ -10,7 +10,7 @@ import sitemap from '@astrojs/sitemap';
 //   canonical / OGP / JSON-LD / sitemap の絶対URL生成に使われるため、誤ると検索評価に影響する。
 //   独自ドメイン＝ルート公開なので base は不要（'/'のまま）。
 export default defineConfig({
-  site: 'https://example.com', // TODO: 例 'https://pokeca-soba.com'
+  site: 'https://pokeca-soba.com',
   output: 'static',
   trailingSlash: 'ignore',
 
