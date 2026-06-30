@@ -966,7 +966,7 @@
       "surugayaPrice": 2280,
       "surugayaSoldOut": false,
       "raritySlug": "ar",
-      "surugayaBuyPrice": 1000
+      "surugayaBuyPrice": null
     },
     {
       "name": "ダダリン",
@@ -1086,7 +1086,7 @@
       "surugayaPrice": 780,
       "surugayaSoldOut": false,
       "raritySlug": "sr",
-      "surugayaBuyPrice": 300
+      "surugayaBuyPrice": null
     },
     {
       "name": "ラムパルドex",
@@ -1110,7 +1110,7 @@
       "surugayaPrice": 1180,
       "surugayaSoldOut": true,
       "raritySlug": "sr",
-      "surugayaBuyPrice": 800
+      "surugayaBuyPrice": null
     },
     {
       "name": "モルペコex",
@@ -1134,7 +1134,7 @@
       "surugayaPrice": 780,
       "surugayaSoldOut": false,
       "raritySlug": "sr",
-      "surugayaBuyPrice": 300
+      "surugayaBuyPrice": null
     },
     {
       "name": "アイアンディフェンダー",
@@ -1214,7 +1214,7 @@
       "surugayaPrice": 1980,
       "surugayaSoldOut": true,
       "raritySlug": "sr",
-      "surugayaBuyPrice": 1600
+      "surugayaBuyPrice": null
     },
     {
       "name": "グラジオの決戦",
@@ -1250,7 +1250,7 @@
       "surugayaPrice": 3080,
       "surugayaSoldOut": true,
       "raritySlug": "sr",
-      "surugayaBuyPrice": 1200
+      "surugayaBuyPrice": null
     },
     {
       "name": "メガゼラオラex",
@@ -1262,7 +1262,7 @@
       "surugayaPrice": 4190,
       "surugayaSoldOut": true,
       "raritySlug": "sar",
-      "surugayaBuyPrice": 2000
+      "surugayaBuyPrice": null
     },
     {
       "name": "メガシャンデラex",
@@ -1274,7 +1274,7 @@
       "surugayaPrice": 3480,
       "surugayaSoldOut": false,
       "raritySlug": "sar",
-      "surugayaBuyPrice": 1200
+      "surugayaBuyPrice": null
     },
     {
       "name": "メガダークライex",
@@ -1286,7 +1286,7 @@
       "surugayaPrice": 47800,
       "surugayaSoldOut": false,
       "raritySlug": "sar",
-      "surugayaBuyPrice": 35000
+      "surugayaBuyPrice": null
     },
     {
       "name": "モルペコex",
@@ -1298,7 +1298,7 @@
       "surugayaPrice": 5480,
       "surugayaSoldOut": false,
       "raritySlug": "sar",
-      "surugayaBuyPrice": 2500
+      "surugayaBuyPrice": null
     },
     {
       "name": "グラジオの決戦",
@@ -1310,7 +1310,7 @@
       "surugayaPrice": 1360,
       "surugayaSoldOut": true,
       "raritySlug": "sar",
-      "surugayaBuyPrice": 800
+      "surugayaBuyPrice": null
     },
     {
       "name": "ムク",
@@ -1322,7 +1322,7 @@
       "surugayaPrice": 8075,
       "surugayaSoldOut": true,
       "raritySlug": "sar",
-      "surugayaBuyPrice": 3000
+      "surugayaBuyPrice": null
     },
     {
       "name": "メガダークライex",
@@ -1334,7 +1334,7 @@
       "surugayaPrice": 111590,
       "surugayaSoldOut": true,
       "raritySlug": "mur",
-      "surugayaBuyPrice": 70000
+      "surugayaBuyPrice": null
     }
   ]
 }

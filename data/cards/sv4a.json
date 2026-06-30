@@ -609,7 +609,7 @@
       "surugayaPrice": 1280,
       "surugayaSoldOut": false,
       "raritySlug": "n",
-      "surugayaBuyPrice": 400
+      "surugayaBuyPrice": null
     },
     {
       "name": "ライチュウ",
@@ -2318,7 +2318,7 @@
       "surugayaPrice": 920,
       "surugayaSoldOut": true,
       "raritySlug": "s",
-      "surugayaBuyPrice": 600
+      "surugayaBuyPrice": null
     },
     {
       "name": "リザード",
@@ -2421,7 +2421,7 @@
       "surugayaPrice": 380,
       "surugayaSoldOut": true,
       "raritySlug": "s",
-      "surugayaBuyPrice": 300
+      "surugayaBuyPrice": null
     },
     {
       "name": "ヤドラン",
@@ -2610,7 +2610,7 @@
       "surugayaPrice": 13800,
       "surugayaSoldOut": false,
       "raritySlug": "s",
-      "surugayaBuyPrice": 9000
+      "surugayaBuyPrice": null
     },
     {
       "name": "ライチュウ",
@@ -2858,7 +2858,7 @@
       "surugayaPrice": 780,
       "surugayaSoldOut": false,
       "raritySlug": "s",
-      "surugayaBuyPrice": 300
+      "surugayaBuyPrice": null
     },
     {
       "name": "キルリア",
@@ -2870,7 +2870,7 @@
       "surugayaPrice": 980,
       "surugayaSoldOut": false,
       "raritySlug": "s",
-      "surugayaBuyPrice": 500
+      "surugayaBuyPrice": null
     },
     {
       "name": "フワンテ",
@@ -2939,7 +2939,7 @@
       "surugayaPrice": 980,
       "surugayaSoldOut": false,
       "raritySlug": "s",
-      "surugayaBuyPrice": 450
+      "surugayaBuyPrice": null
     },
     {
       "name": "パピモッチ",
@@ -3428,7 +3428,7 @@
       "surugayaPrice": 910,
       "surugayaSoldOut": true,
       "raritySlug": "s",
-      "surugayaBuyPrice": 400
+      "surugayaBuyPrice": null
     },
     {
       "name": "カビゴン",
@@ -3440,7 +3440,7 @@
       "surugayaPrice": 1980,
       "surugayaSoldOut": false,
       "raritySlug": "s",
-      "surugayaBuyPrice": 1000
+      "surugayaBuyPrice": null
     },
     {
       "name": "キャモメ",
@@ -3632,7 +3632,7 @@
       "surugayaPrice": 4580,
       "surugayaSoldOut": false,
       "raritySlug": "ssr",
-      "surugayaBuyPrice": 2800
+      "surugayaBuyPrice": null
     },
     {
       "name": "サーナイトex",
@@ -3644,7 +3644,7 @@
       "surugayaPrice": 590,
       "surugayaSoldOut": false,
       "raritySlug": "ssr",
-      "surugayaBuyPrice": 400
+      "surugayaBuyPrice": null
     },
     {
       "name": "キラフロルex",
@@ -3679,7 +3679,7 @@
       "surugayaPrice": 3980,
       "surugayaSoldOut": false,
       "raritySlug": "ssr",
-      "surugayaBuyPrice": 2500
+      "surugayaBuyPrice": null
     },
     {
       "name": "パルデア ドオーex",
@@ -3786,7 +3786,7 @@
       "surugayaPrice": 780,
       "surugayaSoldOut": false,
       "raritySlug": "ar",
-      "surugayaBuyPrice": 300
+      "surugayaBuyPrice": null
     },
     {
       "name": "ミミッキュ",
@@ -3798,7 +3798,7 @@
       "surugayaPrice": 3480,
       "surugayaSoldOut": false,
       "raritySlug": "ar",
-      "surugayaBuyPrice": 2000
+      "surugayaBuyPrice": null
     },
     {
       "name": "ジャッジマン",
@@ -3870,7 +3870,7 @@
       "surugayaPrice": 94800,
       "surugayaSoldOut": false,
       "raritySlug": "sar",
-      "surugayaBuyPrice": 70000
+      "surugayaBuyPrice": null
     },
     {
       "name": "サーナイトex",
@@ -3882,7 +3882,7 @@
       "surugayaPrice": 19800,
       "surugayaSoldOut": false,
       "raritySlug": "sar",
-      "surugayaBuyPrice": 11000
+      "surugayaBuyPrice": null
     },
     {
       "name": "リザードンex",
@@ -3894,7 +3894,7 @@
       "surugayaPrice": 34180,
       "surugayaSoldOut": true,
       "raritySlug": "sar",
-      "surugayaBuyPrice": 38000
+      "surugayaBuyPrice": null
     },
     {
       "name": "【ランクB】ナンジャモ",
@@ -3918,7 +3918,7 @@
       "surugayaPrice": 980,
       "surugayaSoldOut": false,
       "raritySlug": "sar",
-      "surugayaBuyPrice": 450
+      "surugayaBuyPrice": null
     },
     {
       "name": "ネルケ",
@@ -3930,7 +3930,7 @@
       "surugayaPrice": 1980,
       "surugayaSoldOut": false,
       "raritySlug": "sar",
-      "surugayaBuyPrice": 1000
+      "surugayaBuyPrice": null
     },
     {
       "name": "ペパー",
@@ -3942,7 +3942,7 @@
       "surugayaPrice": 1680,
       "surugayaSoldOut": false,
       "raritySlug": "sar",
-      "surugayaBuyPrice": 800
+      "surugayaBuyPrice": null
     },
     {
       "name": "ボタン",
@@ -3954,7 +3954,7 @@
       "surugayaPrice": 2980,
       "surugayaSoldOut": false,
       "raritySlug": "sar",
-      "surugayaBuyPrice": 1800
+      "surugayaBuyPrice": null
     },
     {
       "name": "チオンジェンex",
@@ -3990,7 +3990,7 @@
       "surugayaPrice": 680,
       "surugayaSoldOut": false,
       "raritySlug": "ur",
-      "surugayaBuyPrice": 300
+      "surugayaBuyPrice": null
     },
     {
       "name": "ミライドンex",
@@ -4002,7 +4002,7 @@
       "surugayaPrice": 1180,
       "surugayaSoldOut": false,
       "raritySlug": "ur",
-      "surugayaBuyPrice": 600
+      "surugayaBuyPrice": null
     },
     {
       "name": "ディンルーex",
