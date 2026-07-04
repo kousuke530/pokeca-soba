@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!--
+  ポケカ相場ドットコム 日次価格更新の launchd 設定（参照用の複製。実体は ~/Library/LaunchAgents/ に配置）
+  インストール:
+    cp scripts/launchd/com.pokeca.dailyupdate.plist ~/Library/LaunchAgents/
+    launchctl load -w ~/Library/LaunchAgents/com.pokeca.dailyupdate.plist
+  時刻変更: 下の Hour/Minute（ローカル時刻=JST）を編集し、unload→load し直す。
+  今すぐ実行: launchctl start com.pokeca.dailyupdate
+-->
+<plist version="1.0">
+<dict>
+  <key>Label</key>
+  <string>com.pokeca.dailyupdate</string>
+  <key>ProgramArguments</key>
+  <array>
+    <string>/bin/bash</string>
+    <string>/Users/kosuke/Desktop/Automation/project/その他/ポケカ販売/scripts/daily-update.sh</string>
+  </array>
+  <key>StartCalendarInterval</key>
+  <dict>
+    <key>Hour</key>
+    <integer>12</integer>
+    <key>Minute</key>
+    <integer>0</integer>
+  </dict>
+  <key>StandardOutPath</key>
+  <string>/Users/kosuke/Desktop/Automation/project/その他/ポケカ販売/work/launchd.out.log</string>
+  <key>StandardErrorPath</key>
+  <string>/Users/kosuke/Desktop/Automation/project/その他/ポケカ販売/work/launchd.err.log</string>
+</dict>
+</plist>
