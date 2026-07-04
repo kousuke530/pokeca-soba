@@ -26,6 +26,8 @@ concurrency:
 jobs:
   build-deploy:
     runs-on: ubuntu-latest
+    # 駿河屋がGitHubのIPを絞ると収集が長引くため、暴走(6h上限近く)を防ぐ安全網
+    timeout-minutes: 180
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
@@ -44,14 +46,19 @@ jobs:
 
       # --- 価格収集（パック一括。schedule / 手動実行のときだけ） ---
       # マスター(data/cards)更新＋当日の販売価格をパック別履歴(data/history)に追記
+      # 収集が失敗/長引いても既存データでビルド&デプロイは続行する（サイトを止めない）
       - name: Collect prices (all packs)
         if: github.event_name != 'push'
         run: npm run collect
+        continue-on-error: true
+        timeout-minutes: 90
 
       # 買取価格（商品単位ページ。販売価格が高いカードに限定して取得）
       - name: Collect buy prices
         if: github.event_name != 'push'
         run: npm run collect:buy
+        continue-on-error: true
+        timeout-minutes: 60
 
       - name: Commit updated data
         if: github.event_name != 'push'
@@ -79,6 +86,18 @@ jobs:
         with:
           path: dist
 
+      # Pages側の一時的失敗（syncing_files で "try again later"）に備えたリトライ。
+      # 1回目は失敗しても続行し、失敗時のみ30秒待って再デプロイする。
       - name: Deploy to GitHub Pages
         id: deployment
+        uses: actions/deploy-pages@v4
+        continue-on-error: true
+
+      - name: Wait before deploy retry
+        if: steps.deployment.outcome == 'failure'
+        run: sleep 30
+
+      - name: Deploy to GitHub Pages (retry)
+        id: deployment_retry
+        if: steps.deployment.outcome == 'failure'
         uses: actions/deploy-pages@v4

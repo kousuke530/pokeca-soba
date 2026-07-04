@@ -47,9 +47,21 @@ function makeId(setCode: string, cardNumber: string, raritySlug: string): string
  * 駿河屋の実カード画像URL。商品URL末尾の商品ID(例 GU362717)から photo.php を組み立てる。
  * 駿河屋がCDN画像へ302リダイレクトする（出典明記＋リンクバックで掲載）。取れなければプレースホルダー。
  */
+const SURUGAYA_ORIGIN = 'https://www.suruga-ya.jp';
+
 function surugayaImage(surugayaUrl: string): string {
   const pid = surugayaUrl.split('?')[0].match(/([A-Za-z]+\d+)$/)?.[1];
-  return pid ? `https://www.suruga-ya.jp/database/photo.php?shinaban=${pid}&size=m` : PLACEHOLDER;
+  return pid ? `${SURUGAYA_ORIGIN}/database/photo.php?shinaban=${pid}&size=m` : PLACEHOLDER;
+}
+
+/** 駿河屋の商品URLを絶対URL化（データは相対パス `/product/...` で保存されている） */
+function surugayaProductUrl(surugayaUrl: string): string {
+  if (!surugayaUrl) return SURUGAYA_ORIGIN;
+  try {
+    return new URL(surugayaUrl, SURUGAYA_ORIGIN).href;
+  } catch {
+    return SURUGAYA_ORIGIN;
+  }
 }
 
 /** パック別履歴から PricePoint[] に変換（買取は未取得＝0） */
@@ -86,7 +98,7 @@ function buildCards(): Card[] {
               {
                 shop: '駿河屋',
                 price: m.surugayaPrice,
-                url: m.surugayaUrl,
+                url: surugayaProductUrl(m.surugayaUrl),
                 real: true,
                 note: m.surugayaSoldOut ? '品切れ' : undefined,
               },

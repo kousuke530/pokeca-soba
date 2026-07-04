@@ -3,6 +3,8 @@ import BaseLayout from '../../../layouts/BaseLayout.astro';
 import Breadcrumbs from '../../../components/Breadcrumbs.astro';
 import PriceHistoryChart from '../../../components/PriceHistoryChart.astro';
 import VariantRow from '../../../components/VariantRow.astro';
+import ShopLinks from '../../../components/ShopLinks.astro';
+import { purchaseShops, buybackShops } from '../../../data/affiliates';
 import { allCards, getSeriesByName, seriesByPack } from '../../../data/cards';
 import { getPack } from '../../../data/packs';
 import type { Card } from '../../../data/types';
@@ -23,6 +25,10 @@ const priceDate = '2026年6月18日';
 const setCode = getPack(card.packSlug)?.setCode ?? card.packSlug.toUpperCase();
 const yen = (v: number | null) => (v == null ? '調査中' : `¥${v.toLocaleString('ja-JP')}`);
 const surugayaUrl = card.sellShops.find((s) => s.shop === '駿河屋')?.url ?? card.sellShops[0]?.url;
+// 販売ショップの駿河屋は、可能なら当該カードの商品ページに直リンク
+const purchase = surugayaUrl
+  ? purchaseShops.map((s) => (s.name === '駿河屋' ? { ...s, url: surugayaUrl } : s))
+  : purchaseShops;
 const categoryLabel =
   card.category === 'ポケモン' && card.energyType ? `ポケモン・${card.energyType}` : card.category;
 const isPokemon = card.category === 'ポケモン';
@@ -134,6 +140,9 @@ const jsonLd = JSON.stringify({
   </p>
   </div>
   <!-- /検索インデックス対象 -->
+
+  <ShopLinks title="このカードを買えるショップ" shops={purchase} variant="buy" />
+  <ShopLinks title="このカードを売れるショップ（買取）" shops={buybackShops} variant="sell" />
 
   <section class="sec">
     <h2 class="sec-h">価格推移</h2>

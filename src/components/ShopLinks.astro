@@ -1,0 +1,54 @@
+---
+// 提携先ショップへのリンク一覧（販売 or 買取）。
+import type { AffiliateShop } from '../data/affiliates';
+
+interface Props {
+  title: string;
+  shops: AffiliateShop[];
+  /** 販売=warm / 買取=cool でアクセント色を変える */
+  variant?: 'buy' | 'sell';
+}
+const { title, shops, variant = 'buy' } = Astro.props;
+---
+
+<section class={`shoplinks ${variant}`}>
+  <h2 class="sec-h">{title}</h2>
+  <ul class="shops">
+    {
+      shops.map((s) => (
+        <li>
+          <a href={s.url} target="_blank" rel="nofollow sponsored noopener">
+            <span class="shop-name">{s.name}</span>
+            <span class="shop-go" aria-hidden="true">↗</span>
+          </a>
+        </li>
+      ))
+    }
+  </ul>
+  <p class="shop-note">各ショップの販売・買取ページへ移動します（在庫・価格・買取可否は各サイトでご確認ください）。</p>
+</section>
+
+<style>
+  .shoplinks { margin-top: 30px; }
+  .sec-h {
+    font-size: 16px; border-left: 4px solid var(--brand); padding-left: 8px;
+    margin: 0 0 12px;
+  }
+  .shoplinks.sell .sec-h { border-left-color: #1c9e5a; }
+  .shops {
+    list-style: none; margin: 0; padding: 0;
+    display: grid; grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); gap: 8px;
+  }
+  .shops a {
+    display: flex; align-items: center; justify-content: space-between; gap: 6px;
+    padding: 12px 14px; min-height: 48px; box-sizing: border-box;
+    background: #fff; border: 1px solid var(--border); border-radius: var(--radius);
+    text-decoration: none; color: var(--text); font-weight: 700; font-size: 14px;
+  }
+  .shoplinks.buy a:hover { border-color: var(--brand); color: var(--brand); }
+  .shoplinks.sell a:hover { border-color: #1c9e5a; color: #1c9e5a; }
+  .shop-go { font-size: 12px; color: var(--text-sub); }
+  .shoplinks.buy a:hover .shop-go { color: var(--brand); }
+  .shoplinks.sell a:hover .shop-go { color: #1c9e5a; }
+  .shop-note { font-size: 11px; color: var(--text-sub); margin: 10px 2px 0; }
+</style>
