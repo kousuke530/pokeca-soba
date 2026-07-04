@@ -3,7 +3,7 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
 import Breadcrumbs from '../../components/Breadcrumbs.astro';
 import VariantRow from '../../components/VariantRow.astro';
 import PriceModal from '../../components/PriceModal.astro';
-import { series as allSeries } from '../../data/cards';
+import { series as allSeries, priceAsOf } from '../../data/cards';
 import type { CardSeries } from '../../data/types';
 
 export function getStaticPaths() {
@@ -15,7 +15,7 @@ interface Props {
 }
 const { series } = Astro.props;
 
-const priceDate = '2026年6月18日';
+const priceDate = priceAsOf;
 const seriesPath = `/list/${series.slug}`;
 
 const title = `【ポケカ】${series.name}(全${series.variants.length}種)の買取・販売価格相場一覧【ポケモンカード】`;

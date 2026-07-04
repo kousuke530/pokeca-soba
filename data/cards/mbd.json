@@ -2,8 +2,8 @@
   "pack": "スターターセットMEGA メガディアンシーex",
   "packSlug": "mbd",
   "source": "surugaya",
-  "collectedAt": "2026-06-18T23:42:20.154Z",
-  "count": 14,
+  "collectedAt": "2026-07-04T17:42:09.961Z",
+  "count": 13,
   "cards": [
     {
       "name": "ブルー",
@@ -22,9 +22,9 @@
       "rarity": "ノーマル",
       "category": "ポケモン",
       "energyType": "超",
-      "surugayaUrl": "/product/other/GU404885",
+      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU404885",
       "surugayaPrice": 180,
-      "surugayaSoldOut": true,
+      "surugayaSoldOut": false,
       "raritySlug": "n"
     },
     {
@@ -66,7 +66,7 @@
       "rarity": "ノーマル",
       "category": "グッズ",
       "energyType": "",
-      "surugayaUrl": "/product/other/GU404894",
+      "surugayaUrl": "/product/detail/GU404894?tenpo_cd=200984",
       "surugayaPrice": 180,
       "surugayaSoldOut": true,
       "raritySlug": "n"
@@ -77,8 +77,8 @@
       "rarity": "ノーマル",
       "category": "グッズ",
       "energyType": "",
-      "surugayaUrl": "/product/detail/GU404895?tenpo_cd=400492",
-      "surugayaPrice": 299,
+      "surugayaUrl": "/product/other/GU404895",
+      "surugayaPrice": 285,
       "surugayaSoldOut": true,
       "raritySlug": "n"
     },
@@ -117,17 +117,6 @@
       "raritySlug": "n"
     },
     {
-      "name": "ボスの指令",
-      "cardNumber": "019/021",
-      "rarity": "ノーマル",
-      "category": "サポート",
-      "energyType": "",
-      "surugayaUrl": "/product/detail/GU404899?tenpo_cd=201206",
-      "surugayaPrice": 100,
-      "surugayaSoldOut": true,
-      "raritySlug": "n"
-    },
-    {
       "name": "リーリエの決心",
       "cardNumber": "020/021",
       "rarity": "ノーマル",
@@ -159,7 +148,7 @@
       "surugayaPrice": 980,
       "surugayaSoldOut": false,
       "raritySlug": "n",
-      "surugayaBuyPrice": null
+      "surugayaBuyPrice": 400
     }
   ]
 }

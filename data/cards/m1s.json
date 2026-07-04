@@ -2,7 +2,7 @@
   "pack": "拡張パック「メガシンフォニア」",
   "packSlug": "m1s",
   "source": "surugaya",
-  "collectedAt": "2026-06-18T23:42:12.899Z",
+  "collectedAt": "2026-07-04T17:42:03.688Z",
   "count": 91,
   "cards": [
     {
@@ -56,7 +56,7 @@
       "category": "ポケモン",
       "energyType": "草",
       "surugayaUrl": "/product/other/GU362653",
-      "surugayaPrice": 70,
+      "surugayaPrice": 75,
       "surugayaSoldOut": true,
       "raritySlug": "r"
     },
@@ -407,9 +407,9 @@
       "rarity": "U",
       "category": "ポケモン",
       "energyType": "超",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU362668",
-      "surugayaPrice": 160,
-      "surugayaSoldOut": false,
+      "surugayaUrl": "/product/other/GU362668",
+      "surugayaPrice": 39,
+      "surugayaSoldOut": true,
       "raritySlug": "u"
     },
     {
@@ -418,8 +418,8 @@
       "rarity": "R",
       "category": "ポケモン",
       "energyType": "超",
-      "surugayaUrl": "/product/other/GU362657",
-      "surugayaPrice": 90,
+      "surugayaUrl": "/product/detail/GU362657?tenpo_cd=410018",
+      "surugayaPrice": 159,
       "surugayaSoldOut": true,
       "raritySlug": "r"
     },
@@ -561,9 +561,9 @@
       "rarity": "RR",
       "category": "ポケモン",
       "energyType": "",
-      "surugayaUrl": "/product/other/GU362652",
-      "surugayaPrice": 210,
-      "surugayaSoldOut": true,
+      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU362652",
+      "surugayaPrice": 160,
+      "surugayaSoldOut": false,
       "raritySlug": "rr"
     },
     {
@@ -661,7 +661,7 @@
       "category": "サポート",
       "energyType": "",
       "surugayaUrl": "/product/other/GU362676",
-      "surugayaPrice": 60,
+      "surugayaPrice": 30,
       "surugayaSoldOut": true,
       "raritySlug": "u"
     },
@@ -671,9 +671,9 @@
       "rarity": "U",
       "category": "スタジアム",
       "energyType": "",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU362677",
-      "surugayaPrice": 160,
-      "surugayaSoldOut": false,
+      "surugayaUrl": "/product/other/GU362677",
+      "surugayaPrice": 40,
+      "surugayaSoldOut": true,
       "raritySlug": "u"
     },
     {
@@ -683,7 +683,7 @@
       "category": "スタジアム",
       "energyType": "",
       "surugayaUrl": "/product/other/GU362678",
-      "surugayaPrice": 150,
+      "surugayaPrice": 100,
       "surugayaSoldOut": true,
       "raritySlug": "u"
     },
@@ -705,9 +705,10 @@
       "category": "ポケモン",
       "energyType": "草",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU362636",
-      "surugayaPrice": 230,
+      "surugayaPrice": 340,
       "surugayaSoldOut": false,
-      "raritySlug": "ar"
+      "raritySlug": "ar",
+      "surugayaBuyPrice": null
     },
     {
       "name": "テッカニン",
@@ -716,10 +717,9 @@
       "category": "ポケモン",
       "energyType": "草",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU362637",
-      "surugayaPrice": 300,
+      "surugayaPrice": 270,
       "surugayaSoldOut": false,
-      "raritySlug": "ar",
-      "surugayaBuyPrice": null
+      "raritySlug": "ar"
     },
     {
       "name": "シシコ",
@@ -728,7 +728,7 @@
       "category": "ポケモン",
       "energyType": "炎",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU362638",
-      "surugayaPrice": 380,
+      "surugayaPrice": 340,
       "surugayaSoldOut": false,
       "raritySlug": "ar",
       "surugayaBuyPrice": null
@@ -740,7 +740,7 @@
       "category": "ポケモン",
       "energyType": "水",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU362639",
-      "surugayaPrice": 380,
+      "surugayaPrice": 340,
       "surugayaSoldOut": false,
       "raritySlug": "ar",
       "surugayaBuyPrice": null
@@ -752,9 +752,10 @@
       "category": "ポケモン",
       "energyType": "水",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU362640",
-      "surugayaPrice": 230,
+      "surugayaPrice": 340,
       "surugayaSoldOut": false,
-      "raritySlug": "ar"
+      "raritySlug": "ar",
+      "surugayaBuyPrice": null
     },
     {
       "name": "インテレオン",
@@ -775,7 +776,7 @@
       "category": "ポケモン",
       "energyType": "雷",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU362642",
-      "surugayaPrice": 380,
+      "surugayaPrice": 340,
       "surugayaSoldOut": false,
       "raritySlug": "ar",
       "surugayaBuyPrice": null
@@ -786,9 +787,9 @@
       "rarity": "AR",
       "category": "ポケモン",
       "energyType": "超",
-      "surugayaUrl": "/product/other/GU362643",
-      "surugayaPrice": 310,
-      "surugayaSoldOut": true,
+      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU362643",
+      "surugayaPrice": 580,
+      "surugayaSoldOut": false,
       "raritySlug": "ar",
       "surugayaBuyPrice": null
     },
@@ -799,7 +800,7 @@
       "category": "ポケモン",
       "energyType": "超",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU362644",
-      "surugayaPrice": 380,
+      "surugayaPrice": 340,
       "surugayaSoldOut": false,
       "raritySlug": "ar",
       "surugayaBuyPrice": null
@@ -811,7 +812,7 @@
       "category": "ポケモン",
       "energyType": "超",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU362645",
-      "surugayaPrice": 380,
+      "surugayaPrice": 340,
       "surugayaSoldOut": false,
       "raritySlug": "ar",
       "surugayaBuyPrice": null
@@ -835,7 +836,7 @@
       "category": "ポケモン",
       "energyType": "",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU362647",
-      "surugayaPrice": 380,
+      "surugayaPrice": 340,
       "surugayaSoldOut": false,
       "raritySlug": "ar",
       "surugayaBuyPrice": null
@@ -871,10 +872,10 @@
       "category": "ポケモン",
       "energyType": "超",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU362627",
-      "surugayaPrice": 1180,
+      "surugayaPrice": 470,
       "surugayaSoldOut": false,
       "raritySlug": "sr",
-      "surugayaBuyPrice": null
+      "surugayaBuyPrice": 300
     },
     {
       "name": "メガラティアスex",
@@ -882,11 +883,11 @@
       "rarity": "SR",
       "category": "ポケモン",
       "energyType": "ドラゴン",
-      "surugayaUrl": "/product/other/GU362628",
-      "surugayaPrice": 520,
-      "surugayaSoldOut": true,
+      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU362628",
+      "surugayaPrice": 470,
+      "surugayaSoldOut": false,
       "raritySlug": "sr",
-      "surugayaBuyPrice": null
+      "surugayaBuyPrice": 300
     },
     {
       "name": "メガガルーラex",
@@ -919,7 +920,7 @@
       "category": "グッズ",
       "energyType": "",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU362631",
-      "surugayaPrice": 480,
+      "surugayaPrice": 380,
       "surugayaSoldOut": false,
       "raritySlug": "sr",
       "surugayaBuyPrice": null
@@ -945,7 +946,7 @@
       "surugayaPrice": 1980,
       "surugayaSoldOut": false,
       "raritySlug": "sr",
-      "surugayaBuyPrice": null
+      "surugayaBuyPrice": 1000
     },
     {
       "name": "ミツルの思いやり",
@@ -957,7 +958,7 @@
       "surugayaPrice": 780,
       "surugayaSoldOut": false,
       "raritySlug": "sr",
-      "surugayaBuyPrice": null
+      "surugayaBuyPrice": 300
     },
     {
       "name": "ミステリーガーデン",
@@ -980,7 +981,7 @@
       "surugayaPrice": 16800,
       "surugayaSoldOut": false,
       "raritySlug": "sar",
-      "surugayaBuyPrice": null
+      "surugayaBuyPrice": 9000
     },
     {
       "name": "メガラティアスex",
@@ -989,10 +990,10 @@
       "category": "ポケモン",
       "energyType": "ドラゴン",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU362621",
-      "surugayaPrice": 5980,
+      "surugayaPrice": 5480,
       "surugayaSoldOut": false,
       "raritySlug": "sar",
-      "surugayaBuyPrice": null
+      "surugayaBuyPrice": 3000
     },
     {
       "name": "アセロラのいたずら",
@@ -1001,10 +1002,10 @@
       "category": "サポート",
       "energyType": "",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU362623",
-      "surugayaPrice": 4190,
+      "surugayaPrice": 6480,
       "surugayaSoldOut": false,
       "raritySlug": "sar",
-      "surugayaBuyPrice": null
+      "surugayaBuyPrice": 3000
     },
     {
       "name": "ミツルの思いやり",
@@ -1016,7 +1017,7 @@
       "surugayaPrice": 1780,
       "surugayaSoldOut": false,
       "raritySlug": "sar",
-      "surugayaBuyPrice": null
+      "surugayaBuyPrice": 1000
     },
     {
       "name": "メガサーナイトex",
@@ -1024,11 +1025,11 @@
       "rarity": "MUR",
       "category": "ポケモン",
       "energyType": "超",
-      "surugayaUrl": "/product/other/GU364210",
-      "surugayaPrice": 41500,
-      "surugayaSoldOut": true,
+      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU364210",
+      "surugayaPrice": 69800,
+      "surugayaSoldOut": false,
       "raritySlug": "mur",
-      "surugayaBuyPrice": null
+      "surugayaBuyPrice": 50000
     }
   ]
 }

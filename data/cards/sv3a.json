@@ -2,7 +2,7 @@
   "pack": "強化拡張パック「レイジングサーフ」",
   "packSlug": "sv3a",
   "source": "surugaya",
-  "collectedAt": "2026-06-18T23:36:01.379Z",
+  "collectedAt": "2026-07-04T17:35:21.735Z",
   "count": 92,
   "cards": [
     {
@@ -528,7 +528,7 @@
       "rarity": "R",
       "category": "ポケモン",
       "energyType": "鋼",
-      "surugayaUrl": "/product/other/GN170291",
+      "surugayaUrl": "/product/detail/GN170291?tenpo_cd=410018",
       "surugayaPrice": 54,
       "surugayaSoldOut": true,
       "raritySlug": "r"
@@ -584,7 +584,7 @@
       "category": "グッズ",
       "energyType": "",
       "surugayaUrl": "/product/other/GN170296",
-      "surugayaPrice": 58,
+      "surugayaPrice": 55,
       "surugayaSoldOut": true,
       "raritySlug": "u"
     },
@@ -617,7 +617,7 @@
       "category": "ポケモンのどうぐ",
       "energyType": "",
       "surugayaUrl": "/product/other/GN170299",
-      "surugayaPrice": 39,
+      "surugayaPrice": 35,
       "surugayaSoldOut": true,
       "raritySlug": "u"
     },
@@ -694,22 +694,22 @@
       "category": "ポケモン",
       "energyType": "水",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN170306",
-      "surugayaPrice": 480,
+      "surugayaPrice": 430,
       "surugayaSoldOut": false,
       "raritySlug": "ar",
       "surugayaBuyPrice": null
     },
     {
-      "name": "タマンタ（Bランク）",
+      "name": "タマンタ",
       "cardNumber": "064/062",
       "rarity": "AR",
       "category": "ポケモン",
       "energyType": "水",
-      "surugayaUrl": "/product/detail/GN170307?branch_number=0077",
-      "surugayaPrice": 590,
+      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN170307",
+      "surugayaPrice": 980,
       "surugayaSoldOut": false,
       "raritySlug": "ar",
-      "surugayaBuyPrice": null
+      "surugayaBuyPrice": 400
     },
     {
       "name": "プラスル",
@@ -721,7 +721,7 @@
       "surugayaPrice": 2280,
       "surugayaSoldOut": false,
       "raritySlug": "ar",
-      "surugayaBuyPrice": null
+      "surugayaBuyPrice": 1200
     },
     {
       "name": "マイナン",
@@ -733,7 +733,7 @@
       "surugayaPrice": 2280,
       "surugayaSoldOut": false,
       "raritySlug": "ar",
-      "surugayaBuyPrice": null
+      "surugayaBuyPrice": 1000
     },
     {
       "name": "バチュル",
@@ -766,10 +766,10 @@
       "category": "ポケモン",
       "energyType": "闘",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN170312",
-      "surugayaPrice": 3480,
+      "surugayaPrice": 3980,
       "surugayaSoldOut": false,
       "raritySlug": "ar",
-      "surugayaBuyPrice": null
+      "surugayaBuyPrice": 2200
     },
     {
       "name": "メテノ",
@@ -793,7 +793,7 @@
       "surugayaPrice": 1580,
       "surugayaSoldOut": false,
       "raritySlug": "ar",
-      "surugayaBuyPrice": null
+      "surugayaBuyPrice": 800
     },
     {
       "name": "ナットレイ",
@@ -802,7 +802,7 @@
       "category": "ポケモン",
       "energyType": "鋼",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN170315",
-      "surugayaPrice": 480,
+      "surugayaPrice": 430,
       "surugayaSoldOut": false,
       "raritySlug": "ar",
       "surugayaBuyPrice": null
@@ -826,7 +826,7 @@
       "category": "ポケモン",
       "energyType": "",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN170317",
-      "surugayaPrice": 380,
+      "surugayaPrice": 340,
       "surugayaSoldOut": false,
       "raritySlug": "ar",
       "surugayaBuyPrice": null
@@ -850,10 +850,10 @@
       "category": "ポケモン",
       "energyType": "水",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN170319",
-      "surugayaPrice": 930,
+      "surugayaPrice": 1580,
       "surugayaSoldOut": false,
       "raritySlug": "sr",
-      "surugayaBuyPrice": null
+      "surugayaBuyPrice": 700
     },
     {
       "name": "カプ・コケコex",
@@ -937,7 +937,7 @@
       "surugayaPrice": 1280,
       "surugayaSoldOut": false,
       "raritySlug": "sr",
-      "surugayaBuyPrice": null
+      "surugayaBuyPrice": 600
     },
     {
       "name": "パラソルおねえさん",
@@ -949,7 +949,7 @@
       "surugayaPrice": 1080,
       "surugayaSoldOut": false,
       "raritySlug": "sr",
-      "surugayaBuyPrice": null
+      "surugayaBuyPrice": 450
     },
     {
       "name": "ガブリアスex",
@@ -961,7 +961,7 @@
       "surugayaPrice": 5980,
       "surugayaSoldOut": false,
       "raritySlug": "sar",
-      "surugayaBuyPrice": null
+      "surugayaBuyPrice": 3800
     },
     {
       "name": "カプ・コケコex",
@@ -973,7 +973,7 @@
       "surugayaPrice": 2980,
       "surugayaSoldOut": false,
       "raritySlug": "sar",
-      "surugayaBuyPrice": null
+      "surugayaBuyPrice": 1500
     },
     {
       "name": "サーフゴーex",
@@ -981,11 +981,11 @@
       "rarity": "SAR",
       "category": "ポケモン",
       "energyType": "鋼",
-      "surugayaUrl": "/product/other/GN170330",
-      "surugayaPrice": 2160,
-      "surugayaSoldOut": true,
+      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN170330",
+      "surugayaPrice": 4980,
+      "surugayaSoldOut": false,
       "raritySlug": "sar",
-      "surugayaBuyPrice": null
+      "surugayaBuyPrice": 2800
     },
     {
       "name": "チリ",
@@ -997,7 +997,7 @@
       "surugayaPrice": 3480,
       "surugayaSoldOut": false,
       "raritySlug": "sar",
-      "surugayaBuyPrice": null
+      "surugayaBuyPrice": 2200
     },
     {
       "name": "パラソルおねえさん",
@@ -1009,7 +1009,7 @@
       "surugayaPrice": 9480,
       "surugayaSoldOut": false,
       "raritySlug": "sar",
-      "surugayaBuyPrice": null
+      "surugayaBuyPrice": 6000
     },
     {
       "name": "ガブリアスex",
@@ -1018,10 +1018,10 @@
       "category": "ポケモン",
       "energyType": "水",
       "surugayaUrl": "/product/other/GN170333",
-      "surugayaPrice": 2360,
+      "surugayaPrice": 2411,
       "surugayaSoldOut": true,
       "raritySlug": "ur",
-      "surugayaBuyPrice": null
+      "surugayaBuyPrice": 1200
     },
     {
       "name": "ビーチコート",
@@ -1029,11 +1029,10 @@
       "rarity": "UR",
       "category": "スタジアム",
       "energyType": "",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN170334",
-      "surugayaPrice": 480,
-      "surugayaSoldOut": false,
-      "raritySlug": "ur",
-      "surugayaBuyPrice": null
+      "surugayaUrl": "/product/other/GN170334",
+      "surugayaPrice": 180,
+      "surugayaSoldOut": true,
+      "raritySlug": "ur"
     },
     {
       "name": "リバーサルエネルギー",
@@ -1045,7 +1044,7 @@
       "surugayaPrice": 780,
       "surugayaSoldOut": false,
       "raritySlug": "ur",
-      "surugayaBuyPrice": null
+      "surugayaBuyPrice": 300
     }
   ]
 }

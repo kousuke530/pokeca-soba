@@ -5,7 +5,7 @@ import PriceHistoryChart from '../../../components/PriceHistoryChart.astro';
 import VariantRow from '../../../components/VariantRow.astro';
 import ShopLinks from '../../../components/ShopLinks.astro';
 import { purchaseShops, buybackShops } from '../../../data/affiliates';
-import { allCards, getSeriesByName, seriesByPack } from '../../../data/cards';
+import { allCards, getSeriesByName, seriesByPack, priceAsOf } from '../../../data/cards';
 import { getPack } from '../../../data/packs';
 import type { Card } from '../../../data/types';
 
@@ -21,7 +21,7 @@ interface Props {
 }
 const { card } = Astro.props;
 
-const priceDate = '2026年6月18日';
+const priceDate = priceAsOf;
 const setCode = getPack(card.packSlug)?.setCode ?? card.packSlug.toUpperCase();
 const yen = (v: number | null) => (v == null ? '調査中' : `¥${v.toLocaleString('ja-JP')}`);
 const surugayaUrl = card.sellShops.find((s) => s.shop === '駿河屋')?.url ?? card.sellShops[0]?.url;
@@ -195,4 +195,10 @@ const jsonLd = JSON.stringify({
   .sec-link { font-size: 12px; font-weight: 600; }
   .note { font-size: 11px; color: var(--text-sub); margin: 10px 0 0; }
   .rel { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 10px; }
+
+  /* スマホ表示（heroが縦積みになる幅）ではカード画像を中央に */
+  @media (max-width: 560px) {
+    .hero { justify-content: center; }
+    .hero-img { flex-basis: 260px; }
+  }
 </style>

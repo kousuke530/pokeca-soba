@@ -1,7 +1,7 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
 import Breadcrumbs from '../components/Breadcrumbs.astro';
-import { topByPrice } from '../data/cards';
+import { topByPrice, priceAsOf } from '../data/cards';
 
 const title = 'ポケカ高額カードランキング｜ポケカ相場ドットコム';
 const description = 'ポケモンカードの販売価格が高い順のランキング。高額カードの最新相場を一覧で確認できます。';
@@ -12,7 +12,7 @@ const ranking = topByPrice(50);
 <BaseLayout title={title} description={description} path="/ranking">
   <Breadcrumbs items={[{ label: 'ホーム', href: '/' }, { label: 'ランキング' }]} />
   <h1 class="page-title">高額カードランキング</h1>
-  <p class="lead">販売価格が高い順。価格は2026年6月18日時点。</p>
+  <p class="lead">販売価格が高い順。価格は{priceAsOf}時点。</p>
 
   <ol class="rank">
     {

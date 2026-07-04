@@ -139,6 +139,23 @@ function buildCards(): Card[] {
 
 export const allCards: Card[] = buildCards();
 
+// ===== 価格の基準日（履歴データの最新日付を採用。ハードコードしない） =====
+/** 全履歴中の最新日付 (YYYY-MM-DD)。履歴が無ければ空文字 */
+export const latestHistoryDate: string = (() => {
+  let max = '';
+  for (const c of allCards) {
+    const last = c.history[c.history.length - 1]?.date;
+    if (last && last > max) max = last;
+  }
+  return max;
+})();
+/** 表示用の基準日（例: 2026年6月18日）。履歴が無ければ「調査中」 */
+export const priceAsOf: string = latestHistoryDate
+  ? `${latestHistoryDate.slice(0, 4)}年${Number(latestHistoryDate.slice(5, 7))}月${Number(
+      latestHistoryDate.slice(8, 10),
+    )}日`
+  : '調査中';
+
 // ===== カード名でグルーピング（シリーズ） =====
 // series.slug ＝ ポケモン名スラッグ（/list/[slug] のパラメータ）
 export const series: CardSeries[] = (() => {

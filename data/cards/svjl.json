@@ -2,7 +2,7 @@
   "pack": "バトルマスターデッキ テラスタル リザードンex",
   "packSlug": "svjl",
   "source": "surugaya",
-  "collectedAt": "2026-06-18T23:38:14.086Z",
+  "collectedAt": "2026-07-04T17:37:47.511Z",
   "count": 21,
   "cards": [
     {
@@ -34,10 +34,10 @@
       "category": "ポケモン",
       "energyType": "炎",
       "surugayaUrl": "/product/other/GN511204",
-      "surugayaPrice": 780,
+      "surugayaPrice": 647,
       "surugayaSoldOut": true,
       "raritySlug": "n",
-      "surugayaBuyPrice": null
+      "surugayaBuyPrice": 300
     },
     {
       "name": "ファイヤー",
@@ -67,9 +67,9 @@
       "rarity": "ノーマル",
       "category": "ポケモン",
       "energyType": "悪",
-      "surugayaUrl": "/product/detail/GN511207?tenpo_cd=400477",
-      "surugayaPrice": 380,
-      "surugayaSoldOut": true,
+      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN511207",
+      "surugayaPrice": 580,
+      "surugayaSoldOut": false,
       "raritySlug": "n",
       "surugayaBuyPrice": null
     },
@@ -167,8 +167,8 @@
       "rarity": "ノーマル",
       "category": "グッズ",
       "energyType": "",
-      "surugayaUrl": "/product/other/GN511216",
-      "surugayaPrice": 19,
+      "surugayaUrl": "/product/detail/GN511216?tenpo_cd=400386",
+      "surugayaPrice": 150,
       "surugayaSoldOut": true,
       "raritySlug": "n"
     },
@@ -233,8 +233,8 @@
       "rarity": "ノーマル",
       "category": "エネルギー",
       "energyType": "",
-      "surugayaUrl": "/product/other/GN511222",
-      "surugayaPrice": 37,
+      "surugayaUrl": "/product/detail/GN511222?tenpo_cd=400386",
+      "surugayaPrice": 150,
       "surugayaSoldOut": true,
       "raritySlug": "n"
     }

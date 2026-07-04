@@ -2,8 +2,8 @@
   "pack": "スターターセットMEGA メガゲンガーex",
   "packSlug": "mbg",
   "source": "surugaya",
-  "collectedAt": "2026-06-18T23:42:22.823Z",
-  "count": 15,
+  "collectedAt": "2026-07-04T17:42:13.120Z",
+  "count": 19,
   "cards": [
     {
       "name": "ゴース",
@@ -78,8 +78,30 @@
       "rarity": "ノーマル",
       "category": "グッズ",
       "energyType": "",
-      "surugayaUrl": "/product/detail/GU404868?tenpo_cd=201206",
-      "surugayaPrice": 160,
+      "surugayaUrl": "/product/detail/GU404868?tenpo_cd=200984",
+      "surugayaPrice": 180,
+      "surugayaSoldOut": true,
+      "raritySlug": "n"
+    },
+    {
+      "name": "ハイパーボール",
+      "cardNumber": "011/021",
+      "rarity": "ノーマル",
+      "category": "グッズ",
+      "energyType": "",
+      "surugayaUrl": "/product/detail/GU404869?tenpo_cd=200984",
+      "surugayaPrice": 100,
+      "surugayaSoldOut": true,
+      "raritySlug": "n"
+    },
+    {
+      "name": "ふしぎなアメ",
+      "cardNumber": "012/021",
+      "rarity": "ノーマル",
+      "category": "グッズ",
+      "energyType": "",
+      "surugayaUrl": "/product/other/GU404870",
+      "surugayaPrice": 100,
       "surugayaSoldOut": true,
       "raritySlug": "n"
     },
@@ -89,9 +111,9 @@
       "rarity": "ノーマル",
       "category": "グッズ",
       "energyType": "",
-      "surugayaUrl": "/product/other/GU404871",
+      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU404871",
       "surugayaPrice": 180,
-      "surugayaSoldOut": true,
+      "surugayaSoldOut": false,
       "raritySlug": "n"
     },
     {
@@ -123,7 +145,7 @@
       "category": "グッズ",
       "energyType": "",
       "surugayaUrl": "/product/other/GU404874",
-      "surugayaPrice": 120,
+      "surugayaPrice": 100,
       "surugayaSoldOut": true,
       "raritySlug": "n"
     },
@@ -133,8 +155,19 @@
       "rarity": "ノーマル",
       "category": "ポケモンのどうぐ",
       "energyType": "",
-      "surugayaUrl": "/product/detail/GU404875?tenpo_cd=400492",
+      "surugayaUrl": "/product/other/GU404875",
       "surugayaPrice": 80,
+      "surugayaSoldOut": true,
+      "raritySlug": "n"
+    },
+    {
+      "name": "ふうせん",
+      "cardNumber": "018/021",
+      "rarity": "ノーマル",
+      "category": "ポケモンのどうぐ",
+      "energyType": "",
+      "surugayaUrl": "/product/detail/GU404876?tenpo_cd=200984",
+      "surugayaPrice": 100,
       "surugayaSoldOut": true,
       "raritySlug": "n"
     },
@@ -150,13 +183,24 @@
       "raritySlug": "n"
     },
     {
+      "name": "ボスの指令",
+      "cardNumber": "020/021",
+      "rarity": "ノーマル",
+      "category": "サポート",
+      "energyType": "",
+      "surugayaUrl": "/product/detail/GU404878?tenpo_cd=200984",
+      "surugayaPrice": 100,
+      "surugayaSoldOut": true,
+      "raritySlug": "n"
+    },
+    {
       "name": "リーリエの決心",
       "cardNumber": "021/021",
       "rarity": "ノーマル",
       "category": "サポート",
       "energyType": "",
-      "surugayaUrl": "/product/detail/GU404879?tenpo_cd=201206",
-      "surugayaPrice": 120,
+      "surugayaUrl": "/product/detail/GU404879?tenpo_cd=200984",
+      "surugayaPrice": 180,
       "surugayaSoldOut": true,
       "raritySlug": "n"
     },
@@ -166,11 +210,11 @@
       "rarity": "ノーマル",
       "category": "ポケモン",
       "energyType": "悪",
-      "surugayaUrl": "/product/other/GU404880",
-      "surugayaPrice": 1370,
-      "surugayaSoldOut": true,
+      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU404880",
+      "surugayaPrice": 2280,
+      "surugayaSoldOut": false,
       "raritySlug": "n",
-      "surugayaBuyPrice": null
+      "surugayaBuyPrice": 1200
     }
   ]
 }

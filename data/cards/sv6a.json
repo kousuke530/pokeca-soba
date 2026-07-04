@@ -2,8 +2,8 @@
   "pack": "強化拡張パック「ナイトワンダラー」",
   "packSlug": "sv6a",
   "source": "surugaya",
-  "collectedAt": "2026-06-18T23:38:24.658Z",
-  "count": 93,
+  "collectedAt": "2026-07-04T17:37:58.996Z",
+  "count": 94,
   "cards": [
     {
       "name": "バチュル",
@@ -441,7 +441,7 @@
       "category": "ポケモン",
       "energyType": "鋼",
       "surugayaUrl": "/product/detail/GN544622?tenpo_cd=410018",
-      "surugayaPrice": 37,
+      "surugayaPrice": 35,
       "surugayaSoldOut": true,
       "raritySlug": "u"
     },
@@ -462,9 +462,9 @@
       "rarity": "R",
       "category": "ポケモン",
       "energyType": "鋼",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN544624",
-      "surugayaPrice": 160,
-      "surugayaSoldOut": false,
+      "surugayaUrl": "/product/other/GN544624",
+      "surugayaPrice": 35,
+      "surugayaSoldOut": true,
       "raritySlug": "r"
     },
     {
@@ -506,7 +506,7 @@
       "rarity": "R",
       "category": "ポケモン",
       "energyType": "ドラゴン",
-      "surugayaUrl": "/product/other/GN544628",
+      "surugayaUrl": "/product/detail/GN544628?tenpo_cd=410018",
       "surugayaPrice": 35,
       "surugayaSoldOut": true,
       "raritySlug": "r"
@@ -542,6 +542,17 @@
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN544631",
       "surugayaPrice": 160,
       "surugayaSoldOut": false,
+      "raritySlug": "c"
+    },
+    {
+      "name": "イーブイ",
+      "cardNumber": "050/064",
+      "rarity": "C",
+      "category": "ポケモン",
+      "energyType": "",
+      "surugayaUrl": "/product/detail/GN544632?tenpo_cd=410018",
+      "surugayaPrice": 18,
+      "surugayaSoldOut": true,
       "raritySlug": "c"
     },
     {
@@ -605,9 +616,9 @@
       "rarity": "U",
       "category": "グッズ",
       "energyType": "",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN544638",
-      "surugayaPrice": 160,
-      "surugayaSoldOut": false,
+      "surugayaUrl": "/product/other/GN544638",
+      "surugayaPrice": 110,
+      "surugayaSoldOut": true,
       "raritySlug": "u"
     },
     {
@@ -617,7 +628,7 @@
       "category": "ポケモンのどうぐ",
       "energyType": "",
       "surugayaUrl": "/product/other/GN544639",
-      "surugayaPrice": 34,
+      "surugayaPrice": 33,
       "surugayaSoldOut": true,
       "raritySlug": "u"
     },
@@ -628,7 +639,7 @@
       "category": "ポケモンのどうぐ",
       "energyType": "",
       "surugayaUrl": "/product/other/GN544640",
-      "surugayaPrice": 90,
+      "surugayaPrice": 150,
       "surugayaSoldOut": true,
       "raritySlug": "u"
     },
@@ -639,7 +650,7 @@
       "category": "サポート",
       "energyType": "",
       "surugayaUrl": "/product/other/GN544641",
-      "surugayaPrice": 94,
+      "surugayaPrice": 99,
       "surugayaSoldOut": true,
       "raritySlug": "u"
     },
@@ -705,7 +716,7 @@
       "category": "ポケモン",
       "energyType": "草",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN544647",
-      "surugayaPrice": 380,
+      "surugayaPrice": 340,
       "surugayaSoldOut": false,
       "raritySlug": "ar",
       "surugayaBuyPrice": null
@@ -720,7 +731,7 @@
       "surugayaPrice": 590,
       "surugayaSoldOut": false,
       "raritySlug": "ar",
-      "surugayaBuyPrice": null
+      "surugayaBuyPrice": 400
     },
     {
       "name": "タッツー",
@@ -732,7 +743,7 @@
       "surugayaPrice": 780,
       "surugayaSoldOut": false,
       "raritySlug": "ar",
-      "surugayaBuyPrice": null
+      "surugayaBuyPrice": 300
     },
     {
       "name": "ヨマワル",
@@ -744,7 +755,7 @@
       "surugayaPrice": 880,
       "surugayaSoldOut": false,
       "raritySlug": "ar",
-      "surugayaBuyPrice": null
+      "surugayaBuyPrice": 400
     },
     {
       "name": "サマヨール",
@@ -756,7 +767,7 @@
       "surugayaPrice": 980,
       "surugayaSoldOut": false,
       "raritySlug": "ar",
-      "surugayaBuyPrice": null
+      "surugayaBuyPrice": 400
     },
     {
       "name": "ヨノワール",
@@ -768,7 +779,7 @@
       "surugayaPrice": 980,
       "surugayaSoldOut": false,
       "raritySlug": "ar",
-      "surugayaBuyPrice": null
+      "surugayaBuyPrice": 400
     },
     {
       "name": "クレセリア",
@@ -792,7 +803,7 @@
       "surugayaPrice": 680,
       "surugayaSoldOut": false,
       "raritySlug": "ar",
-      "surugayaBuyPrice": null
+      "surugayaBuyPrice": 300
     },
     {
       "name": "ゾウドウ",
@@ -828,7 +839,7 @@
       "surugayaPrice": 1280,
       "surugayaSoldOut": false,
       "raritySlug": "ar",
-      "surugayaBuyPrice": null
+      "surugayaBuyPrice": 600
     },
     {
       "name": "キテルグマ",
@@ -837,20 +848,20 @@
       "category": "ポケモン",
       "energyType": "",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN544658",
-      "surugayaPrice": 480,
+      "surugayaPrice": 430,
       "surugayaSoldOut": false,
       "raritySlug": "ar",
       "surugayaBuyPrice": null
     },
     {
-      "name": "【ランクB】キングドラex",
+      "name": "キングドラex",
       "cardNumber": "077/064",
       "rarity": "SR",
       "category": "ポケモン",
       "energyType": "水",
-      "surugayaUrl": "/product/detail/GB544659?tenpo_cd=201206",
-      "surugayaPrice": 320,
-      "surugayaSoldOut": true,
+      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN544659",
+      "surugayaPrice": 480,
+      "surugayaSoldOut": false,
       "raritySlug": "sr",
       "surugayaBuyPrice": null
     },
@@ -900,7 +911,7 @@
       "surugayaPrice": 1580,
       "surugayaSoldOut": false,
       "raritySlug": "sr",
-      "surugayaBuyPrice": null
+      "surugayaBuyPrice": 700
     },
     {
       "name": "モモワロウex",
@@ -924,7 +935,7 @@
       "surugayaPrice": 980,
       "surugayaSoldOut": false,
       "raritySlug": "sr",
-      "surugayaBuyPrice": null
+      "surugayaBuyPrice": 400
     },
     {
       "name": "アンズの秘技",
@@ -936,7 +947,7 @@
       "surugayaPrice": 780,
       "surugayaSoldOut": false,
       "raritySlug": "sr",
-      "surugayaBuyPrice": null
+      "surugayaBuyPrice": 300
     },
     {
       "name": "カシオペア",
@@ -957,9 +968,10 @@
       "category": "サポート",
       "energyType": "",
       "surugayaUrl": "/product/other/GN544668",
-      "surugayaPrice": 230,
+      "surugayaPrice": 300,
       "surugayaSoldOut": true,
-      "raritySlug": "sr"
+      "raritySlug": "sr",
+      "surugayaBuyPrice": null
     },
     {
       "name": "イイネイヌex",
@@ -967,11 +979,11 @@
       "rarity": "SAR",
       "category": "ポケモン",
       "energyType": "悪",
-      "surugayaUrl": "/product/other/GN544669",
-      "surugayaPrice": 800,
-      "surugayaSoldOut": true,
+      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN544669",
+      "surugayaPrice": 980,
+      "surugayaSoldOut": false,
       "raritySlug": "sar",
-      "surugayaBuyPrice": null
+      "surugayaBuyPrice": 450
     },
     {
       "name": "マシマシラex",
@@ -983,7 +995,7 @@
       "surugayaPrice": 1080,
       "surugayaSoldOut": false,
       "raritySlug": "sar",
-      "surugayaBuyPrice": null
+      "surugayaBuyPrice": 500
     },
     {
       "name": "キチキギスex",
@@ -995,7 +1007,7 @@
       "surugayaPrice": 4280,
       "surugayaSoldOut": false,
       "raritySlug": "sar",
-      "surugayaBuyPrice": null
+      "surugayaBuyPrice": 2600
     },
     {
       "name": "モモワロウex",
@@ -1004,10 +1016,10 @@
       "category": "ポケモン",
       "energyType": "悪",
       "surugayaUrl": "/product/other/GN544672",
-      "surugayaPrice": 940,
+      "surugayaPrice": 930,
       "surugayaSoldOut": true,
       "raritySlug": "sar",
-      "surugayaBuyPrice": null
+      "surugayaBuyPrice": 800
     },
     {
       "name": "カシオペア",
@@ -1019,7 +1031,7 @@
       "surugayaPrice": 3280,
       "surugayaSoldOut": false,
       "raritySlug": "sar",
-      "surugayaBuyPrice": null
+      "surugayaBuyPrice": 2000
     },
     {
       "name": "モモワロウex",
@@ -1031,7 +1043,7 @@
       "surugayaPrice": 780,
       "surugayaSoldOut": false,
       "raritySlug": "ur",
-      "surugayaBuyPrice": null
+      "surugayaBuyPrice": 300
     },
     {
       "name": "大地の器",
@@ -1043,7 +1055,7 @@
       "surugayaPrice": 980,
       "surugayaSoldOut": false,
       "raritySlug": "ur",
-      "surugayaBuyPrice": null
+      "surugayaBuyPrice": 400
     },
     {
       "name": "力の砂時計",
@@ -1052,10 +1064,10 @@
       "category": "ポケモンのどうぐ",
       "energyType": "",
       "surugayaUrl": "/product/other/GN544676",
-      "surugayaPrice": 686,
+      "surugayaPrice": 920,
       "surugayaSoldOut": true,
       "raritySlug": "ur",
-      "surugayaBuyPrice": null
+      "surugayaBuyPrice": 450
     }
   ]
 }

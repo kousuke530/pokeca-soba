@@ -2,7 +2,7 @@
   "pack": "拡張パック「ロケット団の栄光」",
   "packSlug": "sv10",
   "source": "surugaya",
-  "collectedAt": "2026-06-18T23:40:38.533Z",
+  "collectedAt": "2026-07-04T17:40:20.531Z",
   "count": 130,
   "cards": [
     {
@@ -199,7 +199,7 @@
       "category": "ポケモン",
       "energyType": "炎",
       "surugayaUrl": "/product/other/GU166899",
-      "surugayaPrice": 39,
+      "surugayaPrice": 20,
       "surugayaSoldOut": true,
       "raritySlug": "c"
     },
@@ -210,7 +210,7 @@
       "category": "ポケモン",
       "energyType": "炎",
       "surugayaUrl": "/product/other/GU166900",
-      "surugayaPrice": 39,
+      "surugayaPrice": 20,
       "surugayaSoldOut": true,
       "raritySlug": "c"
     },
@@ -220,7 +220,7 @@
       "rarity": "R",
       "category": "ポケモン",
       "energyType": "炎",
-      "surugayaUrl": "/product/other/GU166846",
+      "surugayaUrl": "/product/detail/GU166846?tenpo_cd=410018",
       "surugayaPrice": 79,
       "surugayaSoldOut": true,
       "raritySlug": "r"
@@ -430,7 +430,7 @@
       "category": "ポケモン",
       "energyType": "超",
       "surugayaUrl": "/product/other/GU166840",
-      "surugayaPrice": 100,
+      "surugayaPrice": 150,
       "surugayaSoldOut": true,
       "raritySlug": "rr"
     },
@@ -693,9 +693,9 @@
       "rarity": "RR",
       "category": "ポケモン",
       "energyType": "悪",
-      "surugayaUrl": "/product/other/GU166842",
-      "surugayaPrice": 65,
-      "surugayaSoldOut": true,
+      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU166842",
+      "surugayaPrice": 160,
+      "surugayaSoldOut": false,
       "raritySlug": "rr"
     },
     {
@@ -716,7 +716,7 @@
       "category": "ポケモン",
       "energyType": "悪",
       "surugayaUrl": "/product/other/GU166870",
-      "surugayaPrice": 60,
+      "surugayaPrice": 69,
       "surugayaSoldOut": true,
       "raritySlug": "u"
     },
@@ -1024,7 +1024,7 @@
       "category": "サポート",
       "energyType": "",
       "surugayaUrl": "/product/other/GU166882",
-      "surugayaPrice": 90,
+      "surugayaPrice": 99,
       "surugayaSoldOut": true,
       "raritySlug": "u"
     },
@@ -1034,9 +1034,9 @@
       "rarity": "U",
       "category": "サポート",
       "energyType": "",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU166883",
-      "surugayaPrice": 280,
-      "surugayaSoldOut": false,
+      "surugayaUrl": "/product/other/GU166883",
+      "surugayaPrice": 238,
+      "surugayaSoldOut": true,
       "raritySlug": "u"
     },
     {
@@ -1057,7 +1057,7 @@
       "category": "スタジアム",
       "energyType": "",
       "surugayaUrl": "/product/other/GU166885",
-      "surugayaPrice": 100,
+      "surugayaPrice": 150,
       "surugayaSoldOut": true,
       "raritySlug": "u"
     },
@@ -1079,7 +1079,7 @@
       "category": "エネルギー",
       "energyType": "",
       "surugayaUrl": "/product/other/GU166887",
-      "surugayaPrice": 70,
+      "surugayaPrice": 80,
       "surugayaSoldOut": true,
       "raritySlug": "u"
     },
@@ -1105,7 +1105,7 @@
       "surugayaPrice": 980,
       "surugayaSoldOut": false,
       "raritySlug": "ar",
-      "surugayaBuyPrice": null
+      "surugayaBuyPrice": 400
     },
     {
       "name": "バシャーモ",
@@ -1117,7 +1117,7 @@
       "surugayaPrice": 980,
       "surugayaSoldOut": false,
       "raritySlug": "ar",
-      "surugayaBuyPrice": null
+      "surugayaBuyPrice": 450
     },
     {
       "name": "パールル",
@@ -1138,10 +1138,10 @@
       "category": "ポケモン",
       "energyType": "超",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU166829",
-      "surugayaPrice": 780,
+      "surugayaPrice": 470,
       "surugayaSoldOut": false,
       "raritySlug": "ar",
-      "surugayaBuyPrice": null
+      "surugayaBuyPrice": 300
     },
     {
       "name": "ロケット団のイオルブ",
@@ -1209,11 +1209,11 @@
       "rarity": "AR",
       "category": "ポケモン",
       "energyType": "",
-      "surugayaUrl": "/product/other/GU166835",
-      "surugayaPrice": 1140,
-      "surugayaSoldOut": true,
+      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU166835",
+      "surugayaPrice": 1980,
+      "surugayaSoldOut": false,
       "raritySlug": "ar",
-      "surugayaBuyPrice": null
+      "surugayaBuyPrice": 1000
     },
     {
       "name": "ガルーラ",
@@ -1245,11 +1245,11 @@
       "rarity": "SR",
       "category": "ポケモン",
       "energyType": "炎",
-      "surugayaUrl": "/product/other/GU166813",
-      "surugayaPrice": 600,
-      "surugayaSoldOut": true,
+      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU166813",
+      "surugayaPrice": 1280,
+      "surugayaSoldOut": false,
       "raritySlug": "sr",
-      "surugayaBuyPrice": null
+      "surugayaBuyPrice": 500
     },
     {
       "name": "ハルクジラex",
@@ -1270,10 +1270,10 @@
       "category": "ポケモン",
       "energyType": "超",
       "surugayaUrl": "/product/other/GU166815",
-      "surugayaPrice": 2830,
+      "surugayaPrice": 1970,
       "surugayaSoldOut": true,
       "raritySlug": "sr",
-      "surugayaBuyPrice": null
+      "surugayaBuyPrice": 1400
     },
     {
       "name": "レジロックex",
@@ -1309,7 +1309,7 @@
       "surugayaPrice": 880,
       "surugayaSoldOut": false,
       "raritySlug": "sr",
-      "surugayaBuyPrice": null
+      "surugayaBuyPrice": 400
     },
     {
       "name": "ロケット団のペルシアンex",
@@ -1321,7 +1321,7 @@
       "surugayaPrice": 880,
       "surugayaSoldOut": false,
       "raritySlug": "sr",
-      "surugayaBuyPrice": null
+      "surugayaBuyPrice": 400
     },
     {
       "name": "ロケット団のアテナ",
@@ -1333,7 +1333,7 @@
       "surugayaPrice": 1280,
       "surugayaSoldOut": false,
       "raritySlug": "sr",
-      "surugayaBuyPrice": null
+      "surugayaBuyPrice": 600
     },
     {
       "name": "ロケット団のアポロ",
@@ -1345,7 +1345,7 @@
       "surugayaPrice": 1580,
       "surugayaSoldOut": false,
       "raritySlug": "sr",
-      "surugayaBuyPrice": null
+      "surugayaBuyPrice": 700
     },
     {
       "name": "ロケット団のサカキ",
@@ -1357,7 +1357,7 @@
       "surugayaPrice": 1380,
       "surugayaSoldOut": false,
       "raritySlug": "sr",
-      "surugayaBuyPrice": null
+      "surugayaBuyPrice": 600
     },
     {
       "name": "ロケット団のランス",
@@ -1369,7 +1369,7 @@
       "surugayaPrice": 1480,
       "surugayaSoldOut": false,
       "raritySlug": "sr",
-      "surugayaBuyPrice": null
+      "surugayaBuyPrice": 700
     },
     {
       "name": "ロケット団のファイヤーex",
@@ -1381,7 +1381,7 @@
       "surugayaPrice": 19000,
       "surugayaSoldOut": false,
       "raritySlug": "sar",
-      "surugayaBuyPrice": null
+      "surugayaBuyPrice": 15000
     },
     {
       "name": "ロケット団のミュウツーex",
@@ -1390,10 +1390,10 @@
       "category": "ポケモン",
       "energyType": "超",
       "surugayaUrl": "/product/other/GU166807",
-      "surugayaPrice": 84300,
+      "surugayaPrice": 56811,
       "surugayaSoldOut": true,
       "raritySlug": "sar",
-      "surugayaBuyPrice": null
+      "surugayaBuyPrice": 55000
     },
     {
       "name": "ロケット団のニドキングex",
@@ -1405,7 +1405,7 @@
       "surugayaPrice": 13800,
       "surugayaSoldOut": false,
       "raritySlug": "sar",
-      "surugayaBuyPrice": null
+      "surugayaBuyPrice": 8000
     },
     {
       "name": "ロケット団のクロバットex",
@@ -1417,7 +1417,7 @@
       "surugayaPrice": 8980,
       "surugayaSoldOut": false,
       "raritySlug": "sar",
-      "surugayaBuyPrice": null
+      "surugayaBuyPrice": 6500
     },
     {
       "name": "ロケット団のアテナ",
@@ -1425,11 +1425,11 @@
       "rarity": "SAR",
       "category": "サポート",
       "energyType": "",
-      "surugayaUrl": "/product/other/GU166810",
-      "surugayaPrice": 2140,
-      "surugayaSoldOut": true,
+      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU166810",
+      "surugayaPrice": 2980,
+      "surugayaSoldOut": false,
       "raritySlug": "sar",
-      "surugayaBuyPrice": null
+      "surugayaBuyPrice": 1800
     },
     {
       "name": "ロケット団のサカキ",
@@ -1441,7 +1441,7 @@
       "surugayaPrice": 3280,
       "surugayaSoldOut": false,
       "raritySlug": "sar",
-      "surugayaBuyPrice": null
+      "surugayaBuyPrice": 2000
     },
     {
       "name": "ロケット団のクロバットex",
@@ -1449,11 +1449,11 @@
       "rarity": "UR",
       "category": "ポケモン",
       "energyType": "悪",
-      "surugayaUrl": "/product/other/GU166804",
-      "surugayaPrice": 1300,
-      "surugayaSoldOut": true,
+      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU166804",
+      "surugayaPrice": 1580,
+      "surugayaSoldOut": false,
       "raritySlug": "ur",
-      "surugayaBuyPrice": null
+      "surugayaBuyPrice": 800
     },
     {
       "name": "ジャミングタワー",
@@ -1462,10 +1462,10 @@
       "category": "スタジアム",
       "energyType": "",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU166805",
-      "surugayaPrice": 1980,
+      "surugayaPrice": 1780,
       "surugayaSoldOut": false,
       "raritySlug": "ur",
-      "surugayaBuyPrice": null
+      "surugayaBuyPrice": 1000
     }
   ]
 }

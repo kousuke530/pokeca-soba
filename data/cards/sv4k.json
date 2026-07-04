@@ -2,8 +2,8 @@
   "pack": "拡張パック「古代の咆哮」",
   "packSlug": "sv4k",
   "source": "surugaya",
-  "collectedAt": "2026-06-18T23:36:20.632Z",
-  "count": 96,
+  "collectedAt": "2026-07-04T17:35:43.365Z",
+  "count": 95,
   "cards": [
     {
       "name": "ヤナップ",
@@ -441,7 +441,7 @@
       "category": "ポケモン",
       "energyType": "闘",
       "surugayaUrl": "/product/other/GN228464",
-      "surugayaPrice": 89,
+      "surugayaPrice": 84,
       "surugayaSoldOut": true,
       "raritySlug": "r"
     },
@@ -650,7 +650,7 @@
       "category": "グッズ",
       "energyType": "",
       "surugayaUrl": "/product/other/GN228483",
-      "surugayaPrice": 37,
+      "surugayaPrice": 40,
       "surugayaSoldOut": true,
       "raritySlug": "u"
     },
@@ -683,7 +683,7 @@
       "category": "ポケモンのどうぐ",
       "energyType": "",
       "surugayaUrl": "/product/other/GN228486",
-      "surugayaPrice": 48,
+      "surugayaPrice": 40,
       "surugayaSoldOut": true,
       "raritySlug": "u"
     },
@@ -694,7 +694,7 @@
       "category": "ポケモンのどうぐ",
       "energyType": "",
       "surugayaUrl": "/product/other/GN228487",
-      "surugayaPrice": 37,
+      "surugayaPrice": 30,
       "surugayaSoldOut": true,
       "raritySlug": "u"
     },
@@ -738,9 +738,10 @@
       "category": "ポケモン",
       "energyType": "草",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN228491",
-      "surugayaPrice": 230,
+      "surugayaPrice": 340,
       "surugayaSoldOut": false,
-      "raritySlug": "ar"
+      "raritySlug": "ar",
+      "surugayaBuyPrice": null
     },
     {
       "name": "ブビィ",
@@ -761,7 +762,7 @@
       "category": "ポケモン",
       "energyType": "水",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN228493",
-      "surugayaPrice": 380,
+      "surugayaPrice": 340,
       "surugayaSoldOut": false,
       "raritySlug": "ar",
       "surugayaBuyPrice": null
@@ -773,7 +774,7 @@
       "category": "ポケモン",
       "energyType": "水",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN228494",
-      "surugayaPrice": 480,
+      "surugayaPrice": 430,
       "surugayaSoldOut": false,
       "raritySlug": "ar",
       "surugayaBuyPrice": null
@@ -785,7 +786,7 @@
       "category": "ポケモン",
       "energyType": "超",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN228495",
-      "surugayaPrice": 380,
+      "surugayaPrice": 340,
       "surugayaSoldOut": false,
       "raritySlug": "ar",
       "surugayaBuyPrice": null
@@ -797,7 +798,7 @@
       "category": "ポケモン",
       "energyType": "闘",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN228496",
-      "surugayaPrice": 480,
+      "surugayaPrice": 430,
       "surugayaSoldOut": false,
       "raritySlug": "ar",
       "surugayaBuyPrice": null
@@ -809,7 +810,7 @@
       "category": "ポケモン",
       "energyType": "闘",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN228497",
-      "surugayaPrice": 480,
+      "surugayaPrice": 430,
       "surugayaSoldOut": false,
       "raritySlug": "ar",
       "surugayaBuyPrice": null
@@ -821,7 +822,7 @@
       "category": "ポケモン",
       "energyType": "闘",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN228498",
-      "surugayaPrice": 480,
+      "surugayaPrice": 430,
       "surugayaSoldOut": false,
       "raritySlug": "ar",
       "surugayaBuyPrice": null
@@ -833,7 +834,7 @@
       "category": "ポケモン",
       "energyType": "悪",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN228499",
-      "surugayaPrice": 480,
+      "surugayaPrice": 430,
       "surugayaSoldOut": false,
       "raritySlug": "ar",
       "surugayaBuyPrice": null
@@ -844,11 +845,11 @@
       "rarity": "AR",
       "category": "ポケモン",
       "energyType": "悪",
-      "surugayaUrl": "/product/other/GN228500",
-      "surugayaPrice": 520,
-      "surugayaSoldOut": true,
+      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN228500",
+      "surugayaPrice": 980,
+      "surugayaSoldOut": false,
       "raritySlug": "ar",
-      "surugayaBuyPrice": null
+      "surugayaBuyPrice": 400
     },
     {
       "name": "アラブルタケ",
@@ -953,10 +954,10 @@
       "category": "サポート",
       "energyType": "",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN228509",
-      "surugayaPrice": 780,
+      "surugayaPrice": 450,
       "surugayaSoldOut": false,
       "raritySlug": "sr",
-      "surugayaBuyPrice": null
+      "surugayaBuyPrice": 300
     },
     {
       "name": "センリ",
@@ -992,7 +993,7 @@
       "surugayaPrice": 2480,
       "surugayaSoldOut": false,
       "raritySlug": "sar",
-      "surugayaBuyPrice": null
+      "surugayaBuyPrice": 1200
     },
     {
       "name": "スナノケガワex",
@@ -1004,7 +1005,7 @@
       "surugayaPrice": 1280,
       "surugayaSoldOut": false,
       "raritySlug": "sar",
-      "surugayaBuyPrice": null
+      "surugayaBuyPrice": 600
     },
     {
       "name": "トドロクツキex",
@@ -1016,7 +1017,7 @@
       "surugayaPrice": 6480,
       "surugayaSoldOut": false,
       "raritySlug": "sar",
-      "surugayaBuyPrice": null
+      "surugayaBuyPrice": 4000
     },
     {
       "name": "オーリム博士の気迫",
@@ -1028,7 +1029,7 @@
       "surugayaPrice": 1680,
       "surugayaSoldOut": false,
       "raritySlug": "sar",
-      "surugayaBuyPrice": null
+      "surugayaBuyPrice": 800
     },
     {
       "name": "メロコ",
@@ -1036,11 +1037,11 @@
       "rarity": "SAR",
       "category": "サポート",
       "energyType": "",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN228516",
-      "surugayaPrice": 2280,
-      "surugayaSoldOut": false,
+      "surugayaUrl": "/product/other/GN228516",
+      "surugayaPrice": 1210,
+      "surugayaSoldOut": true,
       "raritySlug": "sar",
-      "surugayaBuyPrice": null
+      "surugayaBuyPrice": 1200
     },
     {
       "name": "トドロクツキex",
@@ -1052,7 +1053,7 @@
       "surugayaPrice": 980,
       "surugayaSoldOut": false,
       "raritySlug": "ur",
-      "surugayaBuyPrice": null
+      "surugayaBuyPrice": 450
     },
     {
       "name": "ゴージャスマント",
@@ -1060,23 +1061,10 @@
       "rarity": "UR",
       "category": "ポケモンのどうぐ",
       "energyType": "",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN228518",
-      "surugayaPrice": 480,
-      "surugayaSoldOut": false,
-      "raritySlug": "ur",
-      "surugayaBuyPrice": null
-    },
-    {
-      "name": "基本あくエネルギー",
-      "cardNumber": "095/066",
-      "rarity": "UR",
-      "category": "エネルギー",
-      "energyType": "",
-      "surugayaUrl": "/product/other/GN228519",
-      "surugayaPrice": 2990,
+      "surugayaUrl": "/product/other/GN228518",
+      "surugayaPrice": 270,
       "surugayaSoldOut": true,
-      "raritySlug": "ur",
-      "surugayaBuyPrice": null
+      "raritySlug": "ur"
     },
     {
       "name": "コソクムシ",
