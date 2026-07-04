@@ -1,13 +1,13 @@
-# 毎日の価格更新 & GitHub Pages デプロイ（完全自動・Claude非依存）
-#   schedule      … 毎日定時に スクレイピング→履歴追記→ビルド→デプロイ
+# GitHub Pages デプロイ（＋手動実行時のみ価格収集を試行）
+#   push(main)        … data/やコード更新時に build & deploy（スクレイピングはしない）
 #   workflow_dispatch … 手動実行（Actionsタブのボタン）
-#   push(main)    … コード更新時はビルド&デプロイのみ（スクレイピングはしない）
+#
+# 注: 日次の価格収集は駿河屋がGitHubのデータセンターIPを弾くためクラウドでは取得できない。
+#     収集は自宅Macの launchd（scripts/daily-update.sh）で行い data/ を push する運用。
+#     そのため schedule(cron) トリガーは廃止（毎日4h43mかけて0件になる無駄実行を回避）。
 name: Daily price update & deploy
 
 on:
-  schedule:
-    # UTC表記。'0 22 * * *' = 毎日 07:00 JST。時刻を変えたいときはここを編集。
-    - cron: '0 22 * * *'
   workflow_dispatch:
   push:
     branches: [main]
