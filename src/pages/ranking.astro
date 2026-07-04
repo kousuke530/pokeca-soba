@@ -3,7 +3,7 @@ import BaseLayout from '../layouts/BaseLayout.astro';
 import Breadcrumbs from '../components/Breadcrumbs.astro';
 import { topByPrice } from '../data/cards';
 
-const title = 'ポケカ高額カードランキング｜ポケカ価格相場ナビ';
+const title = 'ポケカ高額カードランキング｜ポケカ相場ドットコム';
 const description = 'ポケモンカードの販売価格が高い順のランキング。高額カードの最新相場を一覧で確認できます。';
 const yen = (v: number | null) => (v == null ? '調査中' : `${v.toLocaleString('ja-JP')}円`);
 const ranking = topByPrice(50);

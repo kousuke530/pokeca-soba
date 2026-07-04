@@ -30,7 +30,7 @@ const canonical = new URL(path, Astro.site).href;
   <body>
     <header class="site-header">
       <div class="site-header-inner">
-        <a href="/" class="site-logo">ポケカ価格相場ナビ</a>
+        <a href="/" class="site-logo">ポケカ相場ドットコム</a>
         <nav class="site-nav" aria-label="グローバルナビ">
           <a href="/search">検索</a>
           <a href="/list">ポケモン一覧</a>
@@ -46,7 +46,12 @@ const canonical = new URL(path, Astro.site).href;
       <p>
         当サイトはアフィリエイトプログラムにより収益を得ています。表示価格は参考値であり、実際の価格は各販売サイトをご確認ください。
       </p>
-      <p class="copyright">© ポケカ価格相場ナビ</p>
+      <nav class="footer-nav" aria-label="フッター">
+        <a href="/about">運営者情報</a>
+        <a href="/terms">利用規約</a>
+        <a href="/privacy">プライバシーポリシー</a>
+      </nav>
+      <p class="copyright">© ポケカ相場ドットコム</p>
     </footer>
 
     <style is:global>
@@ -119,6 +124,18 @@ const canonical = new URL(path, Astro.site).href;
         color: var(--text-sub);
         border-top: 1px solid var(--border);
       }
+      .footer-nav {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 8px 16px;
+        margin-top: 10px;
+      }
+      .footer-nav a {
+        color: var(--text-sub);
+        text-decoration: none;
+        font-size: 12px;
+      }
+      .footer-nav a:hover { color: var(--brand); }
       .copyright { margin-top: 8px; }
     </style>
   </body>

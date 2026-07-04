@@ -1,0 +1,65 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import Breadcrumbs from '../components/Breadcrumbs.astro';
+
+const title = '運営者情報｜ポケカ相場ドットコム';
+const description = 'ポケカ相場ドットコム（pokeca-soba.com）の運営者情報・お問い合わせ・アフィリエイトに関する表示です。';
+const updated = '2026年6月30日';
+---
+
+<BaseLayout title={title} description={description} path="/about">
+  <Breadcrumbs items={[{ label: 'ホーム', href: '/' }, { label: '運営者情報' }]} />
+  <h1 class="page-title">運営者情報</h1>
+
+  <div class="prose">
+    <table class="info">
+      <tbody>
+        <tr><th>サイト名</th><td>ポケカ相場ドットコム</td></tr>
+        <tr><th>URL</th><td>https://pokeca-soba.com</td></tr>
+        <tr><th>お問い合わせ</th><td><a href="mailto:pokecasoba@gmail.com">pokecasoba@gmail.com</a></td></tr>
+      </tbody>
+    </table>
+
+    <h2>サイトの目的</h2>
+    <p>
+      当サイト「ポケカ相場ドットコム」は、ポケモンカードの販売価格・買取価格・価格推移を複数のショップ横断でまとめ、
+      各販売・買取サイトへご案内する価格相場の情報メディアです。当サイト自体はカードの販売・買取を行っておりません。
+    </p>
+
+    <h2>アフィリエイトプログラムについて</h2>
+    <p>
+      当サイトは、第三者が運営するアフィリエイトプログラム（ASP）等を利用しており、掲載しているリンクを経由して
+      商品の購入・申込等が行われた場合、当サイトが対価（紹介料）を得ることがあります。
+    </p>
+
+    <h2>掲載価格・情報について</h2>
+    <p>
+      掲載している価格は、各ショップの公開情報をもとに自動取得した参考値であり、取得時点の情報です。
+      在庫状況・キャンペーン等により、実際の価格や在庫は変動します。最新かつ正確な価格・在庫は、必ず各販売・買取サイトでご確認ください。
+      当サイトの情報は正確性・完全性を保証するものではありません。
+    </p>
+
+    <h2>カード画像・権利表記</h2>
+    <p>
+      カード画像は各出典サイトのものを参照して表示しています（出典は各画像に明記）。
+      「ポケモン」「ポケットモンスター」およびカード名・イラスト等の著作権・商標は、株式会社ポケモン、任天堂、
+      株式会社クリーチャーズ、株式会社ゲームフリーク等の各権利者に帰属します。当サイトは各権利者とは一切関係のない非公式サイトです。
+    </p>
+
+    <h2>お問い合わせ</h2>
+    <p>ご意見・掲載内容の削除依頼・その他お問い合わせは、上記の連絡先までご連絡ください。</p>
+
+    <p class="updated">最終更新日：{updated}</p>
+  </div>
+</BaseLayout>
+
+<style>
+  .page-title { font-size: 22px; margin: 0 0 16px; }
+  .prose { font-size: 14px; line-height: 1.9; color: var(--text); }
+  .prose h2 { font-size: 16px; border-left: 4px solid var(--brand); padding-left: 8px; margin: 28px 0 10px; }
+  .prose p { margin: 0 0 12px; }
+  .info { width: 100%; border-collapse: collapse; margin: 0 0 8px; font-size: 14px; }
+  .info th, .info td { border: 1px solid var(--border); padding: 10px 12px; text-align: left; vertical-align: top; }
+  .info th { background: #fafafa; white-space: nowrap; width: 34%; font-weight: 600; }
+  .updated { margin-top: 28px; font-size: 12px; color: var(--text-sub); }
+</style>
