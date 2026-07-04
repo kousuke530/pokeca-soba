@@ -51,7 +51,7 @@ const jsonLd = JSON.stringify({
   '@context': 'https://schema.org',
   '@type': 'Product',
   name: `${card.name}(${card.rarity}) ${card.cardNumber}`,
-  image: new URL(card.image, Astro.site).href,
+  image: new URL(card.imageLarge, Astro.site).href,
   category: card.category,
   sku: card.cardNumber,
   description,
@@ -85,7 +85,7 @@ const jsonLd = JSON.stringify({
   <div class="hero">
     <figure class="hero-img">
       <img
-        src={card.image}
+        src={card.imageLarge}
         alt={`${card.name}(${card.rarity}) ${card.cardNumber}`}
         width="300"
         height="419"
@@ -117,14 +117,6 @@ const jsonLd = JSON.stringify({
         </div>
       </div>
       <p class="src">価格は{priceDate}時点。</p>
-
-      {
-        surugayaUrl && (
-          <a href={surugayaUrl} class="buy" target="_blank" rel="nofollow sponsored noopener">
-            駿河屋でチェック <span>↗</span>
-          </a>
-        )
-      }
 
       <dl class="spec">
         <div><dt>収録パック</dt><dd><a href={`/pack/${card.packSlug}`}>{card.pack}</a></dd></div>
@@ -192,8 +184,6 @@ const jsonLd = JSON.stringify({
   .t-sell .pval { color: #e02e4d; }
   .t-buy .pval { color: #1c9e5a; }
   .src { font-size: 11px; color: var(--text-sub); text-align: right; margin: 8px 2px 0; }
-  .buy { display: flex; align-items: center; justify-content: center; gap: 6px; margin-top: 14px; padding: 14px; border-radius: 10px; background: #ff6f00; color: #fff; font-weight: 800; font-size: 15px; text-decoration: none; }
-  .buy:hover { background: #e65c00; }
   .spec { margin: 18px 0 0; display: flex; flex-direction: column; gap: 0; font-size: 13px; }
   .spec div { display: flex; gap: 12px; padding: 8px 0; border-top: 1px solid #f0f0f0; }
   .spec dt { flex: 0 0 88px; color: var(--text-sub); margin: 0; }

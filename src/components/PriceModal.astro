@@ -1,6 +1,8 @@
 ---
 import type { Card } from '../data/types';
 import PriceHistoryChart from './PriceHistoryChart.astro';
+import ShopLinks from './ShopLinks.astro';
+import { purchaseShops, buybackShops } from '../data/affiliates';
 
 interface Props {
   card: Card;
@@ -16,6 +18,10 @@ const id = `modal-${card.slug}`;
 const detailUrl = card.path;
 const yen = (v: number | null | undefined) => (v == null ? '調査中' : `¥${v.toLocaleString('ja-JP')}`);
 const surugayaUrl = card.sellShops.find((s) => s.shop === '駿河屋')?.url ?? card.sellShops[0]?.url;
+// 販売ショップの駿河屋は当該カードの商品ページに直リンク
+const purchase = surugayaUrl
+  ? purchaseShops.map((s) => (s.name === '駿河屋' ? { ...s, url: surugayaUrl } : s))
+  : purchaseShops;
 const categoryLabel =
   card.category === 'ポケモン' && card.energyType ? `ポケモン・${card.energyType}` : card.category;
 ---
@@ -56,13 +62,11 @@ const categoryLabel =
       <PriceHistoryChart history={card.history} />
     </details>
 
-    {
-      surugayaUrl && (
-        <a href={surugayaUrl} class="pm-buy" target="_blank" rel="nofollow sponsored noopener">
-          駿河屋でチェック <span>↗</span>
-        </a>
-      )
-    }
+    <div class="pm-shops">
+      <ShopLinks title="買えるショップ" shops={purchase} variant="buy" showNote={false} />
+      <ShopLinks title="売れるショップ（買取）" shops={buybackShops} variant="sell" showNote={false} />
+      <p class="pm-shops-note">各ショップの販売・買取ページへ移動します。</p>
+    </div>
 
     <div class="pm-cta">
       <a href={detailUrl} class="cta cta-main">詳細・価格推移を見る</a>
@@ -130,19 +134,12 @@ const categoryLabel =
   .pm-hist summary::-webkit-details-marker { display: none; }
   .pm-hist summary::before { content: "📈 "; }
 
-  .pm-buy {
-    display: flex; align-items: center; justify-content: center; gap: 6px;
-    margin-top: 16px; padding: 14px; border-radius: 10px;
-    background: #ff6f00; color: #fff; font-weight: 800; font-size: 15px; text-decoration: none;
-  }
-  .pm-buy:hover { background: #e65c00; }
+  .pm-shops-note { font-size: 11px; color: var(--text-sub); margin: 10px 2px 0; }
 
-  .pm-cta { display: flex; flex-direction: column; gap: 8px; margin-top: 10px; }
+  .pm-cta { display: flex; flex-direction: column; gap: 8px; margin-top: 16px; }
   .cta { display: block; text-align: center; text-decoration: none; font-weight: 800; padding: 12px; border-radius: 10px; font-size: 14px; }
   .cta-main { background: var(--brand); color: #fff; }
   .cta-main:hover { background: var(--brand-dark); }
   .cta-sub { background: #fff; color: var(--brand); border: 1.5px solid var(--brand); }
   .cta-sub:hover { background: var(--brand-light); }
-
-  .pm-note { font-size: 11px; color: var(--text-sub); margin: 14px 0 0; line-height: 1.6; }
 </style>

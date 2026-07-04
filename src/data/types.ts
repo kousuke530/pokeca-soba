@@ -53,8 +53,10 @@ export interface Card {
   pack: string;
   /** 収録パックのスラッグ（packs.ts の Pack.slug と一致） */
   packSlug: string;
-  /** カード画像パス（public/ 配下 or 外部URL） */
+  /** カード画像パス（public/ 配下 or 外部URL）。一覧/サムネ用の中サイズ */
   image: string;
+  /** 高解像度画像URL（詳細ページのメイン表示用） */
+  imageLarge: string;
 
   /** 現在の販売価格（円）。未取得は null */
   sellPrice: number | null;

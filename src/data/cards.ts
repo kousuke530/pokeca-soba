@@ -49,9 +49,10 @@ function makeId(setCode: string, cardNumber: string, raritySlug: string): string
  */
 const SURUGAYA_ORIGIN = 'https://www.suruga-ya.jp';
 
-function surugayaImage(surugayaUrl: string): string {
+// size=m … 139×192(一覧/サムネ用) / size=l … 740×1024(詳細ページ用の高解像度)
+function surugayaImage(surugayaUrl: string, size: 'm' | 'l' = 'm'): string {
   const pid = surugayaUrl.split('?')[0].match(/([A-Za-z]+\d+)$/)?.[1];
-  return pid ? `${SURUGAYA_ORIGIN}/database/photo.php?shinaban=${pid}&size=m` : PLACEHOLDER;
+  return pid ? `${SURUGAYA_ORIGIN}/database/photo.php?shinaban=${pid}&size=${size}` : PLACEHOLDER;
 }
 
 /** 駿河屋の商品URLを絶対URL化（データは相対パス `/product/...` で保存されている） */
@@ -120,6 +121,7 @@ function buildCards(): Card[] {
         pack: mf.pack,
         packSlug: mf.packSlug,
         image: surugayaImage(m.surugayaUrl),
+        imageLarge: surugayaImage(m.surugayaUrl, 'l'),
         sellPrice,
         sellPriceHigh: null,
         buyPrice: m.surugayaBuyPrice ?? null,

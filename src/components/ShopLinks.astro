@@ -7,8 +7,10 @@ interface Props {
   shops: AffiliateShop[];
   /** 販売=warm / 買取=cool でアクセント色を変える */
   variant?: 'buy' | 'sell';
+  /** 補足注記を出すか（モーダルでは1つにまとめるため false にできる） */
+  showNote?: boolean;
 }
-const { title, shops, variant = 'buy' } = Astro.props;
+const { title, shops, variant = 'buy', showNote = true } = Astro.props;
 ---
 
 <section class={`shoplinks ${variant}`}>
@@ -25,7 +27,9 @@ const { title, shops, variant = 'buy' } = Astro.props;
       ))
     }
   </ul>
-  <p class="shop-note">各ショップの販売・買取ページへ移動します（在庫・価格・買取可否は各サイトでご確認ください）。</p>
+  {showNote && (
+    <p class="shop-note">各ショップの販売・買取ページへ移動します（在庫・価格・買取可否は各サイトでご確認ください）。</p>
+  )}
 </section>
 
 <style>
