@@ -19,6 +19,11 @@ const canonical = new URL(path, Astro.site).href;
     <title>{title}</title>
     <meta name="description" content={description} />
     <link rel="canonical" href={canonical} />
+    <!-- Favicon / アイコン -->
+    <link rel="icon" href="/favicon.ico" sizes="any" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16.png" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
     <!-- OGP -->
     <meta property="og:type" content="website" />
     <meta property="og:title" content={title} />
@@ -30,7 +35,9 @@ const canonical = new URL(path, Astro.site).href;
   <body>
     <header class="site-header">
       <div class="site-header-inner">
-        <a href="/" class="site-logo">ポケカ相場ドットコム</a>
+        <a href="/" class="site-logo" aria-label="ポケカ相場ドットコム">
+          <img src="/logo.png" alt="ポケカ相場ドットコム" width="593" height="120" />
+        </a>
         <nav class="site-nav" aria-label="グローバルナビ">
           <a href="/search">検索</a>
           <a href="/list">ポケモン一覧</a>
@@ -95,10 +102,14 @@ const canonical = new URL(path, Astro.site).href;
         flex-wrap: wrap;
       }
       .site-logo {
-        font-weight: 700;
-        font-size: 18px;
-        color: var(--brand-dark);
+        display: inline-flex;
+        align-items: center;
         text-decoration: none;
+      }
+      .site-logo img {
+        height: 34px;
+        width: auto;
+        display: block;
       }
       .site-nav {
         display: flex;
