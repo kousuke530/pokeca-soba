@@ -31,7 +31,7 @@ export interface Card {
   id: string;
   /** 後方互換: id と同値 */
   slug: string;
-  /** カード詳細ページのURL（例: /pack/m1l/091-063-sar） */
+  /** カード詳細ページのURL（例: /list/lillie/091-063-sar） */
   path: string;
   /** ポケモン名(正規化)のURLスラッグ（例: tropius）。/list/[slug] のキー */
   nameSlug: string;

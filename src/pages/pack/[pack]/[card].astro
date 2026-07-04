@@ -1,204 +1,31 @@
 ---
-import BaseLayout from '../../../layouts/BaseLayout.astro';
-import Breadcrumbs from '../../../components/Breadcrumbs.astro';
-import PriceHistoryChart from '../../../components/PriceHistoryChart.astro';
-import VariantRow from '../../../components/VariantRow.astro';
-import ShopLinks from '../../../components/ShopLinks.astro';
-import { purchaseShops, buybackShops } from '../../../data/affiliates';
-import { allCards, getSeriesByName, seriesByPack, priceAsOf } from '../../../data/cards';
-import { getPack } from '../../../data/packs';
-import type { Card } from '../../../data/types';
+// 旧カード詳細URL（/pack/[pack]/[card]）→ 新URL（/list/[slug]/[card]）への恒久リダイレクト。
+// GitHub Pages は静的配信のため真のHTTP 301は返せない。instant meta refresh＋canonical＋JSで代替し、
+// 検索エンジンには恒久移転（noindex,follow＋canonical）として伝える。
+import { allCards } from '../../../data/cards';
 
 export function getStaticPaths() {
   return allCards.map((card) => ({
     params: { pack: card.packSlug, card: `${card.cardNumber.replace(/\//g, '-')}-${card.raritySlug}` },
-    props: { card },
+    props: { to: card.path },
   }));
 }
 
-interface Props {
-  card: Card;
-}
-const { card } = Astro.props;
-
-const priceDate = priceAsOf;
-const setCode = getPack(card.packSlug)?.setCode ?? card.packSlug.toUpperCase();
-const yen = (v: number | null) => (v == null ? '調査中' : `¥${v.toLocaleString('ja-JP')}`);
-const surugayaUrl = card.sellShops.find((s) => s.shop === '駿河屋')?.url ?? card.sellShops[0]?.url;
-// 販売ショップの駿河屋は、可能なら当該カードの商品ページに直リンク
-const purchase = surugayaUrl
-  ? purchaseShops.map((s) => (s.name === '駿河屋' ? { ...s, url: surugayaUrl } : s))
-  : purchaseShops;
-const categoryLabel =
-  card.category === 'ポケモン' && card.energyType ? `ポケモン・${card.energyType}` : card.category;
-const isPokemon = card.category === 'ポケモン';
-const listUrl = `/list/${card.nameSlug}`;
-
-const otherVariants = (getSeriesByName(card.name)?.variants ?? []).filter((v) => v.id !== card.id);
-const samePack = seriesByPack(card.packSlug)
-  .filter((s) => s.name !== card.name)
-  .map((s) => s.variants.reduce((a, b) => ((b.sellPrice ?? 0) > (a.sellPrice ?? 0) ? b : a)))
-  .sort((a, b) => (b.sellPrice ?? 0) - (a.sellPrice ?? 0))
-  .slice(0, 6);
-
-const crumbLabel = `${card.name}【${card.rarity}】${setCode} ${card.cardNumber}`;
-const title = `${card.name}(${card.rarity}) ${setCode} ${card.cardNumber} の買取・販売価格相場【ポケカ】`;
-const description = `${card.name}(${card.rarity})の最新の販売価格は${yen(card.sellPrice)}、買取価格は${yen(
-  card.buyPrice,
-)}（${priceDate}時点）。${card.pack}収録。価格推移もまとめています。`;
-
-const jsonLd = JSON.stringify({
-  '@context': 'https://schema.org',
-  '@type': 'Product',
-  name: `${card.name}(${card.rarity}) ${card.cardNumber}`,
-  image: new URL(card.imageLarge, Astro.site).href,
-  category: card.category,
-  sku: card.cardNumber,
-  description,
-  ...(card.sellPrice != null
-    ? {
-        offers: {
-          '@type': 'Offer',
-          priceCurrency: 'JPY',
-          price: card.sellPrice,
-          availability: card.soldOut
-            ? 'https://schema.org/OutOfStock'
-            : 'https://schema.org/InStock',
-          ...(surugayaUrl ? { url: new URL(surugayaUrl, 'https://www.suruga-ya.jp').href } : {}),
-        },
-      }
-    : {}),
-});
+const { to } = Astro.props as { to: string };
+const dest = new URL(to, Astro.site).href;
 ---
 
-<BaseLayout title={title} description={description} path={card.path} jsonLd={jsonLd}>
-  <Breadcrumbs
-    items={[
-      { label: 'ホーム', href: '/' },
-      { label: card.pack, href: `/pack/${card.packSlug}` },
-      { label: crumbLabel },
-    ]}
-  />
-
-  <!-- 検索インデックス対象（Pagefind）: カード名・レア・型番・パック -->
-  <div data-pagefind-body data-pagefind-meta={`title:${card.name}（${card.rarity}）`}>
-  <div class="hero">
-    <figure class="hero-img">
-      <img
-        src={card.imageLarge}
-        alt={`${card.name}(${card.rarity}) ${card.cardNumber}`}
-        width="300"
-        height="419"
-        loading="lazy"
-        data-pagefind-meta="image[src], image_alt[alt]"
-        onerror="this.onerror=null;this.src='/images/cards/placeholder.svg'"
-      />
-      <figcaption>画像出典: 駿河屋</figcaption>
-    </figure>
-
-    <div class="panel">
-      <h1 class="ttl">{card.name} <span class="ttl-sub">【{card.rarity}】{setCode} {card.cardNumber}</span></h1>
-      <div class="chips">
-        <span class="chip chip-rarity" data-pagefind-filter="レアリティ">{card.rarity}</span>
-        <span class="chip">{card.cardNumber}</span>
-        <span class="chip">{categoryLabel}</span>
-        {card.soldOut && <span class="chip chip-out">品切れ</span>}
-        <span hidden data-pagefind-filter="パック">{card.pack}</span>
-      </div>
-
-      <div class="prices">
-        <div class="ptile t-sell">
-          <span class="pcap">販売価格</span>
-          <span class="pval">{yen(card.sellPrice)}</span>
-        </div>
-        <div class="ptile t-buy">
-          <span class="pcap">買取価格</span>
-          <span class="pval">{yen(card.buyPrice)}</span>
-        </div>
-      </div>
-      <p class="src">価格は{priceDate}時点。</p>
-
-      <dl class="spec">
-        <div><dt>収録パック</dt><dd><a href={`/pack/${card.packSlug}`}>{card.pack}</a></dd></div>
-        <div><dt>カード種別</dt><dd>{categoryLabel}</dd></div>
-        {card.illustrator && <div><dt>イラスト</dt><dd>{card.illustrator}</dd></div>}
-      </dl>
-    </div>
-  </div>
-
-  <p class="lead">
-    {card.name}（{card.rarity}・{setCode} {card.cardNumber}）の最新相場は
-    <strong>販売 {yen(card.sellPrice)}</strong> / <strong>買取 {yen(card.buyPrice)}</strong>です（{priceDate}時点）。{card.pack}に収録。
-  </p>
-  </div>
-  <!-- /検索インデックス対象 -->
-
-  <ShopLinks title="このカードを買えるショップ" shops={purchase} variant="buy" />
-  <ShopLinks title="このカードを売れるショップ（買取）" shops={buybackShops} variant="sell" />
-
-  <section class="sec">
-    <h2 class="sec-h">価格推移</h2>
-    <PriceHistoryChart history={card.history} />
-  </section>
-
-  {
-    otherVariants.length > 0 && (
-      <section class="sec">
-        <h2 class="sec-h">
-          {card.name} の他レアリティ
-          {isPokemon && <a class="sec-link" href={listUrl}>一覧 →</a>}
-        </h2>
-        <ul class="rel">{otherVariants.map((v) => <VariantRow card={v} />)}</ul>
-      </section>
-    )
-  }
-
-  {
-    samePack.length > 0 && (
-      <section class="sec">
-        <h2 class="sec-h">「{card.pack}」の高額カード</h2>
-        <ul class="rel">{samePack.map((v) => <VariantRow card={v} />)}</ul>
-      </section>
-    )
-  }
-</BaseLayout>
-
-<style>
-  .hero { display: flex; gap: 20px; align-items: flex-start; flex-wrap: wrap; }
-  .hero-img { margin: 0; flex: 0 0 240px; max-width: 240px; }
-  .hero-img img { width: 100%; border-radius: 10px; border: 1px solid var(--border); display: block; }
-  .hero-img figcaption { font-size: 10px; color: var(--text-sub); text-align: center; margin-top: 4px; }
-  .panel { flex: 1; min-width: 260px; background: #fff; border: 1px solid var(--border); border-radius: 14px; padding: 18px; }
-  .ttl { font-size: 22px; font-weight: 800; margin: 0 0 10px; line-height: 1.3; }
-  .ttl-sub { font-size: 13px; font-weight: 600; color: var(--text-sub); }
-  .chips { display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 16px; }
-  .chip { font-size: 12px; padding: 3px 10px; border-radius: 999px; background: #eef2f7; color: var(--text-sub); font-weight: 600; }
-  .chip-rarity { background: var(--brand); color: #fff; }
-  .chip-out { background: #9e9e9e; color: #fff; }
-  .prices { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
-  .ptile { border-radius: 12px; padding: 16px; text-align: center; border: 1px solid var(--border); }
-  .t-sell { background: linear-gradient(160deg, #fff5f5, #ffe9ec); border-color: #ffd6dc; }
-  .t-buy { background: linear-gradient(160deg, #eefcf3, #d9f6e4); border-color: #c2ecd2; }
-  .pcap { display: block; font-size: 12px; font-weight: 700; color: var(--text-sub); }
-  .pval { display: block; font-size: 26px; font-weight: 800; margin-top: 4px; }
-  .t-sell .pval { color: #e02e4d; }
-  .t-buy .pval { color: #1c9e5a; }
-  .src { font-size: 11px; color: var(--text-sub); text-align: right; margin: 8px 2px 0; }
-  .spec { margin: 18px 0 0; display: flex; flex-direction: column; gap: 0; font-size: 13px; }
-  .spec div { display: flex; gap: 12px; padding: 8px 0; border-top: 1px solid #f0f0f0; }
-  .spec dt { flex: 0 0 88px; color: var(--text-sub); margin: 0; }
-  .spec dd { margin: 0; font-weight: 600; }
-  .spec a { text-decoration: none; }
-  .lead { font-size: 14px; color: var(--text); margin: 20px 0 0; line-height: 1.9; }
-  .sec { margin-top: 30px; }
-  .sec-h { font-size: 16px; border-left: 4px solid var(--brand); padding-left: 8px; margin: 0 0 12px; display: flex; align-items: baseline; gap: 10px; }
-  .sec-link { font-size: 12px; font-weight: 600; }
-  .note { font-size: 11px; color: var(--text-sub); margin: 10px 0 0; }
-  .rel { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 10px; }
-
-  /* スマホ表示（heroが縦積みになる幅）ではカード画像を中央に */
-  @media (max-width: 560px) {
-    .hero { justify-content: center; }
-    .hero-img { flex-basis: 260px; }
-  }
-</style>
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="robots" content="noindex, follow" />
+    <meta http-equiv="refresh" content={`0; url=${to}`} />
+    <link rel="canonical" href={dest} />
+    <title>ページが移動しました</title>
+    <script is:inline set:html={`location.replace(${JSON.stringify(to)});`}></script>
+  </head>
+  <body>
+    <p>このページは <a href={to}>新しいURL</a> に移動しました。</p>
+  </body>
+</html>

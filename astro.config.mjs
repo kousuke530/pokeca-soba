@@ -18,5 +18,14 @@ export default defineConfig({
     format: 'directory',
   },
 
-  integrations: [sitemap()],
+  integrations: [
+    sitemap({
+      // 旧カード詳細URL（/pack/<slug>/<番号-レア> のリダイレクトページ）はsitemapから除外。
+      // ※ /pack/<slug>（パック一覧）と /pack/<slug>/page/<n>（ページネーション）は残す。
+      filter: (page) => {
+        const seg = new URL(page).pathname.replace(/\/$/, '').match(/^\/pack\/[^/]+\/([^/]+)$/);
+        return !(seg && seg[1] !== 'page');
+      },
+    }),
+  ],
 });

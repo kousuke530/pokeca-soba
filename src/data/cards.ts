@@ -88,6 +88,7 @@ function buildCards(): Card[] {
       const history = historyPoints(mf.packSlug, id);
       const name = normalizeName(m.name);
       const cardParam = `${m.cardNumber.replace(/\//g, '-')}-${m.raritySlug}`;
+      const nameSlug = SLUGS[name] ?? id;
 
       // 現在価格: 履歴があれば最新、なければ駿河屋スナップショット
       const sellPrice = history.length ? history[history.length - 1].sell : m.surugayaPrice;
@@ -109,8 +110,8 @@ function buildCards(): Card[] {
       out.push({
         id,
         slug: id,
-        path: `/pack/${mf.packSlug}/${cardParam}`,
-        nameSlug: SLUGS[name] ?? id,
+        path: `/list/${nameSlug}/${cardParam}`,
+        nameSlug,
         name,
         rarity: m.rarity,
         raritySlug: m.raritySlug,
