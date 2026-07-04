@@ -39,7 +39,7 @@ const crumbLabel = `${card.name}【${card.rarity}】${setCode} ${card.cardNumber
 const title = `${card.name}(${card.rarity}) ${setCode} ${card.cardNumber} の買取・販売価格相場【ポケカ】`;
 const description = `${card.name}(${card.rarity})の最新の販売価格は${yen(card.sellPrice)}、買取価格は${yen(
   card.buyPrice,
-)}（${priceDate}時点・駿河屋）。${card.pack}収録。価格推移もまとめています。`;
+)}（${priceDate}時点）。${card.pack}収録。価格推移もまとめています。`;
 
 const jsonLd = JSON.stringify({
   '@context': 'https://schema.org',
@@ -110,7 +110,7 @@ const jsonLd = JSON.stringify({
           <span class="pval">{yen(card.buyPrice)}</span>
         </div>
       </div>
-      <p class="src">価格は駿河屋（{priceDate}時点）</p>
+      <p class="src">価格は{priceDate}時点。</p>
 
       {
         surugayaUrl && (
@@ -130,7 +130,7 @@ const jsonLd = JSON.stringify({
 
   <p class="lead">
     {card.name}（{card.rarity}・{setCode} {card.cardNumber}）の最新相場は
-    <strong>販売 {yen(card.sellPrice)}</strong> / <strong>買取 {yen(card.buyPrice)}</strong>です（{priceDate}時点・駿河屋）。{card.pack}に収録。
+    <strong>販売 {yen(card.sellPrice)}</strong> / <strong>買取 {yen(card.buyPrice)}</strong>です（{priceDate}時点）。{card.pack}に収録。
   </p>
   </div>
   <!-- /検索インデックス対象 -->
@@ -138,7 +138,6 @@ const jsonLd = JSON.stringify({
   <section class="sec">
     <h2 class="sec-h">価格推移</h2>
     <PriceHistoryChart history={card.history} />
-    <p class="note">価格は駿河屋から自動取得した実データ。推移は毎日蓄積中です。</p>
   </section>
 
   {

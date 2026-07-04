@@ -49,7 +49,7 @@ const categoryLabel =
         <span class="t-val">{yen(card.buyPrice)}</span>
       </div>
     </div>
-    <p class="pm-src">価格は駿河屋（{priceDate}時点）</p>
+    <p class="pm-src">価格は{priceDate}時点。</p>
 
     <details class="pm-hist">
       <summary>価格推移を見る</summary>
@@ -68,8 +68,6 @@ const categoryLabel =
       <a href={detailUrl} class="cta cta-main">詳細・価格推移を見る</a>
       <a href={seriesUrl} class="cta cta-sub">{seriesName} の一覧</a>
     </div>
-
-    <p class="pm-note">価格は駿河屋から自動取得した実データです。推移は毎日蓄積しています。</p>
   </div>
 </dialog>
 
