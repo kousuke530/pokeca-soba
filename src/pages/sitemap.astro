@@ -2,6 +2,7 @@
 import BaseLayout from '../layouts/BaseLayout.astro';
 import Breadcrumbs from '../components/Breadcrumbs.astro';
 import { packs } from '../data/packs';
+import { pokemonSeries } from '../data/cards';
 
 const title = 'サイトマップ｜ポケカ相場ドットコム';
 const description =
@@ -19,6 +20,7 @@ const infoPages = [
   { href: '/terms', label: '利用規約' },
   { href: '/privacy', label: 'プライバシーポリシー' },
 ];
+const pokemon = pokemonSeries().sort((a, b) => a.name.localeCompare(b.name, 'ja'));
 ---
 
 <BaseLayout title={title} description={description} path="/sitemap">
@@ -50,6 +52,13 @@ const infoPages = [
         {packs.map((p) => <li><a href={`/pack/${p.slug}`}>{p.shortName}</a></li>)}
       </ul>
     </section>
+
+    <section class="col col-wide">
+      <h2>ポケモンから探す（全{pokemon.length.toLocaleString()}種）</h2>
+      <ul class="pokes">
+        {pokemon.map((s) => <li><a href={`/list/${s.slug}`}>{s.name}</a></li>)}
+      </ul>
+    </section>
   </div>
 </BaseLayout>
 
@@ -79,4 +88,16 @@ const infoPages = [
     grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
     gap: 6px 16px;
   }
+  /* ポケモンは数が多いので密なグリッドに */
+  .pokes {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 4px 14px;
+  }
+  .pokes li { margin: 0; }
+  .pokes a { font-size: 12px; color: var(--text); text-decoration: none; }
+  .pokes a:hover { color: var(--brand); text-decoration: underline; }
 </style>
