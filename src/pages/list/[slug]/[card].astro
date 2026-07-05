@@ -197,7 +197,9 @@ const jsonLd = JSON.stringify({
               <span>{v.name}</span>
               <em>{v.rarity}</em>
               <strong>販売 {yen(v.sellPrice)}</strong>
-              {v.buyPrice != null && <small>買取 {yen(v.buyPrice)}</small>}
+              <small class:list={[v.buyPrice == null && 'is-empty']}>
+                {v.buyPrice != null ? `買取 ${yen(v.buyPrice)}` : '買取 調査中'}
+              </small>
             </a>
           </li>
         ))}</ul>
@@ -452,8 +454,13 @@ const jsonLd = JSON.stringify({
   }
   .rel-cards { grid-template-columns: repeat(4, minmax(0, 1fr)); }
   .pack-cards { grid-template-columns: repeat(6, minmax(0, 1fr)); }
+  .rel-cards li, .pack-cards li {
+    display: flex;
+    min-width: 0;
+  }
   .rel-cards a, .pack-cards a {
     position: relative;
+    width: 100%;
     min-height: 184px;
     display: flex;
     flex-direction: column;
@@ -467,6 +474,9 @@ const jsonLd = JSON.stringify({
     text-align: center;
     text-decoration: none;
   }
+  .rel-cards a {
+    min-height: 246px;
+  }
   .rel-cards a:hover, .pack-cards a:hover { border-color: var(--brand); box-shadow: var(--shadow-sm); }
   .rel-cards img, .pack-cards img {
     width: 82px;
@@ -475,21 +485,46 @@ const jsonLd = JSON.stringify({
     border-radius: 5px;
   }
   .rel-cards span, .pack-cards span:not(.rank) {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
     color: var(--text-strong);
     font-size: 13px;
     line-height: 1.4;
     font-weight: 900;
   }
+  .rel-cards span {
+    min-height: 37px;
+    -webkit-line-clamp: 2;
+  }
+  .pack-cards span:not(.rank) {
+    -webkit-line-clamp: 2;
+  }
   .rel-cards em, .pack-cards em, .rel-cards small {
+    display: block;
     color: var(--text-sub);
     font-size: 11px;
+    line-height: 1.35;
     font-style: normal;
     font-weight: 700;
   }
+  .rel-cards em {
+    min-height: 15px;
+  }
   .rel-cards strong, .pack-cards strong {
+    display: block;
     color: var(--accent-red);
     font-size: 13px;
+    line-height: 1.35;
     font-weight: 900;
+    white-space: nowrap;
+  }
+  .rel-cards small {
+    min-height: 15px;
+    white-space: nowrap;
+  }
+  .rel-cards small.is-empty {
+    visibility: hidden;
   }
   .pack-cards .rank {
     position: absolute;

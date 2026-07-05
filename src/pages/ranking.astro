@@ -20,9 +20,6 @@ const rest = ranking.slice(3);
         <p class="lead">取引相場が高いカードをランキング形式でご紹介。価格は{priceAsOf}時点の参考相場です。</p>
         <p class="updated">最終更新：{priceAsOf}</p>
       </div>
-      <div class="hero-cards" aria-hidden="true">
-        {ranking.slice(0, 3).map((c, i) => <img src={c.imageLarge} alt="" class={`hero-card hero-card-${i + 1}`} loading="eager" />)}
-      </div>
     </div>
   </section>
 
@@ -77,10 +74,8 @@ const rest = ranking.slice(3);
 <style>
   .ranking-hero { padding: 0 0 18px; }
   .ranking-hero-inner {
-    min-height: 290px;
-    display: grid;
-    grid-template-columns: minmax(0, 1fr) minmax(360px, 0.76fr);
-    gap: 24px;
+    min-height: 220px;
+    display: flex;
     align-items: center;
   }
   .page-title {
@@ -99,16 +94,6 @@ const rest = ranking.slice(3);
     margin: 0 0 14px;
   }
   .updated { margin: 0; color: var(--text-sub); font-size: 14px; font-weight: 800; }
-  .hero-cards { position: relative; min-height: 260px; }
-  .hero-card {
-    position: absolute;
-    width: 150px;
-    border-radius: 10px;
-    filter: drop-shadow(0 16px 20px rgba(6, 40, 95, 0.18));
-  }
-  .hero-card-1 { left: 3%; top: 72px; transform: rotate(-12deg); }
-  .hero-card-2 { left: 32%; top: 18px; z-index: 2; width: 182px; transform: rotate(3deg); }
-  .hero-card-3 { right: 4%; top: 80px; transform: rotate(12deg); }
   .filter-bar {
     min-height: 76px;
     display: flex;
@@ -267,8 +252,7 @@ const rest = ranking.slice(3);
     transform: translateX(-1px) rotate(45deg);
   }
   @media (max-width: 940px) {
-    .ranking-hero-inner { grid-template-columns: 1fr; }
-    .hero-cards { display: none; }
+    .ranking-hero-inner { min-height: 180px; }
     .filter-bar { flex-wrap: wrap; }
     .filter-bar a { margin-left: 0; }
     .podium { grid-template-columns: 1fr; }
