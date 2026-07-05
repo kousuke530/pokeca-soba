@@ -1,0 +1,82 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import Breadcrumbs from '../components/Breadcrumbs.astro';
+import { packs } from '../data/packs';
+
+const title = 'サイトマップ｜ポケカ相場ドットコム';
+const description =
+  'ポケカ相場ドットコムのサイトマップ。ポケモン一覧・パック一覧・ランキング・カード検索など、サイト内の主要ページをまとめています。';
+
+const mainPages = [
+  { href: '/', label: 'トップページ' },
+  { href: '/list', label: 'ポケモン一覧' },
+  { href: '/packs', label: 'パック一覧' },
+  { href: '/ranking', label: '高額カードランキング' },
+  { href: '/search', label: 'カード検索' },
+];
+const infoPages = [
+  { href: '/about', label: '運営者情報' },
+  { href: '/terms', label: '利用規約' },
+  { href: '/privacy', label: 'プライバシーポリシー' },
+];
+---
+
+<BaseLayout title={title} description={description} path="/sitemap">
+  <Breadcrumbs
+    items={[{ label: 'ポケカ買取・販売価格相場TOP', href: '/' }, { label: 'サイトマップ' }]}
+  />
+
+  <h1 class="page-title">サイトマップ</h1>
+  <p class="lead">サイト内の主要ページ一覧です。ポケモンごとの相場は「ポケモン一覧」から探せます。</p>
+
+  <div class="grid">
+    <section class="col">
+      <h2>メインページ</h2>
+      <ul>
+        {mainPages.map((p) => <li><a href={p.href}>{p.label}</a></li>)}
+      </ul>
+    </section>
+
+    <section class="col">
+      <h2>サイト情報</h2>
+      <ul>
+        {infoPages.map((p) => <li><a href={p.href}>{p.label}</a></li>)}
+      </ul>
+    </section>
+
+    <section class="col col-wide">
+      <h2>パックから探す</h2>
+      <ul class="packs">
+        {packs.map((p) => <li><a href={`/pack/${p.slug}`}>{p.shortName}</a></li>)}
+      </ul>
+    </section>
+  </div>
+</BaseLayout>
+
+<style>
+  .page-title { font-size: 22px; margin: 0 0 8px; }
+  .lead { font-size: 13px; color: var(--text-sub); margin: 0 0 20px; }
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 24px;
+  }
+  .col h2 {
+    font-size: 14px;
+    font-weight: 700;
+    margin: 0 0 10px;
+    padding-bottom: 6px;
+    border-bottom: 1px solid var(--border);
+  }
+  .col ul { list-style: none; margin: 0; padding: 0; }
+  .col li { margin: 0 0 8px; }
+  .col a { font-size: 13px; color: var(--text); text-decoration: none; }
+  .col a:hover { color: var(--brand); text-decoration: underline; }
+  /* パックは数が多いので col 内で複数列に */
+  .col-wide { grid-column: 1 / -1; }
+  .packs {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 6px 16px;
+  }
+</style>

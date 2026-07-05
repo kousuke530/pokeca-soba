@@ -1,7 +1,8 @@
 // @ts-check
 import { defineConfig } from 'astro/config';
 
-import sitemap from '@astrojs/sitemap';
+// サイトマップは種類別に分割した独自実装（src/pages/sitemap*.xml.ts）を使用。
+// @astrojs/sitemap は使わない（TOP/ポケモン/パック/カード詳細で分け、lastmod/priority を付与）。
 
 // SSG（静的サイト生成）構成。
 // 純粋な静的HTMLを出力するため、Google/LLM系クローラーがJS実行なしで全文を読める。
@@ -18,14 +19,5 @@ export default defineConfig({
     format: 'directory',
   },
 
-  integrations: [
-    sitemap({
-      // 旧カード詳細URL（/pack/<slug>/<番号-レア> のリダイレクトページ）はsitemapから除外。
-      // ※ /pack/<slug>（パック一覧）と /pack/<slug>/page/<n>（ページネーション）は残す。
-      filter: (page) => {
-        const seg = new URL(page).pathname.replace(/\/$/, '').match(/^\/pack\/[^/]+\/([^/]+)$/);
-        return !(seg && seg[1] !== 'page');
-      },
-    }),
-  ],
+  integrations: [],
 });
