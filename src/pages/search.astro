@@ -4,45 +4,178 @@ import Breadcrumbs from '../components/Breadcrumbs.astro';
 
 const title = 'カード検索｜ポケカ相場ドットコム';
 const description =
-  'カード名・レアリティ・収録パックでポケモンカードの販売価格・買取価格を検索できます。';
+  'カード名・型番でポケモンカードを検索。販売価格・買取価格・相場をまとめて確認できます。';
 ---
 
 <BaseLayout title={title} description={description} path="/search">
   <Breadcrumbs items={[{ label: 'ポケカ買取・販売価格相場TOP', href: '/' }, { label: 'カード検索' }]} />
   <h1 class="page-title">カード検索</h1>
-  <p class="lead">カード名で検索できます（例: リーリエ、ピカチュウ、メガリザードン）。</p>
-  <div id="search"></div>
+  <p class="lead">カード名・型番で部分一致検索できます（例: リザードン、ピカチュウ、016/101）。</p>
+
+  <div class="search-box">
+    <input
+      id="q"
+      type="search"
+      autocomplete="off"
+      placeholder="カード名・型番で検索"
+      aria-label="カード名・型番で検索"
+    />
+  </div>
+
+  <p id="status" class="status" aria-live="polite"></p>
+  <ul id="results" class="results"></ul>
 </BaseLayout>
 
-<link rel="stylesheet" href="/pagefind/pagefind-ui.css" is:inline />
-<script src="/pagefind/pagefind-ui.js" is:inline></script>
 <script is:inline>
-  window.addEventListener('DOMContentLoaded', () => {
-    // Pagefind の検索インデックスはビルド時に生成（dev では動作しない）
-    if (typeof PagefindUI === 'undefined') return;
-    new PagefindUI({
-      element: '#search',
-      showSubResults: false,
-      showImages: true,
-      pageSize: 10,
-      translations: {
-        placeholder: 'カード名で検索',
-        zero_results: '「[SEARCH_TERM]」に一致するカードが見つかりませんでした',
-      },
+  (() => {
+    const input = document.getElementById('q');
+    const status = document.getElementById('status');
+    const results = document.getElementById('results');
+    const MAX = 100;
+    let data = null;
+    let loading = false;
+
+    // 全角英数を半角へ（型番・ex 等の表記ゆれ吸収）
+    const normalize = (s) =>
+      (s || '')
+        .replace(/[Ａ-Ｚａ-ｚ０-９]/g, (c) => String.fromCharCode(c.charCodeAt(0) - 0xfee0))
+        .trim()
+        .toLowerCase();
+
+    const yen = (v) => (v == null ? '調査中' : '¥' + Number(v).toLocaleString('ja-JP'));
+    const imgUrl = (pid) =>
+      pid ? 'https://www.suruga-ya.jp/database/photo.php?shinaban=' + pid + '&size=m' : '/images/cards/placeholder.svg';
+
+    async function ensureData() {
+      if (data || loading) return;
+      loading = true;
+      status.textContent = '読み込み中…';
+      try {
+        const res = await fetch('/search-index.json');
+        data = await res.json();
+      } catch (e) {
+        status.textContent = 'インデックスの読み込みに失敗しました。再読み込みしてください。';
+      }
+      loading = false;
+    }
+
+    function render(q) {
+      const nq = normalize(q);
+      if (!nq) {
+        results.innerHTML = '';
+        status.textContent = 'カード名または型番を入力してください。';
+        return;
+      }
+      if (!data) {
+        status.textContent = '読み込み中…';
+        return;
+      }
+      // カード名・型番で部分一致
+      const hits = data.filter(
+        (x) => normalize(x.n).includes(nq) || normalize(x.c).includes(nq),
+      );
+      // 完全一致 > 前方一致 > その他、次に販売価格降順
+      const score = (x) => {
+        const n = normalize(x.n);
+        return n === nq ? 0 : n.startsWith(nq) ? 1 : 2;
+      };
+      hits.sort((a, b) => score(a) - score(b) || (b.s || 0) - (a.s || 0));
+
+      const total = hits.length;
+      if (total === 0) {
+        results.innerHTML = '';
+        status.textContent = '「' + q + '」に一致するカードは見つかりませんでした。';
+        return;
+      }
+      const shown = hits.slice(0, MAX);
+      status.textContent =
+        total + '件ヒット' + (total > MAX ? '（上位' + MAX + '件を表示。絞り込んでください）' : '');
+      results.innerHTML = shown
+        .map(
+          (x) =>
+            '<li class="card">' +
+            '<a href="' + x.p + '">' +
+            '<img loading="lazy" src="' + imgUrl(x.i) + '" alt="" width="56" height="78" ' +
+            "onerror=\"this.onerror=null;this.src='/images/cards/placeholder.svg'\" />" +
+            '<span class="info">' +
+            '<span class="cname">' + esc(x.n) + ' <span class="rar">' + esc(x.r) + '</span></span>' +
+            '<span class="meta">' + esc(x.c) + '・' + esc(x.k) + '</span>' +
+            '<span class="price">販売 <b>' + yen(x.s) + '</b>／買取 ' + yen(x.b) + '</span>' +
+            '</span>' +
+            '</a></li>',
+        )
+        .join('');
+    }
+
+    function esc(s) {
+      return String(s == null ? '' : s).replace(/[&<>"]/g, (c) =>
+        ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' })[c],
+      );
+    }
+
+    let t;
+    async function onInput() {
+      const q = input.value;
+      const url = new URL(location.href);
+      if (q) url.searchParams.set('q', q);
+      else url.searchParams.delete('q');
+      history.replaceState(null, '', url);
+      await ensureData();
+      render(q);
+    }
+
+    input.addEventListener('input', () => {
+      clearTimeout(t);
+      t = setTimeout(onInput, 120);
     });
-  });
+
+    // ?q= があれば初期表示
+    const initial = new URLSearchParams(location.search).get('q') || '';
+    if (initial) {
+      input.value = initial;
+      onInput();
+    } else {
+      status.textContent = 'カード名または型番を入力してください。';
+    }
+    // フォーカス時にインデックスを先読み
+    input.addEventListener('focus', ensureData, { once: true });
+  })();
 </script>
 
-<style>
+<!-- 動的にinnerHTMLで挿入する結果にも効くよう is:global（/searchページのみで読み込まれる） -->
+<style is:global>
   .page-title { font-size: 20px; margin: 0 0 8px; }
   .lead { font-size: 13px; color: var(--text-sub); margin: 0 0 16px; }
-  /* Pagefind UI をサイトのブランドカラーに合わせる */
-  #search {
-    --pagefind-ui-primary: var(--brand);
-    --pagefind-ui-text: var(--text);
-    --pagefind-ui-background: #fff;
-    --pagefind-ui-border: var(--border);
-    --pagefind-ui-border-radius: 10px;
-    --pagefind-ui-font: inherit;
+  .search-box { margin: 0 0 12px; }
+  #q {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 12px 14px;
+    font-size: 16px;
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    background: #fff;
   }
+  #q:focus { outline: none; border-color: var(--brand); }
+  .status { font-size: 12px; color: var(--text-sub); margin: 0 2px 12px; }
+  .results { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 8px; }
+  .card a {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+    padding: 10px;
+    background: #fff;
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    text-decoration: none;
+    color: var(--text);
+  }
+  .card a:hover { border-color: var(--brand); }
+  .card img { width: 56px; height: auto; border-radius: 4px; border: 1px solid var(--border); flex: 0 0 auto; }
+  .info { min-width: 0; display: flex; flex-direction: column; gap: 3px; }
+  .cname { font-size: 14px; font-weight: 700; }
+  .rar { font-size: 11px; font-weight: 600; color: #fff; background: var(--brand); border-radius: 999px; padding: 1px 7px; }
+  .meta { font-size: 11px; color: var(--text-sub); }
+  .price { font-size: 12px; color: var(--text); }
+  .price b { color: #e02e4d; }
 </style>

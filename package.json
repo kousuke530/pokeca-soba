@@ -5,7 +5,7 @@
   "private": true,
   "scripts": {
     "dev": "astro dev",
-    "build": "node scripts/build-slugs.ts && astro build && pagefind --site dist",
+    "build": "node scripts/build-slugs.ts && astro build",
     "preview": "astro preview",
     "scrape": "node scripts/scrape/run.ts",
     "collect": "node scripts/scrape/collect-cards.ts",
@@ -15,8 +15,5 @@
   "dependencies": {
     "astro": "^5.6.0",
     "cheerio": "^1.2.0"
-  },
-  "devDependencies": {
-    "pagefind": "^1.5.2"
   }
 }
