@@ -7,45 +7,795 @@ import { seriesByPack } from '../data/cards';
 const title = '収録パック一覧｜ポケカ相場ドットコム';
 const description = 'ポケモンカードの拡張パック別にカードの価格相場を確認できます。';
 
+const pageSize = 8;
+const knownRarities = ['SAR', 'SR', 'AR', 'UR', 'HR', 'RR', 'R'];
+const rarityFilters = [
+  { label: 'SAR（スペシャルアートレア）', value: 'SAR' },
+  { label: 'SR（スーパーレア）', value: 'SR' },
+  { label: 'AR（アートレア）', value: 'AR' },
+  { label: 'UR（ウルトラレア）', value: 'UR' },
+  { label: 'HR（ハイパーレア）', value: 'HR' },
+  { label: 'RR', value: 'RR' },
+  { label: 'R', value: 'R' },
+  { label: 'その他', value: 'その他' },
+];
+const typeFilters = ['拡張パック', '強化拡張パック', 'ハイクラスパック', 'デッキビルドBOX', 'スペシャルセット', 'その他'];
 const rows = packs.map((p) => {
   const ss = seriesByPack(p.slug);
-  return { p, cards: ss.reduce((n, s) => n + s.variants.length, 0), seriesCount: ss.length };
+  const variants = ss.flatMap((s) => s.variants);
+  const top = [...variants].sort((a, b) => (b.sellPrice ?? 0) - (a.sellPrice ?? 0))[0];
+  return { p, cards: variants.length, seriesCount: ss.length, top, kind: packKind(p.name), rarities: packRarities(variants) };
 });
+const shownRange = rows.length === 0 ? '0〜0' : `1〜${Math.min(rows.length, pageSize)}`;
+const totalPackPages = Math.max(1, Math.ceil(rows.length / pageSize));
+const pageHref = (n: number) => (n <= 1 ? '/packs' : `/packs?page=${n}`);
+const newestPack = rows[0]?.p;
+const totalCards = rows.reduce((sum, row) => sum + row.cards, 0);
+
+function packKind(name: string): string {
+  if (name.includes('デッキビルドBOX')) return 'デッキビルドBOX';
+  if (name.includes('ハイクラスパック')) return 'ハイクラスパック';
+  if (name.includes('強化拡張')) return '強化拡張パック';
+  if (name.includes('スペシャル')) return 'スペシャルセット';
+  if (name.includes('拡張パック')) return '拡張パック';
+  return 'その他';
+}
+
+function packRarities(variants: { rarity: string }[]): string[] {
+  const rarities = new Set<string>();
+  for (const variant of variants) {
+    const rarity = variant.rarity || 'その他';
+    rarities.add(knownRarities.includes(rarity) ? rarity : 'その他');
+  }
+  return [...rarities];
+}
+
+function formatDateShort(date: string): string {
+  return date.replaceAll('-', '.');
+}
+
+function formatDate(date: string): string {
+  const d = new Date(`${date}T00:00:00+09:00`);
+  const day = ['日', '月', '火', '水', '木', '金', '土'][d.getDay()];
+  return `${date.replaceAll('-', '.')}（${day}）`;
+}
 ---
 
-<BaseLayout title={title} description={description} path="/packs">
+<BaseLayout title={title} description={description} path="/packs" noCanonical>
   <Breadcrumbs items={[{ label: 'ポケカ買取・販売価格相場TOP', href: '/' }, { label: 'パック一覧' }]} />
-  <h1 class="page-title">収録パック一覧</h1>
+  <section class="packs-hero">
+    <div class="packs-hero-copy">
+      <h1>収録パック一覧</h1>
+      <p>
+        ポケモンカードの拡張パック・強化拡張パック・デッキビルドBOXなど、
+        これまでに発売されたパックを新しい順にまとめています。
+      </p>
+      <dl class="pack-stats" aria-label="パック掲載情報">
+        <div>
+          <dt><span class="stat-icon stat-pack" aria-hidden="true"></span>掲載パック数</dt>
+          <dd><strong>{rows.length.toLocaleString('ja-JP')}</strong><span>パック</span></dd>
+        </div>
+        <div>
+          <dt><span class="stat-icon stat-calendar" aria-hidden="true"></span>最も新しいパック</dt>
+          <dd><strong>{newestPack ? formatDateShort(newestPack.releaseDate) : '調査中'}</strong><span>発売</span></dd>
+        </div>
+        <div>
+          <dt><span class="stat-icon stat-card" aria-hidden="true"></span>収録カード総数</dt>
+          <dd><strong>{totalCards.toLocaleString('ja-JP')}</strong><span>枚以上</span></dd>
+        </div>
+      </dl>
+    </div>
+  </section>
 
-  <ul class="packs">
-    {
-      rows.map(({ p, cards, seriesCount }) => (
-        <li>
-          <a href={`/pack/${p.slug}`} class="pack-card">
-            <span class="pack-name">{p.name}</span>
-            <span class="pack-meta">{p.releaseDate} 発売 ／ {seriesCount}種のカード（全{cards}枚）</span>
-          </a>
-        </li>
-      ))
-    }
-  </ul>
+  <div class="layout">
+    <section class="pack-list page-panel">
+      <div class="pack-search">
+        <label class="pack-search-input">
+          <span aria-hidden="true"></span>
+          <input id="packSearch" type="search" placeholder="パック名で検索（例：テラスタルフェス）" aria-label="パック名で検索" />
+        </label>
+        <button type="button" id="packSearchBtn">検索</button>
+      </div>
+      <div class="list-head">
+        <p class="count"><span id="packCount">{rows.length}</span>件中 <span id="packRange">{shownRange}</span>件を表示</p>
+        <select id="sortPack" aria-label="並び順">
+          <option value="new">発売日が新しい順</option>
+          <option value="old">発売日が古い順</option>
+          <option value="cards">収録カードが多い順</option>
+        </select>
+      </div>
+      <ul class="packs" id="packList">
+        {
+          rows.map(({ p, cards, top, kind, rarities }) => (
+            <li data-name={p.name} data-year={p.releaseDate.slice(0, 4)} data-date={p.releaseDate} data-cards={cards} data-kind={kind} data-rarities={rarities.join('|')}>
+              <a href={`/pack/${p.slug}`} class="pack-card">
+                {top && <img src={top.image} alt="" width="168" height="108" loading="lazy" />}
+                <span class="pack-main">
+                  <span class="pack-name">{p.name}</span>
+                  <span class="pack-meta"><b>発売日</b>{formatDate(p.releaseDate)}</span>
+                  <span class="pack-meta"><b>収録枚数</b>{cards}枚 + ?</span>
+                </span>
+                <span class="pack-action">収録カードを見る</span>
+                <span class="pack-arrow" aria-hidden="true"></span>
+              </a>
+            </li>
+          ))
+        }
+      </ul>
+      <p class="empty" id="packEmpty" hidden>該当するパックが見つかりませんでした。</p>
+      <nav class="pack-pagination" id="packPagination" aria-label="ページ送り">
+        {
+          totalPackPages > 1 && (
+            <>
+              <a class="pager-prev is-disabled" href="/packs" aria-label="前へ">前へ</a>
+              {Array.from({ length: totalPackPages }, (_, i) => i + 1).map((n) => (
+                <a
+                  class:list={[n === 1 && 'is-active']}
+                  href={pageHref(n)}
+                  aria-label={String(n)}
+                  aria-current={n === 1 ? 'page' : undefined}
+                >
+                  {n}
+                </a>
+              ))}
+              <a class="pager-next" href={pageHref(2)} aria-label="次へ">次へ</a>
+            </>
+          )
+        }
+      </nav>
+    </section>
+
+    <aside class="side-filter page-panel">
+      <h2>キーワード検索</h2>
+      <label class="side-search">
+        <input id="sideSearch" type="search" placeholder="パック名で検索" aria-label="パック名で検索" />
+        <span aria-hidden="true"></span>
+      </label>
+      <h2>発売年</h2>
+      <div class="radio-list">
+        <label><input type="radio" name="year" value="すべて" checked />すべて</label>
+        <label><input type="radio" name="year" value="2025" />2025年</label>
+        <label><input type="radio" name="year" value="2024" />2024年</label>
+        <label><input type="radio" name="year" value="2023" />2023年</label>
+        <label><input type="radio" name="year" value="2022以前" />2022年以前</label>
+      </div>
+      <h2>シリーズ</h2>
+      <select class="side-select" aria-label="シリーズ">
+        <option>すべてのシリーズ</option>
+      </select>
+      <h2>種別</h2>
+      <div class="check-list">
+        <label><input type="checkbox" name="kindFilter" value="すべて" checked />すべて</label>
+        {typeFilters.map((type) => <label><input type="checkbox" name="kindFilter" value={type} />{type}</label>)}
+      </div>
+      <h2>収録形式</h2>
+      <div class="check-list">
+        <label><input type="checkbox" name="rarityFilter" value="すべて" checked />すべて</label>
+        {rarityFilters.map((rarity) => <label><input type="checkbox" name="rarityFilter" value={rarity.value} />{rarity.label}</label>)}
+      </div>
+      <button type="button" id="resetPack">条件をリセット</button>
+    </aside>
+  </div>
 </BaseLayout>
 
+<script>
+  const list = document.getElementById('packList');
+  const items = [...document.querySelectorAll<HTMLLIElement>('#packList li')];
+  const mainSearch = document.getElementById('packSearch') as HTMLInputElement | null;
+  const sideSearch = document.getElementById('sideSearch') as HTMLInputElement | null;
+  const sort = document.getElementById('sortPack') as HTMLSelectElement | null;
+  const count = document.getElementById('packCount');
+  const range = document.getElementById('packRange');
+  const empty = document.getElementById('packEmpty');
+  const pagination = document.getElementById('packPagination');
+  const pageSize = 8;
+  let year = 'すべて';
+  let totalPages = 1;
+  const readPage = () => {
+    const p = Number(new URLSearchParams(location.search).get('page'));
+    return Number.isFinite(p) && p >= 1 ? Math.floor(p) : 1;
+  };
+  let currentPage = readPage();
+  // 2ページ目以降は /packs?page=N を固有URLとして扱う（canonicalは付けない）
+  const pageHref = (page: number) => (page <= 1 ? '/packs' : `/packs?page=${page}`);
+  function goToPage(page: number) {
+    if (page < 1 || page > totalPages || page === currentPage) return;
+    currentPage = page;
+    history.pushState({ page }, '', pageHref(page));
+    apply();
+    const top = (list?.getBoundingClientRect().top ?? 0) + window.scrollY - 90;
+    window.scrollTo({ top, behavior: 'smooth' });
+  }
+  function filterChanged() {
+    currentPage = 1;
+    history.replaceState({ page: 1 }, '', pageHref(1));
+    apply();
+  }
+
+  function normalize(s: string) {
+    return s
+      .replace(/[Ａ-Ｚａ-ｚ０-９]/g, (c) => String.fromCharCode(c.charCodeAt(0) - 0xfee0))
+      .replace(/\s+/g, '')
+      .toLowerCase();
+  }
+  function selectedValues(name: string) {
+    const checks = [...document.querySelectorAll<HTMLInputElement>(`input[name="${name}"]`)];
+    const all = checks.find((input) => input.value === 'すべて');
+    const selected = checks.filter((input) => input.checked && input.value !== 'すべて').map((input) => input.value);
+    if (all?.checked || selected.length === 0) return [];
+    return selected;
+  }
+  function sortItems(source: HTMLLIElement[]) {
+    return [...source].sort((a, b) => {
+      if (sort?.value === 'old') return (a.dataset.date ?? '').localeCompare(b.dataset.date ?? '');
+      if (sort?.value === 'cards') return Number(b.dataset.cards ?? 0) - Number(a.dataset.cards ?? 0);
+      return (b.dataset.date ?? '').localeCompare(a.dataset.date ?? '');
+    });
+  }
+  function renderPagination(total: number) {
+    if (!pagination) return;
+    const pages = Math.max(1, Math.ceil(total / pageSize));
+    pagination.innerHTML = '';
+    pagination.hidden = pages <= 1;
+    if (pages <= 1) return;
+
+    const makeLink = (label: string, page: number, className = '') => {
+      const disabled = page < 1 || page > pages || page === currentPage;
+      const el = document.createElement('a');
+      el.textContent = label;
+      el.className = className + (disabled ? ' is-disabled' : '');
+      el.href = pageHref(Math.min(Math.max(page, 1), pages));
+      el.setAttribute('aria-label', label);
+      if (page === currentPage) el.setAttribute('aria-current', 'page');
+      el.addEventListener('click', (e) => {
+        if (e.metaKey || e.ctrlKey || e.shiftKey || e.button === 1) return;
+        e.preventDefault();
+        goToPage(page);
+      });
+      return el;
+    };
+
+    pagination.appendChild(makeLink('前へ', currentPage - 1, 'pager-prev'));
+    for (let page = 1; page <= pages; page += 1) {
+      pagination.appendChild(makeLink(String(page), page, currentPage === page ? 'is-active' : ''));
+    }
+    pagination.appendChild(makeLink('次へ', currentPage + 1, 'pager-next'));
+  }
+  function apply() {
+    const q = normalize(mainSearch?.value || sideSearch?.value || '');
+    const kinds = selectedValues('kindFilter');
+    const rarities = selectedValues('rarityFilter');
+    const filtered: HTMLLIElement[] = [];
+    for (const item of items) {
+      const okName = !q || normalize(item.dataset.name ?? '').includes(q);
+      const okYear =
+        year === 'すべて' ||
+        item.dataset.year === year ||
+        (year === '2022以前' && Number(item.dataset.year ?? 0) <= 2022);
+      const okKind = kinds.length === 0 || kinds.includes(item.dataset.kind ?? '');
+      const itemRarities = (item.dataset.rarities ?? '').split('|');
+      const okRarity = rarities.length === 0 || rarities.some((rarity) => itemRarities.includes(rarity));
+      if (okName && okYear && okKind && okRarity) filtered.push(item);
+      item.hidden = true;
+    }
+    const sorted = sortItems(filtered);
+    sorted.forEach((item) => list?.appendChild(item));
+
+    const total = sorted.length;
+    const pages = Math.max(1, Math.ceil(total / pageSize));
+    totalPages = pages;
+    if (currentPage > pages) currentPage = pages;
+    const start = total === 0 ? 0 : (currentPage - 1) * pageSize;
+    const end = Math.min(start + pageSize, total);
+    sorted.slice(start, end).forEach((item) => {
+      item.hidden = false;
+    });
+
+    if (count) count.textContent = total.toLocaleString('ja-JP');
+    if (range) range.textContent = total === 0 ? '0〜0' : `${(start + 1).toLocaleString('ja-JP')}〜${end.toLocaleString('ja-JP')}`;
+    if (empty) empty.hidden = total !== 0;
+    renderPagination(total);
+  }
+  mainSearch?.addEventListener('input', () => {
+    if (sideSearch) sideSearch.value = mainSearch.value;
+    filterChanged();
+  });
+  document.getElementById('packSearchBtn')?.addEventListener('click', () => {
+    filterChanged();
+  });
+  sideSearch?.addEventListener('input', () => {
+    if (mainSearch) mainSearch.value = sideSearch.value;
+    filterChanged();
+  });
+  sort?.addEventListener('change', () => {
+    filterChanged();
+  });
+  document.querySelectorAll<HTMLInputElement>('input[name="year"]').forEach((input) => {
+    input.addEventListener('change', () => {
+      year = input.value;
+      filterChanged();
+    });
+  });
+  function wireCheckGroup(name: string) {
+    const checks = [...document.querySelectorAll<HTMLInputElement>(`input[name="${name}"]`)];
+    const all = checks.find((input) => input.value === 'すべて');
+    const rest = checks.filter((input) => input.value !== 'すべて');
+    checks.forEach((input) => {
+      input.addEventListener('change', () => {
+        if (input === all && input.checked) {
+          rest.forEach((other) => {
+            other.checked = false;
+          });
+        } else if (input !== all && input.checked && all) {
+          all.checked = false;
+        }
+        if (all && rest.every((other) => !other.checked)) all.checked = true;
+        filterChanged();
+      });
+    });
+  }
+  wireCheckGroup('kindFilter');
+  wireCheckGroup('rarityFilter');
+  document.getElementById('resetPack')?.addEventListener('click', () => {
+    year = 'すべて';
+    if (mainSearch) mainSearch.value = '';
+    if (sideSearch) sideSearch.value = '';
+    document.querySelector<HTMLInputElement>('input[name="year"][value="すべて"]')!.checked = true;
+    document.querySelectorAll<HTMLInputElement>('input[name="kindFilter"], input[name="rarityFilter"]').forEach((input) => {
+      input.checked = input.value === 'すべて';
+    });
+    if (sort) sort.value = 'new';
+    filterChanged();
+  });
+  window.addEventListener('popstate', () => {
+    currentPage = readPage();
+    apply();
+  });
+  apply();
+</script>
+
 <style>
-  .page-title { font-size: 20px; margin: 0 0 16px; }
+  .packs-hero {
+    position: relative;
+    padding: 0 0 30px;
+  }
+  .packs-hero-copy {
+    max-width: 760px;
+  }
+  .packs-hero h1 {
+    margin: 0 0 12px;
+    color: var(--text-strong);
+    font-size: clamp(30px, 3.4vw, 36px);
+    line-height: 1.3;
+    letter-spacing: 0;
+    font-weight: 900;
+  }
+  .packs-hero p {
+    max-width: 720px;
+    margin: 0;
+    color: var(--text);
+    font-size: 15px;
+    line-height: 1.8;
+    font-weight: 700;
+  }
+  .pack-stats {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    max-width: 720px;
+    margin: 34px 0 0;
+    padding: 0;
+    border: 1px solid var(--border);
+    border-radius: 14px;
+    background: rgba(255, 255, 255, 0.9);
+    box-shadow: 0 10px 26px rgba(15, 79, 150, 0.06);
+    overflow: hidden;
+  }
+  .pack-stats div {
+    min-height: 74px;
+    padding: 15px 22px;
+  }
+  .pack-stats div + div { border-left: 1px solid var(--border); }
+  .pack-stats dt {
+    display: flex;
+    align-items: center;
+    gap: 9px;
+    margin: 0 0 2px;
+    color: var(--text-sub);
+    font-size: 12px;
+    line-height: 1.4;
+    font-weight: 900;
+  }
+  .pack-stats dd {
+    display: flex;
+    align-items: baseline;
+    gap: 6px;
+    margin: 0;
+    color: var(--text);
+    font-size: 13px;
+    font-weight: 800;
+  }
+  .pack-stats strong {
+    color: var(--brand);
+    font-size: 24px;
+    line-height: 1.35;
+    font-weight: 900;
+  }
+  .stat-icon {
+    position: relative;
+    display: inline-block;
+    width: 22px;
+    height: 22px;
+    flex: 0 0 22px;
+    border: 2px solid var(--brand);
+    border-radius: 5px;
+  }
+  .stat-icon::before,
+  .stat-icon::after {
+    content: "";
+    position: absolute;
+  }
+  .stat-pack::before {
+    inset: 4px 5px;
+    border: 2px solid var(--brand);
+    border-radius: 3px;
+    transform: rotate(-12deg);
+  }
+  .stat-calendar::before {
+    left: 3px;
+    right: 3px;
+    top: 6px;
+    height: 2px;
+    background: var(--brand);
+  }
+  .stat-calendar::after {
+    left: 6px;
+    top: -4px;
+    width: 9px;
+    height: 8px;
+    border-left: 2px solid var(--brand);
+    border-right: 2px solid var(--brand);
+  }
+  .stat-card::before {
+    left: 5px;
+    top: 4px;
+    width: 10px;
+    height: 13px;
+    border: 2px solid var(--brand);
+    border-radius: 3px;
+    transform: rotate(10deg);
+  }
+  .layout {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) 286px;
+    gap: 32px;
+    align-items: start;
+    margin-top: 0;
+  }
+  .pack-list {
+    min-width: 0;
+    padding: 24px 22px 18px;
+    border-radius: 16px;
+  }
+  .pack-search {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) 96px;
+    gap: 14px;
+    margin-bottom: 22px;
+  }
+  .pack-search-input {
+    position: relative;
+    display: block;
+  }
+  .pack-search-input span,
+  .side-search span {
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    pointer-events: none;
+  }
+  .pack-search-input span {
+    left: 17px;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  .side-search span {
+    right: 14px;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  .pack-search-input span::before,
+  .side-search span::before {
+    content: "";
+    position: absolute;
+    left: 1px;
+    top: 1px;
+    width: 10px;
+    height: 10px;
+    border: 2px solid #667085;
+    border-radius: 50%;
+  }
+  .pack-search-input span::after,
+  .side-search span::after {
+    content: "";
+    position: absolute;
+    left: 12px;
+    top: 13px;
+    width: 8px;
+    height: 2px;
+    border-radius: 999px;
+    background: #667085;
+    transform: rotate(45deg);
+    transform-origin: left center;
+  }
+  .pack-search input, .pack-search select, .side-filter input[type="search"], .side-select {
+    width: 100%;
+    min-height: 48px;
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 0 16px;
+    color: var(--text);
+    background: #fff;
+    font: inherit;
+    font-size: 13px;
+    font-weight: 800;
+  }
+  .pack-search input { padding-left: 46px; }
+  .side-filter input[type="search"] { padding-right: 42px; }
+  .pack-search input:focus, .pack-search select:focus, .side-filter input[type="search"]:focus, .side-select:focus {
+    outline: 2px solid rgba(7, 93, 204, 0.14);
+    border-color: var(--brand);
+  }
+  #packSearchBtn {
+    min-height: 48px;
+    border: 0;
+    border-radius: 999px;
+    color: #fff;
+    background: linear-gradient(135deg, var(--brand), #0b75f5);
+    font: inherit;
+    font-size: 14px;
+    font-weight: 900;
+    cursor: pointer;
+    box-shadow: 0 8px 18px rgba(7, 93, 204, 0.24);
+  }
+  .list-head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 18px;
+    margin: 0 0 16px;
+  }
+  .list-head select {
+    width: 176px;
+    min-height: 46px;
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 0 14px;
+    color: var(--text);
+    background: #fff;
+    font: inherit;
+    font-size: 13px;
+    font-weight: 800;
+  }
+  .count { margin: 0; color: var(--text); font-size: 14px; font-weight: 900; }
   .packs { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 12px; }
   .pack-card {
-    display: flex;
-    flex-direction: column;
-    gap: 4px;
-    padding: 16px;
-    background: #fff;
+    position: relative;
+    display: grid;
+    grid-template-columns: 150px minmax(0, 1fr) 146px 16px;
+    gap: 18px;
+    align-items: center;
+    min-height: 122px;
+    padding: 14px 18px;
+    background: rgba(255, 255, 255, 0.94);
     border: 1px solid var(--border);
-    border-radius: var(--radius);
+    border-radius: 14px;
+    box-shadow: 0 10px 24px rgba(15, 79, 150, 0.04);
     text-decoration: none;
     color: inherit;
   }
-  .pack-card:hover { border-color: var(--brand); }
-  .pack-name { font-weight: 700; font-size: 16px; }
-  .pack-meta { font-size: 12px; color: var(--text-sub); }
+  .pack-card:hover { border-color: var(--brand); box-shadow: var(--shadow-sm); transform: translateY(-1px); }
+  .pack-card img {
+    width: 146px;
+    height: 92px;
+    object-fit: cover;
+    object-position: top;
+    border-radius: 8px;
+    background: var(--brand-light);
+  }
+  .pack-main { min-width: 0; }
+  .pack-name {
+    display: block;
+    margin-bottom: 10px;
+    color: var(--text-strong);
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 1.45;
+  }
+  .pack-meta { display: flex; align-items: center; gap: 12px; font-size: 13px; color: var(--text-sub); font-weight: 800; }
+  .pack-meta + .pack-meta { margin-top: 8px; }
+  .pack-meta b {
+    display: inline-grid;
+    place-items: center;
+    min-width: 64px;
+    min-height: 26px;
+    padding: 2px 10px;
+    border-radius: 999px;
+    color: #667085;
+    background: #f2f6fb;
+    font-size: 11px;
+  }
+  .pack-action {
+    display: grid;
+    place-items: center;
+    min-height: 42px;
+    border: 1px solid var(--border-strong);
+    border-radius: 10px;
+    color: var(--brand);
+    background: #fff;
+    font-size: 13px;
+    font-weight: 900;
+  }
+  .pack-arrow {
+    position: relative;
+    width: 18px;
+    height: 18px;
+  }
+  .pack-arrow::before {
+    content: "";
+    position: absolute;
+    left: 3px;
+    top: 4px;
+    width: 7px;
+    height: 7px;
+    border-top: 3px solid var(--brand);
+    border-right: 3px solid var(--brand);
+    transform: rotate(45deg);
+  }
+  .pack-pagination {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 18px;
+  }
+  .pack-pagination a {
+    display: grid;
+    place-items: center;
+    min-width: 34px;
+    height: 34px;
+    padding: 0 10px;
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    color: var(--brand);
+    background: #fff;
+    font: inherit;
+    font-size: 13px;
+    line-height: 1;
+    font-weight: 900;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  .pack-pagination a:hover:not(.is-disabled) {
+    border-color: var(--brand);
+    box-shadow: var(--shadow-sm);
+  }
+  .pack-pagination a.is-active {
+    color: #fff;
+    border-color: var(--brand);
+    background: var(--brand);
+    pointer-events: none;
+  }
+  .pack-pagination a.is-disabled:not(.is-active) {
+    color: #98a6ba;
+    cursor: default;
+    opacity: 0.7;
+    pointer-events: none;
+  }
+  .pack-pagination .pager-prev,
+  .pack-pagination .pager-next {
+    min-width: 62px;
+  }
+  .side-filter {
+    padding: 28px 24px;
+    border-radius: 16px;
+    box-shadow: 0 16px 36px rgba(15, 79, 150, 0.08);
+  }
+  .side-filter h2 {
+    margin: 0 0 14px;
+    color: var(--text-strong);
+    font-size: 16px;
+    font-weight: 900;
+  }
+  .side-filter h2:not(:first-child) {
+    margin-top: 26px;
+    padding-top: 22px;
+    border-top: 1px solid var(--border);
+  }
+  .side-search { position: relative; display: block; }
+  .radio-list {
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+  }
+  .check-list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .radio-list label, .check-list label {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: var(--text);
+    font-size: 14px;
+    font-weight: 700;
+  }
+  .radio-list input, .check-list input {
+    flex: 0 0 auto;
+    min-height: 0;
+    margin: 0;
+    padding: 0;
+    accent-color: var(--brand);
+  }
+  .radio-list input {
+    width: 18px;
+    height: 18px;
+  }
+  .check-list input {
+    width: 17px;
+    height: 17px;
+  }
+  #resetPack {
+    display: block;
+    width: max-content;
+    margin-left: auto;
+    min-height: 44px;
+    margin-top: 28px;
+    padding: 0;
+    border: 0;
+    color: var(--brand);
+    background: transparent;
+    font: inherit;
+    font-size: 14px;
+    font-weight: 900;
+    cursor: pointer;
+  }
+  .empty {
+    margin: 18px 0 0;
+    padding: 18px;
+    border-radius: 10px;
+    color: var(--text-sub);
+    background: #f8fbff;
+    text-align: center;
+    font-weight: 700;
+  }
+  @media (max-width: 900px) {
+    .layout { grid-template-columns: 1fr; }
+    .packs-hero-copy { max-width: none; }
+  }
+  @media (max-width: 620px) {
+    .packs-hero { padding: 0 0 24px; }
+    .pack-stats { grid-template-columns: 1fr; margin-top: 22px; }
+    .pack-stats div + div {
+      border-left: 0;
+      border-top: 1px solid var(--border);
+    }
+    .pack-stats strong { font-size: 22px; }
+    .pack-search { grid-template-columns: 1fr; }
+    .list-head { align-items: stretch; flex-direction: column; }
+    .list-head select { width: 100%; }
+    .pack-list, .side-filter { padding: 20px 16px; }
+    .pack-card {
+      grid-template-columns: 92px minmax(0, 1fr) 18px;
+      gap: 14px;
+    }
+    .pack-card img { width: 88px; height: 94px; }
+    .pack-action { grid-column: 1 / -1; }
+    .pack-arrow { grid-column: 3; grid-row: 1; }
+    .pack-pagination {
+      justify-content: flex-start;
+      overflow-x: auto;
+      padding-bottom: 4px;
+    }
+  }
 </style>

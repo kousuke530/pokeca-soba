@@ -1,29 +1,70 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
 import Breadcrumbs from '../components/Breadcrumbs.astro';
+import { topByPrice } from '../data/cards';
 
 const title = 'カード検索｜ポケカ相場ドットコム';
 const description =
   'カード名・型番でポケモンカードを検索。販売価格・買取価格・相場をまとめて確認できます。';
+const popular = ['リザードンex', 'ピカチュウex', 'ナンジャモ', 'ブラッキーex', 'ミュウex', 'イーブイ', 'リーリエ', 'マリィ', 'カイ', 'ミュウツー', 'レックウザ', 'ルギア'];
+const ranking = topByPrice(5);
+const yen = (v: number | null) => (v == null ? '調査中' : `${v.toLocaleString('ja-JP')}円`);
 ---
 
 <BaseLayout title={title} description={description} path="/search">
   <Breadcrumbs items={[{ label: 'ポケカ買取・販売価格相場TOP', href: '/' }, { label: 'カード検索' }]} />
-  <h1 class="page-title">カード検索</h1>
-  <p class="lead">カード名・型番で部分一致検索できます（例: リザードン、ピカチュウ、016/101）。</p>
 
-  <div class="search-box">
-    <input
-      id="q"
-      type="search"
-      autocomplete="off"
-      placeholder="カード名・型番で検索"
-      aria-label="カード名・型番で検索"
-    />
-  </div>
+  <section class="search-hero">
+    <div class="search-hero-copy">
+      <h1>カード検索</h1>
+      <p>カード名で検索できます（例：リーリエ、ピカチュウ、メガリザードン）。</p>
+      <p>正確なカード名でも、キーワードの一部でも検索可能です。</p>
+    </div>
+    <section class="search-panel">
+      <div class="search-box">
+        <span class="input-icon" aria-hidden="true"></span>
+        <input
+          id="q"
+          type="search"
+          autocomplete="off"
+          placeholder="カード名を入力してください"
+          aria-label="カード名・型番で検索"
+        />
+        <button id="searchBtn" type="button">検索する</button>
+      </div>
+      <p class="hint"><span aria-hidden="true"></span>スペース区切りで複数ワード検索が可能です（例：ピカチュウ ex）</p>
+    </section>
+  </section>
 
   <p id="status" class="status" aria-live="polite"></p>
   <ul id="results" class="results"></ul>
+
+  <section class="suggest page-panel">
+    <h2>人気の検索キーワード</h2>
+    <div class="keyword-list">
+      {popular.map((word) => <a href={`/search?q=${encodeURIComponent(word)}`}>{word}</a>)}
+    </div>
+  </section>
+
+  <section class="suggest page-panel">
+    <div class="section-head">
+      <h2>注目の検索ワード</h2>
+      <a class="section-link" href="/ranking">ランキングをもっと見る</a>
+    </div>
+    <ol class="mini-rank">
+      {ranking.map((c) => (
+        <li>
+          <a href={`/search?q=${encodeURIComponent(c.name)}`}>
+            <img src={c.image} alt="" width="76" height="106" loading="lazy" />
+            <span>{c.name}</span>
+            <em>{c.cardNumber} {c.rarity}</em>
+            <strong>{yen(c.sellPrice)}</strong>
+          </a>
+        </li>
+      ))}
+    </ol>
+    <p class="price-note">価格は各ショップの販売・買取価格をもとにした参考価格です。最新情報はカード詳細ページをご確認ください。</p>
+  </section>
 </BaseLayout>
 
 <script is:inline>
@@ -39,6 +80,7 @@ const description =
     const normalize = (s) =>
       (s || '')
         .replace(/[Ａ-Ｚａ-ｚ０-９]/g, (c) => String.fromCharCode(c.charCodeAt(0) - 0xfee0))
+        .replace(/\s+/g, '')
         .trim()
         .toLowerCase();
 
@@ -49,7 +91,7 @@ const description =
     async function ensureData() {
       if (data || loading) return;
       loading = true;
-      status.textContent = '読み込み中…';
+      if (normalize(input.value)) status.textContent = '読み込み中…';
       try {
         const res = await fetch('/search-index.json');
         data = await res.json();
@@ -57,13 +99,14 @@ const description =
         status.textContent = 'インデックスの読み込みに失敗しました。再読み込みしてください。';
       }
       loading = false;
+      if (!normalize(input.value) && data) status.textContent = '';
     }
 
     function render(q) {
       const nq = normalize(q);
       if (!nq) {
         results.innerHTML = '';
-        status.textContent = 'カード名または型番を入力してください。';
+        status.textContent = '';
         return;
       }
       if (!data) {
@@ -128,6 +171,7 @@ const description =
       clearTimeout(t);
       t = setTimeout(onInput, 120);
     });
+    document.getElementById('searchBtn')?.addEventListener('click', onInput);
 
     // ?q= があれば初期表示
     const initial = new URLSearchParams(location.search).get('q') || '';
@@ -135,7 +179,7 @@ const description =
       input.value = initial;
       onInput();
     } else {
-      status.textContent = 'カード名または型番を入力してください。';
+      status.textContent = '';
     }
     // フォーカス時にインデックスを先読み
     input.addEventListener('focus', ensureData, { once: true });
@@ -144,38 +188,316 @@ const description =
 
 <!-- 動的にinnerHTMLで挿入する結果にも効くよう is:global（/searchページのみで読み込まれる） -->
 <style is:global>
-  .page-title { font-size: 20px; margin: 0 0 8px; }
-  .lead { font-size: 13px; color: var(--text-sub); margin: 0 0 16px; }
-  .search-box { margin: 0 0 12px; }
+  .search-hero {
+    position: relative;
+    min-height: 0;
+    margin: 0 0 28px;
+    padding: 0;
+    overflow: hidden;
+  }
+  .search-hero-copy {
+    position: relative;
+    z-index: 2;
+    max-width: 760px;
+    padding: 0 0 28px;
+  }
+  .search-hero-copy h1 {
+    margin: 0 0 12px;
+    color: var(--text-strong);
+    font-size: clamp(30px, 3.4vw, 36px);
+    line-height: 1.3;
+    font-weight: 900;
+  }
+  .search-hero-copy p {
+    max-width: 720px;
+    margin: 0;
+    color: var(--text);
+    font-size: 15px;
+    line-height: 1.8;
+    font-weight: 700;
+  }
+  .search-panel {
+    position: relative;
+    z-index: 2;
+    margin: 8px 0 0;
+  }
+  .search-box {
+    display: grid;
+    grid-template-columns: 48px minmax(0, 1fr) 240px;
+    gap: 0;
+    align-items: center;
+    margin: 0;
+    border: 3px solid #075dcc;
+    border-radius: 12px;
+    background: rgba(255, 255, 255, 0.96);
+    padding: 10px 10px 10px 22px;
+    box-shadow: 0 16px 32px rgba(7, 93, 204, 0.14);
+  }
+  .input-icon {
+    position: relative;
+    width: 28px;
+    height: 28px;
+  }
+  .input-icon::before {
+    content: "";
+    position: absolute;
+    left: 2px;
+    top: 2px;
+    width: 16px;
+    height: 16px;
+    border: 3px solid #0b1f3a;
+    border-radius: 50%;
+  }
+  .input-icon::after {
+    content: "";
+    position: absolute;
+    left: 19px;
+    top: 19px;
+    width: 12px;
+    height: 3px;
+    border-radius: 999px;
+    background: #0b1f3a;
+    transform: rotate(45deg);
+    transform-origin: left center;
+  }
   #q {
     width: 100%;
     box-sizing: border-box;
-    padding: 12px 14px;
-    font-size: 16px;
-    border: 1px solid var(--border);
+    min-height: 70px;
+    padding: 0 20px;
+    color: var(--text);
+    font-size: 24px;
+    font-weight: 900;
+    border: 0;
     border-radius: 10px;
-    background: #fff;
+    background: transparent;
   }
-  #q:focus { outline: none; border-color: var(--brand); }
-  .status { font-size: 12px; color: var(--text-sub); margin: 0 2px 12px; }
-  .results { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 8px; }
-  .card a {
+  #q::placeholder { color: #c9ced8; opacity: 1; }
+  #q:focus { outline: none; }
+  #searchBtn {
+    border: 0;
+    min-height: 70px;
+    border-radius: 10px;
+    background: linear-gradient(135deg, var(--brand), #0b75f5);
+    color: #fff;
+    font: inherit;
+    font-size: 20px;
+    font-weight: 900;
+    cursor: pointer;
+  }
+  .hint {
     display: flex;
-    gap: 12px;
     align-items: center;
-    padding: 10px;
+    gap: 8px;
+    margin: 16px 0 0 16px;
+    color: var(--text-sub);
+    font-size: 14px;
+    font-weight: 800;
+  }
+  .hint span {
+    position: relative;
+    width: 16px;
+    height: 16px;
+    border: 2px solid #5c8fe8;
+    border-radius: 50% 50% 46% 46%;
+  }
+  .hint span::after {
+    content: "";
+    position: absolute;
+    left: 4px;
+    right: 4px;
+    bottom: -5px;
+    height: 5px;
+    border-radius: 2px;
+    background: #5c8fe8;
+  }
+  .status {
+    display: none;
+    margin: 28px 0 14px;
+    color: var(--text-strong);
+    font-size: 28px;
+    font-weight: 900;
+  }
+  .status:not(:empty) { display: block; }
+  .results {
+    list-style: none;
+    margin: 0 0 28px;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+  .results:not(:empty) + .suggest { display: none; }
+  .card a {
+    display: grid;
+    grid-template-columns: 46px 96px minmax(0, 1fr) 180px 170px;
+    gap: 18px;
+    align-items: center;
+    min-height: 130px;
+    padding: 18px 24px;
     background: #fff;
     border: 1px solid var(--border);
-    border-radius: 10px;
+    border-radius: 12px;
+    box-shadow: var(--shadow-sm);
     text-decoration: none;
     color: var(--text);
   }
-  .card a:hover { border-color: var(--brand); }
-  .card img { width: 56px; height: auto; border-radius: 4px; border: 1px solid var(--border); flex: 0 0 auto; }
+  .card a::before {
+    content: counter(result);
+    counter-increment: result;
+    color: var(--text-sub);
+    font-size: 28px;
+    font-weight: 900;
+    text-align: center;
+  }
+  .results { counter-reset: result; }
+  .card a:hover { border-color: var(--brand); transform: translateY(-1px); }
+  .card img { width: 78px; height: 108px; object-fit: contain; border-radius: 5px; flex: 0 0 auto; }
   .info { min-width: 0; display: flex; flex-direction: column; gap: 3px; }
-  .cname { font-size: 14px; font-weight: 700; }
-  .rar { font-size: 11px; font-weight: 600; color: #fff; background: var(--brand); border-radius: 999px; padding: 1px 7px; }
-  .meta { font-size: 11px; color: var(--text-sub); }
-  .price { font-size: 12px; color: var(--text); }
-  .price b { color: #e02e4d; }
+  .cname { color: var(--text-strong); font-size: 18px; line-height: 1.45; font-weight: 900; }
+  .rar { font-size: 12px; font-weight: 900; color: #fff; background: var(--brand); border-radius: 6px; padding: 2px 8px; }
+  .meta { font-size: 13px; color: var(--text-sub); font-weight: 700; }
+  .price {
+    display: block;
+    padding-left: 24px;
+    border-left: 1px solid var(--border);
+    color: var(--text-sub);
+    font-size: 13px;
+    font-weight: 700;
+  }
+  .price b { display: block; color: var(--accent-red); font-size: 30px; line-height: 1.25; }
+  .card a::after {
+    content: "詳細ページへ";
+    display: grid;
+    place-items: center;
+    min-height: 48px;
+    padding: 0 18px;
+    border-radius: 8px;
+    background: var(--brand);
+    color: #fff;
+    font-size: 14px;
+    font-weight: 900;
+  }
+  .suggest {
+    margin: 20px 0;
+    padding: 28px 32px;
+  }
+  .suggest h2 {
+    margin: 0 0 18px;
+    color: var(--text-strong);
+    font-size: 22px;
+    font-weight: 900;
+  }
+  .keyword-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 14px 18px;
+  }
+  .keyword-list a {
+    min-width: 128px;
+    padding: 8px 18px;
+    border: 1px solid var(--border-strong);
+    border-radius: 999px;
+    color: var(--brand);
+    background: #f8fbff;
+    text-align: center;
+    text-decoration: none;
+    font-weight: 900;
+  }
+  .mini-rank {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    counter-reset: mini;
+    display: grid;
+    grid-template-columns: repeat(5, minmax(0, 1fr));
+    gap: 22px;
+  }
+  .mini-rank li { counter-increment: mini; }
+  .mini-rank a {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 7px;
+    min-height: 260px;
+    padding: 24px 12px 14px;
+    color: inherit;
+    text-align: center;
+    text-decoration: none;
+  }
+  .mini-rank a::before {
+    content: counter(mini);
+    position: absolute;
+    top: 0;
+    color: var(--brand);
+    font-size: 16px;
+    font-weight: 900;
+  }
+  .mini-rank img { width: 96px; height: 134px; object-fit: contain; border-radius: 5px; }
+  .mini-rank span {
+    min-height: 40px;
+    color: var(--text-strong);
+    font-size: 14px;
+    line-height: 1.4;
+    font-weight: 900;
+  }
+  .mini-rank em { color: var(--text-sub); font-size: 12px; font-style: normal; font-weight: 700; }
+  .mini-rank strong { color: var(--accent-red); font-size: 18px; font-weight: 900; }
+  .price-note {
+    margin: 20px 0 0;
+    padding: 13px 18px;
+    border-radius: 10px;
+    color: #6a4a00;
+    background: #fff7d9;
+    font-size: 13px;
+    font-weight: 700;
+    text-align: center;
+  }
+  @media (max-width: 860px) {
+    .search-hero {
+      min-height: 0;
+      margin-top: 8px;
+      overflow: visible;
+    }
+    .search-hero-copy { padding-bottom: 22px; }
+    .search-box {
+      grid-template-columns: 36px minmax(0, 1fr);
+      padding: 8px 8px 8px 16px;
+    }
+    .input-icon {
+      width: 24px;
+      height: 24px;
+    }
+    #q {
+      min-height: 54px;
+      padding: 0 10px;
+      font-size: 18px;
+    }
+    #searchBtn { min-height: 52px; }
+    #searchBtn { grid-column: 1 / -1; margin-top: 8px; font-size: 16px; }
+    .hint { margin-left: 4px; font-size: 12px; }
+    .card a {
+      grid-template-columns: 34px 74px minmax(0, 1fr);
+      gap: 12px;
+      padding: 14px;
+    }
+    .card img { width: 64px; height: 90px; }
+    .price {
+      grid-column: 3;
+      padding-left: 0;
+      border-left: 0;
+    }
+    .price b { font-size: 22px; }
+    .card a::after {
+      grid-column: 1 / -1;
+      min-height: 42px;
+    }
+    .mini-rank { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  }
+  @media (max-width: 520px) {
+    .suggest { padding: 20px 16px; }
+    .mini-rank { grid-template-columns: 1fr; }
+    .keyword-list a { min-width: auto; }
+  }
 </style>

@@ -6,19 +6,38 @@ interface Props {
   path?: string;
   /** 構造化データ(JSON-LD)の文字列（任意） */
   jsonLd?: string;
+  /** true のとき canonical タグを出力しない（?page= 等で各URLを固有ページとして扱いたい場合） */
+  noCanonical?: boolean;
 }
-const { title, description, path = '', jsonLd } = Astro.props;
+const { title, description, path = '', jsonLd, noCanonical = false } = Astro.props;
 const canonical = new URL(path, Astro.site).href;
+const currentPath = Astro.url.pathname;
+const navItems = [
+  { href: '/search', label: '検索', match: '/search' },
+  { href: '/list', label: 'ポケモン一覧', match: '/list' },
+  { href: '/packs', label: 'パック一覧', match: '/packs' },
+  { href: '/ranking', label: 'ランキング', match: '/ranking' },
+];
 ---
 
 <!doctype html>
 <html lang="ja">
   <head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-YNM4HT1XGD" is:inline></script>
+    <script is:inline>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag('js', new Date());
+      gtag('config', 'G-YNM4HT1XGD');
+    </script>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>{title}</title>
     <meta name="description" content={description} />
-    <link rel="canonical" href={canonical} />
+    {!noCanonical && <link rel="canonical" href={canonical} />}
     <!-- Favicon / アイコン -->
     <link rel="icon" href="/favicon.ico" sizes="any" />
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png" />
@@ -39,41 +58,73 @@ const canonical = new URL(path, Astro.site).href;
           <img src="/logo.png" alt="ポケカ相場ドットコム" width="593" height="120" />
         </a>
         <nav class="site-nav" aria-label="グローバルナビ">
-          <a href="/search">検索</a>
-          <a href="/list">ポケモン一覧</a>
-          <a href="/packs">パック</a>
-          <a href="/ranking">ランキング</a>
+          {
+            navItems.map((item) => (
+              <a href={item.href} class:list={[currentPath.startsWith(item.match) && 'is-active']}>
+                {item.label}
+              </a>
+            ))
+          }
         </nav>
       </div>
     </header>
     <main class="site-main">
       <slot />
     </main>
+    <section class="trust-strip" aria-label="価格情報について">
+      <div class="trust-inner">
+        <div class="trust-shield" aria-hidden="true"></div>
+        <div class="trust-copy">
+          <h2>安心の価格情報をお届けしています</h2>
+          <p>当サイトの価格情報は、各ショップの販売価格・買取価格を定期的に収集し、最新の相場を反映しています。</p>
+          <p>価格の正確性に関しては各ショップ、契約内容や価格確認規定により差異が生じる場合があります。</p>
+        </div>
+        <div class="trust-cards" aria-hidden="true">
+          <span></span><span></span><span></span>
+        </div>
+      </div>
+    </section>
     <footer class="site-footer">
-      <p>
-        当サイトはアフィリエイトプログラムにより収益を得ています。
-      </p>
-      <nav class="footer-nav" aria-label="フッター">
-        <a href="/about">運営者情報</a>
-        <a href="/terms">利用規約</a>
-        <a href="/privacy">プライバシーポリシー</a>
-        <a href="/sitemap">サイトマップ</a>
-      </nav>
-      <p class="copyright">© ポケカ相場ドットコム</p>
+      <div class="footer-inner">
+        <div class="footer-brand">
+          <a href="/" class="footer-logo" aria-label="ポケカ相場ドットコム">
+            <img src="/logo.png" alt="ポケカ相場ドットコム" width="593" height="120" loading="lazy" />
+          </a>
+          <p>ポケモンカードの相場比較ならポケカ相場ドットコム。</p>
+          <p>価格をシェアで比較できるカード相場サイトです。</p>
+        </div>
+        <nav class="footer-nav" aria-label="フッター">
+          <a href="/about">運営者情報</a>
+          <a href="/terms">利用規約</a>
+          <a href="/privacy">プライバシーポリシー</a>
+          <a href="/sitemap">サイトマップ</a>
+        </nav>
+      </div>
+      <div class="footer-bottom">
+        <p class="copyright">© ポケカ相場ドットコム</p>
+      </div>
     </footer>
 
     <style is:global>
       :root {
-        --brand: #1565c0;
-        --brand-dark: #0d47a1;
-        --brand-light: #e3f0fc;
-        --accent-red: #e53935;
-        --text: #1a1a1a;
-        --text-sub: #666;
-        --border: #d6d6d6;
-        --bg: #f4f6f8;
-        --radius: 8px;
-        --maxw: 720px;
+        --brand: #075dcc;
+        --brand-dark: #003f9f;
+        --brand-light: #eaf4ff;
+        --brand-soft: #f3f9ff;
+        --accent-red: #f01f32;
+        --accent-yellow: #f5b82e;
+        --accent-green: #19a85b;
+        --text: #142033;
+        --text-strong: #101828;
+        --text-sub: #667085;
+        --border: #d9e5f5;
+        --border-strong: #b8cff1;
+        --bg: #f7fbff;
+        --card: #fff;
+        --shadow: 0 18px 45px rgba(15, 79, 150, 0.08);
+        --shadow-sm: 0 8px 24px rgba(15, 79, 150, 0.08);
+        --radius: 12px;
+        --maxw: 1120px;
       }
       * { box-sizing: border-box; }
       html { -webkit-text-size-adjust: 100%; }
@@ -82,16 +133,27 @@ const canonical = new URL(path, Astro.site).href;
         font-family: "Hiragino Kaku Gothic ProN", "Hiragino Sans", "Noto Sans JP",
           system-ui, sans-serif;
         color: var(--text);
-        background: var(--bg);
+        /* グラデーションはページの高さに依存しない固定px指定にし、全ページで背景を統一する */
+        background-color: #f8fbff;
+        background-image:
+          radial-gradient(900px 480px at 18% 0, rgba(27, 127, 255, 0.10), transparent 60%),
+          radial-gradient(900px 480px at 85% 0, rgba(27, 127, 255, 0.16), transparent 60%),
+          linear-gradient(180deg, #f4faff 0, #fff 520px, #f8fbff 900px);
+        background-repeat: no-repeat;
         line-height: 1.7;
       }
       a { color: var(--brand); }
       img { max-width: 100%; height: auto; }
 
       .site-header {
-        background: #fff;
-        border-bottom: 1px solid var(--border);
-        padding: 12px 16px;
+        position: sticky;
+        top: 0;
+        z-index: 20;
+        background: rgba(255, 255, 255, 0.94);
+        border-bottom: 1px solid rgba(184, 207, 241, 0.8);
+        box-shadow: 0 2px 16px rgba(15, 79, 150, 0.04);
+        backdrop-filter: blur(12px);
+        padding: 14px 24px;
       }
       .site-header-inner {
         max-width: var(--maxw);
@@ -108,47 +170,270 @@ const canonical = new URL(path, Astro.site).href;
         text-decoration: none;
       }
       .site-logo img {
-        height: 34px;
+        height: 42px;
         width: auto;
         display: block;
       }
       .site-nav {
         display: flex;
-        gap: 14px;
-        font-size: 13px;
-        font-weight: 600;
+        align-items: center;
+        gap: 28px;
+        font-size: 14px;
+        font-weight: 800;
       }
       .site-nav a {
-        color: var(--text);
+        position: relative;
+        color: #06285f;
         text-decoration: none;
+        padding: 18px 0;
       }
       .site-nav a:hover { color: var(--brand); }
+      .site-nav a.is-active { color: var(--brand); }
+      .site-nav a.is-active::after {
+        content: "";
+        position: absolute;
+        left: 0;
+        right: 0;
+        bottom: -15px;
+        height: 3px;
+        border-radius: 999px 999px 0 0;
+        background: var(--brand);
+      }
       .site-main {
         max-width: var(--maxw);
         margin: 0 auto;
-        padding: 16px;
+        padding: 28px 24px 52px;
       }
-      .site-footer {
+      .trust-strip {
         max-width: var(--maxw);
-        margin: 40px auto 0;
-        padding: 24px 16px;
+        margin: 0 auto 28px;
+        padding: 0 24px;
+      }
+      .trust-inner {
+        min-height: 98px;
+        display: grid;
+        grid-template-columns: 56px minmax(0, 1fr) 148px;
+        gap: 18px;
+        align-items: center;
+        padding: 18px 28px;
+        border: 1px solid #d9e8ff;
+        border-radius: 12px;
+        background: linear-gradient(90deg, #eef7ff, #f7fbff);
+        box-shadow: var(--shadow-sm);
+      }
+      .trust-shield {
+        position: relative;
+        width: 44px;
+        height: 52px;
+        border-radius: 16px 16px 22px 22px;
+        background: linear-gradient(180deg, #0b75f5, var(--brand));
+        box-shadow: inset 0 0 0 4px rgba(255, 255, 255, 0.22);
+        clip-path: polygon(50% 0, 92% 14%, 88% 66%, 50% 100%, 12% 66%, 8% 14%);
+      }
+      .trust-shield::before {
+        content: "";
+        position: absolute;
+        inset: 13px 12px 15px;
+        border: 2px solid rgba(255,255,255,0.74);
+        border-radius: 50%;
+      }
+      .trust-shield::after {
+        content: "";
+        position: absolute;
+        left: 20px;
+        top: 20px;
+        width: 10px;
+        height: 6px;
+        border-left: 3px solid #fff;
+        border-bottom: 3px solid #fff;
+        transform: rotate(-45deg);
+      }
+      .trust-copy h2 {
+        margin: 0 0 6px;
+        color: var(--brand);
+        font-size: 15px;
+        line-height: 1.35;
+        font-weight: 900;
+      }
+      .trust-copy p {
+        margin: 0;
+        color: #31557d;
+        font-size: 12px;
+        line-height: 1.65;
+        font-weight: 700;
+      }
+      .trust-cards {
+        position: relative;
+        justify-self: end;
+        width: 122px;
+        height: 74px;
+        border-radius: 0 0 12px 12px;
+        background: linear-gradient(180deg, #ffc53d, #f5a622);
+      }
+      .trust-cards::before {
+        content: "";
+        position: absolute;
+        left: -8px;
+        right: -8px;
+        top: 0;
+        height: 14px;
+        border-radius: 7px 7px 4px 4px;
+        background: #ffd76e;
+      }
+      .trust-cards span {
+        position: absolute;
+        top: -32px;
+        width: 34px;
+        height: 48px;
+        border: 3px solid #fff;
+        border-radius: 5px;
+        background: linear-gradient(135deg, #76c8ff, #0b75f5);
+        box-shadow: 0 5px 10px rgba(6, 40, 95, 0.13);
+      }
+      .trust-cards span:nth-child(1) { left: 22px; transform: rotate(-10deg); }
+      .trust-cards span:nth-child(2) { left: 46px; top: -38px; transform: rotate(4deg); background: linear-gradient(135deg, #fff082, #f0b824); }
+      .trust-cards span:nth-child(3) { right: 20px; transform: rotate(12deg); }
+      .site-footer {
+        margin: 0;
         font-size: 12px;
         color: var(--text-sub);
+        background: #fff;
         border-top: 1px solid var(--border);
+      }
+      .footer-inner {
+        max-width: var(--maxw);
+        margin: 0 auto;
+        padding: 34px 24px;
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+        gap: 32px;
+      }
+      .footer-brand {
+        max-width: 360px;
+      }
+      .footer-brand p {
+        margin: 6px 0 0;
+      }
+      .footer-logo {
+        display: inline-flex;
+        align-items: center;
+      }
+      .footer-logo img {
+        height: 34px;
+        width: auto;
+        display: block;
       }
       .footer-nav {
         display: flex;
         flex-wrap: wrap;
-        gap: 8px 16px;
-        margin-top: 10px;
+        justify-content: flex-end;
+        gap: 10px 22px;
+        max-width: 420px;
       }
       .footer-nav a {
-        color: var(--text-sub);
+        color: var(--text);
         text-decoration: none;
-        font-size: 12px;
+        font-size: 13px;
+        font-weight: 700;
       }
       .footer-nav a:hover { color: var(--brand); }
-      .copyright { margin-top: 8px; }
+      .footer-bottom {
+        background: linear-gradient(90deg, var(--brand-dark), var(--brand));
+        color: #fff;
+        padding: 14px 24px;
+        display: flex;
+        justify-content: center;
+        gap: min(20vw, 220px);
+        font-size: 12px;
+      }
+      .footer-bottom p { margin: 0; }
+
+      .page-panel {
+        background: rgba(255, 255, 255, 0.92);
+        border: 1px solid var(--border);
+        border-radius: 18px;
+        box-shadow: var(--shadow);
+      }
+      .section-head {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 16px;
+        margin: 0 0 20px;
+      }
+      .section-title {
+        margin: 0;
+        font-size: 22px;
+        line-height: 1.35;
+        color: var(--text-strong);
+        font-weight: 900;
+      }
+      .section-link {
+        font-size: 13px;
+        font-weight: 800;
+        text-decoration: none;
+        white-space: nowrap;
+      }
+      .badge-rarity {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        min-height: 22px;
+        padding: 2px 8px;
+        border-radius: 6px;
+        background: var(--brand);
+        color: #fff;
+        font-size: 11px;
+        line-height: 1;
+        font-weight: 900;
+        vertical-align: middle;
+      }
+
+      @media (max-width: 720px) {
+        .site-header { padding: 10px 16px; }
+        .site-header-inner {
+          align-items: flex-start;
+          gap: 10px;
+        }
+        .site-logo img { height: 34px; }
+        .site-nav {
+          width: 100%;
+          gap: 0;
+          justify-content: space-between;
+          overflow-x: auto;
+          font-size: 12px;
+        }
+        .site-nav a { padding: 8px 4px; white-space: nowrap; }
+        .site-nav a.is-active::after { bottom: -10px; }
+        .site-main { padding: 20px 16px 40px; }
+        .trust-strip { padding: 0 16px; margin-bottom: 22px; }
+        .trust-inner {
+          grid-template-columns: 44px minmax(0, 1fr);
+          padding: 16px;
+        }
+        .trust-cards { display: none; }
+        .trust-shield { width: 38px; height: 46px; }
+        .footer-inner {
+          flex-direction: column;
+          padding: 28px 16px;
+        }
+        .footer-nav {
+          justify-content: flex-start;
+          max-width: none;
+        }
+        .footer-bottom {
+          display: block;
+          text-align: left;
+        }
+        .footer-bottom p + p { margin-top: 6px; }
+        .section-head {
+          align-items: flex-start;
+          flex-direction: column;
+          gap: 6px;
+        }
+        .section-title { font-size: 19px; }
+      }
     </style>
   </body>
 </html>

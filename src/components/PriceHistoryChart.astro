@@ -71,10 +71,10 @@ const fmt = (v: number) => v.toLocaleString('ja-JP');
       ))
     }
     <!-- 折れ線 -->
-    {hasBuy && <path d={buyPath} fill="none" stroke="#43a047" stroke-width="2" />}
-    <path d={sellPath} fill="none" stroke="var(--brand)" stroke-width="2" />
+    {hasBuy && <path d={buyPath} fill="none" stroke="var(--accent-green)" stroke-width="2.5" />}
+    <path d={sellPath} fill="none" stroke="var(--accent-red)" stroke-width="2.5" />
     <!-- 点マーカー（点数が少ないときに見えるように） -->
-    {sellDots.map((d) => <circle cx={d.cx} cy={d.cy} r="2.5" fill="var(--brand)" />)}
+    {sellDots.map((d) => <circle cx={d.cx} cy={d.cy} r="3" fill="var(--accent-red)" />)}
   </svg>
   <figcaption class="legend">
     <span class="lg lg-sell">販売価格</span>
@@ -102,7 +102,7 @@ const fmt = (v: number) => v.toLocaleString('ja-JP');
     height: auto;
     background: #fff;
     border: 1px solid var(--border);
-    border-radius: var(--radius);
+    border-radius: 12px;
   }
   .ax {
     font-size: 11px;
@@ -123,6 +123,6 @@ const fmt = (v: number) => v.toLocaleString('ja-JP');
     margin-right: 5px;
     vertical-align: middle;
   }
-  .lg-sell::before { background: var(--brand); }
-  .lg-buy::before { background: #43a047; }
+  .lg-sell::before { background: var(--accent-red); }
+  .lg-buy::before { background: var(--accent-green); }
 </style>

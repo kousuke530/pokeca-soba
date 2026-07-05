@@ -17,6 +17,16 @@ const { series } = Astro.props;
 
 const priceDate = priceAsOf;
 const seriesPath = `/list/${series.slug}`;
+const variants = [...series.variants].sort((a, b) => (b.sellPrice ?? 0) - (a.sellPrice ?? 0));
+const topCard = variants[0];
+const priceVals = variants.map((v) => v.sellPrice).filter((v): v is number => v != null);
+const buyVals = variants.map((v) => v.buyPrice).filter((v): v is number => v != null);
+const lowest = priceVals.length ? Math.min(...priceVals) : null;
+const highest = priceVals.length ? Math.max(...priceVals) : null;
+const avg = priceVals.length ? Math.round(priceVals.reduce((sum, v) => sum + v, 0) / priceVals.length) : null;
+const yen = (v: number | null) => (v == null ? '調査中' : `${v.toLocaleString('ja-JP')}円`);
+const typeLabel =
+  topCard.category === 'ポケモン' && topCard.energyType ? topCard.energyType : topCard.category;
 
 const title = `【ポケカ】${series.name}(全${series.variants.length}種)の買取・販売価格相場一覧【ポケモンカード】`;
 const description = `${series.name}の最新の販売価格・買取価格を比較。レアリティ別（${series.variants
@@ -65,18 +75,56 @@ const jsonLd = JSON.stringify({
     ]}
   />
 
-  <h1 class="page-title">{title}</h1>
-  <p class="lead">
-    {series.name}の最新の販売価格・買取価格を比較できます（{priceDate}時点）。
-    各カードの「価格を見る」で概要をサッと確認、「詳細」で価格推移を含む個別ページへ移動できます。
-  </p>
+  <section class="pokemon-hero">
+    <figure class="hero-img">
+      <img src={topCard.imageLarge} alt={series.name} width="280" height="390" loading="eager" />
+    </figure>
+    <div class="hero-copy">
+      <div class="chips">
+        <span>{typeLabel}</span>
+        <span>{topCard.category}</span>
+      </div>
+      <h1 class="page-title">{series.name}</h1>
+      <p class="lead">
+        {series.name}のレアリティ別カード相場を一覧で確認できます。価格は{priceDate}時点の参考相場です。
+      </p>
+      <div class="stats">
+        <div><span>収録バージョン</span><strong>{series.variants.length}種</strong></div>
+        <div><span>最安値</span><strong>{yen(lowest)}</strong></div>
+        <div><span>最高値</span><strong>{yen(highest)}</strong></div>
+        <div><span>価格更新</span><strong>{priceDate}</strong></div>
+      </div>
+    </div>
+  </section>
 
-  <ul class="card-list">
-    {series.variants.map((c) => <VariantRow card={c} popup />)}
-  </ul>
+  <section class="tabs" aria-label="表示切り替え">
+    <a href="#variants" class="active">カードバージョン一覧</a>
+    <a href="#chart">相場チャート</a>
+  </section>
+
+  <section id="variants" class="variant-section page-panel">
+    <div class="variant-tools">
+      <div>
+        <label><select><option>すべてのレアリティ</option></select></label>
+        <label><select><option>すべてのシリーズ</option></select></label>
+      </div>
+      <label>並び替え：<select><option>価格が高い順</option></select></label>
+    </div>
+    <div class="section-head">
+      <h2 class="section-title">{series.variants.length}件のバリエーション</h2>
+      <p class="avg">平均相場 {yen(avg)}</p>
+    </div>
+    <ul class="card-list">
+      {variants.map((c) => <VariantRow card={c} popup />)}
+    </ul>
+  </section>
+
+  <section id="chart" class="notice">
+    価格は主要カードショップの最安値を基に算出しています。更新時間により価格や在庫が変動する場合があります。
+  </section>
 
   {
-    series.variants.map((c) => (
+    variants.map((c) => (
       <PriceModal card={c} seriesUrl={seriesPath} seriesName={series.name} priceDate={priceDate} />
     ))
   }
@@ -100,7 +148,157 @@ const jsonLd = JSON.stringify({
 </script>
 
 <style>
-  .page-title { font-size: 20px; line-height: 1.5; margin: 0 0 12px; }
-  .lead { font-size: 14px; color: var(--text-sub); margin: 0 0 20px; }
-  .card-list { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 12px; }
+  .pokemon-hero {
+    display: grid;
+    grid-template-columns: 280px minmax(0, 1fr);
+    gap: 34px;
+    align-items: center;
+    min-height: 330px;
+    padding: 18px 0 44px;
+  }
+  .hero-img {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+  }
+  .hero-img img {
+    width: 260px;
+    height: 362px;
+    object-fit: contain;
+    border-radius: 14px;
+    filter: drop-shadow(0 18px 22px rgba(6, 40, 95, 0.16));
+  }
+  .chips {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 14px;
+  }
+  .chips span {
+    padding: 7px 16px;
+    border-radius: 999px;
+    color: #fff;
+    background: #31a866;
+    font-size: 14px;
+    font-weight: 900;
+  }
+  .chips span + span { color: var(--text); background: #eef4fb; }
+  .page-title {
+    margin: 0 0 14px;
+    color: var(--text-strong);
+    font-size: clamp(34px, 5vw, 50px);
+    line-height: 1.25;
+    font-weight: 900;
+  }
+  .lead {
+    max-width: 720px;
+    color: var(--text);
+    font-size: 16px;
+    font-weight: 600;
+    margin: 0 0 26px;
+  }
+  .stats {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    background: rgba(255, 255, 255, 0.94);
+    border: 1px solid var(--border);
+    border-radius: 16px;
+    box-shadow: var(--shadow-sm);
+    overflow: hidden;
+  }
+  .stats div {
+    min-height: 84px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 14px 20px;
+  }
+  .stats div + div { border-left: 1px solid var(--border); }
+  .stats span { color: var(--text-sub); font-size: 12px; font-weight: 800; }
+  .stats strong { color: var(--brand); font-size: 22px; line-height: 1.35; font-weight: 900; }
+  .tabs {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 0 0 26px;
+    border-bottom: 1px solid var(--border);
+  }
+  .tabs a {
+    padding: 18px 16px 14px;
+    color: var(--text-sub);
+    text-align: center;
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: 900;
+    border-bottom: 4px solid transparent;
+  }
+  .tabs a.active {
+    color: var(--brand);
+    border-color: var(--brand);
+  }
+  .variant-section {
+    padding: 26px 0 0;
+    box-shadow: none;
+    border: 0;
+    background: transparent;
+  }
+  .variant-tools {
+    display: flex;
+    justify-content: space-between;
+    gap: 18px;
+    align-items: center;
+    margin-bottom: 22px;
+  }
+  .variant-tools > div {
+    display: flex;
+    gap: 12px;
+    flex-wrap: wrap;
+  }
+  .variant-tools label {
+    color: var(--text-sub);
+    font-size: 13px;
+    font-weight: 800;
+  }
+  .variant-tools select {
+    min-height: 44px;
+    min-width: 170px;
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 0 14px;
+    background: #fff;
+    font: inherit;
+    font-weight: 700;
+  }
+  .avg {
+    margin: 0;
+    color: var(--text-sub);
+    font-size: 14px;
+    font-weight: 800;
+  }
+  .card-list { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 10px; }
+  .notice {
+    margin: 26px 0 0;
+    padding: 14px 18px;
+    border: 1px solid #f3df9a;
+    border-radius: 10px;
+    color: #6a4a00;
+    background: #fff7d9;
+    font-size: 13px;
+    font-weight: 700;
+  }
+  @media (max-width: 820px) {
+    .pokemon-hero { grid-template-columns: 1fr; gap: 18px; }
+    .stats { grid-template-columns: 1fr 1fr; }
+    .stats div:nth-child(odd) { border-left: 0; }
+    .stats div:nth-child(n + 3) { border-top: 1px solid var(--border); }
+    .variant-tools { align-items: stretch; flex-direction: column; }
+  }
+  @media (max-width: 520px) {
+    .hero-img img { width: 220px; height: 306px; }
+    .page-title { font-size: 34px; }
+    .stats { grid-template-columns: 1fr; }
+    .stats div + div { border-left: 0; border-top: 1px solid var(--border); }
+    .tabs a { font-size: 14px; }
+    .variant-tools select { width: 100%; }
+    .variant-tools > div { display: grid; grid-template-columns: 1fr; }
+  }
 </style>
