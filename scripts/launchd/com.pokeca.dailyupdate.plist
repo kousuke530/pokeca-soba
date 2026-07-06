@@ -24,6 +24,10 @@
     <key>Minute</key>
     <integer>0</integer>
   </dict>
+  <!-- ログイン/起動時にも実行（正午にMacが電源オフで12:00の実行を逃した場合の取りこぼし対策）。
+       daily-update.sh 側で「当日取得済みならスキップ」ガードがあるため多重実行しても実収集は1日1回。 -->
+  <key>RunAtLoad</key>
+  <true/>
   <key>StandardOutPath</key>
   <string>/Users/kosuke/pokeca-soba/work/launchd.out.log</string>
   <key>StandardErrorPath</key>

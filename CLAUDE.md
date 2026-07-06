@@ -6,8 +6,16 @@
 
 ## 性質
 
-- **私用プロジェクト**（`project/その他/` 配下）。仕事文脈は持ち込まない。
-- Obsidian 記録は `Projects/personal/`・`tags: [personal]` で分離する。
+- **私用プロジェクト**。仕事文脈は持ち込まない。
+- **物理パス: `~/pokeca-soba`**（旧 `~/Desktop/Automation/project/その他/ポケカ販売` から移設。理由: `~/Desktop` は macOS の保護対象で launchd の日次自動更新が `Operation not permitted` になったため）。
+- **GitHubアカウントは kousuke530（私用）** を使用。orb関連（k-umetsu-orb）は絶対に使わない。
+
+## Obsidian 記録（セッション横断の知識引き継ぎ）
+
+- **Vault 物理パス（絶対）**: `/Users/kosuke/Desktop/Automation/valut/`（Vaultはリポジトリ移設の対象外。ここは元の場所のまま）。
+- **本プロジェクトのノート**: `Projects/personal/pokeca-affiliate.md`。作業の要点・決定・詰まりはここに追記する。
+- 記録は `Projects/personal/`・`tags: [personal]` で分離。関連知見は `Knowledge/personal/`（例: `surugaya-scraping.md`）。
+- 読み書きは絶対パスへの直接FS操作（Read/Write/Edit/Grep）。Obsidian MCP は使わない。
 
 ## 方針（決定事項 2026-06-15）
 

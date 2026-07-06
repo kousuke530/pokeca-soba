@@ -24,6 +24,15 @@ log() { echo "[$(date '+%Y-%m-%d %H:%M:%S')] $*" | tee -a "$LOG"; }
 log "===== 日次価格更新 開始 ====="
 log "node $(node -v) / git $(git --version)"
 
+# 当日分をすでに取得済みならスキップ（RunAtLoad＝起動時実行での多重実行を防ぐ）。
+# 収集は履歴の日付を UTC で記録するため、判定も UTC 基準で行う。
+TODAY_UTC=$(date -u '+%Y-%m-%d')
+if grep -rq "\"${TODAY_UTC}\"" "$REPO/data/history/" 2>/dev/null; then
+  log "本日分（${TODAY_UTC} UTC）は取得済みのためスキップします。"
+  log "===== 日次価格更新 終了 ====="
+  exit 0
+fi
+
 # 収集は必ず collect → collect:buy の順（collect が data/cards を再生成し買取価格を消すため、
 # 直後に collect:buy で買取を復元する）。
 log "販売価格を収集 (collect) ..."
