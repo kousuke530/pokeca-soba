@@ -15,7 +15,7 @@
   <key>ProgramArguments</key>
   <array>
     <string>/bin/bash</string>
-    <string>/Users/kosuke/Desktop/Automation/project/その他/ポケカ販売/scripts/daily-update.sh</string>
+    <string>/Users/kosuke/pokeca-soba/scripts/daily-update.sh</string>
   </array>
   <key>StartCalendarInterval</key>
   <dict>
@@ -25,8 +25,8 @@
     <integer>0</integer>
   </dict>
   <key>StandardOutPath</key>
-  <string>/Users/kosuke/Desktop/Automation/project/その他/ポケカ販売/work/launchd.out.log</string>
+  <string>/Users/kosuke/pokeca-soba/work/launchd.out.log</string>
   <key>StandardErrorPath</key>
-  <string>/Users/kosuke/Desktop/Automation/project/その他/ポケカ販売/work/launchd.err.log</string>
+  <string>/Users/kosuke/pokeca-soba/work/launchd.err.log</string>
 </dict>
 </plist>

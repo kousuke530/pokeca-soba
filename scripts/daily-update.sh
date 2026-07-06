@@ -12,7 +12,7 @@ set -uo pipefail
 # launchd は最小環境で起動するため、node/npm(/usr/local/bin)・git(/usr/bin) を明示的にPATHへ
 export PATH="/usr/local/bin:/usr/bin:/bin:/opt/homebrew/bin:$PATH"
 
-REPO="/Users/kosuke/Desktop/Automation/project/その他/ポケカ販売"
+REPO="/Users/kosuke/pokeca-soba"
 cd "$REPO" || { echo "リポジトリが見つかりません: $REPO"; exit 1; }
 
 mkdir -p "$REPO/work"
