@@ -3,7 +3,7 @@ import BaseLayout from '../../../layouts/BaseLayout.astro';
 import Breadcrumbs from '../../../components/Breadcrumbs.astro';
 import PriceHistoryChart from '../../../components/PriceHistoryChart.astro';
 import ShopLinks from '../../../components/ShopLinks.astro';
-import { purchaseShops, buybackShops } from '../../../data/affiliates';
+import { purchaseShops, buybackShops, amazonSearchUrl, mercariSearchUrl } from '../../../data/affiliates';
 import { allCards, getSeriesByName, seriesByPack, priceAsOf } from '../../../data/cards';
 import { getPack } from '../../../data/packs';
 import type { Card } from '../../../data/types';
@@ -30,10 +30,15 @@ const priceDate = priceAsOf;
 const setCode = getPack(card.packSlug)?.setCode ?? card.packSlug.toUpperCase();
 const yen = (v: number | null) => (v == null ? '調査中' : `¥${v.toLocaleString('ja-JP')}`);
 const surugayaUrl = card.sellShops.find((s) => s.shop === '駿河屋')?.url ?? card.sellShops[0]?.url;
-// 販売ショップの駿河屋は、可能なら当該カードの商品ページに直リンク
-const purchase = surugayaUrl
-  ? purchaseShops.map((s) => (s.name === '駿河屋' ? { ...s, url: surugayaUrl } : s))
-  : purchaseShops;
+const amazonUrl = amazonSearchUrl(card);
+const mercariUrl = mercariSearchUrl(card);
+// 販売ショップの駿河屋は当該カードの商品ページに直リンク、Amazon/メルカリは当該カードの検索結果に直リンク
+const purchase = purchaseShops.map((s) => {
+  if (s.name === '駿河屋' && surugayaUrl) return { ...s, url: surugayaUrl };
+  if (s.name === 'Amazon') return { ...s, url: amazonUrl };
+  if (s.name === 'メルカリ') return { ...s, url: mercariUrl };
+  return s;
+});
 const categoryLabel =
   card.category === 'ポケモン' && card.energyType ? `ポケモン・${card.energyType}` : card.category;
 const isPokemon = card.category === 'ポケモン';
