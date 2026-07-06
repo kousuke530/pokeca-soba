@@ -2,7 +2,7 @@
   "pack": "拡張パック「ロケット団の栄光」",
   "packSlug": "sv10",
   "source": "surugaya",
-  "collectedAt": "2026-07-04T17:40:20.531Z",
+  "collectedAt": "2026-07-06T10:36:10.497Z",
   "count": 130,
   "cards": [
     {
@@ -220,7 +220,7 @@
       "rarity": "R",
       "category": "ポケモン",
       "energyType": "炎",
-      "surugayaUrl": "/product/detail/GU166846?tenpo_cd=410018",
+      "surugayaUrl": "/product/other/GU166846",
       "surugayaPrice": 79,
       "surugayaSoldOut": true,
       "raritySlug": "r"
@@ -551,7 +551,7 @@
       "category": "ポケモン",
       "energyType": "闘",
       "surugayaUrl": "/product/other/GU166852",
-      "surugayaPrice": 37,
+      "surugayaPrice": 90,
       "surugayaSoldOut": true,
       "raritySlug": "r"
     },
@@ -716,7 +716,7 @@
       "category": "ポケモン",
       "energyType": "悪",
       "surugayaUrl": "/product/other/GU166870",
-      "surugayaPrice": 69,
+      "surugayaPrice": 60,
       "surugayaSoldOut": true,
       "raritySlug": "u"
     },
@@ -1024,7 +1024,7 @@
       "category": "サポート",
       "energyType": "",
       "surugayaUrl": "/product/other/GU166882",
-      "surugayaPrice": 99,
+      "surugayaPrice": 90,
       "surugayaSoldOut": true,
       "raritySlug": "u"
     },
@@ -1035,7 +1035,7 @@
       "category": "サポート",
       "energyType": "",
       "surugayaUrl": "/product/other/GU166883",
-      "surugayaPrice": 238,
+      "surugayaPrice": 230,
       "surugayaSoldOut": true,
       "raritySlug": "u"
     },
@@ -1057,7 +1057,7 @@
       "category": "スタジアム",
       "energyType": "",
       "surugayaUrl": "/product/other/GU166885",
-      "surugayaPrice": 150,
+      "surugayaPrice": 100,
       "surugayaSoldOut": true,
       "raritySlug": "u"
     },
@@ -1079,7 +1079,7 @@
       "category": "エネルギー",
       "energyType": "",
       "surugayaUrl": "/product/other/GU166887",
-      "surugayaPrice": 80,
+      "surugayaPrice": 70,
       "surugayaSoldOut": true,
       "raritySlug": "u"
     },
@@ -1270,7 +1270,7 @@
       "category": "ポケモン",
       "energyType": "超",
       "surugayaUrl": "/product/other/GU166815",
-      "surugayaPrice": 1970,
+      "surugayaPrice": 1950,
       "surugayaSoldOut": true,
       "raritySlug": "sr",
       "surugayaBuyPrice": 1400
@@ -1360,6 +1360,18 @@
       "surugayaBuyPrice": 600
     },
     {
+      "name": "ロケット団のラムダ",
+      "cardNumber": "122/098",
+      "rarity": "SR",
+      "category": "サポート",
+      "energyType": "",
+      "surugayaUrl": "/product/detail/GU166823?tenpo_cd=400500",
+      "surugayaPrice": 1540,
+      "surugayaSoldOut": true,
+      "raritySlug": "sr",
+      "surugayaBuyPrice": 600
+    },
+    {
       "name": "ロケット団のランス",
       "cardNumber": "123/098",
       "rarity": "SR",
@@ -1372,25 +1384,13 @@
       "surugayaBuyPrice": 700
     },
     {
-      "name": "ロケット団のファイヤーex",
-      "cardNumber": "124/098",
-      "rarity": "SAR",
-      "category": "ポケモン",
-      "energyType": "炎",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU166806",
-      "surugayaPrice": 19000,
-      "surugayaSoldOut": false,
-      "raritySlug": "sar",
-      "surugayaBuyPrice": 15000
-    },
-    {
       "name": "ロケット団のミュウツーex",
       "cardNumber": "125/098",
       "rarity": "SAR",
       "category": "ポケモン",
       "energyType": "超",
       "surugayaUrl": "/product/other/GU166807",
-      "surugayaPrice": 56811,
+      "surugayaPrice": 60650,
       "surugayaSoldOut": true,
       "raritySlug": "sar",
       "surugayaBuyPrice": 55000
@@ -1462,7 +1462,7 @@
       "category": "スタジアム",
       "energyType": "",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU166805",
-      "surugayaPrice": 1780,
+      "surugayaPrice": 1980,
       "surugayaSoldOut": false,
       "raritySlug": "ur",
       "surugayaBuyPrice": 1000

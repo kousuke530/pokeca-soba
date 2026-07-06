@@ -2,8 +2,8 @@
   "pack": "拡張パック「黒炎の支配者」",
   "packSlug": "sv3",
   "source": "surugaya",
-  "collectedAt": "2026-07-04T17:35:09.565Z",
-  "count": 173,
+  "collectedAt": "2026-07-06T10:31:20.173Z",
+  "count": 174,
   "cards": [
     {
       "name": "かがやくリザードン",
@@ -90,8 +90,8 @@
       "rarity": "ノーマル",
       "category": "ポケモン",
       "energyType": "超",
-      "surugayaUrl": "/product/detail/GN104847?tenpo_cd=410011",
-      "surugayaPrice": 210,
+      "surugayaUrl": "/product/other/GN104847",
+      "surugayaPrice": 50,
       "surugayaSoldOut": true,
       "raritySlug": "n"
     },
@@ -261,6 +261,17 @@
       "raritySlug": "c"
     },
     {
+      "name": "すごいつりざお",
+      "cardNumber": "013/038",
+      "rarity": "ノーマル",
+      "category": "グッズ",
+      "energyType": "",
+      "surugayaUrl": "/product/detail/GN104855?tenpo_cd=201206",
+      "surugayaPrice": 90,
+      "surugayaSoldOut": true,
+      "raritySlug": "n"
+    },
+    {
       "name": "リザード",
       "cardNumber": "013/108",
       "rarity": "U",
@@ -343,8 +354,8 @@
       "rarity": "ノーマル",
       "category": "グッズ",
       "energyType": "",
-      "surugayaUrl": "/product/detail/GN104859?tenpo_cd=400521",
-      "surugayaPrice": 180,
+      "surugayaUrl": "/product/other/GN104859",
+      "surugayaPrice": 60,
       "surugayaSoldOut": true,
       "raritySlug": "n"
     },
@@ -410,7 +421,7 @@
       "category": "グッズ",
       "energyType": "",
       "surugayaUrl": "/product/other/GN104862",
-      "surugayaPrice": 150,
+      "surugayaPrice": 90,
       "surugayaSoldOut": true,
       "raritySlug": "n"
     },
@@ -1590,7 +1601,7 @@
       "category": "ポケモン",
       "energyType": "水",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN104358",
-      "surugayaPrice": 340,
+      "surugayaPrice": 380,
       "surugayaSoldOut": false,
       "raritySlug": "ar",
       "surugayaBuyPrice": null
@@ -1662,7 +1673,7 @@
       "category": "ポケモン",
       "energyType": "鋼",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN104364",
-      "surugayaPrice": 430,
+      "surugayaPrice": 480,
       "surugayaSoldOut": false,
       "raritySlug": "ar",
       "surugayaBuyPrice": null
@@ -1686,7 +1697,7 @@
       "category": "ポケモン",
       "energyType": "",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN104366",
-      "surugayaPrice": 430,
+      "surugayaPrice": 480,
       "surugayaSoldOut": false,
       "raritySlug": "ar",
       "surugayaBuyPrice": null
@@ -1704,16 +1715,15 @@
       "surugayaBuyPrice": null
     },
     {
-      "name": "コオリッポex",
+      "name": "【ランクB】コオリッポex",
       "cardNumber": "121/108",
       "rarity": "SR",
       "category": "ポケモン",
       "energyType": "炎",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN104368",
-      "surugayaPrice": 380,
-      "surugayaSoldOut": false,
-      "raritySlug": "sr",
-      "surugayaBuyPrice": null
+      "surugayaUrl": "/product/detail/GB104368?tenpo_cd=201206",
+      "surugayaPrice": 290,
+      "surugayaSoldOut": true,
+      "raritySlug": "sr"
     },
     {
       "name": "バンギラスex",
@@ -1757,20 +1767,20 @@
       "category": "ポケモン",
       "energyType": "悪",
       "surugayaUrl": "/product/other/GN104372",
-      "surugayaPrice": 2070,
+      "surugayaPrice": 2030,
       "surugayaSoldOut": true,
       "raritySlug": "sr",
       "surugayaBuyPrice": 2500
     },
     {
-      "name": "【ランクB】アブソルex",
+      "name": "アブソルex",
       "cardNumber": "126/108",
       "rarity": "SR",
       "category": "ポケモン",
       "energyType": "悪",
-      "surugayaUrl": "/product/other/GB104373",
-      "surugayaPrice": 310,
-      "surugayaSoldOut": true,
+      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN104373",
+      "surugayaPrice": 480,
+      "surugayaSoldOut": false,
       "raritySlug": "sr",
       "surugayaBuyPrice": null
     },
@@ -1787,16 +1797,15 @@
       "surugayaBuyPrice": null
     },
     {
-      "name": "ピジョットex",
+      "name": "【ランクB】ピジョットex",
       "cardNumber": "128/108",
       "rarity": "SR",
       "category": "ポケモン",
       "energyType": "",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN104375",
-      "surugayaPrice": 580,
-      "surugayaSoldOut": false,
-      "raritySlug": "sr",
-      "surugayaBuyPrice": null
+      "surugayaUrl": "/product/detail/GB104375?tenpo_cd=201206",
+      "surugayaPrice": 290,
+      "surugayaSoldOut": true,
+      "raritySlug": "sr"
     },
     {
       "name": "オモダカ",

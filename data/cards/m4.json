@@ -2,7 +2,7 @@
   "pack": "拡張パック「ニンジャスピナー」",
   "packSlug": "m4",
   "source": "surugaya",
-  "collectedAt": "2026-07-04T17:45:01.576Z",
+  "collectedAt": "2026-07-06T10:45:00.017Z",
   "count": 120,
   "cards": [
     {
@@ -221,8 +221,8 @@
       "rarity": "C",
       "category": "ポケモン",
       "energyType": "水",
-      "surugayaUrl": "/product/detail/GU633971?tenpo_cd=400492",
-      "surugayaPrice": 80,
+      "surugayaUrl": "/product/other/GU633971",
+      "surugayaPrice": 60,
       "surugayaSoldOut": true,
       "raritySlug": "c"
     },
@@ -816,7 +816,7 @@
       "category": "グッズ",
       "energyType": "",
       "surugayaUrl": "/product/other/GU634025",
-      "surugayaPrice": 80,
+      "surugayaPrice": 50,
       "surugayaSoldOut": true,
       "raritySlug": "u"
     },
@@ -849,7 +849,7 @@
       "category": "サポート",
       "energyType": "",
       "surugayaUrl": "/product/other/GU634028",
-      "surugayaPrice": 80,
+      "surugayaPrice": 50,
       "surugayaSoldOut": true,
       "raritySlug": "u"
     },
@@ -1010,7 +1010,7 @@
       "category": "ポケモン",
       "energyType": "悪",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU634042",
-      "surugayaPrice": 340,
+      "surugayaPrice": 380,
       "surugayaSoldOut": false,
       "raritySlug": "ar",
       "surugayaBuyPrice": null
@@ -1022,9 +1022,10 @@
       "category": "ポケモン",
       "energyType": "鋼",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU634043",
-      "surugayaPrice": 270,
+      "surugayaPrice": 300,
       "surugayaSoldOut": false,
-      "raritySlug": "ar"
+      "raritySlug": "ar",
+      "surugayaBuyPrice": null
     },
     {
       "name": "ヌメイル",
@@ -1033,7 +1034,7 @@
       "category": "ポケモン",
       "energyType": "ドラゴン",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU634044",
-      "surugayaPrice": 430,
+      "surugayaPrice": 480,
       "surugayaSoldOut": false,
       "raritySlug": "ar",
       "surugayaBuyPrice": null
@@ -1057,7 +1058,7 @@
       "category": "ポケモン",
       "energyType": "",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU634046",
-      "surugayaPrice": 340,
+      "surugayaPrice": 380,
       "surugayaSoldOut": false,
       "raritySlug": "ar",
       "surugayaBuyPrice": null
@@ -1092,9 +1093,9 @@
       "rarity": "SR",
       "category": "ポケモン",
       "energyType": "水",
-      "surugayaUrl": "/product/other/GU634049",
-      "surugayaPrice": 1280,
-      "surugayaSoldOut": true,
+      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU634049",
+      "surugayaPrice": 2480,
+      "surugayaSoldOut": false,
       "raritySlug": "sr",
       "surugayaBuyPrice": 1200
     },
@@ -1282,10 +1283,10 @@
       "category": "ポケモン",
       "energyType": "水",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU634065",
-      "surugayaPrice": 39800,
+      "surugayaPrice": 36800,
       "surugayaSoldOut": false,
       "raritySlug": "sar",
-      "surugayaBuyPrice": 25000
+      "surugayaBuyPrice": 20000
     },
     {
       "name": "メガフラエッテex",
@@ -1354,7 +1355,7 @@
       "category": "ポケモン",
       "energyType": "水",
       "surugayaUrl": "/product/other/GU634071",
-      "surugayaPrice": 105000,
+      "surugayaPrice": 64690,
       "surugayaSoldOut": true,
       "raritySlug": "mur",
       "surugayaBuyPrice": 60000

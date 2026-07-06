@@ -2,8 +2,8 @@
   "pack": "拡張パック「メガブレイブ」",
   "packSlug": "m1l",
   "source": "surugaya",
-  "collectedAt": "2026-07-04T17:41:51.746Z",
-  "count": 89,
+  "collectedAt": "2026-07-06T10:37:36.808Z",
+  "count": 90,
   "cards": [
     {
       "name": "フシギダネ",
@@ -297,7 +297,7 @@
       "rarity": "C",
       "category": "ポケモン",
       "energyType": "闘",
-      "surugayaUrl": "/product/detail/GU362789?tenpo_cd=410018",
+      "surugayaUrl": "/product/other/GU362789",
       "surugayaPrice": 19,
       "surugayaSoldOut": true,
       "raritySlug": "c"
@@ -408,7 +408,7 @@
       "category": "ポケモン",
       "energyType": "悪",
       "surugayaUrl": "/product/other/GU362744",
-      "surugayaPrice": 89,
+      "surugayaPrice": 80,
       "surugayaSoldOut": true,
       "raritySlug": "rr"
     },
@@ -422,6 +422,17 @@
       "surugayaPrice": 160,
       "surugayaSoldOut": false,
       "raritySlug": "u"
+    },
+    {
+      "name": "イベルタル",
+      "cardNumber": "040/063",
+      "rarity": "R",
+      "category": "ポケモン",
+      "energyType": "悪",
+      "surugayaUrl": "/product/detail/GU362749?tenpo_cd=201206",
+      "surugayaPrice": 90,
+      "surugayaSoldOut": true,
+      "raritySlug": "r"
     },
     {
       "name": "クスネ",
@@ -628,7 +639,7 @@
       "category": "グッズ",
       "energyType": "",
       "surugayaUrl": "/product/other/GU362768",
-      "surugayaPrice": 100,
+      "surugayaPrice": 60,
       "surugayaSoldOut": true,
       "raritySlug": "u"
     },
@@ -755,7 +766,7 @@
       "category": "ポケモン",
       "energyType": "闘",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU362735",
-      "surugayaPrice": 340,
+      "surugayaPrice": 380,
       "surugayaSoldOut": false,
       "raritySlug": "ar",
       "surugayaBuyPrice": null
@@ -767,7 +778,7 @@
       "category": "ポケモン",
       "energyType": "悪",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU362736",
-      "surugayaPrice": 340,
+      "surugayaPrice": 380,
       "surugayaSoldOut": false,
       "raritySlug": "ar",
       "surugayaBuyPrice": null
@@ -779,7 +790,7 @@
       "category": "ポケモン",
       "energyType": "悪",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU362737",
-      "surugayaPrice": 340,
+      "surugayaPrice": 380,
       "surugayaSoldOut": false,
       "raritySlug": "ar",
       "surugayaBuyPrice": null
@@ -803,9 +814,10 @@
       "category": "ポケモン",
       "energyType": "",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU362739",
-      "surugayaPrice": 270,
+      "surugayaPrice": 300,
       "surugayaSoldOut": false,
-      "raritySlug": "ar"
+      "raritySlug": "ar",
+      "surugayaBuyPrice": null
     },
     {
       "name": "デカグース",
@@ -814,7 +826,7 @@
       "category": "ポケモン",
       "energyType": "",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU362740",
-      "surugayaPrice": 340,
+      "surugayaPrice": 380,
       "surugayaSoldOut": false,
       "raritySlug": "ar",
       "surugayaBuyPrice": null
@@ -1002,10 +1014,10 @@
       "category": "ポケモン",
       "energyType": "闘",
       "surugayaUrl": "/product/other/GU364211",
-      "surugayaPrice": 65290,
+      "surugayaPrice": 59800,
       "surugayaSoldOut": true,
       "raritySlug": "mur",
-      "surugayaBuyPrice": 50000
+      "surugayaBuyPrice": 42000
     }
   ]
 }
