@@ -3,7 +3,7 @@ import BaseLayout from '../../../layouts/BaseLayout.astro';
 import Breadcrumbs from '../../../components/Breadcrumbs.astro';
 import PriceHistoryChart from '../../../components/PriceHistoryChart.astro';
 import ShopLinks from '../../../components/ShopLinks.astro';
-import { purchaseShops, buybackShops, amazonSearchUrl, mercariSearchUrl } from '../../../data/affiliates';
+import { purchaseShops, buybackShops, amazonSearchUrl, mercariSearchUrl, toretokuUrl, kanaberuUrl } from '../../../data/affiliates';
 import { allCards, getSeriesByName, seriesByPack, priceAsOf } from '../../../data/cards';
 import { getPack } from '../../../data/packs';
 import type { Card } from '../../../data/types';
@@ -32,11 +32,15 @@ const yen = (v: number | null) => (v == null ? '調査中' : `¥${v.toLocaleStri
 const surugayaUrl = card.sellShops.find((s) => s.shop === '駿河屋')?.url ?? card.sellShops[0]?.url;
 const amazonUrl = amazonSearchUrl(card);
 const mercariUrl = mercariSearchUrl(card);
-// 販売ショップの駿河屋は当該カードの商品ページに直リンク、Amazon/メルカリは当該カードの検索結果に直リンク
+const toretokuSearchUrl = toretokuUrl(card);
+const kanaberuSearchUrl = kanaberuUrl(card);
+// 販売ショップの駿河屋は当該カードの商品ページに直リンク、Amazon/メルカリ/トレトク/カーナベルは当該カードの検索結果に直リンク
 const purchase = purchaseShops.map((s) => {
   if (s.name === '駿河屋' && surugayaUrl) return { ...s, url: surugayaUrl };
   if (s.name === 'Amazon') return { ...s, url: amazonUrl };
   if (s.name === 'メルカリ') return { ...s, url: mercariUrl };
+  if (s.name === 'トレトク') return { ...s, url: toretokuSearchUrl };
+  if (s.name === 'カーナベル') return { ...s, url: kanaberuSearchUrl };
   return s;
 });
 const categoryLabel =
