@@ -134,7 +134,7 @@ const jsonLd = JSON.stringify({
             <span class="pcap">販売価格（最安値）</span>
             <strong>{yen(card.sellPrice)}</strong>
             <span class="delta">価格は{priceDate}時点</span>
-            {surugayaUrl && <a href={surugayaUrl} target="_blank" rel="nofollow sponsored noopener">ショップで探す</a>}
+            <a href="#shops">ショップで探す</a>
           </div>
           <div class="price-card buy">
             <span class="pcap">買取価格（最高値）</span>
@@ -442,6 +442,8 @@ const jsonLd = JSON.stringify({
   .market-status .sell { color: var(--accent-red); }
   .market-status .buy { color: var(--accent-green); }
   .shops-wrap { margin-top: 4px; }
+  /* ページ内リンク時にスティッキーヘッダーへ隠れないよう位置を補正 */
+  #shops, #buy-shops { scroll-margin-top: 88px; }
   .sec { margin-top: 34px; }
   .sec-h {
     display: flex;

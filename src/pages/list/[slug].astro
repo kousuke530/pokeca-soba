@@ -28,7 +28,7 @@ const yen = (v: number | null) => (v == null ? '調査中' : `${v.toLocaleString
 const typeLabel =
   topCard.category === 'ポケモン' && topCard.energyType ? topCard.energyType : topCard.category;
 
-const title = `【ポケカ】${series.name}(全${series.variants.length}種)の買取・販売価格相場一覧【ポケモンカード】`;
+const title = `${series.name}(全${series.variants.length}種)の買取・販売価格相場一覧【ポケカ】`;
 const description = `${series.name}の最新の販売価格・買取価格を比較。レアリティ別（${series.variants
   .map((v) => v.rarity)
   .join('・')}）の相場をまとめています。`;
