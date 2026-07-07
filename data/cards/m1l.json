@@ -2,8 +2,8 @@
   "pack": "拡張パック「メガブレイブ」",
   "packSlug": "m1l",
   "source": "surugaya",
-  "collectedAt": "2026-07-06T10:37:36.808Z",
-  "count": 90,
+  "collectedAt": "2026-07-07T00:31:35.727Z",
+  "count": 87,
   "cards": [
     {
       "name": "フシギダネ",
@@ -103,17 +103,6 @@
       "surugayaPrice": 160,
       "surugayaSoldOut": false,
       "raritySlug": "u"
-    },
-    {
-      "name": "ロコン",
-      "cardNumber": "010/063",
-      "rarity": "C",
-      "category": "ポケモン",
-      "energyType": "炎",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU362778",
-      "surugayaPrice": 160,
-      "surugayaSoldOut": false,
-      "raritySlug": "c"
     },
     {
       "name": "キュウコン",
@@ -270,17 +259,6 @@
       "raritySlug": "r"
     },
     {
-      "name": "ルナトーン",
-      "cardNumber": "026/063",
-      "rarity": "R",
-      "category": "ポケモン",
-      "energyType": "闘",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU362748",
-      "surugayaPrice": 160,
-      "surugayaSoldOut": false,
-      "raritySlug": "r"
-    },
-    {
       "name": "ソルロック",
       "cardNumber": "027/063",
       "rarity": "U",
@@ -433,17 +411,6 @@
       "surugayaPrice": 90,
       "surugayaSoldOut": true,
       "raritySlug": "r"
-    },
-    {
-      "name": "クスネ",
-      "cardNumber": "041/063",
-      "rarity": "C",
-      "category": "ポケモン",
-      "energyType": "悪",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU362794",
-      "surugayaPrice": 160,
-      "surugayaSoldOut": false,
-      "raritySlug": "c"
     },
     {
       "name": "フォクスライ",

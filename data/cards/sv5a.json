@@ -2,8 +2,8 @@
   "pack": "強化拡張パック「クリムゾンヘイズ」",
   "packSlug": "sv5a",
   "source": "surugaya",
-  "collectedAt": "2026-07-06T10:33:28.076Z",
-  "count": 95,
+  "collectedAt": "2026-07-07T00:27:17.444Z",
+  "count": 82,
   "cards": [
     {
       "name": "モンジャラ",
@@ -12,17 +12,6 @@
       "category": "ポケモン",
       "energyType": "草",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN445987",
-      "surugayaPrice": 160,
-      "surugayaSoldOut": false,
-      "raritySlug": "c"
-    },
-    {
-      "name": "モジャンボ",
-      "cardNumber": "002/066",
-      "rarity": "C",
-      "category": "ポケモン",
-      "energyType": "草",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN445988",
       "surugayaPrice": 160,
       "surugayaSoldOut": false,
       "raritySlug": "c"
@@ -81,17 +70,6 @@
       "surugayaPrice": 18,
       "surugayaSoldOut": true,
       "raritySlug": "c"
-    },
-    {
-      "name": "ヤバソチャex",
-      "cardNumber": "009/066",
-      "rarity": "RR",
-      "category": "ポケモン",
-      "energyType": "草",
-      "surugayaUrl": "/product/other/GN445995",
-      "surugayaPrice": 50,
-      "surugayaSoldOut": true,
-      "raritySlug": "rr"
     },
     {
       "name": "ロコン",
@@ -281,17 +259,6 @@
       "raritySlug": "r"
     },
     {
-      "name": "サンダー",
-      "cardNumber": "027/066",
-      "rarity": "R",
-      "category": "ポケモン",
-      "energyType": "雷",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN446013",
-      "surugayaPrice": 160,
-      "surugayaSoldOut": false,
-      "raritySlug": "r"
-    },
-    {
       "name": "エリキテル",
       "cardNumber": "028/066",
       "rarity": "C",
@@ -457,17 +424,6 @@
       "raritySlug": "r"
     },
     {
-      "name": "ノズパス",
-      "cardNumber": "043/066",
-      "rarity": "C",
-      "category": "ポケモン",
-      "energyType": "闘",
-      "surugayaUrl": "/product/other/GN446029",
-      "surugayaPrice": null,
-      "surugayaSoldOut": true,
-      "raritySlug": "c"
-    },
-    {
       "name": "ダイノーズ",
       "cardNumber": "044/066",
       "rarity": "U",
@@ -489,28 +445,6 @@
       "surugayaSoldOut": true,
       "raritySlug": "rr",
       "surugayaBuyPrice": null
-    },
-    {
-      "name": "ルチャブル",
-      "cardNumber": "046/066",
-      "rarity": "C",
-      "category": "ポケモン",
-      "energyType": "闘",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN446032",
-      "surugayaPrice": 160,
-      "surugayaSoldOut": false,
-      "raritySlug": "c"
-    },
-    {
-      "name": "ディンルー",
-      "cardNumber": "047/066",
-      "rarity": "R",
-      "category": "ポケモン",
-      "energyType": "闘",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN446033",
-      "surugayaPrice": 160,
-      "surugayaSoldOut": false,
-      "raritySlug": "r"
     },
     {
       "name": "カジッチュ",
@@ -580,17 +514,6 @@
       "surugayaBuyPrice": 800
     },
     {
-      "name": "改造ハンマー",
-      "cardNumber": "054/066",
-      "rarity": "U",
-      "category": "グッズ",
-      "energyType": "",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN446040",
-      "surugayaPrice": 160,
-      "surugayaSoldOut": false,
-      "raritySlug": "u"
-    },
-    {
       "name": "ハイパーアロマ",
       "cardNumber": "055/066",
       "rarity": "ACE",
@@ -624,17 +547,6 @@
       "raritySlug": "u"
     },
     {
-      "name": "ラブラブボール",
-      "cardNumber": "058/066",
-      "rarity": "U",
-      "category": "グッズ",
-      "energyType": "",
-      "surugayaUrl": "/product/other/GN446044",
-      "surugayaPrice": 20,
-      "surugayaSoldOut": true,
-      "raritySlug": "u"
-    },
-    {
       "name": "サバイブギプス",
       "cardNumber": "059/066",
       "rarity": "ACE",
@@ -657,56 +569,12 @@
       "raritySlug": "u"
     },
     {
-      "name": "管理人",
-      "cardNumber": "061/066",
-      "rarity": "C",
-      "category": "サポート",
-      "energyType": "",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN446047",
-      "surugayaPrice": 160,
-      "surugayaSoldOut": false,
-      "raritySlug": "c"
-    },
-    {
-      "name": "ゴヨウ",
-      "cardNumber": "062/066",
-      "rarity": "U",
-      "category": "サポート",
-      "energyType": "",
-      "surugayaUrl": "/product/other/GN446048",
-      "surugayaPrice": 19,
-      "surugayaSoldOut": true,
-      "raritySlug": "u"
-    },
-    {
-      "name": "サザレ",
-      "cardNumber": "063/066",
-      "rarity": "U",
-      "category": "サポート",
-      "energyType": "",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN446049",
-      "surugayaPrice": 160,
-      "surugayaSoldOut": false,
-      "raritySlug": "u"
-    },
-    {
       "name": "スイレンのお世話",
       "cardNumber": "064/066",
       "rarity": "U",
       "category": "サポート",
       "energyType": "",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN446050",
-      "surugayaPrice": 160,
-      "surugayaSoldOut": false,
-      "raritySlug": "u"
-    },
-    {
-      "name": "公民館",
-      "cardNumber": "065/066",
-      "rarity": "U",
-      "category": "スタジアム",
-      "energyType": "",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN446051",
       "surugayaPrice": 160,
       "surugayaSoldOut": false,
       "raritySlug": "u"
@@ -997,18 +865,6 @@
       "surugayaSoldOut": false,
       "raritySlug": "sar",
       "surugayaBuyPrice": 800
-    },
-    {
-      "name": "ゲッコウガex",
-      "cardNumber": "090/066",
-      "rarity": "SAR",
-      "category": "ポケモン",
-      "energyType": "闘",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN446076",
-      "surugayaPrice": 52800,
-      "surugayaSoldOut": false,
-      "raritySlug": "sar",
-      "surugayaBuyPrice": 35000
     },
     {
       "name": "ガチグマ アカツキex",

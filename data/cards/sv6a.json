@@ -2,8 +2,8 @@
   "pack": "強化拡張パック「ナイトワンダラー」",
   "packSlug": "sv6a",
   "source": "surugaya",
-  "collectedAt": "2026-07-06T10:33:59.608Z",
-  "count": 94,
+  "collectedAt": "2026-07-07T00:27:50.317Z",
+  "count": 79,
   "cards": [
     {
       "name": "バチュル",
@@ -61,17 +61,6 @@
       "raritySlug": "u"
     },
     {
-      "name": "カプ・ブルル",
-      "cardNumber": "006/064",
-      "rarity": "R",
-      "category": "ポケモン",
-      "energyType": "草",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN544588",
-      "surugayaPrice": 160,
-      "surugayaSoldOut": false,
-      "raritySlug": "r"
-    },
-    {
       "name": "デルビル",
       "cardNumber": "007/064",
       "rarity": "C",
@@ -127,28 +116,6 @@
       "raritySlug": "c"
     },
     {
-      "name": "キングドラex",
-      "cardNumber": "012/064",
-      "rarity": "RR",
-      "category": "ポケモン",
-      "energyType": "水",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN544594",
-      "surugayaPrice": 160,
-      "surugayaSoldOut": false,
-      "raritySlug": "rr"
-    },
-    {
-      "name": "ニューラ",
-      "cardNumber": "013/064",
-      "rarity": "C",
-      "category": "ポケモン",
-      "energyType": "水",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN544595",
-      "surugayaPrice": 160,
-      "surugayaSoldOut": false,
-      "raritySlug": "c"
-    },
-    {
       "name": "マニューラ",
       "cardNumber": "014/064",
       "rarity": "U",
@@ -158,17 +125,6 @@
       "surugayaPrice": 160,
       "surugayaSoldOut": false,
       "raritySlug": "u"
-    },
-    {
-      "name": "ブロロロームex",
-      "cardNumber": "015/064",
-      "rarity": "RR",
-      "category": "ポケモン",
-      "energyType": "雷",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN544597",
-      "surugayaPrice": 160,
-      "surugayaSoldOut": false,
-      "raritySlug": "rr"
     },
     {
       "name": "スリープ",
@@ -281,17 +237,6 @@
       "raritySlug": "r"
     },
     {
-      "name": "チヲハウハネ",
-      "cardNumber": "026/064",
-      "rarity": "U",
-      "category": "ポケモン",
-      "energyType": "闘",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN544608",
-      "surugayaPrice": 160,
-      "surugayaSoldOut": false,
-      "raritySlug": "u"
-    },
-    {
       "name": "ズバット",
       "cardNumber": "027/064",
       "rarity": "C",
@@ -314,17 +259,6 @@
       "raritySlug": "c"
     },
     {
-      "name": "クロバット",
-      "cardNumber": "029/064",
-      "rarity": "U",
-      "category": "ポケモン",
-      "energyType": "悪",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN544611",
-      "surugayaPrice": 160,
-      "surugayaSoldOut": false,
-      "raritySlug": "u"
-    },
-    {
       "name": "アブソル",
       "cardNumber": "030/064",
       "rarity": "C",
@@ -334,28 +268,6 @@
       "surugayaPrice": 160,
       "surugayaSoldOut": false,
       "raritySlug": "c"
-    },
-    {
-      "name": "ゾロア",
-      "cardNumber": "031/064",
-      "rarity": "C",
-      "category": "ポケモン",
-      "energyType": "悪",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN544613",
-      "surugayaPrice": 160,
-      "surugayaSoldOut": false,
-      "raritySlug": "c"
-    },
-    {
-      "name": "ゾロアーク",
-      "cardNumber": "032/064",
-      "rarity": "R",
-      "category": "ポケモン",
-      "energyType": "悪",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN544614",
-      "surugayaPrice": 160,
-      "surugayaSoldOut": false,
-      "raritySlug": "r"
     },
     {
       "name": "マーイーカ",
@@ -380,34 +292,12 @@
       "raritySlug": "u"
     },
     {
-      "name": "イベルタル",
-      "cardNumber": "035/064",
-      "rarity": "U",
-      "category": "ポケモン",
-      "energyType": "悪",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN544617",
-      "surugayaPrice": 160,
-      "surugayaSoldOut": false,
-      "raritySlug": "u"
-    },
-    {
       "name": "イイネイヌex",
       "cardNumber": "036/064",
       "rarity": "RR",
       "category": "ポケモン",
       "energyType": "悪",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN544618",
-      "surugayaPrice": 160,
-      "surugayaSoldOut": false,
-      "raritySlug": "rr"
-    },
-    {
-      "name": "マシマシラex",
-      "cardNumber": "037/064",
-      "rarity": "RR",
-      "category": "ポケモン",
-      "energyType": "悪",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN544619",
       "surugayaPrice": 160,
       "surugayaSoldOut": false,
       "raritySlug": "rr"
@@ -420,17 +310,6 @@
       "energyType": "悪",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN544620",
       "surugayaPrice": 180,
-      "surugayaSoldOut": false,
-      "raritySlug": "rr"
-    },
-    {
-      "name": "モモワロウex",
-      "cardNumber": "039/064",
-      "rarity": "RR",
-      "category": "ポケモン",
-      "energyType": "悪",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN544621",
-      "surugayaPrice": 160,
       "surugayaSoldOut": false,
       "raritySlug": "rr"
     },
@@ -501,17 +380,6 @@
       "raritySlug": "c"
     },
     {
-      "name": "オノノクス",
-      "cardNumber": "046/064",
-      "rarity": "R",
-      "category": "ポケモン",
-      "energyType": "ドラゴン",
-      "surugayaUrl": "/product/other/GN544628",
-      "surugayaPrice": 35,
-      "surugayaSoldOut": true,
-      "raritySlug": "r"
-    },
-    {
       "name": "キュレム",
       "cardNumber": "047/064",
       "rarity": "U",
@@ -529,17 +397,6 @@
       "category": "ポケモン",
       "energyType": "",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN544630",
-      "surugayaPrice": 160,
-      "surugayaSoldOut": false,
-      "raritySlug": "c"
-    },
-    {
-      "name": "ペルシアン",
-      "cardNumber": "049/064",
-      "rarity": "C",
-      "category": "ポケモン",
-      "energyType": "",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN544631",
       "surugayaPrice": 160,
       "surugayaSoldOut": false,
       "raritySlug": "c"
@@ -699,17 +556,6 @@
       "raritySlug": "ace"
     },
     {
-      "name": "夜のアカデミー",
-      "cardNumber": "064/064",
-      "rarity": "U",
-      "category": "スタジアム",
-      "energyType": "",
-      "surugayaUrl": "/product/other/GN544646",
-      "surugayaPrice": 50,
-      "surugayaSoldOut": true,
-      "raritySlug": "u"
-    },
-    {
       "name": "カプ・ブルル",
       "cardNumber": "065/064",
       "rarity": "AR",
@@ -854,14 +700,14 @@
       "surugayaBuyPrice": null
     },
     {
-      "name": "【ランクB】キングドラex",
+      "name": "キングドラex",
       "cardNumber": "077/064",
       "rarity": "SR",
       "category": "ポケモン",
       "energyType": "水",
-      "surugayaUrl": "/product/detail/GB544659?tenpo_cd=201206",
-      "surugayaPrice": 320,
-      "surugayaSoldOut": true,
+      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN544659",
+      "surugayaPrice": 480,
+      "surugayaSoldOut": false,
       "raritySlug": "sr",
       "surugayaBuyPrice": null
     },
@@ -872,18 +718,6 @@
       "category": "ポケモン",
       "energyType": "雷",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN544660",
-      "surugayaPrice": 380,
-      "surugayaSoldOut": false,
-      "raritySlug": "sr",
-      "surugayaBuyPrice": null
-    },
-    {
-      "name": "イイネイヌex",
-      "cardNumber": "079/064",
-      "rarity": "SR",
-      "category": "ポケモン",
-      "energyType": "悪",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN544661",
       "surugayaPrice": 380,
       "surugayaSoldOut": false,
       "raritySlug": "sr",

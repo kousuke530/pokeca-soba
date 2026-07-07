@@ -2,8 +2,8 @@
   "pack": "拡張パック「バトルパートナーズ」",
   "packSlug": "sv9",
   "source": "surugaya",
-  "collectedAt": "2026-07-06T10:35:44.098Z",
-  "count": 168,
+  "collectedAt": "2026-07-07T00:29:37.608Z",
+  "count": 162,
   "cards": [
     {
       "name": "ミュウex",
@@ -94,17 +94,6 @@
       "raritySlug": "c"
     },
     {
-      "name": "ピジョン",
-      "cardNumber": "005/045",
-      "rarity": "ノーマル",
-      "category": "ポケモン",
-      "energyType": "",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN832996",
-      "surugayaPrice": 160,
-      "surugayaSoldOut": false,
-      "raritySlug": "n"
-    },
-    {
       "name": "パラセクト",
       "cardNumber": "005/100",
       "rarity": "C",
@@ -180,17 +169,6 @@
       "surugayaPrice": 160,
       "surugayaSoldOut": false,
       "raritySlug": "u"
-    },
-    {
-      "name": "エレキジェネレーター",
-      "cardNumber": "010/045",
-      "rarity": "ノーマル",
-      "category": "グッズ",
-      "energyType": "",
-      "surugayaUrl": "/product/detail/GN833001?tenpo_cd=410018",
-      "surugayaPrice": 57,
-      "surugayaSoldOut": true,
-      "raritySlug": "n"
     },
     {
       "name": "ニャオハ",
@@ -392,17 +370,6 @@
       "raritySlug": "u"
     },
     {
-      "name": "ポケモンいれかえ",
-      "cardNumber": "021/045",
-      "rarity": "ノーマル",
-      "category": "グッズ",
-      "energyType": "",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN833012",
-      "surugayaPrice": 160,
-      "surugayaSoldOut": false,
-      "raritySlug": "n"
-    },
-    {
       "name": "ハスボー",
       "cardNumber": "021/100",
       "rarity": "C",
@@ -555,17 +522,6 @@
       "surugayaPrice": 77,
       "surugayaSoldOut": true,
       "raritySlug": "n"
-    },
-    {
-      "name": "Nのバチュル",
-      "cardNumber": "028/100",
-      "rarity": "C",
-      "category": "ポケモン",
-      "energyType": "雷",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN832794",
-      "surugayaPrice": 160,
-      "surugayaSoldOut": false,
-      "raritySlug": "c"
     },
     {
       "name": "ワザマシン エヴォリューション",
@@ -819,17 +775,6 @@
       "surugayaPrice": 160,
       "surugayaSoldOut": false,
       "raritySlug": "c"
-    },
-    {
-      "name": "ジェットエネルギー",
-      "cardNumber": "042/045",
-      "rarity": "ノーマル",
-      "category": "エネルギー",
-      "energyType": "",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN833033",
-      "surugayaPrice": 160,
-      "surugayaSoldOut": false,
-      "raritySlug": "n"
     },
     {
       "name": "リーリエのアブリボン",
@@ -1629,18 +1574,6 @@
       "energyType": "",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN832724",
       "surugayaPrice": 480,
-      "surugayaSoldOut": false,
-      "raritySlug": "ar",
-      "surugayaBuyPrice": null
-    },
-    {
-      "name": "オンバット",
-      "cardNumber": "111/100",
-      "rarity": "AR",
-      "category": "ポケモン",
-      "energyType": "",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN832725",
-      "surugayaPrice": 380,
       "surugayaSoldOut": false,
       "raritySlug": "ar",
       "surugayaBuyPrice": null

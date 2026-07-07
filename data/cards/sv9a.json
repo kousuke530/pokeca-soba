@@ -2,8 +2,8 @@
   "pack": "強化拡張パック「熱風のアリーナ」",
   "packSlug": "sv9a",
   "source": "surugaya",
-  "collectedAt": "2026-07-06T10:35:57.575Z",
-  "count": 91,
+  "collectedAt": "2026-07-07T00:29:52.066Z",
+  "count": 83,
   "cards": [
     {
       "name": "ヒビキのカイロス",
@@ -72,17 +72,6 @@
       "raritySlug": "u"
     },
     {
-      "name": "イシズマイ",
-      "cardNumber": "007/063",
-      "rarity": "C",
-      "category": "ポケモン",
-      "energyType": "草",
-      "surugayaUrl": "/product/other/GN923836",
-      "surugayaPrice": 19,
-      "surugayaSoldOut": true,
-      "raritySlug": "c"
-    },
-    {
       "name": "イワパレス",
       "cardNumber": "008/063",
       "rarity": "R",
@@ -92,28 +81,6 @@
       "surugayaPrice": 75,
       "surugayaSoldOut": true,
       "raritySlug": "r"
-    },
-    {
-      "name": "カジッチュ",
-      "cardNumber": "009/063",
-      "rarity": "C",
-      "category": "ポケモン",
-      "energyType": "草",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN923837",
-      "surugayaPrice": 160,
-      "surugayaSoldOut": false,
-      "raritySlug": "c"
-    },
-    {
-      "name": "カミッチュ",
-      "cardNumber": "010/063",
-      "rarity": "C",
-      "category": "ポケモン",
-      "energyType": "草",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN923838",
-      "surugayaPrice": 160,
-      "surugayaSoldOut": false,
-      "raritySlug": "c"
     },
     {
       "name": "カミツオロチ",
@@ -369,17 +336,6 @@
       "raritySlug": "c"
     },
     {
-      "name": "エレキブルex",
-      "cardNumber": "035/063",
-      "rarity": "RR",
-      "category": "ポケモン",
-      "energyType": "雷",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN923802",
-      "surugayaPrice": 160,
-      "surugayaSoldOut": false,
-      "raritySlug": "rr"
-    },
-    {
       "name": "ヒビキのピチュー",
       "cardNumber": "036/063",
       "rarity": "C",
@@ -408,17 +364,6 @@
       "category": "ポケモン",
       "energyType": "雷",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN923851",
-      "surugayaPrice": 160,
-      "surugayaSoldOut": false,
-      "raritySlug": "c"
-    },
-    {
-      "name": "ロトム",
-      "cardNumber": "039/063",
-      "rarity": "C",
-      "category": "ポケモン",
-      "energyType": "雷",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN923852",
       "surugayaPrice": 160,
       "surugayaSoldOut": false,
       "raritySlug": "c"
@@ -600,17 +545,6 @@
       "raritySlug": "r"
     },
     {
-      "name": "せいなるはい",
-      "cardNumber": "056/063",
-      "rarity": "U",
-      "category": "グッズ",
-      "energyType": "",
-      "surugayaUrl": "/product/other/GN923827",
-      "surugayaPrice": 57,
-      "surugayaSoldOut": true,
-      "raritySlug": "u"
-    },
-    {
       "name": "ペパーのサンドウィッチ",
       "cardNumber": "057/063",
       "rarity": "U",
@@ -628,17 +562,6 @@
       "category": "グッズ",
       "energyType": "",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN923829",
-      "surugayaPrice": 160,
-      "surugayaSoldOut": false,
-      "raritySlug": "u"
-    },
-    {
-      "name": "ポケモンキャッチャー",
-      "cardNumber": "059/063",
-      "rarity": "U",
-      "category": "グッズ",
-      "energyType": "",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN923830",
       "surugayaPrice": 160,
       "surugayaSoldOut": false,
       "raritySlug": "u"
@@ -664,17 +587,6 @@
       "surugayaPrice": 18,
       "surugayaSoldOut": true,
       "raritySlug": "c"
-    },
-    {
-      "name": "ジャッジマン",
-      "cardNumber": "062/063",
-      "rarity": "U",
-      "category": "サポート",
-      "energyType": "",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN923832",
-      "surugayaPrice": 160,
-      "surugayaSoldOut": false,
-      "raritySlug": "u"
     },
     {
       "name": "ヒビキの冒険",
@@ -970,7 +882,7 @@
       "category": "ポケモン",
       "energyType": "闘",
       "surugayaUrl": "/product/other/GN923775",
-      "surugayaPrice": 38520,
+      "surugayaPrice": 37811,
       "surugayaSoldOut": true,
       "raritySlug": "sar",
       "surugayaBuyPrice": 26000

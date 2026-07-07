@@ -2,8 +2,8 @@
   "pack": "デッキビルドBOX バトルパートナーズ",
   "packSlug": "svn",
   "source": "surugaya",
-  "collectedAt": "2026-07-06T10:35:48.790Z",
-  "count": 35,
+  "collectedAt": "2026-07-07T00:29:43.002Z",
+  "count": 31,
   "cards": [
     {
       "name": "ミュウex",
@@ -227,45 +227,12 @@
       "raritySlug": "n"
     },
     {
-      "name": "勇気のおまもり",
-      "cardNumber": "028/045",
-      "rarity": "ノーマル",
-      "category": "ポケモンのどうぐ",
-      "energyType": "",
-      "surugayaUrl": "/product/detail/GN833019?tenpo_cd=410018",
-      "surugayaPrice": 77,
-      "surugayaSoldOut": true,
-      "raritySlug": "n"
-    },
-    {
       "name": "ワザマシン エヴォリューション",
       "cardNumber": "029/045",
       "rarity": "ノーマル",
       "category": "ポケモンのどうぐ",
       "energyType": "",
       "surugayaUrl": "/product/detail/GN833020?tenpo_cd=410018",
-      "surugayaPrice": 57,
-      "surugayaSoldOut": true,
-      "raritySlug": "n"
-    },
-    {
-      "name": "ワザマシン デヴォリューション",
-      "cardNumber": "030/045",
-      "rarity": "ノーマル",
-      "category": "ポケモンのどうぐ",
-      "energyType": "",
-      "surugayaUrl": "/product/detail/GN833021?tenpo_cd=410018",
-      "surugayaPrice": 120,
-      "surugayaSoldOut": true,
-      "raritySlug": "n"
-    },
-    {
-      "name": "暗号マニアの解読",
-      "cardNumber": "031/045",
-      "rarity": "ノーマル",
-      "category": "サポート",
-      "energyType": "",
-      "surugayaUrl": "/product/detail/GN833022?tenpo_cd=410018",
       "surugayaPrice": 57,
       "surugayaSoldOut": true,
       "raritySlug": "n"
@@ -322,17 +289,6 @@
       "energyType": "",
       "surugayaUrl": "/product/detail/GN833029?tenpo_cd=400492",
       "surugayaPrice": 180,
-      "surugayaSoldOut": true,
-      "raritySlug": "n"
-    },
-    {
-      "name": "タウンデパート",
-      "cardNumber": "040/045",
-      "rarity": "ノーマル",
-      "category": "スタジアム",
-      "energyType": "",
-      "surugayaUrl": "/product/detail/GN833031?tenpo_cd=410018",
-      "surugayaPrice": 54,
       "surugayaSoldOut": true,
       "raritySlug": "n"
     },

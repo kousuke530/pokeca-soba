@@ -2,8 +2,8 @@
   "pack": "スタートデッキ100 バトルコレクション",
   "packSlug": "mc",
   "source": "surugaya",
-  "collectedAt": "2026-07-06T10:41:12.546Z",
-  "count": 583,
+  "collectedAt": "2026-07-07T00:34:16.014Z",
+  "count": 520,
   "cards": [
     {
       "name": "アイアント",
@@ -269,28 +269,6 @@
       "category": "グッズ",
       "energyType": "",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU548963",
-      "surugayaPrice": 160,
-      "surugayaSoldOut": false,
-      "raritySlug": "n"
-    },
-    {
-      "name": "ポケモンキャッチャー",
-      "cardNumber": "017/023",
-      "rarity": "ノーマル",
-      "category": "グッズ",
-      "energyType": "",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU548964",
-      "surugayaPrice": 160,
-      "surugayaSoldOut": false,
-      "raritySlug": "n"
-    },
-    {
-      "name": "アイリスの闘志",
-      "cardNumber": "018/023",
-      "rarity": "ノーマル",
-      "category": "サポート",
-      "energyType": "",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU548965",
       "surugayaPrice": 160,
       "surugayaSoldOut": false,
       "raritySlug": "n"
@@ -562,17 +540,6 @@
       "raritySlug": "n"
     },
     {
-      "name": "カブルモ",
-      "cardNumber": "047/742",
-      "rarity": "ノーマル",
-      "category": "ポケモン",
-      "energyType": "草",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU543217",
-      "surugayaPrice": 160,
-      "surugayaSoldOut": false,
-      "raritySlug": "n"
-    },
-    {
       "name": "タマゲタケ",
       "cardNumber": "048/742",
       "rarity": "ノーマル",
@@ -678,17 +645,6 @@
       "category": "ポケモン",
       "energyType": "草",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU543230",
-      "surugayaPrice": 160,
-      "surugayaSoldOut": false,
-      "raritySlug": "n"
-    },
-    {
-      "name": "ニャオハ",
-      "cardNumber": "065/742",
-      "rarity": "ノーマル",
-      "category": "ポケモン",
-      "energyType": "草",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU543231",
       "surugayaPrice": 160,
       "surugayaSoldOut": false,
       "raritySlug": "n"
@@ -894,28 +850,6 @@
       "raritySlug": "n"
     },
     {
-      "name": "ポニータ",
-      "cardNumber": "087/742",
-      "rarity": "ノーマル",
-      "category": "ポケモン",
-      "energyType": "炎",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU543247",
-      "surugayaPrice": 160,
-      "surugayaSoldOut": false,
-      "raritySlug": "n"
-    },
-    {
-      "name": "ポニータ",
-      "cardNumber": "087/742",
-      "rarity": "ミラー",
-      "category": "ポケモン",
-      "energyType": "炎",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU543072",
-      "surugayaPrice": 160,
-      "surugayaSoldOut": false,
-      "raritySlug": "mirror"
-    },
-    {
       "name": "ギャロップ",
       "cardNumber": "088/742",
       "rarity": "ノーマル",
@@ -989,17 +923,6 @@
       "category": "ポケモン",
       "energyType": "炎",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU542911",
-      "surugayaPrice": 160,
-      "surugayaSoldOut": false,
-      "raritySlug": "n"
-    },
-    {
-      "name": "デルビル",
-      "cardNumber": "097/742",
-      "rarity": "ノーマル",
-      "category": "ポケモン",
-      "energyType": "炎",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU543253",
       "surugayaPrice": 160,
       "surugayaSoldOut": false,
       "raritySlug": "n"
@@ -1126,17 +1049,6 @@
       "raritySlug": "n"
     },
     {
-      "name": "ポカブ",
-      "cardNumber": "109/742",
-      "rarity": "ノーマル",
-      "category": "ポケモン",
-      "energyType": "炎",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU543265",
-      "surugayaPrice": 160,
-      "surugayaSoldOut": false,
-      "raritySlug": "n"
-    },
-    {
       "name": "チャオブー",
       "cardNumber": "110/742",
       "rarity": "ノーマル",
@@ -1237,56 +1149,12 @@
       "raritySlug": "n"
     },
     {
-      "name": "Nのダルマッカ",
-      "cardNumber": "118/742",
-      "rarity": "ノーマル",
-      "category": "ポケモン",
-      "energyType": "炎",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU543273",
-      "surugayaPrice": 160,
-      "surugayaSoldOut": false,
-      "raritySlug": "n"
-    },
-    {
       "name": "クイタラン",
       "cardNumber": "120/742",
       "rarity": "ノーマル",
       "category": "ポケモン",
       "energyType": "炎",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU543275",
-      "surugayaPrice": 160,
-      "surugayaSoldOut": false,
-      "raritySlug": "n"
-    },
-    {
-      "name": "メラルバ",
-      "cardNumber": "121/742",
-      "rarity": "ノーマル",
-      "category": "ポケモン",
-      "energyType": "炎",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU543276",
-      "surugayaPrice": 160,
-      "surugayaSoldOut": false,
-      "raritySlug": "n"
-    },
-    {
-      "name": "ウルガモス",
-      "cardNumber": "122/742",
-      "rarity": "ノーマル",
-      "category": "ポケモン",
-      "energyType": "炎",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU543277",
-      "surugayaPrice": 160,
-      "surugayaSoldOut": false,
-      "raritySlug": "n"
-    },
-    {
-      "name": "ウルガモス",
-      "cardNumber": "124/742",
-      "rarity": "ノーマル",
-      "category": "ポケモン",
-      "energyType": "炎",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU543279",
       "surugayaPrice": 160,
       "surugayaSoldOut": false,
       "raritySlug": "n"
@@ -1375,28 +1243,6 @@
       "category": "ポケモン",
       "energyType": "炎",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU543289",
-      "surugayaPrice": 160,
-      "surugayaSoldOut": false,
-      "raritySlug": "n"
-    },
-    {
-      "name": "ラビフット",
-      "cardNumber": "138/742",
-      "rarity": "ノーマル",
-      "category": "ポケモン",
-      "energyType": "炎",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU543290",
-      "surugayaPrice": 160,
-      "surugayaSoldOut": false,
-      "raritySlug": "n"
-    },
-    {
-      "name": "カルボウ",
-      "cardNumber": "145/742",
-      "rarity": "ノーマル",
-      "category": "ポケモン",
-      "energyType": "炎",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU543293",
       "surugayaPrice": 160,
       "surugayaSoldOut": false,
       "raritySlug": "n"
@@ -1547,17 +1393,6 @@
     },
     {
       "name": "アリゲイツ",
-      "cardNumber": "166/742",
-      "rarity": "ノーマル",
-      "category": "ポケモン",
-      "energyType": "水",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU543306",
-      "surugayaPrice": 160,
-      "surugayaSoldOut": false,
-      "raritySlug": "n"
-    },
-    {
-      "name": "アリゲイツ",
       "cardNumber": "167/742",
       "rarity": "ノーマル",
       "category": "ポケモン",
@@ -1578,17 +1413,6 @@
       "surugayaSoldOut": false,
       "raritySlug": "n",
       "surugayaBuyPrice": 1000
-    },
-    {
-      "name": "ニューラ",
-      "cardNumber": "170/742",
-      "rarity": "ノーマル",
-      "category": "ポケモン",
-      "energyType": "水",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU543309",
-      "surugayaPrice": 160,
-      "surugayaSoldOut": false,
-      "raritySlug": "n"
     },
     {
       "name": "マニューラ",
@@ -1789,17 +1613,6 @@
       "raritySlug": "n"
     },
     {
-      "name": "トドゼルガ",
-      "cardNumber": "190/742",
-      "rarity": "ノーマル",
-      "category": "ポケモン",
-      "energyType": "水",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU543328",
-      "surugayaPrice": 160,
-      "surugayaSoldOut": false,
-      "raritySlug": "n"
-    },
-    {
       "name": "コアルヒー",
       "cardNumber": "197/742",
       "rarity": "ノーマル",
@@ -1938,28 +1751,6 @@
       "category": "ポケモン",
       "energyType": "水",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU543344",
-      "surugayaPrice": 160,
-      "surugayaSoldOut": false,
-      "raritySlug": "n"
-    },
-    {
-      "name": "ウェルカモ",
-      "cardNumber": "212/742",
-      "rarity": "ノーマル",
-      "category": "ポケモン",
-      "energyType": "水",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU543345",
-      "surugayaPrice": 160,
-      "surugayaSoldOut": false,
-      "raritySlug": "n"
-    },
-    {
-      "name": "ウェーニバル",
-      "cardNumber": "213/742",
-      "rarity": "ノーマル",
-      "category": "ポケモン",
-      "energyType": "水",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU543346",
       "surugayaPrice": 160,
       "surugayaSoldOut": false,
       "raritySlug": "n"
@@ -2187,28 +1978,6 @@
       "raritySlug": "n"
     },
     {
-      "name": "サンダー",
-      "cardNumber": "239/742",
-      "rarity": "ノーマル",
-      "category": "ポケモン",
-      "energyType": "雷",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU543361",
-      "surugayaPrice": 160,
-      "surugayaSoldOut": false,
-      "raritySlug": "n"
-    },
-    {
-      "name": "サンダー",
-      "cardNumber": "240/742",
-      "rarity": "ノーマル",
-      "category": "ポケモン",
-      "energyType": "雷",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU543362",
-      "surugayaPrice": 160,
-      "surugayaSoldOut": false,
-      "raritySlug": "n"
-    },
-    {
       "name": "ヒビキのピチュー",
       "cardNumber": "241/742",
       "rarity": "ミラー",
@@ -2319,17 +2088,6 @@
       "raritySlug": "n"
     },
     {
-      "name": "ゼブライカ",
-      "cardNumber": "252/742",
-      "rarity": "ノーマル",
-      "category": "ポケモン",
-      "energyType": "雷",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU543371",
-      "surugayaPrice": 160,
-      "surugayaSoldOut": false,
-      "raritySlug": "n"
-    },
-    {
       "name": "エモンガ",
       "cardNumber": "253/742",
       "rarity": "ミラー",
@@ -2418,34 +2176,12 @@
       "raritySlug": "n"
     },
     {
-      "name": "カプ・コケコ",
-      "cardNumber": "265/742",
-      "rarity": "ノーマル",
-      "category": "ポケモン",
-      "energyType": "雷",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU543382",
-      "surugayaPrice": 160,
-      "surugayaSoldOut": false,
-      "raritySlug": "n"
-    },
-    {
       "name": "ゼラオラ",
       "cardNumber": "266/742",
       "rarity": "ノーマル",
       "category": "ポケモン",
       "energyType": "雷",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU543383",
-      "surugayaPrice": 160,
-      "surugayaSoldOut": false,
-      "raritySlug": "n"
-    },
-    {
-      "name": "ゼラオラ",
-      "cardNumber": "267/742",
-      "rarity": "ノーマル",
-      "category": "ポケモン",
-      "energyType": "雷",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU543384",
       "surugayaPrice": 160,
       "surugayaSoldOut": false,
       "raritySlug": "n"
@@ -2561,17 +2297,6 @@
       "raritySlug": "n"
     },
     {
-      "name": "タイカイデン",
-      "cardNumber": "277/742",
-      "rarity": "ノーマル",
-      "category": "ポケモン",
-      "energyType": "雷",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU543393",
-      "surugayaPrice": 160,
-      "surugayaSoldOut": false,
-      "raritySlug": "n"
-    },
-    {
       "name": "ナンジャモのカイデン",
       "cardNumber": "278/742",
       "rarity": "ノーマル",
@@ -2673,17 +2398,6 @@
       "raritySlug": "n"
     },
     {
-      "name": "ロケット団のスリーパー",
-      "cardNumber": "289/742",
-      "rarity": "ノーマル",
-      "category": "ポケモン",
-      "energyType": "超",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU543402",
-      "surugayaPrice": 160,
-      "surugayaSoldOut": false,
-      "raritySlug": "n"
-    },
-    {
       "name": "マリル",
       "cardNumber": "294/742",
       "rarity": "ノーマル",
@@ -2757,17 +2471,6 @@
       "category": "ポケモン",
       "energyType": "超",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU543410",
-      "surugayaPrice": 160,
-      "surugayaSoldOut": false,
-      "raritySlug": "n"
-    },
-    {
-      "name": "リキキリン",
-      "cardNumber": "302/742",
-      "rarity": "ノーマル",
-      "category": "ポケモン",
-      "energyType": "超",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU543411",
       "surugayaPrice": 160,
       "surugayaSoldOut": false,
       "raritySlug": "n"
@@ -2879,17 +2582,6 @@
       "category": "ポケモン",
       "energyType": "超",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU543422",
-      "surugayaPrice": 160,
-      "surugayaSoldOut": false,
-      "raritySlug": "n"
-    },
-    {
-      "name": "デスマス",
-      "cardNumber": "319/742",
-      "rarity": "ノーマル",
-      "category": "ポケモン",
-      "energyType": "超",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU543425",
       "surugayaPrice": 160,
       "surugayaSoldOut": false,
       "raritySlug": "n"
@@ -3126,17 +2818,6 @@
       "raritySlug": "n"
     },
     {
-      "name": "ウリムー",
-      "cardNumber": "362/742",
-      "rarity": "ノーマル",
-      "category": "ポケモン",
-      "energyType": "闘",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU543461",
-      "surugayaPrice": 160,
-      "surugayaSoldOut": false,
-      "raritySlug": "n"
-    },
-    {
       "name": "イノムー",
       "cardNumber": "363/742",
       "rarity": "ノーマル",
@@ -3205,17 +2886,6 @@
     {
       "name": "チャーレム",
       "cardNumber": "369/742",
-      "rarity": "ノーマル",
-      "category": "ポケモン",
-      "energyType": "闘",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU543467",
-      "surugayaPrice": 160,
-      "surugayaSoldOut": false,
-      "raritySlug": "n"
-    },
-    {
-      "name": "チャーレム",
-      "cardNumber": "369/742",
       "rarity": "ミラー",
       "category": "ポケモン",
       "energyType": "闘",
@@ -3233,17 +2903,6 @@
       "surugayaUrl": "/product/detail/GU543019?tenpo_cd=201206",
       "surugayaPrice": 160,
       "surugayaSoldOut": true,
-      "raritySlug": "n"
-    },
-    {
-      "name": "レジロック",
-      "cardNumber": "373/742",
-      "rarity": "ノーマル",
-      "category": "ポケモン",
-      "energyType": "闘",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU543470",
-      "surugayaPrice": 160,
-      "surugayaSoldOut": false,
       "raritySlug": "n"
     },
     {
@@ -3286,17 +2945,6 @@
       "category": "ポケモン",
       "energyType": "闘",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU543478",
-      "surugayaPrice": 160,
-      "surugayaSoldOut": false,
-      "raritySlug": "n"
-    },
-    {
-      "name": "モグリュー",
-      "cardNumber": "385/742",
-      "rarity": "ノーマル",
-      "category": "ポケモン",
-      "energyType": "闘",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU543479",
       "surugayaPrice": 160,
       "surugayaSoldOut": false,
       "raritySlug": "n"
@@ -3346,17 +2994,6 @@
       "raritySlug": "n"
     },
     {
-      "name": "マッギョex",
-      "cardNumber": "394/742",
-      "rarity": "ノーマル",
-      "category": "ポケモン",
-      "energyType": "闘",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU542940",
-      "surugayaPrice": 180,
-      "surugayaSoldOut": false,
-      "raritySlug": "n"
-    },
-    {
       "name": "ランドロス",
       "cardNumber": "397/742",
       "rarity": "ノーマル",
@@ -3366,17 +3003,6 @@
       "surugayaPrice": 160,
       "surugayaSoldOut": false,
       "raritySlug": "n"
-    },
-    {
-      "name": "ランドロス",
-      "cardNumber": "398/742",
-      "rarity": "ミラー",
-      "category": "ポケモン",
-      "energyType": "闘",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU543115",
-      "surugayaPrice": 160,
-      "surugayaSoldOut": false,
-      "raritySlug": "mirror"
     },
     {
       "name": "ヤンチャム",
@@ -3456,17 +3082,6 @@
       "raritySlug": "n"
     },
     {
-      "name": "タンドン",
-      "cardNumber": "409/742",
-      "rarity": "ノーマル",
-      "category": "ポケモン",
-      "energyType": "闘",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU543500",
-      "surugayaPrice": 160,
-      "surugayaSoldOut": false,
-      "raritySlug": "n"
-    },
-    {
       "name": "トロッゴン",
       "cardNumber": "410/742",
       "rarity": "ノーマル",
@@ -3511,34 +3126,12 @@
       "raritySlug": "n"
     },
     {
-      "name": "キョジオーン",
-      "cardNumber": "418/742",
-      "rarity": "ノーマル",
-      "category": "ポケモン",
-      "energyType": "闘",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU543509",
-      "surugayaPrice": 160,
-      "surugayaSoldOut": false,
-      "raritySlug": "n"
-    },
-    {
       "name": "ペパーのノノクラゲ",
       "cardNumber": "419/742",
       "rarity": "ノーマル",
       "category": "ポケモン",
       "energyType": "闘",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU543510",
-      "surugayaPrice": 160,
-      "surugayaSoldOut": false,
-      "raritySlug": "n"
-    },
-    {
-      "name": "ペパーのリククラゲ",
-      "cardNumber": "420/742",
-      "rarity": "ノーマル",
-      "category": "ポケモン",
-      "energyType": "闘",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU543511",
       "surugayaPrice": 160,
       "surugayaSoldOut": false,
       "raritySlug": "n"
@@ -3566,34 +3159,12 @@
       "raritySlug": "mirror"
     },
     {
-      "name": "イダイナキバ",
-      "cardNumber": "422/742",
-      "rarity": "ノーマル",
-      "category": "ポケモン",
-      "energyType": "闘",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU543513",
-      "surugayaPrice": 160,
-      "surugayaSoldOut": false,
-      "raritySlug": "n"
-    },
-    {
       "name": "チヲハウハネ",
       "cardNumber": "423/742",
       "rarity": "ノーマル",
       "category": "ポケモン",
       "energyType": "闘",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU543514",
-      "surugayaPrice": 160,
-      "surugayaSoldOut": false,
-      "raritySlug": "n"
-    },
-    {
-      "name": "スナノケガワ",
-      "cardNumber": "424/742",
-      "rarity": "ノーマル",
-      "category": "ポケモン",
-      "energyType": "闘",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU543515",
       "surugayaPrice": 160,
       "surugayaSoldOut": false,
       "raritySlug": "n"
@@ -3682,17 +3253,6 @@
       "category": "ポケモン",
       "energyType": "悪",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU543523",
-      "surugayaPrice": 160,
-      "surugayaSoldOut": false,
-      "raritySlug": "n"
-    },
-    {
-      "name": "ロケット団のニドリーノ",
-      "cardNumber": "436/742",
-      "rarity": "ノーマル",
-      "category": "ポケモン",
-      "energyType": "悪",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU543524",
       "surugayaPrice": 160,
       "surugayaSoldOut": false,
       "raritySlug": "n"
@@ -4029,17 +3589,6 @@
       "raritySlug": "n"
     },
     {
-      "name": "バルチャイ",
-      "cardNumber": "475/742",
-      "rarity": "ミラー",
-      "category": "ポケモン",
-      "energyType": "悪",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU543121",
-      "surugayaPrice": 160,
-      "surugayaSoldOut": false,
-      "raritySlug": "mirror"
-    },
-    {
       "name": "モノズ",
       "cardNumber": "476/742",
       "rarity": "ノーマル",
@@ -4084,34 +3633,12 @@
       "raritySlug": "n"
     },
     {
-      "name": "ペパーのオラチフ",
-      "cardNumber": "483/742",
-      "rarity": "ノーマル",
-      "category": "ポケモン",
-      "energyType": "悪",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU543559",
-      "surugayaPrice": 160,
-      "surugayaSoldOut": false,
-      "raritySlug": "n"
-    },
-    {
       "name": "ペパーのマフィティフex",
       "cardNumber": "484/742",
       "rarity": "ノーマル",
       "category": "ポケモン",
       "energyType": "悪",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU542949",
-      "surugayaPrice": 160,
-      "surugayaSoldOut": false,
-      "raritySlug": "n"
-    },
-    {
-      "name": "オトシドリ",
-      "cardNumber": "485/742",
-      "rarity": "ノーマル",
-      "category": "ポケモン",
-      "energyType": "悪",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU543560",
       "surugayaPrice": 160,
       "surugayaSoldOut": false,
       "raritySlug": "n"
@@ -4304,17 +3831,6 @@
       "raritySlug": "n"
     },
     {
-      "name": "クレッフィ",
-      "cardNumber": "513/742",
-      "rarity": "ノーマル",
-      "category": "ポケモン",
-      "energyType": "鋼",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU543582",
-      "surugayaPrice": 160,
-      "surugayaSoldOut": false,
-      "raritySlug": "n"
-    },
-    {
       "name": "トゲデマルex",
       "cardNumber": "514/742",
       "rarity": "ノーマル",
@@ -4360,34 +3876,12 @@
       "raritySlug": "n"
     },
     {
-      "name": "ホップのアーマーガア",
-      "cardNumber": "520/742",
-      "rarity": "ノーマル",
-      "category": "ポケモン",
-      "energyType": "鋼",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU543587",
-      "surugayaPrice": 160,
-      "surugayaSoldOut": false,
-      "raritySlug": "n"
-    },
-    {
       "name": "ゾウドウ",
       "cardNumber": "521/742",
       "rarity": "ノーマル",
       "category": "ポケモン",
       "energyType": "鋼",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU543588",
-      "surugayaPrice": 160,
-      "surugayaSoldOut": false,
-      "raritySlug": "n"
-    },
-    {
-      "name": "ダイオウドウ",
-      "cardNumber": "522/742",
-      "rarity": "ノーマル",
-      "category": "ポケモン",
-      "energyType": "鋼",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU543589",
       "surugayaPrice": 160,
       "surugayaSoldOut": false,
       "raritySlug": "n"
@@ -4591,17 +4085,6 @@
       "raritySlug": "n"
     },
     {
-      "name": "ロケット団のコラッタ",
-      "cardNumber": "555/742",
-      "rarity": "ノーマル",
-      "category": "ポケモン",
-      "energyType": "",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU543609",
-      "surugayaPrice": 160,
-      "surugayaSoldOut": false,
-      "raritySlug": "n"
-    },
-    {
       "name": "ロケット団のラッタ",
       "cardNumber": "556/742",
       "rarity": "ノーマル",
@@ -4794,17 +4277,6 @@
     {
       "name": "スバメ",
       "cardNumber": "579/742",
-      "rarity": "ノーマル",
-      "category": "ポケモン",
-      "energyType": "",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU543627",
-      "surugayaPrice": 160,
-      "surugayaSoldOut": false,
-      "raritySlug": "n"
-    },
-    {
-      "name": "スバメ",
-      "cardNumber": "579/742",
       "rarity": "ミラー",
       "category": "ポケモン",
       "energyType": "",
@@ -4812,17 +4284,6 @@
       "surugayaPrice": 160,
       "surugayaSoldOut": false,
       "raritySlug": "mirror"
-    },
-    {
-      "name": "オオスバメ",
-      "cardNumber": "580/742",
-      "rarity": "ノーマル",
-      "category": "ポケモン",
-      "energyType": "",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU543628",
-      "surugayaPrice": 160,
-      "surugayaSoldOut": false,
-      "raritySlug": "n"
     },
     {
       "name": "ナマケロ",
@@ -4864,17 +4325,6 @@
       "category": "ポケモン",
       "energyType": "",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU543633",
-      "surugayaPrice": 160,
-      "surugayaSoldOut": false,
-      "raritySlug": "n"
-    },
-    {
-      "name": "ザングース",
-      "cardNumber": "587/742",
-      "rarity": "ノーマル",
-      "category": "ポケモン",
-      "energyType": "",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU543634",
       "surugayaPrice": 160,
       "surugayaSoldOut": false,
       "raritySlug": "n"
@@ -4947,39 +4397,6 @@
       "raritySlug": "mirror"
     },
     {
-      "name": "ミミロップ",
-      "cardNumber": "594/742",
-      "rarity": "ミラー",
-      "category": "ポケモン",
-      "energyType": "",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU543136",
-      "surugayaPrice": 160,
-      "surugayaSoldOut": false,
-      "raritySlug": "mirror"
-    },
-    {
-      "name": "ニャルマー",
-      "cardNumber": "595/742",
-      "rarity": "ノーマル",
-      "category": "ポケモン",
-      "energyType": "",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU543642",
-      "surugayaPrice": 160,
-      "surugayaSoldOut": false,
-      "raritySlug": "n"
-    },
-    {
-      "name": "ニャルマー",
-      "cardNumber": "595/742",
-      "rarity": "ミラー",
-      "category": "ポケモン",
-      "energyType": "",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU543137",
-      "surugayaPrice": 160,
-      "surugayaSoldOut": false,
-      "raritySlug": "mirror"
-    },
-    {
       "name": "ブニャット",
       "cardNumber": "596/742",
       "rarity": "ノーマル",
@@ -4989,17 +4406,6 @@
       "surugayaPrice": 160,
       "surugayaSoldOut": false,
       "raritySlug": "n"
-    },
-    {
-      "name": "ブニャット",
-      "cardNumber": "596/742",
-      "rarity": "ミラー",
-      "category": "ポケモン",
-      "energyType": "",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU543138",
-      "surugayaPrice": 160,
-      "surugayaSoldOut": false,
-      "raritySlug": "mirror"
     },
     {
       "name": "ペラップ",
@@ -5022,17 +4428,6 @@
       "surugayaPrice": 160,
       "surugayaSoldOut": false,
       "raritySlug": "mirror"
-    },
-    {
-      "name": "マメパト",
-      "cardNumber": "598/742",
-      "rarity": "ノーマル",
-      "category": "ポケモン",
-      "energyType": "",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU543645",
-      "surugayaPrice": 160,
-      "surugayaSoldOut": false,
-      "raritySlug": "n"
     },
     {
       "name": "ハトーボー",
@@ -5086,17 +4481,6 @@
       "category": "ポケモン",
       "energyType": "",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU542963",
-      "surugayaPrice": 160,
-      "surugayaSoldOut": false,
-      "raritySlug": "n"
-    },
-    {
-      "name": "ワシボン",
-      "cardNumber": "606/742",
-      "rarity": "ノーマル",
-      "category": "ポケモン",
-      "energyType": "",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU543651",
       "surugayaPrice": 160,
       "surugayaSoldOut": false,
       "raritySlug": "n"
@@ -5168,28 +4552,6 @@
       "raritySlug": "n"
     },
     {
-      "name": "ヌイコグマ",
-      "cardNumber": "616/742",
-      "rarity": "ノーマル",
-      "category": "ポケモン",
-      "energyType": "",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU543660",
-      "surugayaPrice": 160,
-      "surugayaSoldOut": false,
-      "raritySlug": "n"
-    },
-    {
-      "name": "キテルグマ",
-      "cardNumber": "617/742",
-      "rarity": "ノーマル",
-      "category": "ポケモン",
-      "energyType": "",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU543661",
-      "surugayaPrice": 160,
-      "surugayaSoldOut": false,
-      "raritySlug": "n"
-    },
-    {
       "name": "ヤレユータン",
       "cardNumber": "618/742",
       "rarity": "ミラー",
@@ -5229,28 +4591,6 @@
       "category": "ポケモン",
       "energyType": "",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU543664",
-      "surugayaPrice": 160,
-      "surugayaSoldOut": false,
-      "raritySlug": "n"
-    },
-    {
-      "name": "ジジーロン",
-      "cardNumber": "621/742",
-      "rarity": "ミラー",
-      "category": "ポケモン",
-      "energyType": "",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU543142",
-      "surugayaPrice": 160,
-      "surugayaSoldOut": false,
-      "raritySlug": "mirror"
-    },
-    {
-      "name": "ホップのココガラ",
-      "cardNumber": "622/742",
-      "rarity": "ノーマル",
-      "category": "ポケモン",
-      "energyType": "",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU543665",
       "surugayaPrice": 160,
       "surugayaSoldOut": false,
       "raritySlug": "n"
@@ -5575,17 +4915,6 @@
       "surugayaPrice": 180,
       "surugayaSoldOut": true,
       "raritySlug": "mirror"
-    },
-    {
-      "name": "ポケモンいれかえ",
-      "cardNumber": "663/742",
-      "rarity": "ノーマル",
-      "category": "グッズ",
-      "energyType": "",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU543702",
-      "surugayaPrice": 160,
-      "surugayaSoldOut": false,
-      "raritySlug": "n"
     },
     {
       "name": "ポケモンいれかえ",
@@ -6053,17 +5382,6 @@
       "raritySlug": "mirror"
     },
     {
-      "name": "マコモ",
-      "cardNumber": "725/742",
-      "rarity": "ノーマル",
-      "category": "サポート",
-      "energyType": "",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU543752",
-      "surugayaPrice": 160,
-      "surugayaSoldOut": false,
-      "raritySlug": "n"
-    },
-    {
       "name": "マツバの確信",
       "cardNumber": "727/742",
       "rarity": "ノーマル",
@@ -6114,17 +5432,6 @@
       "category": "サポート",
       "energyType": "",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU543762",
-      "surugayaPrice": 160,
-      "surugayaSoldOut": false,
-      "raritySlug": "n"
-    },
-    {
-      "name": "イグニッションエネルギー",
-      "cardNumber": "736/742",
-      "rarity": "ノーマル",
-      "category": "エネルギー",
-      "energyType": "",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU543763",
       "surugayaPrice": 160,
       "surugayaSoldOut": false,
       "raritySlug": "n"
