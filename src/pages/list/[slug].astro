@@ -16,6 +16,7 @@ interface Props {
 const { series } = Astro.props;
 
 const priceDate = priceAsOf;
+const priceDateShort = priceDate.replace(/^(\d{4})年(\d{1,2})月(\d{1,2})日$/, '$1/$2/$3');
 const seriesPath = `/list/${series.slug}`;
 const variants = [...series.variants].sort((a, b) => (b.sellPrice ?? 0) - (a.sellPrice ?? 0));
 const topCard = variants[0];
@@ -93,7 +94,7 @@ const jsonLd = JSON.stringify({
         <div><span>収録バージョン</span><strong>{series.variants.length}種</strong></div>
         <div><span>最安値</span><strong>{yen(lowest)}</strong></div>
         <div><span>最高値</span><strong>{yen(highest)}</strong></div>
-        <div><span>価格更新</span><strong>{priceDate}</strong></div>
+        <div class="stat-date"><span>価格更新</span><strong>{priceDateShort}</strong></div>
       </div>
     </div>
   </section>
@@ -225,7 +226,8 @@ const jsonLd = JSON.stringify({
   }
   .stats div + div { border-left: 1px solid var(--border); }
   .stats span { color: var(--text-sub); font-size: 12px; font-weight: 800; }
-  .stats strong { color: var(--brand); font-size: 22px; line-height: 1.35; font-weight: 900; }
+  .stats strong { color: var(--brand); font-size: 22px; line-height: 1.35; font-weight: 900; white-space: nowrap; }
+  .stats .stat-date strong { font-size: 21px; }
   .tabs {
     display: grid;
     grid-template-columns: 1fr 1fr;
