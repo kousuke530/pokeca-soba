@@ -75,7 +75,6 @@ const rarities = ['すべて', ...new Set(ranking.map((c) => c.rarity).filter(Bo
     const fCat = document.getElementById('fCat') as HTMLSelectElement | null;
     const fRar = document.getElementById('fRar') as HTMLSelectElement | null;
     const podium = document.querySelector<HTMLElement>('.podium');
-    const note = document.querySelector<HTMLElement>('.price-note');
     const empty = document.querySelector<HTMLElement>('.rank-empty');
     const items = [...document.querySelectorAll<HTMLLIElement>('#rankList li[data-rank]')];
 
@@ -83,8 +82,9 @@ const rarities = ['すべて', ...new Set(ranking.map((c) => c.rarity).filter(Bo
       const cat = fCat?.value ?? 'すべて';
       const rar = fRar?.value ?? 'すべて';
       const noFilter = cat === 'すべて' && rar === 'すべて';
+      // 殿堂(上位3件)は「カテゴリ・レアリティともにすべて」のときだけ表示
       if (podium) podium.hidden = !noFilter;
-      if (note) note.hidden = !noFilter;
+      // price-note（参考価格の注記）はどの絞り込みでも常時表示
 
       let shown = 0;
       for (const li of items) {
@@ -171,6 +171,8 @@ const rarities = ['すべて', ...new Set(ranking.map((c) => c.rarity).filter(Bo
     align-items: end;
     margin: 0 8px 22px;
   }
+  /* display:grid が [hidden] の display:none を上書きしてしまうため明示的に打ち消す */
+  .podium[hidden] { display: none; }
   .podium-card {
     position: relative;
     min-height: 250px;
