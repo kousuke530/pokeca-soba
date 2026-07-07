@@ -69,26 +69,33 @@ export interface AffiliateShop {
   url: string;
   /** 提携ASP（表示はしないが管理用に保持） */
   via: string;
+  /** アフィリエイト提携が完了しているか。未指定/false は一旦非表示（データは残す） */
+  affiliated?: boolean;
 }
 
-/** カードを「買う」＝販売ショップ */
-export const purchaseShops: AffiliateShop[] = [
-  { name: '駿河屋', url: 'https://www.suruga-ya.jp/', via: '駿河屋アフィリエイト' },
+// 全ショップ（提携状況に関わらずデータとして保持）。affiliated: true のみ表示。
+// 未提携（公式URLのみ）のショップは一旦非表示。提携完了時に affiliated: true を付ければ表示される。
+const allPurchaseShops: AffiliateShop[] = [
+  { name: '駿河屋', url: 'https://www.suruga-ya.jp/', via: '駿河屋アフィリエイト', affiliated: true },
   { name: 'カードラッシュ', url: 'https://www.cardrush-pokemon.jp/', via: 'A8.net' },
-  { name: 'カーナベル', url: 'https://www.ka-nabell.com/', via: 'A8.net' },
+  { name: 'カーナベル', url: 'https://www.ka-nabell.com/', via: 'A8.net', affiliated: true },
   { name: '遊々亭', url: 'https://yuyu-tei.jp/', via: 'A8.net' },
-  { name: 'トレトク', url: 'https://www.toretoku.jp/', via: 'A8.net' },
+  { name: 'トレトク', url: 'https://www.toretoku.jp/', via: 'A8.net', affiliated: true },
   { name: 'ウリウリトレカ', url: 'https://hanbaiuriuritoreca.com/', via: 'A8.net' },
   { name: 'CARDMAX', url: 'https://www.cardmax.jp/', via: 'A8.net' },
-  { name: 'メルカリ', url: 'https://jp.mercari.com/', via: 'メルカリアンバサダー' },
-  { name: 'Amazon', url: 'https://www.amazon.co.jp/', via: 'Amazonアソシエイト' },
+  { name: 'メルカリ', url: 'https://jp.mercari.com/', via: 'メルカリアンバサダー', affiliated: true },
+  { name: 'Amazon', url: 'https://www.amazon.co.jp/', via: 'Amazonアソシエイト', affiliated: true },
 ];
 
-/** カードを「売る」＝買取ショップ */
-export const buybackShops: AffiliateShop[] = [
-  { name: 'カーナベル', url: kanaberuBuybackUrl, via: 'A8.net' },
+const allBuybackShops: AffiliateShop[] = [
+  { name: 'カーナベル', url: kanaberuBuybackUrl, via: 'A8.net', affiliated: true },
   { name: '遊々亭', url: 'https://yuyu-tei.jp/cart/buy', via: 'A8.net' },
-  { name: 'トレトク', url: 'https://kaitori-toretoku.jp/', via: 'A8.net' },
+  { name: 'トレトク', url: 'https://kaitori-toretoku.jp/', via: 'A8.net', affiliated: true },
   { name: 'ウリウリトレカ', url: 'https://uriuritoreca.com/', via: 'A8.net' },
-  { name: 'もえたく！', url: 'https://h.accesstrade.net/sp/cc?rk=0100pu0n00ovb4', via: 'アクセストレード' },
+  { name: 'もえたく！', url: 'https://h.accesstrade.net/sp/cc?rk=0100pu0n00ovb4', via: 'アクセストレード', affiliated: true },
 ];
+
+/** カードを「買う」＝販売ショップ（提携済みのみ表示） */
+export const purchaseShops: AffiliateShop[] = allPurchaseShops.filter((s) => s.affiliated);
+/** カードを「売る」＝買取ショップ（提携済みのみ表示） */
+export const buybackShops: AffiliateShop[] = allBuybackShops.filter((s) => s.affiliated);

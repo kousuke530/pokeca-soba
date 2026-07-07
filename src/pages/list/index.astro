@@ -295,7 +295,7 @@ function kanaGroup(name: string): string {
     line-height: 1.35;
     font-weight: 900;
   }
-  .popular-grid span {
+  .popular-grid span, .pokemon-grid span {
     min-height: 36px;
     display: -webkit-box;
     -webkit-line-clamp: 2;
@@ -307,8 +307,6 @@ function kanaGroup(name: string): string {
     font-size: 11px;
     font-style: normal;
     font-weight: 700;
-  }
-  .popular-grid em {
     min-height: 15px;
     line-height: 1.35;
   }
@@ -320,7 +318,9 @@ function kanaGroup(name: string): string {
     grid-template-columns: repeat(auto-fill, minmax(118px, 1fr));
     gap: 14px;
   }
+  .pokemon-grid li { display: flex; min-width: 0; }
   .pokemon-grid a {
+    width: 100%;
     min-height: 152px;
     display: flex;
     flex-direction: column;

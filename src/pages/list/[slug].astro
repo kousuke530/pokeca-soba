@@ -28,6 +28,9 @@ const avg = priceVals.length ? Math.round(priceVals.reduce((sum, v) => sum + v, 
 const yen = (v: number | null) => (v == null ? '調査中' : `${v.toLocaleString('ja-JP')}円`);
 const typeLabel =
   topCard.category === 'ポケモン' && topCard.energyType ? topCard.energyType : topCard.category;
+// 絞り込み用の選択肢（このポケモンのバリエーションから）
+const rarityOptions = [...new Set(variants.map((v) => v.rarity))];
+const seriesOptions = [...new Map(variants.map((v) => [v.packSlug, v.pack] as const)).entries()];
 
 const title = `${series.name}(全${series.variants.length}種)の買取・販売価格相場一覧【ポケカ】`;
 const description = `${series.name}の最新の販売価格・買取価格を比較。レアリティ別（${series.variants
@@ -107,18 +110,32 @@ const jsonLd = JSON.stringify({
   <section id="variants" class="variant-section page-panel">
     <div class="variant-tools">
       <div>
-        <label><select><option>すべてのレアリティ</option></select></label>
-        <label><select><option>すべてのシリーズ</option></select></label>
+        <label>
+          <select id="fRarity">
+            <option value="">すべてのレアリティ</option>
+            {rarityOptions.map((r) => <option value={r}>{r}</option>)}
+          </select>
+        </label>
+        <label>
+          <select id="fSeries">
+            <option value="">すべてのシリーズ</option>
+            {seriesOptions.map(([slug, name]) => <option value={slug}>{name}</option>)}
+          </select>
+        </label>
       </div>
-      <label>並び替え：<select><option>価格が高い順</option></select></label>
+      <label>並び替え：<select id="fSort">
+        <option value="high">価格が高い順</option>
+        <option value="low">価格が安い順</option>
+      </select></label>
     </div>
     <div class="section-head">
-      <h2 class="section-title">{series.variants.length}件のバリエーション</h2>
+      <h2 class="section-title"><span id="variantCount">{series.variants.length}</span>件のバリエーション</h2>
       <p class="avg">平均相場 {yen(avg)}</p>
     </div>
-    <ul class="card-list">
+    <ul class="card-list" id="variantList">
       {variants.map((c) => <VariantRow card={c} popup />)}
     </ul>
+    <p class="variant-empty" id="variantEmpty" hidden>条件に一致するカードが見つかりませんでした。</p>
   </section>
 
   <section id="chart" class="notice">
@@ -147,6 +164,40 @@ const jsonLd = JSON.stringify({
       if (e.target === dlg) dlg.close();
     });
   });
+
+  // バリエーション一覧の絞り込み（レアリティ/シリーズ）＋並び替え（価格）
+  const fRarity = document.getElementById('fRarity') as HTMLSelectElement | null;
+  const fSeries = document.getElementById('fSeries') as HTMLSelectElement | null;
+  const fSort = document.getElementById('fSort') as HTMLSelectElement | null;
+  const vList = document.getElementById('variantList');
+  const vRows = [...document.querySelectorAll<HTMLLIElement>('#variantList .row')];
+  const vCount = document.getElementById('variantCount');
+  const vEmpty = document.getElementById('variantEmpty');
+
+  function applyVariants() {
+    const rar = fRarity?.value ?? '';
+    const ser = fSeries?.value ?? '';
+    const sort = fSort?.value ?? 'high';
+    const visible: HTMLLIElement[] = [];
+    for (const row of vRows) {
+      const match = (!rar || row.dataset.rarity === rar) && (!ser || row.dataset.pack === ser);
+      // .row は display:grid のため hidden 属性では隠せない。inline style で切り替える
+      row.style.display = match ? '' : 'none';
+      if (match) visible.push(row);
+    }
+    visible.sort((a, b) => {
+      const av = Number(a.dataset.sell ?? 0);
+      const bv = Number(b.dataset.sell ?? 0);
+      return sort === 'low' ? av - bv : bv - av;
+    });
+    visible.forEach((row) => vList?.appendChild(row));
+    if (vCount) vCount.textContent = String(visible.length);
+    if (vEmpty) vEmpty.hidden = visible.length > 0;
+  }
+  fRarity?.addEventListener('change', applyVariants);
+  fSeries?.addEventListener('change', applyVariants);
+  fSort?.addEventListener('change', applyVariants);
+  applyVariants();
 </script>
 
 <style>
@@ -287,6 +338,7 @@ const jsonLd = JSON.stringify({
     font-weight: 800;
   }
   .card-list { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 10px; }
+  .variant-empty { margin: 16px 0 0; padding: 18px; border-radius: 10px; color: var(--text-sub); background: #f8fbff; text-align: center; font-weight: 700; }
   .notice {
     margin: 26px 0 0;
     padding: 14px 18px;

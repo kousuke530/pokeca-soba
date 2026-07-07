@@ -11,7 +11,7 @@ const detailUrl = card.path;
 const yen = (v: number | null) => (v == null ? '調査中' : `${v.toLocaleString('ja-JP')}円`);
 ---
 
-<li class="row" data-pack={card.packSlug} data-rarity={card.rarity} data-name={card.name}>
+<li class="row" data-pack={card.packSlug} data-rarity={card.rarity} data-name={card.name} data-sell={card.sellPrice ?? 0}>
   <a href={detailUrl} class="thumb-link" aria-label={`${card.name} ${card.rarity} の詳細`}>
     <img src={card.image} alt={`${card.name}(${card.rarity})`} width="80" height="112" loading="lazy" onerror="this.onerror=null;this.src='/images/cards/placeholder.svg'" />
   </a>
