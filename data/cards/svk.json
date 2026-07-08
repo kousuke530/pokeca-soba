@@ -2,8 +2,8 @@
   "pack": "デッキビルドBOX ステラミラクル",
   "packSlug": "svk",
   "source": "surugaya",
-  "collectedAt": "2026-07-07T00:27:55.027Z",
-  "count": 41,
+  "collectedAt": "2026-07-08T02:48:39.609Z",
+  "count": 42,
   "cards": [
     {
       "name": "かがやくリザードン",
@@ -58,17 +58,6 @@
       "energyType": "超",
       "surugayaUrl": "/product/other/GN596206",
       "surugayaPrice": 80,
-      "surugayaSoldOut": true,
-      "raritySlug": "n"
-    },
-    {
-      "name": "ミュウex",
-      "cardNumber": "006/044",
-      "rarity": "ノーマル",
-      "category": "ポケモン",
-      "energyType": "超",
-      "surugayaUrl": "/product/detail/GN596207?tenpo_cd=201206",
-      "surugayaPrice": 150,
       "surugayaSoldOut": true,
       "raritySlug": "n"
     },
@@ -150,6 +139,17 @@
       "raritySlug": "n"
     },
     {
+      "name": "キャプチャーアロマ",
+      "cardNumber": "014/044",
+      "rarity": "ノーマル",
+      "category": "グッズ",
+      "energyType": "",
+      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN596215",
+      "surugayaPrice": 160,
+      "surugayaSoldOut": false,
+      "raritySlug": "n"
+    },
+    {
       "name": "すごいつりざお",
       "cardNumber": "015/044",
       "rarity": "ノーマル",
@@ -189,7 +189,7 @@
       "category": "グッズ",
       "energyType": "",
       "surugayaUrl": "/product/other/GN596219",
-      "surugayaPrice": 150,
+      "surugayaPrice": 140,
       "surugayaSoldOut": true,
       "raritySlug": "n"
     },
@@ -222,7 +222,7 @@
       "category": "グッズ",
       "energyType": "",
       "surugayaUrl": "/product/other/GN596222",
-      "surugayaPrice": 60,
+      "surugayaPrice": 100,
       "surugayaSoldOut": true,
       "raritySlug": "n"
     },
@@ -309,8 +309,8 @@
       "rarity": "ノーマル",
       "category": "ポケモンのどうぐ",
       "energyType": "",
-      "surugayaUrl": "/product/other/GN596230",
-      "surugayaPrice": 90,
+      "surugayaUrl": "/product/detail/GN596230?tenpo_cd=410011",
+      "surugayaPrice": 150,
       "surugayaSoldOut": true,
       "raritySlug": "n"
     },
@@ -353,7 +353,7 @@
       "rarity": "ノーマル",
       "category": "サポート",
       "energyType": "",
-      "surugayaUrl": "/product/other/GN596235",
+      "surugayaUrl": "/product/detail/GN596235?tenpo_cd=400502",
       "surugayaPrice": 50,
       "surugayaSoldOut": true,
       "raritySlug": "n"
@@ -436,6 +436,17 @@
       "raritySlug": "n"
     },
     {
+      "name": "ジェットエネルギー",
+      "cardNumber": "042/044",
+      "rarity": "ノーマル",
+      "category": "エネルギー",
+      "energyType": "",
+      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN596243",
+      "surugayaPrice": 160,
+      "surugayaSoldOut": false,
+      "raritySlug": "n"
+    },
+    {
       "name": "ダブルターボエネルギー",
       "cardNumber": "043/044",
       "rarity": "ノーマル",
@@ -452,7 +463,7 @@
       "rarity": "ノーマル",
       "category": "エネルギー",
       "energyType": "",
-      "surugayaUrl": "/product/other/GN596245",
+      "surugayaUrl": "/product/detail/GN596245?tenpo_cd=410018",
       "surugayaPrice": 57,
       "surugayaSoldOut": true,
       "raritySlug": "n"

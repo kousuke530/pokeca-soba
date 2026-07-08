@@ -2,8 +2,8 @@
   "pack": "強化拡張パック「楽園ドラゴーナ」",
   "packSlug": "sv7a",
   "source": "surugaya",
-  "collectedAt": "2026-07-07T00:28:21.234Z",
-  "count": 87,
+  "collectedAt": "2026-07-08T02:49:08.602Z",
+  "count": 92,
   "cards": [
     {
       "name": "タマタマ",
@@ -160,6 +160,17 @@
       "raritySlug": "c"
     },
     {
+      "name": "ウェーニバル",
+      "cardNumber": "015/064",
+      "rarity": "U",
+      "category": "ポケモン",
+      "energyType": "水",
+      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN660852",
+      "surugayaPrice": 160,
+      "surugayaSoldOut": false,
+      "raritySlug": "u"
+    },
+    {
       "name": "アルクジラ",
       "cardNumber": "016/064",
       "rarity": "C",
@@ -281,6 +292,17 @@
       "raritySlug": "rr"
     },
     {
+      "name": "モグリュー",
+      "cardNumber": "028/064",
+      "rarity": "C",
+      "category": "ポケモン",
+      "energyType": "闘",
+      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN660887",
+      "surugayaPrice": 160,
+      "surugayaSoldOut": false,
+      "raritySlug": "c"
+    },
+    {
       "name": "ドリュウズ",
       "cardNumber": "029/064",
       "rarity": "C",
@@ -301,6 +323,17 @@
       "surugayaPrice": 160,
       "surugayaSoldOut": false,
       "raritySlug": "r"
+    },
+    {
+      "name": "ナゲツケサル",
+      "cardNumber": "031/064",
+      "rarity": "U",
+      "category": "ポケモン",
+      "energyType": "闘",
+      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN660855",
+      "surugayaPrice": 160,
+      "surugayaSoldOut": false,
+      "raritySlug": "u"
     },
     {
       "name": "タタッコ",
@@ -424,6 +457,17 @@
       "raritySlug": "r"
     },
     {
+      "name": "バクガメス",
+      "cardNumber": "044/064",
+      "rarity": "U",
+      "category": "ポケモン",
+      "energyType": "ドラゴン",
+      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN660858",
+      "surugayaPrice": 160,
+      "surugayaSoldOut": false,
+      "raritySlug": "u"
+    },
+    {
       "name": "カジッチュ",
       "cardNumber": "045/064",
       "rarity": "C",
@@ -465,6 +509,17 @@
       "surugayaUrl": "/product/detail/GN660895?tenpo_cd=410018",
       "surugayaPrice": 19,
       "surugayaSoldOut": true,
+      "raritySlug": "c"
+    },
+    {
+      "name": "ワシボン",
+      "cardNumber": "049/064",
+      "rarity": "C",
+      "category": "ポケモン",
+      "energyType": "",
+      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN660896",
+      "surugayaPrice": 160,
+      "surugayaSoldOut": false,
       "raritySlug": "c"
     },
     {
@@ -518,7 +573,7 @@
       "category": "グッズ",
       "energyType": "",
       "surugayaUrl": "/product/other/GN660863",
-      "surugayaPrice": 50,
+      "surugayaPrice": 99,
       "surugayaSoldOut": true,
       "raritySlug": "u"
     },
@@ -594,7 +649,7 @@
       "rarity": "U",
       "category": "サポート",
       "energyType": "",
-      "surugayaUrl": "/product/other/GN660869",
+      "surugayaUrl": "/product/detail/GN660869?tenpo_cd=410018",
       "surugayaPrice": 29,
       "surugayaSoldOut": true,
       "raritySlug": "u"
@@ -928,7 +983,7 @@
       "category": "ポケモン",
       "energyType": "ドラゴン",
       "surugayaUrl": "/product/other/GN660809",
-      "surugayaPrice": 1890,
+      "surugayaPrice": 1850,
       "surugayaSoldOut": true,
       "raritySlug": "sar",
       "surugayaBuyPrice": 2000
@@ -939,9 +994,9 @@
       "rarity": "SAR",
       "category": "サポート",
       "energyType": "",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN660810",
-      "surugayaPrice": 780,
-      "surugayaSoldOut": false,
+      "surugayaUrl": "/product/other/GN660810",
+      "surugayaPrice": 660,
+      "surugayaSoldOut": true,
       "raritySlug": "sar",
       "surugayaBuyPrice": 300
     },

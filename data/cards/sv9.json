@@ -2,8 +2,8 @@
   "pack": "拡張パック「バトルパートナーズ」",
   "packSlug": "sv9",
   "source": "surugaya",
-  "collectedAt": "2026-07-07T00:29:37.608Z",
-  "count": 162,
+  "collectedAt": "2026-07-08T02:50:31.261Z",
+  "count": 167,
   "cards": [
     {
       "name": "ミュウex",
@@ -94,6 +94,17 @@
       "raritySlug": "c"
     },
     {
+      "name": "ピジョン",
+      "cardNumber": "005/045",
+      "rarity": "ノーマル",
+      "category": "ポケモン",
+      "energyType": "",
+      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN832996",
+      "surugayaPrice": 160,
+      "surugayaSoldOut": false,
+      "raritySlug": "n"
+    },
+    {
       "name": "パラセクト",
       "cardNumber": "005/100",
       "rarity": "C",
@@ -114,17 +125,6 @@
       "surugayaPrice": 59,
       "surugayaSoldOut": true,
       "raritySlug": "u"
-    },
-    {
-      "name": "ホーホー",
-      "cardNumber": "007/045",
-      "rarity": "ノーマル",
-      "category": "ポケモン",
-      "energyType": "",
-      "surugayaUrl": "/product/detail/GN832998?tenpo_cd=201206",
-      "surugayaPrice": 90,
-      "surugayaSoldOut": true,
-      "raritySlug": "n"
     },
     {
       "name": "カブルモ",
@@ -169,6 +169,17 @@
       "surugayaPrice": 160,
       "surugayaSoldOut": false,
       "raritySlug": "u"
+    },
+    {
+      "name": "エレキジェネレーター",
+      "cardNumber": "010/045",
+      "rarity": "ノーマル",
+      "category": "グッズ",
+      "energyType": "",
+      "surugayaUrl": "/product/detail/GN833001?tenpo_cd=410018",
+      "surugayaPrice": 57,
+      "surugayaSoldOut": true,
+      "raritySlug": "n"
     },
     {
       "name": "ニャオハ",
@@ -370,6 +381,17 @@
       "raritySlug": "u"
     },
     {
+      "name": "ポケモンいれかえ",
+      "cardNumber": "021/045",
+      "rarity": "ノーマル",
+      "category": "グッズ",
+      "energyType": "",
+      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN833012",
+      "surugayaPrice": 160,
+      "surugayaSoldOut": false,
+      "raritySlug": "n"
+    },
+    {
       "name": "ハスボー",
       "cardNumber": "021/100",
       "rarity": "C",
@@ -522,6 +544,17 @@
       "surugayaPrice": 77,
       "surugayaSoldOut": true,
       "raritySlug": "n"
+    },
+    {
+      "name": "Nのバチュル",
+      "cardNumber": "028/100",
+      "rarity": "C",
+      "category": "ポケモン",
+      "energyType": "雷",
+      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN832794",
+      "surugayaPrice": 160,
+      "surugayaSoldOut": false,
+      "raritySlug": "c"
     },
     {
       "name": "ワザマシン エヴォリューション",
@@ -760,7 +793,7 @@
       "rarity": "ノーマル",
       "category": "スタジアム",
       "energyType": "",
-      "surugayaUrl": "/product/other/GN833032",
+      "surugayaUrl": "/product/detail/GN833032?tenpo_cd=410018",
       "surugayaPrice": 77,
       "surugayaSoldOut": true,
       "raritySlug": "n"
@@ -775,6 +808,17 @@
       "surugayaPrice": 160,
       "surugayaSoldOut": false,
       "raritySlug": "c"
+    },
+    {
+      "name": "ジェットエネルギー",
+      "cardNumber": "042/045",
+      "rarity": "ノーマル",
+      "category": "エネルギー",
+      "energyType": "",
+      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN833033",
+      "surugayaPrice": 160,
+      "surugayaSoldOut": false,
+      "raritySlug": "n"
     },
     {
       "name": "リーリエのアブリボン",
@@ -815,7 +859,7 @@
       "rarity": "ノーマル",
       "category": "エネルギー",
       "energyType": "",
-      "surugayaUrl": "/product/other/GN833035",
+      "surugayaUrl": "/product/detail/GN833035?tenpo_cd=410018",
       "surugayaPrice": 57,
       "surugayaSoldOut": true,
       "raritySlug": "n"
@@ -1167,7 +1211,7 @@
       "rarity": "R",
       "category": "ポケモン",
       "energyType": "ドラゴン",
-      "surugayaUrl": "/product/other/GN832742",
+      "surugayaUrl": "/product/detail/GN832742?tenpo_cd=410018",
       "surugayaPrice": 47,
       "surugayaSoldOut": true,
       "raritySlug": "r"
@@ -1409,10 +1453,11 @@
       "rarity": "U",
       "category": "サポート",
       "energyType": "",
-      "surugayaUrl": "/product/other/GN832774",
-      "surugayaPrice": 180,
+      "surugayaUrl": "/product/detail/GN832774?tenpo_cd=400492",
+      "surugayaPrice": 380,
       "surugayaSoldOut": true,
-      "raritySlug": "u"
+      "raritySlug": "u",
+      "surugayaBuyPrice": null
     },
     {
       "name": "Nの城",
@@ -1476,9 +1521,9 @@
       "rarity": "AR",
       "category": "ポケモン",
       "energyType": "水",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN832716",
-      "surugayaPrice": 1180,
-      "surugayaSoldOut": false,
+      "surugayaUrl": "/product/other/GN832716",
+      "surugayaPrice": 630,
+      "surugayaSoldOut": true,
       "raritySlug": "ar",
       "surugayaBuyPrice": 500
     },
@@ -1574,6 +1619,18 @@
       "energyType": "",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN832724",
       "surugayaPrice": 480,
+      "surugayaSoldOut": false,
+      "raritySlug": "ar",
+      "surugayaBuyPrice": null
+    },
+    {
+      "name": "オンバット",
+      "cardNumber": "111/100",
+      "rarity": "AR",
+      "category": "ポケモン",
+      "energyType": "",
+      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN832725",
+      "surugayaPrice": 300,
       "surugayaSoldOut": false,
       "raritySlug": "ar",
       "surugayaBuyPrice": null
@@ -1729,7 +1786,7 @@
       "category": "ポケモン",
       "energyType": "炎",
       "surugayaUrl": "/product/other/GN832698",
-      "surugayaPrice": 880,
+      "surugayaPrice": 1130,
       "surugayaSoldOut": true,
       "raritySlug": "sar",
       "surugayaBuyPrice": 1000
@@ -1740,9 +1797,9 @@
       "rarity": "SAR",
       "category": "ポケモン",
       "energyType": "雷",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN832699",
-      "surugayaPrice": 12800,
-      "surugayaSoldOut": false,
+      "surugayaUrl": "/product/other/GN832699",
+      "surugayaPrice": 6910,
+      "surugayaSoldOut": true,
       "raritySlug": "sar",
       "surugayaBuyPrice": 7500
     },

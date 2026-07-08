@@ -2,8 +2,8 @@
   "pack": "強化拡張パック「熱風のアリーナ」",
   "packSlug": "sv9a",
   "source": "surugaya",
-  "collectedAt": "2026-07-07T00:29:52.066Z",
-  "count": 83,
+  "collectedAt": "2026-07-08T02:50:46.598Z",
+  "count": 91,
   "cards": [
     {
       "name": "ヒビキのカイロス",
@@ -55,7 +55,7 @@
       "rarity": "R",
       "category": "ポケモン",
       "energyType": "草",
-      "surugayaUrl": "/product/other/GN923805",
+      "surugayaUrl": "/product/detail/GN923805?tenpo_cd=410018",
       "surugayaPrice": 75,
       "surugayaSoldOut": true,
       "raritySlug": "r"
@@ -72,6 +72,17 @@
       "raritySlug": "u"
     },
     {
+      "name": "イシズマイ",
+      "cardNumber": "007/063",
+      "rarity": "C",
+      "category": "ポケモン",
+      "energyType": "草",
+      "surugayaUrl": "/product/other/GN923836",
+      "surugayaPrice": 19,
+      "surugayaSoldOut": true,
+      "raritySlug": "c"
+    },
+    {
       "name": "イワパレス",
       "cardNumber": "008/063",
       "rarity": "R",
@@ -81,6 +92,28 @@
       "surugayaPrice": 75,
       "surugayaSoldOut": true,
       "raritySlug": "r"
+    },
+    {
+      "name": "カジッチュ",
+      "cardNumber": "009/063",
+      "rarity": "C",
+      "category": "ポケモン",
+      "energyType": "草",
+      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN923837",
+      "surugayaPrice": 160,
+      "surugayaSoldOut": false,
+      "raritySlug": "c"
+    },
+    {
+      "name": "カミッチュ",
+      "cardNumber": "010/063",
+      "rarity": "C",
+      "category": "ポケモン",
+      "energyType": "草",
+      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN923838",
+      "surugayaPrice": 160,
+      "surugayaSoldOut": false,
+      "raritySlug": "c"
     },
     {
       "name": "カミツオロチ",
@@ -132,7 +165,7 @@
       "rarity": "C",
       "category": "ポケモン",
       "energyType": "炎",
-      "surugayaUrl": "/product/other/GN923840",
+      "surugayaUrl": "/product/detail/GN923840?tenpo_cd=410018",
       "surugayaPrice": 29,
       "surugayaSoldOut": true,
       "raritySlug": "c"
@@ -242,8 +275,8 @@
       "rarity": "R",
       "category": "ポケモン",
       "energyType": "水",
-      "surugayaUrl": "/product/other/GN923810",
-      "surugayaPrice": 100,
+      "surugayaUrl": "/product/detail/GN923810?tenpo_cd=410011",
+      "surugayaPrice": 150,
       "surugayaSoldOut": true,
       "raritySlug": "r"
     },
@@ -275,7 +308,7 @@
       "rarity": "U",
       "category": "ポケモン",
       "energyType": "水",
-      "surugayaUrl": "/product/other/GN923820",
+      "surugayaUrl": "/product/detail/GN923820?tenpo_cd=410018",
       "surugayaPrice": 19,
       "surugayaSoldOut": true,
       "raritySlug": "u"
@@ -336,12 +369,23 @@
       "raritySlug": "c"
     },
     {
+      "name": "エレキブルex",
+      "cardNumber": "035/063",
+      "rarity": "RR",
+      "category": "ポケモン",
+      "energyType": "雷",
+      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN923802",
+      "surugayaPrice": 160,
+      "surugayaSoldOut": false,
+      "raritySlug": "rr"
+    },
+    {
       "name": "ヒビキのピチュー",
       "cardNumber": "036/063",
       "rarity": "C",
       "category": "ポケモン",
       "energyType": "雷",
-      "surugayaUrl": "/product/other/GN923849",
+      "surugayaUrl": "/product/detail/GN923849?tenpo_cd=410018",
       "surugayaPrice": 29,
       "surugayaSoldOut": true,
       "raritySlug": "c"
@@ -364,6 +408,17 @@
       "category": "ポケモン",
       "energyType": "雷",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN923851",
+      "surugayaPrice": 160,
+      "surugayaSoldOut": false,
+      "raritySlug": "c"
+    },
+    {
+      "name": "ロトム",
+      "cardNumber": "039/063",
+      "rarity": "C",
+      "category": "ポケモン",
+      "energyType": "雷",
+      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN923852",
       "surugayaPrice": 160,
       "surugayaSoldOut": false,
       "raritySlug": "c"
@@ -545,6 +600,17 @@
       "raritySlug": "r"
     },
     {
+      "name": "せいなるはい",
+      "cardNumber": "056/063",
+      "rarity": "U",
+      "category": "グッズ",
+      "energyType": "",
+      "surugayaUrl": "/product/detail/GN923827?tenpo_cd=410018",
+      "surugayaPrice": 57,
+      "surugayaSoldOut": true,
+      "raritySlug": "u"
+    },
+    {
       "name": "ペパーのサンドウィッチ",
       "cardNumber": "057/063",
       "rarity": "U",
@@ -562,6 +628,17 @@
       "category": "グッズ",
       "energyType": "",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN923829",
+      "surugayaPrice": 160,
+      "surugayaSoldOut": false,
+      "raritySlug": "u"
+    },
+    {
+      "name": "ポケモンキャッチャー",
+      "cardNumber": "059/063",
+      "rarity": "U",
+      "category": "グッズ",
+      "energyType": "",
+      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN923830",
       "surugayaPrice": 160,
       "surugayaSoldOut": false,
       "raritySlug": "u"
@@ -587,6 +664,17 @@
       "surugayaPrice": 18,
       "surugayaSoldOut": true,
       "raritySlug": "c"
+    },
+    {
+      "name": "ジャッジマン",
+      "cardNumber": "062/063",
+      "rarity": "U",
+      "category": "サポート",
+      "energyType": "",
+      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN923832",
+      "surugayaPrice": 160,
+      "surugayaSoldOut": false,
+      "raritySlug": "u"
     },
     {
       "name": "ヒビキの冒険",
@@ -617,9 +705,9 @@
       "rarity": "AR",
       "category": "ポケモン",
       "energyType": "草",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN923788",
-      "surugayaPrice": 1580,
-      "surugayaSoldOut": false,
+      "surugayaUrl": "/product/other/GN923788",
+      "surugayaPrice": 1070,
+      "surugayaSoldOut": true,
       "raritySlug": "ar",
       "surugayaBuyPrice": 800
     },
@@ -690,7 +778,7 @@
       "category": "ポケモン",
       "energyType": "水",
       "surugayaUrl": "/product/other/GN923794",
-      "surugayaPrice": 4130,
+      "surugayaPrice": 4050,
       "surugayaSoldOut": true,
       "raritySlug": "ar",
       "surugayaBuyPrice": 3500
@@ -857,9 +945,9 @@
       "rarity": "SAR",
       "category": "ポケモン",
       "energyType": "草",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN923773",
-      "surugayaPrice": 1680,
-      "surugayaSoldOut": false,
+      "surugayaUrl": "/product/other/GN923773",
+      "surugayaPrice": 1110,
+      "surugayaSoldOut": true,
       "raritySlug": "sar",
       "surugayaBuyPrice": 700
     },
@@ -930,7 +1018,7 @@
       "category": "ポケモン",
       "energyType": "闘",
       "surugayaUrl": "/product/other/GN923771",
-      "surugayaPrice": 6390,
+      "surugayaPrice": 6860,
       "surugayaSoldOut": true,
       "raritySlug": "ur",
       "surugayaBuyPrice": 4000

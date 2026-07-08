@@ -2,7 +2,7 @@
   "pack": "拡張パック「ニンジャスピナー」",
   "packSlug": "m4",
   "source": "surugaya",
-  "collectedAt": "2026-07-07T00:34:46.306Z",
+  "collectedAt": "2026-07-08T04:03:09.460Z",
   "count": 120,
   "cards": [
     {
@@ -221,8 +221,8 @@
       "rarity": "C",
       "category": "ポケモン",
       "energyType": "水",
-      "surugayaUrl": "/product/other/GU633971",
-      "surugayaPrice": 60,
+      "surugayaUrl": "/product/detail/GU633971?tenpo_cd=400492",
+      "surugayaPrice": 80,
       "surugayaSoldOut": true,
       "raritySlug": "c"
     },
@@ -816,7 +816,7 @@
       "category": "グッズ",
       "energyType": "",
       "surugayaUrl": "/product/other/GU634025",
-      "surugayaPrice": 50,
+      "surugayaPrice": 80,
       "surugayaSoldOut": true,
       "raritySlug": "u"
     },
@@ -849,7 +849,7 @@
       "category": "サポート",
       "energyType": "",
       "surugayaUrl": "/product/other/GU634028",
-      "surugayaPrice": 50,
+      "surugayaPrice": 80,
       "surugayaSoldOut": true,
       "raritySlug": "u"
     },
@@ -1211,11 +1211,10 @@
       "rarity": "SR",
       "category": "サポート",
       "energyType": "",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU634059",
-      "surugayaPrice": 480,
-      "surugayaSoldOut": false,
-      "raritySlug": "sr",
-      "surugayaBuyPrice": null
+      "surugayaUrl": "/product/other/GU634059",
+      "surugayaPrice": 250,
+      "surugayaSoldOut": true,
+      "raritySlug": "sr"
     },
     {
       "name": "ジプソ",

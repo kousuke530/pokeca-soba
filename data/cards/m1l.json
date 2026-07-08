@@ -2,8 +2,8 @@
   "pack": "拡張パック「メガブレイブ」",
   "packSlug": "m1l",
   "source": "surugaya",
-  "collectedAt": "2026-07-07T00:31:35.727Z",
-  "count": 87,
+  "collectedAt": "2026-07-08T02:52:30.962Z",
+  "count": 89,
   "cards": [
     {
       "name": "フシギダネ",
@@ -103,6 +103,17 @@
       "surugayaPrice": 160,
       "surugayaSoldOut": false,
       "raritySlug": "u"
+    },
+    {
+      "name": "ロコン",
+      "cardNumber": "010/063",
+      "rarity": "C",
+      "category": "ポケモン",
+      "energyType": "炎",
+      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU362778",
+      "surugayaPrice": 160,
+      "surugayaSoldOut": false,
+      "raritySlug": "c"
     },
     {
       "name": "キュウコン",
@@ -259,6 +270,17 @@
       "raritySlug": "r"
     },
     {
+      "name": "ルナトーン",
+      "cardNumber": "026/063",
+      "rarity": "R",
+      "category": "ポケモン",
+      "energyType": "闘",
+      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU362748",
+      "surugayaPrice": 160,
+      "surugayaSoldOut": false,
+      "raritySlug": "r"
+    },
+    {
       "name": "ソルロック",
       "cardNumber": "027/063",
       "rarity": "U",
@@ -275,7 +297,7 @@
       "rarity": "C",
       "category": "ポケモン",
       "energyType": "闘",
-      "surugayaUrl": "/product/other/GU362789",
+      "surugayaUrl": "/product/detail/GU362789?tenpo_cd=410018",
       "surugayaPrice": 19,
       "surugayaSoldOut": true,
       "raritySlug": "c"
@@ -386,7 +408,7 @@
       "category": "ポケモン",
       "energyType": "悪",
       "surugayaUrl": "/product/other/GU362744",
-      "surugayaPrice": 80,
+      "surugayaPrice": 89,
       "surugayaSoldOut": true,
       "raritySlug": "rr"
     },
@@ -402,15 +424,15 @@
       "raritySlug": "u"
     },
     {
-      "name": "イベルタル",
-      "cardNumber": "040/063",
-      "rarity": "R",
+      "name": "クスネ",
+      "cardNumber": "041/063",
+      "rarity": "C",
       "category": "ポケモン",
       "energyType": "悪",
-      "surugayaUrl": "/product/detail/GU362749?tenpo_cd=201206",
-      "surugayaPrice": 90,
-      "surugayaSoldOut": true,
-      "raritySlug": "r"
+      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU362794",
+      "surugayaPrice": 160,
+      "surugayaSoldOut": false,
+      "raritySlug": "c"
     },
     {
       "name": "フォクスライ",
@@ -606,7 +628,7 @@
       "category": "グッズ",
       "energyType": "",
       "surugayaUrl": "/product/other/GU362768",
-      "surugayaPrice": 60,
+      "surugayaPrice": 100,
       "surugayaSoldOut": true,
       "raritySlug": "u"
     },
@@ -981,7 +1003,7 @@
       "category": "ポケモン",
       "energyType": "闘",
       "surugayaUrl": "/product/other/GU364211",
-      "surugayaPrice": 59800,
+      "surugayaPrice": 59200,
       "surugayaSoldOut": true,
       "raritySlug": "mur",
       "surugayaBuyPrice": 42000
