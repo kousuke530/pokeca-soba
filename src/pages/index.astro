@@ -1,6 +1,6 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
-import { series, seriesByPack, topByPrice } from '../data/cards';
+import { allCards, series, seriesByPack, topByPrice } from '../data/cards';
 import { packs } from '../data/packs';
 
 const title = 'ポケモンカードの買取・販売価格を一括比較｜ポケカ相場ドットコム';
@@ -8,6 +8,7 @@ const description =
   'ポケモンカードの最新の販売価格・買取価格を主要ショップ横断で比較。レアリティ別の相場・価格推移をまとめ、最安・高価買取のショップへ直接アクセスできます。';
 const yen = (v: number | null) => (v == null ? '調査中' : `${v.toLocaleString('ja-JP')}円`);
 const ranking = topByPrice(10);
+const listedCardCount = `${(Math.floor(allCards.length / 500) * 500).toLocaleString('ja-JP')}+`;
 const packHighlights = packs.slice(0, 6).map((p) => {
   const cards = seriesByPack(p.slug).flatMap((s) => s.variants);
   const top = cards.sort((a, b) => (b.sellPrice ?? 0) - (a.sellPrice ?? 0))[0];
@@ -25,7 +26,7 @@ const keywords = ['リザードンex', 'ピカチュウex', 'ナンジャモ', '
         複数ショップの販売価格・買取価格をまとめてチェック。欲しいカードも、売りたいカードも、最適な価格がすぐ見つかります。
       </p>
       <div class="stats" aria-label="サイト指標">
-        <div><span>掲載カード数</span><strong>150,000+</strong><em>件</em></div>
+        <div><span>掲載カード数</span><strong>{listedCardCount}</strong><em>件</em></div>
         <div><span>対応ショップ数</span><strong>12+</strong><em>店舗</em></div>
         <div><span>毎日更新</span><strong>最新相場</strong><em>を反映</em></div>
       </div>
