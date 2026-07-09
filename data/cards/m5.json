@@ -2,7 +2,7 @@
   "pack": "拡張パック「アビスアイ」",
   "packSlug": "m5",
   "source": "surugaya",
-  "collectedAt": "2026-07-08T04:03:20.467Z",
+  "collectedAt": "2026-07-09T03:25:51.542Z",
   "count": 117,
   "cards": [
     {
@@ -950,9 +950,9 @@
       "rarity": "AR",
       "category": "ポケモン",
       "energyType": "超",
-      "surugayaUrl": "/product/other/GU730264",
-      "surugayaPrice": 670,
-      "surugayaSoldOut": true,
+      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU730264",
+      "surugayaPrice": 510,
+      "surugayaSoldOut": false,
       "raritySlug": "ar",
       "surugayaBuyPrice": 500
     },
@@ -1035,7 +1035,7 @@
       "category": "ポケモン",
       "energyType": "草",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU730241",
-      "surugayaPrice": 580,
+      "surugayaPrice": 350,
       "surugayaSoldOut": false,
       "raritySlug": "sr",
       "surugayaBuyPrice": null
@@ -1107,7 +1107,7 @@
       "category": "ポケモン",
       "energyType": "悪",
       "surugayaUrl": "/product/other/GU730247",
-      "surugayaPrice": 360,
+      "surugayaPrice": 350,
       "surugayaSoldOut": true,
       "raritySlug": "sr",
       "surugayaBuyPrice": null
@@ -1191,14 +1191,14 @@
       "raritySlug": "sr"
     },
     {
-      "name": "カスミの元気",
+      "name": "カスミの元気（Bランク）",
       "cardNumber": "108/081",
       "rarity": "SR",
       "category": "サポート",
       "energyType": "",
-      "surugayaUrl": "/product/other/GU730255",
-      "surugayaPrice": 1680,
-      "surugayaSoldOut": true,
+      "surugayaUrl": "/product/detail/GU730255?branch_number=0077",
+      "surugayaPrice": 1790,
+      "surugayaSoldOut": false,
       "raritySlug": "sr",
       "surugayaBuyPrice": 1200
     },
@@ -1293,7 +1293,7 @@
       "category": "サポート",
       "energyType": "",
       "surugayaUrl": "/product/other/GU730239",
-      "surugayaPrice": 1410,
+      "surugayaPrice": 1406,
       "surugayaSoldOut": true,
       "raritySlug": "sar",
       "surugayaBuyPrice": 600

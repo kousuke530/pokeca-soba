@@ -2,7 +2,7 @@
   "pack": "強化拡張パック「レイジングサーフ」",
   "packSlug": "sv3a",
   "source": "surugaya",
-  "collectedAt": "2026-07-08T02:45:53.422Z",
+  "collectedAt": "2026-07-09T03:01:31.886Z",
   "count": 92,
   "cards": [
     {
@@ -765,9 +765,9 @@
       "rarity": "AR",
       "category": "ポケモン",
       "energyType": "闘",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN170312",
-      "surugayaPrice": 3980,
-      "surugayaSoldOut": false,
+      "surugayaUrl": "/product/other/GN170312",
+      "surugayaPrice": 2870,
+      "surugayaSoldOut": true,
       "raritySlug": "ar",
       "surugayaBuyPrice": 2200
     },
@@ -814,10 +814,9 @@
       "category": "ポケモン",
       "energyType": "鋼",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN170316",
-      "surugayaPrice": 480,
+      "surugayaPrice": 290,
       "surugayaSoldOut": false,
-      "raritySlug": "ar",
-      "surugayaBuyPrice": null
+      "raritySlug": "ar"
     },
     {
       "name": "モトトカゲ",

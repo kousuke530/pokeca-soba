@@ -2,7 +2,7 @@
   "pack": "強化拡張パック「クリムゾンヘイズ」",
   "packSlug": "sv5a",
   "source": "surugaya",
-  "collectedAt": "2026-07-08T02:47:58.121Z",
+  "collectedAt": "2026-07-09T03:18:31.926Z",
   "count": 95,
   "cards": [
     {
@@ -891,14 +891,14 @@
       "surugayaBuyPrice": null
     },
     {
-      "name": "テツノイバラex",
+      "name": "【ランクB】テツノイバラex",
       "cardNumber": "081/066",
       "rarity": "SR",
       "category": "ポケモン",
       "energyType": "雷",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN446067",
-      "surugayaPrice": 480,
-      "surugayaSoldOut": false,
+      "surugayaUrl": "/product/detail/GB446067?tenpo_cd=201202",
+      "surugayaPrice": 330,
+      "surugayaSoldOut": true,
       "raritySlug": "sr",
       "surugayaBuyPrice": null
     },
@@ -1077,7 +1077,7 @@
       "category": "エネルギー",
       "energyType": "",
       "surugayaUrl": "/product/other/GN446082",
-      "surugayaPrice": 380,
+      "surugayaPrice": 360,
       "surugayaSoldOut": true,
       "raritySlug": "ur",
       "surugayaBuyPrice": 700

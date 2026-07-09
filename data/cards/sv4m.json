@@ -2,7 +2,7 @@
   "pack": "拡張パック「未来の一閃」",
   "packSlug": "sv4m",
   "source": "surugaya",
-  "collectedAt": "2026-07-08T02:46:25.403Z",
+  "collectedAt": "2026-07-09T03:02:02.404Z",
   "count": 95,
   "cards": [
     {
@@ -822,7 +822,7 @@
       "category": "ポケモン",
       "energyType": "鋼",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN228595",
-      "surugayaPrice": 980,
+      "surugayaPrice": 580,
       "surugayaSoldOut": false,
       "raritySlug": "ar",
       "surugayaBuyPrice": 400
@@ -983,16 +983,16 @@
       "surugayaBuyPrice": null
     },
     {
-      "name": "テツノカイナex",
+      "name": "【ランクB】テツノカイナex",
       "cardNumber": "088/066",
       "rarity": "SAR",
       "category": "ポケモン",
       "energyType": "雷",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN228609",
-      "surugayaPrice": 1480,
-      "surugayaSoldOut": false,
+      "surugayaUrl": "/product/detail/GB228609?tenpo_cd=201217",
+      "surugayaPrice": 2200,
+      "surugayaSoldOut": true,
       "raritySlug": "sar",
-      "surugayaBuyPrice": 700
+      "surugayaBuyPrice": null
     },
     {
       "name": "テツノブジンex",
@@ -1072,9 +1072,9 @@
       "rarity": "UR",
       "category": "エネルギー",
       "energyType": "",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN228616",
-      "surugayaPrice": 2280,
-      "surugayaSoldOut": false,
+      "surugayaUrl": "/product/other/GN228616",
+      "surugayaPrice": 1590,
+      "surugayaSoldOut": true,
       "raritySlug": "ur",
       "surugayaBuyPrice": 1100
     }

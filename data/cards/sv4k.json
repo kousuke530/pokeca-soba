@@ -2,7 +2,7 @@
   "pack": "拡張パック「古代の咆哮」",
   "packSlug": "sv4k",
   "source": "surugaya",
-  "collectedAt": "2026-07-08T02:46:13.876Z",
+  "collectedAt": "2026-07-09T03:01:51.138Z",
   "count": 96,
   "cards": [
     {
@@ -583,9 +583,9 @@
       "rarity": "R",
       "category": "ポケモン",
       "energyType": "悪",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN228477",
-      "surugayaPrice": 160,
-      "surugayaSoldOut": false,
+      "surugayaUrl": "/product/other/GN228477",
+      "surugayaPrice": 50,
+      "surugayaSoldOut": true,
       "raritySlug": "r"
     },
     {
@@ -650,7 +650,7 @@
       "category": "グッズ",
       "energyType": "",
       "surugayaUrl": "/product/other/GN228483",
-      "surugayaPrice": 40,
+      "surugayaPrice": 49,
       "surugayaSoldOut": true,
       "raritySlug": "u"
     },
@@ -858,10 +858,9 @@
       "category": "ポケモン",
       "energyType": "悪",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN228501",
-      "surugayaPrice": 480,
+      "surugayaPrice": 290,
       "surugayaSoldOut": false,
-      "raritySlug": "ar",
-      "surugayaBuyPrice": null
+      "raritySlug": "ar"
     },
     {
       "name": "ドゴーム",
@@ -1013,9 +1012,9 @@
       "rarity": "SAR",
       "category": "ポケモン",
       "energyType": "悪",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN228514",
-      "surugayaPrice": 6480,
-      "surugayaSoldOut": false,
+      "surugayaUrl": "/product/other/GN228514",
+      "surugayaPrice": 3810,
+      "surugayaSoldOut": true,
       "raritySlug": "sar",
       "surugayaBuyPrice": 4000
     },
