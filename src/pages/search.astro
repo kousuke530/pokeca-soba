@@ -11,7 +11,7 @@ const ranking = topByPrice(5);
 const yen = (v: number | null) => (v == null ? '調査中' : `${v.toLocaleString('ja-JP')}円`);
 ---
 
-<BaseLayout title={title} description={description} path="/search">
+<BaseLayout title={title} description={description} path="/search/">
   <Breadcrumbs items={[{ label: 'ポケカ買取・販売価格相場TOP', href: '/' }, { label: 'カード検索' }]} />
 
   <section class="search-hero">
@@ -42,19 +42,19 @@ const yen = (v: number | null) => (v == null ? '調査中' : `${v.toLocaleString
   <section class="suggest page-panel">
     <h2>人気の検索キーワード</h2>
     <div class="keyword-list">
-      {popular.map((word) => <a href={`/search?q=${encodeURIComponent(word)}`}>{word}</a>)}
+      {popular.map((word) => <a href={`/search/?q=${encodeURIComponent(word)}`}>{word}</a>)}
     </div>
   </section>
 
   <section class="suggest page-panel">
     <div class="section-head">
       <h2>注目の検索ワード</h2>
-      <a class="section-link" href="/ranking">ランキングをもっと見る</a>
+      <a class="section-link" href="/ranking/">ランキングをもっと見る</a>
     </div>
     <ol class="mini-rank">
       {ranking.map((c) => (
         <li>
-          <a href={`/search?q=${encodeURIComponent(c.name)}`}>
+          <a href={`/search/?q=${encodeURIComponent(c.name)}`}>
             <img src={c.image} alt="" width="76" height="106" loading="lazy" />
             <span>{c.name}</span>
             <em>{c.cardNumber} {c.rarity}</em>

@@ -12,9 +12,9 @@ interface Props {
   total: number; // 全枚数
 }
 const { pack, cards, page, totalPages, total } = Astro.props;
-const base = `/pack/${pack.slug}`;
+const base = `/pack/${pack.slug}/`;
 // カード詳細(/pack/[pack]/[card])とのルート競合を避け、2ページ目以降は /page/[n] 配下
-const pageUrl = (n: number) => (n === 1 ? base : `${base}/page/${n}`);
+const pageUrl = (n: number) => (n === 1 ? base : `${base}page/${n}/`);
 
 const pageSuffix = page > 1 ? `（${page}ページ目）` : '';
 const title = `${pack.name}の収録カード価格相場一覧【ポケカ】${pageSuffix}`;
@@ -29,7 +29,7 @@ const pageList = [...nums].filter((n) => n >= 1 && n <= totalPages).sort((a, b) 
   <Breadcrumbs
     items={[
       { label: 'ポケカ買取・販売価格相場TOP', href: '/' },
-      { label: 'パック一覧', href: '/packs' },
+      { label: 'パック一覧', href: '/packs/' },
       { label: pack.shortName },
     ]}
   />

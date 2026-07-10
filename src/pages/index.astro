@@ -30,13 +30,13 @@ const keywords = ['リザードンex', 'ピカチュウex', 'ナンジャモ', '
         <div><span>対応ショップ数</span><strong>12+</strong><em>店舗</em></div>
         <div><span>毎日更新</span><strong>最新相場</strong><em>を反映</em></div>
       </div>
-      <form class="hero-search" action="/search" method="get">
+      <form class="hero-search" action="/search/" method="get">
         <input name="q" type="search" placeholder="カード名で検索（例：リザードンex、ピカチュウ）" aria-label="カード名で検索" />
         <button type="submit">検索</button>
       </form>
       <div class="quick">
         <span>人気のキーワード：</span>
-        {keywords.map((k) => <a href={`/search?q=${encodeURIComponent(k)}`}>{k}</a>)}
+        {keywords.map((k) => <a href={`/search/?q=${encodeURIComponent(k)}`}>{k}</a>)}
       </div>
     </div>
     <div class="hero-visual" aria-hidden="true">
@@ -47,7 +47,7 @@ const keywords = ['リザードンex', 'ピカチュウex', 'ナンジャモ', '
   <section class="sec page-panel ranking-panel">
     <div class="section-head">
       <h2 class="section-title">高額カードランキング</h2>
-      <a class="section-link" href="/ranking">ランキングをもっと見る</a>
+      <a class="section-link" href="/ranking/">ランキングをもっと見る</a>
     </div>
     <ol class="rank-grid">
       {
@@ -68,13 +68,13 @@ const keywords = ['リザードンex', 'ピカチュウex', 'ナンジャモ', '
   <section class="sec page-panel">
     <div class="section-head">
       <h2 class="section-title">パックから探す</h2>
-      <a class="section-link" href="/packs">パック一覧を見る</a>
+      <a class="section-link" href="/packs/">パック一覧を見る</a>
     </div>
     <ul class="pack-grid">
       {
         packHighlights.map(({ p, top }) => (
           <li>
-            <a href={`/pack/${p.slug}`} class="pack-card">
+            <a href={`/pack/${p.slug}/`} class="pack-card">
               {top && <img src={top.image} alt="" width="90" height="126" loading="lazy" />}
               <span class="pack-name">{p.shortName}</span>
               <span class="pack-meta">{p.releaseDate} 発売</span>
@@ -88,7 +88,7 @@ const keywords = ['リザードンex', 'ピカチュウex', 'ナンジャモ', '
   <section class="sec page-panel">
     <div class="section-head">
       <h2 class="section-title">注目のカード</h2>
-      <a class="section-link" href="/list">注目のカード一覧を見る</a>
+      <a class="section-link" href="/list/">注目のカード一覧を見る</a>
     </div>
     <ul class="featured-list">
       {
@@ -96,7 +96,7 @@ const keywords = ['リザードンex', 'ピカチュウex', 'ナンジャモ', '
           const s = series.find((x) => x.name === top.name)!;
           return (
             <li>
-              <a href={`/list/${s.slug}`} class="featured-card">
+              <a href={`/list/${s.slug}/`} class="featured-card">
                 <img src={top.image} alt={s.name} width="56" height="78" loading="lazy" />
                 <div>
                   <p class="featured-name">{s.name}</p>

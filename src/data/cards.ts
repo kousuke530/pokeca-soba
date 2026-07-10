@@ -110,7 +110,7 @@ function buildCards(): Card[] {
       out.push({
         id,
         slug: id,
-        path: `/list/${nameSlug}/${cardParam}`,
+        path: `/list/${nameSlug}/${cardParam}/`,
         nameSlug,
         name,
         rarity: m.rarity,

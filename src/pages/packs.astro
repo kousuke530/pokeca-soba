@@ -28,7 +28,7 @@ const rows = packs.map((p) => {
 });
 const shownRange = rows.length === 0 ? '0〜0' : `1〜${Math.min(rows.length, pageSize)}`;
 const totalPackPages = Math.max(1, Math.ceil(rows.length / pageSize));
-const pageHref = (n: number) => (n <= 1 ? '/packs' : `/packs?page=${n}`);
+const pageHref = (n: number) => (n <= 1 ? '/packs/' : `/packs/?page=${n}`);
 const newestPack = rows[0]?.p;
 const totalCards = rows.reduce((sum, row) => sum + row.cards, 0);
 
@@ -61,7 +61,7 @@ function formatDate(date: string): string {
 }
 ---
 
-<BaseLayout title={title} description={description} path="/packs" noCanonical>
+<BaseLayout title={title} description={description} path="/packs/" noCanonical>
   <Breadcrumbs items={[{ label: 'ポケカ買取・販売価格相場TOP', href: '/' }, { label: 'パック一覧' }]} />
   <section class="packs-hero">
     <div class="packs-hero-copy">
@@ -108,7 +108,7 @@ function formatDate(date: string): string {
         {
           rows.map(({ p, cards, top, kind, rarities }) => (
             <li data-name={p.name} data-year={p.releaseDate.slice(0, 4)} data-date={p.releaseDate} data-cards={cards} data-kind={kind} data-rarities={rarities.join('|')}>
-              <a href={`/pack/${p.slug}`} class="pack-card">
+              <a href={`/pack/${p.slug}/`} class="pack-card">
                 {top && <img src={top.image} alt="" width="168" height="108" loading="lazy" />}
                 <span class="pack-main">
                   <span class="pack-name">{p.name}</span>
@@ -127,7 +127,7 @@ function formatDate(date: string): string {
         {
           totalPackPages > 1 && (
             <>
-              <a class="pager-prev is-disabled" href="/packs" aria-label="前へ">前へ</a>
+              <a class="pager-prev is-disabled" href="/packs/" aria-label="前へ">前へ</a>
               {Array.from({ length: totalPackPages }, (_, i) => i + 1).map((n) => (
                 <a
                   class:list={[n === 1 && 'is-active']}
@@ -197,7 +197,7 @@ function formatDate(date: string): string {
   };
   let currentPage = readPage();
   // 2ページ目以降は /packs?page=N を固有URLとして扱う（canonicalは付けない）
-  const pageHref = (page: number) => (page <= 1 ? '/packs' : `/packs?page=${page}`);
+  const pageHref = (page: number) => (page <= 1 ? '/packs/' : `/packs/?page=${page}`);
   function goToPage(page: number) {
     if (page < 1 || page > totalPages || page === currentPage) return;
     currentPage = page;

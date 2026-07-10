@@ -13,10 +13,10 @@ const { title, description, path = '', jsonLd, noCanonical = false } = Astro.pro
 const canonical = new URL(path, Astro.site).href;
 const currentPath = Astro.url.pathname;
 const navItems = [
-  { href: '/search', label: '検索', match: '/search' },
-  { href: '/list', label: 'ポケモン一覧', match: '/list' },
-  { href: '/packs', label: 'パック一覧', match: '/packs' },
-  { href: '/ranking', label: 'ランキング', match: '/ranking' },
+  { href: '/search/', label: '検索', match: '/search' },
+  { href: '/list/', label: 'ポケモン一覧', match: '/list' },
+  { href: '/packs/', label: 'パック一覧', match: '/packs' },
+  { href: '/ranking/', label: 'ランキング', match: '/ranking' },
 ];
 ---
 
@@ -94,10 +94,10 @@ const navItems = [
           <p>価格をシェアで比較できるカード相場サイトです。</p>
         </div>
         <nav class="footer-nav" aria-label="フッター">
-          <a href="/about">運営者情報</a>
-          <a href="/terms">利用規約</a>
-          <a href="/privacy">プライバシーポリシー</a>
-          <a href="/sitemap">サイトマップ</a>
+          <a href="/about/">運営者情報</a>
+          <a href="/terms/">利用規約</a>
+          <a href="/privacy/">プライバシーポリシー</a>
+          <a href="/sitemap/">サイトマップ</a>
         </nav>
       </div>
       <div class="footer-bottom">

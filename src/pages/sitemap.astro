@@ -10,20 +10,20 @@ const description =
 
 const mainPages = [
   { href: '/', label: 'トップページ' },
-  { href: '/list', label: 'ポケモン一覧' },
-  { href: '/packs', label: 'パック一覧' },
-  { href: '/ranking', label: '高額カードランキング' },
-  { href: '/search', label: 'カード検索' },
+  { href: '/list/', label: 'ポケモン一覧' },
+  { href: '/packs/', label: 'パック一覧' },
+  { href: '/ranking/', label: '高額カードランキング' },
+  { href: '/search/', label: 'カード検索' },
 ];
 const infoPages = [
-  { href: '/about', label: '運営者情報' },
-  { href: '/terms', label: '利用規約' },
-  { href: '/privacy', label: 'プライバシーポリシー' },
+  { href: '/about/', label: '運営者情報' },
+  { href: '/terms/', label: '利用規約' },
+  { href: '/privacy/', label: 'プライバシーポリシー' },
 ];
 const pokemon = pokemonSeries().sort((a, b) => a.name.localeCompare(b.name, 'ja'));
 ---
 
-<BaseLayout title={title} description={description} path="/sitemap">
+<BaseLayout title={title} description={description} path="/sitemap/">
   <Breadcrumbs
     items={[{ label: 'ポケカ買取・販売価格相場TOP', href: '/' }, { label: 'サイトマップ' }]}
   />
@@ -49,14 +49,14 @@ const pokemon = pokemonSeries().sort((a, b) => a.name.localeCompare(b.name, 'ja'
     <section class="col col-wide">
       <h2>パックから探す</h2>
       <ul class="packs">
-        {packs.map((p) => <li><a href={`/pack/${p.slug}`}>{p.shortName}</a></li>)}
+        {packs.map((p) => <li><a href={`/pack/${p.slug}/`}>{p.shortName}</a></li>)}
       </ul>
     </section>
 
     <section class="col col-wide">
       <h2>ポケモンから探す（全{pokemon.length.toLocaleString()}種）</h2>
       <ul class="pokes">
-        {pokemon.map((s) => <li><a href={`/list/${s.slug}`}>{s.name}</a></li>)}
+        {pokemon.map((s) => <li><a href={`/list/${s.slug}/`}>{s.name}</a></li>)}
       </ul>
     </section>
   </div>

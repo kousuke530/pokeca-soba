@@ -37,7 +37,7 @@ function kanaGroup(name: string): string {
 }
 ---
 
-<BaseLayout title={title} description={description} path="/list">
+<BaseLayout title={title} description={description} path="/list/">
   <Breadcrumbs items={[{ label: 'ポケカ買取・販売価格相場TOP', href: '/' }, { label: 'ポケモン一覧' }]} />
   <section class="list-hero">
     <div class="list-hero-inner">
@@ -73,12 +73,12 @@ function kanaGroup(name: string): string {
   <section class="popular page-panel">
     <div class="section-head">
       <h2 class="section-title">人気のポケモン</h2>
-      <a class="section-link" href="/ranking">人気順をもっと見る</a>
+      <a class="section-link" href="/ranking/">人気順をもっと見る</a>
     </div>
     <ul class="popular-grid">
       {popular.map(({ series, top }) => (
         <li>
-          <a href={`/list/${series.slug}`}>
+          <a href={`/list/${series.slug}/`}>
             <img src={top.image} alt="" width="84" height="116" loading="lazy" />
             <span>{series.name}</span>
             <em>関連カード {series.variants.length}件</em>
@@ -93,7 +93,7 @@ function kanaGroup(name: string): string {
       {
         entries.map(({ series, top, type, initial }) => (
           <li data-name={series.name} data-type={type} data-initial={initial}>
-            <a href={`/list/${series.slug}`}>
+            <a href={`/list/${series.slug}/`}>
               <img src={top.image} alt="" width="82" height="114" loading="lazy" />
               <span>{series.name}</span>
               <em>{series.variants.length}件</em>

@@ -12,7 +12,7 @@ const categories = ['すべて', ...new Set(ranking.map((c) => c.category).filte
 const rarities = ['すべて', ...new Set(ranking.map((c) => c.rarity).filter(Boolean))];
 ---
 
-<BaseLayout title={title} description={description} path="/ranking">
+<BaseLayout title={title} description={description} path="/ranking/">
   <Breadcrumbs items={[{ label: 'ポケカ買取・販売価格相場TOP', href: '/' }, { label: 'ランキング' }]} />
   <section class="ranking-hero">
     <div class="ranking-hero-inner">
@@ -27,7 +27,7 @@ const rarities = ['すべて', ...new Set(ranking.map((c) => c.rarity).filter(Bo
   <section class="filter-bar page-panel" aria-label="ランキング条件">
     <label>カテゴリ<select id="fCat">{categories.map((c) => <option value={c}>{c}</option>)}</select></label>
     <label>レアリティ<select id="fRar">{rarities.map((r) => <option value={r}>{r}</option>)}</select></label>
-    <a href="/about">ランキングの見方</a>
+    <a href="/about/">ランキングの見方</a>
   </section>
 
   <section class="podium" aria-label="上位3位">

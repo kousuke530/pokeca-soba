@@ -46,7 +46,7 @@ const purchase = purchaseShops.map((s) => {
 const categoryLabel =
   card.category === 'ポケモン' && card.energyType ? `ポケモン・${card.energyType}` : card.category;
 const isPokemon = card.category === 'ポケモン';
-const listUrl = `/list/${card.nameSlug}`;
+const listUrl = `/list/${card.nameSlug}/`;
 
 const otherVariants = (getSeriesByName(card.name)?.variants ?? []).filter((v) => v.id !== card.id);
 const samePack = seriesByPack(card.packSlug)
@@ -89,7 +89,7 @@ const jsonLd = JSON.stringify({
   <Breadcrumbs
     items={[
       { label: 'ポケカ買取・販売価格相場TOP', href: '/' },
-      { label: 'ポケモン一覧', href: '/list' },
+      { label: 'ポケモン一覧', href: '/list/' },
       { label: card.name, href: listUrl },
       { label: crumbLabel },
     ]}
@@ -149,7 +149,7 @@ const jsonLd = JSON.stringify({
           <div><dt>タイプ</dt><dd>{card.energyType || 'なし'}</dd></div>
           <div><dt>レギュレーション</dt><dd>{setCode}</dd></div>
           <div><dt>発売日</dt><dd>{getPack(card.packSlug)?.releaseDate ?? '調査中'}</dd></div>
-          <div><dt>収録パック</dt><dd><a href={`/pack/${card.packSlug}`}>{card.pack}</a></dd></div>
+          <div><dt>収録パック</dt><dd><a href={`/pack/${card.packSlug}/`}>{card.pack}</a></dd></div>
           <div><dt>カード番号</dt><dd>{card.cardNumber}</dd></div>
         </dl>
       </div>

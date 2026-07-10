@@ -17,7 +17,7 @@ const { series } = Astro.props;
 
 const priceDate = priceAsOf;
 const priceDateShort = priceDate.replace(/^(\d{4})年(\d{1,2})月(\d{1,2})日$/, '$1/$2/$3');
-const seriesPath = `/list/${series.slug}`;
+const seriesPath = `/list/${series.slug}/`;
 const variants = [...series.variants].sort((a, b) => (b.sellPrice ?? 0) - (a.sellPrice ?? 0));
 const topCard = variants[0];
 const priceVals = variants.map((v) => v.sellPrice).filter((v): v is number => v != null);
@@ -74,7 +74,7 @@ const jsonLd = JSON.stringify({
   <Breadcrumbs
     items={[
       { label: 'ポケカ買取・販売価格相場TOP', href: '/' },
-      { label: 'ポケモン一覧', href: '/list' },
+      { label: 'ポケモン一覧', href: '/list/' },
       { label: series.name },
     ]}
   />

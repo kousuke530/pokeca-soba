@@ -72,21 +72,21 @@ const abs = (path: string) => `${SITE_URL}${path}`;
 export function topUrls(): UrlEntry[] {
   return [
     { loc: abs('/'), lastmod: LASTMOD, changefreq: 'daily', priority: 1.0 },
-    { loc: abs('/list'), lastmod: LASTMOD, changefreq: 'weekly', priority: 0.8 },
-    { loc: abs('/packs'), lastmod: LASTMOD, changefreq: 'weekly', priority: 0.8 },
-    { loc: abs('/ranking'), lastmod: LASTMOD, changefreq: 'daily', priority: 0.8 },
-    { loc: abs('/search'), lastmod: LASTMOD, changefreq: 'monthly', priority: 0.5 },
-    { loc: abs('/sitemap'), lastmod: LASTMOD, changefreq: 'monthly', priority: 0.3 },
-    { loc: abs('/about'), lastmod: LASTMOD, changefreq: 'yearly', priority: 0.3 },
-    { loc: abs('/terms'), lastmod: LASTMOD, changefreq: 'yearly', priority: 0.3 },
-    { loc: abs('/privacy'), lastmod: LASTMOD, changefreq: 'yearly', priority: 0.3 },
+    { loc: abs('/list/'), lastmod: LASTMOD, changefreq: 'weekly', priority: 0.8 },
+    { loc: abs('/packs/'), lastmod: LASTMOD, changefreq: 'weekly', priority: 0.8 },
+    { loc: abs('/ranking/'), lastmod: LASTMOD, changefreq: 'daily', priority: 0.8 },
+    { loc: abs('/search/'), lastmod: LASTMOD, changefreq: 'monthly', priority: 0.5 },
+    { loc: abs('/sitemap/'), lastmod: LASTMOD, changefreq: 'monthly', priority: 0.3 },
+    { loc: abs('/about/'), lastmod: LASTMOD, changefreq: 'yearly', priority: 0.3 },
+    { loc: abs('/terms/'), lastmod: LASTMOD, changefreq: 'yearly', priority: 0.3 },
+    { loc: abs('/privacy/'), lastmod: LASTMOD, changefreq: 'yearly', priority: 0.3 },
   ];
 }
 
 /** ポケモン別ページ /list/[slug] */
 export function pokemonUrls(): UrlEntry[] {
   return series.map((s) => ({
-    loc: abs(`/list/${s.slug}`),
+    loc: abs(`/list/${s.slug}/`),
     lastmod: LASTMOD,
     changefreq: 'weekly',
     priority: 0.6,
@@ -98,10 +98,10 @@ export function packUrls(): UrlEntry[] {
   const urls: UrlEntry[] = [];
   for (const p of allPacks) {
     const total = Math.max(1, Math.ceil(packVariants(p.slug).length / PACK_PAGE_SIZE));
-    urls.push({ loc: abs(`/pack/${p.slug}`), lastmod: LASTMOD, changefreq: 'weekly', priority: 0.6 });
+    urls.push({ loc: abs(`/pack/${p.slug}/`), lastmod: LASTMOD, changefreq: 'weekly', priority: 0.6 });
     for (let n = 2; n <= total; n++) {
       urls.push({
-        loc: abs(`/pack/${p.slug}/page/${n}`),
+        loc: abs(`/pack/${p.slug}/page/${n}/`),
         lastmod: LASTMOD,
         changefreq: 'weekly',
         priority: 0.4,

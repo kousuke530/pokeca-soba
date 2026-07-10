@@ -13,7 +13,7 @@ import { defineConfig } from 'astro/config';
 export default defineConfig({
   site: 'https://pokeca-soba.com',
   output: 'static',
-  trailingSlash: 'ignore',
+  trailingSlash: 'always',
 
   build: {
     format: 'directory',
