@@ -90,7 +90,7 @@ const allPurchaseShops: AffiliateShop[] = [
 const allBuybackShops: AffiliateShop[] = [
   { name: 'カーナベル', url: kanaberuBuybackUrl, via: 'A8.net', affiliated: true },
   { name: '遊々亭', url: 'https://yuyu-tei.jp/cart/buy', via: 'A8.net' },
-  { name: 'トレトク', url: 'https://kaitori-toretoku.jp/', via: 'A8.net', affiliated: true },
+  { name: 'トレトク', url: 'https://px.a8.net/svt/ejp?a8mat=4B7UT0+EC6WKQ+2QOI+2T7WK2', via: 'A8.net', affiliated: true },
   { name: 'ウリウリトレカ', url: 'https://uriuritoreca.com/', via: 'A8.net' },
   { name: 'もえたく！', url: 'https://h.accesstrade.net/sp/cc?rk=0100pu0n00ovb4', via: 'アクセストレード', affiliated: true },
 ];
