@@ -2,7 +2,7 @@
   "pack": "拡張パック「サイバージャッジ」",
   "packSlug": "sv5m",
   "source": "surugaya",
-  "collectedAt": "2026-07-09T03:18:09.294Z",
+  "collectedAt": "2026-07-10T00:32:33.123Z",
   "count": 100,
   "cards": [
     {
@@ -841,10 +841,9 @@
       "category": "ポケモン",
       "energyType": "雷",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN369887",
-      "surugayaPrice": 480,
+      "surugayaPrice": 290,
       "surugayaSoldOut": false,
-      "raritySlug": "ar",
-      "surugayaBuyPrice": null
+      "raritySlug": "ar"
     },
     {
       "name": "テツノイバラ",
@@ -1087,16 +1086,16 @@
       "surugayaBuyPrice": 700
     },
     {
-      "name": "ベルのまごころ",
+      "name": "【ランクB】ベルのまごころ",
       "cardNumber": "097/071",
       "rarity": "SAR",
       "category": "サポート",
       "energyType": "",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN369908",
-      "surugayaPrice": 7480,
-      "surugayaSoldOut": false,
+      "surugayaUrl": "/product/other/GB369908",
+      "surugayaPrice": 4400,
+      "surugayaSoldOut": true,
       "raritySlug": "sar",
-      "surugayaBuyPrice": 4500
+      "surugayaBuyPrice": null
     },
     {
       "name": "テツノイサハex",
@@ -1117,9 +1116,10 @@
       "category": "ポケモン",
       "energyType": "超",
       "surugayaUrl": "/product/other/GN369910",
-      "surugayaPrice": 201,
+      "surugayaPrice": 480,
       "surugayaSoldOut": true,
-      "raritySlug": "ur"
+      "raritySlug": "ur",
+      "surugayaBuyPrice": null
     },
     {
       "name": "テツノイワオex",

@@ -2,7 +2,7 @@
   "pack": "拡張パック 「ステラミラクル」",
   "packSlug": "sv7",
   "source": "surugaya",
-  "collectedAt": "2026-07-09T03:19:37.771Z",
+  "collectedAt": "2026-07-10T00:33:46.851Z",
   "count": 177,
   "cards": [
     {
@@ -11,11 +11,10 @@
       "rarity": "ノーマル",
       "category": "ポケモン",
       "energyType": "炎",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN596202",
-      "surugayaPrice": 780,
-      "surugayaSoldOut": false,
-      "raritySlug": "n",
-      "surugayaBuyPrice": 300
+      "surugayaUrl": "/product/other/GN596202",
+      "surugayaPrice": 280,
+      "surugayaSoldOut": true,
+      "raritySlug": "n"
     },
     {
       "name": "レディバ",
@@ -903,9 +902,9 @@
       "rarity": "C",
       "category": "ポケモン",
       "energyType": "超",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN596106",
-      "surugayaPrice": 160,
-      "surugayaSoldOut": false,
+      "surugayaUrl": "/product/detail/GN596106?tenpo_cd=410018",
+      "surugayaPrice": null,
+      "surugayaSoldOut": true,
       "raritySlug": "c"
     },
     {

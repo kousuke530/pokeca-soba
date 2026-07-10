@@ -2,8 +2,8 @@
   "pack": "拡張パック「黒炎の支配者」",
   "packSlug": "sv3",
   "source": "surugaya",
-  "collectedAt": "2026-07-09T03:01:20.520Z",
-  "count": 173,
+  "collectedAt": "2026-07-10T00:30:49.623Z",
+  "count": 172,
   "cards": [
     {
       "name": "かがやくリザードン",
@@ -11,9 +11,9 @@
       "rarity": "ノーマル",
       "category": "ポケモン",
       "energyType": "炎",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN104843",
-      "surugayaPrice": 980,
-      "surugayaSoldOut": false,
+      "surugayaUrl": "/product/other/GN104843",
+      "surugayaPrice": 450,
+      "surugayaSoldOut": true,
       "raritySlug": "n",
       "surugayaBuyPrice": 400
     },
@@ -1572,12 +1572,12 @@
       "surugayaBuyPrice": null
     },
     {
-      "name": "キュウコン",
+      "name": "キュウコン（Bランク）",
       "cardNumber": "110/108",
       "rarity": "AR",
       "category": "ポケモン",
       "energyType": "炎",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN104357",
+      "surugayaUrl": "/product/detail/GN104357?branch_number=0077",
       "surugayaPrice": 1170,
       "surugayaSoldOut": false,
       "raritySlug": "ar",
@@ -1679,18 +1679,6 @@
       "surugayaBuyPrice": null
     },
     {
-      "name": "ピジョン",
-      "cardNumber": "119/108",
-      "rarity": "AR",
-      "category": "ポケモン",
-      "energyType": "",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN104366",
-      "surugayaPrice": 480,
-      "surugayaSoldOut": false,
-      "raritySlug": "ar",
-      "surugayaBuyPrice": null
-    },
-    {
       "name": "グルトン",
       "cardNumber": "120/108",
       "rarity": "AR",
@@ -1750,14 +1738,14 @@
       "surugayaBuyPrice": null
     },
     {
-      "name": "リザードンex",
+      "name": "リザードンex（Bランク）",
       "cardNumber": "125/108",
       "rarity": "SR",
       "category": "ポケモン",
       "energyType": "悪",
-      "surugayaUrl": "/product/other/GN104372",
-      "surugayaPrice": 1990,
-      "surugayaSoldOut": true,
+      "surugayaUrl": "/product/detail/GN104372?branch_number=0077",
+      "surugayaPrice": 2150,
+      "surugayaSoldOut": false,
       "raritySlug": "sr",
       "surugayaBuyPrice": 2500
     },

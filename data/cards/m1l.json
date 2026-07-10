@@ -2,7 +2,7 @@
   "pack": "拡張パック「メガブレイブ」",
   "packSlug": "m1l",
   "source": "surugaya",
-  "collectedAt": "2026-07-09T03:22:41.891Z",
+  "collectedAt": "2026-07-10T00:37:00.712Z",
   "count": 89,
   "cards": [
     {
@@ -683,10 +683,10 @@
       "category": "ポケモン",
       "energyType": "草",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU362729",
-      "surugayaPrice": 890,
+      "surugayaPrice": 770,
       "surugayaSoldOut": false,
       "raritySlug": "ar",
-      "surugayaBuyPrice": 700
+      "surugayaBuyPrice": 600
     },
     {
       "name": "フシギソウ",
@@ -790,10 +790,9 @@
       "category": "ポケモン",
       "energyType": "鋼",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU362738",
-      "surugayaPrice": 480,
+      "surugayaPrice": 290,
       "surugayaSoldOut": false,
-      "raritySlug": "ar",
-      "surugayaBuyPrice": null
+      "raritySlug": "ar"
     },
     {
       "name": "オニスズメ",

@@ -2,8 +2,8 @@
   "pack": "拡張パック「メガシンフォニア」",
   "packSlug": "m1s",
   "source": "surugaya",
-  "collectedAt": "2026-07-09T03:22:52.950Z",
-  "count": 91,
+  "collectedAt": "2026-07-10T00:37:11.657Z",
+  "count": 90,
   "cards": [
     {
       "name": "モンジャラ",
@@ -978,7 +978,7 @@
       "category": "ポケモン",
       "energyType": "超",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU362620",
-      "surugayaPrice": 16800,
+      "surugayaPrice": 12600,
       "surugayaSoldOut": false,
       "raritySlug": "sar",
       "surugayaBuyPrice": 9000
@@ -994,18 +994,6 @@
       "surugayaSoldOut": false,
       "raritySlug": "sar",
       "surugayaBuyPrice": 2800
-    },
-    {
-      "name": "アセロラのいたずら",
-      "cardNumber": "090/063",
-      "rarity": "SAR",
-      "category": "サポート",
-      "energyType": "",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU362623",
-      "surugayaPrice": 6480,
-      "surugayaSoldOut": false,
-      "raritySlug": "sar",
-      "surugayaBuyPrice": 3000
     },
     {
       "name": "ミツルの思いやり",

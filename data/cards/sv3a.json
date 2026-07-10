@@ -2,7 +2,7 @@
   "pack": "強化拡張パック「レイジングサーフ」",
   "packSlug": "sv3a",
   "source": "surugaya",
-  "collectedAt": "2026-07-09T03:01:31.886Z",
+  "collectedAt": "2026-07-10T00:31:00.762Z",
   "count": 92,
   "cards": [
     {
@@ -765,11 +765,11 @@
       "rarity": "AR",
       "category": "ポケモン",
       "energyType": "闘",
-      "surugayaUrl": "/product/other/GN170312",
-      "surugayaPrice": 2870,
-      "surugayaSoldOut": true,
+      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN170312",
+      "surugayaPrice": 4280,
+      "surugayaSoldOut": false,
       "raritySlug": "ar",
-      "surugayaBuyPrice": 2200
+      "surugayaBuyPrice": 2400
     },
     {
       "name": "メテノ",
@@ -993,7 +993,7 @@
       "category": "サポート",
       "energyType": "",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN170331",
-      "surugayaPrice": 3480,
+      "surugayaPrice": 1980,
       "surugayaSoldOut": false,
       "raritySlug": "sar",
       "surugayaBuyPrice": 2200

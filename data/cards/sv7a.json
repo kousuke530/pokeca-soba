@@ -2,7 +2,7 @@
   "pack": "強化拡張パック「楽園ドラゴーナ」",
   "packSlug": "sv7a",
   "source": "surugaya",
-  "collectedAt": "2026-07-08T02:49:08.602Z",
+  "collectedAt": "2026-07-10T00:33:55.673Z",
   "count": 92,
   "cards": [
     {
@@ -791,10 +791,9 @@
       "category": "ポケモン",
       "energyType": "鋼",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN660830",
-      "surugayaPrice": 380,
+      "surugayaPrice": 230,
       "surugayaSoldOut": false,
-      "raritySlug": "ar",
-      "surugayaBuyPrice": null
+      "raritySlug": "ar"
     },
     {
       "name": "アップリュー",
@@ -1019,7 +1018,7 @@
       "category": "ポケモン",
       "energyType": "ドラゴン",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN660804",
-      "surugayaPrice": 780,
+      "surugayaPrice": 460,
       "surugayaSoldOut": false,
       "raritySlug": "ur",
       "surugayaBuyPrice": 350

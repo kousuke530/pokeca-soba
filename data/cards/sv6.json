@@ -2,7 +2,7 @@
   "pack": "拡張パック 「変幻の仮面」",
   "packSlug": "sv6",
   "source": "surugaya",
-  "collectedAt": "2026-07-09T03:18:47.389Z",
+  "collectedAt": "2026-07-10T00:33:09.407Z",
   "count": 131,
   "cards": [
     {
@@ -825,8 +825,8 @@
       "rarity": "R",
       "category": "ポケモン",
       "energyType": "鋼",
-      "surugayaUrl": "/product/other/GN486545",
-      "surugayaPrice": 39,
+      "surugayaUrl": "/product/detail/GN486545?tenpo_cd=400386",
+      "surugayaPrice": 50,
       "surugayaSoldOut": true,
       "raritySlug": "r"
     },
@@ -1096,12 +1096,12 @@
       "raritySlug": "u"
     },
     {
-      "name": "レガシーエネルギー",
+      "name": "【ランクB】レガシーエネルギー",
       "cardNumber": "101/101",
       "rarity": "ACE",
       "category": "エネルギー",
       "energyType": "",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN486570",
+      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GB486570",
       "surugayaPrice": 160,
       "surugayaSoldOut": false,
       "raritySlug": "ace"
@@ -1197,7 +1197,7 @@
       "category": "ポケモン",
       "energyType": "闘",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN486578",
-      "surugayaPrice": 480,
+      "surugayaPrice": 380,
       "surugayaSoldOut": false,
       "raritySlug": "ar",
       "surugayaBuyPrice": null
@@ -1460,9 +1460,9 @@
       "rarity": "UR",
       "category": "グッズ",
       "energyType": "",
-      "surugayaUrl": "/product/other/GN486601",
-      "surugayaPrice": 420,
-      "surugayaSoldOut": true,
+      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN486601",
+      "surugayaPrice": 580,
+      "surugayaSoldOut": false,
       "raritySlug": "ur",
       "surugayaBuyPrice": null
     },

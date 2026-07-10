@@ -2,8 +2,8 @@
   "pack": "拡張パック「バトルパートナーズ」",
   "packSlug": "sv9",
   "source": "surugaya",
-  "collectedAt": "2026-07-08T02:50:31.261Z",
-  "count": 167,
+  "collectedAt": "2026-07-10T00:35:09.274Z",
+  "count": 165,
   "cards": [
     {
       "name": "ミュウex",
@@ -1534,7 +1534,7 @@
       "category": "ポケモン",
       "energyType": "水",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN832717",
-      "surugayaPrice": 390,
+      "surugayaPrice": 680,
       "surugayaSoldOut": false,
       "raritySlug": "ar",
       "surugayaBuyPrice": null
@@ -1642,7 +1642,7 @@
       "category": "ポケモン",
       "energyType": "",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN832726",
-      "surugayaPrice": 480,
+      "surugayaPrice": 380,
       "surugayaSoldOut": false,
       "raritySlug": "ar",
       "surugayaBuyPrice": null
@@ -1790,30 +1790,6 @@
       "surugayaSoldOut": true,
       "raritySlug": "sar",
       "surugayaBuyPrice": 1000
-    },
-    {
-      "name": "ナンジャモのハラバリーex",
-      "cardNumber": "125/100",
-      "rarity": "SAR",
-      "category": "ポケモン",
-      "energyType": "雷",
-      "surugayaUrl": "/product/other/GN832699",
-      "surugayaPrice": 6910,
-      "surugayaSoldOut": true,
-      "raritySlug": "sar",
-      "surugayaBuyPrice": 7500
-    },
-    {
-      "name": "リーリエのピッピex",
-      "cardNumber": "126/100",
-      "rarity": "SAR",
-      "category": "ポケモン",
-      "energyType": "超",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN832700",
-      "surugayaPrice": 32800,
-      "surugayaSoldOut": false,
-      "raritySlug": "sar",
-      "surugayaBuyPrice": 20000
     },
     {
       "name": "Nのゾロアークex",
