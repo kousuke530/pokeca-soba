@@ -2,8 +2,8 @@
   "pack": "スタートデッキ100 バトルコレクション コロちゃおVer.",
   "packSlug": "mp1",
   "source": "surugaya",
-  "collectedAt": "2026-07-10T00:39:31.139Z",
-  "count": 16,
+  "collectedAt": "2026-07-11T10:04:51.758Z",
+  "count": 17,
   "cards": [
     {
       "name": "アイアント",
@@ -156,7 +156,7 @@
       "category": "サポート",
       "energyType": "",
       "surugayaUrl": "/product/other/GU548966",
-      "surugayaPrice": 580,
+      "surugayaPrice": 570,
       "surugayaSoldOut": true,
       "raritySlug": "n",
       "surugayaBuyPrice": 450
@@ -181,6 +181,17 @@
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU548968",
       "surugayaPrice": 160,
       "surugayaSoldOut": false,
+      "raritySlug": "n"
+    },
+    {
+      "name": "リーリエの決心",
+      "cardNumber": "023/023",
+      "rarity": "ノーマル",
+      "category": "サポート",
+      "energyType": "",
+      "surugayaUrl": "/product/detail/GU548970?tenpo_cd=201206",
+      "surugayaPrice": 150,
+      "surugayaSoldOut": true,
       "raritySlug": "n"
     }
   ]

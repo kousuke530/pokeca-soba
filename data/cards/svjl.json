@@ -2,7 +2,7 @@
   "pack": "バトルマスターデッキ テラスタル リザードンex",
   "packSlug": "svjl",
   "source": "surugaya",
-  "collectedAt": "2026-07-10T00:33:14.550Z",
+  "collectedAt": "2026-07-11T09:58:18.099Z",
   "count": 21,
   "cards": [
     {
@@ -28,14 +28,14 @@
       "raritySlug": "n"
     },
     {
-      "name": "かがやくリザードン（Bランク）",
+      "name": "かがやくリザードン",
       "cardNumber": "003/021",
       "rarity": "ノーマル",
       "category": "ポケモン",
       "energyType": "炎",
-      "surugayaUrl": "/product/detail/GN511204?branch_number=0077",
-      "surugayaPrice": 470,
-      "surugayaSoldOut": false,
+      "surugayaUrl": "/product/other/GN511204",
+      "surugayaPrice": 432,
+      "surugayaSoldOut": true,
       "raritySlug": "n",
       "surugayaBuyPrice": 300
     },

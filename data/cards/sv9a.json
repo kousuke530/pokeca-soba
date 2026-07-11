@@ -2,7 +2,7 @@
   "pack": "強化拡張パック「熱風のアリーナ」",
   "packSlug": "sv9a",
   "source": "surugaya",
-  "collectedAt": "2026-07-10T00:35:22.852Z",
+  "collectedAt": "2026-07-11T10:00:26.469Z",
   "count": 91,
   "cards": [
     {
@@ -55,7 +55,7 @@
       "rarity": "R",
       "category": "ポケモン",
       "energyType": "草",
-      "surugayaUrl": "/product/detail/GN923805?tenpo_cd=410018",
+      "surugayaUrl": "/product/other/GN923805",
       "surugayaPrice": 75,
       "surugayaSoldOut": true,
       "raritySlug": "r"
@@ -165,7 +165,7 @@
       "rarity": "C",
       "category": "ポケモン",
       "energyType": "炎",
-      "surugayaUrl": "/product/detail/GN923840?tenpo_cd=410018",
+      "surugayaUrl": "/product/other/GN923840",
       "surugayaPrice": 29,
       "surugayaSoldOut": true,
       "raritySlug": "c"
@@ -275,8 +275,8 @@
       "rarity": "R",
       "category": "ポケモン",
       "energyType": "水",
-      "surugayaUrl": "/product/detail/GN923810?tenpo_cd=410011",
-      "surugayaPrice": 150,
+      "surugayaUrl": "/product/other/GN923810",
+      "surugayaPrice": 100,
       "surugayaSoldOut": true,
       "raritySlug": "r"
     },
@@ -308,7 +308,7 @@
       "rarity": "U",
       "category": "ポケモン",
       "energyType": "水",
-      "surugayaUrl": "/product/detail/GN923820?tenpo_cd=410018",
+      "surugayaUrl": "/product/other/GN923820",
       "surugayaPrice": 19,
       "surugayaSoldOut": true,
       "raritySlug": "u"
@@ -385,7 +385,7 @@
       "rarity": "C",
       "category": "ポケモン",
       "energyType": "雷",
-      "surugayaUrl": "/product/detail/GN923849?tenpo_cd=410018",
+      "surugayaUrl": "/product/other/GN923849",
       "surugayaPrice": 29,
       "surugayaSoldOut": true,
       "raritySlug": "c"
@@ -605,7 +605,7 @@
       "rarity": "U",
       "category": "グッズ",
       "energyType": "",
-      "surugayaUrl": "/product/detail/GN923827?tenpo_cd=410018",
+      "surugayaUrl": "/product/other/GN923827",
       "surugayaPrice": 57,
       "surugayaSoldOut": true,
       "raritySlug": "u"
@@ -694,7 +694,7 @@
       "category": "ポケモン",
       "energyType": "草",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN923787",
-      "surugayaPrice": 480,
+      "surugayaPrice": 430,
       "surugayaSoldOut": false,
       "raritySlug": "ar",
       "surugayaBuyPrice": null
@@ -760,12 +760,12 @@
       "surugayaBuyPrice": null
     },
     {
-      "name": "ヒビキのバクフーン",
+      "name": "ヒビキのバクフーン（Bランク）",
       "cardNumber": "070/063",
       "rarity": "AR",
       "category": "ポケモン",
       "energyType": "炎",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN923793",
+      "surugayaUrl": "/product/detail/GN923793?branch_number=0077",
       "surugayaPrice": 1490,
       "surugayaSoldOut": false,
       "raritySlug": "ar",
@@ -946,7 +946,7 @@
       "category": "ポケモン",
       "energyType": "草",
       "surugayaUrl": "/product/other/GN923773",
-      "surugayaPrice": 1110,
+      "surugayaPrice": 1088,
       "surugayaSoldOut": true,
       "raritySlug": "sar",
       "surugayaBuyPrice": 700
@@ -970,7 +970,7 @@
       "category": "ポケモン",
       "energyType": "闘",
       "surugayaUrl": "/product/other/GN923775",
-      "surugayaPrice": 37811,
+      "surugayaPrice": 38520,
       "surugayaSoldOut": true,
       "raritySlug": "sar",
       "surugayaBuyPrice": 26000

@@ -2,8 +2,8 @@
   "pack": "スターターセットMEGA メガディアンシーex",
   "packSlug": "mbd",
   "source": "surugaya",
-  "collectedAt": "2026-07-10T00:37:16.671Z",
-  "count": 13,
+  "collectedAt": "2026-07-11T10:02:28.801Z",
+  "count": 15,
   "cards": [
     {
       "name": "ブルー",
@@ -36,6 +36,17 @@
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU404887",
       "surugayaPrice": 160,
       "surugayaSoldOut": false,
+      "raritySlug": "n"
+    },
+    {
+      "name": "なかよしポフィン",
+      "cardNumber": "010/021",
+      "rarity": "ノーマル",
+      "category": "グッズ",
+      "energyType": "",
+      "surugayaUrl": "/product/detail/GU404890?tenpo_cd=201206",
+      "surugayaPrice": 190,
+      "surugayaSoldOut": true,
       "raritySlug": "n"
     },
     {
@@ -114,6 +125,17 @@
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU404898",
       "surugayaPrice": 160,
       "surugayaSoldOut": false,
+      "raritySlug": "n"
+    },
+    {
+      "name": "ボスの指令",
+      "cardNumber": "019/021",
+      "rarity": "ノーマル",
+      "category": "サポート",
+      "energyType": "",
+      "surugayaUrl": "/product/detail/GU404899?tenpo_cd=201206",
+      "surugayaPrice": 100,
+      "surugayaSoldOut": true,
       "raritySlug": "n"
     },
     {
