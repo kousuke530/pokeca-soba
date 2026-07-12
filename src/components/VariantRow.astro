@@ -33,7 +33,7 @@ const yen = (v: number | null) => (v == null ? '調査中' : `${v.toLocaleString
 <style>
   .row {
     display: grid;
-    grid-template-columns: 82px minmax(0, 1fr) 210px 132px;
+    grid-template-columns: 82px minmax(0, 1fr) minmax(230px, 30%);
     align-items: center;
     gap: 18px;
     min-height: 118px;
@@ -97,6 +97,7 @@ const yen = (v: number | null) => (v == null ? '調査中' : `${v.toLocaleString
     display: flex;
     flex-direction: column;
     gap: 8px;
+    min-width: 0;
   }
   .open-btn {
     min-height: 42px;

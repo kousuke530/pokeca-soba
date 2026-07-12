@@ -163,12 +163,6 @@ const jsonLd = JSON.stringify({
   <!-- /検索インデックス対象 -->
 
   <section class="market page-panel">
-    <nav class="market-tabs" aria-label="カード詳細メニュー">
-      <a href="#price-chart" class="active">価格推移</a>
-      <a href="#shops">販売・買取一覧</a>
-      <a href="#card-info">カード情報</a>
-      <a href="#deck">デッキ採用</a>
-    </nav>
     <div class="market-grid" id="price-chart">
       <div class="chart-box">
         <h2>価格推移</h2>
@@ -390,31 +384,12 @@ const jsonLd = JSON.stringify({
     line-height: 1.9;
   }
   .market {
-    padding: 0 24px 24px;
-  }
-  .market-tabs {
-    display: grid;
-    grid-template-columns: repeat(4, minmax(0, 1fr));
-    border-bottom: 1px solid var(--border);
-  }
-  .market-tabs a {
-    padding: 18px 8px 14px;
-    color: #14356c;
-    text-align: center;
-    text-decoration: none;
-    font-size: 15px;
-    font-weight: 900;
-    border-bottom: 4px solid transparent;
-  }
-  .market-tabs a.active {
-    color: var(--brand);
-    border-color: var(--brand);
+    padding: 24px;
   }
   .market-grid {
     display: grid;
     grid-template-columns: minmax(0, 1fr) 300px;
     gap: 22px;
-    padding-top: 24px;
   }
   .chart-box, .market-status {
     border: 1px solid var(--border);
@@ -558,12 +533,11 @@ const jsonLd = JSON.stringify({
   @media (max-width: 620px) {
     .ttl { font-size: 34px; }
     .head-row { align-items: flex-start; flex-direction: column; }
-    .price-cards, .spec, .market-tabs { grid-template-columns: 1fr; }
+    .price-cards, .spec { grid-template-columns: 1fr; }
     .spec div, .spec div:nth-last-child(-n + 2) { border-bottom: 1px solid var(--border); }
     .spec div:last-child { border-bottom: 0; }
     .lead { margin-top: 0; }
-    .market { padding: 0 16px 18px; }
-    .market-tabs a { border-bottom-width: 2px; }
+    .market { padding: 16px; }
     .rel-cards, .pack-cards { grid-template-columns: 1fr 1fr; gap: 12px; }
   }
 </style>

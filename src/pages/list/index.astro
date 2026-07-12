@@ -129,6 +129,7 @@ function kanaGroup(name: string): string {
       const okInitial = initial === 'すべて' || card.dataset.initial === initial;
       const visible = okName && okType && okInitial;
       card.hidden = !visible;
+      card.style.display = visible ? '' : 'none';
       if (visible) shown += 1;
     }
     if (count) count.textContent = `${shown.toLocaleString('ja-JP')} 件`;
@@ -318,6 +319,7 @@ function kanaGroup(name: string): string {
     grid-template-columns: repeat(auto-fill, minmax(118px, 1fr));
     gap: 14px;
   }
+  .pokemon-grid li[hidden] { display: none; }
   .pokemon-grid li { display: flex; min-width: 0; }
   .pokemon-grid a {
     width: 100%;
