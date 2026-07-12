@@ -2,7 +2,7 @@
   "pack": "拡張パック「ニンジャスピナー」",
   "packSlug": "m4",
   "source": "surugaya",
-  "collectedAt": "2026-07-11T10:05:17.685Z",
+  "collectedAt": "2026-07-12T05:59:33.268Z",
   "count": 120,
   "cards": [
     {
@@ -950,7 +950,7 @@
       "category": "ポケモン",
       "energyType": "水",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU634037",
-      "surugayaPrice": 610,
+      "surugayaPrice": 680,
       "surugayaSoldOut": false,
       "raritySlug": "ar",
       "surugayaBuyPrice": null
@@ -962,9 +962,10 @@
       "category": "ポケモン",
       "energyType": "水",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU634038",
-      "surugayaPrice": 290,
+      "surugayaPrice": 480,
       "surugayaSoldOut": false,
-      "raritySlug": "ar"
+      "raritySlug": "ar",
+      "surugayaBuyPrice": null
     },
     {
       "name": "デンリュウ",
@@ -1009,7 +1010,7 @@
       "category": "ポケモン",
       "energyType": "悪",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU634042",
-      "surugayaPrice": 340,
+      "surugayaPrice": 380,
       "surugayaSoldOut": false,
       "raritySlug": "ar",
       "surugayaBuyPrice": null
@@ -1021,9 +1022,10 @@
       "category": "ポケモン",
       "energyType": "鋼",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU634043",
-      "surugayaPrice": 270,
+      "surugayaPrice": 300,
       "surugayaSoldOut": false,
-      "raritySlug": "ar"
+      "raritySlug": "ar",
+      "surugayaBuyPrice": null
     },
     {
       "name": "ヌメイル",
@@ -1032,7 +1034,7 @@
       "category": "ポケモン",
       "energyType": "ドラゴン",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU634044",
-      "surugayaPrice": 430,
+      "surugayaPrice": 480,
       "surugayaSoldOut": false,
       "raritySlug": "ar",
       "surugayaBuyPrice": null
@@ -1056,7 +1058,7 @@
       "category": "ポケモン",
       "energyType": "",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU634046",
-      "surugayaPrice": 340,
+      "surugayaPrice": 380,
       "surugayaSoldOut": false,
       "raritySlug": "ar",
       "surugayaBuyPrice": null
@@ -1187,9 +1189,10 @@
       "category": "グッズ",
       "energyType": "",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU634057",
-      "surugayaPrice": 230,
+      "surugayaPrice": 380,
       "surugayaSoldOut": false,
-      "raritySlug": "sr"
+      "raritySlug": "sr",
+      "surugayaBuyPrice": null
     },
     {
       "name": "ツールスクラッパー",

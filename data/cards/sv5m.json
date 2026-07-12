@@ -2,7 +2,7 @@
   "pack": "拡張パック「サイバージャッジ」",
   "packSlug": "sv5m",
   "source": "surugaya",
-  "collectedAt": "2026-07-11T09:57:36.122Z",
+  "collectedAt": "2026-07-12T05:51:02.869Z",
   "count": 100,
   "cards": [
     {
@@ -793,7 +793,7 @@
       "category": "ポケモン",
       "energyType": "草",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN369883",
-      "surugayaPrice": 430,
+      "surugayaPrice": 480,
       "surugayaSoldOut": false,
       "raritySlug": "ar",
       "surugayaBuyPrice": null
@@ -841,10 +841,9 @@
       "category": "ポケモン",
       "energyType": "雷",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN369887",
-      "surugayaPrice": 430,
+      "surugayaPrice": 290,
       "surugayaSoldOut": false,
-      "raritySlug": "ar",
-      "surugayaBuyPrice": null
+      "raritySlug": "ar"
     },
     {
       "name": "テツノイバラ",
@@ -853,7 +852,7 @@
       "category": "ポケモン",
       "energyType": "雷",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN369888",
-      "surugayaPrice": 430,
+      "surugayaPrice": 480,
       "surugayaSoldOut": false,
       "raritySlug": "ar",
       "surugayaBuyPrice": null
@@ -865,7 +864,7 @@
       "category": "ポケモン",
       "energyType": "超",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN369889",
-      "surugayaPrice": 430,
+      "surugayaPrice": 480,
       "surugayaSoldOut": false,
       "raritySlug": "ar",
       "surugayaBuyPrice": null
@@ -1105,7 +1104,7 @@
       "category": "ポケモン",
       "energyType": "草",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN369909",
-      "surugayaPrice": 700,
+      "surugayaPrice": 780,
       "surugayaSoldOut": false,
       "raritySlug": "ur",
       "surugayaBuyPrice": 350

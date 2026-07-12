@@ -2,8 +2,8 @@
   "pack": "拡張パック「インフェルノX」",
   "packSlug": "m2",
   "source": "surugaya",
-  "collectedAt": "2026-07-11T10:02:56.950Z",
-  "count": 114,
+  "collectedAt": "2026-07-12T05:56:57.839Z",
+  "count": 115,
   "cards": [
     {
       "name": "ナゾノクサ",
@@ -144,7 +144,7 @@
       "category": "ポケモン",
       "energyType": "炎",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU427982",
-      "surugayaPrice": 410,
+      "surugayaPrice": 680,
       "surugayaSoldOut": false,
       "raritySlug": "rr",
       "surugayaBuyPrice": null
@@ -893,9 +893,10 @@
       "category": "ポケモン",
       "energyType": "草",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU427969",
-      "surugayaPrice": 270,
+      "surugayaPrice": 300,
       "surugayaSoldOut": false,
-      "raritySlug": "ar"
+      "raritySlug": "ar",
+      "surugayaBuyPrice": null
     },
     {
       "name": "マメバッタ",
@@ -916,7 +917,7 @@
       "category": "ポケモン",
       "energyType": "炎",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU427971",
-      "surugayaPrice": 340,
+      "surugayaPrice": 380,
       "surugayaSoldOut": false,
       "raritySlug": "ar",
       "surugayaBuyPrice": null
@@ -928,7 +929,7 @@
       "category": "ポケモン",
       "energyType": "水",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU427972",
-      "surugayaPrice": 340,
+      "surugayaPrice": 380,
       "surugayaSoldOut": false,
       "raritySlug": "ar",
       "surugayaBuyPrice": null
@@ -952,7 +953,7 @@
       "category": "ポケモン",
       "energyType": "雷",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU427974",
-      "surugayaPrice": 340,
+      "surugayaPrice": 380,
       "surugayaSoldOut": false,
       "raritySlug": "ar",
       "surugayaBuyPrice": null
@@ -976,7 +977,7 @@
       "category": "ポケモン",
       "energyType": "闘",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU427976",
-      "surugayaPrice": 340,
+      "surugayaPrice": 380,
       "surugayaSoldOut": false,
       "raritySlug": "ar",
       "surugayaBuyPrice": null
@@ -988,7 +989,7 @@
       "category": "ポケモン",
       "energyType": "悪",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU427977",
-      "surugayaPrice": 340,
+      "surugayaPrice": 380,
       "surugayaSoldOut": false,
       "raritySlug": "ar",
       "surugayaBuyPrice": null
@@ -1000,7 +1001,7 @@
       "category": "ポケモン",
       "energyType": "鋼",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU427978",
-      "surugayaPrice": 340,
+      "surugayaPrice": 380,
       "surugayaSoldOut": false,
       "raritySlug": "ar",
       "surugayaBuyPrice": null
@@ -1040,6 +1041,18 @@
       "surugayaSoldOut": false,
       "raritySlug": "sr",
       "surugayaBuyPrice": null
+    },
+    {
+      "name": "メガリザードンXex",
+      "cardNumber": "094/080",
+      "rarity": "SR",
+      "category": "ポケモン",
+      "energyType": "炎",
+      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU427953",
+      "surugayaPrice": 7480,
+      "surugayaSoldOut": false,
+      "raritySlug": "sr",
+      "surugayaBuyPrice": 4000
     },
     {
       "name": "オドリドリex",

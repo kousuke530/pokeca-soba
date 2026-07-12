@@ -2,7 +2,7 @@
   "pack": "拡張パック「ワイルドフォース」",
   "packSlug": "sv5k",
   "source": "surugaya",
-  "collectedAt": "2026-07-11T09:57:46.988Z",
+  "collectedAt": "2026-07-12T05:51:15.018Z",
   "count": 100,
   "cards": [
     {
@@ -584,7 +584,7 @@
       "category": "ポケモン",
       "energyType": "ドラゴン",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN369762",
-      "surugayaPrice": 160,
+      "surugayaPrice": 180,
       "surugayaSoldOut": false,
       "raritySlug": "rr"
     },
@@ -819,7 +819,7 @@
       "category": "ポケモン",
       "energyType": "超",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN369783",
-      "surugayaPrice": 430,
+      "surugayaPrice": 480,
       "surugayaSoldOut": false,
       "raritySlug": "ar",
       "surugayaBuyPrice": null
@@ -855,7 +855,7 @@
       "category": "ポケモン",
       "energyType": "闘",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN369786",
-      "surugayaPrice": 430,
+      "surugayaPrice": 480,
       "surugayaSoldOut": false,
       "raritySlug": "ar",
       "surugayaBuyPrice": null
@@ -867,7 +867,7 @@
       "category": "ポケモン",
       "energyType": "闘",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN369787",
-      "surugayaPrice": 430,
+      "surugayaPrice": 480,
       "surugayaSoldOut": false,
       "raritySlug": "ar",
       "surugayaBuyPrice": null
@@ -891,7 +891,7 @@
       "category": "ポケモン",
       "energyType": "悪",
       "surugayaUrl": "/product/other/GN369789",
-      "surugayaPrice": 2900,
+      "surugayaPrice": 2840,
       "surugayaSoldOut": true,
       "raritySlug": "ar",
       "surugayaBuyPrice": 2000
@@ -1010,9 +1010,9 @@
       "rarity": "SR",
       "category": "サポート",
       "energyType": "",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN369799",
-      "surugayaPrice": 480,
-      "surugayaSoldOut": false,
+      "surugayaUrl": "/product/other/GN369799",
+      "surugayaPrice": 300,
+      "surugayaSoldOut": true,
       "raritySlug": "sr",
       "surugayaBuyPrice": null
     },

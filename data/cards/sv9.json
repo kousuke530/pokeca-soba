@@ -2,8 +2,8 @@
   "pack": "拡張パック「バトルパートナーズ」",
   "packSlug": "sv9",
   "source": "surugaya",
-  "collectedAt": "2026-07-11T10:00:12.811Z",
-  "count": 167,
+  "collectedAt": "2026-07-12T05:54:01.068Z",
+  "count": 166,
   "cards": [
     {
       "name": "ミュウex",
@@ -728,7 +728,7 @@
       "category": "サポート",
       "energyType": "",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN833028",
-      "surugayaPrice": 250,
+      "surugayaPrice": 280,
       "surugayaSoldOut": false,
       "raritySlug": "n"
     },
@@ -1629,18 +1629,6 @@
       "energyType": "",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN832724",
       "surugayaPrice": 480,
-      "surugayaSoldOut": false,
-      "raritySlug": "ar",
-      "surugayaBuyPrice": null
-    },
-    {
-      "name": "オンバット",
-      "cardNumber": "111/100",
-      "rarity": "AR",
-      "category": "ポケモン",
-      "energyType": "",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN832725",
-      "surugayaPrice": 300,
       "surugayaSoldOut": false,
       "raritySlug": "ar",
       "surugayaBuyPrice": null

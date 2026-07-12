@@ -2,7 +2,7 @@
   "pack": "拡張パック「メガブレイブ」",
   "packSlug": "m1l",
   "source": "surugaya",
-  "collectedAt": "2026-07-11T10:02:06.377Z",
+  "collectedAt": "2026-07-12T05:56:06.935Z",
   "count": 90,
   "cards": [
     {
@@ -694,7 +694,7 @@
       "category": "ポケモン",
       "energyType": "草",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU362729",
-      "surugayaPrice": 770,
+      "surugayaPrice": 1280,
       "surugayaSoldOut": false,
       "raritySlug": "ar",
       "surugayaBuyPrice": 600
@@ -766,7 +766,7 @@
       "category": "ポケモン",
       "energyType": "闘",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU362735",
-      "surugayaPrice": 340,
+      "surugayaPrice": 380,
       "surugayaSoldOut": false,
       "raritySlug": "ar",
       "surugayaBuyPrice": null
@@ -778,7 +778,7 @@
       "category": "ポケモン",
       "energyType": "悪",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU362736",
-      "surugayaPrice": 340,
+      "surugayaPrice": 380,
       "surugayaSoldOut": false,
       "raritySlug": "ar",
       "surugayaBuyPrice": null
@@ -790,7 +790,7 @@
       "category": "ポケモン",
       "energyType": "悪",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU362737",
-      "surugayaPrice": 340,
+      "surugayaPrice": 380,
       "surugayaSoldOut": false,
       "raritySlug": "ar",
       "surugayaBuyPrice": null
@@ -813,9 +813,10 @@
       "category": "ポケモン",
       "energyType": "",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU362739",
-      "surugayaPrice": 270,
+      "surugayaPrice": 300,
       "surugayaSoldOut": false,
-      "raritySlug": "ar"
+      "raritySlug": "ar",
+      "surugayaBuyPrice": null
     },
     {
       "name": "デカグース",
@@ -824,9 +825,10 @@
       "category": "ポケモン",
       "energyType": "",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU362740",
-      "surugayaPrice": 270,
+      "surugayaPrice": 300,
       "surugayaSoldOut": false,
-      "raritySlug": "ar"
+      "raritySlug": "ar",
+      "surugayaBuyPrice": null
     },
     {
       "name": "メガフシギバナex",

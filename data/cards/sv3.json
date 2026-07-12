@@ -2,7 +2,7 @@
   "pack": "拡張パック「黒炎の支配者」",
   "packSlug": "sv3",
   "source": "surugaya",
-  "collectedAt": "2026-07-11T09:55:53.747Z",
+  "collectedAt": "2026-07-12T05:49:03.896Z",
   "count": 173,
   "cards": [
     {
@@ -1601,7 +1601,7 @@
       "category": "ポケモン",
       "energyType": "水",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN104358",
-      "surugayaPrice": 340,
+      "surugayaPrice": 380,
       "surugayaSoldOut": false,
       "raritySlug": "ar",
       "surugayaBuyPrice": null
@@ -1673,7 +1673,7 @@
       "category": "ポケモン",
       "energyType": "鋼",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN104364",
-      "surugayaPrice": 430,
+      "surugayaPrice": 480,
       "surugayaSoldOut": false,
       "raritySlug": "ar",
       "surugayaBuyPrice": null
@@ -1749,14 +1749,14 @@
       "surugayaBuyPrice": null
     },
     {
-      "name": "リザードンex（Bランク）",
+      "name": "リザードンex",
       "cardNumber": "125/108",
       "rarity": "SR",
       "category": "ポケモン",
       "energyType": "悪",
-      "surugayaUrl": "/product/detail/GN104372?branch_number=0077",
-      "surugayaPrice": 2150,
-      "surugayaSoldOut": false,
+      "surugayaUrl": "/product/other/GN104372",
+      "surugayaPrice": 1990,
+      "surugayaSoldOut": true,
       "raritySlug": "sr",
       "surugayaBuyPrice": 2500
     },

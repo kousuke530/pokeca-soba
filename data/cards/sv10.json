@@ -2,8 +2,8 @@
   "pack": "拡張パック「ロケット団の栄光」",
   "packSlug": "sv10",
   "source": "surugaya",
-  "collectedAt": "2026-07-11T10:00:39.640Z",
-  "count": 129,
+  "collectedAt": "2026-07-12T05:54:30.897Z",
+  "count": 127,
   "cards": [
     {
       "name": "クヌギダマ",
@@ -1192,18 +1192,6 @@
       "surugayaBuyPrice": null
     },
     {
-      "name": "ロケット団のニャース",
-      "cardNumber": "109/098",
-      "rarity": "AR",
-      "category": "ポケモン",
-      "energyType": "",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU166835",
-      "surugayaPrice": 1980,
-      "surugayaSoldOut": false,
-      "raritySlug": "ar",
-      "surugayaBuyPrice": 1000
-    },
-    {
       "name": "ガルーラ",
       "cardNumber": "110/098",
       "rarity": "AR",
@@ -1258,7 +1246,7 @@
       "category": "ポケモン",
       "energyType": "超",
       "surugayaUrl": "/product/other/GU166815",
-      "surugayaPrice": 1950,
+      "surugayaPrice": 1970,
       "surugayaSoldOut": true,
       "raritySlug": "sr",
       "surugayaBuyPrice": 1400
@@ -1344,18 +1332,6 @@
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU166822",
       "surugayaPrice": 1380,
       "surugayaSoldOut": false,
-      "raritySlug": "sr",
-      "surugayaBuyPrice": 600
-    },
-    {
-      "name": "ロケット団のラムダ",
-      "cardNumber": "122/098",
-      "rarity": "SR",
-      "category": "サポート",
-      "energyType": "",
-      "surugayaUrl": "/product/detail/GU166823?tenpo_cd=400500",
-      "surugayaPrice": 1540,
-      "surugayaSoldOut": true,
       "raritySlug": "sr",
       "surugayaBuyPrice": 600
     },
@@ -1450,7 +1426,7 @@
       "category": "スタジアム",
       "energyType": "",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU166805",
-      "surugayaPrice": 1780,
+      "surugayaPrice": 1980,
       "surugayaSoldOut": false,
       "raritySlug": "ur",
       "surugayaBuyPrice": 1000
