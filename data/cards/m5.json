@@ -2,7 +2,7 @@
   "pack": "拡張パック「アビスアイ」",
   "packSlug": "m5",
   "source": "surugaya",
-  "collectedAt": "2026-07-12T05:59:45.162Z",
+  "collectedAt": "2026-07-14T00:24:59.799Z",
   "count": 117,
   "cards": [
     {
@@ -474,7 +474,7 @@
       "category": "ポケモン",
       "energyType": "闘",
       "surugayaUrl": "/product/other/GU730336",
-      "surugayaPrice": 60,
+      "surugayaPrice": 100,
       "surugayaSoldOut": true,
       "raritySlug": "c"
     },
@@ -848,7 +848,7 @@
       "category": "サポート",
       "energyType": "",
       "surugayaUrl": "/product/other/GU730312",
-      "surugayaPrice": 80,
+      "surugayaPrice": 100,
       "surugayaSoldOut": true,
       "raritySlug": "u"
     },
@@ -916,9 +916,10 @@
       "category": "ポケモン",
       "energyType": "水",
       "surugayaUrl": "/product/other/GU730261",
-      "surugayaPrice": 280,
+      "surugayaPrice": 310,
       "surugayaSoldOut": true,
-      "raritySlug": "ar"
+      "raritySlug": "ar",
+      "surugayaBuyPrice": null
     },
     {
       "name": "アシレーヌ",
@@ -951,7 +952,7 @@
       "category": "ポケモン",
       "energyType": "超",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU730264",
-      "surugayaPrice": 1280,
+      "surugayaPrice": 770,
       "surugayaSoldOut": false,
       "raritySlug": "ar",
       "surugayaBuyPrice": 500
@@ -1232,9 +1233,9 @@
       "rarity": "SR",
       "category": "サポート",
       "energyType": "",
-      "surugayaUrl": "/product/other/GU730258",
-      "surugayaPrice": 1930,
-      "surugayaSoldOut": true,
+      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU730258",
+      "surugayaPrice": 2480,
+      "surugayaSoldOut": false,
       "raritySlug": "sr",
       "surugayaBuyPrice": 1000
     },
@@ -1269,7 +1270,7 @@
       "category": "ポケモン",
       "energyType": "悪",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU730237",
-      "surugayaPrice": 34200,
+      "surugayaPrice": 31800,
       "surugayaSoldOut": false,
       "raritySlug": "sar",
       "surugayaBuyPrice": 25000
@@ -1293,7 +1294,7 @@
       "category": "サポート",
       "energyType": "",
       "surugayaUrl": "/product/other/GU730239",
-      "surugayaPrice": 1219,
+      "surugayaPrice": 1200,
       "surugayaSoldOut": true,
       "raritySlug": "sar",
       "surugayaBuyPrice": 600

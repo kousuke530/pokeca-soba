@@ -2,7 +2,7 @@
   "pack": "拡張パック 「変幻の仮面」",
   "packSlug": "sv6",
   "source": "surugaya",
-  "collectedAt": "2026-07-12T05:51:44.512Z",
+  "collectedAt": "2026-07-14T00:17:34.449Z",
   "count": 132,
   "cards": [
     {
@@ -224,17 +224,6 @@
       "surugayaPrice": 160,
       "surugayaSoldOut": false,
       "raritySlug": "c"
-    },
-    {
-      "name": "シャンデラ",
-      "cardNumber": "021/101",
-      "rarity": "R",
-      "category": "ポケモン",
-      "energyType": "炎",
-      "surugayaUrl": "/product/detail/GN486490?tenpo_cd=201206",
-      "surugayaPrice": 60,
-      "surugayaSoldOut": true,
-      "raritySlug": "r"
     },
     {
       "name": "オーガポン かまどのめんex",
@@ -605,8 +594,8 @@
       "rarity": "R",
       "category": "ポケモン",
       "energyType": "超",
-      "surugayaUrl": "/product/other/GN486524",
-      "surugayaPrice": 120,
+      "surugayaUrl": "/product/detail/GN486524?tenpo_cd=400492",
+      "surugayaPrice": 280,
       "surugayaSoldOut": true,
       "raritySlug": "r"
     },
@@ -716,7 +705,7 @@
       "category": "ポケモン",
       "energyType": "闘",
       "surugayaUrl": "/product/other/GN486534",
-      "surugayaPrice": 80,
+      "surugayaPrice": 99,
       "surugayaSoldOut": true,
       "raritySlug": "rr"
     },
@@ -1036,7 +1025,7 @@
       "category": "グッズ",
       "energyType": "",
       "surugayaUrl": "/product/other/GN486563",
-      "surugayaPrice": 60,
+      "surugayaPrice": 79,
       "surugayaSoldOut": true,
       "raritySlug": "u"
     },
@@ -1244,10 +1233,10 @@
       "category": "ポケモン",
       "energyType": "ドラゴン",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN486581",
-      "surugayaPrice": 780,
+      "surugayaPrice": 1080,
       "surugayaSoldOut": false,
       "raritySlug": "ar",
-      "surugayaBuyPrice": 350
+      "surugayaBuyPrice": 500
     },
     {
       "name": "ラッキー",
@@ -1334,16 +1323,16 @@
       "surugayaBuyPrice": null
     },
     {
-      "name": "【ランクB】ドラパルトex",
+      "name": "ドラパルトex",
       "cardNumber": "120/101",
       "rarity": "SR",
       "category": "ポケモン",
       "energyType": "ドラゴン",
-      "surugayaUrl": "/product/detail/GB486589?tenpo_cd=400492",
-      "surugayaPrice": 1480,
+      "surugayaUrl": "/product/other/GN486589",
+      "surugayaPrice": 500,
       "surugayaSoldOut": true,
       "raritySlug": "sr",
-      "surugayaBuyPrice": null
+      "surugayaBuyPrice": 400
     },
     {
       "name": "ハピナスex",
@@ -1376,10 +1365,10 @@
       "category": "サポート",
       "energyType": "",
       "surugayaUrl": "/product/other/GN486592",
-      "surugayaPrice": 1380,
+      "surugayaPrice": 960,
       "surugayaSoldOut": true,
       "raritySlug": "sr",
-      "surugayaBuyPrice": 1500
+      "surugayaBuyPrice": 800
     },
     {
       "name": "ハッサク",
@@ -1452,6 +1441,18 @@
       "surugayaSoldOut": false,
       "raritySlug": "sar",
       "surugayaBuyPrice": 2000
+    },
+    {
+      "name": "ゼイユ",
+      "cardNumber": "130/101",
+      "rarity": "SAR",
+      "category": "サポート",
+      "energyType": "",
+      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN486599",
+      "surugayaPrice": 22800,
+      "surugayaSoldOut": false,
+      "raritySlug": "sar",
+      "surugayaBuyPrice": 13000
     },
     {
       "name": "オーガポン みどりのめんex",

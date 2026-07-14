@@ -2,8 +2,8 @@
   "pack": "強化拡張パック「クリムゾンヘイズ」",
   "packSlug": "sv5a",
   "source": "surugaya",
-  "collectedAt": "2026-07-12T05:51:26.576Z",
-  "count": 94,
+  "collectedAt": "2026-07-14T00:17:19.131Z",
+  "count": 95,
   "cards": [
     {
       "name": "モンジャラ",
@@ -89,7 +89,7 @@
       "category": "ポケモン",
       "energyType": "草",
       "surugayaUrl": "/product/other/GN445995",
-      "surugayaPrice": 50,
+      "surugayaPrice": 49,
       "surugayaSoldOut": true,
       "raritySlug": "rr"
     },
@@ -485,7 +485,7 @@
       "category": "ポケモン",
       "energyType": "闘",
       "surugayaUrl": "/product/other/GN446031",
-      "surugayaPrice": 360,
+      "surugayaPrice": 380,
       "surugayaSoldOut": true,
       "raritySlug": "rr",
       "surugayaBuyPrice": null
@@ -574,7 +574,7 @@
       "category": "グッズ",
       "energyType": "",
       "surugayaUrl": "/product/other/GN446039",
-      "surugayaPrice": 1001,
+      "surugayaPrice": 1711,
       "surugayaSoldOut": true,
       "raritySlug": "ace",
       "surugayaBuyPrice": 800
@@ -795,6 +795,18 @@
       "surugayaBuyPrice": null
     },
     {
+      "name": "エレザード",
+      "cardNumber": "073/066",
+      "rarity": "AR",
+      "category": "ポケモン",
+      "energyType": "雷",
+      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN446059",
+      "surugayaPrice": 480,
+      "surugayaSoldOut": false,
+      "raritySlug": "ar",
+      "surugayaBuyPrice": null
+    },
+    {
       "name": "ラブトロス",
       "cardNumber": "074/066",
       "rarity": "AR",
@@ -849,7 +861,7 @@
       "category": "ポケモン",
       "energyType": "",
       "surugayaUrl": "/product/other/GN446064",
-      "surugayaPrice": 3870,
+      "surugayaPrice": 3200,
       "surugayaSoldOut": true,
       "raritySlug": "ar",
       "surugayaBuyPrice": 3500
@@ -981,7 +993,7 @@
       "category": "ポケモン",
       "energyType": "草",
       "surugayaUrl": "/product/other/GN446075",
-      "surugayaPrice": 1173,
+      "surugayaPrice": 930,
       "surugayaSoldOut": true,
       "raritySlug": "sar",
       "surugayaBuyPrice": 800
@@ -992,9 +1004,9 @@
       "rarity": "SAR",
       "category": "ポケモン",
       "energyType": "闘",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN446076",
-      "surugayaPrice": 52800,
-      "surugayaSoldOut": false,
+      "surugayaUrl": "/product/other/GN446076",
+      "surugayaPrice": 30930,
+      "surugayaSoldOut": true,
       "raritySlug": "sar",
       "surugayaBuyPrice": 35000
     },

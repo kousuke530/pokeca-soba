@@ -2,8 +2,8 @@
   "pack": "強化拡張パック「楽園ドラゴーナ」",
   "packSlug": "sv7a",
   "source": "surugaya",
-  "collectedAt": "2026-07-12T05:52:39.037Z",
-  "count": 91,
+  "collectedAt": "2026-07-14T00:18:24.413Z",
+  "count": 92,
   "cards": [
     {
       "name": "タマタマ",
@@ -573,7 +573,7 @@
       "category": "グッズ",
       "energyType": "",
       "surugayaUrl": "/product/other/GN660863",
-      "surugayaPrice": 50,
+      "surugayaPrice": 99,
       "surugayaSoldOut": true,
       "raritySlug": "u"
     },
@@ -649,7 +649,7 @@
       "rarity": "U",
       "category": "サポート",
       "energyType": "",
-      "surugayaUrl": "/product/other/GN660869",
+      "surugayaUrl": "/product/detail/GN660869?tenpo_cd=410018",
       "surugayaPrice": 29,
       "surugayaSoldOut": true,
       "raritySlug": "u"
@@ -731,6 +731,18 @@
       "category": "ポケモン",
       "energyType": "水",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN660825",
+      "surugayaPrice": 480,
+      "surugayaSoldOut": false,
+      "raritySlug": "ar",
+      "surugayaBuyPrice": null
+    },
+    {
+      "name": "ハルクジラ",
+      "cardNumber": "069/064",
+      "rarity": "AR",
+      "category": "ポケモン",
+      "energyType": "水",
+      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN660826",
       "surugayaPrice": 480,
       "surugayaSoldOut": false,
       "raritySlug": "ar",
@@ -947,7 +959,7 @@
       "category": "ポケモン",
       "energyType": "超",
       "surugayaUrl": "/product/other/GN660807",
-      "surugayaPrice": 22630,
+      "surugayaPrice": 21930,
       "surugayaSoldOut": true,
       "raritySlug": "sar",
       "surugayaBuyPrice": 22000
@@ -971,7 +983,7 @@
       "category": "ポケモン",
       "energyType": "ドラゴン",
       "surugayaUrl": "/product/other/GN660809",
-      "surugayaPrice": 1850,
+      "surugayaPrice": 1810,
       "surugayaSoldOut": true,
       "raritySlug": "sar",
       "surugayaBuyPrice": 2000
@@ -986,7 +998,7 @@
       "surugayaPrice": 660,
       "surugayaSoldOut": true,
       "raritySlug": "sar",
-      "surugayaBuyPrice": 300
+      "surugayaBuyPrice": 500
     },
     {
       "name": "ルチアのアピール",

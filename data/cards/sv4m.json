@@ -2,7 +2,7 @@
   "pack": "拡張パック「未来の一閃」",
   "packSlug": "sv4m",
   "source": "surugaya",
-  "collectedAt": "2026-07-12T05:49:51.517Z",
+  "collectedAt": "2026-07-14T00:15:51.236Z",
   "count": 95,
   "cards": [
     {
@@ -77,8 +77,8 @@
       "rarity": "C",
       "category": "ポケモン",
       "energyType": "草",
-      "surugayaUrl": "/product/other/GN228528",
-      "surugayaPrice": 60,
+      "surugayaUrl": "/product/detail/GN228528?tenpo_cd=400521",
+      "surugayaPrice": 180,
       "surugayaSoldOut": true,
       "raritySlug": "c"
     },
@@ -550,7 +550,7 @@
       "rarity": "R",
       "category": "ポケモン",
       "energyType": "",
-      "surugayaUrl": "/product/other/GN228571",
+      "surugayaUrl": "/product/detail/GN228571?tenpo_cd=410018",
       "surugayaPrice": 35,
       "surugayaSoldOut": true,
       "raritySlug": "r"
@@ -627,8 +627,8 @@
       "rarity": "RR",
       "category": "ポケモン",
       "energyType": "",
-      "surugayaUrl": "/product/other/GN228578",
-      "surugayaPrice": 50,
+      "surugayaUrl": "/product/detail/GN228578?tenpo_cd=410011",
+      "surugayaPrice": 210,
       "surugayaSoldOut": true,
       "raritySlug": "rr"
     },
@@ -1055,16 +1055,16 @@
       "surugayaBuyPrice": null
     },
     {
-      "name": "【ランクB】カウンターキャッチャー",
+      "name": "カウンターキャッチャー",
       "cardNumber": "094/066",
       "rarity": "UR",
       "category": "グッズ",
       "energyType": "",
-      "surugayaUrl": "/product/detail/GB228615?tenpo_cd=201206",
-      "surugayaPrice": 1290,
-      "surugayaSoldOut": true,
+      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN228615",
+      "surugayaPrice": 2480,
+      "surugayaSoldOut": false,
       "raritySlug": "ur",
-      "surugayaBuyPrice": null
+      "surugayaBuyPrice": 1200
     },
     {
       "name": "基本はがねエネルギー",
@@ -1073,7 +1073,7 @@
       "category": "エネルギー",
       "energyType": "",
       "surugayaUrl": "/product/other/GN228616",
-      "surugayaPrice": 1590,
+      "surugayaPrice": 1730,
       "surugayaSoldOut": true,
       "raritySlug": "ur",
       "surugayaBuyPrice": 1100

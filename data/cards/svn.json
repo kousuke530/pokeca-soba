@@ -2,8 +2,8 @@
   "pack": "デッキビルドBOX バトルパートナーズ",
   "packSlug": "svn",
   "source": "surugaya",
-  "collectedAt": "2026-07-12T05:54:07.560Z",
-  "count": 35,
+  "collectedAt": "2026-07-14T00:19:47.716Z",
+  "count": 34,
   "cards": [
     {
       "name": "ミュウex",
@@ -58,17 +58,6 @@
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN832996",
       "surugayaPrice": 160,
       "surugayaSoldOut": false,
-      "raritySlug": "n"
-    },
-    {
-      "name": "ホーホー",
-      "cardNumber": "007/045",
-      "rarity": "ノーマル",
-      "category": "ポケモン",
-      "energyType": "",
-      "surugayaUrl": "/product/detail/GN832998?tenpo_cd=201206",
-      "surugayaPrice": 90,
-      "surugayaSoldOut": true,
       "raritySlug": "n"
     },
     {
@@ -342,7 +331,7 @@
       "rarity": "ノーマル",
       "category": "スタジアム",
       "energyType": "",
-      "surugayaUrl": "/product/other/GN833032",
+      "surugayaUrl": "/product/detail/GN833032?tenpo_cd=410018",
       "surugayaPrice": 77,
       "surugayaSoldOut": true,
       "raritySlug": "n"
@@ -375,7 +364,7 @@
       "rarity": "ノーマル",
       "category": "エネルギー",
       "energyType": "",
-      "surugayaUrl": "/product/other/GN833035",
+      "surugayaUrl": "/product/detail/GN833035?tenpo_cd=410018",
       "surugayaPrice": 57,
       "surugayaSoldOut": true,
       "raritySlug": "n"
