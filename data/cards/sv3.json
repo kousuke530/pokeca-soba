@@ -2,7 +2,7 @@
   "pack": "拡張パック「黒炎の支配者」",
   "packSlug": "sv3",
   "source": "surugaya",
-  "collectedAt": "2026-07-14T00:15:10.542Z",
+  "collectedAt": "2026-07-15T10:33:01.765Z",
   "count": 172,
   "cards": [
     {
@@ -266,7 +266,7 @@
       "rarity": "U",
       "category": "ポケモン",
       "energyType": "炎",
-      "surugayaUrl": "/product/other/GN104260",
+      "surugayaUrl": "/product/detail/GN104260?tenpo_cd=410018",
       "surugayaPrice": 19,
       "surugayaSoldOut": true,
       "raritySlug": "u"
@@ -1650,10 +1650,10 @@
       "category": "ポケモン",
       "energyType": "鋼",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN104363",
-      "surugayaPrice": 580,
+      "surugayaPrice": 400,
       "surugayaSoldOut": false,
       "raritySlug": "ar",
-      "surugayaBuyPrice": 400
+      "surugayaBuyPrice": null
     },
     {
       "name": "ブロロン",
@@ -1685,11 +1685,10 @@
       "rarity": "AR",
       "category": "ポケモン",
       "energyType": "",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN104367",
-      "surugayaPrice": 380,
-      "surugayaSoldOut": false,
-      "raritySlug": "ar",
-      "surugayaBuyPrice": null
+      "surugayaUrl": "/product/other/GN104367",
+      "surugayaPrice": 216,
+      "surugayaSoldOut": true,
+      "raritySlug": "ar"
     },
     {
       "name": "コオリッポex",
@@ -1745,7 +1744,7 @@
       "category": "ポケモン",
       "energyType": "悪",
       "surugayaUrl": "/product/other/GN104372",
-      "surugayaPrice": 1920,
+      "surugayaPrice": 1880,
       "surugayaSoldOut": true,
       "raritySlug": "sr",
       "surugayaBuyPrice": 2500

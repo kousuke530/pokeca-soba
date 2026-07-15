@@ -2,7 +2,7 @@
   "pack": "拡張パック「バトルパートナーズ」",
   "packSlug": "sv9",
   "source": "surugaya",
-  "collectedAt": "2026-07-14T00:19:41.836Z",
+  "collectedAt": "2026-07-15T10:37:27.137Z",
   "count": 166,
   "cards": [
     {
@@ -287,7 +287,7 @@
       "category": "グッズ",
       "energyType": "",
       "surugayaUrl": "/product/other/GN833007",
-      "surugayaPrice": 380,
+      "surugayaPrice": 490,
       "surugayaSoldOut": true,
       "raritySlug": "n",
       "surugayaBuyPrice": null
@@ -518,8 +518,8 @@
       "rarity": "ノーマル",
       "category": "ポケモンのどうぐ",
       "energyType": "",
-      "surugayaUrl": "/product/other/GN833018",
-      "surugayaPrice": 80,
+      "surugayaUrl": "/product/detail/GN833018?tenpo_cd=410011",
+      "surugayaPrice": 150,
       "surugayaSoldOut": true,
       "raritySlug": "n"
     },
@@ -672,7 +672,7 @@
       "rarity": "ノーマル",
       "category": "サポート",
       "energyType": "",
-      "surugayaUrl": "/product/other/GN833026",
+      "surugayaUrl": "/product/detail/GN833026?tenpo_cd=410018",
       "surugayaPrice": 19,
       "surugayaSoldOut": true,
       "raritySlug": "n"
@@ -731,17 +731,6 @@
       "surugayaPrice": 160,
       "surugayaSoldOut": false,
       "raritySlug": "c"
-    },
-    {
-      "name": "ボスの指令(ゲーチス)",
-      "cardNumber": "038/045",
-      "rarity": "ノーマル",
-      "category": "サポート",
-      "energyType": "",
-      "surugayaUrl": "/product/detail/GN833029?tenpo_cd=400492",
-      "surugayaPrice": 180,
-      "surugayaSoldOut": true,
-      "raritySlug": "n"
     },
     {
       "name": "メタング",
@@ -1453,11 +1442,10 @@
       "rarity": "U",
       "category": "サポート",
       "energyType": "",
-      "surugayaUrl": "/product/detail/GN832774?tenpo_cd=400492",
-      "surugayaPrice": 380,
+      "surugayaUrl": "/product/detail/GN832774?tenpo_cd=410011",
+      "surugayaPrice": 210,
       "surugayaSoldOut": true,
-      "raritySlug": "u",
-      "surugayaBuyPrice": null
+      "raritySlug": "u"
     },
     {
       "name": "Nの城",
@@ -1522,7 +1510,7 @@
       "category": "ポケモン",
       "energyType": "水",
       "surugayaUrl": "/product/other/GN832716",
-      "surugayaPrice": 630,
+      "surugayaPrice": 620,
       "surugayaSoldOut": true,
       "raritySlug": "ar",
       "surugayaBuyPrice": 500
@@ -1534,7 +1522,7 @@
       "category": "ポケモン",
       "energyType": "水",
       "surugayaUrl": "/product/other/GN832717",
-      "surugayaPrice": 307,
+      "surugayaPrice": 300,
       "surugayaSoldOut": true,
       "raritySlug": "ar",
       "surugayaBuyPrice": null
@@ -1677,9 +1665,9 @@
       "rarity": "SR",
       "category": "ポケモン",
       "energyType": "超",
-      "surugayaUrl": "/product/other/GN832706",
-      "surugayaPrice": 1190,
-      "surugayaSoldOut": true,
+      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN832706",
+      "surugayaPrice": 1980,
+      "surugayaSoldOut": false,
       "raritySlug": "sr",
       "surugayaBuyPrice": 1000
     },
@@ -1852,16 +1840,27 @@
       "surugayaBuyPrice": 2000
     },
     {
+      "name": "Nのゾロアークex(エラー版)(縞模様なし)",
+      "cardNumber": "131/100",
+      "rarity": "UR",
+      "category": "ポケモン",
+      "energyType": "悪",
+      "surugayaUrl": "/product/detail/GN853868?tenpo_cd=400446",
+      "surugayaPrice": 123250,
+      "surugayaSoldOut": true,
+      "raritySlug": "ur",
+      "surugayaBuyPrice": 60000
+    },
+    {
       "name": "スパイクエネルギー",
       "cardNumber": "132/100",
       "rarity": "UR",
       "category": "エネルギー",
       "energyType": "",
       "surugayaUrl": "/product/other/GN832697",
-      "surugayaPrice": 310,
+      "surugayaPrice": 270,
       "surugayaSoldOut": true,
-      "raritySlug": "ur",
-      "surugayaBuyPrice": null
+      "raritySlug": "ur"
     }
   ]
 }

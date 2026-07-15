@@ -2,8 +2,8 @@
   "pack": "拡張パック「ニンジャスピナー」",
   "packSlug": "m4",
   "source": "surugaya",
-  "collectedAt": "2026-07-14T00:24:48.786Z",
-  "count": 120,
+  "collectedAt": "2026-07-15T10:42:13.755Z",
+  "count": 115,
   "cards": [
     {
       "name": "ビードル",
@@ -216,17 +216,6 @@
       "raritySlug": "u"
     },
     {
-      "name": "ケロマツ",
-      "cardNumber": "020/083",
-      "rarity": "C",
-      "category": "ポケモン",
-      "energyType": "水",
-      "surugayaUrl": "/product/detail/GU633971?tenpo_cd=400492",
-      "surugayaPrice": 80,
-      "surugayaSoldOut": true,
-      "raritySlug": "c"
-    },
-    {
       "name": "ゲコガシラ",
       "cardNumber": "021/083",
       "rarity": "C",
@@ -423,17 +412,6 @@
       "surugayaPrice": 160,
       "surugayaSoldOut": false,
       "raritySlug": "c"
-    },
-    {
-      "name": "オーロット",
-      "cardNumber": "039/083",
-      "rarity": "R",
-      "category": "ポケモン",
-      "energyType": "超",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU633990",
-      "surugayaPrice": 160,
-      "surugayaSoldOut": false,
-      "raritySlug": "r"
     },
     {
       "name": "バケッチャ",
@@ -650,8 +628,8 @@
       "rarity": "U",
       "category": "ポケモン",
       "energyType": "鋼",
-      "surugayaUrl": "/product/other/GU634010",
-      "surugayaPrice": 80,
+      "surugayaUrl": "/product/detail/GU634010?tenpo_cd=410011",
+      "surugayaPrice": 150,
       "surugayaSoldOut": true,
       "raritySlug": "u"
     },
@@ -744,17 +722,6 @@
       "raritySlug": "u"
     },
     {
-      "name": "ミネズミ",
-      "cardNumber": "068/083",
-      "rarity": "C",
-      "category": "ポケモン",
-      "energyType": "",
-      "surugayaUrl": "/product/other/GU634019",
-      "surugayaPrice": 80,
-      "surugayaSoldOut": true,
-      "raritySlug": "c"
-    },
-    {
       "name": "ミルホッグ",
       "cardNumber": "069/083",
       "rarity": "C",
@@ -821,17 +788,6 @@
       "raritySlug": "u"
     },
     {
-      "name": "AZの安らぎ",
-      "cardNumber": "075/083",
-      "rarity": "U",
-      "category": "サポート",
-      "energyType": "",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU634026",
-      "surugayaPrice": 160,
-      "surugayaSoldOut": false,
-      "raritySlug": "u"
-    },
-    {
       "name": "ジプソ",
       "cardNumber": "076/083",
       "rarity": "U",
@@ -848,8 +804,8 @@
       "rarity": "U",
       "category": "サポート",
       "energyType": "",
-      "surugayaUrl": "/product/other/GU634028",
-      "surugayaPrice": 80,
+      "surugayaUrl": "/product/detail/GU634028?tenpo_cd=410011",
+      "surugayaPrice": 150,
       "surugayaSoldOut": true,
       "raritySlug": "u"
     },
@@ -881,8 +837,8 @@
       "rarity": "U",
       "category": "スタジアム",
       "energyType": "",
-      "surugayaUrl": "/product/other/GU634031",
-      "surugayaPrice": 80,
+      "surugayaUrl": "/product/detail/GU634031?tenpo_cd=200984",
+      "surugayaPrice": 100,
       "surugayaSoldOut": true,
       "raritySlug": "u"
     },
@@ -1111,18 +1067,6 @@
       "surugayaBuyPrice": null
     },
     {
-      "name": "パンプジンex",
-      "cardNumber": "100/083",
-      "rarity": "SR",
-      "category": "ポケモン",
-      "energyType": "超",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU634051",
-      "surugayaPrice": 480,
-      "surugayaSoldOut": false,
-      "raritySlug": "sr",
-      "surugayaBuyPrice": null
-    },
-    {
       "name": "コバルオンex",
       "cardNumber": "101/083",
       "rarity": "SR",
@@ -1317,7 +1261,7 @@
       "category": "ポケモン",
       "energyType": "",
       "surugayaUrl": "/product/other/GU634068",
-      "surugayaPrice": 4390,
+      "surugayaPrice": 4300,
       "surugayaSoldOut": true,
       "raritySlug": "sar",
       "surugayaBuyPrice": 3000
@@ -1352,11 +1296,11 @@
       "rarity": "MUR",
       "category": "ポケモン",
       "energyType": "水",
-      "surugayaUrl": "/product/other/GU634071",
-      "surugayaPrice": 64690,
-      "surugayaSoldOut": true,
+      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU634071",
+      "surugayaPrice": 64900,
+      "surugayaSoldOut": false,
       "raritySlug": "mur",
-      "surugayaBuyPrice": 60000
+      "surugayaBuyPrice": 50000
     }
   ]
 }

@@ -2,7 +2,7 @@
   "pack": "強化拡張パック「ナイトワンダラー」",
   "packSlug": "sv6a",
   "source": "surugaya",
-  "collectedAt": "2026-07-14T00:17:52.275Z",
+  "collectedAt": "2026-07-15T10:35:39.607Z",
   "count": 94,
   "cards": [
     {
@@ -385,9 +385,9 @@
       "rarity": "U",
       "category": "ポケモン",
       "energyType": "悪",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN544617",
-      "surugayaPrice": 160,
-      "surugayaSoldOut": false,
+      "surugayaUrl": "/product/detail/GN544617?tenpo_cd=410018",
+      "surugayaPrice": 19,
+      "surugayaSoldOut": true,
       "raritySlug": "u"
     },
     {
@@ -1064,7 +1064,7 @@
       "category": "ポケモンのどうぐ",
       "energyType": "",
       "surugayaUrl": "/product/other/GN544676",
-      "surugayaPrice": 920,
+      "surugayaPrice": 670,
       "surugayaSoldOut": true,
       "raritySlug": "ur",
       "surugayaBuyPrice": 450

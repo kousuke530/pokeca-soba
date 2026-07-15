@@ -2,8 +2,8 @@
   "pack": "拡張パック「ワイルドフォース」",
   "packSlug": "sv5k",
   "source": "surugaya",
-  "collectedAt": "2026-07-14T00:17:07.661Z",
-  "count": 100,
+  "collectedAt": "2026-07-15T10:34:57.335Z",
+  "count": 99,
   "cards": [
     {
       "name": "ロゼリア",
@@ -518,7 +518,7 @@
       "category": "ポケモン",
       "energyType": "悪",
       "surugayaUrl": "/product/other/GN369756",
-      "surugayaPrice": 290,
+      "surugayaPrice": 270,
       "surugayaSoldOut": true,
       "raritySlug": "rr"
     },
@@ -628,7 +628,7 @@
       "category": "ポケモン",
       "energyType": "",
       "surugayaUrl": "/product/other/GN369766",
-      "surugayaPrice": 110,
+      "surugayaPrice": 200,
       "surugayaSoldOut": true,
       "raritySlug": "r"
     },
@@ -688,16 +688,15 @@
       "raritySlug": "ace"
     },
     {
-      "name": "【ランクB】なかよしポフィン",
+      "name": "なかよしポフィン",
       "cardNumber": "063/071",
       "rarity": "U",
       "category": "グッズ",
       "energyType": "",
-      "surugayaUrl": "/product/other/GB369772",
-      "surugayaPrice": 380,
-      "surugayaSoldOut": true,
-      "raritySlug": "u",
-      "surugayaBuyPrice": null
+      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN369772",
+      "surugayaPrice": 160,
+      "surugayaSoldOut": false,
+      "raritySlug": "u"
     },
     {
       "name": "緊急ボード",
@@ -1089,28 +1088,16 @@
       "surugayaBuyPrice": 1000
     },
     {
-      "name": "マツバの確信",
-      "cardNumber": "097/071",
-      "rarity": "SAR",
-      "category": "サポート",
-      "energyType": "",
-      "surugayaUrl": "/product/other/GN369806",
-      "surugayaPrice": 4260,
-      "surugayaSoldOut": true,
-      "raritySlug": "sar",
-      "surugayaBuyPrice": 4500
-    },
-    {
-      "name": "ウガツホムラex",
+      "name": "【ランクB】ウガツホムラex",
       "cardNumber": "098/071",
       "rarity": "UR",
       "category": "ポケモン",
       "energyType": "炎",
-      "surugayaUrl": "/product/other/GN369807",
-      "surugayaPrice": 510,
+      "surugayaUrl": "/product/other/GB369807",
+      "surugayaPrice": 630,
       "surugayaSoldOut": true,
       "raritySlug": "ur",
-      "surugayaBuyPrice": 400
+      "surugayaBuyPrice": null
     },
     {
       "name": "【ランクB】ウネルミナモex",

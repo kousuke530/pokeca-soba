@@ -2,7 +2,7 @@
   "pack": "拡張パック 「変幻の仮面」",
   "packSlug": "sv6",
   "source": "surugaya",
-  "collectedAt": "2026-07-14T00:17:34.449Z",
+  "collectedAt": "2026-07-15T10:35:22.917Z",
   "count": 132,
   "cards": [
     {
@@ -224,6 +224,18 @@
       "surugayaPrice": 160,
       "surugayaSoldOut": false,
       "raritySlug": "c"
+    },
+    {
+      "name": "シャンデラ",
+      "cardNumber": "021/101",
+      "rarity": "R",
+      "category": "ポケモン",
+      "energyType": "炎",
+      "surugayaUrl": "/product/detail/GN486490?tenpo_cd=410011",
+      "surugayaPrice": 360,
+      "surugayaSoldOut": true,
+      "raritySlug": "r",
+      "surugayaBuyPrice": null
     },
     {
       "name": "オーガポン かまどのめんex",
@@ -587,17 +599,6 @@
       "surugayaPrice": 160,
       "surugayaSoldOut": false,
       "raritySlug": "c"
-    },
-    {
-      "name": "マシマシラ",
-      "cardNumber": "055/101",
-      "rarity": "R",
-      "category": "ポケモン",
-      "energyType": "超",
-      "surugayaUrl": "/product/detail/GN486524?tenpo_cd=400492",
-      "surugayaPrice": 280,
-      "surugayaSoldOut": true,
-      "raritySlug": "r"
     },
     {
       "name": "キチキギス",
@@ -1137,7 +1138,7 @@
       "category": "ポケモン",
       "energyType": "水",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN486573",
-      "surugayaPrice": 580,
+      "surugayaPrice": 480,
       "surugayaSoldOut": false,
       "raritySlug": "ar",
       "surugayaBuyPrice": null
@@ -1245,7 +1246,7 @@
       "category": "ポケモン",
       "energyType": "",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN486582",
-      "surugayaPrice": 2280,
+      "surugayaPrice": 1980,
       "surugayaSoldOut": false,
       "raritySlug": "ar",
       "surugayaBuyPrice": 1000
@@ -1332,7 +1333,7 @@
       "surugayaPrice": 500,
       "surugayaSoldOut": true,
       "raritySlug": "sr",
-      "surugayaBuyPrice": 400
+      "surugayaBuyPrice": 500
     },
     {
       "name": "ハピナスex",

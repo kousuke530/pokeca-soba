@@ -2,7 +2,7 @@
   "pack": "拡張パック「ムニキスゼロ」",
   "packSlug": "m3",
   "source": "surugaya",
-  "collectedAt": "2026-07-14T00:24:32.723Z",
+  "collectedAt": "2026-07-15T10:42:00.652Z",
   "count": 116,
   "cards": [
     {
@@ -871,7 +871,7 @@
       "category": "エネルギー",
       "energyType": "",
       "surugayaUrl": "/product/other/GU584328",
-      "surugayaPrice": 570,
+      "surugayaPrice": 560,
       "surugayaSoldOut": true,
       "raritySlug": "r",
       "surugayaBuyPrice": null
@@ -1185,18 +1185,6 @@
       "surugayaBuyPrice": null
     },
     {
-      "name": "ピュール",
-      "cardNumber": "106/080",
-      "rarity": "SR",
-      "category": "サポート",
-      "energyType": "",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU584297",
-      "surugayaPrice": 680,
-      "surugayaSoldOut": false,
-      "raritySlug": "sr",
-      "surugayaBuyPrice": null
-    },
-    {
       "name": "メイのはげまし",
       "cardNumber": "107/080",
       "rarity": "SR",
@@ -1291,16 +1279,28 @@
       "surugayaBuyPrice": 7000
     },
     {
+      "name": "メイのはげまし",
+      "cardNumber": "115/080",
+      "rarity": "SAR",
+      "category": "サポート",
+      "energyType": "",
+      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU584282",
+      "surugayaPrice": 16800,
+      "surugayaSoldOut": false,
+      "raritySlug": "sar",
+      "surugayaBuyPrice": 10000
+    },
+    {
       "name": "ユカリ",
       "cardNumber": "116/080",
       "rarity": "SAR",
       "category": "サポート",
       "energyType": "",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU584283",
-      "surugayaPrice": 1980,
+      "surugayaPrice": 1580,
       "surugayaSoldOut": false,
       "raritySlug": "sar",
-      "surugayaBuyPrice": 800
+      "surugayaBuyPrice": 700
     },
     {
       "name": "メガジガルデex",
