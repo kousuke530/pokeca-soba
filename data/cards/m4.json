@@ -2,8 +2,8 @@
   "pack": "拡張パック「ニンジャスピナー」",
   "packSlug": "m4",
   "source": "surugaya",
-  "collectedAt": "2026-07-15T10:42:13.755Z",
-  "count": 115,
+  "collectedAt": "2026-07-16T00:22:35.164Z",
+  "count": 119,
   "cards": [
     {
       "name": "ビードル",
@@ -414,6 +414,17 @@
       "raritySlug": "c"
     },
     {
+      "name": "オーロット",
+      "cardNumber": "039/083",
+      "rarity": "R",
+      "category": "ポケモン",
+      "energyType": "超",
+      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU633990",
+      "surugayaPrice": 160,
+      "surugayaSoldOut": false,
+      "raritySlug": "r"
+    },
+    {
       "name": "バケッチャ",
       "cardNumber": "040/083",
       "rarity": "C",
@@ -722,6 +733,17 @@
       "raritySlug": "u"
     },
     {
+      "name": "ミネズミ",
+      "cardNumber": "068/083",
+      "rarity": "C",
+      "category": "ポケモン",
+      "energyType": "",
+      "surugayaUrl": "/product/detail/GU634019?tenpo_cd=410011",
+      "surugayaPrice": 150,
+      "surugayaSoldOut": true,
+      "raritySlug": "c"
+    },
+    {
       "name": "ミルホッグ",
       "cardNumber": "069/083",
       "rarity": "C",
@@ -785,6 +807,17 @@
       "surugayaUrl": "/product/other/GU634025",
       "surugayaPrice": 80,
       "surugayaSoldOut": true,
+      "raritySlug": "u"
+    },
+    {
+      "name": "AZの安らぎ",
+      "cardNumber": "075/083",
+      "rarity": "U",
+      "category": "サポート",
+      "energyType": "",
+      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU634026",
+      "surugayaPrice": 160,
+      "surugayaSoldOut": false,
       "raritySlug": "u"
     },
     {
@@ -1062,6 +1095,18 @@
       "energyType": "超",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU634050",
       "surugayaPrice": 580,
+      "surugayaSoldOut": false,
+      "raritySlug": "sr",
+      "surugayaBuyPrice": null
+    },
+    {
+      "name": "パンプジンex",
+      "cardNumber": "100/083",
+      "rarity": "SR",
+      "category": "ポケモン",
+      "energyType": "超",
+      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU634051",
+      "surugayaPrice": 480,
       "surugayaSoldOut": false,
       "raritySlug": "sr",
       "surugayaBuyPrice": null

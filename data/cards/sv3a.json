@@ -2,7 +2,7 @@
   "pack": "強化拡張パック「レイジングサーフ」",
   "packSlug": "sv3a",
   "source": "surugaya",
-  "collectedAt": "2026-07-15T10:33:13.580Z",
+  "collectedAt": "2026-07-16T00:13:16.597Z",
   "count": 92,
   "cards": [
     {
@@ -1024,16 +1024,15 @@
       "surugayaBuyPrice": 1200
     },
     {
-      "name": "【ランクB】ビーチコート",
+      "name": "ビーチコート",
       "cardNumber": "091/062",
       "rarity": "UR",
       "category": "スタジアム",
       "energyType": "",
-      "surugayaUrl": "/product/detail/GB170334?tenpo_cd=410124",
-      "surugayaPrice": 680,
+      "surugayaUrl": "/product/other/GN170334",
+      "surugayaPrice": 270,
       "surugayaSoldOut": true,
-      "raritySlug": "ur",
-      "surugayaBuyPrice": null
+      "raritySlug": "ur"
     },
     {
       "name": "リバーサルエネルギー",

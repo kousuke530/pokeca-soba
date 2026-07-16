@@ -2,8 +2,8 @@
   "pack": "拡張パック「ムニキスゼロ」",
   "packSlug": "m3",
   "source": "surugaya",
-  "collectedAt": "2026-07-15T10:42:00.652Z",
-  "count": 116,
+  "collectedAt": "2026-07-16T00:22:21.681Z",
+  "count": 117,
   "cards": [
     {
       "name": "イトマル",
@@ -1180,6 +1180,18 @@
       "energyType": "",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU584296",
       "surugayaPrice": 580,
+      "surugayaSoldOut": false,
+      "raritySlug": "sr",
+      "surugayaBuyPrice": null
+    },
+    {
+      "name": "ピュール",
+      "cardNumber": "106/080",
+      "rarity": "SR",
+      "category": "サポート",
+      "energyType": "",
+      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU584297",
+      "surugayaPrice": 680,
       "surugayaSoldOut": false,
       "raritySlug": "sr",
       "surugayaBuyPrice": null

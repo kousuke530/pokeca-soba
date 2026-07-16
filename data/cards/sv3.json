@@ -2,7 +2,7 @@
   "pack": "拡張パック「黒炎の支配者」",
   "packSlug": "sv3",
   "source": "surugaya",
-  "collectedAt": "2026-07-15T10:33:01.765Z",
+  "collectedAt": "2026-07-16T00:13:03.942Z",
   "count": 172,
   "cards": [
     {
@@ -1864,22 +1864,22 @@
       "category": "ポケモン",
       "energyType": "",
       "surugayaUrl": "/product/other/GN104383",
-      "surugayaPrice": 1860,
+      "surugayaPrice": 1820,
       "surugayaSoldOut": true,
       "raritySlug": "sar",
       "surugayaBuyPrice": 1200
     },
     {
-      "name": "【ランクB】オモダカ",
+      "name": "オモダカ",
       "cardNumber": "137/108",
       "rarity": "SAR",
       "category": "サポート",
       "energyType": "",
-      "surugayaUrl": "/product/other/GB104384",
-      "surugayaPrice": 880,
-      "surugayaSoldOut": true,
+      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN104384",
+      "surugayaPrice": 1280,
+      "surugayaSoldOut": false,
       "raritySlug": "sar",
-      "surugayaBuyPrice": null
+      "surugayaBuyPrice": 600
     },
     {
       "name": "ポピー",
