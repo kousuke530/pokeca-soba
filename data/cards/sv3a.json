@@ -2,7 +2,7 @@
   "pack": "強化拡張パック「レイジングサーフ」",
   "packSlug": "sv3a",
   "source": "surugaya",
-  "collectedAt": "2026-07-16T00:13:16.597Z",
+  "collectedAt": "2026-07-17T00:17:48.382Z",
   "count": 92,
   "cards": [
     {
@@ -892,16 +892,15 @@
       "surugayaBuyPrice": null
     },
     {
-      "name": "オトシドリex",
+      "name": "【ランクB】オトシドリex",
       "cardNumber": "080/062",
       "rarity": "SR",
       "category": "ポケモン",
       "energyType": "",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN170323",
-      "surugayaPrice": 380,
-      "surugayaSoldOut": false,
-      "raritySlug": "sr",
-      "surugayaBuyPrice": null
+      "surugayaUrl": "/product/detail/GB170323?tenpo_cd=410124",
+      "surugayaPrice": 290,
+      "surugayaSoldOut": true,
+      "raritySlug": "sr"
     },
     {
       "name": "アオキ",
@@ -1024,15 +1023,16 @@
       "surugayaBuyPrice": 1200
     },
     {
-      "name": "ビーチコート",
+      "name": "【ランクB】ビーチコート",
       "cardNumber": "091/062",
       "rarity": "UR",
       "category": "スタジアム",
       "energyType": "",
-      "surugayaUrl": "/product/other/GN170334",
-      "surugayaPrice": 270,
+      "surugayaUrl": "/product/detail/GB170334?tenpo_cd=410124",
+      "surugayaPrice": 680,
       "surugayaSoldOut": true,
-      "raritySlug": "ur"
+      "raritySlug": "ur",
+      "surugayaBuyPrice": null
     },
     {
       "name": "リバーサルエネルギー",

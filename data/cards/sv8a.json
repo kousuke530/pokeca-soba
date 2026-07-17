@@ -2,8 +2,8 @@
   "pack": "ハイクラスパック 「テラスタルフェスex」",
   "packSlug": "sv8a",
   "source": "surugaya",
-  "collectedAt": "2026-07-16T00:17:25.145Z",
-  "count": 471,
+  "collectedAt": "2026-07-17T00:22:00.599Z",
+  "count": 472,
   "cards": [
     {
       "name": "スボミー",
@@ -562,6 +562,18 @@
     {
       "name": "ブースター",
       "cardNumber": "021/187",
+      "rarity": "マスターボール",
+      "category": "ポケモン",
+      "energyType": "炎",
+      "surugayaUrl": "/product/other/GN764603",
+      "surugayaPrice": 2150,
+      "surugayaSoldOut": true,
+      "raritySlug": "mb",
+      "surugayaBuyPrice": 1000
+    },
+    {
+      "name": "ブースター",
+      "cardNumber": "021/187",
       "rarity": "ミラー",
       "category": "ポケモン",
       "energyType": "炎",
@@ -835,7 +847,7 @@
       "category": "ポケモン",
       "energyType": "水",
       "surugayaUrl": "/product/other/GN764610",
-      "surugayaPrice": 450,
+      "surugayaPrice": 490,
       "surugayaSoldOut": true,
       "raritySlug": "mb",
       "surugayaBuyPrice": 300
@@ -1015,7 +1027,7 @@
       "category": "ポケモン",
       "energyType": "水",
       "surugayaUrl": "/product/other/GN764759",
-      "surugayaPrice": 260,
+      "surugayaPrice": 135,
       "surugayaSoldOut": true,
       "raritySlug": "mirror"
     },
@@ -2622,7 +2634,7 @@
       "category": "ポケモン",
       "energyType": "悪",
       "surugayaUrl": "/product/other/GN764659",
-      "surugayaPrice": 270,
+      "surugayaPrice": 260,
       "surugayaSoldOut": true,
       "raritySlug": "mb"
     },
@@ -3934,7 +3946,7 @@
       "category": "グッズ",
       "energyType": "",
       "surugayaUrl": "/product/other/GN764841",
-      "surugayaPrice": 330,
+      "surugayaPrice": 320,
       "surugayaSoldOut": true,
       "raritySlug": "mirror",
       "surugayaBuyPrice": null
@@ -4257,7 +4269,7 @@
       "rarity": "ノーマル",
       "category": "サポート",
       "energyType": "",
-      "surugayaUrl": "/product/detail/GN764998?tenpo_cd=410174",
+      "surugayaUrl": "/product/other/GN764998",
       "surugayaPrice": 40,
       "surugayaSoldOut": true,
       "raritySlug": "n"

@@ -2,7 +2,7 @@
   "pack": "拡張パック「未来の一閃」",
   "packSlug": "sv4m",
   "source": "surugaya",
-  "collectedAt": "2026-07-16T00:13:51.166Z",
+  "collectedAt": "2026-07-17T00:18:21.603Z",
   "count": 95,
   "cards": [
     {
@@ -887,14 +887,14 @@
       "surugayaBuyPrice": null
     },
     {
-      "name": "【ランクB】テツノブジンex",
+      "name": "テツノブジンex",
       "cardNumber": "080/066",
       "rarity": "SR",
       "category": "ポケモン",
       "energyType": "超",
-      "surugayaUrl": "/product/detail/GB228601?tenpo_cd=400500",
-      "surugayaPrice": 590,
-      "surugayaSoldOut": true,
+      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN228601",
+      "surugayaPrice": 480,
+      "surugayaSoldOut": false,
       "raritySlug": "sr",
       "surugayaBuyPrice": null
     },

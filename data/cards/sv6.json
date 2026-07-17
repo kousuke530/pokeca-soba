@@ -2,7 +2,7 @@
   "pack": "拡張パック 「変幻の仮面」",
   "packSlug": "sv6",
   "source": "surugaya",
-  "collectedAt": "2026-07-16T00:15:37.623Z",
+  "collectedAt": "2026-07-17T00:20:08.377Z",
   "count": 132,
   "cards": [
     {
@@ -100,7 +100,7 @@
       "category": "ポケモン",
       "energyType": "草",
       "surugayaUrl": "/product/other/GN486478",
-      "surugayaPrice": 18,
+      "surugayaPrice": 19,
       "surugayaSoldOut": true,
       "raritySlug": "c"
     },
@@ -1097,12 +1097,12 @@
       "raritySlug": "u"
     },
     {
-      "name": "【ランクB】レガシーエネルギー",
+      "name": "レガシーエネルギー",
       "cardNumber": "101/101",
       "rarity": "ACE",
       "category": "エネルギー",
       "energyType": "",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GB486570",
+      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN486570",
       "surugayaPrice": 160,
       "surugayaSoldOut": false,
       "raritySlug": "ace"
@@ -1384,16 +1384,16 @@
       "surugayaBuyPrice": null
     },
     {
-      "name": "オーガポン みどりのめんex",
+      "name": "【ランクB】オーガポン みどりのめんex",
       "cardNumber": "125/101",
       "rarity": "SAR",
       "category": "ポケモン",
       "energyType": "草",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN486594",
-      "surugayaPrice": 2480,
-      "surugayaSoldOut": false,
+      "surugayaUrl": "/product/detail/GB486594?tenpo_cd=400499",
+      "surugayaPrice": 4860,
+      "surugayaSoldOut": true,
       "raritySlug": "sar",
-      "surugayaBuyPrice": 1200
+      "surugayaBuyPrice": null
     },
     {
       "name": "オーガポン かまどのめんex",

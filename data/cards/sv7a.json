@@ -2,8 +2,8 @@
   "pack": "強化拡張パック「楽園ドラゴーナ」",
   "packSlug": "sv7a",
   "source": "surugaya",
-  "collectedAt": "2026-07-16T00:16:26.707Z",
-  "count": 91,
+  "collectedAt": "2026-07-17T00:21:00.138Z",
+  "count": 92,
   "cards": [
     {
       "name": "タマタマ",
@@ -951,6 +951,18 @@
       "surugayaSoldOut": false,
       "raritySlug": "sr",
       "surugayaBuyPrice": 2500
+    },
+    {
+      "name": "ラティアスex",
+      "cardNumber": "087/064",
+      "rarity": "SAR",
+      "category": "ポケモン",
+      "energyType": "超",
+      "surugayaUrl": "/product/other/GN660807",
+      "surugayaPrice": 21930,
+      "surugayaSoldOut": true,
+      "raritySlug": "sar",
+      "surugayaBuyPrice": 20000
     },
     {
       "name": "ブリジュラスex",

@@ -2,7 +2,7 @@
   "pack": "拡張パック「超電ブレイカー」",
   "packSlug": "sv8",
   "source": "surugaya",
-  "collectedAt": "2026-07-16T00:16:40.895Z",
+  "collectedAt": "2026-07-17T00:21:14.329Z",
   "count": 136,
   "cards": [
     {
@@ -363,11 +363,10 @@
       "rarity": "RR",
       "category": "ポケモン",
       "energyType": "雷",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN709452",
-      "surugayaPrice": 380,
-      "surugayaSoldOut": false,
-      "raritySlug": "rr",
-      "surugayaBuyPrice": null
+      "surugayaUrl": "/product/other/GN709452",
+      "surugayaPrice": 210,
+      "surugayaSoldOut": true,
+      "raritySlug": "rr"
     },
     {
       "name": "コイル",
@@ -1457,7 +1456,7 @@
       "category": "ポケモン",
       "energyType": "雷",
       "surugayaUrl": "/product/other/GN709419",
-      "surugayaPrice": 88000,
+      "surugayaPrice": 86240,
       "surugayaSoldOut": true,
       "raritySlug": "sar",
       "surugayaBuyPrice": 70000

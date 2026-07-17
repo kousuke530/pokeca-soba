@@ -2,7 +2,7 @@
   "pack": "拡張パック「ワイルドフォース」",
   "packSlug": "sv5k",
   "source": "surugaya",
-  "collectedAt": "2026-07-16T00:15:09.882Z",
+  "collectedAt": "2026-07-17T00:19:40.424Z",
   "count": 99,
   "cards": [
     {
@@ -518,9 +518,10 @@
       "category": "ポケモン",
       "energyType": "悪",
       "surugayaUrl": "/product/other/GN369756",
-      "surugayaPrice": 270,
+      "surugayaPrice": 310,
       "surugayaSoldOut": true,
-      "raritySlug": "rr"
+      "raritySlug": "rr",
+      "surugayaBuyPrice": null
     },
     {
       "name": "ポチエナ",
@@ -890,7 +891,7 @@
       "category": "ポケモン",
       "energyType": "悪",
       "surugayaUrl": "/product/other/GN369789",
-      "surugayaPrice": 2700,
+      "surugayaPrice": 3211,
       "surugayaSoldOut": true,
       "raritySlug": "ar",
       "surugayaBuyPrice": 2000
@@ -1004,13 +1005,13 @@
       "surugayaBuyPrice": 300
     },
     {
-      "name": "探検家の先導",
+      "name": "【ランクB】探検家の先導",
       "cardNumber": "090/071",
       "rarity": "SR",
       "category": "サポート",
       "energyType": "",
-      "surugayaUrl": "/product/other/GN369799",
-      "surugayaPrice": 300,
+      "surugayaUrl": "/product/other/GB369799",
+      "surugayaPrice": 380,
       "surugayaSoldOut": true,
       "raritySlug": "sr",
       "surugayaBuyPrice": null
