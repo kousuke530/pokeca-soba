@@ -2,7 +2,7 @@
   "pack": "強化拡張パック「熱風のアリーナ」",
   "packSlug": "sv9a",
   "source": "surugaya",
-  "collectedAt": "2026-07-17T00:22:35.230Z",
+  "collectedAt": "2026-07-18T03:25:43.250Z",
   "count": 91,
   "cards": [
     {
@@ -778,7 +778,7 @@
       "category": "ポケモン",
       "energyType": "水",
       "surugayaUrl": "/product/other/GN923794",
-      "surugayaPrice": 4800,
+      "surugayaPrice": 4590,
       "surugayaSoldOut": true,
       "raritySlug": "ar",
       "surugayaBuyPrice": 3500
@@ -844,14 +844,14 @@
       "surugayaBuyPrice": null
     },
     {
-      "name": "ヒビキのホウオウex（Bランク）",
+      "name": "ヒビキのホウオウex",
       "cardNumber": "077/063",
       "rarity": "SR",
       "category": "ポケモン",
       "energyType": "炎",
-      "surugayaUrl": "/product/detail/GN923779?branch_number=0077",
+      "surugayaUrl": "/product/other/GN923779",
       "surugayaPrice": 590,
-      "surugayaSoldOut": false,
+      "surugayaSoldOut": true,
       "raritySlug": "sr",
       "surugayaBuyPrice": 400
     },
@@ -1018,7 +1018,7 @@
       "category": "ポケモン",
       "energyType": "闘",
       "surugayaUrl": "/product/other/GN923771",
-      "surugayaPrice": 6970,
+      "surugayaPrice": 6960,
       "surugayaSoldOut": true,
       "raritySlug": "ur",
       "surugayaBuyPrice": 4000

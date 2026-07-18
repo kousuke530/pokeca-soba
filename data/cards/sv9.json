@@ -2,8 +2,8 @@
   "pack": "拡張パック「バトルパートナーズ」",
   "packSlug": "sv9",
   "source": "surugaya",
-  "collectedAt": "2026-07-17T00:22:19.971Z",
-  "count": 166,
+  "collectedAt": "2026-07-18T03:25:26.224Z",
+  "count": 165,
   "cards": [
     {
       "name": "ミュウex",
@@ -650,8 +650,8 @@
       "rarity": "ノーマル",
       "category": "サポート",
       "energyType": "",
-      "surugayaUrl": "/product/detail/GN833025?tenpo_cd=410011",
-      "surugayaPrice": 150,
+      "surugayaUrl": "/product/other/GN833025",
+      "surugayaPrice": 57,
       "surugayaSoldOut": true,
       "raritySlug": "n"
     },
@@ -1454,7 +1454,7 @@
       "category": "スタジアム",
       "energyType": "",
       "surugayaUrl": "/product/other/GN832775",
-      "surugayaPrice": 19,
+      "surugayaPrice": 18,
       "surugayaSoldOut": true,
       "raritySlug": "u"
     },
@@ -1773,7 +1773,7 @@
       "category": "ポケモン",
       "energyType": "炎",
       "surugayaUrl": "/product/other/GN832698",
-      "surugayaPrice": 1110,
+      "surugayaPrice": 980,
       "surugayaSoldOut": true,
       "raritySlug": "sar",
       "surugayaBuyPrice": 1000
@@ -1837,18 +1837,6 @@
       "surugayaSoldOut": false,
       "raritySlug": "ur",
       "surugayaBuyPrice": 2000
-    },
-    {
-      "name": "Nのゾロアークex(エラー版)(縞模様なし)",
-      "cardNumber": "131/100",
-      "rarity": "UR",
-      "category": "ポケモン",
-      "energyType": "悪",
-      "surugayaUrl": "/product/detail/GN853868?tenpo_cd=400446",
-      "surugayaPrice": 129740,
-      "surugayaSoldOut": true,
-      "raritySlug": "ur",
-      "surugayaBuyPrice": 60000
     },
     {
       "name": "スパイクエネルギー",

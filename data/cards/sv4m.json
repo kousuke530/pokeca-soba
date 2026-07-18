@@ -2,7 +2,7 @@
   "pack": "拡張パック「未来の一閃」",
   "packSlug": "sv4m",
   "source": "surugaya",
-  "collectedAt": "2026-07-17T00:18:21.603Z",
+  "collectedAt": "2026-07-18T03:21:30.547Z",
   "count": 95,
   "cards": [
     {
@@ -887,14 +887,14 @@
       "surugayaBuyPrice": null
     },
     {
-      "name": "テツノブジンex",
+      "name": "【ランクB】テツノブジンex",
       "cardNumber": "080/066",
       "rarity": "SR",
       "category": "ポケモン",
       "energyType": "超",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN228601",
-      "surugayaPrice": 480,
-      "surugayaSoldOut": false,
+      "surugayaUrl": "/product/detail/GB228601?tenpo_cd=400500",
+      "surugayaPrice": 590,
+      "surugayaSoldOut": true,
       "raritySlug": "sr",
       "surugayaBuyPrice": null
     },
@@ -971,14 +971,14 @@
       "surugayaBuyPrice": 300
     },
     {
-      "name": "【ランクB】リップ",
+      "name": "リップ",
       "cardNumber": "087/066",
       "rarity": "SR",
       "category": "サポート",
       "energyType": "",
-      "surugayaUrl": "/product/other/GB228608",
-      "surugayaPrice": 350,
-      "surugayaSoldOut": true,
+      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN228608",
+      "surugayaPrice": 680,
+      "surugayaSoldOut": false,
       "raritySlug": "sr",
       "surugayaBuyPrice": null
     },
@@ -1073,7 +1073,7 @@
       "category": "エネルギー",
       "energyType": "",
       "surugayaUrl": "/product/other/GN228616",
-      "surugayaPrice": 1510,
+      "surugayaPrice": 1730,
       "surugayaSoldOut": true,
       "raritySlug": "ur",
       "surugayaBuyPrice": 1100

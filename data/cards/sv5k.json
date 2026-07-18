@@ -2,7 +2,7 @@
   "pack": "拡張パック「ワイルドフォース」",
   "packSlug": "sv5k",
   "source": "surugaya",
-  "collectedAt": "2026-07-17T00:19:40.424Z",
+  "collectedAt": "2026-07-18T03:22:44.647Z",
   "count": 99,
   "cards": [
     {
@@ -1005,13 +1005,13 @@
       "surugayaBuyPrice": 300
     },
     {
-      "name": "【ランクB】探検家の先導",
+      "name": "探検家の先導",
       "cardNumber": "090/071",
       "rarity": "SR",
       "category": "サポート",
       "energyType": "",
-      "surugayaUrl": "/product/other/GB369799",
-      "surugayaPrice": 380,
+      "surugayaUrl": "/product/other/GN369799",
+      "surugayaPrice": 300,
       "surugayaSoldOut": true,
       "raritySlug": "sr",
       "surugayaBuyPrice": null
@@ -1089,28 +1089,28 @@
       "surugayaBuyPrice": 1000
     },
     {
-      "name": "ウガツホムラex",
+      "name": "【ランクB】ウガツホムラex",
       "cardNumber": "098/071",
       "rarity": "UR",
       "category": "ポケモン",
       "energyType": "炎",
-      "surugayaUrl": "/product/other/GN369807",
-      "surugayaPrice": 510,
+      "surugayaUrl": "/product/other/GB369807",
+      "surugayaPrice": 630,
       "surugayaSoldOut": true,
       "raritySlug": "ur",
-      "surugayaBuyPrice": 400
+      "surugayaBuyPrice": null
     },
     {
-      "name": "【ランクB】ウネルミナモex",
+      "name": "ウネルミナモex",
       "cardNumber": "099/071",
       "rarity": "UR",
       "category": "ポケモン",
       "energyType": "水",
-      "surugayaUrl": "/product/detail/GB369808?tenpo_cd=200959",
-      "surugayaPrice": 611,
-      "surugayaSoldOut": true,
+      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN369808",
+      "surugayaPrice": 880,
+      "surugayaSoldOut": false,
       "raritySlug": "ur",
-      "surugayaBuyPrice": null
+      "surugayaBuyPrice": 400
     },
     {
       "name": "タケルライコex",
