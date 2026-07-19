@@ -2,8 +2,8 @@
   "pack": "拡張パック「バトルパートナーズ」",
   "packSlug": "sv9",
   "source": "surugaya",
-  "collectedAt": "2026-07-18T03:25:26.224Z",
-  "count": 165,
+  "collectedAt": "2026-07-19T09:21:16.669Z",
+  "count": 166,
   "cards": [
     {
       "name": "ミュウex",
@@ -1777,6 +1777,18 @@
       "surugayaSoldOut": true,
       "raritySlug": "sar",
       "surugayaBuyPrice": 1000
+    },
+    {
+      "name": "ナンジャモのハラバリーex",
+      "cardNumber": "125/100",
+      "rarity": "SAR",
+      "category": "ポケモン",
+      "energyType": "雷",
+      "surugayaUrl": "/product/other/GN832699",
+      "surugayaPrice": 7680,
+      "surugayaSoldOut": true,
+      "raritySlug": "sar",
+      "surugayaBuyPrice": 7500
     },
     {
       "name": "リーリエのピッピex",

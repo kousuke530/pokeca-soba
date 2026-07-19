@@ -2,7 +2,7 @@
   "pack": "強化拡張パック「クリムゾンヘイズ」",
   "packSlug": "sv5a",
   "source": "surugaya",
-  "collectedAt": "2026-07-18T03:22:55.391Z",
+  "collectedAt": "2026-07-19T09:18:55.046Z",
   "count": 95,
   "cards": [
     {
@@ -927,14 +927,14 @@
       "surugayaBuyPrice": 1800
     },
     {
-      "name": "【ランクB】ガチグマ アカツキex",
+      "name": "ガチグマ アカツキex",
       "cardNumber": "084/066",
       "rarity": "SR",
       "category": "ポケモン",
       "energyType": "",
-      "surugayaUrl": "/product/detail/GB446070?tenpo_cd=410124",
-      "surugayaPrice": 380,
-      "surugayaSoldOut": true,
+      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN446070",
+      "surugayaPrice": 480,
+      "surugayaSoldOut": false,
       "raritySlug": "sr",
       "surugayaBuyPrice": null
     },
@@ -1029,7 +1029,7 @@
       "category": "サポート",
       "energyType": "",
       "surugayaUrl": "/product/other/GN446078",
-      "surugayaPrice": 9170,
+      "surugayaPrice": 9510,
       "surugayaSoldOut": true,
       "raritySlug": "sar",
       "surugayaBuyPrice": 8500

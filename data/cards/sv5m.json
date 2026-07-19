@@ -2,7 +2,7 @@
   "pack": "拡張パック「サイバージャッジ」",
   "packSlug": "sv5m",
   "source": "surugaya",
-  "collectedAt": "2026-07-18T03:22:33.361Z",
+  "collectedAt": "2026-07-19T09:18:32.190Z",
   "count": 100,
   "cards": [
     {
@@ -841,9 +841,10 @@
       "category": "ポケモン",
       "energyType": "雷",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN369887",
-      "surugayaPrice": 290,
+      "surugayaPrice": 480,
       "surugayaSoldOut": false,
-      "raritySlug": "ar"
+      "raritySlug": "ar",
+      "surugayaBuyPrice": null
     },
     {
       "name": "テツノイバラ",
@@ -1008,7 +1009,7 @@
       "category": "サポート",
       "energyType": "",
       "surugayaUrl": "/product/other/GN369901",
-      "surugayaPrice": 590,
+      "surugayaPrice": 580,
       "surugayaSoldOut": true,
       "raritySlug": "sr",
       "surugayaBuyPrice": 400

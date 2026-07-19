@@ -2,7 +2,7 @@
   "pack": "拡張パック「未来の一閃」",
   "packSlug": "sv4m",
   "source": "surugaya",
-  "collectedAt": "2026-07-18T03:21:30.547Z",
+  "collectedAt": "2026-07-19T09:17:27.122Z",
   "count": 95,
   "cards": [
     {
@@ -971,14 +971,14 @@
       "surugayaBuyPrice": 300
     },
     {
-      "name": "リップ",
+      "name": "【ランクB】リップ",
       "cardNumber": "087/066",
       "rarity": "SR",
       "category": "サポート",
       "energyType": "",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN228608",
-      "surugayaPrice": 680,
-      "surugayaSoldOut": false,
+      "surugayaUrl": "/product/other/GB228608",
+      "surugayaPrice": 350,
+      "surugayaSoldOut": true,
       "raritySlug": "sr",
       "surugayaBuyPrice": null
     },

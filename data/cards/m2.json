@@ -2,7 +2,7 @@
   "pack": "拡張パック「インフェルノX」",
   "packSlug": "m2",
   "source": "surugaya",
-  "collectedAt": "2026-07-18T03:28:08.993Z",
+  "collectedAt": "2026-07-19T09:24:00.640Z",
   "count": 114,
   "cards": [
     {
@@ -1001,9 +1001,10 @@
       "category": "ポケモン",
       "energyType": "鋼",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU427978",
-      "surugayaPrice": 230,
+      "surugayaPrice": 380,
       "surugayaSoldOut": false,
-      "raritySlug": "ar"
+      "raritySlug": "ar",
+      "surugayaBuyPrice": null
     },
     {
       "name": "プクリン",
