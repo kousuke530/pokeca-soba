@@ -2,8 +2,8 @@
   "pack": "拡張パック「未来の一閃」",
   "packSlug": "sv4m",
   "source": "surugaya",
-  "collectedAt": "2026-07-19T09:17:27.122Z",
-  "count": 95,
+  "collectedAt": "2026-07-22T23:20:11.596Z",
+  "count": 93,
   "cards": [
     {
       "name": "アメタマ",
@@ -534,17 +534,6 @@
       "raritySlug": "c"
     },
     {
-      "name": "ポリゴン2",
-      "cardNumber": "049/066",
-      "rarity": "C",
-      "category": "ポケモン",
-      "energyType": "",
-      "surugayaUrl": "/product/detail/GN228570?tenpo_cd=410018",
-      "surugayaPrice": null,
-      "surugayaSoldOut": true,
-      "raritySlug": "c"
-    },
-    {
       "name": "ポリゴンZ",
       "cardNumber": "050/066",
       "rarity": "R",
@@ -565,17 +554,6 @@
       "surugayaPrice": 160,
       "surugayaSoldOut": false,
       "raritySlug": "c"
-    },
-    {
-      "name": "エテボース",
-      "cardNumber": "052/066",
-      "rarity": "U",
-      "category": "ポケモン",
-      "energyType": "",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN228573",
-      "surugayaPrice": 160,
-      "surugayaSoldOut": false,
-      "raritySlug": "u"
     },
     {
       "name": "ミルタンク",
@@ -738,7 +716,7 @@
       "category": "ポケモン",
       "energyType": "草",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN228588",
-      "surugayaPrice": 380,
+      "surugayaPrice": 300,
       "surugayaSoldOut": false,
       "raritySlug": "ar",
       "surugayaBuyPrice": null
@@ -893,7 +871,7 @@
       "category": "ポケモン",
       "energyType": "超",
       "surugayaUrl": "/product/detail/GB228601?tenpo_cd=400500",
-      "surugayaPrice": 590,
+      "surugayaPrice": 780,
       "surugayaSoldOut": true,
       "raritySlug": "sr",
       "surugayaBuyPrice": null
@@ -977,7 +955,7 @@
       "category": "サポート",
       "energyType": "",
       "surugayaUrl": "/product/other/GB228608",
-      "surugayaPrice": 350,
+      "surugayaPrice": 310,
       "surugayaSoldOut": true,
       "raritySlug": "sr",
       "surugayaBuyPrice": null
@@ -1073,7 +1051,7 @@
       "category": "エネルギー",
       "energyType": "",
       "surugayaUrl": "/product/other/GN228616",
-      "surugayaPrice": 1730,
+      "surugayaPrice": 1510,
       "surugayaSoldOut": true,
       "raritySlug": "ur",
       "surugayaBuyPrice": 1100

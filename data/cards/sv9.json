@@ -2,7 +2,7 @@
   "pack": "拡張パック「バトルパートナーズ」",
   "packSlug": "sv9",
   "source": "surugaya",
-  "collectedAt": "2026-07-19T09:21:16.669Z",
+  "collectedAt": "2026-07-22T23:24:21.765Z",
   "count": 166,
   "cards": [
     {
@@ -286,8 +286,8 @@
       "rarity": "ノーマル",
       "category": "グッズ",
       "energyType": "",
-      "surugayaUrl": "/product/other/GN833007",
-      "surugayaPrice": 490,
+      "surugayaUrl": "/product/detail/GN833007?tenpo_cd=400356",
+      "surugayaPrice": 500,
       "surugayaSoldOut": true,
       "raritySlug": "n",
       "surugayaBuyPrice": null
@@ -1498,7 +1498,7 @@
       "category": "ポケモン",
       "energyType": "草",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN832715",
-      "surugayaPrice": 380,
+      "surugayaPrice": 300,
       "surugayaSoldOut": false,
       "raritySlug": "ar",
       "surugayaBuyPrice": null
@@ -1510,7 +1510,7 @@
       "category": "ポケモン",
       "energyType": "水",
       "surugayaUrl": "/product/other/GN832716",
-      "surugayaPrice": 620,
+      "surugayaPrice": 650,
       "surugayaSoldOut": true,
       "raritySlug": "ar",
       "surugayaBuyPrice": 500
@@ -1596,7 +1596,7 @@
       "surugayaPrice": 2580,
       "surugayaSoldOut": false,
       "raritySlug": "ar",
-      "surugayaBuyPrice": 1500
+      "surugayaBuyPrice": 1200
     },
     {
       "name": "オオタチ",
@@ -1773,7 +1773,7 @@
       "category": "ポケモン",
       "energyType": "炎",
       "surugayaUrl": "/product/other/GN832698",
-      "surugayaPrice": 980,
+      "surugayaPrice": 880,
       "surugayaSoldOut": true,
       "raritySlug": "sar",
       "surugayaBuyPrice": 1000
@@ -1788,7 +1788,7 @@
       "surugayaPrice": 7680,
       "surugayaSoldOut": true,
       "raritySlug": "sar",
-      "surugayaBuyPrice": 7500
+      "surugayaBuyPrice": 8000
     },
     {
       "name": "リーリエのピッピex",
@@ -1857,9 +1857,10 @@
       "category": "エネルギー",
       "energyType": "",
       "surugayaUrl": "/product/other/GN832697",
-      "surugayaPrice": 270,
+      "surugayaPrice": 460,
       "surugayaSoldOut": true,
-      "raritySlug": "ur"
+      "raritySlug": "ur",
+      "surugayaBuyPrice": null
     }
   ]
 }

@@ -2,8 +2,8 @@
   "pack": "拡張パック「メガブレイブ」",
   "packSlug": "m1l",
   "source": "surugaya",
-  "collectedAt": "2026-07-19T09:23:14.141Z",
-  "count": 91,
+  "collectedAt": "2026-07-22T23:26:24.868Z",
+  "count": 92,
   "cards": [
     {
       "name": "フシギダネ",
@@ -693,7 +693,7 @@
       "rarity": "U",
       "category": "スタジアム",
       "energyType": "",
-      "surugayaUrl": "/product/other/GU362772",
+      "surugayaUrl": "/product/detail/GU362772?tenpo_cd=410174",
       "surugayaPrice": 30,
       "surugayaSoldOut": true,
       "raritySlug": "u"
@@ -971,6 +971,18 @@
       "surugayaBuyPrice": 4500
     },
     {
+      "name": "メガフシギバナex",
+      "cardNumber": "087/063",
+      "rarity": "SAR",
+      "category": "ポケモン",
+      "energyType": "草",
+      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU362713",
+      "surugayaPrice": 7280,
+      "surugayaSoldOut": false,
+      "raritySlug": "sar",
+      "surugayaBuyPrice": 4000
+    },
+    {
       "name": "メガルカリオex",
       "cardNumber": "088/063",
       "rarity": "SAR",
@@ -980,7 +992,7 @@
       "surugayaPrice": 10200,
       "surugayaSoldOut": false,
       "raritySlug": "sar",
-      "surugayaBuyPrice": 8000
+      "surugayaBuyPrice": 7000
     },
     {
       "name": "メガアブソルex",
@@ -1025,7 +1037,7 @@
       "category": "ポケモン",
       "energyType": "闘",
       "surugayaUrl": "/product/other/GU364211",
-      "surugayaPrice": 52890,
+      "surugayaPrice": 45420,
       "surugayaSoldOut": true,
       "raritySlug": "mur",
       "surugayaBuyPrice": 42000

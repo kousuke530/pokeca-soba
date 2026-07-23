@@ -2,7 +2,7 @@
   "pack": "強化拡張パック「クリムゾンヘイズ」",
   "packSlug": "sv5a",
   "source": "surugaya",
-  "collectedAt": "2026-07-19T09:18:55.046Z",
+  "collectedAt": "2026-07-22T23:21:49.269Z",
   "count": 95,
   "cards": [
     {
@@ -574,7 +574,7 @@
       "category": "グッズ",
       "energyType": "",
       "surugayaUrl": "/product/other/GN446039",
-      "surugayaPrice": 990,
+      "surugayaPrice": 1680,
       "surugayaSoldOut": true,
       "raritySlug": "ace",
       "surugayaBuyPrice": 800
@@ -741,7 +741,7 @@
       "category": "ポケモン",
       "energyType": "草",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN446054",
-      "surugayaPrice": 480,
+      "surugayaPrice": 380,
       "surugayaSoldOut": false,
       "raritySlug": "ar",
       "surugayaBuyPrice": null
@@ -861,7 +861,7 @@
       "category": "ポケモン",
       "energyType": "",
       "surugayaUrl": "/product/other/GN446064",
-      "surugayaPrice": 3606,
+      "surugayaPrice": 2960,
       "surugayaSoldOut": true,
       "raritySlug": "ar",
       "surugayaBuyPrice": 3800
@@ -987,16 +987,16 @@
       "surugayaBuyPrice": 1200
     },
     {
-      "name": "ヤバソチャex",
+      "name": "【ランクB】ヤバソチャex",
       "cardNumber": "089/066",
       "rarity": "SAR",
       "category": "ポケモン",
       "energyType": "草",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN446075",
-      "surugayaPrice": 1580,
-      "surugayaSoldOut": false,
+      "surugayaUrl": "/product/detail/GB446075?tenpo_cd=400483",
+      "surugayaPrice": 1280,
+      "surugayaSoldOut": true,
       "raritySlug": "sar",
-      "surugayaBuyPrice": 800
+      "surugayaBuyPrice": null
     },
     {
       "name": "ゲッコウガex",
@@ -1029,7 +1029,7 @@
       "category": "サポート",
       "energyType": "",
       "surugayaUrl": "/product/other/GN446078",
-      "surugayaPrice": 9510,
+      "surugayaPrice": 9150,
       "surugayaSoldOut": true,
       "raritySlug": "sar",
       "surugayaBuyPrice": 8500
@@ -1065,7 +1065,7 @@
       "category": "ポケモンのどうぐ",
       "energyType": "",
       "surugayaUrl": "/product/other/GN446081",
-      "surugayaPrice": 500,
+      "surugayaPrice": 470,
       "surugayaSoldOut": true,
       "raritySlug": "ur",
       "surugayaBuyPrice": null
@@ -1077,7 +1077,7 @@
       "category": "エネルギー",
       "energyType": "",
       "surugayaUrl": "/product/other/GN446082",
-      "surugayaPrice": 350,
+      "surugayaPrice": 320,
       "surugayaSoldOut": true,
       "raritySlug": "ur",
       "surugayaBuyPrice": 700

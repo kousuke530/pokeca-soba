@@ -2,7 +2,7 @@
   "pack": "強化拡張パック「楽園ドラゴーナ」",
   "packSlug": "sv7a",
   "source": "surugaya",
-  "collectedAt": "2026-07-19T09:19:59.169Z",
+  "collectedAt": "2026-07-22T23:23:00.424Z",
   "count": 92,
   "cards": [
     {
@@ -683,10 +683,9 @@
       "category": "エネルギー",
       "energyType": "",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN660836",
-      "surugayaPrice": 480,
+      "surugayaPrice": 280,
       "surugayaSoldOut": false,
-      "raritySlug": "ace",
-      "surugayaBuyPrice": null
+      "raritySlug": "ace"
     },
     {
       "name": "タマタマ",
@@ -755,10 +754,10 @@
       "category": "ポケモン",
       "energyType": "超",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN660827",
-      "surugayaPrice": 1980,
+      "surugayaPrice": 1680,
       "surugayaSoldOut": false,
       "raritySlug": "ar",
-      "surugayaBuyPrice": 1000
+      "surugayaBuyPrice": 800
     },
     {
       "name": "ビブラーバ",
@@ -947,10 +946,10 @@
       "category": "サポート",
       "energyType": "",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN660821",
-      "surugayaPrice": 4280,
+      "surugayaPrice": 3980,
       "surugayaSoldOut": false,
       "raritySlug": "sr",
-      "surugayaBuyPrice": 2500
+      "surugayaBuyPrice": 2200
     },
     {
       "name": "ラティアスex",
@@ -959,7 +958,7 @@
       "category": "ポケモン",
       "energyType": "超",
       "surugayaUrl": "/product/other/GN660807",
-      "surugayaPrice": 21930,
+      "surugayaPrice": 21490,
       "surugayaSoldOut": true,
       "raritySlug": "sar",
       "surugayaBuyPrice": 20000
@@ -983,7 +982,7 @@
       "category": "ポケモン",
       "energyType": "ドラゴン",
       "surugayaUrl": "/product/other/GN660809",
-      "surugayaPrice": 1810,
+      "surugayaPrice": 1770,
       "surugayaSoldOut": true,
       "raritySlug": "sar",
       "surugayaBuyPrice": 2000

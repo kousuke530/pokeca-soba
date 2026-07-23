@@ -2,8 +2,8 @@
   "pack": "強化拡張パック「熱風のアリーナ」",
   "packSlug": "sv9a",
   "source": "surugaya",
-  "collectedAt": "2026-07-19T09:21:30.811Z",
-  "count": 91,
+  "collectedAt": "2026-07-22T23:24:37.964Z",
+  "count": 90,
   "cards": [
     {
       "name": "ヒビキのカイロス",
@@ -778,7 +778,7 @@
       "category": "ポケモン",
       "energyType": "水",
       "surugayaUrl": "/product/other/GN923794",
-      "surugayaPrice": 4460,
+      "surugayaPrice": 4110,
       "surugayaSoldOut": true,
       "raritySlug": "ar",
       "surugayaBuyPrice": 3500
@@ -850,7 +850,7 @@
       "category": "ポケモン",
       "energyType": "炎",
       "surugayaUrl": "/product/other/GN923779",
-      "surugayaPrice": 670,
+      "surugayaPrice": 590,
       "surugayaSoldOut": true,
       "raritySlug": "sr",
       "surugayaBuyPrice": 400
@@ -886,7 +886,7 @@
       "category": "ポケモン",
       "energyType": "闘",
       "surugayaUrl": "/product/other/GN923782",
-      "surugayaPrice": 1190,
+      "surugayaPrice": 790,
       "surugayaSoldOut": true,
       "raritySlug": "sr",
       "surugayaBuyPrice": 1000
@@ -946,22 +946,10 @@
       "category": "ポケモン",
       "energyType": "草",
       "surugayaUrl": "/product/other/GN923773",
-      "surugayaPrice": 1080,
+      "surugayaPrice": 1020,
       "surugayaSoldOut": true,
       "raritySlug": "sar",
       "surugayaBuyPrice": 700
-    },
-    {
-      "name": "ヒビキのホウオウex",
-      "cardNumber": "086/063",
-      "rarity": "SAR",
-      "category": "ポケモン",
-      "energyType": "炎",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN923774",
-      "surugayaPrice": 29800,
-      "surugayaSoldOut": false,
-      "raritySlug": "sar",
-      "surugayaBuyPrice": 20000
     },
     {
       "name": "シロナのガブリアスex",
@@ -1006,7 +994,7 @@
       "category": "ポケモン",
       "energyType": "炎",
       "surugayaUrl": "/product/other/GN923770",
-      "surugayaPrice": 3640,
+      "surugayaPrice": 3570,
       "surugayaSoldOut": true,
       "raritySlug": "ur",
       "surugayaBuyPrice": 2600
@@ -1018,7 +1006,7 @@
       "category": "ポケモン",
       "energyType": "闘",
       "surugayaUrl": "/product/other/GN923771",
-      "surugayaPrice": 6980,
+      "surugayaPrice": 6810,
       "surugayaSoldOut": true,
       "raritySlug": "ur",
       "surugayaBuyPrice": 4000

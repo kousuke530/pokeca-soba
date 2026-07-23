@@ -2,7 +2,7 @@
   "pack": "拡張パック「ムニキスゼロ」",
   "packSlug": "m3",
   "source": "surugaya",
-  "collectedAt": "2026-07-19T09:26:04.357Z",
+  "collectedAt": "2026-07-22T23:29:20.912Z",
   "count": 117,
   "cards": [
     {
@@ -838,7 +838,7 @@
       "category": "サポート",
       "energyType": "",
       "surugayaUrl": "/product/other/GU584354",
-      "surugayaPrice": 30,
+      "surugayaPrice": null,
       "surugayaSoldOut": true,
       "raritySlug": "u"
     },
@@ -871,7 +871,7 @@
       "category": "エネルギー",
       "energyType": "",
       "surugayaUrl": "/product/other/GU584328",
-      "surugayaPrice": 530,
+      "surugayaPrice": 500,
       "surugayaSoldOut": true,
       "raritySlug": "r",
       "surugayaBuyPrice": null
@@ -1122,7 +1122,7 @@
       "category": "ポケモン",
       "energyType": "",
       "surugayaUrl": "/product/other/GU584291",
-      "surugayaPrice": 1411,
+      "surugayaPrice": 1380,
       "surugayaSoldOut": true,
       "raritySlug": "sr",
       "surugayaBuyPrice": 1200
@@ -1273,10 +1273,10 @@
       "category": "ポケモン",
       "energyType": "闘",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU584280",
-      "surugayaPrice": 4580,
+      "surugayaPrice": 3480,
       "surugayaSoldOut": false,
       "raritySlug": "sar",
-      "surugayaBuyPrice": 3000
+      "surugayaBuyPrice": 1800
     },
     {
       "name": "ニャースex",
@@ -1297,10 +1297,10 @@
       "category": "サポート",
       "energyType": "",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU584282",
-      "surugayaPrice": 16800,
+      "surugayaPrice": 15800,
       "surugayaSoldOut": false,
       "raritySlug": "sar",
-      "surugayaBuyPrice": 10000
+      "surugayaBuyPrice": 9000
     },
     {
       "name": "ユカリ",
