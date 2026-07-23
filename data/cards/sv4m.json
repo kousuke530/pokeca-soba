@@ -2,8 +2,8 @@
   "pack": "拡張パック「未来の一閃」",
   "packSlug": "sv4m",
   "source": "surugaya",
-  "collectedAt": "2026-07-22T23:20:11.596Z",
-  "count": 93,
+  "collectedAt": "2026-07-23T03:03:22.785Z",
+  "count": 95,
   "cards": [
     {
       "name": "アメタマ",
@@ -534,6 +534,17 @@
       "raritySlug": "c"
     },
     {
+      "name": "ポリゴン2",
+      "cardNumber": "049/066",
+      "rarity": "C",
+      "category": "ポケモン",
+      "energyType": "",
+      "surugayaUrl": "/product/detail/GN228570?tenpo_cd=410018",
+      "surugayaPrice": null,
+      "surugayaSoldOut": true,
+      "raritySlug": "c"
+    },
+    {
       "name": "ポリゴンZ",
       "cardNumber": "050/066",
       "rarity": "R",
@@ -554,6 +565,17 @@
       "surugayaPrice": 160,
       "surugayaSoldOut": false,
       "raritySlug": "c"
+    },
+    {
+      "name": "エテボース",
+      "cardNumber": "052/066",
+      "rarity": "U",
+      "category": "ポケモン",
+      "energyType": "",
+      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN228573",
+      "surugayaPrice": 160,
+      "surugayaSoldOut": false,
+      "raritySlug": "u"
     },
     {
       "name": "ミルタンク",
@@ -865,14 +887,14 @@
       "surugayaBuyPrice": null
     },
     {
-      "name": "【ランクB】テツノブジンex",
+      "name": "テツノブジンex",
       "cardNumber": "080/066",
       "rarity": "SR",
       "category": "ポケモン",
       "energyType": "超",
-      "surugayaUrl": "/product/detail/GB228601?tenpo_cd=400500",
-      "surugayaPrice": 780,
-      "surugayaSoldOut": true,
+      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN228601",
+      "surugayaPrice": 480,
+      "surugayaSoldOut": false,
       "raritySlug": "sr",
       "surugayaBuyPrice": null
     },
@@ -1039,10 +1061,10 @@
       "category": "グッズ",
       "energyType": "",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN228615",
-      "surugayaPrice": 2480,
+      "surugayaPrice": 1980,
       "surugayaSoldOut": false,
       "raritySlug": "ur",
-      "surugayaBuyPrice": 1200
+      "surugayaBuyPrice": 700
     },
     {
       "name": "基本はがねエネルギー",

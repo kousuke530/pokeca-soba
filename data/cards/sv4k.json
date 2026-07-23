@@ -2,7 +2,7 @@
   "pack": "拡張パック「古代の咆哮」",
   "packSlug": "sv4k",
   "source": "surugaya",
-  "collectedAt": "2026-07-19T09:17:16.138Z",
+  "collectedAt": "2026-07-23T03:03:05.811Z",
   "count": 95,
   "cards": [
     {
@@ -595,7 +595,7 @@
       "category": "ポケモン",
       "energyType": "悪",
       "surugayaUrl": "/product/other/GN228478",
-      "surugayaPrice": 75,
+      "surugayaPrice": 70,
       "surugayaSoldOut": true,
       "raritySlug": "rr"
     },
@@ -1014,7 +1014,7 @@
       "category": "ポケモン",
       "energyType": "悪",
       "surugayaUrl": "/product/other/GN228514",
-      "surugayaPrice": 3810,
+      "surugayaPrice": 4490,
       "surugayaSoldOut": true,
       "raritySlug": "sar",
       "surugayaBuyPrice": 4000
@@ -1062,9 +1062,10 @@
       "category": "ポケモンのどうぐ",
       "energyType": "",
       "surugayaUrl": "/product/other/GN228518",
-      "surugayaPrice": 270,
+      "surugayaPrice": 430,
       "surugayaSoldOut": true,
-      "raritySlug": "ur"
+      "raritySlug": "ur",
+      "surugayaBuyPrice": null
     },
     {
       "name": "コソクムシ",

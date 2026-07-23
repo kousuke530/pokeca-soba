@@ -2,7 +2,7 @@
   "pack": "拡張パック「黒炎の支配者」",
   "packSlug": "sv3",
   "source": "surugaya",
-  "collectedAt": "2026-07-17T00:17:36.017Z",
+  "collectedAt": "2026-07-23T03:01:45.288Z",
   "count": 172,
   "cards": [
     {
@@ -83,17 +83,6 @@
       "surugayaPrice": 19,
       "surugayaSoldOut": true,
       "raritySlug": "c"
-    },
-    {
-      "name": "ミュウ",
-      "cardNumber": "005/038",
-      "rarity": "ノーマル",
-      "category": "ポケモン",
-      "energyType": "超",
-      "surugayaUrl": "/product/detail/GN104847?tenpo_cd=410011",
-      "surugayaPrice": 210,
-      "surugayaSoldOut": true,
-      "raritySlug": "n"
     },
     {
       "name": "ツボツボ",
@@ -420,9 +409,9 @@
       "rarity": "RR",
       "category": "ポケモン",
       "energyType": "炎",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN104267",
-      "surugayaPrice": 160,
-      "surugayaSoldOut": false,
+      "surugayaUrl": "/product/other/GN104267",
+      "surugayaPrice": 50,
+      "surugayaSoldOut": true,
       "raritySlug": "rr"
     },
     {
@@ -1137,7 +1126,7 @@
       "category": "ポケモン",
       "energyType": "悪",
       "surugayaUrl": "/product/other/GN104317",
-      "surugayaPrice": 116,
+      "surugayaPrice": 150,
       "surugayaSoldOut": true,
       "raritySlug": "u"
     },
@@ -1577,9 +1566,9 @@
       "rarity": "AR",
       "category": "ポケモン",
       "energyType": "炎",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN104357",
-      "surugayaPrice": 1170,
-      "surugayaSoldOut": false,
+      "surugayaUrl": "/product/other/GN104357",
+      "surugayaPrice": 1080,
+      "surugayaSoldOut": true,
       "raritySlug": "ar",
       "surugayaBuyPrice": 1000
     },
@@ -1614,7 +1603,7 @@
       "category": "ポケモン",
       "energyType": "超",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN104360",
-      "surugayaPrice": 960,
+      "surugayaPrice": 1680,
       "surugayaSoldOut": false,
       "raritySlug": "ar",
       "surugayaBuyPrice": 800
@@ -1680,13 +1669,25 @@
       "surugayaBuyPrice": null
     },
     {
+      "name": "ピジョン",
+      "cardNumber": "119/108",
+      "rarity": "AR",
+      "category": "ポケモン",
+      "energyType": "",
+      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN104366",
+      "surugayaPrice": 480,
+      "surugayaSoldOut": false,
+      "raritySlug": "ar",
+      "surugayaBuyPrice": null
+    },
+    {
       "name": "グルトン",
       "cardNumber": "120/108",
       "rarity": "AR",
       "category": "ポケモン",
       "energyType": "",
       "surugayaUrl": "/product/other/GN104367",
-      "surugayaPrice": 216,
+      "surugayaPrice": 220,
       "surugayaSoldOut": true,
       "raritySlug": "ar"
     },
@@ -1744,7 +1745,7 @@
       "category": "ポケモン",
       "energyType": "悪",
       "surugayaUrl": "/product/other/GN104372",
-      "surugayaPrice": 1880,
+      "surugayaPrice": 2130,
       "surugayaSoldOut": true,
       "raritySlug": "sr",
       "surugayaBuyPrice": 2500
@@ -1864,22 +1865,22 @@
       "category": "ポケモン",
       "energyType": "",
       "surugayaUrl": "/product/other/GN104383",
-      "surugayaPrice": 1820,
+      "surugayaPrice": 1740,
       "surugayaSoldOut": true,
       "raritySlug": "sar",
       "surugayaBuyPrice": 1600
     },
     {
-      "name": "オモダカ",
+      "name": "【ランクB】オモダカ",
       "cardNumber": "137/108",
       "rarity": "SAR",
       "category": "サポート",
       "energyType": "",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN104384",
-      "surugayaPrice": 1280,
-      "surugayaSoldOut": false,
+      "surugayaUrl": "/product/other/GB104384",
+      "surugayaPrice": 840,
+      "surugayaSoldOut": true,
       "raritySlug": "sar",
-      "surugayaBuyPrice": 600
+      "surugayaBuyPrice": null
     },
     {
       "name": "ポピー",

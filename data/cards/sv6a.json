@@ -2,8 +2,8 @@
   "pack": "強化拡張パック「ナイトワンダラー」",
   "packSlug": "sv6a",
   "source": "surugaya",
-  "collectedAt": "2026-07-22T23:22:26.378Z",
-  "count": 93,
+  "collectedAt": "2026-07-23T03:05:52.163Z",
+  "count": 94,
   "cards": [
     {
       "name": "バチュル",
@@ -147,6 +147,17 @@
       "surugayaPrice": 160,
       "surugayaSoldOut": false,
       "raritySlug": "c"
+    },
+    {
+      "name": "マニューラ",
+      "cardNumber": "014/064",
+      "rarity": "U",
+      "category": "ポケモン",
+      "energyType": "水",
+      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN544596",
+      "surugayaPrice": 160,
+      "surugayaSoldOut": false,
+      "raritySlug": "u"
     },
     {
       "name": "ブロロロームex",
@@ -996,7 +1007,7 @@
       "surugayaPrice": 4280,
       "surugayaSoldOut": false,
       "raritySlug": "sar",
-      "surugayaBuyPrice": 2600
+      "surugayaBuyPrice": 2500
     },
     {
       "name": "モモワロウex",

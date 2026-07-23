@@ -2,8 +2,8 @@
   "pack": "拡張パック「ワイルドフォース」",
   "packSlug": "sv5k",
   "source": "surugaya",
-  "collectedAt": "2026-07-22T23:21:36.255Z",
-  "count": 98,
+  "collectedAt": "2026-07-23T03:04:52.238Z",
+  "count": 99,
   "cards": [
     {
       "name": "ロゼリア",
@@ -917,6 +917,18 @@
       "energyType": "",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN369791",
       "surugayaPrice": 1080,
+      "surugayaSoldOut": false,
+      "raritySlug": "ar",
+      "surugayaBuyPrice": 400
+    },
+    {
+      "name": "チラチーノ",
+      "cardNumber": "083/071",
+      "rarity": "AR",
+      "category": "ポケモン",
+      "energyType": "",
+      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN369792",
+      "surugayaPrice": 880,
       "surugayaSoldOut": false,
       "raritySlug": "ar",
       "surugayaBuyPrice": 400
