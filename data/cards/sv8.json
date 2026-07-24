@@ -2,7 +2,7 @@
   "pack": "拡張パック「超電ブレイカー」",
   "packSlug": "sv8",
   "source": "surugaya",
-  "collectedAt": "2026-07-23T03:06:55.218Z",
+  "collectedAt": "2026-07-24T00:25:29.377Z",
   "count": 136,
   "cards": [
     {
@@ -1068,9 +1068,9 @@
       "rarity": "ACE",
       "category": "グッズ",
       "energyType": "",
-      "surugayaUrl": "/product/detail/GN709447?tenpo_cd=410011",
-      "surugayaPrice": 150,
-      "surugayaSoldOut": true,
+      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN709447",
+      "surugayaPrice": 160,
+      "surugayaSoldOut": false,
       "raritySlug": "ace"
     },
     {
@@ -1456,9 +1456,9 @@
       "rarity": "SAR",
       "category": "ポケモン",
       "energyType": "雷",
-      "surugayaUrl": "/product/other/GN709419",
-      "surugayaPrice": 81170,
-      "surugayaSoldOut": true,
+      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN709419",
+      "surugayaPrice": 89800,
+      "surugayaSoldOut": false,
       "raritySlug": "sar",
       "surugayaBuyPrice": 70000
     },
@@ -1492,9 +1492,9 @@
       "rarity": "SAR",
       "category": "サポート",
       "energyType": "",
-      "surugayaUrl": "/product/other/GN709422",
-      "surugayaPrice": 2400,
-      "surugayaSoldOut": true,
+      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN709422",
+      "surugayaPrice": 3980,
+      "surugayaSoldOut": false,
       "raritySlug": "sar",
       "surugayaBuyPrice": 2500
     },

@@ -2,7 +2,7 @@
   "pack": "拡張パック「ロケット団の栄光」",
   "packSlug": "sv10",
   "source": "surugaya",
-  "collectedAt": "2026-07-23T03:08:40.263Z",
+  "collectedAt": "2026-07-24T00:27:04.857Z",
   "count": 128,
   "cards": [
     {
@@ -165,11 +165,10 @@
       "rarity": "RR",
       "category": "ポケモン",
       "energyType": "炎",
-      "surugayaUrl": "/product/detail/GU166838?tenpo_cd=400356",
-      "surugayaPrice": 500,
-      "surugayaSoldOut": true,
-      "raritySlug": "rr",
-      "surugayaBuyPrice": null
+      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU166838",
+      "surugayaPrice": 160,
+      "surugayaSoldOut": false,
+      "raritySlug": "rr"
     },
     {
       "name": "ロケット団のデルビル",
@@ -1414,9 +1413,9 @@
       "rarity": "UR",
       "category": "ポケモン",
       "energyType": "超",
-      "surugayaUrl": "/product/detail/GU166803?tenpo_cd=400499",
-      "surugayaPrice": 6600,
-      "surugayaSoldOut": true,
+      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU166803",
+      "surugayaPrice": 5980,
+      "surugayaSoldOut": false,
       "raritySlug": "ur",
       "surugayaBuyPrice": 3200
     },
