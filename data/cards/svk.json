@@ -2,8 +2,8 @@
   "pack": "デッキビルドBOX ステラミラクル",
   "packSlug": "svk",
   "source": "surugaya",
-  "collectedAt": "2026-07-24T00:24:48.070Z",
-  "count": 42,
+  "collectedAt": "2026-07-25T04:57:00.198Z",
+  "count": 43,
   "cards": [
     {
       "name": "かがやくリザードン",
@@ -59,6 +59,17 @@
       "energyType": "超",
       "surugayaUrl": "/product/other/GN596206",
       "surugayaPrice": 84,
+      "surugayaSoldOut": true,
+      "raritySlug": "n"
+    },
+    {
+      "name": "ミュウex",
+      "cardNumber": "006/044",
+      "rarity": "ノーマル",
+      "category": "ポケモン",
+      "energyType": "超",
+      "surugayaUrl": "/product/detail/GN596207?tenpo_cd=201206",
+      "surugayaPrice": 150,
       "surugayaSoldOut": true,
       "raritySlug": "n"
     },
@@ -179,7 +190,7 @@
       "category": "グッズ",
       "energyType": "",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN596218",
-      "surugayaPrice": 180,
+      "surugayaPrice": 160,
       "surugayaSoldOut": false,
       "raritySlug": "n"
     },
@@ -222,8 +233,8 @@
       "rarity": "ノーマル",
       "category": "グッズ",
       "energyType": "",
-      "surugayaUrl": "/product/detail/GN596222?tenpo_cd=400435",
-      "surugayaPrice": 200,
+      "surugayaUrl": "/product/other/GN596222",
+      "surugayaPrice": 60,
       "surugayaSoldOut": true,
       "raritySlug": "n"
     },
@@ -399,7 +410,7 @@
       "category": "サポート",
       "energyType": "",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN596239",
-      "surugayaPrice": 280,
+      "surugayaPrice": 250,
       "surugayaSoldOut": false,
       "raritySlug": "n"
     },
@@ -464,7 +475,7 @@
       "rarity": "ノーマル",
       "category": "エネルギー",
       "energyType": "",
-      "surugayaUrl": "/product/detail/GN596245?tenpo_cd=410018",
+      "surugayaUrl": "/product/other/GN596245",
       "surugayaPrice": 54,
       "surugayaSoldOut": true,
       "raritySlug": "n"

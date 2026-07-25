@@ -2,8 +2,8 @@
   "pack": "スターターセットMEGA メガゲンガーex",
   "packSlug": "mbg",
   "source": "surugaya",
-  "collectedAt": "2026-07-24T00:29:00.058Z",
-  "count": 16,
+  "collectedAt": "2026-07-25T05:01:05.454Z",
+  "count": 17,
   "cards": [
     {
       "name": "ゴース",
@@ -67,8 +67,8 @@
       "rarity": "ノーマル",
       "category": "グッズ",
       "energyType": "",
-      "surugayaUrl": "/product/detail/GU404868?tenpo_cd=200984",
-      "surugayaPrice": 180,
+      "surugayaUrl": "/product/other/GU404868",
+      "surugayaPrice": 150,
       "surugayaSoldOut": true,
       "raritySlug": "n"
     },
@@ -128,6 +128,17 @@
       "raritySlug": "n"
     },
     {
+      "name": "夜のタンカ",
+      "cardNumber": "016/021",
+      "rarity": "ノーマル",
+      "category": "グッズ",
+      "energyType": "",
+      "surugayaUrl": "/product/detail/GU404874?tenpo_cd=201206",
+      "surugayaPrice": 110,
+      "surugayaSoldOut": true,
+      "raritySlug": "n"
+    },
+    {
       "name": "ふうせん",
       "cardNumber": "018/021",
       "rarity": "ノーマル",
@@ -166,8 +177,8 @@
       "rarity": "ノーマル",
       "category": "サポート",
       "energyType": "",
-      "surugayaUrl": "/product/detail/GU404879?tenpo_cd=200984",
-      "surugayaPrice": 180,
+      "surugayaUrl": "/product/other/GU404879",
+      "surugayaPrice": 110,
       "surugayaSoldOut": true,
       "raritySlug": "n"
     },

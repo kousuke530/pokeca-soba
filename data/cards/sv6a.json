@@ -2,7 +2,7 @@
   "pack": "強化拡張パック「ナイトワンダラー」",
   "packSlug": "sv6a",
   "source": "surugaya",
-  "collectedAt": "2026-07-24T00:24:43.125Z",
+  "collectedAt": "2026-07-25T04:56:55.498Z",
   "count": 94,
   "cards": [
     {
@@ -628,7 +628,7 @@
       "category": "ポケモンのどうぐ",
       "energyType": "",
       "surugayaUrl": "/product/other/GN544639",
-      "surugayaPrice": 31,
+      "surugayaPrice": 33,
       "surugayaSoldOut": true,
       "raritySlug": "u"
     },
@@ -639,7 +639,7 @@
       "category": "ポケモンのどうぐ",
       "energyType": "",
       "surugayaUrl": "/product/other/GN544640",
-      "surugayaPrice": 150,
+      "surugayaPrice": 90,
       "surugayaSoldOut": true,
       "raritySlug": "u"
     },
@@ -650,7 +650,7 @@
       "category": "サポート",
       "energyType": "",
       "surugayaUrl": "/product/other/GN544641",
-      "surugayaPrice": 99,
+      "surugayaPrice": 70,
       "surugayaSoldOut": true,
       "raritySlug": "u"
     },
@@ -716,10 +716,9 @@
       "category": "ポケモン",
       "energyType": "草",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN544647",
-      "surugayaPrice": 300,
+      "surugayaPrice": 270,
       "surugayaSoldOut": false,
-      "raritySlug": "ar",
-      "surugayaBuyPrice": null
+      "raritySlug": "ar"
     },
     {
       "name": "ヘルガー",
@@ -728,7 +727,7 @@
       "category": "ポケモン",
       "energyType": "炎",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN544648",
-      "surugayaPrice": 590,
+      "surugayaPrice": 980,
       "surugayaSoldOut": false,
       "raritySlug": "ar",
       "surugayaBuyPrice": 400
@@ -848,7 +847,7 @@
       "category": "ポケモン",
       "energyType": "",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN544658",
-      "surugayaPrice": 480,
+      "surugayaPrice": 430,
       "surugayaSoldOut": false,
       "raritySlug": "ar",
       "surugayaBuyPrice": null
@@ -1015,9 +1014,9 @@
       "rarity": "SAR",
       "category": "ポケモン",
       "energyType": "悪",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN544672",
-      "surugayaPrice": 1580,
-      "surugayaSoldOut": false,
+      "surugayaUrl": "/product/other/GN544672",
+      "surugayaPrice": 930,
+      "surugayaSoldOut": true,
       "raritySlug": "sar",
       "surugayaBuyPrice": 800
     },
@@ -1051,9 +1050,9 @@
       "rarity": "UR",
       "category": "グッズ",
       "energyType": "",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN544675",
-      "surugayaPrice": 980,
-      "surugayaSoldOut": false,
+      "surugayaUrl": "/product/other/GN544675",
+      "surugayaPrice": 540,
+      "surugayaSoldOut": true,
       "raritySlug": "ur",
       "surugayaBuyPrice": 400
     },
