@@ -2,8 +2,8 @@
   "pack": "スタートデッキ100 バトルコレクション",
   "packSlug": "mc",
   "source": "surugaya",
-  "collectedAt": "2026-07-25T05:03:26.865Z",
-  "count": 582,
+  "collectedAt": "2026-07-26T03:10:36.377Z",
+  "count": 581,
   "cards": [
     {
       "name": "アイアント",
@@ -4620,17 +4620,6 @@
       "raritySlug": "n"
     },
     {
-      "name": "ロケット団のニャース",
-      "cardNumber": "559/742",
-      "rarity": "ノーマル",
-      "category": "ポケモン",
-      "energyType": "",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU543613",
-      "surugayaPrice": 160,
-      "surugayaSoldOut": false,
-      "raritySlug": "n"
-    },
-    {
       "name": "ロケット団のペルシアンex",
       "cardNumber": "560/742",
       "rarity": "ノーマル",
@@ -4669,9 +4658,9 @@
       "rarity": "ミラー",
       "category": "ポケモン",
       "energyType": "",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU543131",
+      "surugayaUrl": "/product/other/GU543131",
       "surugayaPrice": 180,
-      "surugayaSoldOut": false,
+      "surugayaSoldOut": true,
       "raritySlug": "mirror"
     },
     {
@@ -5068,7 +5057,7 @@
       "category": "ポケモン",
       "energyType": "",
       "surugayaUrl": "/product/other/GU542962",
-      "surugayaPrice": 1590,
+      "surugayaPrice": 1560,
       "surugayaSoldOut": true,
       "raritySlug": "n",
       "surugayaBuyPrice": 800
@@ -6211,7 +6200,7 @@
       "category": "ポケモン",
       "energyType": "水",
       "surugayaUrl": "/product/other/GU542886",
-      "surugayaPrice": 1670,
+      "surugayaPrice": 1590,
       "surugayaSoldOut": true,
       "raritySlug": "n",
       "surugayaBuyPrice": 1200
@@ -6247,7 +6236,7 @@
       "category": "ポケモン",
       "energyType": "超",
       "surugayaUrl": "/product/other/GU542889",
-      "surugayaPrice": 3010,
+      "surugayaPrice": 2950,
       "surugayaSoldOut": true,
       "raritySlug": "n",
       "surugayaBuyPrice": 2500
@@ -6307,7 +6296,7 @@
       "category": "ポケモン",
       "energyType": "鋼",
       "surugayaUrl": "/product/other/GU548618",
-      "surugayaPrice": 3300,
+      "surugayaPrice": 3330,
       "surugayaSoldOut": true,
       "raritySlug": "n",
       "surugayaBuyPrice": 2500

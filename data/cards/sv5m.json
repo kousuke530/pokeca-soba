@@ -2,7 +2,7 @@
   "pack": "拡張パック「サイバージャッジ」",
   "packSlug": "sv5m",
   "source": "surugaya",
-  "collectedAt": "2026-07-25T04:55:59.718Z",
+  "collectedAt": "2026-07-26T03:03:11.983Z",
   "count": 100,
   "cards": [
     {
@@ -931,14 +931,14 @@
       "surugayaBuyPrice": null
     },
     {
-      "name": "テツノイサハex",
+      "name": "【ランクB】テツノイサハex",
       "cardNumber": "084/071",
       "rarity": "SR",
       "category": "ポケモン",
       "energyType": "草",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN369895",
-      "surugayaPrice": 580,
-      "surugayaSoldOut": false,
+      "surugayaUrl": "/product/other/GB369895",
+      "surugayaPrice": 320,
+      "surugayaSoldOut": true,
       "raritySlug": "sr",
       "surugayaBuyPrice": null
     },

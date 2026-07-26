@@ -2,7 +2,7 @@
   "pack": "拡張パック「アビスアイ」",
   "packSlug": "m5",
   "source": "surugaya",
-  "collectedAt": "2026-07-25T05:04:09.153Z",
+  "collectedAt": "2026-07-26T03:11:17.252Z",
   "count": 117,
   "cards": [
     {
@@ -1120,10 +1120,9 @@
       "category": "ポケモン",
       "energyType": "鋼",
       "surugayaUrl": "/product/other/GU730248",
-      "surugayaPrice": 310,
+      "surugayaPrice": 290,
       "surugayaSoldOut": true,
-      "raritySlug": "sr",
-      "surugayaBuyPrice": null
+      "raritySlug": "sr"
     },
     {
       "name": "アイアンディフェンダー",
@@ -1197,9 +1196,9 @@
       "rarity": "SR",
       "category": "サポート",
       "energyType": "",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU730255",
-      "surugayaPrice": 2980,
-      "surugayaSoldOut": false,
+      "surugayaUrl": "/product/other/GU730255",
+      "surugayaPrice": 1580,
+      "surugayaSoldOut": true,
       "raritySlug": "sr",
       "surugayaBuyPrice": 1200
     },
