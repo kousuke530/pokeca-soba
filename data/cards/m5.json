@@ -2,8 +2,8 @@
   "pack": "拡張パック「アビスアイ」",
   "packSlug": "m5",
   "source": "surugaya",
-  "collectedAt": "2026-07-28T00:32:28.500Z",
-  "count": 116,
+  "collectedAt": "2026-07-29T08:03:03.113Z",
+  "count": 117,
   "cards": [
     {
       "name": "トロピウス",
@@ -934,6 +934,18 @@
       "surugayaBuyPrice": null
     },
     {
+      "name": "ライボルト",
+      "cardNumber": "086/081",
+      "rarity": "AR",
+      "category": "ポケモン",
+      "energyType": "雷",
+      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU730263",
+      "surugayaPrice": 380,
+      "surugayaSoldOut": false,
+      "raritySlug": "ar",
+      "surugayaBuyPrice": null
+    },
+    {
       "name": "ヤドラン",
       "cardNumber": "087/081",
       "rarity": "AR",
@@ -1059,9 +1071,9 @@
       "rarity": "SR",
       "category": "ポケモン",
       "energyType": "超",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU730244",
-      "surugayaPrice": 580,
-      "surugayaSoldOut": false,
+      "surugayaUrl": "/product/other/GU730244",
+      "surugayaPrice": 370,
+      "surugayaSoldOut": true,
       "raritySlug": "sr",
       "surugayaBuyPrice": null
     },
@@ -1232,9 +1244,9 @@
       "rarity": "SAR",
       "category": "ポケモン",
       "energyType": "雷",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU730235",
-      "surugayaPrice": 2980,
-      "surugayaSoldOut": false,
+      "surugayaUrl": "/product/other/GU730235",
+      "surugayaPrice": 2630,
+      "surugayaSoldOut": true,
       "raritySlug": "sar",
       "surugayaBuyPrice": 1200
     },
@@ -1304,9 +1316,9 @@
       "rarity": "MUR",
       "category": "ポケモン",
       "energyType": "悪",
-      "surugayaUrl": "/product/other/GU730234",
-      "surugayaPrice": 52800,
-      "surugayaSoldOut": true,
+      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU730234",
+      "surugayaPrice": 69800,
+      "surugayaSoldOut": false,
       "raritySlug": "mur",
       "surugayaBuyPrice": 40000
     }

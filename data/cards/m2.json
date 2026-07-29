@@ -2,8 +2,8 @@
   "pack": "拡張パック「インフェルノX」",
   "packSlug": "m2",
   "source": "surugaya",
-  "collectedAt": "2026-07-28T00:29:32.501Z",
-  "count": 112,
+  "collectedAt": "2026-07-29T08:00:33.284Z",
+  "count": 114,
   "cards": [
     {
       "name": "ナゾノクサ",
@@ -629,7 +629,7 @@
       "category": "ポケモン",
       "energyType": "悪",
       "surugayaUrl": "/product/other/GU427995",
-      "surugayaPrice": 270,
+      "surugayaPrice": 240,
       "surugayaSoldOut": true,
       "raritySlug": "r"
     },
@@ -750,6 +750,17 @@
       "category": "ポケモン",
       "energyType": "",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU428058",
+      "surugayaPrice": 160,
+      "surugayaSoldOut": false,
+      "raritySlug": "c"
+    },
+    {
+      "name": "ジグザグマ",
+      "cardNumber": "069/080",
+      "rarity": "C",
+      "category": "ポケモン",
+      "energyType": "",
+      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU428059",
       "surugayaPrice": 160,
       "surugayaSoldOut": false,
       "raritySlug": "c"
@@ -895,6 +906,18 @@
       "energyType": "草",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU427970",
       "surugayaPrice": 300,
+      "surugayaSoldOut": false,
+      "raritySlug": "ar",
+      "surugayaBuyPrice": null
+    },
+    {
+      "name": "カルボウ",
+      "cardNumber": "083/080",
+      "rarity": "AR",
+      "category": "ポケモン",
+      "energyType": "炎",
+      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU427971",
+      "surugayaPrice": 380,
       "surugayaSoldOut": false,
       "raritySlug": "ar",
       "surugayaBuyPrice": null

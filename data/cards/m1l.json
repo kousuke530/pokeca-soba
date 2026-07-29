@@ -2,8 +2,8 @@
   "pack": "拡張パック「メガブレイブ」",
   "packSlug": "m1l",
   "source": "surugaya",
-  "collectedAt": "2026-07-28T00:28:43.812Z",
-  "count": 91,
+  "collectedAt": "2026-07-29T07:59:49.128Z",
+  "count": 92,
   "cards": [
     {
       "name": "フシギダネ",
@@ -125,6 +125,17 @@
       "surugayaPrice": 160,
       "surugayaSoldOut": false,
       "raritySlug": "u"
+    },
+    {
+      "name": "ドンメル",
+      "cardNumber": "012/063",
+      "rarity": "C",
+      "category": "ポケモン",
+      "energyType": "炎",
+      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU362779",
+      "surugayaPrice": 160,
+      "surugayaSoldOut": false,
+      "raritySlug": "c"
     },
     {
       "name": "メガバクーダex",
@@ -965,9 +976,9 @@
       "rarity": "SAR",
       "category": "ポケモン",
       "energyType": "草",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU362713",
-      "surugayaPrice": 7280,
-      "surugayaSoldOut": false,
+      "surugayaUrl": "/product/other/GU362713",
+      "surugayaPrice": 5850,
+      "surugayaSoldOut": true,
       "raritySlug": "sar",
       "surugayaBuyPrice": 4000
     },
