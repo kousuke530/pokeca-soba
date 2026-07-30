@@ -2,8 +2,8 @@
   "pack": "強化拡張パック「熱風のアリーナ」",
   "packSlug": "sv9a",
   "source": "surugaya",
-  "collectedAt": "2026-07-29T07:58:09.178Z",
-  "count": 90,
+  "collectedAt": "2026-07-30T00:23:46.040Z",
+  "count": 91,
   "cards": [
     {
       "name": "ヒビキのカイロス",
@@ -950,6 +950,18 @@
       "surugayaSoldOut": true,
       "raritySlug": "sar",
       "surugayaBuyPrice": 700
+    },
+    {
+      "name": "ヒビキのホウオウex",
+      "cardNumber": "086/063",
+      "rarity": "SAR",
+      "category": "ポケモン",
+      "energyType": "炎",
+      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN923774",
+      "surugayaPrice": 29800,
+      "surugayaSoldOut": false,
+      "raritySlug": "sar",
+      "surugayaBuyPrice": 20000
     },
     {
       "name": "シロナのガブリアスex",

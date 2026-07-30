@@ -2,7 +2,7 @@
   "pack": "拡張パック「ワイルドフォース」",
   "packSlug": "sv5k",
   "source": "surugaya",
-  "collectedAt": "2026-07-29T07:55:22.092Z",
+  "collectedAt": "2026-07-30T00:20:53.684Z",
   "count": 99,
   "cards": [
     {
@@ -689,16 +689,15 @@
       "raritySlug": "ace"
     },
     {
-      "name": "【ランクB】なかよしポフィン",
+      "name": "なかよしポフィン",
       "cardNumber": "063/071",
       "rarity": "U",
       "category": "グッズ",
       "energyType": "",
-      "surugayaUrl": "/product/other/GB369772",
-      "surugayaPrice": 460,
-      "surugayaSoldOut": true,
-      "raritySlug": "u",
-      "surugayaBuyPrice": null
+      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN369772",
+      "surugayaPrice": 160,
+      "surugayaSoldOut": false,
+      "raritySlug": "u"
     },
     {
       "name": "緊急ボード",
@@ -1090,16 +1089,16 @@
       "surugayaBuyPrice": 1000
     },
     {
-      "name": "【ランクB】ウガツホムラex",
+      "name": "ウガツホムラex",
       "cardNumber": "098/071",
       "rarity": "UR",
       "category": "ポケモン",
       "energyType": "炎",
-      "surugayaUrl": "/product/other/GB369807",
-      "surugayaPrice": 680,
+      "surugayaUrl": "/product/other/GN369807",
+      "surugayaPrice": 530,
       "surugayaSoldOut": true,
       "raritySlug": "ur",
-      "surugayaBuyPrice": null
+      "surugayaBuyPrice": 400
     },
     {
       "name": "【ランクB】ウネルミナモex",
