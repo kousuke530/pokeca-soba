@@ -2,8 +2,8 @@
   "pack": "拡張パック「アビスアイ」",
   "packSlug": "m5",
   "source": "surugaya",
-  "collectedAt": "2026-07-30T00:28:51.879Z",
-  "count": 117,
+  "collectedAt": "2026-07-31T03:11:10.888Z",
+  "count": 116,
   "cards": [
     {
       "name": "トロピウス",
@@ -358,17 +358,6 @@
       "raritySlug": "r"
     },
     {
-      "name": "ヒトモシ",
-      "cardNumber": "034/081",
-      "rarity": "C",
-      "category": "ポケモン",
-      "energyType": "超",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU730331",
-      "surugayaPrice": 160,
-      "surugayaSoldOut": false,
-      "raritySlug": "c"
-    },
-    {
       "name": "ランプラー",
       "cardNumber": "035/081",
       "rarity": "C",
@@ -474,7 +463,7 @@
       "category": "ポケモン",
       "energyType": "闘",
       "surugayaUrl": "/product/other/GU730336",
-      "surugayaPrice": 60,
+      "surugayaPrice": 100,
       "surugayaSoldOut": true,
       "raritySlug": "c"
     },
@@ -952,10 +941,10 @@
       "category": "ポケモン",
       "energyType": "超",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU730264",
-      "surugayaPrice": 770,
+      "surugayaPrice": 650,
       "surugayaSoldOut": false,
       "raritySlug": "ar",
-      "surugayaBuyPrice": 500
+      "surugayaBuyPrice": 400
     },
     {
       "name": "ダダリン",

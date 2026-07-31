@@ -2,8 +2,8 @@
   "pack": "拡張パック「ニンジャスピナー」",
   "packSlug": "m4",
   "source": "surugaya",
-  "collectedAt": "2026-07-30T00:28:40.720Z",
-  "count": 120,
+  "collectedAt": "2026-07-31T03:11:00.278Z",
+  "count": 116,
   "cards": [
     {
       "name": "ビードル",
@@ -139,17 +139,6 @@
       "raritySlug": "c"
     },
     {
-      "name": "マフォクシー",
-      "cardNumber": "013/083",
-      "rarity": "R",
-      "category": "ポケモン",
-      "energyType": "炎",
-      "surugayaUrl": "/product/detail/GU633964?tenpo_cd=201206",
-      "surugayaPrice": 80,
-      "surugayaSoldOut": true,
-      "raritySlug": "r"
-    },
-    {
       "name": "シシコ",
       "cardNumber": "014/083",
       "rarity": "C",
@@ -214,17 +203,6 @@
       "surugayaPrice": 160,
       "surugayaSoldOut": false,
       "raritySlug": "u"
-    },
-    {
-      "name": "ケロマツ",
-      "cardNumber": "020/083",
-      "rarity": "C",
-      "category": "ポケモン",
-      "energyType": "水",
-      "surugayaUrl": "/product/detail/GU633971?tenpo_cd=201206",
-      "surugayaPrice": 60,
-      "surugayaSoldOut": true,
-      "raritySlug": "c"
     },
     {
       "name": "ゲコガシラ",
@@ -816,7 +794,7 @@
       "category": "グッズ",
       "energyType": "",
       "surugayaUrl": "/product/other/GU634025",
-      "surugayaPrice": 50,
+      "surugayaPrice": 80,
       "surugayaSoldOut": true,
       "raritySlug": "u"
     },
@@ -848,8 +826,8 @@
       "rarity": "U",
       "category": "サポート",
       "energyType": "",
-      "surugayaUrl": "/product/other/GU634028",
-      "surugayaPrice": 50,
+      "surugayaUrl": "/product/detail/GU634028?tenpo_cd=410011",
+      "surugayaPrice": 150,
       "surugayaSoldOut": true,
       "raritySlug": "u"
     },
@@ -873,17 +851,6 @@
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU634030",
       "surugayaPrice": 160,
       "surugayaSoldOut": false,
-      "raritySlug": "u"
-    },
-    {
-      "name": "プリズムタワー",
-      "cardNumber": "080/083",
-      "rarity": "U",
-      "category": "スタジアム",
-      "energyType": "",
-      "surugayaUrl": "/product/detail/GU634031?tenpo_cd=201206",
-      "surugayaPrice": 160,
-      "surugayaSoldOut": true,
       "raritySlug": "u"
     },
     {
@@ -1275,18 +1242,6 @@
       "surugayaPrice": 280,
       "surugayaSoldOut": false,
       "raritySlug": "sr"
-    },
-    {
-      "name": "メガゲッコウガex",
-      "cardNumber": "114/083",
-      "rarity": "SAR",
-      "category": "ポケモン",
-      "energyType": "水",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU634065",
-      "surugayaPrice": 36800,
-      "surugayaSoldOut": false,
-      "raritySlug": "sar",
-      "surugayaBuyPrice": 20000
     },
     {
       "name": "メガフラエッテex",

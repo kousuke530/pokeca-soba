@@ -2,7 +2,7 @@
   "pack": "拡張パック「ムニキスゼロ」",
   "packSlug": "m3",
   "source": "surugaya",
-  "collectedAt": "2026-07-30T00:28:24.471Z",
+  "collectedAt": "2026-07-31T03:10:46.898Z",
   "count": 117,
   "cards": [
     {
@@ -133,7 +133,7 @@
       "category": "ポケモン",
       "energyType": "草",
       "surugayaUrl": "/product/other/GU584314",
-      "surugayaPrice": 70,
+      "surugayaPrice": 79,
       "surugayaSoldOut": true,
       "raritySlug": "rr"
     },
@@ -507,7 +507,7 @@
       "category": "ポケモン",
       "energyType": "闘",
       "surugayaUrl": "/product/other/GU584318",
-      "surugayaPrice": 90,
+      "surugayaPrice": 99,
       "surugayaSoldOut": true,
       "raritySlug": "rr"
     },
@@ -815,7 +815,7 @@
       "rarity": "U",
       "category": "サポート",
       "energyType": "",
-      "surugayaUrl": "/product/other/GU584352",
+      "surugayaUrl": "/product/detail/GU584352?tenpo_cd=410174",
       "surugayaPrice": 30,
       "surugayaSoldOut": true,
       "raritySlug": "u"
@@ -882,9 +882,9 @@
       "rarity": "R",
       "category": "エネルギー",
       "energyType": "",
-      "surugayaUrl": "/product/other/GU584329",
-      "surugayaPrice": 50,
-      "surugayaSoldOut": true,
+      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU584329",
+      "surugayaPrice": 160,
+      "surugayaSoldOut": false,
       "raritySlug": "r"
     },
     {
@@ -1098,10 +1098,9 @@
       "category": "ポケモン",
       "energyType": "悪",
       "surugayaUrl": "/product/other/GU584289",
-      "surugayaPrice": 300,
+      "surugayaPrice": 290,
       "surugayaSoldOut": true,
-      "raritySlug": "sr",
-      "surugayaBuyPrice": 300
+      "raritySlug": "sr"
     },
     {
       "name": "メガエアームドex",
@@ -1261,10 +1260,10 @@
       "category": "ポケモン",
       "energyType": "超",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU584279",
-      "surugayaPrice": 3480,
+      "surugayaPrice": 3280,
       "surugayaSoldOut": false,
       "raritySlug": "sar",
-      "surugayaBuyPrice": 2000
+      "surugayaBuyPrice": 1800
     },
     {
       "name": "メガジガルデex",
