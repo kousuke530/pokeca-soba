@@ -5,7 +5,7 @@ import PriceHistoryChart from '../../../components/PriceHistoryChart.astro';
 import ShopLinks from '../../../components/ShopLinks.astro';
 import RelatedCards from '../../../components/RelatedCards.astro';
 import { purchaseShops, buybackShops, amazonSearchUrl, mercariSearchUrl, toretokuUrl, kanaberuUrl } from '../../../data/affiliates';
-import { allCards, getSeriesByName, seriesByPack, priceAsOf, popularByName, sameTypeByName, similarPriceByName } from '../../../data/cards';
+import { allCards, getSeriesByName, seriesByPack, priceAsOf, popularByName, sameTypeByName, similarPriceByName, sellInsight } from '../../../data/cards';
 import { getPack } from '../../../data/packs';
 import type { Card } from '../../../data/types';
 
@@ -68,11 +68,30 @@ const relatedPriceBand = similarPriceByName(card.sellPrice, 6, card.name).map(to
 const relatedPopular = popularByName(6, card.name).map(toRelItem);
 const relatedSameType = isPokemon ? sameTypeByName(card.energyType, 6, card.name).map(toRelItem) : [];
 
+// 前日比・過去最高・相場コメント。ページごとに実質差のある description / 本文にする。
+const ins = sellInsight(card);
+const dodText =
+  ins.dod != null && ins.dod !== 0
+    ? `（前日比${ins.dod > 0 ? '+' : '−'}${yen(Math.abs(ins.dod))}${
+        ins.dodPct != null ? `・${ins.dodPct > 0 ? '+' : '−'}${Math.abs(ins.dodPct)}%` : ''
+      }）`
+    : '';
+const dodSentence =
+  ins.dod != null && ins.dod !== 0
+    ? `前日比は${ins.dod > 0 ? '+' : '−'}${yen(Math.abs(ins.dod))}${
+        ins.dodPct != null ? `（${ins.dodPct > 0 ? '+' : '−'}${Math.abs(ins.dodPct)}%）` : ''
+      }。`
+    : ins.dod === 0
+      ? '前日からは横ばいです。'
+      : '';
+const highText =
+  ins.high != null ? `過去最高は${yen(ins.high)}${ins.highDate ? `（${ins.highDate}）` : ''}。` : '';
+
 const crumbLabel = `${card.name}【${card.rarity}】${setCode} ${card.cardNumber}`;
 const title = `${card.name}(${card.rarity}) ${setCode} ${card.cardNumber} の買取・販売価格相場`;
-const description = `${card.name}(${card.rarity})の最新の販売価格は${yen(card.sellPrice)}、買取価格は${yen(
+const description = `${card.name}(${card.rarity})の最新販売価格は${yen(card.sellPrice)}${dodText}、買取価格は${yen(
   card.buyPrice,
-)}（${priceDate}時点）。${card.pack}収録。価格推移もまとめています。`;
+)}（${priceDate}時点）。${highText}${ins.comment}${card.pack}収録。`;
 
 const jsonLd = JSON.stringify({
   '@context': 'https://schema.org',
@@ -169,8 +188,8 @@ const jsonLd = JSON.stringify({
     </section>
 
     <p class="lead">
-      {card.name}（{card.rarity}・{setCode} {card.cardNumber}）の最新相場は
-      <strong>販売 {yen(card.sellPrice)}</strong> / <strong>買取 {yen(card.buyPrice)}</strong>です（{priceDate}時点）。
+      <a href={listUrl}>{card.name}</a>（{card.rarity}・{setCode} {card.cardNumber}）の最新相場は
+      <strong>販売 {yen(card.sellPrice)}</strong> / <strong>買取 {yen(card.buyPrice)}</strong>です（{priceDate}時点）。{dodSentence}{highText}{ins.comment}
     </p>
   </div>
   <!-- /検索インデックス対象 -->

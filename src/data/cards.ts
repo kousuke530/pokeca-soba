@@ -276,3 +276,48 @@ export function similarPriceByName(price: number | null, limit = 6, excludeName?
   }
   return out;
 }
+
+/** 販売価格の動的インサイト（前日比・過去最高・相場コメント）。description/本文の実質差別化に使う。 */
+export interface SellInsight {
+  /** 前日比（円）。履歴2点未満は null */
+  dod: number | null;
+  /** 前日比（%, 小数1桁）。算出不可は null */
+  dodPct: number | null;
+  /** 直近トレンド */
+  trend: '上昇' | '下落' | '横ばい' | null;
+  /** 過去最高値（円）。履歴が無ければ null */
+  high: number | null;
+  /** 過去最高を記録した日付（YYYY-MM-DD）。不明は空 */
+  highDate: string;
+  /** 過去最高値圏（現在値が最高の98%以上）か */
+  atHigh: boolean;
+  /** 自然文の相場コメント */
+  comment: string;
+}
+
+/**
+ * カードの販売価格履歴から前日比・過去最高・相場コメントを算出する。
+ * sellPriceHigh/highDate はデータ側で未設定なので履歴から補完する。
+ */
+export function sellInsight(card: Card): SellInsight {
+  const h = card.history;
+  const last = h.length ? h[h.length - 1] : undefined;
+  const prev = h.length >= 2 ? h[h.length - 2] : undefined;
+  const dod = last && prev ? last.sell - prev.sell : null;
+  const dodPct =
+    dod != null && prev && prev.sell ? Math.round((dod / prev.sell) * 1000) / 10 : null;
+  const trend = dod == null ? null : dod > 0 ? '上昇' : dod < 0 ? '下落' : '横ばい';
+  const high = card.sellPriceHigh ?? (h.length ? Math.max(...h.map((p) => p.sell)) : null);
+  const highDate =
+    card.highDate || (high != null && h.length ? (h.find((p) => p.sell === high)?.date ?? '') : '');
+  const sell = card.sellPrice;
+  const atHigh = sell != null && high != null && high > 0 && sell >= high * 0.98;
+  let comment: string;
+  if (sell == null) comment = '現在の価格を調査中です。';
+  else if (atHigh) comment = '直近は過去最高値圏で推移しています。';
+  else if (trend === '上昇') comment = '直近は上昇傾向で推移しています。';
+  else if (trend === '下落') comment = '直近は下落傾向で推移しています。';
+  else if (trend === '横ばい') comment = '直近はほぼ横ばいで推移しています。';
+  else comment = '日々の価格推移を記録しています。';
+  return { dod, dodPct, trend, high, highDate, atHigh, comment };
+}

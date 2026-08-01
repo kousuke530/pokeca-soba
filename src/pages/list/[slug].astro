@@ -4,7 +4,7 @@ import Breadcrumbs from '../../components/Breadcrumbs.astro';
 import VariantRow from '../../components/VariantRow.astro';
 import PriceModal from '../../components/PriceModal.astro';
 import RelatedCards from '../../components/RelatedCards.astro';
-import { series as allSeries, priceAsOf, popularByName, sameTypeByName } from '../../data/cards';
+import { series as allSeries, priceAsOf, popularByName, sameTypeByName, sellInsight } from '../../data/cards';
 import { typeChipStyle } from '../../data/typeColors';
 import type { CardSeries } from '../../data/types';
 
@@ -52,10 +52,13 @@ const relatedSameType = isPokemon
     }))
   : [];
 
+const topIns = sellInsight(topCard);
 const title = `${series.name}(全${series.variants.length}種)の買取・販売価格相場一覧`;
-const description = `${series.name}の最新の販売価格・買取価格を比較。レアリティ別（${series.variants
-  .map((v) => v.rarity)
-  .join('・')}）の相場をまとめています。`;
+const description = `${series.name}の相場を全${series.variants.length}種で比較。最高値は${topCard.rarity}の${yen(
+  highest,
+)}、最安は${yen(lowest)}、平均${yen(avg)}（${priceDate}時点）。${
+  topIns.high != null ? `${topCard.rarity}の過去最高は${yen(topIns.high)}。` : ''
+}${topIns.comment}`;
 
 const jsonLd = JSON.stringify({
   '@context': 'https://schema.org',
