@@ -24,8 +24,10 @@ const rows = packs.map((p) => {
   const ss = seriesByPack(p.slug);
   const variants = ss.flatMap((s) => s.variants);
   const top = [...variants].sort((a, b) => (b.sellPrice ?? 0) - (a.sellPrice ?? 0))[0];
-  return { p, cards: variants.length, seriesCount: ss.length, top, kind: packKind(p.name), rarities: packRarities(variants) };
+  return { p, cards: variants.length, seriesCount: ss.length, top, kind: packKind(p.name), series: packSeries(p.slug), rarities: packRarities(variants) };
 });
+// シリーズ（レギュレーション）選択肢。rows は発売日の新しい順なので出現順＝新しい順。
+const seriesList = [...new Set(rows.map((row) => row.series))];
 const shownRange = rows.length === 0 ? '0〜0' : `1〜${Math.min(rows.length, pageSize)}`;
 const totalPackPages = Math.max(1, Math.ceil(rows.length / pageSize));
 const pageHref = (n: number) => (n <= 1 ? '/packs/' : `/packs/?page=${n}`);
@@ -38,6 +40,13 @@ function packKind(name: string): string {
   if (name.includes('強化拡張')) return '強化拡張パック';
   if (name.includes('スペシャル')) return 'スペシャルセット';
   if (name.includes('拡張パック')) return '拡張パック';
+  return 'その他';
+}
+
+// パックのシリーズ（レギュレーション）。setCode/slug の接頭辞で判定。sv=スカバイ / m=メガ。
+function packSeries(slug: string): string {
+  if (slug.startsWith('sv')) return 'スカーレット＆バイオレット';
+  if (slug.startsWith('m')) return 'メガ';
   return 'その他';
 }
 
@@ -106,8 +115,8 @@ function formatDate(date: string): string {
       </div>
       <ul class="packs" id="packList">
         {
-          rows.map(({ p, cards, top, kind, rarities }) => (
-            <li data-name={p.name} data-year={p.releaseDate.slice(0, 4)} data-date={p.releaseDate} data-cards={cards} data-kind={kind} data-rarities={rarities.join('|')}>
+          rows.map(({ p, cards, top, kind, series, rarities }) => (
+            <li data-name={p.name} data-year={p.releaseDate.slice(0, 4)} data-date={p.releaseDate} data-cards={cards} data-kind={kind} data-series={series} data-rarities={rarities.join('|')}>
               <a href={`/pack/${p.slug}/`} class="pack-card">
                 {top && <img src={top.image} alt="" width="168" height="108" loading="lazy" />}
                 <span class="pack-main">
@@ -160,8 +169,9 @@ function formatDate(date: string): string {
         <label><input type="radio" name="year" value="2022以前" />2022年以前</label>
       </div>
       <h2>シリーズ</h2>
-      <select class="side-select" aria-label="シリーズ">
-        <option>すべてのシリーズ</option>
+      <select class="side-select" id="seriesFilter" aria-label="シリーズ">
+        <option value="">すべてのシリーズ</option>
+        {seriesList.map((s) => <option value={s}>{s}</option>)}
       </select>
       <h2>種別</h2>
       <div class="check-list">
@@ -184,6 +194,7 @@ function formatDate(date: string): string {
   const mainSearch = document.getElementById('packSearch') as HTMLInputElement | null;
   const sideSearch = document.getElementById('sideSearch') as HTMLInputElement | null;
   const sort = document.getElementById('sortPack') as HTMLSelectElement | null;
+  const seriesSelect = document.getElementById('seriesFilter') as HTMLSelectElement | null;
   const count = document.getElementById('packCount');
   const range = document.getElementById('packRange');
   const empty = document.getElementById('packEmpty');
@@ -265,6 +276,7 @@ function formatDate(date: string): string {
     const q = normalize(mainSearch?.value || sideSearch?.value || '');
     const kinds = selectedValues('kindFilter');
     const rarities = selectedValues('rarityFilter');
+    const seriesVal = seriesSelect?.value || '';
     const filtered: HTMLLIElement[] = [];
     for (const item of items) {
       const okName = !q || normalize(item.dataset.name ?? '').includes(q);
@@ -273,9 +285,10 @@ function formatDate(date: string): string {
         item.dataset.year === year ||
         (year === '2022以前' && Number(item.dataset.year ?? 0) <= 2022);
       const okKind = kinds.length === 0 || kinds.includes(item.dataset.kind ?? '');
+      const okSeries = !seriesVal || item.dataset.series === seriesVal;
       const itemRarities = (item.dataset.rarities ?? '').split('|');
       const okRarity = rarities.length === 0 || rarities.some((rarity) => itemRarities.includes(rarity));
-      if (okName && okYear && okKind && okRarity) filtered.push(item);
+      if (okName && okYear && okKind && okSeries && okRarity) filtered.push(item);
       item.hidden = true;
     }
     const sorted = sortItems(filtered);
@@ -308,6 +321,9 @@ function formatDate(date: string): string {
     filterChanged();
   });
   sort?.addEventListener('change', () => {
+    filterChanged();
+  });
+  seriesSelect?.addEventListener('change', () => {
     filterChanged();
   });
   document.querySelectorAll<HTMLInputElement>('input[name="year"]').forEach((input) => {
@@ -345,6 +361,7 @@ function formatDate(date: string): string {
       input.checked = input.value === 'すべて';
     });
     if (sort) sort.value = 'new';
+    if (seriesSelect) seriesSelect.value = '';
     filterChanged();
   });
   window.addEventListener('popstate', () => {
