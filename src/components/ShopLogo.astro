@@ -1,0 +1,200 @@
+---
+// ショップのロゴ風アイコン（PriceModal のポップアップ / ShopLinks のカード詳細で共通利用）。
+// name からブランド別の色・マークを引く。未知のショップは default（頭文字）。
+const { name } = Astro.props as { name: string };
+const shopVisuals: Record<string, { mark: string; logo: string }> = {
+  駿河屋: { mark: '', logo: 'surugaya' },
+  カードラッシュ: { mark: 'CR', logo: 'cardrush' },
+  カーナベル: { mark: 'カ', logo: 'kanaberu' },
+  遊々亭: { mark: '遊', logo: 'yuyutei' },
+  トレトク: { mark: 'R', logo: 'toretoku' },
+  ウリウリトレカ: { mark: 'ウ', logo: 'uriuri' },
+  CARDMAX: { mark: 'C', logo: 'cardmax' },
+  メルカリ: { mark: '', logo: 'mercari' },
+  Amazon: { mark: 'a', logo: 'amazon' },
+  'もえたく！': { mark: 'も', logo: 'moetaku' },
+};
+const visual = shopVisuals[name] ?? { mark: name.slice(0, 1), logo: 'default' };
+---
+
+<span class={`shop-logo logo-${visual.logo}`} aria-hidden="true"><span>{visual.mark}</span></span>
+
+<style>
+  .shop-logo {
+    display: grid;
+    place-items: center;
+    position: relative;
+    width: 24px;
+    height: 24px;
+    color: #fff;
+    font-size: 10px;
+    font-weight: 900;
+    line-height: 1;
+    overflow: visible;
+  }
+  .shop-logo span { position: relative; z-index: 2; }
+  .logo-surugaya {
+    border-radius: 50%;
+    background: radial-gradient(circle at 62% 35%, #6c57d5 0 22%, #35249a 23% 100%);
+  }
+  .logo-surugaya::before,
+  .logo-surugaya::after {
+    content: "";
+    position: absolute;
+    border: 2px solid #fff;
+    border-radius: 50%;
+  }
+  .logo-surugaya::before { inset: 4px 8px 4px 3px; border-right-color: transparent; transform: rotate(-22deg); }
+  .logo-surugaya::after { inset: 7px 4px 7px 9px; border-left-color: transparent; transform: rotate(18deg); }
+  .logo-cardrush {
+    border-radius: 3px;
+    background:
+      linear-gradient(135deg, rgba(0, 0, 0, 0.28), transparent 46%),
+      linear-gradient(160deg, #ff5a1f, #a41505);
+    box-shadow: inset 0 0 0 1px rgba(47, 20, 3, 0.25);
+  }
+  .logo-cardrush span { color: #111827; font-size: 8px; letter-spacing: -0.4px; text-shadow: 0 1px rgba(255, 255, 255, 0.3); }
+  .logo-kanaberu {
+    border-radius: 3px;
+    background: #ffd82f;
+    color: #155bbf;
+    box-shadow: inset 0 0 0 1px rgba(201, 157, 0, 0.2);
+  }
+  .logo-kanaberu::after {
+    content: "";
+    position: absolute;
+    right: 4px;
+    top: 5px;
+    width: 4px;
+    height: 14px;
+    background: #2b78ce;
+    box-shadow: -5px 3px 0 #2b78ce;
+    transform: skewY(-12deg);
+  }
+  .logo-kanaberu span { font-size: 10px; transform: translateX(-4px); }
+  .logo-yuyutei {
+    color: #063c74;
+    background: transparent;
+  }
+  .logo-yuyutei::before {
+    content: "";
+    position: absolute;
+    left: 2px;
+    top: 2px;
+    width: 5px;
+    height: 20px;
+    background: linear-gradient(#1aa3cf, #0370a8);
+    box-shadow: 6px 1px 0 #0b7eb3, 12px 0 0 #0c5f9d, 18px 2px 0 #19b7d2;
+    transform: skewX(-10deg);
+  }
+  .logo-yuyutei span {
+    color: #0b3b6f;
+    font-size: 10px;
+    text-shadow: 0 1px 0 #fff;
+  }
+  .logo-toretoku {
+    width: 22px;
+    height: 22px;
+    border-radius: 3px;
+    background: #1d62b7;
+  }
+  .logo-toretoku span { font-size: 13px; }
+  .logo-uriuri {
+    border-radius: 50%;
+    background: #e23b49;
+  }
+  .logo-uriuri::before {
+    content: "";
+    position: absolute;
+    left: 6px;
+    top: 4px;
+    width: 12px;
+    height: 15px;
+    border-radius: 50% 50% 42% 42%;
+    background: #fff;
+  }
+  .logo-uriuri span { color: #e23b49; font-size: 9px; transform: translateY(1px); }
+  .logo-cardmax {
+    color: #0b4f9c;
+    background: transparent;
+  }
+  .logo-cardmax::before {
+    content: "";
+    position: absolute;
+    left: 5px;
+    top: 3px;
+    width: 14px;
+    height: 17px;
+    border: 2px solid currentColor;
+    border-radius: 6px 6px 5px 5px;
+  }
+  .logo-cardmax::after {
+    content: "";
+    position: absolute;
+    left: 7px;
+    top: 0;
+    width: 10px;
+    height: 7px;
+    border: 2px solid currentColor;
+    border-bottom: 0;
+    border-radius: 8px 8px 0 0;
+  }
+  .logo-cardmax span { font-size: 0; }
+  .logo-mercari {
+    background: transparent;
+  }
+  .logo-mercari::before,
+  .logo-mercari::after {
+    content: "";
+    position: absolute;
+    width: 13px;
+    height: 13px;
+    border-radius: 4px;
+  }
+  .logo-mercari::before { left: 3px; top: 6px; background: #ef3f36; transform: rotate(-28deg); }
+  .logo-mercari::after { right: 3px; top: 4px; background: #08a9d6; transform: rotate(28deg); }
+  .logo-amazon {
+    width: 28px;
+    color: #111827;
+    align-items: start;
+    padding-top: 1px;
+    font-family: Georgia, serif;
+    font-size: 18px;
+    background: transparent;
+  }
+  .logo-amazon::after {
+    content: "";
+    position: absolute;
+    left: 3px;
+    right: 2px;
+    bottom: 2px;
+    height: 7px;
+    border-bottom: 3px solid #f2b83b;
+    border-radius: 50%;
+    transform: rotate(-6deg);
+  }
+  .logo-moetaku {
+    border-radius: 50%;
+    color: #c51d58;
+    background: #ffd2dd;
+    box-shadow: inset 0 0 0 2px #f2a4bc;
+  }
+  .logo-moetaku::before,
+  .logo-moetaku::after {
+    content: "";
+    position: absolute;
+    top: 1px;
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    background: #ffd2dd;
+    border: 2px solid #f2a4bc;
+  }
+  .logo-moetaku::before { left: 2px; }
+  .logo-moetaku::after { right: 2px; }
+  .logo-moetaku span { font-size: 10px; transform: translateY(1px); }
+  .logo-default {
+    border-radius: 4px;
+    background: #1d62b7;
+  }
+</style>

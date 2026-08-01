@@ -56,7 +56,7 @@ const samePack = seriesByPack(card.packSlug)
   .slice(0, 6);
 
 const crumbLabel = `${card.name}【${card.rarity}】${setCode} ${card.cardNumber}`;
-const title = `${card.name}(${card.rarity}) ${setCode} ${card.cardNumber} の買取・販売価格相場【ポケカ】`;
+const title = `${card.name}(${card.rarity}) ${setCode} ${card.cardNumber} の買取・販売価格相場`;
 const description = `${card.name}(${card.rarity})の最新の販売価格は${yen(card.sellPrice)}、買取価格は${yen(
   card.buyPrice,
 )}（${priceDate}時点）。${card.pack}収録。価格推移もまとめています。`;

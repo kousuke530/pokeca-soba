@@ -32,7 +32,7 @@ const typeLabel =
 const rarityOptions = [...new Set(variants.map((v) => v.rarity))];
 const seriesOptions = [...new Map(variants.map((v) => [v.packSlug, v.pack] as const)).entries()];
 
-const title = `${series.name}(全${series.variants.length}種)の買取・販売価格相場一覧【ポケカ】`;
+const title = `${series.name}(全${series.variants.length}種)の買取・販売価格相場一覧`;
 const description = `${series.name}の最新の販売価格・買取価格を比較。レアリティ別（${series.variants
   .map((v) => v.rarity)
   .join('・')}）の相場をまとめています。`;
@@ -104,7 +104,6 @@ const jsonLd = JSON.stringify({
 
   <section class="tabs" aria-label="表示切り替え">
     <a href="#variants" class="active">カードバージョン一覧</a>
-    <a href="#chart">相場チャート</a>
   </section>
 
   <section id="variants" class="variant-section page-panel">
