@@ -8,8 +8,10 @@ interface Props {
   jsonLd?: string;
   /** true のとき canonical タグを出力しない（?page= 等で各URLを固有ページとして扱いたい場合） */
   noCanonical?: boolean;
+  /** true のとき ?q= クエリ付きURL（検索結果）を noindex にする */
+  noindexQuery?: boolean;
 }
-const { title, description, path = '', jsonLd, noCanonical = false } = Astro.props;
+const { title, description, path = '', jsonLd, noCanonical = false, noindexQuery = false } = Astro.props;
 const canonical = new URL(path, Astro.site).href;
 const currentPath = Astro.url.pathname;
 const navItems = [
@@ -38,6 +40,18 @@ const navItems = [
     <title>{title}</title>
     <meta name="description" content={description} />
     {!noCanonical && <link rel="canonical" href={canonical} />}
+    {
+      noindexQuery && (
+        <script is:inline>
+          {`if (location.search && new URLSearchParams(location.search).has('q')) {
+            var m = document.createElement('meta');
+            m.name = 'robots';
+            m.content = 'noindex,follow';
+            document.head.appendChild(m);
+          }`}
+        </script>
+      )
+    }
     <!-- Favicon / アイコン -->
     <link rel="icon" href="/favicon.ico" sizes="any" />
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png" />

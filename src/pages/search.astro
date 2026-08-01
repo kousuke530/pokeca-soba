@@ -11,7 +11,7 @@ const ranking = topByPrice(5);
 const yen = (v: number | null) => (v == null ? '調査中' : `${v.toLocaleString('ja-JP')}円`);
 ---
 
-<BaseLayout title={title} description={description} path="/search/">
+<BaseLayout title={title} description={description} path="/search/" noindexQuery>
   <Breadcrumbs items={[{ label: 'ポケカ買取・販売価格相場TOP', href: '/' }, { label: 'カード検索' }]} />
 
   <section class="search-hero">
