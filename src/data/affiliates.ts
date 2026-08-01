@@ -63,6 +63,16 @@ export function kanaberuUrl(card: Pick<Card, 'name'>): string {
 /** カーナベル「売れる」＝買取のトップページ（A8.net経由）。カードごとの絞り込みはなし */
 export const kanaberuBuybackUrl = a8Redirect(KANABERU_A8MAT, 'https://www.ka-nabell.com/ec/buy/pokemon');
 
+// 以下は A8.net が発行した完成済みの計測リンク（カード個別ではなくサイト単位）。
+/** 遊々亭(A8.net) 販売・買取共通の計測リンク */
+const YUYUTEI_A8_URL = 'https://px.a8.net/svt/ejp?a8mat=4B7UT0+EAELRE+49ZW+5ZMCH';
+/** ウリウリトレカ(A8.net) 販売の計測リンク */
+const URIURI_SELL_A8_URL = 'https://px.a8.net/svt/ejp?a8mat=4B7UT0+EDDRSA+4YF2+BXIYP';
+/** ウリウリトレカ(A8.net) 買取の計測リンク */
+const URIURI_BUY_A8_URL = 'https://px.a8.net/svt/ejp?a8mat=4B7UT0+EPVVHM+4YF2+63OYA';
+/** CARDMAX(A8.net) 買取の計測リンク */
+const CARDMAX_BUY_A8_URL = 'https://px.a8.net/svt/ejp?a8mat=4B7UT0+ECSC6I+5F2I+5Z6WX';
+
 export interface AffiliateShop {
   name: string;
   /** 遷移先URL（本番は各提携先のアフィリエイトリンクに差し替え予定） */
@@ -79,9 +89,9 @@ const allPurchaseShops: AffiliateShop[] = [
   { name: '駿河屋', url: 'https://www.suruga-ya.jp/', via: '駿河屋アフィリエイト', affiliated: true },
   { name: 'カードラッシュ', url: 'https://www.cardrush-pokemon.jp/', via: 'A8.net' },
   { name: 'カーナベル', url: 'https://www.ka-nabell.com/', via: 'A8.net', affiliated: true },
-  { name: '遊々亭', url: 'https://yuyu-tei.jp/', via: 'A8.net' },
+  { name: '遊々亭', url: YUYUTEI_A8_URL, via: 'A8.net', affiliated: true },
   { name: 'トレトク', url: 'https://www.toretoku.jp/', via: 'A8.net', affiliated: true },
-  { name: 'ウリウリトレカ', url: 'https://hanbaiuriuritoreca.com/', via: 'A8.net' },
+  { name: 'ウリウリトレカ', url: URIURI_SELL_A8_URL, via: 'A8.net', affiliated: true },
   { name: 'CARDMAX', url: 'https://www.cardmax.jp/', via: 'A8.net' },
   { name: 'メルカリ', url: 'https://jp.mercari.com/', via: 'メルカリアンバサダー', affiliated: true },
   { name: 'Amazon', url: 'https://www.amazon.co.jp/', via: 'Amazonアソシエイト', affiliated: true },
@@ -89,9 +99,10 @@ const allPurchaseShops: AffiliateShop[] = [
 
 const allBuybackShops: AffiliateShop[] = [
   { name: 'カーナベル', url: kanaberuBuybackUrl, via: 'A8.net', affiliated: true },
-  { name: '遊々亭', url: 'https://yuyu-tei.jp/cart/buy', via: 'A8.net' },
+  { name: '遊々亭', url: YUYUTEI_A8_URL, via: 'A8.net', affiliated: true },
   { name: 'トレトク', url: 'https://px.a8.net/svt/ejp?a8mat=4B7UT0+EC6WKQ+2QOI+2T7WK2', via: 'A8.net', affiliated: true },
-  { name: 'ウリウリトレカ', url: 'https://uriuritoreca.com/', via: 'A8.net' },
+  { name: 'ウリウリトレカ', url: URIURI_BUY_A8_URL, via: 'A8.net', affiliated: true },
+  { name: 'CARDMAX', url: CARDMAX_BUY_A8_URL, via: 'A8.net', affiliated: true },
   { name: 'もえたく！', url: 'https://h.accesstrade.net/sp/cc?rk=0100pu0n00ovb4', via: 'アクセストレード', affiliated: true },
 ];
 
