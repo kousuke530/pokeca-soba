@@ -1,0 +1,125 @@
+---
+// 関連リンクのカード枠（カード詳細 / ポケモン別一覧で共通利用）。
+// items は表示に必要な最小情報へ正規化して渡す（カード詳細=カードへ、ポケモン一覧=シリーズへリンク可）。
+export interface RelatedItem {
+  href: string;
+  image: string;
+  name: string;
+  /** レア/型番などの補足（任意） */
+  sub?: string;
+  /** 販売価格（number=表示 / null=調査中 / undefined=非表示） */
+  price?: number | null;
+}
+interface Props {
+  title: string;
+  items: RelatedItem[];
+  /** 見出し横の「一覧 →」リンク（任意） */
+  moreHref?: string;
+}
+const { title, items, moreHref } = Astro.props;
+const yen = (v: number | null | undefined) => (v == null ? '調査中' : `¥${v.toLocaleString('ja-JP')}`);
+---
+
+{
+  items.length > 0 && (
+    <section class="rc">
+      <h2 class="rc-h">
+        {title}
+        {moreHref && <a class="rc-more" href={moreHref}>一覧 →</a>}
+      </h2>
+      <ul class="rc-grid">
+        {items.map((it) => (
+          <li>
+            <a href={it.href}>
+              <img
+                src={it.image}
+                alt={it.name}
+                width="82"
+                height="114"
+                loading="lazy"
+                onerror="this.onerror=null;this.src='/images/cards/placeholder.svg'"
+              />
+              <span class="rc-nm">{it.name}</span>
+              {it.sub && <em>{it.sub}</em>}
+              {it.price !== undefined && <strong>販売 {yen(it.price)}</strong>}
+            </a>
+          </li>
+        ))}
+      </ul>
+    </section>
+  )
+}
+
+<style>
+  .rc { margin-top: 34px; }
+  .rc-h {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 16px;
+    margin: 0 0 16px;
+    color: var(--text-strong);
+    font-size: 22px;
+    font-weight: 900;
+  }
+  .rc-more { color: var(--brand); font-size: 13px; font-weight: 900; text-decoration: none; white-space: nowrap; }
+  .rc-grid {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(6, minmax(0, 1fr));
+    gap: 16px;
+  }
+  .rc-grid li { display: flex; min-width: 0; }
+  .rc-grid a {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    align-items: center;
+    padding: 14px 12px;
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    color: inherit;
+    background: #fff;
+    text-decoration: none;
+    text-align: center;
+  }
+  .rc-grid a:hover { border-color: var(--brand); box-shadow: var(--shadow-sm); }
+  .rc-grid img { width: 82px; height: 114px; object-fit: contain; border-radius: 5px; }
+  .rc-nm {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+    min-height: 37px;
+    color: var(--text-strong);
+    font-size: 13px;
+    line-height: 1.4;
+    font-weight: 900;
+  }
+  .rc-grid em {
+    display: block;
+    min-height: 15px;
+    color: var(--text-sub);
+    font-size: 11px;
+    line-height: 1.35;
+    font-style: normal;
+    font-weight: 700;
+  }
+  .rc-grid strong {
+    display: block;
+    color: var(--accent-red);
+    font-size: 13px;
+    line-height: 1.35;
+    font-weight: 900;
+    white-space: nowrap;
+  }
+  @media (max-width: 940px) {
+    .rc-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+  }
+  @media (max-width: 560px) {
+    .rc-grid { grid-template-columns: 1fr 1fr; gap: 12px; }
+  }
+</style>

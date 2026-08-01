@@ -3,8 +3,9 @@ import BaseLayout from '../../../layouts/BaseLayout.astro';
 import Breadcrumbs from '../../../components/Breadcrumbs.astro';
 import PriceHistoryChart from '../../../components/PriceHistoryChart.astro';
 import ShopLinks from '../../../components/ShopLinks.astro';
+import RelatedCards from '../../../components/RelatedCards.astro';
 import { purchaseShops, buybackShops, amazonSearchUrl, mercariSearchUrl, toretokuUrl, kanaberuUrl } from '../../../data/affiliates';
-import { allCards, getSeriesByName, seriesByPack, priceAsOf } from '../../../data/cards';
+import { allCards, getSeriesByName, seriesByPack, priceAsOf, popularByName, sameTypeByName, similarPriceByName } from '../../../data/cards';
 import { getPack } from '../../../data/packs';
 import type { Card } from '../../../data/types';
 
@@ -54,6 +55,18 @@ const samePack = seriesByPack(card.packSlug)
   .map((s) => s.variants.reduce((a, b) => ((b.sellPrice ?? 0) > (a.sellPrice ?? 0) ? b : a)))
   .sort((a, b) => (b.sellPrice ?? 0) - (a.sellPrice ?? 0))
   .slice(0, 6);
+
+// 関連リンク枠（同価格帯 / 人気=高額 / 同じタイプ）。同名カードは除外。
+const toRelItem = (c: Card) => ({
+  href: c.path,
+  image: c.image,
+  name: c.name,
+  sub: `${c.rarity} ${c.cardNumber}`,
+  price: c.sellPrice,
+});
+const relatedPriceBand = similarPriceByName(card.sellPrice, 6, card.name).map(toRelItem);
+const relatedPopular = popularByName(6, card.name).map(toRelItem);
+const relatedSameType = isPokemon ? sameTypeByName(card.energyType, 6, card.name).map(toRelItem) : [];
 
 const crumbLabel = `${card.name}【${card.rarity}】${setCode} ${card.cardNumber}`;
 const title = `${card.name}(${card.rarity}) ${setCode} ${card.cardNumber} の買取・販売価格相場`;
@@ -228,6 +241,10 @@ const jsonLd = JSON.stringify({
       </section>
     )
   }
+
+  <RelatedCards title="同価格帯のカード" items={relatedPriceBand} />
+  {isPokemon && <RelatedCards title={`${card.energyType}タイプのカード`} items={relatedSameType} />}
+  <RelatedCards title="人気カード（価格が高い順）" items={relatedPopular} moreHref="/ranking/" />
 </BaseLayout>
 
 <style>

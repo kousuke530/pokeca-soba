@@ -3,7 +3,8 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
 import Breadcrumbs from '../../components/Breadcrumbs.astro';
 import VariantRow from '../../components/VariantRow.astro';
 import PriceModal from '../../components/PriceModal.astro';
-import { series as allSeries, priceAsOf } from '../../data/cards';
+import RelatedCards from '../../components/RelatedCards.astro';
+import { series as allSeries, priceAsOf, popularByName, sameTypeByName } from '../../data/cards';
 import type { CardSeries } from '../../data/types';
 
 export function getStaticPaths() {
@@ -31,6 +32,24 @@ const typeLabel =
 // 絞り込み用の選択肢（このポケモンのバリエーションから）
 const rarityOptions = [...new Set(variants.map((v) => v.rarity))];
 const seriesOptions = [...new Map(variants.map((v) => [v.packSlug, v.pack] as const)).entries()];
+
+// 関連リンク枠：人気（=価格の高いカード、カード詳細へ）／同じタイプのポケモン（シリーズへ）。自分自身は除外。
+const isPokemon = topCard.category === 'ポケモン';
+const relatedPopular = popularByName(6, series.name).map((c) => ({
+  href: c.path,
+  image: c.image,
+  name: c.name,
+  sub: `${c.rarity} ${c.cardNumber}`,
+  price: c.sellPrice,
+}));
+const relatedSameType = isPokemon
+  ? sameTypeByName(topCard.energyType, 6, series.name).map((c) => ({
+      href: `/list/${c.nameSlug}/`,
+      image: c.image,
+      name: c.name,
+      price: c.sellPrice,
+    }))
+  : [];
 
 const title = `${series.name}(全${series.variants.length}種)の買取・販売価格相場一覧`;
 const description = `${series.name}の最新の販売価格・買取価格を比較。レアリティ別（${series.variants
@@ -140,6 +159,9 @@ const jsonLd = JSON.stringify({
   <section id="chart" class="notice">
     価格は主要カードショップの最安値を基に算出しています。更新時間により価格や在庫が変動する場合があります。
   </section>
+
+  <RelatedCards title="人気カード（価格が高い順）" items={relatedPopular} moreHref="/ranking/" />
+  {isPokemon && <RelatedCards title={`${topCard.energyType}タイプのポケモン`} items={relatedSameType} />}
 
   {
     variants.map((c) => (

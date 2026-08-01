@@ -213,3 +213,66 @@ export function topByPrice(n = 50): Card[] {
     .sort((a, b) => (b.sellPrice ?? 0) - (a.sellPrice ?? 0))
     .slice(0, n);
 }
+
+// ===== 関連リンク用（各ポケモン名につき最高値の1枚に集約して前計算） =====
+// カード詳細/ポケモン別ページごとに全カード走査すると重いので、モジュール初期化で1度だけ作る。
+/** 価格取得済みカードを高額順に */
+const pricedDesc: Card[] = allCards
+  .filter((c) => c.sellPrice != null)
+  .sort((a, b) => (b.sellPrice ?? 0) - (a.sellPrice ?? 0));
+/** 各カード名につき最高値の1枚（高額順）。関連リンクで同名の重複を避ける */
+const distinctByName: Card[] = (() => {
+  const seen = new Set<string>();
+  const out: Card[] = [];
+  for (const c of pricedDesc) {
+    if (seen.has(c.name)) continue;
+    seen.add(c.name);
+    out.push(c);
+  }
+  return out;
+})();
+/** 同上を価格の昇順に（同価格帯検索の二分探索用） */
+const distinctByNameAsc: Card[] = distinctByName.slice().sort((a, b) => (a.sellPrice ?? 0) - (b.sellPrice ?? 0));
+/** タイプ（エネルギー）別の高額順リスト（名前重複除去済み） */
+const byType = new Map<string, Card[]>();
+for (const c of distinctByName) {
+  if (!c.energyType) continue;
+  const arr = byType.get(c.energyType) ?? [];
+  arr.push(c);
+  byType.set(c.energyType, arr);
+}
+
+/** 人気カード＝価格の高いカード（名前重複除去）。関連リンク用 */
+export function popularByName(limit = 6, excludeName?: string): Card[] {
+  return distinctByName.filter((c) => c.name !== excludeName).slice(0, limit);
+}
+
+/** 同じタイプ（エネルギー）のカードを高額順で（名前重複除去）。関連リンク用 */
+export function sameTypeByName(energyType: string | undefined, limit = 6, excludeName?: string): Card[] {
+  if (!energyType) return [];
+  return (byType.get(energyType) ?? []).filter((c) => c.name !== excludeName).slice(0, limit);
+}
+
+/** 指定価格に近い順のカード（名前重複除去）。二分探索で近傍を収集。関連リンク用 */
+export function similarPriceByName(price: number | null, limit = 6, excludeName?: string): Card[] {
+  if (price == null) return [];
+  const arr = distinctByNameAsc;
+  let lo = 0;
+  let hi = arr.length;
+  while (lo < hi) {
+    const mid = (lo + hi) >> 1;
+    if ((arr[mid].sellPrice ?? 0) < price) lo = mid + 1;
+    else hi = mid;
+  }
+  let i = lo - 1;
+  let j = lo;
+  const out: Card[] = [];
+  while (out.length < limit && (i >= 0 || j < arr.length)) {
+    const di = i >= 0 ? Math.abs((arr[i].sellPrice ?? 0) - price) : Infinity;
+    const dj = j < arr.length ? Math.abs((arr[j].sellPrice ?? 0) - price) : Infinity;
+    const pick = di <= dj ? arr[i--] : arr[j++];
+    if (pick.name === excludeName) continue;
+    out.push(pick);
+  }
+  return out;
+}
