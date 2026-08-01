@@ -244,7 +244,7 @@ const jsonLd = JSON.stringify({
 
   <RelatedCards title="同価格帯のカード" items={relatedPriceBand} />
   {isPokemon && <RelatedCards title={`${card.energyType}タイプのカード`} items={relatedSameType} />}
-  <RelatedCards title="人気カード（価格が高い順）" items={relatedPopular} moreHref="/ranking/" />
+  <RelatedCards title="人気カード" items={relatedPopular} moreHref="/ranking/" />
 </BaseLayout>
 
 <style>

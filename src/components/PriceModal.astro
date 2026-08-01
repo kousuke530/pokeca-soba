@@ -2,6 +2,7 @@
 import type { Card } from '../data/types';
 import { purchaseShops, buybackShops, amazonSearchUrl, mercariSearchUrl, toretokuUrl, kanaberuUrl } from '../data/affiliates';
 import ShopLogo from './ShopLogo.astro';
+import { typeChipStyle } from '../data/typeColors';
 
 interface Props {
   card: Card;
@@ -74,7 +75,7 @@ const fmtCompact = (v: number) => `¥${v.toLocaleString('ja-JP')}`;
         <div class="pm-chips">
           <span class="chip chip-rarity">{card.rarity}</span>
           <span class="chip">{card.cardNumber}</span>
-          <span class="chip">{categoryLabel}</span>
+          <span class="chip" style={typeChipStyle(card.energyType)}>{categoryLabel}</span>
         </div>
         <p class="pm-pack">{card.pack}</p>
       </div>

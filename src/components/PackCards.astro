@@ -2,6 +2,8 @@
 import BaseLayout from '../layouts/BaseLayout.astro';
 import Breadcrumbs from './Breadcrumbs.astro';
 import VariantRow from './VariantRow.astro';
+import PriceModal from './PriceModal.astro';
+import { priceAsOf } from '../data/cards';
 import type { Card, Pack } from '../data/types';
 
 interface Props {
@@ -37,7 +39,7 @@ const pageList = [...nums].filter((n) => n >= 1 && n <= totalPages).sort((a, b) 
   <p class="lead">{pack.releaseDate} 発売 ／ 全{total}枚{totalPages > 1 && `（${page}/${totalPages}ページ）`}。各カードの最新販売・買取価格を確認できます。</p>
 
   <ul class="card-list">
-    {cards.map((c) => <VariantRow card={c} />)}
+    {cards.map((c) => <VariantRow card={c} popup />)}
   </ul>
 
   {
@@ -58,7 +60,28 @@ const pageList = [...nums].filter((n) => n >= 1 && n <= totalPages).sort((a, b) 
       </nav>
     )
   }
+
+  {cards.map((c) => (
+    <PriceModal card={c} seriesUrl={`/list/${c.nameSlug}/`} seriesName={c.name} priceDate={priceAsOf} />
+  ))}
 </BaseLayout>
+
+<script>
+  document.querySelectorAll<HTMLButtonElement>('[data-open-modal]').forEach((btn) => {
+    btn.addEventListener('click', () => {
+      const id = btn.getAttribute('data-open-modal');
+      if (id) (document.getElementById(id) as HTMLDialogElement | null)?.showModal();
+    });
+  });
+  document.querySelectorAll<HTMLButtonElement>('[data-close-modal]').forEach((btn) => {
+    btn.addEventListener('click', () => btn.closest('dialog')?.close());
+  });
+  document.querySelectorAll<HTMLDialogElement>('dialog.pm').forEach((dlg) => {
+    dlg.addEventListener('click', (e) => {
+      if (e.target === dlg) dlg.close();
+    });
+  });
+</script>
 
 <style>
   .page-title { font-size: 20px; line-height: 1.5; margin: 0 0 8px; }
