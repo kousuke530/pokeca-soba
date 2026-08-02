@@ -2,8 +2,8 @@
   "pack": "拡張パック「古代の咆哮」",
   "packSlug": "sv4k",
   "source": "surugaya",
-  "collectedAt": "2026-08-01T07:06:08.069Z",
-  "count": 95,
+  "collectedAt": "2026-08-02T04:59:14.478Z",
+  "count": 96,
   "cards": [
     {
       "name": "ヤナップ",
@@ -1065,6 +1065,18 @@
       "surugayaSoldOut": true,
       "raritySlug": "ur",
       "surugayaBuyPrice": null
+    },
+    {
+      "name": "基本あくエネルギー",
+      "cardNumber": "095/066",
+      "rarity": "UR",
+      "category": "エネルギー",
+      "energyType": "",
+      "surugayaUrl": "/product/detail/GN228519?tenpo_cd=400379",
+      "surugayaPrice": 3610,
+      "surugayaSoldOut": true,
+      "raritySlug": "ur",
+      "surugayaBuyPrice": 2000
     },
     {
       "name": "コソクムシ",

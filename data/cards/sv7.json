@@ -2,8 +2,8 @@
   "pack": "拡張パック 「ステラミラクル」",
   "packSlug": "sv7",
   "source": "surugaya",
-  "collectedAt": "2026-08-01T07:08:37.875Z",
-  "count": 177,
+  "collectedAt": "2026-08-02T05:01:45.704Z",
+  "count": 176,
   "cards": [
     {
       "name": "かがやくリザードン",
@@ -355,7 +355,7 @@
       "category": "グッズ",
       "energyType": "",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN596218",
-      "surugayaPrice": 160,
+      "surugayaPrice": 180,
       "surugayaSoldOut": false,
       "raritySlug": "n"
     },
@@ -806,7 +806,7 @@
       "category": "サポート",
       "energyType": "",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN596239",
-      "surugayaPrice": 250,
+      "surugayaPrice": 280,
       "surugayaSoldOut": false,
       "raritySlug": "n"
     },
@@ -831,17 +831,6 @@
       "surugayaPrice": 50,
       "surugayaSoldOut": true,
       "raritySlug": "n"
-    },
-    {
-      "name": "ヤドキング",
-      "cardNumber": "039/102",
-      "rarity": "U",
-      "category": "ポケモン",
-      "energyType": "超",
-      "surugayaUrl": "/product/detail/GN596103?tenpo_cd=410018",
-      "surugayaPrice": 75,
-      "surugayaSoldOut": true,
-      "raritySlug": "u"
     },
     {
       "name": "タウンデパート",
@@ -1598,7 +1587,7 @@
       "category": "ポケモン",
       "energyType": "草",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN596167",
-      "surugayaPrice": 430,
+      "surugayaPrice": 480,
       "surugayaSoldOut": false,
       "raritySlug": "ar",
       "surugayaBuyPrice": null
@@ -1622,7 +1611,7 @@
       "category": "ポケモン",
       "energyType": "炎",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN596169",
-      "surugayaPrice": 340,
+      "surugayaPrice": 380,
       "surugayaSoldOut": false,
       "raritySlug": "ar",
       "surugayaBuyPrice": null
@@ -1646,9 +1635,10 @@
       "category": "ポケモン",
       "energyType": "水",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN596171",
-      "surugayaPrice": 270,
+      "surugayaPrice": 300,
       "surugayaSoldOut": false,
-      "raritySlug": "ar"
+      "raritySlug": "ar",
+      "surugayaBuyPrice": null
     },
     {
       "name": "バチュル",
@@ -1657,7 +1647,7 @@
       "category": "ポケモン",
       "energyType": "雷",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN596172",
-      "surugayaPrice": 340,
+      "surugayaPrice": 380,
       "surugayaSoldOut": false,
       "raritySlug": "ar",
       "surugayaBuyPrice": null
@@ -1693,7 +1683,7 @@
       "category": "ポケモン",
       "energyType": "闘",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN596175",
-      "surugayaPrice": 340,
+      "surugayaPrice": 380,
       "surugayaSoldOut": false,
       "raritySlug": "ar",
       "surugayaBuyPrice": null
@@ -1837,7 +1827,7 @@
       "category": "サポート",
       "energyType": "",
       "surugayaUrl": "/product/other/GN596187",
-      "surugayaPrice": 420,
+      "surugayaPrice": 400,
       "surugayaSoldOut": true,
       "raritySlug": "sr",
       "surugayaBuyPrice": 600
@@ -1927,16 +1917,16 @@
       "surugayaBuyPrice": 3000
     },
     {
-      "name": "タロ",
+      "name": "【ランクB】タロ",
       "cardNumber": "131/102",
       "rarity": "SAR",
       "category": "サポート",
       "energyType": "",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN596195",
-      "surugayaPrice": 6980,
-      "surugayaSoldOut": false,
+      "surugayaUrl": "/product/detail/GB596195?tenpo_cd=201217",
+      "surugayaPrice": 5900,
+      "surugayaSoldOut": true,
       "raritySlug": "sar",
-      "surugayaBuyPrice": 3500
+      "surugayaBuyPrice": null
     },
     {
       "name": "ブライア",

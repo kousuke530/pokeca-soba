@@ -2,8 +2,8 @@
   "pack": "スタートデッキ100 バトルコレクション",
   "packSlug": "mc",
   "source": "surugaya",
-  "collectedAt": "2026-08-01T07:14:28.682Z",
-  "count": 529,
+  "collectedAt": "2026-08-02T05:07:36.658Z",
+  "count": 530,
   "cards": [
     {
       "name": "アイアント",
@@ -14,6 +14,17 @@
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU548948",
       "surugayaPrice": 160,
       "surugayaSoldOut": false,
+      "raritySlug": "n"
+    },
+    {
+      "name": "エリカのナゾノクサ",
+      "cardNumber": "001/742",
+      "rarity": "ノーマル",
+      "category": "ポケモン",
+      "energyType": "草",
+      "surugayaUrl": "/product/detail/GU543179?tenpo_cd=400462",
+      "surugayaPrice": 80,
+      "surugayaSoldOut": true,
       "raritySlug": "n"
     },
     {
@@ -4828,7 +4839,7 @@
       "category": "グッズ",
       "energyType": "",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU543145",
-      "surugayaPrice": 160,
+      "surugayaPrice": 180,
       "surugayaSoldOut": false,
       "raritySlug": "mirror"
     },
@@ -5328,7 +5339,7 @@
       "category": "サポート",
       "energyType": "",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU543171",
-      "surugayaPrice": 160,
+      "surugayaPrice": 180,
       "surugayaSoldOut": false,
       "raritySlug": "mirror"
     },
@@ -5629,7 +5640,7 @@
       "category": "ポケモン",
       "energyType": "水",
       "surugayaUrl": "/product/other/GU542886",
-      "surugayaPrice": 1670,
+      "surugayaPrice": 1590,
       "surugayaSoldOut": true,
       "raritySlug": "n",
       "surugayaBuyPrice": 1200
@@ -5665,7 +5676,7 @@
       "category": "ポケモン",
       "energyType": "超",
       "surugayaUrl": "/product/other/GU542889",
-      "surugayaPrice": 3220,
+      "surugayaPrice": 3160,
       "surugayaSoldOut": true,
       "raritySlug": "n",
       "surugayaBuyPrice": 2500
@@ -5857,7 +5868,7 @@
       "category": "ポケモン",
       "energyType": "",
       "surugayaUrl": "/product/other/GU542901",
-      "surugayaPrice": 67800,
+      "surugayaPrice": 55860,
       "surugayaSoldOut": true,
       "raritySlug": "n",
       "surugayaBuyPrice": 50000
