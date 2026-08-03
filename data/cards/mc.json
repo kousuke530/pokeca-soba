@@ -2,8 +2,8 @@
   "pack": "スタートデッキ100 バトルコレクション",
   "packSlug": "mc",
   "source": "surugaya",
-  "collectedAt": "2026-08-02T05:07:36.658Z",
-  "count": 530,
+  "collectedAt": "2026-08-03T04:55:52.150Z",
+  "count": 529,
   "cards": [
     {
       "name": "アイアント",
@@ -112,9 +112,9 @@
       "rarity": "ノーマル",
       "category": "ポケモン",
       "energyType": "草",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU543183",
-      "surugayaPrice": 160,
-      "surugayaSoldOut": false,
+      "surugayaUrl": "/product/detail/GU543183?tenpo_cd=400462",
+      "surugayaPrice": 80,
+      "surugayaSoldOut": true,
       "raritySlug": "n"
     },
     {
@@ -123,9 +123,9 @@
       "rarity": "ノーマル",
       "category": "ポケモン",
       "energyType": "草",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU543184",
-      "surugayaPrice": 160,
-      "surugayaSoldOut": false,
+      "surugayaUrl": "/product/detail/GU543184?tenpo_cd=400462",
+      "surugayaPrice": 80,
+      "surugayaSoldOut": true,
       "raritySlug": "n"
     },
     {
@@ -1271,17 +1271,6 @@
       "raritySlug": "mirror"
     },
     {
-      "name": "ボルケニオンex",
-      "cardNumber": "129/742",
-      "rarity": "ノーマル",
-      "category": "ポケモン",
-      "energyType": "炎",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU542914",
-      "surugayaPrice": 160,
-      "surugayaSoldOut": false,
-      "raritySlug": "n"
-    },
-    {
       "name": "ニャビー",
       "cardNumber": "130/742",
       "rarity": "ノーマル",
@@ -1981,8 +1970,8 @@
       "rarity": "ミラー",
       "category": "ポケモン",
       "energyType": "雷",
-      "surugayaUrl": "/product/other/GU543094",
-      "surugayaPrice": 1100,
+      "surugayaUrl": "/product/detail/GU543094?tenpo_cd=400436",
+      "surugayaPrice": 4980,
       "surugayaSoldOut": true,
       "raritySlug": "mirror",
       "surugayaBuyPrice": 400
@@ -5026,7 +5015,7 @@
       "rarity": "ノーマル",
       "category": "グッズ",
       "energyType": "",
-      "surugayaUrl": "/product/other/GU543697",
+      "surugayaUrl": "/product/detail/GU543697?tenpo_cd=400463",
       "surugayaPrice": 2250,
       "surugayaSoldOut": true,
       "raritySlug": "n",
@@ -5628,7 +5617,7 @@
       "category": "ポケモン",
       "energyType": "炎",
       "surugayaUrl": "/product/other/GU542885",
-      "surugayaPrice": 3140,
+      "surugayaPrice": 3050,
       "surugayaSoldOut": true,
       "raritySlug": "n",
       "surugayaBuyPrice": 2000
@@ -5664,7 +5653,7 @@
       "category": "ポケモン",
       "energyType": "超",
       "surugayaUrl": "/product/other/GU542888",
-      "surugayaPrice": 4490,
+      "surugayaPrice": 4400,
       "surugayaSoldOut": true,
       "raritySlug": "n",
       "surugayaBuyPrice": 2800
@@ -5688,7 +5677,7 @@
       "category": "ポケモン",
       "energyType": "闘",
       "surugayaUrl": "/product/other/GU542890",
-      "surugayaPrice": 2140,
+      "surugayaPrice": 2030,
       "surugayaSoldOut": true,
       "raritySlug": "n",
       "surugayaBuyPrice": 1200
@@ -5748,10 +5737,10 @@
       "category": "ポケモン",
       "energyType": "",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU542893",
-      "surugayaPrice": 54800,
+      "surugayaPrice": 45800,
       "surugayaSoldOut": false,
       "raritySlug": "n",
-      "surugayaBuyPrice": 28000
+      "surugayaBuyPrice": 18000
     },
     {
       "name": "アオキのムクホーク",
@@ -5832,7 +5821,7 @@
       "category": "ポケモン",
       "energyType": "炎",
       "surugayaUrl": "/product/other/GU542898",
-      "surugayaPrice": 12600,
+      "surugayaPrice": 12030,
       "surugayaSoldOut": true,
       "raritySlug": "n",
       "surugayaBuyPrice": 9000
@@ -5859,19 +5848,19 @@
       "surugayaPrice": 268000,
       "surugayaSoldOut": false,
       "raritySlug": "n",
-      "surugayaBuyPrice": 150000
+      "surugayaBuyPrice": 140000
     },
     {
-      "name": "リーリエのピッピex",
+      "name": "リーリエのピッピex（Bランク）",
       "cardNumber": "765/742",
       "rarity": "ノーマル",
       "category": "ポケモン",
       "energyType": "",
-      "surugayaUrl": "/product/other/GU542901",
-      "surugayaPrice": 55860,
-      "surugayaSoldOut": true,
+      "surugayaUrl": "/product/detail/GU542901?branch_number=0077",
+      "surugayaPrice": 40500,
+      "surugayaSoldOut": false,
       "raritySlug": "n",
-      "surugayaBuyPrice": 50000
+      "surugayaBuyPrice": 40000
     },
     {
       "name": "メガリザードンYex",

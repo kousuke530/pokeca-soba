@@ -2,8 +2,8 @@
   "pack": "拡張パック「超電ブレイカー」",
   "packSlug": "sv8",
   "source": "surugaya",
-  "collectedAt": "2026-08-02T05:02:08.183Z",
-  "count": 136,
+  "collectedAt": "2026-08-03T04:50:22.183Z",
+  "count": 134,
   "cards": [
     {
       "name": "タマタマ",
@@ -1187,18 +1187,6 @@
       "surugayaBuyPrice": null
     },
     {
-      "name": "ヒンバス",
-      "cardNumber": "110/106",
-      "rarity": "AR",
-      "category": "ポケモン",
-      "energyType": "水",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN709437",
-      "surugayaPrice": 480,
-      "surugayaSoldOut": false,
-      "raritySlug": "ar",
-      "surugayaBuyPrice": null
-    },
-    {
       "name": "タマザラシ",
       "cardNumber": "111/106",
       "rarity": "AR",
@@ -1367,18 +1355,6 @@
       "surugayaBuyPrice": null
     },
     {
-      "name": "シャリタツex",
-      "cardNumber": "125/106",
-      "rarity": "SR",
-      "category": "ポケモン",
-      "energyType": "ドラゴン",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN709429",
-      "surugayaPrice": 480,
-      "surugayaSoldOut": false,
-      "raritySlug": "sr",
-      "surugayaBuyPrice": null
-    },
-    {
       "name": "ケッキングex",
       "cardNumber": "126/106",
       "rarity": "SR",
@@ -1529,7 +1505,7 @@
       "category": "スタジアム",
       "energyType": "",
       "surugayaUrl": "/product/other/GN709416",
-      "surugayaPrice": 930,
+      "surugayaPrice": 890,
       "surugayaSoldOut": true,
       "raritySlug": "ur",
       "surugayaBuyPrice": 300

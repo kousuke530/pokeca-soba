@@ -2,8 +2,8 @@
   "pack": "拡張パック 「ステラミラクル」",
   "packSlug": "sv7",
   "source": "surugaya",
-  "collectedAt": "2026-08-02T05:01:45.704Z",
-  "count": 176,
+  "collectedAt": "2026-08-03T04:49:58.917Z",
+  "count": 174,
   "cards": [
     {
       "name": "かがやくリザードン",
@@ -633,17 +633,6 @@
       "surugayaPrice": 160,
       "surugayaSoldOut": false,
       "raritySlug": "u"
-    },
-    {
-      "name": "チョンチー",
-      "cardNumber": "030/102",
-      "rarity": "C",
-      "category": "ポケモン",
-      "energyType": "雷",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN596094",
-      "surugayaPrice": 160,
-      "surugayaSoldOut": false,
-      "raritySlug": "c"
     },
     {
       "name": "アクロマの実験",
@@ -1797,18 +1786,6 @@
       "surugayaBuyPrice": null
     },
     {
-      "name": "ミミズズex",
-      "cardNumber": "121/102",
-      "rarity": "SR",
-      "category": "ポケモン",
-      "energyType": "鋼",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN596185",
-      "surugayaPrice": 480,
-      "surugayaSoldOut": false,
-      "raritySlug": "sr",
-      "surugayaBuyPrice": null
-    },
-    {
       "name": "テラパゴスex",
       "cardNumber": "122/102",
       "rarity": "SR",
@@ -1917,16 +1894,16 @@
       "surugayaBuyPrice": 3000
     },
     {
-      "name": "【ランクB】タロ",
+      "name": "タロ",
       "cardNumber": "131/102",
       "rarity": "SAR",
       "category": "サポート",
       "energyType": "",
-      "surugayaUrl": "/product/detail/GB596195?tenpo_cd=201217",
-      "surugayaPrice": 5900,
-      "surugayaSoldOut": true,
+      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN596195",
+      "surugayaPrice": 6980,
+      "surugayaSoldOut": false,
       "raritySlug": "sar",
-      "surugayaBuyPrice": null
+      "surugayaBuyPrice": 3500
     },
     {
       "name": "ブライア",
