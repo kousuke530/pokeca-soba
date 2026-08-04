@@ -2,8 +2,8 @@
   "pack": "拡張パック 「変幻の仮面」",
   "packSlug": "sv6",
   "source": "surugaya",
-  "collectedAt": "2026-08-03T04:49:18.348Z",
-  "count": 131,
+  "collectedAt": "2026-08-04T03:03:42.330Z",
+  "count": 132,
   "cards": [
     {
       "name": "ヒマナッツ",
@@ -521,6 +521,17 @@
       "surugayaUrl": "/product/other/GN486516",
       "surugayaPrice": 18,
       "surugayaSoldOut": true,
+      "raritySlug": "c"
+    },
+    {
+      "name": "ユンゲラー",
+      "cardNumber": "048/101",
+      "rarity": "C",
+      "category": "ポケモン",
+      "energyType": "超",
+      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN486517",
+      "surugayaPrice": 160,
+      "surugayaSoldOut": false,
       "raritySlug": "c"
     },
     {

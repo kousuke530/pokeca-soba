@@ -2,8 +2,8 @@
   "pack": "拡張パック「ロケット団の栄光」",
   "packSlug": "sv10",
   "source": "surugaya",
-  "collectedAt": "2026-08-03T04:51:53.690Z",
-  "count": 129,
+  "collectedAt": "2026-08-04T03:06:13.353Z",
+  "count": 130,
   "cards": [
     {
       "name": "クヌギダマ",
@@ -1222,7 +1222,7 @@
       "category": "ポケモン",
       "energyType": "草",
       "surugayaUrl": "/product/other/GU166812",
-      "surugayaPrice": 530,
+      "surugayaPrice": 540,
       "surugayaSoldOut": true,
       "raritySlug": "sr",
       "surugayaBuyPrice": null
@@ -1234,7 +1234,7 @@
       "category": "ポケモン",
       "energyType": "炎",
       "surugayaUrl": "/product/other/GU166813",
-      "surugayaPrice": 500,
+      "surugayaPrice": 450,
       "surugayaSoldOut": true,
       "raritySlug": "sr",
       "surugayaBuyPrice": 500
@@ -1430,6 +1430,18 @@
       "surugayaSoldOut": false,
       "raritySlug": "sar",
       "surugayaBuyPrice": 2000
+    },
+    {
+      "name": "ロケット団のミュウツーex",
+      "cardNumber": "130/098",
+      "rarity": "UR",
+      "category": "ポケモン",
+      "energyType": "超",
+      "surugayaUrl": "/product/detail/GU166803?tenpo_cd=400392",
+      "surugayaPrice": 6011,
+      "surugayaSoldOut": true,
+      "raritySlug": "ur",
+      "surugayaBuyPrice": 3200
     },
     {
       "name": "ロケット団のクロバットex",

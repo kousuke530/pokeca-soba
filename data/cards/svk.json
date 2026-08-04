@@ -2,8 +2,8 @@
   "pack": "デッキビルドBOX ステラミラクル",
   "packSlug": "svk",
   "source": "surugaya",
-  "collectedAt": "2026-08-03T04:49:40.486Z",
-  "count": 41,
+  "collectedAt": "2026-08-04T03:04:03.407Z",
+  "count": 42,
   "cards": [
     {
       "name": "かがやくリザードン",
@@ -390,6 +390,17 @@
       "surugayaUrl": "/product/detail/GN596238?tenpo_cd=410018",
       "surugayaPrice": 29,
       "surugayaSoldOut": true,
+      "raritySlug": "n"
+    },
+    {
+      "name": "ペパー",
+      "cardNumber": "038/044",
+      "rarity": "ノーマル",
+      "category": "サポート",
+      "energyType": "",
+      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN596239",
+      "surugayaPrice": 280,
+      "surugayaSoldOut": false,
       "raritySlug": "n"
     },
     {

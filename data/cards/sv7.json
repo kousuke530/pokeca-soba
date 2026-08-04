@@ -2,8 +2,8 @@
   "pack": "拡張パック 「ステラミラクル」",
   "packSlug": "sv7",
   "source": "surugaya",
-  "collectedAt": "2026-08-03T04:49:58.917Z",
-  "count": 174,
+  "collectedAt": "2026-08-04T03:04:20.713Z",
+  "count": 176,
   "cards": [
     {
       "name": "かがやくリザードン",
@@ -633,6 +633,17 @@
       "surugayaPrice": 160,
       "surugayaSoldOut": false,
       "raritySlug": "u"
+    },
+    {
+      "name": "チョンチー",
+      "cardNumber": "030/102",
+      "rarity": "C",
+      "category": "ポケモン",
+      "energyType": "雷",
+      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN596094",
+      "surugayaPrice": 160,
+      "surugayaSoldOut": false,
+      "raritySlug": "c"
     },
     {
       "name": "アクロマの実験",
@@ -1786,6 +1797,18 @@
       "surugayaBuyPrice": null
     },
     {
+      "name": "ミミズズex",
+      "cardNumber": "121/102",
+      "rarity": "SR",
+      "category": "ポケモン",
+      "energyType": "鋼",
+      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN596185",
+      "surugayaPrice": 480,
+      "surugayaSoldOut": false,
+      "raritySlug": "sr",
+      "surugayaBuyPrice": null
+    },
+    {
       "name": "テラパゴスex",
       "cardNumber": "122/102",
       "rarity": "SR",
@@ -1804,7 +1827,7 @@
       "category": "サポート",
       "energyType": "",
       "surugayaUrl": "/product/other/GN596187",
-      "surugayaPrice": 400,
+      "surugayaPrice": 380,
       "surugayaSoldOut": true,
       "raritySlug": "sr",
       "surugayaBuyPrice": 600
@@ -1876,7 +1899,7 @@
       "category": "ポケモン",
       "energyType": "超",
       "surugayaUrl": "/product/other/GN596193",
-      "surugayaPrice": 2560,
+      "surugayaPrice": 2440,
       "surugayaSoldOut": true,
       "raritySlug": "sar",
       "surugayaBuyPrice": 2200
@@ -1894,16 +1917,16 @@
       "surugayaBuyPrice": 3000
     },
     {
-      "name": "タロ",
+      "name": "【ランクB】タロ",
       "cardNumber": "131/102",
       "rarity": "SAR",
       "category": "サポート",
       "energyType": "",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN596195",
-      "surugayaPrice": 6980,
-      "surugayaSoldOut": false,
+      "surugayaUrl": "/product/detail/GB596195?tenpo_cd=201217",
+      "surugayaPrice": 5900,
+      "surugayaSoldOut": true,
       "raritySlug": "sar",
-      "surugayaBuyPrice": 3500
+      "surugayaBuyPrice": null
     },
     {
       "name": "ブライア",
