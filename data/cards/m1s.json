@@ -2,7 +2,7 @@
   "pack": "拡張パック「メガシンフォニア」",
   "packSlug": "m1s",
   "source": "surugaya",
-  "collectedAt": "2026-08-04T03:07:53.696Z",
+  "collectedAt": "2026-08-06T00:30:33.118Z",
   "count": 91,
   "cards": [
     {
@@ -649,9 +649,9 @@
       "rarity": "U",
       "category": "サポート",
       "energyType": "",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU362675",
-      "surugayaPrice": 160,
-      "surugayaSoldOut": false,
+      "surugayaUrl": "/product/other/GU362675",
+      "surugayaPrice": 20,
+      "surugayaSoldOut": true,
       "raritySlug": "u"
     },
     {
@@ -897,7 +897,7 @@
       "category": "ポケモン",
       "energyType": "",
       "surugayaUrl": "/product/other/GU362629",
-      "surugayaPrice": 350,
+      "surugayaPrice": 330,
       "surugayaSoldOut": true,
       "raritySlug": "sr",
       "surugayaBuyPrice": null

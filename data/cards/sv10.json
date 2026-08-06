@@ -2,7 +2,7 @@
   "pack": "拡張パック「ロケット団の栄光」",
   "packSlug": "sv10",
   "source": "surugaya",
-  "collectedAt": "2026-08-04T03:06:13.353Z",
+  "collectedAt": "2026-08-06T00:28:49.828Z",
   "count": 130,
   "cards": [
     {
@@ -991,7 +991,7 @@
       "category": "グッズ",
       "energyType": "",
       "surugayaUrl": "/product/other/GU166879",
-      "surugayaPrice": 79,
+      "surugayaPrice": 75,
       "surugayaSoldOut": true,
       "raritySlug": "u"
     },
@@ -1222,7 +1222,7 @@
       "category": "ポケモン",
       "energyType": "草",
       "surugayaUrl": "/product/other/GU166812",
-      "surugayaPrice": 540,
+      "surugayaPrice": 530,
       "surugayaSoldOut": true,
       "raritySlug": "sr",
       "surugayaBuyPrice": null
@@ -1233,9 +1233,9 @@
       "rarity": "SR",
       "category": "ポケモン",
       "energyType": "炎",
-      "surugayaUrl": "/product/other/GU166813",
-      "surugayaPrice": 450,
-      "surugayaSoldOut": true,
+      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU166813",
+      "surugayaPrice": 1280,
+      "surugayaSoldOut": false,
       "raritySlug": "sr",
       "surugayaBuyPrice": 500
     },
@@ -1281,9 +1281,9 @@
       "rarity": "SR",
       "category": "ポケモン",
       "energyType": "悪",
-      "surugayaUrl": "/product/other/GU166817",
-      "surugayaPrice": 360,
-      "surugayaSoldOut": true,
+      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU166817",
+      "surugayaPrice": 580,
+      "surugayaSoldOut": false,
       "raritySlug": "sr",
       "surugayaBuyPrice": null
     },
@@ -1353,8 +1353,8 @@
       "rarity": "SR",
       "category": "サポート",
       "energyType": "",
-      "surugayaUrl": "/product/detail/GU166823?tenpo_cd=410011",
-      "surugayaPrice": 2864,
+      "surugayaUrl": "/product/other/GU166823",
+      "surugayaPrice": 2810,
       "surugayaSoldOut": true,
       "raritySlug": "sr",
       "surugayaBuyPrice": 2000
@@ -1450,7 +1450,7 @@
       "category": "ポケモン",
       "energyType": "悪",
       "surugayaUrl": "/product/other/GU166804",
-      "surugayaPrice": 860,
+      "surugayaPrice": 840,
       "surugayaSoldOut": true,
       "raritySlug": "ur",
       "surugayaBuyPrice": 800

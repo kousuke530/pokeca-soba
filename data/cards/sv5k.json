@@ -2,7 +2,7 @@
   "pack": "拡張パック「ワイルドフォース」",
   "packSlug": "sv5k",
   "source": "surugaya",
-  "collectedAt": "2026-08-04T03:03:17.059Z",
+  "collectedAt": "2026-08-06T00:25:38.928Z",
   "count": 99,
   "cards": [
     {
@@ -890,9 +890,9 @@
       "rarity": "AR",
       "category": "ポケモン",
       "energyType": "悪",
-      "surugayaUrl": "/product/other/GN369789",
-      "surugayaPrice": 2880,
-      "surugayaSoldOut": true,
+      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN369789",
+      "surugayaPrice": 2020,
+      "surugayaSoldOut": false,
       "raritySlug": "ar",
       "surugayaBuyPrice": 2000
     },
@@ -914,9 +914,9 @@
       "rarity": "AR",
       "category": "ポケモン",
       "energyType": "",
-      "surugayaUrl": "/product/other/GN369791",
-      "surugayaPrice": 390,
-      "surugayaSoldOut": true,
+      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN369791",
+      "surugayaPrice": 1080,
+      "surugayaSoldOut": false,
       "raritySlug": "ar",
       "surugayaBuyPrice": 400
     },
@@ -926,9 +926,9 @@
       "rarity": "AR",
       "category": "ポケモン",
       "energyType": "",
-      "surugayaUrl": "/product/other/GN369792",
-      "surugayaPrice": 500,
-      "surugayaSoldOut": true,
+      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN369792",
+      "surugayaPrice": 880,
+      "surugayaSoldOut": false,
       "raritySlug": "ar",
       "surugayaBuyPrice": 400
     },
@@ -993,16 +993,16 @@
       "surugayaBuyPrice": 5000
     },
     {
-      "name": "【ランクB】タケルライコex",
+      "name": "タケルライコex",
       "cardNumber": "089/071",
       "rarity": "SR",
       "category": "ポケモン",
       "energyType": "ドラゴン",
-      "surugayaUrl": "/product/other/GB369798",
-      "surugayaPrice": 300,
-      "surugayaSoldOut": true,
+      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN369798",
+      "surugayaPrice": 780,
+      "surugayaSoldOut": false,
       "raritySlug": "sr",
-      "surugayaBuyPrice": null
+      "surugayaBuyPrice": 300
     },
     {
       "name": "探検家の先導",
@@ -1089,28 +1089,28 @@
       "surugayaBuyPrice": 1000
     },
     {
-      "name": "ウガツホムラex",
+      "name": "【ランクB】ウガツホムラex",
       "cardNumber": "098/071",
       "rarity": "UR",
       "category": "ポケモン",
       "energyType": "炎",
-      "surugayaUrl": "/product/other/GN369807",
-      "surugayaPrice": 530,
+      "surugayaUrl": "/product/other/GB369807",
+      "surugayaPrice": 630,
       "surugayaSoldOut": true,
       "raritySlug": "ur",
-      "surugayaBuyPrice": 400
+      "surugayaBuyPrice": null
     },
     {
-      "name": "ウネルミナモex",
+      "name": "【ランクB】ウネルミナモex",
       "cardNumber": "099/071",
       "rarity": "UR",
       "category": "ポケモン",
       "energyType": "水",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN369808",
-      "surugayaPrice": 880,
-      "surugayaSoldOut": false,
+      "surugayaUrl": "/product/detail/GB369808?tenpo_cd=200959",
+      "surugayaPrice": 611,
+      "surugayaSoldOut": true,
       "raritySlug": "ur",
-      "surugayaBuyPrice": 400
+      "surugayaBuyPrice": null
     },
     {
       "name": "タケルライコex",

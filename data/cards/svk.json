@@ -2,7 +2,7 @@
   "pack": "デッキビルドBOX ステラミラクル",
   "packSlug": "svk",
   "source": "surugaya",
-  "collectedAt": "2026-08-04T03:04:03.407Z",
+  "collectedAt": "2026-08-06T00:26:27.947Z",
   "count": 42,
   "cards": [
     {
@@ -57,10 +57,11 @@
       "rarity": "ノーマル",
       "category": "ポケモン",
       "energyType": "超",
-      "surugayaUrl": "/product/other/GN596206",
-      "surugayaPrice": 84,
-      "surugayaSoldOut": true,
-      "raritySlug": "n"
+      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN596206",
+      "surugayaPrice": 380,
+      "surugayaSoldOut": false,
+      "raritySlug": "n",
+      "surugayaBuyPrice": null
     },
     {
       "name": "ポッポ",

@@ -2,7 +2,7 @@
   "pack": "強化拡張パック「熱風のアリーナ」",
   "packSlug": "sv9a",
   "source": "surugaya",
-  "collectedAt": "2026-08-04T03:06:00.250Z",
+  "collectedAt": "2026-08-06T00:28:35.737Z",
   "count": 91,
   "cards": [
     {
@@ -386,7 +386,7 @@
       "category": "ポケモン",
       "energyType": "雷",
       "surugayaUrl": "/product/detail/GN923849?tenpo_cd=410018",
-      "surugayaPrice": 29,
+      "surugayaPrice": 27,
       "surugayaSoldOut": true,
       "raritySlug": "c"
     },
@@ -429,9 +429,9 @@
       "rarity": "R",
       "category": "ポケモン",
       "energyType": "雷",
-      "surugayaUrl": "/product/detail/GN923811?tenpo_cd=410018",
-      "surugayaPrice": 79,
-      "surugayaSoldOut": true,
+      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN923811",
+      "surugayaPrice": 160,
+      "surugayaSoldOut": false,
       "raritySlug": "r"
     },
     {
@@ -777,9 +777,9 @@
       "rarity": "AR",
       "category": "ポケモン",
       "energyType": "水",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN923794",
-      "surugayaPrice": 5480,
-      "surugayaSoldOut": false,
+      "surugayaUrl": "/product/other/GN923794",
+      "surugayaPrice": 4200,
+      "surugayaSoldOut": true,
       "raritySlug": "ar",
       "surugayaBuyPrice": 3500
     },
@@ -850,7 +850,7 @@
       "category": "ポケモン",
       "energyType": "炎",
       "surugayaUrl": "/product/other/GN923779",
-      "surugayaPrice": 880,
+      "surugayaPrice": 980,
       "surugayaSoldOut": true,
       "raritySlug": "sr",
       "surugayaBuyPrice": 400
@@ -886,10 +886,10 @@
       "category": "ポケモン",
       "energyType": "闘",
       "surugayaUrl": "/product/other/GN923782",
-      "surugayaPrice": 790,
+      "surugayaPrice": 780,
       "surugayaSoldOut": true,
       "raritySlug": "sr",
-      "surugayaBuyPrice": 1000
+      "surugayaBuyPrice": 1200
     },
     {
       "name": "ペパーのマフィティフex",
@@ -945,9 +945,9 @@
       "rarity": "SAR",
       "category": "ポケモン",
       "energyType": "草",
-      "surugayaUrl": "/product/other/GN923773",
-      "surugayaPrice": 980,
-      "surugayaSoldOut": true,
+      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN923773",
+      "surugayaPrice": 1680,
+      "surugayaSoldOut": false,
       "raritySlug": "sar",
       "surugayaBuyPrice": 700
     },
@@ -957,9 +957,9 @@
       "rarity": "SAR",
       "category": "ポケモン",
       "energyType": "炎",
-      "surugayaUrl": "/product/other/GN923774",
-      "surugayaPrice": 25300,
-      "surugayaSoldOut": true,
+      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN923774",
+      "surugayaPrice": 29800,
+      "surugayaSoldOut": false,
       "raritySlug": "sar",
       "surugayaBuyPrice": 20000
     },
@@ -1005,11 +1005,11 @@
       "rarity": "UR",
       "category": "ポケモン",
       "energyType": "炎",
-      "surugayaUrl": "/product/other/GN923770",
-      "surugayaPrice": 2630,
-      "surugayaSoldOut": true,
+      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN923770",
+      "surugayaPrice": 4580,
+      "surugayaSoldOut": false,
       "raritySlug": "ur",
-      "surugayaBuyPrice": 2600
+      "surugayaBuyPrice": 2800
     },
     {
       "name": "シロナのガブリアスex",
@@ -1017,9 +1017,9 @@
       "rarity": "UR",
       "category": "ポケモン",
       "energyType": "闘",
-      "surugayaUrl": "/product/other/GN923771",
-      "surugayaPrice": 6710,
-      "surugayaSoldOut": true,
+      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN923771",
+      "surugayaPrice": 6980,
+      "surugayaSoldOut": false,
       "raritySlug": "ur",
       "surugayaBuyPrice": 4000
     },

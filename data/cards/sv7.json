@@ -2,7 +2,7 @@
   "pack": "拡張パック 「ステラミラクル」",
   "packSlug": "sv7",
   "source": "surugaya",
-  "collectedAt": "2026-08-04T03:04:20.713Z",
+  "collectedAt": "2026-08-06T00:26:46.167Z",
   "count": 176,
   "cards": [
     {
@@ -101,10 +101,11 @@
       "rarity": "ノーマル",
       "category": "ポケモン",
       "energyType": "超",
-      "surugayaUrl": "/product/other/GN596206",
-      "surugayaPrice": 84,
-      "surugayaSoldOut": true,
-      "raritySlug": "n"
+      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN596206",
+      "surugayaPrice": 380,
+      "surugayaSoldOut": false,
+      "raritySlug": "n",
+      "surugayaBuyPrice": null
     },
     {
       "name": "マスキッパ",
@@ -1290,7 +1291,7 @@
       "category": "ポケモン",
       "energyType": "",
       "surugayaUrl": "/product/other/GN596140",
-      "surugayaPrice": 29,
+      "surugayaPrice": 27,
       "surugayaSoldOut": true,
       "raritySlug": "c"
     },
@@ -1670,11 +1671,10 @@
       "rarity": "AR",
       "category": "ポケモン",
       "energyType": "超",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN596174",
-      "surugayaPrice": 580,
-      "surugayaSoldOut": false,
-      "raritySlug": "ar",
-      "surugayaBuyPrice": null
+      "surugayaUrl": "/product/other/GN596174",
+      "surugayaPrice": 220,
+      "surugayaSoldOut": true,
+      "raritySlug": "ar"
     },
     {
       "name": "アサナン",
@@ -1719,7 +1719,7 @@
       "category": "ポケモン",
       "energyType": "",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN596178",
-      "surugayaPrice": 580,
+      "surugayaPrice": 380,
       "surugayaSoldOut": false,
       "raritySlug": "ar",
       "surugayaBuyPrice": null
@@ -1827,7 +1827,7 @@
       "category": "サポート",
       "energyType": "",
       "surugayaUrl": "/product/other/GN596187",
-      "surugayaPrice": 380,
+      "surugayaPrice": 340,
       "surugayaSoldOut": true,
       "raritySlug": "sr",
       "surugayaBuyPrice": 600
@@ -1917,16 +1917,16 @@
       "surugayaBuyPrice": 3000
     },
     {
-      "name": "【ランクB】タロ",
+      "name": "タロ",
       "cardNumber": "131/102",
       "rarity": "SAR",
       "category": "サポート",
       "energyType": "",
-      "surugayaUrl": "/product/detail/GB596195?tenpo_cd=201217",
-      "surugayaPrice": 5900,
-      "surugayaSoldOut": true,
+      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN596195",
+      "surugayaPrice": 6980,
+      "surugayaSoldOut": false,
       "raritySlug": "sar",
-      "surugayaBuyPrice": null
+      "surugayaBuyPrice": 3500
     },
     {
       "name": "ブライア",

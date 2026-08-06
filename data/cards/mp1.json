@@ -2,7 +2,7 @@
   "pack": "スタートデッキ100 バトルコレクション コロちゃおVer.",
   "packSlug": "mp1",
   "source": "surugaya",
-  "collectedAt": "2026-08-04T03:10:12.614Z",
+  "collectedAt": "2026-08-06T00:33:02.808Z",
   "count": 16,
   "cards": [
     {
@@ -44,9 +44,9 @@
       "rarity": "ノーマル",
       "category": "ポケモン",
       "energyType": "雷",
-      "surugayaUrl": "/product/other/GU548953",
-      "surugayaPrice": 370,
-      "surugayaSoldOut": true,
+      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU548953",
+      "surugayaPrice": 380,
+      "surugayaSoldOut": false,
       "raritySlug": "n",
       "surugayaBuyPrice": null
     },
@@ -156,7 +156,7 @@
       "category": "サポート",
       "energyType": "",
       "surugayaUrl": "/product/other/GU548966",
-      "surugayaPrice": 1160,
+      "surugayaPrice": 1140,
       "surugayaSoldOut": true,
       "raritySlug": "n",
       "surugayaBuyPrice": 600

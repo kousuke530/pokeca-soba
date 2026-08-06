@@ -2,7 +2,7 @@
   "pack": "強化拡張パック「クリムゾンヘイズ」",
   "packSlug": "sv5a",
   "source": "surugaya",
-  "collectedAt": "2026-08-04T03:03:27.501Z",
+  "collectedAt": "2026-08-06T00:25:50.043Z",
   "count": 95,
   "cards": [
     {
@@ -562,9 +562,9 @@
       "rarity": "RR",
       "category": "ポケモン",
       "energyType": "",
-      "surugayaUrl": "/product/other/GN446038",
-      "surugayaPrice": 90,
-      "surugayaSoldOut": true,
+      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN446038",
+      "surugayaPrice": 180,
+      "surugayaSoldOut": false,
       "raritySlug": "rr"
     },
     {
@@ -574,7 +574,7 @@
       "category": "グッズ",
       "energyType": "",
       "surugayaUrl": "/product/other/GN446039",
-      "surugayaPrice": 1510,
+      "surugayaPrice": 1480,
       "surugayaSoldOut": true,
       "raritySlug": "ace",
       "surugayaBuyPrice": 800
@@ -861,7 +861,7 @@
       "category": "ポケモン",
       "energyType": "",
       "surugayaUrl": "/product/other/GN446064",
-      "surugayaPrice": 3280,
+      "surugayaPrice": 3250,
       "surugayaSoldOut": true,
       "raritySlug": "ar",
       "surugayaBuyPrice": 3800
@@ -915,16 +915,16 @@
       "surugayaBuyPrice": null
     },
     {
-      "name": "ゲッコウガex",
+      "name": "ゲッコウガex（Bランク）",
       "cardNumber": "083/066",
       "rarity": "SR",
       "category": "ポケモン",
       "energyType": "闘",
-      "surugayaUrl": "/product/other/GN446069",
-      "surugayaPrice": 1580,
-      "surugayaSoldOut": true,
+      "surugayaUrl": "/product/detail/GN446069?branch_number=0077",
+      "surugayaPrice": 1350,
+      "surugayaSoldOut": false,
       "raritySlug": "sr",
-      "surugayaBuyPrice": 1800
+      "surugayaBuyPrice": 1000
     },
     {
       "name": "ガチグマ アカツキex",
@@ -992,9 +992,9 @@
       "rarity": "SAR",
       "category": "ポケモン",
       "energyType": "草",
-      "surugayaUrl": "/product/other/GN446075",
-      "surugayaPrice": 930,
-      "surugayaSoldOut": true,
+      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN446075",
+      "surugayaPrice": 1580,
+      "surugayaSoldOut": false,
       "raritySlug": "sar",
       "surugayaBuyPrice": 800
     },
@@ -1028,9 +1028,9 @@
       "rarity": "SAR",
       "category": "サポート",
       "energyType": "",
-      "surugayaUrl": "/product/other/GN446078",
-      "surugayaPrice": 8560,
-      "surugayaSoldOut": true,
+      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN446078",
+      "surugayaPrice": 12800,
+      "surugayaSoldOut": false,
       "raritySlug": "sar",
       "surugayaBuyPrice": 8500
     },

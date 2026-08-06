@@ -2,8 +2,8 @@
   "pack": "拡張パック「メガブレイブ」",
   "packSlug": "m1l",
   "source": "surugaya",
-  "collectedAt": "2026-08-04T03:07:42.323Z",
-  "count": 92,
+  "collectedAt": "2026-08-06T00:30:21.416Z",
+  "count": 91,
   "cards": [
     {
       "name": "フシギダネ",
@@ -418,9 +418,9 @@
       "rarity": "RR",
       "category": "ポケモン",
       "energyType": "悪",
-      "surugayaUrl": "/product/other/GU362744",
-      "surugayaPrice": 89,
-      "surugayaSoldOut": true,
+      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU362744",
+      "surugayaPrice": 180,
+      "surugayaSoldOut": false,
       "raritySlug": "rr"
     },
     {
@@ -682,9 +682,9 @@
       "rarity": "U",
       "category": "サポート",
       "energyType": "",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU362771",
-      "surugayaPrice": 160,
-      "surugayaSoldOut": false,
+      "surugayaUrl": "/product/other/GU362771",
+      "surugayaPrice": 52,
+      "surugayaSoldOut": true,
       "raritySlug": "u"
     },
     {
@@ -805,17 +805,6 @@
       "surugayaSoldOut": false,
       "raritySlug": "ar",
       "surugayaBuyPrice": null
-    },
-    {
-      "name": "ハガネール",
-      "cardNumber": "073/063",
-      "rarity": "AR",
-      "category": "ポケモン",
-      "energyType": "鋼",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU362738",
-      "surugayaPrice": 290,
-      "surugayaSoldOut": false,
-      "raritySlug": "ar"
     },
     {
       "name": "オニスズメ",
@@ -976,9 +965,9 @@
       "rarity": "SAR",
       "category": "ポケモン",
       "energyType": "草",
-      "surugayaUrl": "/product/other/GU362713",
-      "surugayaPrice": 5850,
-      "surugayaSoldOut": true,
+      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU362713",
+      "surugayaPrice": 7280,
+      "surugayaSoldOut": false,
       "raritySlug": "sar",
       "surugayaBuyPrice": 4000
     },
