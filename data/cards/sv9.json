@@ -2,7 +2,7 @@
   "pack": "拡張パック「バトルパートナーズ」",
   "packSlug": "sv9",
   "source": "surugaya",
-  "collectedAt": "2026-08-06T00:28:21.084Z",
+  "collectedAt": "2026-08-07T00:16:38.592Z",
   "count": 165,
   "cards": [
     {
@@ -1540,18 +1540,6 @@
       "surugayaBuyPrice": 300
     },
     {
-      "name": "リーリエのアブリボン",
-      "cardNumber": "105/100",
-      "rarity": "AR",
-      "category": "ポケモン",
-      "energyType": "超",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN832719",
-      "surugayaPrice": 880,
-      "surugayaSoldOut": false,
-      "raritySlug": "ar",
-      "surugayaBuyPrice": 300
-    },
-    {
       "name": "ウリムー",
       "cardNumber": "106/100",
       "rarity": "AR",
@@ -1658,6 +1646,18 @@
       "surugayaSoldOut": false,
       "raritySlug": "sr",
       "surugayaBuyPrice": null
+    },
+    {
+      "name": "リーリエのピッピex",
+      "cardNumber": "115/100",
+      "rarity": "SR",
+      "category": "ポケモン",
+      "energyType": "超",
+      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN832706",
+      "surugayaPrice": 1980,
+      "surugayaSoldOut": false,
+      "raritySlug": "sr",
+      "surugayaBuyPrice": 1000
     },
     {
       "name": "マンムーex",

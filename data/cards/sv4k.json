@@ -2,7 +2,7 @@
   "pack": "拡張パック「古代の咆哮」",
   "packSlug": "sv4k",
   "source": "surugaya",
-  "collectedAt": "2026-08-05T07:32:58.461Z",
+  "collectedAt": "2026-08-07T00:12:30.599Z",
   "count": 96,
   "cards": [
     {
@@ -960,16 +960,15 @@
       "surugayaBuyPrice": 300
     },
     {
-      "name": "センリ",
+      "name": "【ランクB】センリ",
       "cardNumber": "086/066",
       "rarity": "SR",
       "category": "サポート",
       "energyType": "",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN228510",
-      "surugayaPrice": 380,
+      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GB228510",
+      "surugayaPrice": 280,
       "surugayaSoldOut": false,
-      "raritySlug": "sr",
-      "surugayaBuyPrice": null
+      "raritySlug": "sr"
     },
     {
       "name": "メロコ",

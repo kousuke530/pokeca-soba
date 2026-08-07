@@ -2,8 +2,8 @@
   "pack": "拡張パック「ムニキスゼロ」",
   "packSlug": "m3",
   "source": "surugaya",
-  "collectedAt": "2026-08-06T00:33:14.709Z",
-  "count": 117,
+  "collectedAt": "2026-08-07T00:21:26.194Z",
+  "count": 115,
   "cards": [
     {
       "name": "イトマル",
@@ -26,17 +26,6 @@
       "surugayaPrice": 160,
       "surugayaSoldOut": false,
       "raritySlug": "c"
-    },
-    {
-      "name": "シェイミ",
-      "cardNumber": "003/080",
-      "rarity": "U",
-      "category": "ポケモン",
-      "energyType": "草",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU584330",
-      "surugayaPrice": 160,
-      "surugayaSoldOut": false,
-      "raritySlug": "u"
     },
     {
       "name": "ツタージャ",
@@ -111,17 +100,6 @@
       "category": "ポケモン",
       "energyType": "草",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU584362",
-      "surugayaPrice": 160,
-      "surugayaSoldOut": false,
-      "raritySlug": "c"
-    },
-    {
-      "name": "フクスロー",
-      "cardNumber": "011/080",
-      "rarity": "C",
-      "category": "ポケモン",
-      "energyType": "草",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU584363",
       "surugayaPrice": 160,
       "surugayaSoldOut": false,
       "raritySlug": "c"

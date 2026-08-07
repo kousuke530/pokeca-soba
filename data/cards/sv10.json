@@ -2,8 +2,8 @@
   "pack": "拡張パック「ロケット団の栄光」",
   "packSlug": "sv10",
   "source": "surugaya",
-  "collectedAt": "2026-08-06T00:28:49.828Z",
-  "count": 130,
+  "collectedAt": "2026-08-07T00:17:07.438Z",
+  "count": 123,
   "cards": [
     {
       "name": "クヌギダマ",
@@ -534,17 +534,6 @@
       "raritySlug": "c"
     },
     {
-      "name": "ロケット団のサナギラス",
-      "cardNumber": "049/098",
-      "rarity": "U",
-      "category": "ポケモン",
-      "energyType": "闘",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU166865",
-      "surugayaPrice": 160,
-      "surugayaSoldOut": false,
-      "raritySlug": "u"
-    },
-    {
       "name": "ロケット団のバンギラス",
       "cardNumber": "050/098",
       "rarity": "R",
@@ -732,28 +721,6 @@
       "raritySlug": "rr"
     },
     {
-      "name": "ロケット団のベトベター",
-      "cardNumber": "067/098",
-      "rarity": "C",
-      "category": "ポケモン",
-      "energyType": "悪",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU166923",
-      "surugayaPrice": 160,
-      "surugayaSoldOut": false,
-      "raritySlug": "c"
-    },
-    {
-      "name": "ロケット団のベトベトン",
-      "cardNumber": "068/098",
-      "rarity": "U",
-      "category": "ポケモン",
-      "energyType": "悪",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU166871",
-      "surugayaPrice": 160,
-      "surugayaSoldOut": false,
-      "raritySlug": "u"
-    },
-    {
       "name": "ロケット団のドガース",
       "cardNumber": "069/098",
       "rarity": "C",
@@ -881,28 +848,6 @@
       "category": "ポケモン",
       "energyType": "",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU166929",
-      "surugayaPrice": 160,
-      "surugayaSoldOut": false,
-      "raritySlug": "c"
-    },
-    {
-      "name": "ロケット団のポリゴン",
-      "cardNumber": "081/098",
-      "rarity": "C",
-      "category": "ポケモン",
-      "energyType": "",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU166930",
-      "surugayaPrice": 160,
-      "surugayaSoldOut": false,
-      "raritySlug": "c"
-    },
-    {
-      "name": "ロケット団のポリゴン2",
-      "cardNumber": "082/098",
-      "rarity": "C",
-      "category": "ポケモン",
-      "energyType": "",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU166931",
       "surugayaPrice": 160,
       "surugayaSoldOut": false,
       "raritySlug": "c"
@@ -1168,18 +1113,6 @@
       "surugayaBuyPrice": null
     },
     {
-      "name": "ロケット団のヤミカラス",
-      "cardNumber": "106/098",
-      "rarity": "AR",
-      "category": "ポケモン",
-      "energyType": "悪",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU166832",
-      "surugayaPrice": 680,
-      "surugayaSoldOut": false,
-      "raritySlug": "ar",
-      "surugayaBuyPrice": null
-    },
-    {
       "name": "ザマゼンタ",
       "cardNumber": "107/098",
       "rarity": "AR",
@@ -1322,18 +1255,6 @@
       "surugayaSoldOut": false,
       "raritySlug": "sr",
       "surugayaBuyPrice": 600
-    },
-    {
-      "name": "ロケット団のアポロ",
-      "cardNumber": "120/098",
-      "rarity": "SR",
-      "category": "サポート",
-      "energyType": "",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU166821",
-      "surugayaPrice": 1580,
-      "surugayaSoldOut": false,
-      "raritySlug": "sr",
-      "surugayaBuyPrice": 700
     },
     {
       "name": "ロケット団のサカキ",
