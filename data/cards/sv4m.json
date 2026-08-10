@@ -2,7 +2,7 @@
   "pack": "拡張パック「未来の一閃」",
   "packSlug": "sv4m",
   "source": "surugaya",
-  "collectedAt": "2026-08-07T00:12:42.139Z",
+  "collectedAt": "2026-08-10T05:26:29.624Z",
   "count": 95,
   "cards": [
     {
@@ -786,7 +786,7 @@
       "category": "ポケモン",
       "energyType": "水",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN228592",
-      "surugayaPrice": 380,
+      "surugayaPrice": 300,
       "surugayaSoldOut": false,
       "raritySlug": "ar",
       "surugayaBuyPrice": null
@@ -894,7 +894,7 @@
       "category": "ポケモン",
       "energyType": "超",
       "surugayaUrl": "/product/detail/GB228601?tenpo_cd=400500",
-      "surugayaPrice": 630,
+      "surugayaPrice": 740,
       "surugayaSoldOut": true,
       "raritySlug": "sr",
       "surugayaBuyPrice": null
@@ -941,9 +941,9 @@
       "rarity": "SR",
       "category": "ポケモン",
       "energyType": "",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN228605",
-      "surugayaPrice": 1080,
-      "surugayaSoldOut": false,
+      "surugayaUrl": "/product/other/GN228605",
+      "surugayaPrice": 460,
+      "surugayaSoldOut": true,
       "raritySlug": "sr",
       "surugayaBuyPrice": 500
     },
@@ -984,16 +984,16 @@
       "surugayaBuyPrice": null
     },
     {
-      "name": "【ランクB】テツノカイナex",
+      "name": "テツノカイナex",
       "cardNumber": "088/066",
       "rarity": "SAR",
       "category": "ポケモン",
       "energyType": "雷",
-      "surugayaUrl": "/product/detail/GB228609?tenpo_cd=201217",
-      "surugayaPrice": 2200,
-      "surugayaSoldOut": true,
+      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN228609",
+      "surugayaPrice": 1480,
+      "surugayaSoldOut": false,
       "raritySlug": "sar",
-      "surugayaBuyPrice": null
+      "surugayaBuyPrice": 700
     },
     {
       "name": "テツノブジンex",
@@ -1049,9 +1049,9 @@
       "rarity": "UR",
       "category": "ポケモン",
       "energyType": "超",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN228614",
-      "surugayaPrice": 680,
-      "surugayaSoldOut": false,
+      "surugayaUrl": "/product/other/GN228614",
+      "surugayaPrice": 480,
+      "surugayaSoldOut": true,
       "raritySlug": "ur",
       "surugayaBuyPrice": null
     },

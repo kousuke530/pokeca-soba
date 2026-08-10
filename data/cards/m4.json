@@ -2,8 +2,8 @@
   "pack": "拡張パック「ニンジャスピナー」",
   "packSlug": "m4",
   "source": "surugaya",
-  "collectedAt": "2026-08-07T00:21:40.932Z",
-  "count": 116,
+  "collectedAt": "2026-08-10T05:35:23.160Z",
+  "count": 118,
   "cards": [
     {
       "name": "ビードル",
@@ -700,6 +700,17 @@
       "raritySlug": "c"
     },
     {
+      "name": "ヌメイル",
+      "cardNumber": "065/083",
+      "rarity": "C",
+      "category": "ポケモン",
+      "energyType": "ドラゴン",
+      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU634016",
+      "surugayaPrice": 160,
+      "surugayaSoldOut": false,
+      "raritySlug": "c"
+    },
+    {
       "name": "ヌメルゴン",
       "cardNumber": "066/083",
       "rarity": "U",
@@ -854,6 +865,17 @@
       "raritySlug": "u"
     },
     {
+      "name": "プリズムタワー",
+      "cardNumber": "080/083",
+      "rarity": "U",
+      "category": "スタジアム",
+      "energyType": "",
+      "surugayaUrl": "/product/detail/GU634031?tenpo_cd=410011",
+      "surugayaPrice": 150,
+      "surugayaSoldOut": true,
+      "raritySlug": "u"
+    },
+    {
       "name": "ニトロ炎エネルギー",
       "cardNumber": "081/083",
       "rarity": "R",
@@ -917,7 +939,7 @@
       "category": "ポケモン",
       "energyType": "水",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU634037",
-      "surugayaPrice": 680,
+      "surugayaPrice": 350,
       "surugayaSoldOut": false,
       "raritySlug": "ar",
       "surugayaBuyPrice": null
@@ -1274,10 +1296,10 @@
       "category": "ポケモン",
       "energyType": "",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU634068",
-      "surugayaPrice": 4980,
+      "surugayaPrice": 2570,
       "surugayaSoldOut": false,
       "raritySlug": "sar",
-      "surugayaBuyPrice": 3000
+      "surugayaBuyPrice": 2500
     },
     {
       "name": "AZの安らぎ",

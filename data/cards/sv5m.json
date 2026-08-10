@@ -2,7 +2,7 @@
   "pack": "拡張パック「サイバージャッジ」",
   "packSlug": "sv5m",
   "source": "surugaya",
-  "collectedAt": "2026-08-07T00:13:48.749Z",
+  "collectedAt": "2026-08-10T05:27:34.246Z",
   "count": 100,
   "cards": [
     {
@@ -253,9 +253,9 @@
       "rarity": "C",
       "category": "ポケモン",
       "energyType": "雷",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN369834",
-      "surugayaPrice": 180,
-      "surugayaSoldOut": false,
+      "surugayaUrl": "/product/other/GN369834",
+      "surugayaPrice": 120,
+      "surugayaSoldOut": true,
       "raritySlug": "c"
     },
     {
@@ -924,21 +924,21 @@
       "rarity": "AR",
       "category": "ポケモン",
       "energyType": "",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN369894",
-      "surugayaPrice": 380,
-      "surugayaSoldOut": false,
+      "surugayaUrl": "/product/other/GN369894",
+      "surugayaPrice": 310,
+      "surugayaSoldOut": true,
       "raritySlug": "ar",
       "surugayaBuyPrice": null
     },
     {
-      "name": "【ランクB】テツノイサハex",
+      "name": "テツノイサハex",
       "cardNumber": "084/071",
       "rarity": "SR",
       "category": "ポケモン",
       "energyType": "草",
-      "surugayaUrl": "/product/other/GB369895",
-      "surugayaPrice": 320,
-      "surugayaSoldOut": true,
+      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN369895",
+      "surugayaPrice": 580,
+      "surugayaSoldOut": false,
       "raritySlug": "sr",
       "surugayaBuyPrice": null
     },
@@ -1117,7 +1117,7 @@
       "category": "ポケモン",
       "energyType": "超",
       "surugayaUrl": "/product/other/GN369910",
-      "surugayaPrice": 520,
+      "surugayaPrice": 550,
       "surugayaSoldOut": true,
       "raritySlug": "ur",
       "surugayaBuyPrice": null

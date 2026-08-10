@@ -2,7 +2,7 @@
   "pack": "拡張パック 「ステラミラクル」",
   "packSlug": "sv7",
   "source": "surugaya",
-  "collectedAt": "2026-08-07T00:15:08.750Z",
+  "collectedAt": "2026-08-10T05:28:51.863Z",
   "count": 176,
   "cards": [
     {
@@ -1588,7 +1588,7 @@
       "category": "ポケモン",
       "energyType": "草",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN596167",
-      "surugayaPrice": 480,
+      "surugayaPrice": 380,
       "surugayaSoldOut": false,
       "raritySlug": "ar",
       "surugayaBuyPrice": null
@@ -1719,7 +1719,7 @@
       "category": "ポケモン",
       "energyType": "",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN596178",
-      "surugayaPrice": 380,
+      "surugayaPrice": 300,
       "surugayaSoldOut": false,
       "raritySlug": "ar",
       "surugayaBuyPrice": null
@@ -1827,10 +1827,9 @@
       "category": "サポート",
       "energyType": "",
       "surugayaUrl": "/product/other/GN596187",
-      "surugayaPrice": 340,
+      "surugayaPrice": 280,
       "surugayaSoldOut": true,
-      "raritySlug": "sr",
-      "surugayaBuyPrice": 600
+      "raritySlug": "sr"
     },
     {
       "name": "タロ",

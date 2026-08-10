@@ -2,8 +2,8 @@
   "pack": "拡張パック「メガブレイブ」",
   "packSlug": "m1l",
   "source": "surugaya",
-  "collectedAt": "2026-08-07T00:18:38.493Z",
-  "count": 91,
+  "collectedAt": "2026-08-10T05:32:18.709Z",
+  "count": 90,
   "cards": [
     {
       "name": "フシギダネ",
@@ -759,18 +759,6 @@
       "surugayaBuyPrice": null
     },
     {
-      "name": "マーシャドー",
-      "cardNumber": "069/063",
-      "rarity": "AR",
-      "category": "ポケモン",
-      "energyType": "闘",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU362734",
-      "surugayaPrice": 380,
-      "surugayaSoldOut": false,
-      "raritySlug": "ar",
-      "surugayaBuyPrice": null
-    },
-    {
       "name": "キョジオーン",
       "cardNumber": "070/063",
       "rarity": "AR",
@@ -978,10 +966,10 @@
       "category": "ポケモン",
       "energyType": "闘",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU362714",
-      "surugayaPrice": 12800,
+      "surugayaPrice": 9400,
       "surugayaSoldOut": false,
       "raritySlug": "sar",
-      "surugayaBuyPrice": 7000
+      "surugayaBuyPrice": 6500
     },
     {
       "name": "メガアブソルex",
@@ -1002,10 +990,10 @@
       "category": "サポート",
       "energyType": "",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU362716",
-      "surugayaPrice": 980,
+      "surugayaPrice": 780,
       "surugayaSoldOut": false,
       "raritySlug": "sar",
-      "surugayaBuyPrice": 400
+      "surugayaBuyPrice": 300
     },
     {
       "name": "リーリエの決心",

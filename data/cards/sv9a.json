@@ -2,8 +2,8 @@
   "pack": "強化拡張パック「熱風のアリーナ」",
   "packSlug": "sv9a",
   "source": "surugaya",
-  "collectedAt": "2026-08-07T00:16:53.461Z",
-  "count": 91,
+  "collectedAt": "2026-08-10T05:30:37.980Z",
+  "count": 90,
   "cards": [
     {
       "name": "ヒビキのカイロス",
@@ -158,17 +158,6 @@
       "surugayaPrice": 160,
       "surugayaSoldOut": false,
       "raritySlug": "u"
-    },
-    {
-      "name": "ヒビキのヒノアラシ",
-      "cardNumber": "015/063",
-      "rarity": "C",
-      "category": "ポケモン",
-      "energyType": "炎",
-      "surugayaUrl": "/product/detail/GN923840?tenpo_cd=410018",
-      "surugayaPrice": 29,
-      "surugayaSoldOut": true,
-      "raritySlug": "c"
     },
     {
       "name": "ヒビキのマグマラシ",
@@ -730,7 +719,7 @@
       "category": "ポケモン",
       "energyType": "草",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN923790",
-      "surugayaPrice": 480,
+      "surugayaPrice": 380,
       "surugayaSoldOut": false,
       "raritySlug": "ar",
       "surugayaBuyPrice": null
@@ -778,7 +767,7 @@
       "category": "ポケモン",
       "energyType": "水",
       "surugayaUrl": "/product/other/GN923794",
-      "surugayaPrice": 4200,
+      "surugayaPrice": 4120,
       "surugayaSoldOut": true,
       "raritySlug": "ar",
       "surugayaBuyPrice": 3500
@@ -957,9 +946,9 @@
       "rarity": "SAR",
       "category": "ポケモン",
       "energyType": "炎",
-      "surugayaUrl": "/product/other/GN923774",
-      "surugayaPrice": 25300,
-      "surugayaSoldOut": true,
+      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN923774",
+      "surugayaPrice": 29800,
+      "surugayaSoldOut": false,
       "raritySlug": "sar",
       "surugayaBuyPrice": 20000
     },
@@ -994,10 +983,10 @@
       "category": "サポート",
       "energyType": "",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN923777",
-      "surugayaPrice": 7980,
+      "surugayaPrice": 7480,
       "surugayaSoldOut": false,
       "raritySlug": "sar",
-      "surugayaBuyPrice": 5500
+      "surugayaBuyPrice": 4500
     },
     {
       "name": "ヒビキのホウオウex",
@@ -1029,9 +1018,9 @@
       "rarity": "UR",
       "category": "スタジアム",
       "energyType": "",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN923772",
-      "surugayaPrice": 1280,
-      "surugayaSoldOut": false,
+      "surugayaUrl": "/product/other/GN923772",
+      "surugayaPrice": 1050,
+      "surugayaSoldOut": true,
       "raritySlug": "ur",
       "surugayaBuyPrice": 600
     }

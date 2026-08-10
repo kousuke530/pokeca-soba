@@ -2,8 +2,8 @@
   "pack": "拡張パック「黒炎の支配者」",
   "packSlug": "sv3",
   "source": "surugaya",
-  "collectedAt": "2026-08-07T00:11:53.513Z",
-  "count": 172,
+  "collectedAt": "2026-08-10T05:25:47.133Z",
+  "count": 173,
   "cards": [
     {
       "name": "かがやくリザードン",
@@ -355,7 +355,7 @@
       "category": "グッズ",
       "energyType": "",
       "surugayaUrl": "/product/other/GN104860",
-      "surugayaPrice": 160,
+      "surugayaPrice": 170,
       "surugayaSoldOut": true,
       "raritySlug": "n"
     },
@@ -409,9 +409,9 @@
       "rarity": "RR",
       "category": "ポケモン",
       "energyType": "炎",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN104267",
-      "surugayaPrice": 160,
-      "surugayaSoldOut": false,
+      "surugayaUrl": "/product/other/GN104267",
+      "surugayaPrice": 59,
+      "surugayaSoldOut": true,
       "raritySlug": "rr"
     },
     {
@@ -1092,9 +1092,10 @@
       "category": "ポケモン",
       "energyType": "悪",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN104313",
-      "surugayaPrice": 290,
+      "surugayaPrice": 480,
       "surugayaSoldOut": false,
-      "raritySlug": "rr"
+      "raritySlug": "rr",
+      "surugayaBuyPrice": null
     },
     {
       "name": "パルデア ウパー",
@@ -1806,7 +1807,7 @@
       "category": "サポート",
       "energyType": "",
       "surugayaUrl": "/product/other/GB104377",
-      "surugayaPrice": 370,
+      "surugayaPrice": 450,
       "surugayaSoldOut": true,
       "raritySlug": "sr",
       "surugayaBuyPrice": null
@@ -1846,6 +1847,18 @@
       "surugayaSoldOut": false,
       "raritySlug": "sar",
       "surugayaBuyPrice": 400
+    },
+    {
+      "name": "リザードンex",
+      "cardNumber": "134/108",
+      "rarity": "SAR",
+      "category": "ポケモン",
+      "energyType": "悪",
+      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN104381",
+      "surugayaPrice": 54800,
+      "surugayaSoldOut": false,
+      "raritySlug": "sar",
+      "surugayaBuyPrice": 40000
     },
     {
       "name": "ブロロロームex",

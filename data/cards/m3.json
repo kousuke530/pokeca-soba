@@ -2,8 +2,8 @@
   "pack": "拡張パック「ムニキスゼロ」",
   "packSlug": "m3",
   "source": "surugaya",
-  "collectedAt": "2026-08-07T00:21:26.194Z",
-  "count": 115,
+  "collectedAt": "2026-08-10T05:35:09.509Z",
+  "count": 117,
   "cards": [
     {
       "name": "イトマル",
@@ -26,6 +26,17 @@
       "surugayaPrice": 160,
       "surugayaSoldOut": false,
       "raritySlug": "c"
+    },
+    {
+      "name": "シェイミ",
+      "cardNumber": "003/080",
+      "rarity": "U",
+      "category": "ポケモン",
+      "energyType": "草",
+      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU584330",
+      "surugayaPrice": 160,
+      "surugayaSoldOut": false,
+      "raritySlug": "u"
     },
     {
       "name": "ツタージャ",
@@ -100,6 +111,17 @@
       "category": "ポケモン",
       "energyType": "草",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU584362",
+      "surugayaPrice": 160,
+      "surugayaSoldOut": false,
+      "raritySlug": "c"
+    },
+    {
+      "name": "フクスロー",
+      "cardNumber": "011/080",
+      "rarity": "C",
+      "category": "ポケモン",
+      "energyType": "草",
+      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU584363",
       "surugayaPrice": 160,
       "surugayaSoldOut": false,
       "raritySlug": "c"
@@ -517,9 +539,9 @@
       "rarity": "U",
       "category": "ポケモン",
       "energyType": "悪",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU584342",
-      "surugayaPrice": 160,
-      "surugayaSoldOut": false,
+      "surugayaUrl": "/product/other/GU584342",
+      "surugayaPrice": 79,
+      "surugayaSoldOut": true,
       "raritySlug": "u"
     },
     {
@@ -1134,10 +1156,10 @@
       "category": "グッズ",
       "energyType": "",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU584294",
-      "surugayaPrice": 780,
+      "surugayaPrice": 580,
       "surugayaSoldOut": false,
       "raritySlug": "sr",
-      "surugayaBuyPrice": 300
+      "surugayaBuyPrice": null
     },
     {
       "name": "ワンダーパッチ",
@@ -1263,7 +1285,7 @@
       "category": "ポケモン",
       "energyType": "",
       "surugayaUrl": "/product/other/GU584281",
-      "surugayaPrice": 8030,
+      "surugayaPrice": 7590,
       "surugayaSoldOut": true,
       "raritySlug": "sar",
       "surugayaBuyPrice": 6000

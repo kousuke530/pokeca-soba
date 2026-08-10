@@ -2,7 +2,7 @@
   "pack": "強化拡張パック「レイジングサーフ」",
   "packSlug": "sv3a",
   "source": "surugaya",
-  "collectedAt": "2026-08-07T00:12:09.763Z",
+  "collectedAt": "2026-08-10T05:25:58.636Z",
   "count": 91,
   "cards": [
     {
@@ -385,9 +385,9 @@
       "rarity": "U",
       "category": "ポケモン",
       "energyType": "悪",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN170278",
-      "surugayaPrice": 160,
-      "surugayaSoldOut": false,
+      "surugayaUrl": "/product/other/GN170278",
+      "surugayaPrice": 150,
+      "surugayaSoldOut": true,
       "raritySlug": "u"
     },
     {
@@ -1016,11 +1016,10 @@
       "rarity": "UR",
       "category": "スタジアム",
       "energyType": "",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN170334",
-      "surugayaPrice": 480,
-      "surugayaSoldOut": false,
-      "raritySlug": "ur",
-      "surugayaBuyPrice": null
+      "surugayaUrl": "/product/other/GN170334",
+      "surugayaPrice": 240,
+      "surugayaSoldOut": true,
+      "raritySlug": "ur"
     },
     {
       "name": "リバーサルエネルギー",

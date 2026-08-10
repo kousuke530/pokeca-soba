@@ -2,8 +2,8 @@
   "pack": "拡張パック「インフェルノX」",
   "packSlug": "m2",
   "source": "surugaya",
-  "collectedAt": "2026-08-07T00:19:25.351Z",
-  "count": 112,
+  "collectedAt": "2026-08-10T05:33:05.300Z",
+  "count": 113,
   "cards": [
     {
       "name": "ナゾノクサ",
@@ -629,7 +629,7 @@
       "category": "ポケモン",
       "energyType": "悪",
       "surugayaUrl": "/product/other/GU427995",
-      "surugayaPrice": 210,
+      "surugayaPrice": 190,
       "surugayaSoldOut": true,
       "raritySlug": "r"
     },
@@ -764,6 +764,17 @@
       "surugayaPrice": 160,
       "surugayaSoldOut": false,
       "raritySlug": "c"
+    },
+    {
+      "name": "マッスグマ",
+      "cardNumber": "070/080",
+      "rarity": "U",
+      "category": "ポケモン",
+      "energyType": "",
+      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU428015",
+      "surugayaPrice": 160,
+      "surugayaSoldOut": false,
+      "raritySlug": "u"
     },
     {
       "name": "ミミロル",
@@ -930,7 +941,7 @@
       "category": "ポケモン",
       "energyType": "水",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU427973",
-      "surugayaPrice": 550,
+      "surugayaPrice": 780,
       "surugayaSoldOut": false,
       "raritySlug": "ar",
       "surugayaBuyPrice": 300
@@ -1110,7 +1121,7 @@
       "category": "グッズ",
       "energyType": "",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU427960",
-      "surugayaPrice": 280,
+      "surugayaPrice": 200,
       "surugayaSoldOut": false,
       "raritySlug": "sr"
     },
@@ -1248,10 +1259,10 @@
       "category": "サポート",
       "energyType": "",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU427951",
-      "surugayaPrice": 3980,
+      "surugayaPrice": 3480,
       "surugayaSoldOut": false,
       "raritySlug": "sar",
-      "surugayaBuyPrice": 2000
+      "surugayaBuyPrice": 1600
     },
     {
       "name": "メガリザードンXex",
@@ -1260,7 +1271,7 @@
       "category": "ポケモン",
       "energyType": "炎",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU427945",
-      "surugayaPrice": 248000,
+      "surugayaPrice": 228000,
       "surugayaSoldOut": false,
       "raritySlug": "mur",
       "surugayaBuyPrice": 140000

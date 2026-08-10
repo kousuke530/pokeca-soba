@@ -2,7 +2,7 @@
   "pack": "強化拡張パック「クリムゾンヘイズ」",
   "packSlug": "sv5a",
   "source": "surugaya",
-  "collectedAt": "2026-08-07T00:14:12.008Z",
+  "collectedAt": "2026-08-10T05:27:56.364Z",
   "count": 95,
   "cards": [
     {
@@ -574,7 +574,7 @@
       "category": "グッズ",
       "energyType": "",
       "surugayaUrl": "/product/other/GN446039",
-      "surugayaPrice": 1480,
+      "surugayaPrice": 1310,
       "surugayaSoldOut": true,
       "raritySlug": "ace",
       "surugayaBuyPrice": 800
@@ -741,7 +741,7 @@
       "category": "ポケモン",
       "energyType": "草",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN446054",
-      "surugayaPrice": 380,
+      "surugayaPrice": 300,
       "surugayaSoldOut": false,
       "raritySlug": "ar",
       "surugayaBuyPrice": null
@@ -861,7 +861,7 @@
       "category": "ポケモン",
       "energyType": "",
       "surugayaUrl": "/product/other/GN446064",
-      "surugayaPrice": 3250,
+      "surugayaPrice": 780,
       "surugayaSoldOut": true,
       "raritySlug": "ar",
       "surugayaBuyPrice": 3800
@@ -1032,7 +1032,7 @@
       "surugayaPrice": 12800,
       "surugayaSoldOut": false,
       "raritySlug": "sar",
-      "surugayaBuyPrice": 8500
+      "surugayaBuyPrice": 8000
     },
     {
       "name": "スイレンのお世話",
@@ -1052,9 +1052,9 @@
       "rarity": "UR",
       "category": "ポケモン",
       "energyType": "",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN446080",
-      "surugayaPrice": 680,
-      "surugayaSoldOut": false,
+      "surugayaUrl": "/product/other/GN446080",
+      "surugayaPrice": 610,
+      "surugayaSoldOut": true,
       "raritySlug": "ur",
       "surugayaBuyPrice": 300
     },
@@ -1064,9 +1064,9 @@
       "rarity": "UR",
       "category": "ポケモンのどうぐ",
       "energyType": "",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN446081",
-      "surugayaPrice": 580,
-      "surugayaSoldOut": false,
+      "surugayaUrl": "/product/other/GN446081",
+      "surugayaPrice": 470,
+      "surugayaSoldOut": true,
       "raritySlug": "ur",
       "surugayaBuyPrice": null
     },

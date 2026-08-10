@@ -2,7 +2,7 @@
   "pack": "拡張パック「アビスアイ」",
   "packSlug": "m5",
   "source": "surugaya",
-  "collectedAt": "2026-08-07T00:21:52.433Z",
+  "collectedAt": "2026-08-10T05:35:34.085Z",
   "count": 116,
   "cards": [
     {
@@ -209,9 +209,9 @@
       "rarity": "R",
       "category": "ポケモン",
       "energyType": "水",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU730280",
-      "surugayaPrice": 160,
-      "surugayaSoldOut": false,
+      "surugayaUrl": "/product/other/GU730280",
+      "surugayaPrice": 50,
+      "surugayaSoldOut": true,
       "raritySlug": "r"
     },
     {
@@ -905,9 +905,10 @@
       "category": "ポケモン",
       "energyType": "水",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU730261",
-      "surugayaPrice": 290,
+      "surugayaPrice": 480,
       "surugayaSoldOut": false,
-      "raritySlug": "ar"
+      "raritySlug": "ar",
+      "surugayaBuyPrice": null
     },
     {
       "name": "アシレーヌ",
@@ -940,10 +941,10 @@
       "category": "ポケモン",
       "energyType": "超",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU730264",
-      "surugayaPrice": 1080,
+      "surugayaPrice": 880,
       "surugayaSoldOut": false,
       "raritySlug": "ar",
-      "surugayaBuyPrice": 400
+      "surugayaBuyPrice": 300
     },
     {
       "name": "ダダリン",
@@ -1084,10 +1085,10 @@
       "category": "ポケモン",
       "energyType": "悪",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU730246",
-      "surugayaPrice": 1280,
+      "surugayaPrice": 980,
       "surugayaSoldOut": false,
       "raritySlug": "sr",
-      "surugayaBuyPrice": 500
+      "surugayaBuyPrice": 400
     },
     {
       "name": "モルペコex",
@@ -1234,7 +1235,7 @@
       "category": "ポケモン",
       "energyType": "雷",
       "surugayaUrl": "/product/other/GU730235",
-      "surugayaPrice": 2500,
+      "surugayaPrice": 2230,
       "surugayaSoldOut": true,
       "raritySlug": "sar",
       "surugayaBuyPrice": 1200
@@ -1258,10 +1259,10 @@
       "category": "ポケモン",
       "energyType": "悪",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU730237",
-      "surugayaPrice": 29400,
+      "surugayaPrice": 27800,
       "surugayaSoldOut": false,
       "raritySlug": "sar",
-      "surugayaBuyPrice": 20000
+      "surugayaBuyPrice": 18000
     },
     {
       "name": "モルペコex",
@@ -1294,7 +1295,7 @@
       "category": "サポート",
       "energyType": "",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU730240",
-      "surugayaPrice": 4780,
+      "surugayaPrice": 5980,
       "surugayaSoldOut": false,
       "raritySlug": "sar",
       "surugayaBuyPrice": 3000

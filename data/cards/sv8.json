@@ -2,7 +2,7 @@
   "pack": "拡張パック「超電ブレイカー」",
   "packSlug": "sv8",
   "source": "surugaya",
-  "collectedAt": "2026-08-07T00:15:32.019Z",
+  "collectedAt": "2026-08-10T05:29:14.944Z",
   "count": 135,
   "cards": [
     {
@@ -1277,7 +1277,7 @@
       "category": "ポケモン",
       "energyType": "",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN709445",
-      "surugayaPrice": 480,
+      "surugayaPrice": 380,
       "surugayaSoldOut": false,
       "raritySlug": "ar",
       "surugayaBuyPrice": null
@@ -1325,10 +1325,10 @@
       "category": "ポケモン",
       "energyType": "雷",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN709426",
-      "surugayaPrice": 11800,
+      "surugayaPrice": 10800,
       "surugayaSoldOut": false,
       "raritySlug": "sr",
-      "surugayaBuyPrice": 6500
+      "surugayaBuyPrice": 5500
     },
     {
       "name": "シロデスナex",
@@ -1384,9 +1384,9 @@
       "rarity": "SR",
       "category": "サポート",
       "energyType": "",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN709431",
-      "surugayaPrice": 1480,
-      "surugayaSoldOut": false,
+      "surugayaUrl": "/product/other/GN709431",
+      "surugayaPrice": 640,
+      "surugayaSoldOut": true,
       "raritySlug": "sr",
       "surugayaBuyPrice": 700
     },
@@ -1420,9 +1420,9 @@
       "rarity": "SAR",
       "category": "ポケモン",
       "energyType": "草",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN709417",
-      "surugayaPrice": 2280,
-      "surugayaSoldOut": false,
+      "surugayaUrl": "/product/other/GN709417",
+      "surugayaPrice": 990,
+      "surugayaSoldOut": true,
       "raritySlug": "sar",
       "surugayaBuyPrice": 1400
     },
@@ -1516,9 +1516,9 @@
       "rarity": "UR",
       "category": "スタジアム",
       "energyType": "",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN709416",
-      "surugayaPrice": 680,
-      "surugayaSoldOut": false,
+      "surugayaUrl": "/product/other/GN709416",
+      "surugayaPrice": 580,
+      "surugayaSoldOut": true,
       "raritySlug": "ur",
       "surugayaBuyPrice": 300
     }
