@@ -2,7 +2,7 @@
   "pack": "拡張パック 「変幻の仮面」",
   "packSlug": "sv6",
   "source": "surugaya",
-  "collectedAt": "2026-08-10T05:28:12.436Z",
+  "collectedAt": "2026-08-11T04:29:12.144Z",
   "count": 132,
   "cards": [
     {
@@ -876,13 +876,13 @@
       "raritySlug": "c"
     },
     {
-      "name": "【ランクB】ドラパルトex",
+      "name": "ドラパルトex",
       "cardNumber": "081/101",
       "rarity": "RR",
       "category": "ポケモン",
       "energyType": "ドラゴン",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GB486550",
-      "surugayaPrice": 280,
+      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN486550",
+      "surugayaPrice": 160,
       "surugayaSoldOut": false,
       "raritySlug": "rr"
     },
@@ -1097,12 +1097,12 @@
       "raritySlug": "u"
     },
     {
-      "name": "レガシーエネルギー",
+      "name": "【ランクB】レガシーエネルギー",
       "cardNumber": "101/101",
       "rarity": "ACE",
       "category": "エネルギー",
       "energyType": "",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN486570",
+      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GB486570",
       "surugayaPrice": 160,
       "surugayaSoldOut": false,
       "raritySlug": "ace"
@@ -1246,7 +1246,7 @@
       "category": "ポケモン",
       "energyType": "",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN486582",
-      "surugayaPrice": 1980,
+      "surugayaPrice": 1050,
       "surugayaSoldOut": false,
       "raritySlug": "ar",
       "surugayaBuyPrice": 1000
@@ -1384,16 +1384,16 @@
       "surugayaBuyPrice": null
     },
     {
-      "name": "【ランクB】オーガポン みどりのめんex",
+      "name": "オーガポン みどりのめんex",
       "cardNumber": "125/101",
       "rarity": "SAR",
       "category": "ポケモン",
       "energyType": "草",
-      "surugayaUrl": "/product/detail/GB486594?tenpo_cd=400499",
-      "surugayaPrice": 4860,
-      "surugayaSoldOut": true,
+      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN486594",
+      "surugayaPrice": 1360,
+      "surugayaSoldOut": false,
       "raritySlug": "sar",
-      "surugayaBuyPrice": null
+      "surugayaBuyPrice": 1200
     },
     {
       "name": "オーガポン かまどのめんex",

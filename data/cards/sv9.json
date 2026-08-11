@@ -2,7 +2,7 @@
   "pack": "拡張パック「バトルパートナーズ」",
   "packSlug": "sv9",
   "source": "surugaya",
-  "collectedAt": "2026-08-10T05:30:21.670Z",
+  "collectedAt": "2026-08-11T04:31:15.965Z",
   "count": 165,
   "cards": [
     {
@@ -254,9 +254,10 @@
       "category": "グッズ",
       "energyType": "",
       "surugayaUrl": "/product/detail/GN833005?tenpo_cd=400455",
-      "surugayaPrice": 80,
+      "surugayaPrice": 300,
       "surugayaSoldOut": true,
-      "raritySlug": "n"
+      "raritySlug": "n",
+      "surugayaBuyPrice": null
     },
     {
       "name": "ブーバーン",
@@ -640,7 +641,7 @@
       "category": "ポケモン",
       "energyType": "超",
       "surugayaUrl": "/product/other/GN832729",
-      "surugayaPrice": 110,
+      "surugayaPrice": 128,
       "surugayaSoldOut": true,
       "raritySlug": "rr"
     },
@@ -1256,7 +1257,7 @@
       "category": "ポケモン",
       "energyType": "",
       "surugayaUrl": "/product/other/GN832734",
-      "surugayaPrice": 80,
+      "surugayaPrice": 119,
       "surugayaSoldOut": true,
       "raritySlug": "rr"
     },
@@ -1582,7 +1583,7 @@
       "category": "ポケモン",
       "energyType": "ドラゴン",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN832723",
-      "surugayaPrice": 2580,
+      "surugayaPrice": 1550,
       "surugayaSoldOut": false,
       "raritySlug": "ar",
       "surugayaBuyPrice": 1200
@@ -1786,7 +1787,7 @@
       "category": "ポケモン",
       "energyType": "超",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN832700",
-      "surugayaPrice": 32800,
+      "surugayaPrice": 23000,
       "surugayaSoldOut": false,
       "raritySlug": "sar",
       "surugayaBuyPrice": 20000
