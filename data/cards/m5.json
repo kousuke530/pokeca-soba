@@ -2,7 +2,7 @@
   "pack": "拡張パック「アビスアイ」",
   "packSlug": "m5",
   "source": "surugaya",
-  "collectedAt": "2026-08-11T04:36:15.698Z",
+  "collectedAt": "2026-08-12T02:38:49.626Z",
   "count": 116,
   "cards": [
     {
@@ -1229,14 +1229,14 @@
       "surugayaBuyPrice": 1000
     },
     {
-      "name": "メガゼラオラex",
+      "name": "メガゼラオラex（Bランク）",
       "cardNumber": "112/081",
       "rarity": "SAR",
       "category": "ポケモン",
       "energyType": "雷",
-      "surugayaUrl": "/product/other/GU730235",
-      "surugayaPrice": 2230,
-      "surugayaSoldOut": true,
+      "surugayaUrl": "/product/detail/GU730235?branch_number=0077",
+      "surugayaPrice": 1790,
+      "surugayaSoldOut": false,
       "raritySlug": "sar",
       "surugayaBuyPrice": 1200
     },

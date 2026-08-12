@@ -2,7 +2,7 @@
   "pack": "拡張パック「ワイルドフォース」",
   "packSlug": "sv5k",
   "source": "surugaya",
-  "collectedAt": "2026-08-11T04:28:46.337Z",
+  "collectedAt": "2026-08-12T02:31:28.846Z",
   "count": 99,
   "cards": [
     {
@@ -927,11 +927,10 @@
       "rarity": "AR",
       "category": "ポケモン",
       "energyType": "",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN369792",
-      "surugayaPrice": 880,
-      "surugayaSoldOut": false,
-      "raritySlug": "ar",
-      "surugayaBuyPrice": 400
+      "surugayaUrl": "/product/other/GN369792",
+      "surugayaPrice": 284,
+      "surugayaSoldOut": true,
+      "raritySlug": "ar"
     },
     {
       "name": "ドダイトスex",
@@ -1102,16 +1101,16 @@
       "surugayaBuyPrice": null
     },
     {
-      "name": "【ランクB】ウネルミナモex",
+      "name": "ウネルミナモex",
       "cardNumber": "099/071",
       "rarity": "UR",
       "category": "ポケモン",
       "energyType": "水",
-      "surugayaUrl": "/product/detail/GB369808?tenpo_cd=200959",
-      "surugayaPrice": 611,
-      "surugayaSoldOut": true,
+      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN369808",
+      "surugayaPrice": 880,
+      "surugayaSoldOut": false,
       "raritySlug": "ur",
-      "surugayaBuyPrice": null
+      "surugayaBuyPrice": 400
     },
     {
       "name": "タケルライコex",

@@ -2,8 +2,8 @@
   "pack": "拡張パック「ロケット団の栄光」",
   "packSlug": "sv10",
   "source": "surugaya",
-  "collectedAt": "2026-08-11T04:31:42.796Z",
-  "count": 130,
+  "collectedAt": "2026-08-12T02:34:22.383Z",
+  "count": 129,
   "cards": [
     {
       "name": "クヌギダマ",
@@ -110,20 +110,9 @@
       "rarity": "C",
       "category": "ポケモン",
       "energyType": "草",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU166895",
-      "surugayaPrice": 160,
-      "surugayaSoldOut": false,
-      "raritySlug": "c"
-    },
-    {
-      "name": "オリーニョ",
-      "cardNumber": "011/098",
-      "rarity": "C",
-      "category": "ポケモン",
-      "energyType": "草",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU166896",
-      "surugayaPrice": 160,
-      "surugayaSoldOut": false,
+      "surugayaUrl": "/product/other/GU166895",
+      "surugayaPrice": 19,
+      "surugayaSoldOut": true,
       "raritySlug": "c"
     },
     {

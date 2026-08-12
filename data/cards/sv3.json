@@ -2,7 +2,7 @@
   "pack": "拡張パック「黒炎の支配者」",
   "packSlug": "sv3",
   "source": "surugaya",
-  "collectedAt": "2026-08-11T04:26:50.448Z",
+  "collectedAt": "2026-08-12T02:29:34.325Z",
   "count": 173,
   "cards": [
     {
@@ -1801,14 +1801,14 @@
       "surugayaBuyPrice": null
     },
     {
-      "name": "【ランクB】オルティガ",
+      "name": "オルティガ",
       "cardNumber": "130/108",
       "rarity": "SR",
       "category": "サポート",
       "energyType": "",
-      "surugayaUrl": "/product/other/GB104377",
-      "surugayaPrice": 450,
-      "surugayaSoldOut": true,
+      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN104377",
+      "surugayaPrice": 480,
+      "surugayaSoldOut": false,
       "raritySlug": "sr",
       "surugayaBuyPrice": null
     },
