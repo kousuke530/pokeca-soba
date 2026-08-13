@@ -2,8 +2,8 @@
   "pack": "強化拡張パック「楽園ドラゴーナ」",
   "packSlug": "sv7a",
   "source": "surugaya",
-  "collectedAt": "2026-08-12T02:32:40.706Z",
-  "count": 92,
+  "collectedAt": "2026-08-13T05:52:00.365Z",
+  "count": 91,
   "cards": [
     {
       "name": "タマタマ",
@@ -832,18 +832,6 @@
       "surugayaBuyPrice": null
     },
     {
-      "name": "ブラックキュレムex",
-      "cardNumber": "077/064",
-      "rarity": "SR",
-      "category": "ポケモン",
-      "energyType": "水",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN660812",
-      "surugayaPrice": 480,
-      "surugayaSoldOut": false,
-      "raritySlug": "sr",
-      "surugayaBuyPrice": null
-    },
-    {
       "name": "ラティアスex",
       "cardNumber": "078/064",
       "rarity": "SR",
@@ -1006,7 +994,7 @@
       "category": "サポート",
       "energyType": "",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN660811",
-      "surugayaPrice": 27800,
+      "surugayaPrice": 18800,
       "surugayaSoldOut": false,
       "raritySlug": "sar",
       "surugayaBuyPrice": 18000

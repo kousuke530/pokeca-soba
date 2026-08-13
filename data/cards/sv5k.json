@@ -2,7 +2,7 @@
   "pack": "拡張パック「ワイルドフォース」",
   "packSlug": "sv5k",
   "source": "surugaya",
-  "collectedAt": "2026-08-12T02:31:28.846Z",
+  "collectedAt": "2026-08-13T05:50:44.477Z",
   "count": 99,
   "cards": [
     {
@@ -188,7 +188,7 @@
       "category": "ポケモン",
       "energyType": "水",
       "surugayaUrl": "/product/other/GN369726",
-      "surugayaPrice": 18,
+      "surugayaPrice": 19,
       "surugayaSoldOut": true,
       "raritySlug": "u"
     },
@@ -927,10 +927,11 @@
       "rarity": "AR",
       "category": "ポケモン",
       "energyType": "",
-      "surugayaUrl": "/product/other/GN369792",
-      "surugayaPrice": 284,
-      "surugayaSoldOut": true,
-      "raritySlug": "ar"
+      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN369792",
+      "surugayaPrice": 880,
+      "surugayaSoldOut": false,
+      "raritySlug": "ar",
+      "surugayaBuyPrice": 400
     },
     {
       "name": "ドダイトスex",

@@ -2,8 +2,8 @@
   "pack": "拡張パック 「変幻の仮面」",
   "packSlug": "sv6",
   "source": "surugaya",
-  "collectedAt": "2026-08-12T02:31:54.585Z",
-  "count": 132,
+  "collectedAt": "2026-08-13T05:51:10.076Z",
+  "count": 130,
   "cards": [
     {
       "name": "ヒマナッツ",
@@ -1150,7 +1150,7 @@
       "category": "ポケモン",
       "energyType": "雷",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN486574",
-      "surugayaPrice": 480,
+      "surugayaPrice": 380,
       "surugayaSoldOut": false,
       "raritySlug": "ar",
       "surugayaBuyPrice": null
@@ -1360,18 +1360,6 @@
       "surugayaBuyPrice": 300
     },
     {
-      "name": "ゼイユ",
-      "cardNumber": "123/101",
-      "rarity": "SR",
-      "category": "サポート",
-      "energyType": "",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN486592",
-      "surugayaPrice": 1680,
-      "surugayaSoldOut": false,
-      "raritySlug": "sr",
-      "surugayaBuyPrice": 800
-    },
-    {
       "name": "ハッサク",
       "cardNumber": "124/101",
       "rarity": "SR",
@@ -1444,18 +1432,6 @@
       "surugayaBuyPrice": 2000
     },
     {
-      "name": "ゼイユ",
-      "cardNumber": "130/101",
-      "rarity": "SAR",
-      "category": "サポート",
-      "energyType": "",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN486599",
-      "surugayaPrice": 21800,
-      "surugayaSoldOut": false,
-      "raritySlug": "sar",
-      "surugayaBuyPrice": 12000
-    },
-    {
       "name": "オーガポン みどりのめんex",
       "cardNumber": "131/101",
       "rarity": "UR",
@@ -1473,9 +1449,9 @@
       "rarity": "UR",
       "category": "グッズ",
       "energyType": "",
-      "surugayaUrl": "/product/other/GN486601",
-      "surugayaPrice": 390,
-      "surugayaSoldOut": true,
+      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN486601",
+      "surugayaPrice": 580,
+      "surugayaSoldOut": false,
       "raritySlug": "ur",
       "surugayaBuyPrice": null
     },

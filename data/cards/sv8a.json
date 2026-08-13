@@ -2,8 +2,8 @@
   "pack": "ハイクラスパック 「テラスタルフェスex」",
   "packSlug": "sv8a",
   "source": "surugaya",
-  "collectedAt": "2026-08-12T02:33:38.378Z",
-  "count": 471,
+  "collectedAt": "2026-08-13T05:52:58.458Z",
+  "count": 472,
   "cards": [
     {
       "name": "スボミー",
@@ -169,7 +169,7 @@
       "category": "ポケモン",
       "energyType": "草",
       "surugayaUrl": "/product/other/GN764592",
-      "surugayaPrice": 280,
+      "surugayaPrice": 270,
       "surugayaSoldOut": true,
       "raritySlug": "mb"
     },
@@ -926,7 +926,7 @@
       "category": "ポケモン",
       "energyType": "水",
       "surugayaUrl": "/product/other/GN764756",
-      "surugayaPrice": 157,
+      "surugayaPrice": 150,
       "surugayaSoldOut": true,
       "raritySlug": "mirror"
     },
@@ -3549,7 +3549,7 @@
       "category": "ポケモン",
       "energyType": "",
       "surugayaUrl": "/product/other/GN764913",
-      "surugayaPrice": 200,
+      "surugayaPrice": 100,
       "surugayaSoldOut": true,
       "raritySlug": "n"
     },
@@ -5002,6 +5002,18 @@
       "surugayaBuyPrice": 300
     },
     {
+      "name": "エーフィex",
+      "cardNumber": "211/187",
+      "rarity": "SAR",
+      "category": "ポケモン",
+      "energyType": "超",
+      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN764511",
+      "surugayaPrice": 10800,
+      "surugayaSoldOut": false,
+      "raritySlug": "sar",
+      "surugayaBuyPrice": 6500
+    },
+    {
       "name": "ニンフィアex",
       "cardNumber": "212/187",
       "rarity": "SAR",
@@ -5248,7 +5260,7 @@
       "category": "ポケモン",
       "energyType": "草",
       "surugayaUrl": "/product/other/GN764495",
-      "surugayaPrice": 460,
+      "surugayaPrice": 500,
       "surugayaSoldOut": true,
       "raritySlug": "ur",
       "surugayaBuyPrice": null
@@ -5272,7 +5284,7 @@
       "category": "ポケモン",
       "energyType": "水",
       "surugayaUrl": "/product/other/GN764497",
-      "surugayaPrice": 544,
+      "surugayaPrice": 570,
       "surugayaSoldOut": true,
       "raritySlug": "ur",
       "surugayaBuyPrice": null

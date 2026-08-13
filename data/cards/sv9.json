@@ -2,8 +2,8 @@
   "pack": "拡張パック「バトルパートナーズ」",
   "packSlug": "sv9",
   "source": "surugaya",
-  "collectedAt": "2026-08-12T02:33:55.925Z",
-  "count": 165,
+  "collectedAt": "2026-08-13T05:53:16.542Z",
+  "count": 163,
   "cards": [
     {
       "name": "ミュウex",
@@ -1482,17 +1482,6 @@
       "raritySlug": "u"
     },
     {
-      "name": "スパイクエネルギー",
-      "cardNumber": "100/100",
-      "rarity": "U",
-      "category": "エネルギー",
-      "energyType": "",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN832778",
-      "surugayaPrice": 160,
-      "surugayaSoldOut": false,
-      "raritySlug": "u"
-    },
-    {
       "name": "マラカッチ",
       "cardNumber": "101/100",
       "rarity": "AR",
@@ -1779,18 +1768,6 @@
       "surugayaSoldOut": false,
       "raritySlug": "sar",
       "surugayaBuyPrice": 8000
-    },
-    {
-      "name": "リーリエのピッピex",
-      "cardNumber": "126/100",
-      "rarity": "SAR",
-      "category": "ポケモン",
-      "energyType": "超",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN832700",
-      "surugayaPrice": 23000,
-      "surugayaSoldOut": false,
-      "raritySlug": "sar",
-      "surugayaBuyPrice": 20000
     },
     {
       "name": "Nのゾロアークex",

@@ -2,8 +2,8 @@
   "pack": "スタートデッキ100 バトルコレクション",
   "packSlug": "mc",
   "source": "surugaya",
-  "collectedAt": "2026-08-12T02:38:12.456Z",
-  "count": 530,
+  "collectedAt": "2026-08-13T05:57:33.438Z",
+  "count": 529,
   "cards": [
     {
       "name": "アイアント",
@@ -134,9 +134,9 @@
       "rarity": "ノーマル",
       "category": "ポケモン",
       "energyType": "草",
-      "surugayaUrl": "/product/other/GU543185",
+      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU543185",
       "surugayaPrice": 480,
-      "surugayaSoldOut": true,
+      "surugayaSoldOut": false,
       "raritySlug": "n",
       "surugayaBuyPrice": null
     },
@@ -247,7 +247,7 @@
       "category": "グッズ",
       "energyType": "",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU548962",
-      "surugayaPrice": 280,
+      "surugayaPrice": 180,
       "surugayaSoldOut": false,
       "raritySlug": "n"
     },
@@ -2489,9 +2489,9 @@
       "rarity": "ノーマル",
       "category": "ポケモン",
       "energyType": "雷",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU543008",
-      "surugayaPrice": 160,
-      "surugayaSoldOut": false,
+      "surugayaUrl": "/product/detail/GU543008?tenpo_cd=410011",
+      "surugayaPrice": 150,
+      "surugayaSoldOut": true,
       "raritySlug": "n"
     },
     {
@@ -5470,9 +5470,9 @@
       "rarity": "ノーマル",
       "category": "サポート",
       "energyType": "",
-      "surugayaUrl": "/product/other/GU543751",
-      "surugayaPrice": 80,
-      "surugayaSoldOut": true,
+      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU543751",
+      "surugayaPrice": 180,
+      "surugayaSoldOut": false,
       "raritySlug": "n"
     },
     {
@@ -5559,17 +5559,6 @@
       "category": "エネルギー",
       "energyType": "",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU543763",
-      "surugayaPrice": 160,
-      "surugayaSoldOut": false,
-      "raritySlug": "n"
-    },
-    {
-      "name": "スパイクエネルギー",
-      "cardNumber": "737/742",
-      "rarity": "ノーマル",
-      "category": "エネルギー",
-      "energyType": "",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU543764",
       "surugayaPrice": 160,
       "surugayaSoldOut": false,
       "raritySlug": "n"
@@ -5676,7 +5665,7 @@
       "category": "ポケモン",
       "energyType": "超",
       "surugayaUrl": "/product/other/GU542889",
-      "surugayaPrice": 3390,
+      "surugayaPrice": 3320,
       "surugayaSoldOut": true,
       "raritySlug": "n",
       "surugayaBuyPrice": 2500
@@ -5748,10 +5737,10 @@
       "category": "ポケモン",
       "energyType": "",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU542893",
-      "surugayaPrice": 45800,
+      "surugayaPrice": 39800,
       "surugayaSoldOut": false,
       "raritySlug": "n",
-      "surugayaBuyPrice": 18000
+      "surugayaBuyPrice": 15000
     },
     {
       "name": "アオキのムクホーク",

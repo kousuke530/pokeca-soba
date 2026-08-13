@@ -2,8 +2,8 @@
   "pack": "拡張パック「黒炎の支配者」",
   "packSlug": "sv3",
   "source": "surugaya",
-  "collectedAt": "2026-08-12T02:29:34.325Z",
-  "count": 173,
+  "collectedAt": "2026-08-13T05:48:49.658Z",
+  "count": 172,
   "cards": [
     {
       "name": "かがやくリザードン",
@@ -1159,7 +1159,7 @@
       "category": "ポケモン",
       "energyType": "悪",
       "surugayaUrl": "/product/other/GN104320",
-      "surugayaPrice": 60,
+      "surugayaPrice": 65,
       "surugayaSoldOut": true,
       "raritySlug": "rr"
     },
@@ -1549,18 +1549,6 @@
       "raritySlug": "u"
     },
     {
-      "name": "クサイハナ",
-      "cardNumber": "109/108",
-      "rarity": "AR",
-      "category": "ポケモン",
-      "energyType": "草",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN104356",
-      "surugayaPrice": 680,
-      "surugayaSoldOut": false,
-      "raritySlug": "ar",
-      "surugayaBuyPrice": null
-    },
-    {
       "name": "キュウコン",
       "cardNumber": "110/108",
       "rarity": "AR",
@@ -1813,14 +1801,14 @@
       "surugayaBuyPrice": null
     },
     {
-      "name": "ポピー",
+      "name": "【ランクB】ポピー",
       "cardNumber": "131/108",
       "rarity": "SR",
       "category": "サポート",
       "energyType": "",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN104378",
-      "surugayaPrice": 480,
-      "surugayaSoldOut": false,
+      "surugayaUrl": "/product/detail/GB104378?tenpo_cd=410124",
+      "surugayaPrice": 1330,
+      "surugayaSoldOut": true,
       "raritySlug": "sr",
       "surugayaBuyPrice": null
     },
