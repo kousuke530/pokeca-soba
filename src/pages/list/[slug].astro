@@ -5,6 +5,7 @@ import VariantRow from '../../components/VariantRow.astro';
 import PriceModal from '../../components/PriceModal.astro';
 import RelatedCards from '../../components/RelatedCards.astro';
 import { series as allSeries, priceAsOf, popularByName, sameTypeByName, sellInsight } from '../../data/cards';
+import pokemonOverview from '../../../data/pokemon-overview.json';
 import { typeChipStyle } from '../../data/typeColors';
 import type { CardSeries } from '../../data/types';
 
@@ -53,6 +54,13 @@ const relatedSameType = isPokemon
   : [];
 
 const topIns = sellInsight(topCard);
+
+// ポケモン概要（生き物としての説明）。slug にデータがあるページのみ表示（テスト運用）。
+const OVERVIEWS = pokemonOverview as Record<string, string>;
+const overview = OVERVIEWS[series.slug];
+// 概要見出し用にカード名末尾の ex/V 等の表記を除いたポケモン名。
+const pokeName = series.name.replace(/\s*(ex|EX|V(MAX|STAR)?|GX)$/g, '').trim();
+
 const title = `${series.name}(全${series.variants.length}種)の買取・販売価格相場一覧`;
 const description = `${series.name}の相場を全${series.variants.length}種で比較。最高値は${topCard.rarity}の${yen(
   highest,
@@ -167,6 +175,13 @@ const jsonLd = JSON.stringify({
   <RelatedCards title="人気ポケモン" items={relatedPopular} moreHref="/ranking/" />
   {isPokemon && <RelatedCards title={`${topCard.energyType}タイプのポケモン`} items={relatedSameType} />}
 
+  {overview && (
+    <section class="pokemon-overview">
+      <h2>{pokeName}とは？</h2>
+      <p>{overview}</p>
+    </section>
+  )}
+
   {
     variants.map((c) => (
       <PriceModal card={c} seriesUrl={seriesPath} seriesName={series.name} priceDate={priceDate} />
@@ -226,6 +241,29 @@ const jsonLd = JSON.stringify({
 </script>
 
 <style>
+  /* ===== ポケモン概要 ===== */
+  .pokemon-overview {
+    margin-top: 34px;
+    padding: 22px 24px;
+    border: 1px solid var(--border);
+    border-radius: 14px;
+    background: linear-gradient(180deg, #f6f9ff, #fff);
+    box-shadow: var(--shadow-sm);
+  }
+  .pokemon-overview h2 {
+    margin: 0 0 10px;
+    color: var(--text-strong);
+    font-size: 20px;
+    font-weight: 900;
+  }
+  .pokemon-overview p {
+    margin: 0;
+    color: var(--text);
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 1.95;
+  }
+
   .pokemon-hero {
     display: grid;
     grid-template-columns: 280px minmax(0, 1fr);

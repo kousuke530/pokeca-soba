@@ -1,11 +1,14 @@
 import fs from 'node:fs';
 import path from 'node:path';
-import type { Card, CardSeries, PricePoint, ShopPrice } from './types';
+import type { Card, CardDetail, CardSeries, PricePoint, ShopPrice } from './types';
 import { allPacks } from './packs';
 import { cardSellHistory } from './history';
 import nameSlugs from '../../data/name-slugs.json';
+import cardDetails from '../../data/card-details.json';
 
 const SLUGS = nameSlugs as Record<string, string>;
+// バトル情報（HP/ワザ/弱点等）の手動サイドデータ。キー=Card.id。持っているカードのみ反映。
+const CARD_DETAILS = cardDetails as Record<string, CardDetail>;
 
 /** 処理仕様の括弧（ミラー/パラレル/ランク等）を除去して種名へ正規化。build-slugs.ts と一致させること。 */
 function normalizeName(name: string): string {
@@ -132,6 +135,7 @@ function buildCards(): Card[] {
         sellShops,
         buyShops: [],
         history,
+        detail: CARD_DETAILS[id],
       });
     }
   }

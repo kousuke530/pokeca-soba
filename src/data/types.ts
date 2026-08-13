@@ -25,6 +25,47 @@ export interface PricePoint {
   buy: number;
 }
 
+/** ワザ1つ分 */
+export interface CardAttack {
+  /** エネルギーコスト（タイプ記号の配列。例: ['鋼','鋼','無']） */
+  cost: string[];
+  /** ワザ名 */
+  name: string;
+  /** ダメージ表記（例: '150'。無い場合は省略） */
+  damage?: string;
+  /** 効果テキスト（任意） */
+  text?: string;
+}
+
+/** タイプ＋倍率/補正の組（弱点・抵抗力用。例: { type:'炎', value:'×2' }） */
+export interface TypeModifier {
+  type: string;
+  value: string;
+}
+
+/**
+ * カードのバトル情報（HP・ワザ・弱点・抵抗力・にげる等）。
+ * 価格スクレイピングでは取得できないため、手動サイドデータ（data/card-details.json、キー=Card.id）で管理する。
+ */
+export interface CardDetail {
+  /** 進化段階（例: たね / 1進化 / 2進化）。トレーナーズ等は省略 */
+  stage?: string;
+  /** HP */
+  hp?: number;
+  /** ポケモンのタイプ（例: 鋼）。未指定時は Card.energyType を使う */
+  type?: string;
+  /** 特性（任意） */
+  ability?: { name: string; text: string };
+  /** ワザ一覧 */
+  attacks?: CardAttack[];
+  /** 弱点（例: { type:'炎', value:'×2' }） */
+  weakness?: TypeModifier;
+  /** 抵抗力（例: { type:'草', value:'−30' }） */
+  resistance?: TypeModifier;
+  /** にげるコスト（無エネルギーの数） */
+  retreat?: number;
+}
+
 /** カード1枚（1レアリティ＝1型番）の情報 */
 export interface Card {
   /** 一意ID（履歴/検索のキー。例: m1l-091-063-sar） */
@@ -78,6 +119,9 @@ export interface Card {
 
   /** 価格履歴（古い順）。未蓄積は空配列 */
   history: PricePoint[];
+
+  /** バトル情報（HP・ワザ・弱点等）。手動サイドデータがあるカードのみ設定される */
+  detail?: CardDetail;
 }
 
 /** カード名でグルーピングしたシリーズ（例: リーリエの決心 全11種） */

@@ -7,7 +7,9 @@ import RelatedCards from '../../../components/RelatedCards.astro';
 import { purchaseShops, buybackShops, amazonSearchUrl, mercariSearchUrl, toretokuUrl, kanaberuUrl } from '../../../data/affiliates';
 import { allCards, getSeriesByName, seriesByPack, priceAsOf, popularByName, sameTypeByName, similarPriceByName, sellInsight } from '../../../data/cards';
 import { getPack } from '../../../data/packs';
+import { typeColor } from '../../../data/typeColors';
 import type { Card } from '../../../data/types';
+import pokemonOverview from '../../../../data/pokemon-overview.json';
 
 export function getStaticPaths() {
   const seen = new Set<string>();
@@ -48,6 +50,24 @@ const categoryLabel =
   card.category === 'ポケモン' && card.energyType ? `ポケモン・${card.energyType}` : card.category;
 const isPokemon = card.category === 'ポケモン';
 const listUrl = `/list/${card.nameSlug}/`;
+
+// バトル情報（HP/ワザ/弱点/抵抗力/にげる）。手動サイドデータがあるカードのみ表示。
+const detail = card.detail;
+const battleType = detail?.type || card.energyType;
+// エネルギー記号チップの配色。無（無色）や未知タイプは中立色にフォールバック。
+const NEUTRAL: Record<string, { bg: string; fg: string }> = {
+  無: { bg: '#e7e1d4', fg: '#6b6250' },
+};
+const energyStyle = (t: string): string => {
+  const c = typeColor(t) ?? NEUTRAL[t] ?? { bg: '#cfd6df', fg: '#33415c' };
+  return `background:${c.bg};color:${c.fg}`;
+};
+
+// ポケモン概要（生き物としての説明）。nameSlug にデータがあるカードのみ表示（テスト運用）。
+const OVERVIEWS = pokemonOverview as Record<string, string>;
+const overview = OVERVIEWS[card.nameSlug];
+// 概要見出し用にカード名末尾の ex/V 等の表記を除いたポケモン名。
+const pokeName = card.name.replace(/\s*(ex|EX|V(MAX|STAR)?|GX)$/g, '').trim();
 
 const otherVariants = (getSeriesByName(card.name)?.variants ?? []).filter((v) => v.id !== card.id);
 const samePack = seriesByPack(card.packSlug)
@@ -130,37 +150,38 @@ const jsonLd = JSON.stringify({
   <!-- 検索インデックス対象（Pagefind）: カード名・レア・型番・パック -->
   <div data-pagefind-body data-pagefind-meta={`title:${card.name}（${card.rarity}）`}>
     <section class="detail-hero">
-      <div class="gallery">
-        <figure class="hero-img">
-          <img
-            src={card.imageLarge}
-            alt={`${card.name}(${card.rarity}) ${card.cardNumber}`}
-            width="420"
-            height="586"
-            loading="eager"
-            data-pagefind-meta="image[src], image_alt[alt]"
-            onerror="this.onerror=null;this.src='/images/cards/placeholder.svg'"
-          />
-          <figcaption>画像出典: 駿河屋</figcaption>
-        </figure>
-        <div class="thumbs" aria-label="関連カード画像">
-          <img src={card.image} alt="" width="48" height="67" loading="lazy" />
-          {otherVariants.slice(0, 3).map((v) => <a href={v.path}><img src={v.image} alt="" width="48" height="67" loading="lazy" /></a>)}
+      <div class="hero-header">
+        <div class="card-head">
+          <span class="badge-rarity" data-pagefind-filter="レアリティ">{card.rarity}</span>
+          <h1 class="ttl">{card.name}</h1>
+          <p class="ttl-sub">{setCode} {card.cardNumber} ／ {card.pack}</p>
+          <span hidden data-pagefind-filter="パック">{card.pack}</span>
+        </div>
+        <div class="mini-actions">
+          <span>お気に入り</span>
+          <span>シェア</span>
         </div>
       </div>
 
-      <div class="detail-main">
-        <div class="head-row">
-          <span class="badge-rarity" data-pagefind-filter="レアリティ">{card.rarity}</span>
-          <div class="mini-actions">
-            <span>お気に入り</span>
-            <span>シェア</span>
-          </div>
-        </div>
-        <h1 class="ttl">{card.name}</h1>
-        <p class="ttl-sub">{setCode} {card.cardNumber} ／ {card.pack}</p>
-        <span hidden data-pagefind-filter="パック">{card.pack}</span>
+      <figure class="hero-img">
+        <img
+          src={card.imageLarge}
+          alt={`${card.name}(${card.rarity}) ${card.cardNumber}`}
+          width="420"
+          height="586"
+          loading="eager"
+          data-pagefind-meta="image[src], image_alt[alt]"
+          onerror="this.onerror=null;this.src='/images/cards/placeholder.svg'"
+        />
+        <figcaption>画像出典: 駿河屋</figcaption>
+      </figure>
 
+      <div class="thumbs" aria-label="関連カード画像">
+        <img src={card.image} alt="" width="48" height="67" loading="lazy" />
+        {otherVariants.slice(0, 3).map((v) => <a href={v.path}><img src={v.image} alt="" width="48" height="67" loading="lazy" /></a>)}
+      </div>
+
+      <div class="detail-main">
         <div class="price-cards">
           <div class="price-card sell">
             <span class="pcap">販売価格（最安値）</span>
@@ -178,12 +199,66 @@ const jsonLd = JSON.stringify({
 
         <dl class="spec">
           <div><dt>カード種別</dt><dd>{card.category}</dd></div>
-          <div><dt>タイプ</dt><dd>{card.energyType || 'なし'}</dd></div>
           <div><dt>レギュレーション</dt><dd>{setCode}</dd></div>
           <div><dt>発売日</dt><dd>{getPack(card.packSlug)?.releaseDate ?? '調査中'}</dd></div>
           <div><dt>収録パック</dt><dd><a href={`/pack/${card.packSlug}/`}>{card.pack}</a></dd></div>
           <div><dt>カード番号</dt><dd>{card.cardNumber}</dd></div>
         </dl>
+
+        {detail && (
+          <section class="battle" aria-label="カード情報">
+            <div class="battle-head">
+              {detail.stage && <span class="stage">{detail.stage}</span>}
+              {detail.hp != null && <span class="hp">HP <b>{detail.hp}</b></span>}
+              {battleType && (
+                <span class="btype">タイプ<i class="ec" style={energyStyle(battleType)}>{battleType}</i></span>
+              )}
+            </div>
+
+            {detail.ability && (
+              <div class="battle-block">
+                <span class="bh">特性</span>
+                <div class="bbody">
+                  <p class="wname">{detail.ability.name}</p>
+                  <p class="wtext">{detail.ability.text}</p>
+                </div>
+              </div>
+            )}
+
+            {detail.attacks && detail.attacks.length > 0 && (
+              <div class="battle-block">
+                <span class="bh">ワザ</span>
+                <ul class="waza">
+                  {detail.attacks.map((a) => (
+                    <li>
+                      <div class="waza-line">
+                        <span class="cost">{a.cost.map((c) => <i class="ec" style={energyStyle(c)}>{c}</i>)}</span>
+                        <span class="wname">{a.name}</span>
+                        {a.damage && <span class="dmg">{a.damage}</span>}
+                      </div>
+                      {a.text && <p class="wtext">{a.text}</p>}
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            )}
+
+            <dl class="battle-foot">
+              <div>
+                <dt>弱点</dt>
+                <dd>{detail.weakness ? (<span class="mod"><i class="ec" style={energyStyle(detail.weakness.type)}>{detail.weakness.type}</i>{detail.weakness.value}</span>) : 'なし'}</dd>
+              </div>
+              <div>
+                <dt>抵抗力</dt>
+                <dd>{detail.resistance ? (<span class="mod"><i class="ec" style={energyStyle(detail.resistance.type)}>{detail.resistance.type}</i>{detail.resistance.value}</span>) : 'なし'}</dd>
+              </div>
+              <div>
+                <dt>にげる</dt>
+                <dd>{detail.retreat != null && detail.retreat > 0 ? (<span class="cost">{Array.from({ length: detail.retreat }).map(() => <i class="ec" style={energyStyle('無')}>無</i>)}</span>) : 'なし'}</dd>
+              </div>
+            </dl>
+          </section>
+        )}
       </div>
     </section>
 
@@ -264,17 +339,45 @@ const jsonLd = JSON.stringify({
   <RelatedCards title="同価格帯のカード" items={relatedPriceBand} />
   {isPokemon && <RelatedCards title={`${card.energyType}タイプのカード`} items={relatedSameType} />}
   <RelatedCards title="人気カード" items={relatedPopular} moreHref="/ranking/" />
+
+  {overview && (
+    <section class="pokemon-overview">
+      <h2>{pokeName}とは？</h2>
+      <p>{overview}</p>
+    </section>
+  )}
 </BaseLayout>
 
 <style>
+  /* ヘッダー(タイトル/アクション)を1行目、画像と価格・表を2行目に置き、
+     価格カードの上端を左カード画像の上端に揃える */
   .detail-hero {
     display: grid;
     grid-template-columns: minmax(260px, 340px) minmax(0, 1fr);
-    gap: 32px;
+    grid-template-areas:
+      "head   head"
+      "image  main"
+      "thumbs main";
+    column-gap: 32px;
     align-items: start;
     padding: 14px 0 42px;
   }
-  .gallery { min-width: 0; }
+  /* タイトルとアクションを全幅ヘッダーに。左カラム幅に縛られず折り返さない */
+  .hero-header {
+    grid-area: head;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 24px;
+    margin-bottom: 18px;
+  }
+  .card-head { min-width: 0; }
+  .mini-actions { flex: none; }
+  .hero-img { grid-area: image; }
+  .thumbs { grid-area: thumbs; }
+  .detail-main { grid-area: main; min-width: 0; }
+  /* グローバルの inline-flex 中央寄せを保ちつつ、単独行＋下余白にする */
+  .card-head .badge-rarity { display: flex; width: fit-content; margin-bottom: 12px; }
   .hero-img {
     margin: 0;
     text-align: center;
@@ -301,16 +404,11 @@ const jsonLd = JSON.stringify({
     border-radius: 6px;
     background: #fff;
   }
-  .head-row {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 16px;
-    margin-bottom: 10px;
-  }
   .mini-actions {
     display: flex;
+    justify-content: flex-end;
     gap: 10px;
+    margin-bottom: 12px;
   }
   .mini-actions span {
     display: inline-flex;
@@ -327,26 +425,29 @@ const jsonLd = JSON.stringify({
   .ttl {
     margin: 0;
     color: var(--text-strong);
-    font-size: clamp(34px, 5vw, 50px);
+    font-size: clamp(28px, 3.4vw, 38px);
     font-weight: 900;
     line-height: 1.25;
     letter-spacing: 0;
+    word-break: break-word;
   }
   .ttl-sub {
-    margin: 10px 0 26px;
+    margin: 8px 0 0;
     color: var(--text-sub);
-    font-size: 15px;
+    font-size: 14px;
     font-weight: 800;
+    line-height: 1.55;
   }
+  /* バトル情報を下部に追加した分、上部の価格カードはややコンパクトに */
   .price-cards {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 14px;
-    margin-bottom: 18px;
+    gap: 12px;
+    margin-bottom: 14px;
   }
   .price-card {
     min-width: 0;
-    padding: 20px 16px 18px;
+    padding: 11px 14px 10px;
     border: 1px solid var(--border);
     border-radius: 12px;
     background: #fff;
@@ -357,35 +458,35 @@ const jsonLd = JSON.stringify({
   .price-card.buy { border-color: #bfead1; }
   .pcap {
     display: block;
-    font-size: 15px;
+    font-size: 13.5px;
     font-weight: 900;
   }
   .sell .pcap { color: var(--accent-red); }
   .buy .pcap { color: var(--accent-green); }
   .price-card strong {
     display: block;
-    margin-top: 8px;
+    margin-top: 6px;
     color: var(--text-strong);
-    font-size: clamp(28px, 4vw, 42px);
+    font-size: clamp(23px, 3.2vw, 33px);
     line-height: 1.1;
     font-weight: 900;
   }
   .sell strong { color: var(--accent-red); }
   .delta {
     display: block;
-    margin: 8px 0 18px;
+    margin: 5px 0 10px;
     color: var(--text-sub);
-    font-size: 13px;
+    font-size: 12px;
     font-weight: 800;
   }
   .price-card a {
     display: grid;
     place-items: center;
-    min-height: 46px;
+    min-height: 38px;
     border-radius: 8px;
     color: #fff;
     text-decoration: none;
-    font-size: 14px;
+    font-size: 13px;
     font-weight: 900;
   }
   .sell a { background: linear-gradient(135deg, #f01f32, #e50012); }
@@ -395,7 +496,7 @@ const jsonLd = JSON.stringify({
     grid-template-columns: 1fr 1fr;
     gap: 0 22px;
     margin: 18px 0 0;
-    padding: 18px 22px;
+    padding: 13px 22px;
     border: 1px solid var(--border);
     border-radius: 12px;
     background: #fff;
@@ -405,13 +506,145 @@ const jsonLd = JSON.stringify({
     display: grid;
     grid-template-columns: 104px minmax(0, 1fr);
     gap: 12px;
-    padding: 11px 0;
+    padding: 8px 0;
     border-bottom: 1px solid var(--border);
   }
-  .spec div:nth-last-child(-n + 2) { border-bottom: 0; }
+  .spec div:last-child { border-bottom: 0; }
   .spec dt { margin: 0; color: #14356c; font-size: 13px; font-weight: 900; }
   .spec dd { margin: 0; color: var(--text); font-size: 13px; font-weight: 700; }
   .spec a { text-decoration: none; }
+
+  /* ===== カード情報（ワザ/弱点/抵抗力/にげる） ===== */
+  .battle {
+    margin-top: 14px;
+    padding: 16px 20px 18px;
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    background: #fff;
+    box-shadow: var(--shadow-sm);
+  }
+  .battle-head {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 8px 14px;
+    padding-bottom: 12px;
+    border-bottom: 1px solid var(--border);
+  }
+  .battle-head .stage {
+    display: inline-flex;
+    align-items: center;
+    padding: 4px 10px;
+    border-radius: 6px;
+    background: #14356c;
+    color: #fff;
+    font-size: 12px;
+    line-height: 1;
+    font-weight: 900;
+  }
+  .battle-head .hp { color: var(--text-strong); font-size: 14px; font-weight: 800; }
+  .battle-head .hp b { font-size: 17px; }
+  .battle-head .btype {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    color: #14356c;
+    font-size: 13px;
+    font-weight: 900;
+  }
+  /* エネルギー記号チップ（丸） */
+  .ec {
+    display: inline-grid;
+    place-items: center;
+    width: 21px;
+    height: 21px;
+    border-radius: 50%;
+    font-size: 11px;
+    font-weight: 900;
+    font-style: normal;
+    line-height: 1;
+    flex: none;
+  }
+  .battle-block {
+    display: grid;
+    grid-template-columns: 60px minmax(0, 1fr);
+    gap: 12px;
+    padding: 14px 0;
+    border-bottom: 1px solid var(--border);
+  }
+  .battle-block .bh {
+    color: #14356c;
+    font-size: 13px;
+    font-weight: 900;
+  }
+  .waza { list-style: none; margin: 0; padding: 0; display: grid; gap: 12px; }
+  .waza-line {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    flex-wrap: wrap;
+  }
+  .waza-line .cost { display: inline-flex; gap: 3px; }
+  .waza-line .wname, .bbody .wname {
+    color: var(--text-strong);
+    font-size: 15px;
+    font-weight: 900;
+  }
+  .waza-line .dmg {
+    margin-left: auto;
+    color: var(--text-strong);
+    font-size: 18px;
+    font-weight: 900;
+  }
+  .wtext {
+    margin: 5px 0 0;
+    color: var(--text);
+    font-size: 12.5px;
+    font-weight: 600;
+    line-height: 1.7;
+  }
+  .bbody .wname { margin: 0; }
+  .battle-foot {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 10px;
+    margin: 0;
+    padding-top: 14px;
+  }
+  .battle-foot div { min-width: 0; }
+  .battle-foot dt { margin: 0 0 5px; color: #14356c; font-size: 12px; font-weight: 900; }
+  .battle-foot dd {
+    margin: 0;
+    color: var(--text);
+    font-size: 13px;
+    font-weight: 800;
+  }
+  .battle-foot .mod { display: inline-flex; align-items: center; gap: 5px; }
+  .battle-foot .cost { display: inline-flex; gap: 3px; }
+
+  /* ===== ポケモン概要 ===== */
+  .pokemon-overview {
+    margin-top: 34px;
+    padding: 22px 24px;
+    border: 1px solid var(--border);
+    border-radius: 14px;
+    background: linear-gradient(180deg, #f6f9ff, #fff);
+    box-shadow: var(--shadow-sm);
+  }
+  .pokemon-overview h2 {
+    margin: 0 0 10px;
+    color: var(--text-strong);
+    font-size: 20px;
+    font-weight: 900;
+  }
+  .pokemon-overview p {
+    margin: 0;
+    color: var(--text);
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 1.95;
+  }
+
   .lead {
     margin: -16px 0 34px;
     color: var(--text);
@@ -562,13 +795,21 @@ const jsonLd = JSON.stringify({
     font-weight: 900;
   }
   @media (max-width: 920px) {
-    .detail-hero { grid-template-columns: 1fr; gap: 24px; }
+    .detail-hero {
+      grid-template-columns: 1fr;
+      grid-template-areas:
+        "head"
+        "image"
+        "thumbs"
+        "main";
+      column-gap: 0;
+      row-gap: 4px;
+    }
     .market-grid { grid-template-columns: 1fr; }
     .rel-cards, .pack-cards { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   }
   @media (max-width: 620px) {
-    .ttl { font-size: 34px; }
-    .head-row { align-items: flex-start; flex-direction: column; }
+    .ttl { font-size: 30px; }
     .price-cards, .spec { grid-template-columns: 1fr; }
     .spec div, .spec div:nth-last-child(-n + 2) { border-bottom: 1px solid var(--border); }
     .spec div:last-child { border-bottom: 0; }
