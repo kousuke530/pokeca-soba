@@ -19,7 +19,7 @@ const base = `/pack/${pack.slug}/`;
 const pageUrl = (n: number) => (n === 1 ? base : `${base}page/${n}/`);
 
 const pageSuffix = page > 1 ? `（${page}ページ目）` : '';
-const title = `${pack.name}の収録カード価格相場一覧${pageSuffix}`;
+const title = `${pack.name}の収録カード価格相場一覧${pageSuffix} (ポケモンカード)`;
 const description = `${pack.name}（${pack.releaseDate}発売）の収録カードの販売価格・買取価格を一覧。レアリティ別の相場をまとめています。`;
 
 // ページネーションに出す番号（先頭/末尾＋現在周辺）

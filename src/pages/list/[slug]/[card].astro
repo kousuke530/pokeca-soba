@@ -108,7 +108,7 @@ const highText =
   ins.high != null ? `過去最高は${yen(ins.high)}${ins.highDate ? `（${ins.highDate}）` : ''}。` : '';
 
 const crumbLabel = `${card.name}【${card.rarity}】${setCode} ${card.cardNumber}`;
-const title = `${card.name}(${card.rarity}) ${setCode} ${card.cardNumber} の買取・販売価格相場`;
+const title = `${card.name}(${card.rarity}) ${setCode} ${card.cardNumber} の買取・販売価格相場 (ポケモンカード)`;
 const description = `${card.name}(${card.rarity})の最新販売価格は${yen(card.sellPrice)}${dodText}、買取価格は${yen(
   card.buyPrice,
 )}（${priceDate}時点）。${highText}${ins.comment}${card.pack}収録。`;
@@ -809,7 +809,25 @@ const jsonLd = JSON.stringify({
     .rel-cards, .pack-cards { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   }
   @media (max-width: 620px) {
-    .ttl { font-size: 30px; }
+    .hero-header {
+      display: block;
+    }
+    .card-head {
+      width: 100%;
+    }
+    .ttl {
+      font-size: clamp(25px, 7.7vw, 30px);
+      white-space: nowrap;
+      word-break: normal;
+    }
+    .ttl-sub {
+      font-size: clamp(11px, 3.3vw, 14px);
+      white-space: nowrap;
+    }
+    .mini-actions {
+      justify-content: flex-start;
+      margin: 14px 0 0;
+    }
     .price-cards, .spec { grid-template-columns: 1fr; }
     .spec div, .spec div:nth-last-child(-n + 2) { border-bottom: 1px solid var(--border); }
     .spec div:last-child { border-bottom: 0; }

@@ -61,7 +61,7 @@ const overview = OVERVIEWS[series.slug];
 // 概要見出し用にカード名末尾の ex/V 等の表記を除いたポケモン名。
 const pokeName = series.name.replace(/\s*(ex|EX|V(MAX|STAR)?|GX)$/g, '').trim();
 
-const title = `${series.name}(全${series.variants.length}種)の買取・販売価格相場一覧`;
+const title = `${series.name}(全${series.variants.length}種)の買取・販売価格相場一覧 (ポケモンカード)`;
 const description = `${series.name}の相場を全${series.variants.length}種で比較。最高値は${topCard.rarity}の${yen(
   highest,
 )}、最安は${yen(lowest)}、平均${yen(avg)}（${priceDate}時点）。${
