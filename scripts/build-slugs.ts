@@ -79,7 +79,7 @@ const REGION: Record<string, string> = {
 export function normalizeName(name: string): string {
   return name
     .replace(/【[^】]*】/g, '') // 【ランクB】【ARS/Grade 10】等の状態・鑑定表記
-    .replace(/[（(]エラー版[^）)]*[)）]/g, '（エラー版）') // 駿河屋の冗長なエラー版注記を簡潔化
+    .replace(/[（(]エラー版[^）)]*[)）]/g, '') // 駿河屋のエラー版注記を除去（通常版と同一種として扱う）
     .replace(/[（(][^）)]*(ミラー|パラレル|ランク)[^）)]*[)）]/g, '')
     .replace(/[（(]\s*[)）]/g, '') // 空括弧の残骸（【】除去後など）を削除
     .replace(/\s{2,}/g, ' ')
