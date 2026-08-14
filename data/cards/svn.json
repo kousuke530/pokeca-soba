@@ -2,7 +2,7 @@
   "pack": "デッキビルドBOX バトルパートナーズ",
   "packSlug": "svn",
   "source": "surugaya",
-  "collectedAt": "2026-08-13T05:53:21.307Z",
+  "collectedAt": "2026-08-14T04:50:45.123Z",
   "count": 33,
   "cards": [
     {
@@ -22,9 +22,9 @@
       "rarity": "ノーマル",
       "category": "ポケモン",
       "energyType": "悪",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN832993",
-      "surugayaPrice": 180,
-      "surugayaSoldOut": false,
+      "surugayaUrl": "/product/other/GN832993",
+      "surugayaPrice": 200,
+      "surugayaSoldOut": true,
       "raritySlug": "n"
     },
     {
@@ -113,8 +113,7 @@
       "surugayaUrl": "/product/detail/GN833005?tenpo_cd=400455",
       "surugayaPrice": 300,
       "surugayaSoldOut": true,
-      "raritySlug": "n",
-      "surugayaBuyPrice": null
+      "raritySlug": "n"
     },
     {
       "name": "なかよしポフィン",
@@ -125,8 +124,7 @@
       "surugayaUrl": "/product/other/GN833007",
       "surugayaPrice": 490,
       "surugayaSoldOut": true,
-      "raritySlug": "n",
-      "surugayaBuyPrice": null
+      "raritySlug": "n"
     },
     {
       "name": "ネストボール",
@@ -167,9 +165,9 @@
       "rarity": "ノーマル",
       "category": "グッズ",
       "energyType": "",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN833014",
-      "surugayaPrice": 280,
-      "surugayaSoldOut": false,
+      "surugayaUrl": "/product/other/GN833014",
+      "surugayaPrice": 60,
+      "surugayaSoldOut": true,
       "raritySlug": "n"
     },
     {

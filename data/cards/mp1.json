@@ -2,8 +2,8 @@
   "pack": "スタートデッキ100 バトルコレクション コロちゃおVer.",
   "packSlug": "mp1",
   "source": "surugaya",
-  "collectedAt": "2026-08-13T05:57:36.224Z",
-  "count": 16,
+  "collectedAt": "2026-08-14T04:55:12.351Z",
+  "count": 18,
   "cards": [
     {
       "name": "アイアント",
@@ -49,6 +49,28 @@
       "surugayaSoldOut": false,
       "raritySlug": "n",
       "surugayaBuyPrice": null
+    },
+    {
+      "name": "エモンガ",
+      "cardNumber": "007/023",
+      "rarity": "ノーマル",
+      "category": "ポケモン",
+      "energyType": "雷",
+      "surugayaUrl": "/product/detail/GU548954?tenpo_cd=410018",
+      "surugayaPrice": 29,
+      "surugayaSoldOut": true,
+      "raritySlug": "n"
+    },
+    {
+      "name": "ワンパチ",
+      "cardNumber": "008/023",
+      "rarity": "ノーマル",
+      "category": "ポケモン",
+      "energyType": "雷",
+      "surugayaUrl": "/product/detail/GU548955?tenpo_cd=410018",
+      "surugayaPrice": 18,
+      "surugayaSoldOut": true,
+      "raritySlug": "n"
     },
     {
       "name": "パルスワン",
@@ -156,7 +178,7 @@
       "category": "サポート",
       "energyType": "",
       "surugayaUrl": "/product/other/GU548966",
-      "surugayaPrice": 1000,
+      "surugayaPrice": 880,
       "surugayaSoldOut": true,
       "raritySlug": "n",
       "surugayaBuyPrice": 600

@@ -2,8 +2,8 @@
   "pack": "ハイクラスパック 「シャイニートレジャーex」",
   "packSlug": "sv4a",
   "source": "surugaya",
-  "collectedAt": "2026-08-13T05:50:19.768Z",
-  "count": 360,
+  "collectedAt": "2026-08-14T04:47:47.142Z",
+  "count": 357,
   "cards": [
     {
       "name": "ナゾノクサ",
@@ -608,8 +608,7 @@
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN285170",
       "surugayaPrice": 1280,
       "surugayaSoldOut": false,
-      "raritySlug": "n",
-      "surugayaBuyPrice": 400
+      "raritySlug": "n"
     },
     {
       "name": "ライチュウ",
@@ -876,13 +875,13 @@
       "raritySlug": "n"
     },
     {
-      "name": "ラルトス",
+      "name": "(パラレル)ラルトス",
       "cardNumber": "080/190",
       "rarity": "ノーマル",
       "category": "ポケモン",
       "energyType": "超",
-      "surugayaUrl": "/product/other/GN285209",
-      "surugayaPrice": 27,
+      "surugayaUrl": "/product/other/GN285210",
+      "surugayaPrice": 49,
       "surugayaSoldOut": true,
       "raritySlug": "n"
     },
@@ -1269,8 +1268,7 @@
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN285264",
       "surugayaPrice": 480,
       "surugayaSoldOut": false,
-      "raritySlug": "rr",
-      "surugayaBuyPrice": null
+      "raritySlug": "rr"
     },
     {
       "name": "パルデア ウパー",
@@ -1680,14 +1678,14 @@
       "raritySlug": "n"
     },
     {
-      "name": "イッカネズミ",
+      "name": "(パラレル)イッカネズミ",
       "cardNumber": "153/190",
       "rarity": "ノーマル",
       "category": "ポケモン",
       "energyType": "",
-      "surugayaUrl": "/product/detail/GN285327?tenpo_cd=410018",
-      "surugayaPrice": null,
-      "surugayaSoldOut": true,
+      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN285328",
+      "surugayaPrice": 160,
+      "surugayaSoldOut": false,
       "raritySlug": "n"
     },
     {
@@ -1724,14 +1722,14 @@
       "raritySlug": "n"
     },
     {
-      "name": "スーパーエネルギー回収",
+      "name": "(パラレル)スーパーエネルギー回収",
       "cardNumber": "157/190",
       "rarity": "ノーマル",
       "category": "グッズ",
       "energyType": "",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN285334",
-      "surugayaPrice": 160,
-      "surugayaSoldOut": false,
+      "surugayaUrl": "/product/other/GN285335",
+      "surugayaPrice": 140,
+      "surugayaSoldOut": true,
       "raritySlug": "n"
     },
     {
@@ -1746,13 +1744,13 @@
       "raritySlug": "n"
     },
     {
-      "name": "ネストボール",
+      "name": "(パラレル)ネストボール",
       "cardNumber": "159/190",
       "rarity": "ノーマル",
       "category": "グッズ",
       "energyType": "",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN285338",
-      "surugayaPrice": 160,
+      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN285339",
+      "surugayaPrice": 280,
       "surugayaSoldOut": false,
       "raritySlug": "n"
     },
@@ -1812,23 +1810,23 @@
       "raritySlug": "n"
     },
     {
-      "name": "(パラレル)大きなふうせん",
+      "name": "大きなふうせん",
       "cardNumber": "165/190",
       "rarity": "ノーマル",
       "category": "ポケモンのどうぐ",
       "energyType": "",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN285351",
-      "surugayaPrice": 160,
-      "surugayaSoldOut": false,
+      "surugayaUrl": "/product/other/GN285350",
+      "surugayaPrice": 46,
+      "surugayaSoldOut": true,
       "raritySlug": "n"
     },
     {
-      "name": "(パラレル)ガチガチバンド",
+      "name": "ガチガチバンド",
       "cardNumber": "166/190",
       "rarity": "ノーマル",
       "category": "ポケモンのどうぐ",
       "energyType": "",
-      "surugayaUrl": "/product/detail/GN285353?tenpo_cd=410018",
+      "surugayaUrl": "/product/other/GN285352",
       "surugayaPrice": 73,
       "surugayaSoldOut": true,
       "raritySlug": "n"
@@ -1955,12 +1953,12 @@
       "raritySlug": "n"
     },
     {
-      "name": "(パラレル)パルデアの学生",
+      "name": "パルデアの学生",
       "cardNumber": "178/190",
       "rarity": "ノーマル",
       "category": "サポート",
       "energyType": "",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN285374",
+      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN285373",
       "surugayaPrice": 160,
       "surugayaSoldOut": false,
       "raritySlug": "n"
@@ -2032,13 +2030,13 @@
       "raritySlug": "n"
     },
     {
-      "name": "(パラレル)ボウルタウン",
+      "name": "ボウルタウン",
       "cardNumber": "185/190",
       "rarity": "ノーマル",
       "category": "スタジアム",
       "energyType": "",
-      "surugayaUrl": "/product/detail/GN285387?tenpo_cd=410018",
-      "surugayaPrice": 100,
+      "surugayaUrl": "/product/other/GN285386",
+      "surugayaPrice": 49,
       "surugayaSoldOut": true,
       "raritySlug": "n"
     },
@@ -2103,9 +2101,9 @@
       "rarity": "S",
       "category": "ポケモン",
       "energyType": "草",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN285398",
-      "surugayaPrice": 280,
-      "surugayaSoldOut": false,
+      "surugayaUrl": "/product/other/GN285398",
+      "surugayaPrice": 140,
+      "surugayaSoldOut": true,
       "raritySlug": "s"
     },
     {
@@ -2216,8 +2214,7 @@
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN285408",
       "surugayaPrice": 680,
       "surugayaSoldOut": false,
-      "raritySlug": "s",
-      "surugayaBuyPrice": null
+      "raritySlug": "s"
     },
     {
       "name": "ニャローテ",
@@ -2316,8 +2313,7 @@
       "surugayaUrl": "/product/other/GN285417",
       "surugayaPrice": 460,
       "surugayaSoldOut": true,
-      "raritySlug": "s",
-      "surugayaBuyPrice": 600
+      "raritySlug": "s"
     },
     {
       "name": "リザード",
@@ -2328,8 +2324,7 @@
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN285418",
       "surugayaPrice": 680,
       "surugayaSoldOut": false,
-      "raritySlug": "s",
-      "surugayaBuyPrice": null
+      "raritySlug": "s"
     },
     {
       "name": "パルデア ケンタロス",
@@ -2349,7 +2344,7 @@
       "category": "ポケモン",
       "energyType": "炎",
       "surugayaUrl": "/product/other/GN285420",
-      "surugayaPrice": 230,
+      "surugayaPrice": 210,
       "surugayaSoldOut": true,
       "raritySlug": "s"
     },
@@ -2373,8 +2368,7 @@
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN285422",
       "surugayaPrice": 580,
       "surugayaSoldOut": false,
-      "raritySlug": "s",
-      "surugayaBuyPrice": null
+      "raritySlug": "s"
     },
     {
       "name": "アチゲータ",
@@ -2418,8 +2412,7 @@
       "surugayaUrl": "/product/other/GN285426",
       "surugayaPrice": 380,
       "surugayaSoldOut": true,
-      "raritySlug": "s",
-      "surugayaBuyPrice": 600
+      "raritySlug": "s"
     },
     {
       "name": "ヤドラン",
@@ -2439,7 +2432,7 @@
       "category": "ポケモン",
       "energyType": "水",
       "surugayaUrl": "/product/other/GN285428",
-      "surugayaPrice": 120,
+      "surugayaPrice": 130,
       "surugayaSoldOut": true,
       "raritySlug": "s"
     },
@@ -2551,8 +2544,7 @@
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN285438",
       "surugayaPrice": 380,
       "surugayaSoldOut": false,
-      "raritySlug": "s",
-      "surugayaBuyPrice": null
+      "raritySlug": "s"
     },
     {
       "name": "シャリタツ",
@@ -2619,8 +2611,7 @@
       "surugayaUrl": "/product/other/GN285444",
       "surugayaPrice": 630,
       "surugayaSoldOut": true,
-      "raritySlug": "s",
-      "surugayaBuyPrice": 700
+      "raritySlug": "s"
     },
     {
       "name": "ビリリダマ",
@@ -2675,8 +2666,7 @@
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN285449",
       "surugayaPrice": 480,
       "surugayaSoldOut": false,
-      "raritySlug": "s",
-      "surugayaBuyPrice": null
+      "raritySlug": "s"
     },
     {
       "name": "パチリス",
@@ -2819,8 +2809,7 @@
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN285462",
       "surugayaPrice": 380,
       "surugayaSoldOut": false,
-      "raritySlug": "s",
-      "surugayaBuyPrice": null
+      "raritySlug": "s"
     },
     {
       "name": "ネイティ",
@@ -2842,8 +2831,7 @@
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN285464",
       "surugayaPrice": 380,
       "surugayaSoldOut": false,
-      "raritySlug": "s",
-      "surugayaBuyPrice": null
+      "raritySlug": "s"
     },
     {
       "name": "ラルトス",
@@ -2854,8 +2842,7 @@
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN285465",
       "surugayaPrice": 780,
       "surugayaSoldOut": false,
-      "raritySlug": "s",
-      "surugayaBuyPrice": 300
+      "raritySlug": "s"
     },
     {
       "name": "キルリア",
@@ -2866,8 +2853,7 @@
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN285466",
       "surugayaPrice": 980,
       "surugayaSoldOut": false,
-      "raritySlug": "s",
-      "surugayaBuyPrice": 500
+      "raritySlug": "s"
     },
     {
       "name": "フワンテ",
@@ -2878,8 +2864,7 @@
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN285467",
       "surugayaPrice": 380,
       "surugayaSoldOut": false,
-      "raritySlug": "s",
-      "surugayaBuyPrice": null
+      "raritySlug": "s"
     },
     {
       "name": "フワライド",
@@ -2888,7 +2873,7 @@
       "category": "ポケモン",
       "energyType": "超",
       "surugayaUrl": "/product/other/GN285468",
-      "surugayaPrice": 120,
+      "surugayaPrice": 150,
       "surugayaSoldOut": true,
       "raritySlug": "s"
     },
@@ -2923,8 +2908,7 @@
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN285471",
       "surugayaPrice": 380,
       "surugayaSoldOut": false,
-      "raritySlug": "s",
-      "surugayaBuyPrice": null
+      "raritySlug": "s"
     },
     {
       "name": "ミミッキュ",
@@ -2935,8 +2919,7 @@
       "surugayaUrl": "/product/other/GN285472",
       "surugayaPrice": 990,
       "surugayaSoldOut": true,
-      "raritySlug": "s",
-      "surugayaBuyPrice": 450
+      "raritySlug": "s"
     },
     {
       "name": "パピモッチ",
@@ -3101,8 +3084,7 @@
       "surugayaUrl": "/product/other/GN285487",
       "surugayaPrice": 310,
       "surugayaSoldOut": true,
-      "raritySlug": "s",
-      "surugayaBuyPrice": null
+      "raritySlug": "s"
     },
     {
       "name": "ルカリオ",
@@ -3113,8 +3095,7 @@
       "surugayaUrl": "/product/other/GN285488",
       "surugayaPrice": 860,
       "surugayaSoldOut": true,
-      "raritySlug": "s",
-      "surugayaBuyPrice": 500
+      "raritySlug": "s"
     },
     {
       "name": "ルチャブル",
@@ -3191,8 +3172,7 @@
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN285495",
       "surugayaPrice": 380,
       "surugayaSoldOut": false,
-      "raritySlug": "s",
-      "surugayaBuyPrice": null
+      "raritySlug": "s"
     },
     {
       "name": "ニューラ",
@@ -3313,8 +3293,7 @@
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN285506",
       "surugayaPrice": 380,
       "surugayaSoldOut": false,
-      "raritySlug": "s",
-      "surugayaBuyPrice": null
+      "raritySlug": "s"
     },
     {
       "name": "ブロロン",
@@ -3422,10 +3401,9 @@
       "category": "ポケモン",
       "energyType": "",
       "surugayaUrl": "/product/other/GN285516",
-      "surugayaPrice": 850,
+      "surugayaPrice": 830,
       "surugayaSoldOut": true,
-      "raritySlug": "s",
-      "surugayaBuyPrice": 1000
+      "raritySlug": "s"
     },
     {
       "name": "カビゴン",
@@ -3436,8 +3414,7 @@
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN285517",
       "surugayaPrice": 1980,
       "surugayaSoldOut": false,
-      "raritySlug": "s",
-      "surugayaBuyPrice": 1000
+      "raritySlug": "s"
     },
     {
       "name": "キャモメ",
@@ -3512,10 +3489,9 @@
       "category": "ポケモン",
       "energyType": "",
       "surugayaUrl": "/product/other/GN285524",
-      "surugayaPrice": 980,
+      "surugayaPrice": 301,
       "surugayaSoldOut": true,
-      "raritySlug": "s",
-      "surugayaBuyPrice": null
+      "raritySlug": "s"
     },
     {
       "name": "イッカネズミ",
@@ -3526,8 +3502,7 @@
       "surugayaUrl": "/product/other/GN285525",
       "surugayaPrice": 500,
       "surugayaSoldOut": true,
-      "raritySlug": "s",
-      "surugayaBuyPrice": 500
+      "raritySlug": "s"
     },
     {
       "name": "カラミンゴ",
@@ -3549,8 +3524,7 @@
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN285527",
       "surugayaPrice": 380,
       "surugayaSoldOut": false,
-      "raritySlug": "ssr",
-      "surugayaBuyPrice": null
+      "raritySlug": "ssr"
     },
     {
       "name": "マスカーニャex",
@@ -3561,8 +3535,7 @@
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN285528",
       "surugayaPrice": 480,
       "surugayaSoldOut": false,
-      "raritySlug": "ssr",
-      "surugayaBuyPrice": null
+      "raritySlug": "ssr"
     },
     {
       "name": "リククラゲex",
@@ -3617,8 +3590,7 @@
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN285533",
       "surugayaPrice": 480,
       "surugayaSoldOut": false,
-      "raritySlug": "ssr",
-      "surugayaBuyPrice": null
+      "raritySlug": "ssr"
     },
     {
       "name": "ミュウex",
@@ -3629,8 +3601,7 @@
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN285534",
       "surugayaPrice": 1930,
       "surugayaSoldOut": false,
-      "raritySlug": "ssr",
-      "surugayaBuyPrice": 2500
+      "raritySlug": "ssr"
     },
     {
       "name": "サーナイトex",
@@ -3641,8 +3612,7 @@
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN285535",
       "surugayaPrice": 980,
       "surugayaSoldOut": false,
-      "raritySlug": "ssr",
-      "surugayaBuyPrice": 400
+      "raritySlug": "ssr"
     },
     {
       "name": "キラフロルex",
@@ -3675,8 +3645,7 @@
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN285538",
       "surugayaPrice": 2160,
       "surugayaSoldOut": false,
-      "raritySlug": "ssr",
-      "surugayaBuyPrice": 2000
+      "raritySlug": "ssr"
     },
     {
       "name": "パルデア ドオーex",
@@ -3687,8 +3656,7 @@
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN285539",
       "surugayaPrice": 300,
       "surugayaSoldOut": false,
-      "raritySlug": "ssr",
-      "surugayaBuyPrice": null
+      "raritySlug": "ssr"
     },
     {
       "name": "テツノワダチex",
@@ -3699,8 +3667,7 @@
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN285540",
       "surugayaPrice": 300,
       "surugayaSoldOut": false,
-      "raritySlug": "ssr",
-      "surugayaBuyPrice": null
+      "raritySlug": "ssr"
     },
     {
       "name": "オンバーンex",
@@ -3711,8 +3678,7 @@
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN285541",
       "surugayaPrice": 380,
       "surugayaSoldOut": false,
-      "raritySlug": "ssr",
-      "surugayaBuyPrice": null
+      "raritySlug": "ssr"
     },
     {
       "name": "ピジョットex",
@@ -3723,8 +3689,7 @@
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN285542",
       "surugayaPrice": 380,
       "surugayaSoldOut": false,
-      "raritySlug": "ssr",
-      "surugayaBuyPrice": null
+      "raritySlug": "ssr"
     },
     {
       "name": "プクリンex",
@@ -3755,10 +3720,9 @@
       "category": "ポケモン",
       "energyType": "水",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN285545",
-      "surugayaPrice": 480,
+      "surugayaPrice": 380,
       "surugayaSoldOut": false,
-      "raritySlug": "ar",
-      "surugayaBuyPrice": null
+      "raritySlug": "ar"
     },
     {
       "name": "イルカマン",
@@ -3769,8 +3733,7 @@
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN285546",
       "surugayaPrice": 480,
       "surugayaSoldOut": false,
-      "raritySlug": "ar",
-      "surugayaBuyPrice": null
+      "raritySlug": "ar"
     },
     {
       "name": "パモ",
@@ -3781,8 +3744,7 @@
       "surugayaUrl": "/product/other/GN285547",
       "surugayaPrice": 400,
       "surugayaSoldOut": true,
-      "raritySlug": "ar",
-      "surugayaBuyPrice": 300
+      "raritySlug": "ar"
     },
     {
       "name": "ミミッキュ",
@@ -3793,8 +3755,7 @@
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN285548",
       "surugayaPrice": 2980,
       "surugayaSoldOut": false,
-      "raritySlug": "ar",
-      "surugayaBuyPrice": 1500
+      "raritySlug": "ar"
     },
     {
       "name": "ジャッジマン",
@@ -3805,8 +3766,7 @@
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN285549",
       "surugayaPrice": 680,
       "surugayaSoldOut": false,
-      "raritySlug": "sr",
-      "surugayaBuyPrice": null
+      "raritySlug": "sr"
     },
     {
       "name": "ネモ",
@@ -3817,8 +3777,7 @@
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN285550",
       "surugayaPrice": 480,
       "surugayaSoldOut": false,
-      "raritySlug": "sr",
-      "surugayaBuyPrice": null
+      "raritySlug": "sr"
     },
     {
       "name": "【ランクB】ネルケ",
@@ -3829,8 +3788,7 @@
       "surugayaUrl": "/product/other/GB285551",
       "surugayaPrice": 310,
       "surugayaSoldOut": true,
-      "raritySlug": "sr",
-      "surugayaBuyPrice": null
+      "raritySlug": "sr"
     },
     {
       "name": "パルデアの学生",
@@ -3841,8 +3799,7 @@
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN285552",
       "surugayaPrice": 480,
       "surugayaSoldOut": false,
-      "raritySlug": "sr",
-      "surugayaBuyPrice": null
+      "raritySlug": "sr"
     },
     {
       "name": "パルデアの学生",
@@ -3853,8 +3810,7 @@
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN285553",
       "surugayaPrice": 480,
       "surugayaSoldOut": false,
-      "raritySlug": "sr",
-      "surugayaBuyPrice": null
+      "raritySlug": "sr"
     },
     {
       "name": "ミュウex",
@@ -3889,8 +3845,7 @@
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN285556",
       "surugayaPrice": 45800,
       "surugayaSoldOut": false,
-      "raritySlug": "sar",
-      "surugayaBuyPrice": 30000
+      "raritySlug": "sar"
     },
     {
       "name": "ナンジャモ",
@@ -3901,8 +3856,7 @@
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN285557",
       "surugayaPrice": 10600,
       "surugayaSoldOut": false,
-      "raritySlug": "sar",
-      "surugayaBuyPrice": 8000
+      "raritySlug": "sar"
     },
     {
       "name": "ネモ",
@@ -3913,8 +3867,7 @@
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN285558",
       "surugayaPrice": 980,
       "surugayaSoldOut": false,
-      "raritySlug": "sar",
-      "surugayaBuyPrice": 450
+      "raritySlug": "sar"
     },
     {
       "name": "ネルケ",
@@ -3925,8 +3878,7 @@
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN285559",
       "surugayaPrice": 1980,
       "surugayaSoldOut": false,
-      "raritySlug": "sar",
-      "surugayaBuyPrice": 1000
+      "raritySlug": "sar"
     },
     {
       "name": "ペパー",
@@ -3937,8 +3889,7 @@
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN285560",
       "surugayaPrice": 1680,
       "surugayaSoldOut": false,
-      "raritySlug": "sar",
-      "surugayaBuyPrice": 800
+      "raritySlug": "sar"
     },
     {
       "name": "ボタン",
@@ -3949,8 +3900,7 @@
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN285561",
       "surugayaPrice": 2980,
       "surugayaSoldOut": false,
-      "raritySlug": "sar",
-      "surugayaBuyPrice": 1800
+      "raritySlug": "sar"
     },
     {
       "name": "チオンジェンex",
@@ -3959,10 +3909,9 @@
       "category": "ポケモン",
       "energyType": "草",
       "surugayaUrl": "/product/other/GN285562",
-      "surugayaPrice": 580,
+      "surugayaPrice": 520,
       "surugayaSoldOut": true,
-      "raritySlug": "ur",
-      "surugayaBuyPrice": null
+      "raritySlug": "ur"
     },
     {
       "name": "イーユイex",
@@ -3971,10 +3920,9 @@
       "category": "ポケモン",
       "energyType": "炎",
       "surugayaUrl": "/product/other/GN285563",
-      "surugayaPrice": 550,
+      "surugayaPrice": 540,
       "surugayaSoldOut": true,
-      "raritySlug": "ur",
-      "surugayaBuyPrice": null
+      "raritySlug": "ur"
     },
     {
       "name": "パオジアンex",
@@ -3985,8 +3933,7 @@
       "surugayaUrl": "/product/other/GN285564",
       "surugayaPrice": 520,
       "surugayaSoldOut": true,
-      "raritySlug": "ur",
-      "surugayaBuyPrice": 300
+      "raritySlug": "ur"
     },
     {
       "name": "ミライドンex",
@@ -3997,8 +3944,7 @@
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN285565",
       "surugayaPrice": 1180,
       "surugayaSoldOut": false,
-      "raritySlug": "ur",
-      "surugayaBuyPrice": 600
+      "raritySlug": "ur"
     },
     {
       "name": "ディンルーex",
@@ -4009,8 +3955,7 @@
       "surugayaUrl": "/product/other/GN285566",
       "surugayaPrice": 480,
       "surugayaSoldOut": true,
-      "raritySlug": "ur",
-      "surugayaBuyPrice": null
+      "raritySlug": "ur"
     },
     {
       "name": "コライドンex",
@@ -4019,10 +3964,9 @@
       "category": "ポケモン",
       "energyType": "闘",
       "surugayaUrl": "/product/other/GN285567",
-      "surugayaPrice": 590,
+      "surugayaPrice": 600,
       "surugayaSoldOut": true,
-      "raritySlug": "ur",
-      "surugayaBuyPrice": 500
+      "raritySlug": "ur"
     }
   ]
 }

@@ -2,7 +2,7 @@
   "pack": "拡張パック「ロケット団の栄光」",
   "packSlug": "sv10",
   "source": "surugaya",
-  "collectedAt": "2026-08-13T05:53:43.388Z",
+  "collectedAt": "2026-08-14T04:51:09.047Z",
   "count": 128,
   "cards": [
     {
@@ -231,9 +231,9 @@
       "rarity": "R",
       "category": "ポケモン",
       "energyType": "水",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU166847",
-      "surugayaPrice": 160,
-      "surugayaSoldOut": false,
+      "surugayaUrl": "/product/detail/GU166847?tenpo_cd=410018",
+      "surugayaPrice": 46,
+      "surugayaSoldOut": true,
       "raritySlug": "r"
     },
     {
@@ -693,9 +693,9 @@
       "rarity": "C",
       "category": "ポケモン",
       "energyType": "悪",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU166922",
-      "surugayaPrice": 160,
-      "surugayaSoldOut": false,
+      "surugayaUrl": "/product/other/GU166922",
+      "surugayaPrice": 29,
+      "surugayaSoldOut": true,
       "raritySlug": "c"
     },
     {

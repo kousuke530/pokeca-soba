@@ -2,8 +2,8 @@
   "pack": "スターターセットMEGA メガゲンガーex",
   "packSlug": "mbg",
   "source": "surugaya",
-  "collectedAt": "2026-08-13T05:55:26.376Z",
-  "count": 13,
+  "collectedAt": "2026-08-14T04:52:57.016Z",
+  "count": 14,
   "cards": [
     {
       "name": "ゴース",
@@ -114,6 +114,17 @@
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU404873",
       "surugayaPrice": 160,
       "surugayaSoldOut": false,
+      "raritySlug": "n"
+    },
+    {
+      "name": "ふうせん",
+      "cardNumber": "018/021",
+      "rarity": "ノーマル",
+      "category": "ポケモンのどうぐ",
+      "energyType": "",
+      "surugayaUrl": "/product/detail/GU404876?tenpo_cd=410018",
+      "surugayaPrice": 39,
+      "surugayaSoldOut": true,
       "raritySlug": "n"
     },
     {
