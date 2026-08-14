@@ -13,8 +13,10 @@ const CARD_DETAILS = cardDetails as Record<string, CardDetail>;
 /** 処理仕様の括弧（ミラー/パラレル/ランク等）を除去して種名へ正規化。build-slugs.ts と一致させること。 */
 function normalizeName(name: string): string {
   return name
-    .replace(/【[^】]*】/g, '') // 【ランクB】等の状態表記
+    .replace(/【[^】]*】/g, '') // 【ランクB】【ARS/Grade 10】等の状態・鑑定表記
+    .replace(/[（(]エラー版[^）)]*[)）]/g, '（エラー版）') // 駿河屋の冗長なエラー版注記を簡潔化
     .replace(/[（(][^）)]*(ミラー|パラレル|ランク)[^）)]*[)）]/g, '')
+    .replace(/[（(]\s*[)）]/g, '') // 空括弧の残骸（【】除去後など）を削除
     .replace(/\s{2,}/g, ' ')
     .trim();
 }
