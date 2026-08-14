@@ -180,24 +180,49 @@ async function collectPack(p: PackDef): Promise<void> {
     return;
   }
 
-  // 型番→レアリティ順で整列
-  cards.sort((a, b) => a.cardNumber.localeCompare(b.cardNumber) || a.rarity.localeCompare(b.rarity));
+  // 今回スクレイプで観測したカード（raritySlug付与）
+  const fresh = cards.map((c) => ({ ...c, raritySlug: raritySlug(c.rarity) }));
 
+  // 和集合マージ: 既存ファイルにあって今回取れなかったカードは残す。
+  // 駿河屋の一時的な取りこぼし（空ページ・在庫変動・件数ゆらぎ）でカタログが縮み、
+  // カードがサイトから消えるのを防ぐ安全策。印刷済みカードが消えることは基本ないため妥当。
   await mkdir(OUT_DIR, { recursive: true });
+  const outFile = path.join(OUT_DIR, `${p.slug}.json`);
+  const cardKey = (c: { cardNumber: string; raritySlug: string }) => `${c.cardNumber}__${c.raritySlug}`;
+  let merged: (MasterCard & { raritySlug: string })[] = fresh;
+  if (existsSync(outFile)) {
+    try {
+      const prev = JSON.parse(await readFile(outFile, 'utf-8')) as {
+        cards?: (MasterCard & { raritySlug: string })[];
+      };
+      const freshKeys = new Set(fresh.map(cardKey));
+      // 今回観測分にないカード（前回のみ）を保持。価格・品切れは前回値のまま維持。
+      const kept = (prev.cards ?? []).filter((c) => c.raritySlug && !freshKeys.has(cardKey(c)));
+      if (kept.length) console.log(`  前回のみに存在した ${kept.length}件を保持（取りこぼし防止）`);
+      merged = [...fresh, ...kept];
+    } catch {
+      // 既存ファイルが壊れている場合は今回分のみで書き直す
+    }
+  }
+
+  // 型番→レアリティ順で整列
+  merged.sort((a, b) => a.cardNumber.localeCompare(b.cardNumber) || a.rarity.localeCompare(b.rarity));
+
   const data = {
     pack: p.name,
     packSlug: p.slug,
     source: 'surugaya',
     collectedAt: new Date().toISOString(),
-    count: cards.length,
-    cards: cards.map((c) => ({ ...c, raritySlug: raritySlug(c.rarity) })),
+    count: merged.length,
+    cards: merged,
   };
-  await writeFile(path.join(OUT_DIR, `${p.slug}.json`), JSON.stringify(data, null, 2) + '\n');
+  await writeFile(outFile, JSON.stringify(data, null, 2) + '\n');
 
-  // 当日の価格をパック別履歴に追記（=価格推移の蓄積。全カードに毎日貯まる）
-  await appendPackHistory(p, data.cards);
+  // 当日の価格は「今回実際に観測したカードだけ」履歴へ追記する。
+  // （保持カードの古い価格を推移グラフに混ぜないため fresh のみを渡す）
+  await appendPackHistory(p, fresh);
 
-  console.log(`✓ ${p.name}: ${cards.length}件 → data/cards/${p.slug}.json`);
+  console.log(`✓ ${p.name}: 今回${fresh.length}件 / 合計${merged.length}件 → data/cards/${p.slug}.json`);
 }
 
 interface PackHistory {

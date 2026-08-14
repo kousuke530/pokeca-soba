@@ -40,6 +40,28 @@ npm run collect      >> "$LOG" 2>&1 || log "collect が異常終了（部分取�
 log "買取価格を収集 (collect:buy) ..."
 npm run collect:buy  >> "$LOG" 2>&1 || log "collect:buy が異常終了（部分取得の可能性・続行）"
 
+# --- カタログ縮小ガード（安全網）---
+# collect の和集合マージで消失は基本起きないが、万一カード総数がHEADより減っていたら
+# 取りこぼしの可能性が高いので commit/push を中止し、ライブからカードが消えるのを防ぐ。
+CATALOG_CNT=$(node -e '
+const {execSync}=require("child_process"); const fs=require("fs");
+const dir="data/cards";
+let head=0, wt=0;
+for(const f of fs.readdirSync(dir).filter(f=>f.endsWith(".json"))){
+  try{ head += (JSON.parse(execSync("git show HEAD:data/cards/"+f,{encoding:"utf8",stdio:["pipe","pipe","ignore"]})).cards||[]).length; }catch(e){}
+  try{ wt += (JSON.parse(fs.readFileSync(dir+"/"+f,"utf8")).cards||[]).length; }catch(e){}
+}
+console.log(head+" "+wt);
+' 2>/dev/null)
+HEAD_CNT=${CATALOG_CNT% *}; WT_CNT=${CATALOG_CNT#* }
+if [ -n "$HEAD_CNT" ] && [ -n "$WT_CNT" ] && [ "$WT_CNT" -lt "$HEAD_CNT" ]; then
+  log "異常: カタログが縮小 (HEAD ${HEAD_CNT}枚 → 現在 ${WT_CNT}枚)。取りこぼしの可能性が高いため commit/push を中止します。"
+  log "  git diff data/cards で差分を確認してください。復元するには: git checkout -- data/cards"
+  log "===== 日次価格更新 終了（中止）====="
+  exit 1
+fi
+log "カタログ健全性OK (HEAD ${HEAD_CNT:-?}枚 → 現在 ${WT_CNT:-?}枚)"
+
 # データ差分があれば commit & push（push で GitHub が build & deploy）
 git add data/cards data/history
 if git diff --staged --quiet; then
