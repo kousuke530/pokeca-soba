@@ -608,7 +608,8 @@
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN285170",
       "surugayaPrice": 1280,
       "surugayaSoldOut": false,
-      "raritySlug": "n"
+      "raritySlug": "n",
+      "surugayaBuyPrice": 400
     },
     {
       "name": "ライチュウ",
@@ -1268,7 +1269,8 @@
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN285264",
       "surugayaPrice": 480,
       "surugayaSoldOut": false,
-      "raritySlug": "rr"
+      "raritySlug": "rr",
+      "surugayaBuyPrice": null
     },
     {
       "name": "パルデア ウパー",
@@ -2214,7 +2216,8 @@
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN285408",
       "surugayaPrice": 680,
       "surugayaSoldOut": false,
-      "raritySlug": "s"
+      "raritySlug": "s",
+      "surugayaBuyPrice": null
     },
     {
       "name": "ニャローテ",
@@ -2313,7 +2316,8 @@
       "surugayaUrl": "/product/other/GN285417",
       "surugayaPrice": 460,
       "surugayaSoldOut": true,
-      "raritySlug": "s"
+      "raritySlug": "s",
+      "surugayaBuyPrice": 600
     },
     {
       "name": "リザード",
@@ -2324,7 +2328,8 @@
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN285418",
       "surugayaPrice": 680,
       "surugayaSoldOut": false,
-      "raritySlug": "s"
+      "raritySlug": "s",
+      "surugayaBuyPrice": null
     },
     {
       "name": "パルデア ケンタロス",
@@ -2368,7 +2373,8 @@
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN285422",
       "surugayaPrice": 580,
       "surugayaSoldOut": false,
-      "raritySlug": "s"
+      "raritySlug": "s",
+      "surugayaBuyPrice": null
     },
     {
       "name": "アチゲータ",
@@ -2412,7 +2418,8 @@
       "surugayaUrl": "/product/other/GN285426",
       "surugayaPrice": 380,
       "surugayaSoldOut": true,
-      "raritySlug": "s"
+      "raritySlug": "s",
+      "surugayaBuyPrice": 600
     },
     {
       "name": "ヤドラン",
@@ -2544,7 +2551,8 @@
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN285438",
       "surugayaPrice": 380,
       "surugayaSoldOut": false,
-      "raritySlug": "s"
+      "raritySlug": "s",
+      "surugayaBuyPrice": null
     },
     {
       "name": "シャリタツ",
@@ -2611,7 +2619,8 @@
       "surugayaUrl": "/product/other/GN285444",
       "surugayaPrice": 630,
       "surugayaSoldOut": true,
-      "raritySlug": "s"
+      "raritySlug": "s",
+      "surugayaBuyPrice": 700
     },
     {
       "name": "ビリリダマ",
@@ -2666,7 +2675,8 @@
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN285449",
       "surugayaPrice": 480,
       "surugayaSoldOut": false,
-      "raritySlug": "s"
+      "raritySlug": "s",
+      "surugayaBuyPrice": null
     },
     {
       "name": "パチリス",
@@ -2809,7 +2819,8 @@
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN285462",
       "surugayaPrice": 380,
       "surugayaSoldOut": false,
-      "raritySlug": "s"
+      "raritySlug": "s",
+      "surugayaBuyPrice": null
     },
     {
       "name": "ネイティ",
@@ -2831,7 +2842,8 @@
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN285464",
       "surugayaPrice": 380,
       "surugayaSoldOut": false,
-      "raritySlug": "s"
+      "raritySlug": "s",
+      "surugayaBuyPrice": null
     },
     {
       "name": "ラルトス",
@@ -2842,7 +2854,8 @@
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN285465",
       "surugayaPrice": 780,
       "surugayaSoldOut": false,
-      "raritySlug": "s"
+      "raritySlug": "s",
+      "surugayaBuyPrice": 300
     },
     {
       "name": "キルリア",
@@ -2853,7 +2866,8 @@
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN285466",
       "surugayaPrice": 980,
       "surugayaSoldOut": false,
-      "raritySlug": "s"
+      "raritySlug": "s",
+      "surugayaBuyPrice": 500
     },
     {
       "name": "フワンテ",
@@ -2864,7 +2878,8 @@
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN285467",
       "surugayaPrice": 380,
       "surugayaSoldOut": false,
-      "raritySlug": "s"
+      "raritySlug": "s",
+      "surugayaBuyPrice": null
     },
     {
       "name": "フワライド",
@@ -2908,7 +2923,8 @@
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN285471",
       "surugayaPrice": 380,
       "surugayaSoldOut": false,
-      "raritySlug": "s"
+      "raritySlug": "s",
+      "surugayaBuyPrice": null
     },
     {
       "name": "ミミッキュ",
@@ -2919,7 +2935,8 @@
       "surugayaUrl": "/product/other/GN285472",
       "surugayaPrice": 990,
       "surugayaSoldOut": true,
-      "raritySlug": "s"
+      "raritySlug": "s",
+      "surugayaBuyPrice": 450
     },
     {
       "name": "パピモッチ",
@@ -3084,7 +3101,8 @@
       "surugayaUrl": "/product/other/GN285487",
       "surugayaPrice": 310,
       "surugayaSoldOut": true,
-      "raritySlug": "s"
+      "raritySlug": "s",
+      "surugayaBuyPrice": null
     },
     {
       "name": "ルカリオ",
@@ -3095,7 +3113,8 @@
       "surugayaUrl": "/product/other/GN285488",
       "surugayaPrice": 860,
       "surugayaSoldOut": true,
-      "raritySlug": "s"
+      "raritySlug": "s",
+      "surugayaBuyPrice": 500
     },
     {
       "name": "ルチャブル",
@@ -3172,7 +3191,8 @@
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN285495",
       "surugayaPrice": 380,
       "surugayaSoldOut": false,
-      "raritySlug": "s"
+      "raritySlug": "s",
+      "surugayaBuyPrice": null
     },
     {
       "name": "ニューラ",
@@ -3293,7 +3313,8 @@
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN285506",
       "surugayaPrice": 380,
       "surugayaSoldOut": false,
-      "raritySlug": "s"
+      "raritySlug": "s",
+      "surugayaBuyPrice": null
     },
     {
       "name": "ブロロン",
@@ -3403,7 +3424,8 @@
       "surugayaUrl": "/product/other/GN285516",
       "surugayaPrice": 830,
       "surugayaSoldOut": true,
-      "raritySlug": "s"
+      "raritySlug": "s",
+      "surugayaBuyPrice": 1000
     },
     {
       "name": "カビゴン",
@@ -3414,7 +3436,8 @@
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN285517",
       "surugayaPrice": 1980,
       "surugayaSoldOut": false,
-      "raritySlug": "s"
+      "raritySlug": "s",
+      "surugayaBuyPrice": 1000
     },
     {
       "name": "キャモメ",
@@ -3491,7 +3514,8 @@
       "surugayaUrl": "/product/other/GN285524",
       "surugayaPrice": 301,
       "surugayaSoldOut": true,
-      "raritySlug": "s"
+      "raritySlug": "s",
+      "surugayaBuyPrice": null
     },
     {
       "name": "イッカネズミ",
@@ -3502,7 +3526,8 @@
       "surugayaUrl": "/product/other/GN285525",
       "surugayaPrice": 500,
       "surugayaSoldOut": true,
-      "raritySlug": "s"
+      "raritySlug": "s",
+      "surugayaBuyPrice": 500
     },
     {
       "name": "カラミンゴ",
@@ -3524,7 +3549,8 @@
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN285527",
       "surugayaPrice": 380,
       "surugayaSoldOut": false,
-      "raritySlug": "ssr"
+      "raritySlug": "ssr",
+      "surugayaBuyPrice": null
     },
     {
       "name": "マスカーニャex",
@@ -3535,7 +3561,8 @@
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN285528",
       "surugayaPrice": 480,
       "surugayaSoldOut": false,
-      "raritySlug": "ssr"
+      "raritySlug": "ssr",
+      "surugayaBuyPrice": null
     },
     {
       "name": "リククラゲex",
@@ -3590,7 +3617,8 @@
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN285533",
       "surugayaPrice": 480,
       "surugayaSoldOut": false,
-      "raritySlug": "ssr"
+      "raritySlug": "ssr",
+      "surugayaBuyPrice": null
     },
     {
       "name": "ミュウex",
@@ -3601,7 +3629,8 @@
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN285534",
       "surugayaPrice": 1930,
       "surugayaSoldOut": false,
-      "raritySlug": "ssr"
+      "raritySlug": "ssr",
+      "surugayaBuyPrice": 2500
     },
     {
       "name": "サーナイトex",
@@ -3612,7 +3641,8 @@
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN285535",
       "surugayaPrice": 980,
       "surugayaSoldOut": false,
-      "raritySlug": "ssr"
+      "raritySlug": "ssr",
+      "surugayaBuyPrice": 400
     },
     {
       "name": "キラフロルex",
@@ -3645,7 +3675,8 @@
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN285538",
       "surugayaPrice": 2160,
       "surugayaSoldOut": false,
-      "raritySlug": "ssr"
+      "raritySlug": "ssr",
+      "surugayaBuyPrice": 2000
     },
     {
       "name": "パルデア ドオーex",
@@ -3656,7 +3687,8 @@
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN285539",
       "surugayaPrice": 300,
       "surugayaSoldOut": false,
-      "raritySlug": "ssr"
+      "raritySlug": "ssr",
+      "surugayaBuyPrice": null
     },
     {
       "name": "テツノワダチex",
@@ -3667,7 +3699,8 @@
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN285540",
       "surugayaPrice": 300,
       "surugayaSoldOut": false,
-      "raritySlug": "ssr"
+      "raritySlug": "ssr",
+      "surugayaBuyPrice": null
     },
     {
       "name": "オンバーンex",
@@ -3678,7 +3711,8 @@
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN285541",
       "surugayaPrice": 380,
       "surugayaSoldOut": false,
-      "raritySlug": "ssr"
+      "raritySlug": "ssr",
+      "surugayaBuyPrice": null
     },
     {
       "name": "ピジョットex",
@@ -3689,7 +3723,8 @@
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN285542",
       "surugayaPrice": 380,
       "surugayaSoldOut": false,
-      "raritySlug": "ssr"
+      "raritySlug": "ssr",
+      "surugayaBuyPrice": null
     },
     {
       "name": "プクリンex",
@@ -3722,7 +3757,8 @@
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN285545",
       "surugayaPrice": 380,
       "surugayaSoldOut": false,
-      "raritySlug": "ar"
+      "raritySlug": "ar",
+      "surugayaBuyPrice": null
     },
     {
       "name": "イルカマン",
@@ -3733,7 +3769,8 @@
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN285546",
       "surugayaPrice": 480,
       "surugayaSoldOut": false,
-      "raritySlug": "ar"
+      "raritySlug": "ar",
+      "surugayaBuyPrice": null
     },
     {
       "name": "パモ",
@@ -3744,7 +3781,8 @@
       "surugayaUrl": "/product/other/GN285547",
       "surugayaPrice": 400,
       "surugayaSoldOut": true,
-      "raritySlug": "ar"
+      "raritySlug": "ar",
+      "surugayaBuyPrice": 300
     },
     {
       "name": "ミミッキュ",
@@ -3755,7 +3793,8 @@
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN285548",
       "surugayaPrice": 2980,
       "surugayaSoldOut": false,
-      "raritySlug": "ar"
+      "raritySlug": "ar",
+      "surugayaBuyPrice": 1500
     },
     {
       "name": "ジャッジマン",
@@ -3766,7 +3805,8 @@
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN285549",
       "surugayaPrice": 680,
       "surugayaSoldOut": false,
-      "raritySlug": "sr"
+      "raritySlug": "sr",
+      "surugayaBuyPrice": null
     },
     {
       "name": "ネモ",
@@ -3777,7 +3817,8 @@
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN285550",
       "surugayaPrice": 480,
       "surugayaSoldOut": false,
-      "raritySlug": "sr"
+      "raritySlug": "sr",
+      "surugayaBuyPrice": null
     },
     {
       "name": "【ランクB】ネルケ",
@@ -3788,7 +3829,8 @@
       "surugayaUrl": "/product/other/GB285551",
       "surugayaPrice": 310,
       "surugayaSoldOut": true,
-      "raritySlug": "sr"
+      "raritySlug": "sr",
+      "surugayaBuyPrice": null
     },
     {
       "name": "パルデアの学生",
@@ -3799,7 +3841,8 @@
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN285552",
       "surugayaPrice": 480,
       "surugayaSoldOut": false,
-      "raritySlug": "sr"
+      "raritySlug": "sr",
+      "surugayaBuyPrice": null
     },
     {
       "name": "パルデアの学生",
@@ -3810,7 +3853,8 @@
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN285553",
       "surugayaPrice": 480,
       "surugayaSoldOut": false,
-      "raritySlug": "sr"
+      "raritySlug": "sr",
+      "surugayaBuyPrice": null
     },
     {
       "name": "ミュウex",
@@ -3845,7 +3889,8 @@
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN285556",
       "surugayaPrice": 45800,
       "surugayaSoldOut": false,
-      "raritySlug": "sar"
+      "raritySlug": "sar",
+      "surugayaBuyPrice": 30000
     },
     {
       "name": "ナンジャモ",
@@ -3856,7 +3901,8 @@
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN285557",
       "surugayaPrice": 10600,
       "surugayaSoldOut": false,
-      "raritySlug": "sar"
+      "raritySlug": "sar",
+      "surugayaBuyPrice": 8000
     },
     {
       "name": "ネモ",
@@ -3867,7 +3913,8 @@
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN285558",
       "surugayaPrice": 980,
       "surugayaSoldOut": false,
-      "raritySlug": "sar"
+      "raritySlug": "sar",
+      "surugayaBuyPrice": 450
     },
     {
       "name": "ネルケ",
@@ -3878,7 +3925,8 @@
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN285559",
       "surugayaPrice": 1980,
       "surugayaSoldOut": false,
-      "raritySlug": "sar"
+      "raritySlug": "sar",
+      "surugayaBuyPrice": 1000
     },
     {
       "name": "ペパー",
@@ -3889,7 +3937,8 @@
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN285560",
       "surugayaPrice": 1680,
       "surugayaSoldOut": false,
-      "raritySlug": "sar"
+      "raritySlug": "sar",
+      "surugayaBuyPrice": 800
     },
     {
       "name": "ボタン",
@@ -3900,7 +3949,8 @@
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN285561",
       "surugayaPrice": 2980,
       "surugayaSoldOut": false,
-      "raritySlug": "sar"
+      "raritySlug": "sar",
+      "surugayaBuyPrice": 1800
     },
     {
       "name": "チオンジェンex",
@@ -3911,7 +3961,8 @@
       "surugayaUrl": "/product/other/GN285562",
       "surugayaPrice": 520,
       "surugayaSoldOut": true,
-      "raritySlug": "ur"
+      "raritySlug": "ur",
+      "surugayaBuyPrice": null
     },
     {
       "name": "イーユイex",
@@ -3922,7 +3973,8 @@
       "surugayaUrl": "/product/other/GN285563",
       "surugayaPrice": 540,
       "surugayaSoldOut": true,
-      "raritySlug": "ur"
+      "raritySlug": "ur",
+      "surugayaBuyPrice": null
     },
     {
       "name": "パオジアンex",
@@ -3933,7 +3985,8 @@
       "surugayaUrl": "/product/other/GN285564",
       "surugayaPrice": 520,
       "surugayaSoldOut": true,
-      "raritySlug": "ur"
+      "raritySlug": "ur",
+      "surugayaBuyPrice": 300
     },
     {
       "name": "ミライドンex",
@@ -3944,7 +3997,8 @@
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN285565",
       "surugayaPrice": 1180,
       "surugayaSoldOut": false,
-      "raritySlug": "ur"
+      "raritySlug": "ur",
+      "surugayaBuyPrice": 600
     },
     {
       "name": "ディンルーex",
@@ -3955,7 +4009,8 @@
       "surugayaUrl": "/product/other/GN285566",
       "surugayaPrice": 480,
       "surugayaSoldOut": true,
-      "raritySlug": "ur"
+      "raritySlug": "ur",
+      "surugayaBuyPrice": null
     },
     {
       "name": "コライドンex",
@@ -3966,7 +4021,8 @@
       "surugayaUrl": "/product/other/GN285567",
       "surugayaPrice": 600,
       "surugayaSoldOut": true,
-      "raritySlug": "ur"
+      "raritySlug": "ur",
+      "surugayaBuyPrice": 500
     }
   ]
 }
