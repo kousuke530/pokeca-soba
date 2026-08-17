@@ -2,8 +2,8 @@
   "pack": "拡張パック「ニンジャスピナー」",
   "packSlug": "m4",
   "source": "surugaya",
-  "collectedAt": "2026-08-14T04:55:36.628Z",
-  "count": 118,
+  "collectedAt": "2026-08-17T10:31:01.081Z",
+  "count": 119,
   "cards": [
     {
       "name": "ビードル",
@@ -214,6 +214,17 @@
       "surugayaPrice": 160,
       "surugayaSoldOut": false,
       "raritySlug": "u"
+    },
+    {
+      "name": "ケロマツ",
+      "cardNumber": "020/083",
+      "rarity": "C",
+      "category": "ポケモン",
+      "energyType": "水",
+      "surugayaUrl": "/product/detail/GU633971?tenpo_cd=201206",
+      "surugayaPrice": 60,
+      "surugayaSoldOut": true,
+      "raritySlug": "c"
     },
     {
       "name": "ゲコガシラ",

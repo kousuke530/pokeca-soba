@@ -2,8 +2,8 @@
   "pack": "拡張パック「超電ブレイカー」",
   "packSlug": "sv8",
   "source": "surugaya",
-  "collectedAt": "2026-08-14T04:49:36.232Z",
-  "count": 131,
+  "collectedAt": "2026-08-17T10:24:43.636Z",
+  "count": 135,
   "cards": [
     {
       "name": "タマタマ",
@@ -209,7 +209,7 @@
       "rarity": "R",
       "category": "ポケモン",
       "energyType": "炎",
-      "surugayaUrl": "/product/detail/GN709458?tenpo_cd=410018",
+      "surugayaUrl": "/product/other/GN709458",
       "surugayaPrice": 57,
       "surugayaSoldOut": true,
       "raritySlug": "r"
@@ -353,7 +353,7 @@
       "category": "ポケモン",
       "energyType": "水",
       "surugayaUrl": "/product/other/GN709459",
-      "surugayaPrice": 57,
+      "surugayaPrice": 40,
       "surugayaSoldOut": true,
       "raritySlug": "r"
     },
@@ -518,7 +518,7 @@
       "rarity": "R",
       "category": "ポケモン",
       "energyType": "超",
-      "surugayaUrl": "/product/detail/GN709461?tenpo_cd=410018",
+      "surugayaUrl": "/product/other/GN709461",
       "surugayaPrice": 49,
       "surugayaSoldOut": true,
       "raritySlug": "r"
@@ -574,7 +574,7 @@
       "category": "ポケモン",
       "energyType": "超",
       "surugayaUrl": "/product/other/GN709462",
-      "surugayaPrice": 150,
+      "surugayaPrice": 60,
       "surugayaSoldOut": true,
       "raritySlug": "r"
     },
@@ -728,7 +728,7 @@
       "category": "ポケモン",
       "energyType": "闘",
       "surugayaUrl": "/product/other/GN709463",
-      "surugayaPrice": 77,
+      "surugayaPrice": 60,
       "surugayaSoldOut": true,
       "raritySlug": "r"
     },
@@ -826,8 +826,8 @@
       "rarity": "U",
       "category": "ポケモン",
       "energyType": "悪",
-      "surugayaUrl": "/product/detail/GN709487?tenpo_cd=410011",
-      "surugayaPrice": 150,
+      "surugayaUrl": "/product/other/GN709487",
+      "surugayaPrice": 100,
       "surugayaSoldOut": true,
       "raritySlug": "u"
     },
@@ -1025,7 +1025,7 @@
       "category": "ポケモン",
       "energyType": "",
       "surugayaUrl": "/product/other/GN709465",
-      "surugayaPrice": 79,
+      "surugayaPrice": 50,
       "surugayaSoldOut": true,
       "raritySlug": "r"
     },
@@ -1140,12 +1140,23 @@
       "raritySlug": "u"
     },
     {
+      "name": "エキサイトスタジアム",
+      "cardNumber": "105/106",
+      "rarity": "U",
+      "category": "スタジアム",
+      "energyType": "",
+      "surugayaUrl": "/product/detail/GN709498?tenpo_cd=201206",
+      "surugayaPrice": 100,
+      "surugayaSoldOut": true,
+      "raritySlug": "u"
+    },
+    {
       "name": "グラビティーマウンテン",
       "cardNumber": "106/106",
       "rarity": "U",
       "category": "スタジアム",
       "energyType": "",
-      "surugayaUrl": "/product/detail/GN709499?tenpo_cd=410018",
+      "surugayaUrl": "/product/other/GN709499",
       "surugayaPrice": 69,
       "surugayaSoldOut": true,
       "raritySlug": "u"
@@ -1505,7 +1516,7 @@
       "category": "スタジアム",
       "energyType": "",
       "surugayaUrl": "/product/other/GN709416",
-      "surugayaPrice": 500,
+      "surugayaPrice": 570,
       "surugayaSoldOut": true,
       "raritySlug": "ur",
       "surugayaBuyPrice": 300

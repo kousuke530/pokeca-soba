@@ -2,8 +2,8 @@
   "pack": "拡張パック「黒炎の支配者」",
   "packSlug": "sv3",
   "source": "surugaya",
-  "collectedAt": "2026-08-14T04:46:10.870Z",
-  "count": 170,
+  "collectedAt": "2026-08-17T10:21:15.006Z",
+  "count": 174,
   "cards": [
     {
       "name": "かがやくリザードン",
@@ -83,6 +83,17 @@
       "surugayaPrice": 19,
       "surugayaSoldOut": true,
       "raritySlug": "c"
+    },
+    {
+      "name": "ミュウ",
+      "cardNumber": "005/038",
+      "rarity": "ノーマル",
+      "category": "ポケモン",
+      "energyType": "超",
+      "surugayaUrl": "/product/detail/GN104847?tenpo_cd=201206",
+      "surugayaPrice": 50,
+      "surugayaSoldOut": true,
+      "raritySlug": "n"
     },
     {
       "name": "ツボツボ",
@@ -250,6 +261,17 @@
       "raritySlug": "c"
     },
     {
+      "name": "すごいつりざお",
+      "cardNumber": "013/038",
+      "rarity": "ノーマル",
+      "category": "グッズ",
+      "energyType": "",
+      "surugayaUrl": "/product/detail/GN104855?tenpo_cd=201206",
+      "surugayaPrice": 90,
+      "surugayaSoldOut": true,
+      "raritySlug": "n"
+    },
+    {
       "name": "リザード",
       "cardNumber": "013/108",
       "rarity": "U",
@@ -332,8 +354,8 @@
       "rarity": "ノーマル",
       "category": "グッズ",
       "energyType": "",
-      "surugayaUrl": "/product/detail/GN104859?tenpo_cd=400521",
-      "surugayaPrice": 180,
+      "surugayaUrl": "/product/other/GN104859",
+      "surugayaPrice": 60,
       "surugayaSoldOut": true,
       "raritySlug": "n"
     },
@@ -399,7 +421,7 @@
       "category": "グッズ",
       "energyType": "",
       "surugayaUrl": "/product/other/GN104862",
-      "surugayaPrice": 150,
+      "surugayaPrice": 90,
       "surugayaSoldOut": true,
       "raritySlug": "n"
     },
@@ -410,7 +432,7 @@
       "category": "ポケモン",
       "energyType": "炎",
       "surugayaUrl": "/product/other/GN104267",
-      "surugayaPrice": 59,
+      "surugayaPrice": 40,
       "surugayaSoldOut": true,
       "raritySlug": "rr"
     },
@@ -1159,7 +1181,7 @@
       "category": "ポケモン",
       "energyType": "悪",
       "surugayaUrl": "/product/other/GN104320",
-      "surugayaPrice": 65,
+      "surugayaPrice": 60,
       "surugayaSoldOut": true,
       "raritySlug": "rr"
     },

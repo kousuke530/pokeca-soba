@@ -2,8 +2,8 @@
   "pack": "拡張パック「メガシンフォニア」",
   "packSlug": "m1s",
   "source": "surugaya",
-  "collectedAt": "2026-08-14T04:52:48.581Z",
-  "count": 84,
+  "collectedAt": "2026-08-17T10:27:58.504Z",
+  "count": 91,
   "cards": [
     {
       "name": "モンジャラ",
@@ -34,7 +34,7 @@
       "category": "ポケモン",
       "energyType": "草",
       "surugayaUrl": "/product/other/GU362681",
-      "surugayaPrice": 19,
+      "surugayaPrice": 50,
       "surugayaSoldOut": true,
       "raritySlug": "c"
     },
@@ -44,8 +44,8 @@
       "rarity": "C",
       "category": "ポケモン",
       "energyType": "草",
-      "surugayaUrl": "/product/detail/GU362682?tenpo_cd=410011",
-      "surugayaPrice": 150,
+      "surugayaUrl": "/product/other/GU362682",
+      "surugayaPrice": 60,
       "surugayaSoldOut": true,
       "raritySlug": "c"
     },
@@ -55,8 +55,8 @@
       "rarity": "R",
       "category": "ポケモン",
       "energyType": "草",
-      "surugayaUrl": "/product/detail/GU362653?tenpo_cd=410011",
-      "surugayaPrice": 165,
+      "surugayaUrl": "/product/other/GU362653",
+      "surugayaPrice": 70,
       "surugayaSoldOut": true,
       "raritySlug": "r"
     },
@@ -413,6 +413,17 @@
       "raritySlug": "u"
     },
     {
+      "name": "フーディン",
+      "cardNumber": "038/063",
+      "rarity": "R",
+      "category": "ポケモン",
+      "energyType": "超",
+      "surugayaUrl": "/product/detail/GU362657?tenpo_cd=201206",
+      "surugayaPrice": 90,
+      "surugayaSoldOut": true,
+      "raritySlug": "r"
+    },
+    {
       "name": "ルージュラ",
       "cardNumber": "039/063",
       "rarity": "C",
@@ -649,7 +660,7 @@
       "rarity": "U",
       "category": "サポート",
       "energyType": "",
-      "surugayaUrl": "/product/detail/GU362676?tenpo_cd=410174",
+      "surugayaUrl": "/product/other/GU362676",
       "surugayaPrice": 30,
       "surugayaSoldOut": true,
       "raritySlug": "u"
@@ -885,9 +896,9 @@
       "rarity": "SR",
       "category": "ポケモン",
       "energyType": "",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU362629",
-      "surugayaPrice": 580,
-      "surugayaSoldOut": false,
+      "surugayaUrl": "/product/other/GU362629",
+      "surugayaPrice": 540,
+      "surugayaSoldOut": true,
       "raritySlug": "sr",
       "surugayaBuyPrice": null
     },
@@ -971,7 +982,7 @@
       "surugayaPrice": 15800,
       "surugayaSoldOut": false,
       "raritySlug": "sar",
-      "surugayaBuyPrice": 9000
+      "surugayaBuyPrice": 8000
     },
     {
       "name": "メガラティアスex",
@@ -1016,10 +1027,10 @@
       "category": "ポケモン",
       "energyType": "超",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU364210",
-      "surugayaPrice": 59800,
+      "surugayaPrice": 54800,
       "surugayaSoldOut": false,
       "raritySlug": "mur",
-      "surugayaBuyPrice": 40000
+      "surugayaBuyPrice": 38000
     }
   ]
 }

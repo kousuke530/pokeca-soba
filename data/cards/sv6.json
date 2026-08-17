@@ -2,8 +2,8 @@
   "pack": "拡張パック 「変幻の仮面」",
   "packSlug": "sv6",
   "source": "surugaya",
-  "collectedAt": "2026-08-14T04:48:36.891Z",
-  "count": 130,
+  "collectedAt": "2026-08-17T10:23:41.478Z",
+  "count": 131,
   "cards": [
     {
       "name": "ヒマナッツ",
@@ -453,7 +453,7 @@
       "category": "ポケモン",
       "energyType": "雷",
       "surugayaUrl": "/product/other/GN486510",
-      "surugayaPrice": 40,
+      "surugayaPrice": 50,
       "surugayaSoldOut": true,
       "raritySlug": "rr"
     },
@@ -601,6 +601,17 @@
       "raritySlug": "c"
     },
     {
+      "name": "マシマシラ",
+      "cardNumber": "055/101",
+      "rarity": "R",
+      "category": "ポケモン",
+      "energyType": "超",
+      "surugayaUrl": "/product/detail/GN486524?tenpo_cd=201206",
+      "surugayaPrice": 120,
+      "surugayaSoldOut": true,
+      "raritySlug": "r"
+    },
+    {
       "name": "キチキギス",
       "cardNumber": "056/101",
       "rarity": "R",
@@ -706,7 +717,7 @@
       "category": "ポケモン",
       "energyType": "闘",
       "surugayaUrl": "/product/other/GN486534",
-      "surugayaPrice": 99,
+      "surugayaPrice": 80,
       "surugayaSoldOut": true,
       "raritySlug": "rr"
     },
@@ -876,13 +887,13 @@
       "raritySlug": "c"
     },
     {
-      "name": "【ランクB】ドラパルトex",
+      "name": "ドラパルトex",
       "cardNumber": "081/101",
       "rarity": "RR",
       "category": "ポケモン",
       "energyType": "ドラゴン",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GB486550",
-      "surugayaPrice": 280,
+      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN486550",
+      "surugayaPrice": 160,
       "surugayaSoldOut": false,
       "raritySlug": "rr"
     },
@@ -1026,7 +1037,7 @@
       "category": "グッズ",
       "energyType": "",
       "surugayaUrl": "/product/other/GN486563",
-      "surugayaPrice": 79,
+      "surugayaPrice": 60,
       "surugayaSoldOut": true,
       "raritySlug": "u"
     },

@@ -2,8 +2,8 @@
   "pack": "拡張パック「サイバージャッジ」",
   "packSlug": "sv5m",
   "source": "surugaya",
-  "collectedAt": "2026-08-14T04:48:01.127Z",
-  "count": 99,
+  "collectedAt": "2026-08-17T10:23:03.455Z",
+  "count": 100,
   "cards": [
     {
       "name": "ストライク",
@@ -397,7 +397,7 @@
       "category": "ポケモン",
       "energyType": "超",
       "surugayaUrl": "/product/other/GN369847",
-      "surugayaPrice": 60,
+      "surugayaPrice": 75,
       "surugayaSoldOut": true,
       "raritySlug": "rr"
     },
@@ -660,7 +660,7 @@
       "rarity": "R",
       "category": "ポケモン",
       "energyType": "",
-      "surugayaUrl": "/product/detail/GN369871?tenpo_cd=410018",
+      "surugayaUrl": "/product/other/GN369871",
       "surugayaPrice": 35,
       "surugayaSoldOut": true,
       "raritySlug": "r"
@@ -829,7 +829,7 @@
       "category": "ポケモン",
       "energyType": "炎",
       "surugayaUrl": "/product/other/GN369886",
-      "surugayaPrice": 410,
+      "surugayaPrice": 380,
       "surugayaSoldOut": true,
       "raritySlug": "ar",
       "surugayaBuyPrice": 400
@@ -889,9 +889,10 @@
       "category": "ポケモン",
       "energyType": "鋼",
       "surugayaUrl": "/product/other/GN369891",
-      "surugayaPrice": 260,
+      "surugayaPrice": 370,
       "surugayaSoldOut": true,
-      "raritySlug": "ar"
+      "raritySlug": "ar",
+      "surugayaBuyPrice": 300
     },
     {
       "name": "メルタン",
@@ -1008,7 +1009,7 @@
       "category": "サポート",
       "energyType": "",
       "surugayaUrl": "/product/other/GN369901",
-      "surugayaPrice": 730,
+      "surugayaPrice": 670,
       "surugayaSoldOut": true,
       "raritySlug": "sr",
       "surugayaBuyPrice": 500
@@ -1116,7 +1117,7 @@
       "category": "ポケモン",
       "energyType": "超",
       "surugayaUrl": "/product/other/GN369910",
-      "surugayaPrice": 550,
+      "surugayaPrice": 520,
       "surugayaSoldOut": true,
       "raritySlug": "ur",
       "surugayaBuyPrice": null

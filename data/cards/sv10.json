@@ -2,8 +2,8 @@
   "pack": "拡張パック「ロケット団の栄光」",
   "packSlug": "sv10",
   "source": "surugaya",
-  "collectedAt": "2026-08-14T04:51:09.047Z",
-  "count": 128,
+  "collectedAt": "2026-08-17T10:26:17.333Z",
+  "count": 130,
   "cards": [
     {
       "name": "クヌギダマ",
@@ -116,14 +116,25 @@
       "raritySlug": "c"
     },
     {
+      "name": "オリーニョ",
+      "cardNumber": "011/098",
+      "rarity": "C",
+      "category": "ポケモン",
+      "energyType": "草",
+      "surugayaUrl": "/product/detail/GU166896?tenpo_cd=201206",
+      "surugayaPrice": 80,
+      "surugayaSoldOut": true,
+      "raritySlug": "c"
+    },
+    {
       "name": "オリーヴァex",
       "cardNumber": "012/098",
       "rarity": "RR",
       "category": "ポケモン",
       "energyType": "草",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU166837",
+      "surugayaUrl": "/product/other/GU166837",
       "surugayaPrice": 280,
-      "surugayaSoldOut": false,
+      "surugayaSoldOut": true,
       "raritySlug": "rr"
     },
     {
@@ -209,7 +220,7 @@
       "rarity": "R",
       "category": "ポケモン",
       "energyType": "炎",
-      "surugayaUrl": "/product/detail/GU166846?tenpo_cd=410018",
+      "surugayaUrl": "/product/other/GU166846",
       "surugayaPrice": 79,
       "surugayaSoldOut": true,
       "raritySlug": "r"
@@ -231,7 +242,7 @@
       "rarity": "R",
       "category": "ポケモン",
       "energyType": "水",
-      "surugayaUrl": "/product/detail/GU166847?tenpo_cd=410018",
+      "surugayaUrl": "/product/other/GU166847",
       "surugayaPrice": 46,
       "surugayaSoldOut": true,
       "raritySlug": "r"
@@ -539,8 +550,8 @@
       "rarity": "R",
       "category": "ポケモン",
       "energyType": "闘",
-      "surugayaUrl": "/product/detail/GU166852?tenpo_cd=410011",
-      "surugayaPrice": 150,
+      "surugayaUrl": "/product/other/GU166852",
+      "surugayaPrice": 90,
       "surugayaSoldOut": true,
       "raritySlug": "r"
     },
@@ -705,7 +716,7 @@
       "category": "ポケモン",
       "energyType": "悪",
       "surugayaUrl": "/product/other/GU166870",
-      "surugayaPrice": 69,
+      "surugayaPrice": 60,
       "surugayaSoldOut": true,
       "raritySlug": "u"
     },
@@ -1001,7 +1012,7 @@
       "rarity": "U",
       "category": "サポート",
       "energyType": "",
-      "surugayaUrl": "/product/detail/GU166881?tenpo_cd=410018",
+      "surugayaUrl": "/product/other/GU166881",
       "surugayaPrice": 47,
       "surugayaSoldOut": true,
       "raritySlug": "u"
@@ -1013,7 +1024,7 @@
       "category": "サポート",
       "energyType": "",
       "surugayaUrl": "/product/other/GU166882",
-      "surugayaPrice": 99,
+      "surugayaPrice": 90,
       "surugayaSoldOut": true,
       "raritySlug": "u"
     },
@@ -1024,7 +1035,7 @@
       "category": "サポート",
       "energyType": "",
       "surugayaUrl": "/product/other/GU166883",
-      "surugayaPrice": 238,
+      "surugayaPrice": 230,
       "surugayaSoldOut": true,
       "raritySlug": "u"
     },
@@ -1046,7 +1057,7 @@
       "category": "スタジアム",
       "energyType": "",
       "surugayaUrl": "/product/other/GU166885",
-      "surugayaPrice": 150,
+      "surugayaPrice": 100,
       "surugayaSoldOut": true,
       "raritySlug": "u"
     },
@@ -1068,7 +1079,7 @@
       "category": "エネルギー",
       "energyType": "",
       "surugayaUrl": "/product/other/GU166887",
-      "surugayaPrice": 129,
+      "surugayaPrice": 70,
       "surugayaSoldOut": true,
       "raritySlug": "u"
     },
@@ -1199,7 +1210,7 @@
       "category": "ポケモン",
       "energyType": "草",
       "surugayaUrl": "/product/other/GU166812",
-      "surugayaPrice": 530,
+      "surugayaPrice": 520,
       "surugayaSoldOut": true,
       "raritySlug": "sr",
       "surugayaBuyPrice": null
@@ -1359,6 +1370,18 @@
       "surugayaSoldOut": false,
       "raritySlug": "sar",
       "surugayaBuyPrice": 14000
+    },
+    {
+      "name": "ロケット団のミュウツーex",
+      "cardNumber": "125/098",
+      "rarity": "SAR",
+      "category": "ポケモン",
+      "energyType": "超",
+      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU166807",
+      "surugayaPrice": 74800,
+      "surugayaSoldOut": false,
+      "raritySlug": "sar",
+      "surugayaBuyPrice": 55000
     },
     {
       "name": "ロケット団のニドキングex",

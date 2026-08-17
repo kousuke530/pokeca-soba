@@ -2,8 +2,8 @@
   "pack": "強化拡張パック「熱風のアリーナ」",
   "packSlug": "sv9a",
   "source": "surugaya",
-  "collectedAt": "2026-08-14T04:50:54.376Z",
-  "count": 90,
+  "collectedAt": "2026-08-17T10:26:03.917Z",
+  "count": 91,
   "cards": [
     {
       "name": "ヒビキのカイロス",
@@ -55,7 +55,7 @@
       "rarity": "R",
       "category": "ポケモン",
       "energyType": "草",
-      "surugayaUrl": "/product/detail/GN923805?tenpo_cd=410018",
+      "surugayaUrl": "/product/other/GN923805",
       "surugayaPrice": 75,
       "surugayaSoldOut": true,
       "raritySlug": "r"
@@ -158,6 +158,17 @@
       "surugayaPrice": 160,
       "surugayaSoldOut": false,
       "raritySlug": "u"
+    },
+    {
+      "name": "ヒビキのヒノアラシ",
+      "cardNumber": "015/063",
+      "rarity": "C",
+      "category": "ポケモン",
+      "energyType": "炎",
+      "surugayaUrl": "/product/detail/GN923840?tenpo_cd=201206",
+      "surugayaPrice": 60,
+      "surugayaSoldOut": true,
+      "raritySlug": "c"
     },
     {
       "name": "ヒビキのマグマラシ",
@@ -264,8 +275,8 @@
       "rarity": "R",
       "category": "ポケモン",
       "energyType": "水",
-      "surugayaUrl": "/product/detail/GN923810?tenpo_cd=410011",
-      "surugayaPrice": 150,
+      "surugayaUrl": "/product/other/GN923810",
+      "surugayaPrice": 100,
       "surugayaSoldOut": true,
       "raritySlug": "r"
     },
@@ -297,7 +308,7 @@
       "rarity": "U",
       "category": "ポケモン",
       "energyType": "水",
-      "surugayaUrl": "/product/detail/GN923820?tenpo_cd=410018",
+      "surugayaUrl": "/product/other/GN923820",
       "surugayaPrice": 19,
       "surugayaSoldOut": true,
       "raritySlug": "u"
@@ -374,8 +385,8 @@
       "rarity": "C",
       "category": "ポケモン",
       "energyType": "雷",
-      "surugayaUrl": "/product/detail/GN923849?tenpo_cd=410018",
-      "surugayaPrice": 27,
+      "surugayaUrl": "/product/other/GN923849",
+      "surugayaPrice": 29,
       "surugayaSoldOut": true,
       "raritySlug": "c"
     },
@@ -594,7 +605,7 @@
       "rarity": "U",
       "category": "グッズ",
       "energyType": "",
-      "surugayaUrl": "/product/detail/GN923827?tenpo_cd=410018",
+      "surugayaUrl": "/product/other/GN923827",
       "surugayaPrice": 57,
       "surugayaSoldOut": true,
       "raritySlug": "u"
@@ -767,7 +778,7 @@
       "category": "ポケモン",
       "energyType": "水",
       "surugayaUrl": "/product/other/GN923794",
-      "surugayaPrice": 4120,
+      "surugayaPrice": 4040,
       "surugayaSoldOut": true,
       "raritySlug": "ar",
       "surugayaBuyPrice": 3500
