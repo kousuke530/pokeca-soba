@@ -2,8 +2,8 @@
   "pack": "スターターセットMEGA メガゲンガーex",
   "packSlug": "mbg",
   "source": "surugaya",
-  "collectedAt": "2026-08-18T00:36:43.436Z",
-  "count": 15,
+  "collectedAt": "2026-08-19T10:26:04.504Z",
+  "count": 16,
   "cards": [
     {
       "name": "ゴース",
@@ -67,8 +67,8 @@
       "rarity": "ノーマル",
       "category": "グッズ",
       "energyType": "",
-      "surugayaUrl": "/product/other/GU404868",
-      "surugayaPrice": 150,
+      "surugayaUrl": "/product/detail/GU404868?tenpo_cd=200984",
+      "surugayaPrice": 180,
       "surugayaSoldOut": true,
       "raritySlug": "n"
     },
@@ -79,6 +79,17 @@
       "category": "グッズ",
       "energyType": "",
       "surugayaUrl": "/product/detail/GU404869?tenpo_cd=200984",
+      "surugayaPrice": 100,
+      "surugayaSoldOut": true,
+      "raritySlug": "n"
+    },
+    {
+      "name": "ふしぎなアメ",
+      "cardNumber": "012/021",
+      "rarity": "ノーマル",
+      "category": "グッズ",
+      "energyType": "",
+      "surugayaUrl": "/product/detail/GU404870?tenpo_cd=200984",
       "surugayaPrice": 100,
       "surugayaSoldOut": true,
       "raritySlug": "n"
@@ -155,8 +166,8 @@
       "rarity": "ノーマル",
       "category": "サポート",
       "energyType": "",
-      "surugayaUrl": "/product/other/GU404879",
-      "surugayaPrice": 110,
+      "surugayaUrl": "/product/detail/GU404879?tenpo_cd=200984",
+      "surugayaPrice": 180,
       "surugayaSoldOut": true,
       "raritySlug": "n"
     },

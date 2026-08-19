@@ -2,7 +2,7 @@
   "pack": "拡張パック「ニンジャスピナー」",
   "packSlug": "m4",
   "source": "surugaya",
-  "collectedAt": "2026-08-18T00:45:55.707Z",
+  "collectedAt": "2026-08-19T10:28:46.287Z",
   "count": 119,
   "cards": [
     {
@@ -881,7 +881,7 @@
       "rarity": "U",
       "category": "スタジアム",
       "energyType": "",
-      "surugayaUrl": "/product/other/GU634031",
+      "surugayaUrl": "/product/detail/GU634031?tenpo_cd=410018",
       "surugayaPrice": 37,
       "surugayaSoldOut": true,
       "raritySlug": "u"
@@ -974,9 +974,10 @@
       "category": "ポケモン",
       "energyType": "雷",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU634039",
-      "surugayaPrice": 290,
+      "surugayaPrice": 480,
       "surugayaSoldOut": false,
-      "raritySlug": "ar"
+      "raritySlug": "ar",
+      "surugayaBuyPrice": null
     },
     {
       "name": "ゼルネアス",

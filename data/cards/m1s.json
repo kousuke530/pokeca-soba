@@ -2,7 +2,7 @@
   "pack": "拡張パック「メガシンフォニア」",
   "packSlug": "m1s",
   "source": "surugaya",
-  "collectedAt": "2026-08-18T00:36:34.956Z",
+  "collectedAt": "2026-08-19T10:25:55.905Z",
   "count": 91,
   "cards": [
     {
@@ -33,8 +33,8 @@
       "rarity": "C",
       "category": "ポケモン",
       "energyType": "草",
-      "surugayaUrl": "/product/other/GU362681",
-      "surugayaPrice": 50,
+      "surugayaUrl": "/product/detail/GU362681?tenpo_cd=410011",
+      "surugayaPrice": 150,
       "surugayaSoldOut": true,
       "raritySlug": "c"
     },
@@ -44,8 +44,8 @@
       "rarity": "C",
       "category": "ポケモン",
       "energyType": "草",
-      "surugayaUrl": "/product/other/GU362682",
-      "surugayaPrice": 60,
+      "surugayaUrl": "/product/detail/GU362682?tenpo_cd=410011",
+      "surugayaPrice": 150,
       "surugayaSoldOut": true,
       "raritySlug": "c"
     },
@@ -55,8 +55,8 @@
       "rarity": "R",
       "category": "ポケモン",
       "energyType": "草",
-      "surugayaUrl": "/product/other/GU362653",
-      "surugayaPrice": 70,
+      "surugayaUrl": "/product/detail/GU362653?tenpo_cd=410011",
+      "surugayaPrice": 165,
       "surugayaSoldOut": true,
       "raritySlug": "r"
     },
@@ -562,9 +562,10 @@
       "category": "ポケモン",
       "energyType": "",
       "surugayaUrl": "/product/detail/GU362652?tenpo_cd=410011",
-      "surugayaPrice": 150,
+      "surugayaPrice": 585,
       "surugayaSoldOut": true,
-      "raritySlug": "rr"
+      "raritySlug": "rr",
+      "surugayaBuyPrice": null
     },
     {
       "name": "デリバード",
@@ -660,7 +661,7 @@
       "rarity": "U",
       "category": "サポート",
       "energyType": "",
-      "surugayaUrl": "/product/other/GU362676",
+      "surugayaUrl": "/product/detail/GU362676?tenpo_cd=410174",
       "surugayaPrice": 30,
       "surugayaSoldOut": true,
       "raritySlug": "u"
@@ -947,7 +948,7 @@
       "surugayaPrice": 1580,
       "surugayaSoldOut": false,
       "raritySlug": "sr",
-      "surugayaBuyPrice": 700
+      "surugayaBuyPrice": 600
     },
     {
       "name": "ミツルの思いやり",

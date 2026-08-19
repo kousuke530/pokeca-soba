@@ -2,7 +2,7 @@
   "pack": "拡張パック「ホワイトフレア」",
   "packSlug": "sv11w",
   "source": "surugaya",
-  "collectedAt": "2026-08-18T00:35:34.618Z",
+  "collectedAt": "2026-08-19T10:24:54.796Z",
   "count": 173,
   "cards": [
     {
@@ -22,9 +22,9 @@
       "rarity": "C",
       "category": "ポケモン",
       "energyType": "草",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU237776",
-      "surugayaPrice": 180,
-      "surugayaSoldOut": false,
+      "surugayaUrl": "/product/other/GU237697",
+      "surugayaPrice": 170,
+      "surugayaSoldOut": true,
       "raritySlug": "c"
     },
     {
@@ -121,9 +121,9 @@
       "rarity": "C",
       "category": "ポケモン",
       "energyType": "炎",
-      "surugayaUrl": "/product/other/GU237701",
-      "surugayaPrice": 260,
-      "surugayaSoldOut": true,
+      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU237780",
+      "surugayaPrice": 180,
+      "surugayaSoldOut": false,
       "raritySlug": "c"
     },
     {
@@ -253,8 +253,8 @@
       "rarity": "U",
       "category": "ポケモン",
       "energyType": "水",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU237748",
-      "surugayaPrice": 180,
+      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU237676",
+      "surugayaPrice": 280,
       "surugayaSoldOut": false,
       "raritySlug": "u"
     },
@@ -352,8 +352,8 @@
       "rarity": "U",
       "category": "ポケモン",
       "energyType": "雷",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU237680",
-      "surugayaPrice": 280,
+      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU237832",
+      "surugayaPrice": 160,
       "surugayaSoldOut": false,
       "raritySlug": "u"
     },
@@ -451,7 +451,7 @@
       "rarity": "C",
       "category": "ポケモン",
       "energyType": "超",
-      "surugayaUrl": "/product/other/GU237875",
+      "surugayaUrl": "/product/detail/GU237875?tenpo_cd=410018",
       "surugayaPrice": 29,
       "surugayaSoldOut": true,
       "raritySlug": "c"
@@ -561,8 +561,8 @@
       "rarity": "R",
       "category": "ポケモン",
       "energyType": "闘",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU237667",
-      "surugayaPrice": 280,
+      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU237819",
+      "surugayaPrice": 160,
       "surugayaSoldOut": false,
       "raritySlug": "r"
     },
@@ -638,11 +638,10 @@
       "rarity": "C",
       "category": "ポケモン",
       "energyType": "悪",
-      "surugayaUrl": "/product/other/GU237723",
-      "surugayaPrice": 301,
+      "surugayaUrl": "/product/other/GU237802",
+      "surugayaPrice": 77,
       "surugayaSoldOut": true,
-      "raritySlug": "c",
-      "surugayaBuyPrice": null
+      "raritySlug": "c"
     },
     {
       "name": "ゾロアーク",
@@ -662,9 +661,9 @@
       "rarity": "C",
       "category": "ポケモン",
       "energyType": "悪",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU237803",
+      "surugayaUrl": "/product/other/GU237724",
       "surugayaPrice": 180,
-      "surugayaSoldOut": false,
+      "surugayaSoldOut": true,
       "raritySlug": "c"
     },
     {
@@ -739,8 +738,8 @@
       "rarity": "R",
       "category": "ポケモン",
       "energyType": "鋼",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU237669",
-      "surugayaPrice": 280,
+      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU237821",
+      "surugayaPrice": 160,
       "surugayaSoldOut": false,
       "raritySlug": "r"
     },
@@ -783,8 +782,8 @@
       "rarity": "U",
       "category": "ポケモン",
       "energyType": "",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU237765",
-      "surugayaPrice": 180,
+      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU237693",
+      "surugayaPrice": 280,
       "surugayaSoldOut": false,
       "raritySlug": "u"
     },
@@ -838,8 +837,8 @@
       "rarity": "C",
       "category": "ポケモン",
       "energyType": "",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU237811",
-      "surugayaPrice": 180,
+      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU237732",
+      "surugayaPrice": 280,
       "surugayaSoldOut": false,
       "raritySlug": "c"
     },
@@ -849,8 +848,8 @@
       "rarity": "U",
       "category": "ポケモン",
       "energyType": "",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU237695",
-      "surugayaPrice": 280,
+      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU237847",
+      "surugayaPrice": 160,
       "surugayaSoldOut": false,
       "raritySlug": "u"
     },
@@ -871,9 +870,9 @@
       "rarity": "U",
       "category": "グッズ",
       "energyType": "",
-      "surugayaUrl": "/product/other/GU237768",
-      "surugayaPrice": 210,
-      "surugayaSoldOut": true,
+      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU237848",
+      "surugayaPrice": 160,
+      "surugayaSoldOut": false,
       "raritySlug": "u"
     },
     {
@@ -882,9 +881,9 @@
       "rarity": "U",
       "category": "グッズ",
       "energyType": "",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU237769",
-      "surugayaPrice": 180,
-      "surugayaSoldOut": false,
+      "surugayaUrl": "/product/other/GU237849",
+      "surugayaPrice": 79,
+      "surugayaSoldOut": true,
       "raritySlug": "u"
     },
     {
@@ -937,8 +936,8 @@
       "rarity": "U",
       "category": "サポート",
       "energyType": "",
-      "surugayaUrl": "/product/other/GU237853",
-      "surugayaPrice": 50,
+      "surugayaUrl": "/product/other/GU237773",
+      "surugayaPrice": 140,
       "surugayaSoldOut": true,
       "raritySlug": "u"
     },
@@ -960,7 +959,7 @@
       "category": "ポケモン",
       "energyType": "草",
       "surugayaUrl": "/product/other/GU237583",
-      "surugayaPrice": 520,
+      "surugayaPrice": 530,
       "surugayaSoldOut": true,
       "raritySlug": "ar",
       "surugayaBuyPrice": null
@@ -1163,9 +1162,9 @@
       "rarity": "AR",
       "category": "ポケモン",
       "energyType": "水",
-      "surugayaUrl": "/product/other/GU237600",
-      "surugayaPrice": 1030,
-      "surugayaSoldOut": true,
+      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU237600",
+      "surugayaPrice": 1580,
+      "surugayaSoldOut": false,
       "raritySlug": "ar",
       "surugayaBuyPrice": 800
     },
@@ -1236,7 +1235,7 @@
       "category": "ポケモン",
       "energyType": "水",
       "surugayaUrl": "/product/other/GU237606",
-      "surugayaPrice": 560,
+      "surugayaPrice": 550,
       "surugayaSoldOut": true,
       "raritySlug": "ar",
       "surugayaBuyPrice": 400
@@ -1344,7 +1343,7 @@
       "category": "ポケモン",
       "energyType": "超",
       "surugayaUrl": "/product/other/GU237615",
-      "surugayaPrice": 490,
+      "surugayaPrice": 500,
       "surugayaSoldOut": true,
       "raritySlug": "ar",
       "surugayaBuyPrice": null
@@ -1451,9 +1450,9 @@
       "rarity": "AR",
       "category": "ポケモン",
       "energyType": "闘",
-      "surugayaUrl": "/product/other/GU237624",
-      "surugayaPrice": 500,
-      "surugayaSoldOut": true,
+      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU237624",
+      "surugayaPrice": 480,
+      "surugayaSoldOut": false,
       "raritySlug": "ar",
       "surugayaBuyPrice": null
     },
@@ -1584,7 +1583,7 @@
       "category": "ポケモン",
       "energyType": "悪",
       "surugayaUrl": "/product/other/GU237635",
-      "surugayaPrice": 460,
+      "surugayaPrice": 490,
       "surugayaSoldOut": true,
       "raritySlug": "ar",
       "surugayaBuyPrice": null
@@ -1608,7 +1607,7 @@
       "category": "ポケモン",
       "energyType": "悪",
       "surugayaUrl": "/product/other/GU237637",
-      "surugayaPrice": 1960,
+      "surugayaPrice": 2000,
       "surugayaSoldOut": true,
       "raritySlug": "ar",
       "surugayaBuyPrice": 1500
@@ -1787,9 +1786,9 @@
       "rarity": "AR",
       "category": "ポケモン",
       "energyType": "",
-      "surugayaUrl": "/product/other/GU237652",
-      "surugayaPrice": 500,
-      "surugayaSoldOut": true,
+      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU237652",
+      "surugayaPrice": 480,
+      "surugayaSoldOut": false,
       "raritySlug": "ar",
       "surugayaBuyPrice": null
     },

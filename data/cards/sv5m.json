@@ -2,7 +2,7 @@
   "pack": "拡張パック「サイバージャッジ」",
   "packSlug": "sv5m",
   "source": "surugaya",
-  "collectedAt": "2026-08-18T00:31:48.819Z",
+  "collectedAt": "2026-08-19T10:21:13.601Z",
   "count": 100,
   "cards": [
     {
@@ -660,7 +660,7 @@
       "rarity": "R",
       "category": "ポケモン",
       "energyType": "",
-      "surugayaUrl": "/product/other/GN369871",
+      "surugayaUrl": "/product/detail/GN369871?tenpo_cd=410018",
       "surugayaPrice": 35,
       "surugayaSoldOut": true,
       "raritySlug": "r"
@@ -828,9 +828,9 @@
       "rarity": "AR",
       "category": "ポケモン",
       "energyType": "炎",
-      "surugayaUrl": "/product/other/GN369886",
-      "surugayaPrice": 320,
-      "surugayaSoldOut": true,
+      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN369886",
+      "surugayaPrice": 980,
+      "surugayaSoldOut": false,
       "raritySlug": "ar",
       "surugayaBuyPrice": 400
     },
@@ -1009,7 +1009,7 @@
       "category": "サポート",
       "energyType": "",
       "surugayaUrl": "/product/other/GN369901",
-      "surugayaPrice": 570,
+      "surugayaPrice": 530,
       "surugayaSoldOut": true,
       "raritySlug": "sr",
       "surugayaBuyPrice": 500

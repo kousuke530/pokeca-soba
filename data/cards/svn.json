@@ -2,7 +2,7 @@
   "pack": "デッキビルドBOX バトルパートナーズ",
   "packSlug": "svn",
   "source": "surugaya",
-  "collectedAt": "2026-08-18T00:34:36.250Z",
+  "collectedAt": "2026-08-19T10:23:57.624Z",
   "count": 35,
   "cards": [
     {
@@ -121,10 +121,11 @@
       "rarity": "ノーマル",
       "category": "グッズ",
       "energyType": "",
-      "surugayaUrl": "/product/other/GN833005",
-      "surugayaPrice": 190,
+      "surugayaUrl": "/product/detail/GN833005?tenpo_cd=400455",
+      "surugayaPrice": 300,
       "surugayaSoldOut": true,
-      "raritySlug": "n"
+      "raritySlug": "n",
+      "surugayaBuyPrice": null
     },
     {
       "name": "なかよしポフィン",
@@ -221,7 +222,7 @@
       "rarity": "ノーマル",
       "category": "ポケモンのどうぐ",
       "energyType": "",
-      "surugayaUrl": "/product/other/GN833018",
+      "surugayaUrl": "/product/detail/GN833018?tenpo_cd=410011",
       "surugayaPrice": 150,
       "surugayaSoldOut": true,
       "raritySlug": "n"
@@ -342,7 +343,7 @@
       "rarity": "ノーマル",
       "category": "スタジアム",
       "energyType": "",
-      "surugayaUrl": "/product/other/GN833032",
+      "surugayaUrl": "/product/detail/GN833032?tenpo_cd=410018",
       "surugayaPrice": 77,
       "surugayaSoldOut": true,
       "raritySlug": "n"
@@ -375,7 +376,7 @@
       "rarity": "ノーマル",
       "category": "エネルギー",
       "energyType": "",
-      "surugayaUrl": "/product/other/GN833035",
+      "surugayaUrl": "/product/detail/GN833035?tenpo_cd=410018",
       "surugayaPrice": 57,
       "surugayaSoldOut": true,
       "raritySlug": "n"

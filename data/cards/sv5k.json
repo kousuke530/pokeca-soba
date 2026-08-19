@@ -2,7 +2,7 @@
   "pack": "拡張パック「ワイルドフォース」",
   "packSlug": "sv5k",
   "source": "surugaya",
-  "collectedAt": "2026-08-18T00:31:59.777Z",
+  "collectedAt": "2026-08-19T10:21:24.720Z",
   "count": 99,
   "cards": [
     {
@@ -276,7 +276,7 @@
       "category": "ポケモン",
       "energyType": "雷",
       "surugayaUrl": "/product/other/GN369734",
-      "surugayaPrice": 50,
+      "surugayaPrice": 69,
       "surugayaSoldOut": true,
       "raritySlug": "rr"
     },
@@ -629,7 +629,7 @@
       "category": "ポケモン",
       "energyType": "",
       "surugayaUrl": "/product/other/GN369766",
-      "surugayaPrice": 190,
+      "surugayaPrice": 200,
       "surugayaSoldOut": true,
       "raritySlug": "r"
     },
@@ -994,16 +994,16 @@
       "surugayaBuyPrice": 5000
     },
     {
-      "name": "タケルライコex",
+      "name": "【ランクB】タケルライコex",
       "cardNumber": "089/071",
       "rarity": "SR",
       "category": "ポケモン",
       "energyType": "ドラゴン",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN369798",
-      "surugayaPrice": 780,
-      "surugayaSoldOut": false,
+      "surugayaUrl": "/product/detail/GB369798?tenpo_cd=400500",
+      "surugayaPrice": 520,
+      "surugayaSoldOut": true,
       "raritySlug": "sr",
-      "surugayaBuyPrice": 300
+      "surugayaBuyPrice": null
     },
     {
       "name": "探検家の先導",
@@ -1102,16 +1102,16 @@
       "surugayaBuyPrice": null
     },
     {
-      "name": "【ランクB】ウネルミナモex",
+      "name": "ウネルミナモex",
       "cardNumber": "099/071",
       "rarity": "UR",
       "category": "ポケモン",
       "energyType": "水",
-      "surugayaUrl": "/product/detail/GB369808?tenpo_cd=201206",
-      "surugayaPrice": 1060,
-      "surugayaSoldOut": true,
+      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN369808",
+      "surugayaPrice": 880,
+      "surugayaSoldOut": false,
       "raritySlug": "ur",
-      "surugayaBuyPrice": null
+      "surugayaBuyPrice": 400
     },
     {
       "name": "タケルライコex",
