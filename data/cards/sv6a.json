@@ -2,7 +2,7 @@
   "pack": "強化拡張パック「ナイトワンダラー」",
   "packSlug": "sv6a",
   "source": "surugaya",
-  "collectedAt": "2026-08-19T10:22:03.467Z",
+  "collectedAt": "2026-08-20T03:48:28.266Z",
   "count": 94,
   "cards": [
     {
@@ -950,14 +950,14 @@
       "surugayaBuyPrice": 300
     },
     {
-      "name": "カシオペア",
+      "name": "【ランクB】カシオペア",
       "cardNumber": "085/064",
       "rarity": "SR",
       "category": "サポート",
       "energyType": "",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN544667",
-      "surugayaPrice": 680,
-      "surugayaSoldOut": false,
+      "surugayaUrl": "/product/detail/GB544667?tenpo_cd=201217",
+      "surugayaPrice": 550,
+      "surugayaSoldOut": true,
       "raritySlug": "sr",
       "surugayaBuyPrice": null
     },
@@ -1016,7 +1016,7 @@
       "category": "ポケモン",
       "energyType": "悪",
       "surugayaUrl": "/product/other/GN544672",
-      "surugayaPrice": 930,
+      "surugayaPrice": 1120,
       "surugayaSoldOut": true,
       "raritySlug": "sar",
       "surugayaBuyPrice": 800

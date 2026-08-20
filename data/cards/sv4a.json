@@ -2,7 +2,7 @@
   "pack": "ハイクラスパック 「シャイニートレジャーex」",
   "packSlug": "sv4a",
   "source": "surugaya",
-  "collectedAt": "2026-08-19T10:20:59.442Z",
+  "collectedAt": "2026-08-20T03:47:23.670Z",
   "count": 360,
   "cards": [
     {
@@ -61,14 +61,14 @@
       "raritySlug": "n"
     },
     {
-      "name": "ポポッコ",
+      "name": "(パラレル)ポポッコ",
       "cardNumber": "006/190",
       "rarity": "ノーマル",
       "category": "ポケモン",
       "energyType": "草",
-      "surugayaUrl": "/product/detail/GN285093?tenpo_cd=410018",
-      "surugayaPrice": 19,
-      "surugayaSoldOut": true,
+      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN285094",
+      "surugayaPrice": 160,
+      "surugayaSoldOut": false,
       "raritySlug": "n"
     },
     {
@@ -171,14 +171,14 @@
       "raritySlug": "n"
     },
     {
-      "name": "オリーニョ",
+      "name": "(パラレル)オリーニョ",
       "cardNumber": "016/190",
       "rarity": "ノーマル",
       "category": "ポケモン",
       "energyType": "草",
-      "surugayaUrl": "/product/other/GN285109",
-      "surugayaPrice": 18,
-      "surugayaSoldOut": true,
+      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN285110",
+      "surugayaPrice": 160,
+      "surugayaSoldOut": false,
       "raritySlug": "n"
     },
     {
@@ -843,14 +843,14 @@
       "raritySlug": "rr"
     },
     {
-      "name": "ピィ",
+      "name": "(パラレル)ピィ",
       "cardNumber": "077/190",
       "rarity": "ノーマル",
       "category": "ポケモン",
       "energyType": "超",
-      "surugayaUrl": "/product/other/GN285203",
-      "surugayaPrice": 27,
-      "surugayaSoldOut": true,
+      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN285204",
+      "surugayaPrice": 180,
+      "surugayaSoldOut": false,
       "raritySlug": "n"
     },
     {
@@ -865,13 +865,13 @@
       "raritySlug": "n"
     },
     {
-      "name": "ネイティオ",
+      "name": "(パラレル)ネイティオ",
       "cardNumber": "079/190",
       "rarity": "ノーマル",
       "category": "ポケモン",
       "energyType": "超",
-      "surugayaUrl": "/product/other/GN285207",
-      "surugayaPrice": 65,
+      "surugayaUrl": "/product/other/GN285208",
+      "surugayaPrice": 49,
       "surugayaSoldOut": true,
       "raritySlug": "n"
     },
@@ -1041,13 +1041,13 @@
       "raritySlug": "n"
     },
     {
-      "name": "ナカヌチャン",
+      "name": "(パラレル)ナカヌチャン",
       "cardNumber": "095/190",
       "rarity": "ノーマル",
       "category": "ポケモン",
       "energyType": "超",
-      "surugayaUrl": "/product/other/GN285233",
-      "surugayaPrice": 29,
+      "surugayaUrl": "/product/detail/GN285234?tenpo_cd=400461",
+      "surugayaPrice": 180,
       "surugayaSoldOut": true,
       "raritySlug": "n"
     },
@@ -1266,11 +1266,10 @@
       "rarity": "RR",
       "category": "ポケモン",
       "energyType": "悪",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN285264",
-      "surugayaPrice": 480,
-      "surugayaSoldOut": false,
-      "raritySlug": "rr",
-      "surugayaBuyPrice": null
+      "surugayaUrl": "/product/other/GN285264",
+      "surugayaPrice": 190,
+      "surugayaSoldOut": true,
+      "raritySlug": "rr"
     },
     {
       "name": "パルデア ウパー",
@@ -1911,14 +1910,14 @@
       "raritySlug": "n"
     },
     {
-      "name": "ナンジャモ",
+      "name": "(パラレル)ナンジャモ",
       "cardNumber": "174/190",
       "rarity": "ノーマル",
       "category": "サポート",
       "energyType": "",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN285367",
-      "surugayaPrice": 160,
-      "surugayaSoldOut": false,
+      "surugayaUrl": "/product/other/GN285368",
+      "surugayaPrice": 69,
+      "surugayaSoldOut": true,
       "raritySlug": "n"
     },
     {
@@ -2032,24 +2031,24 @@
       "raritySlug": "n"
     },
     {
-      "name": "ボウルタウン",
+      "name": "(パラレル)ボウルタウン",
       "cardNumber": "185/190",
       "rarity": "ノーマル",
       "category": "スタジアム",
       "energyType": "",
-      "surugayaUrl": "/product/other/GN285386",
-      "surugayaPrice": 49,
+      "surugayaUrl": "/product/detail/GN285387?tenpo_cd=410018",
+      "surugayaPrice": 100,
       "surugayaSoldOut": true,
       "raritySlug": "n"
     },
     {
-      "name": "(パラレル)ポケモンリーグ本部",
+      "name": "ポケモンリーグ本部",
       "cardNumber": "186/190",
       "rarity": "ノーマル",
       "category": "スタジアム",
       "energyType": "",
-      "surugayaUrl": "/product/other/GN285389",
-      "surugayaPrice": 229,
+      "surugayaUrl": "/product/other/GN285388",
+      "surugayaPrice": 27,
       "surugayaSoldOut": true,
       "raritySlug": "n"
     },
@@ -3111,10 +3110,9 @@
       "category": "ポケモン",
       "energyType": "闘",
       "surugayaUrl": "/product/other/GN285488",
-      "surugayaPrice": 740,
+      "surugayaPrice": 280,
       "surugayaSoldOut": true,
-      "raritySlug": "s",
-      "surugayaBuyPrice": 500
+      "raritySlug": "s"
     },
     {
       "name": "ルチャブル",

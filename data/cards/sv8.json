@@ -2,8 +2,8 @@
   "pack": "拡張パック「超電ブレイカー」",
   "packSlug": "sv8",
   "source": "surugaya",
-  "collectedAt": "2026-08-19T10:22:48.306Z",
-  "count": 135,
+  "collectedAt": "2026-08-20T03:49:12.927Z",
+  "count": 136,
   "cards": [
     {
       "name": "タマタマ",
@@ -1192,7 +1192,7 @@
       "category": "ポケモン",
       "energyType": "炎",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN709436",
-      "surugayaPrice": 680,
+      "surugayaPrice": 580,
       "surugayaSoldOut": false,
       "raritySlug": "ar",
       "surugayaBuyPrice": null
@@ -1220,6 +1220,18 @@
       "surugayaSoldOut": false,
       "raritySlug": "ar",
       "surugayaBuyPrice": null
+    },
+    {
+      "name": "レアコイル",
+      "cardNumber": "112/106",
+      "rarity": "AR",
+      "category": "ポケモン",
+      "energyType": "雷",
+      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN709439",
+      "surugayaPrice": 1480,
+      "surugayaSoldOut": false,
+      "raritySlug": "ar",
+      "surugayaBuyPrice": 700
     },
     {
       "name": "マッギョ",
