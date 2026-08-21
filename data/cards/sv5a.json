@@ -2,7 +2,7 @@
   "pack": "強化拡張パック「クリムゾンヘイズ」",
   "packSlug": "sv5a",
   "source": "surugaya",
-  "collectedAt": "2026-08-20T03:48:00.257Z",
+  "collectedAt": "2026-08-21T03:03:32.656Z",
   "count": 95,
   "cards": [
     {
@@ -573,9 +573,9 @@
       "rarity": "ACE",
       "category": "グッズ",
       "energyType": "",
-      "surugayaUrl": "/product/other/GN446039",
-      "surugayaPrice": 940,
-      "surugayaSoldOut": true,
+      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN446039",
+      "surugayaPrice": 1680,
+      "surugayaSoldOut": false,
       "raritySlug": "ace",
       "surugayaBuyPrice": 800
     },
@@ -777,10 +777,9 @@
       "category": "ポケモン",
       "energyType": "水",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN446057",
-      "surugayaPrice": 480,
+      "surugayaPrice": 290,
       "surugayaSoldOut": false,
-      "raritySlug": "ar",
-      "surugayaBuyPrice": null
+      "raritySlug": "ar"
     },
     {
       "name": "ウッウ",
@@ -825,7 +824,7 @@
       "category": "ポケモン",
       "energyType": "闘",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN446061",
-      "surugayaPrice": 1080,
+      "surugayaPrice": 800,
       "surugayaSoldOut": false,
       "raritySlug": "ar",
       "surugayaBuyPrice": 500
@@ -861,7 +860,7 @@
       "category": "ポケモン",
       "energyType": "",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN446064",
-      "surugayaPrice": 5480,
+      "surugayaPrice": 3290,
       "surugayaSoldOut": false,
       "raritySlug": "ar",
       "surugayaBuyPrice": 2800
@@ -1029,7 +1028,7 @@
       "category": "サポート",
       "energyType": "",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN446078",
-      "surugayaPrice": 12800,
+      "surugayaPrice": 9200,
       "surugayaSoldOut": false,
       "raritySlug": "sar",
       "surugayaBuyPrice": 8000
@@ -1052,9 +1051,9 @@
       "rarity": "UR",
       "category": "ポケモン",
       "energyType": "",
-      "surugayaUrl": "/product/other/GN446080",
-      "surugayaPrice": 570,
-      "surugayaSoldOut": true,
+      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN446080",
+      "surugayaPrice": 680,
+      "surugayaSoldOut": false,
       "raritySlug": "ur",
       "surugayaBuyPrice": 300
     },
@@ -1064,9 +1063,9 @@
       "rarity": "UR",
       "category": "ポケモンのどうぐ",
       "energyType": "",
-      "surugayaUrl": "/product/other/GN446081",
-      "surugayaPrice": 480,
-      "surugayaSoldOut": true,
+      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN446081",
+      "surugayaPrice": 580,
+      "surugayaSoldOut": false,
       "raritySlug": "ur",
       "surugayaBuyPrice": null
     },

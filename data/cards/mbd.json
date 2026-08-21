@@ -2,7 +2,7 @@
   "pack": "スターターセットMEGA メガディアンシーex",
   "packSlug": "mbd",
   "source": "surugaya",
-  "collectedAt": "2026-08-20T03:52:27.781Z",
+  "collectedAt": "2026-08-21T03:08:26.334Z",
   "count": 15,
   "cards": [
     {
@@ -99,10 +99,11 @@
       "rarity": "ノーマル",
       "category": "ポケモンのどうぐ",
       "energyType": "",
-      "surugayaUrl": "/product/other/GU404896",
-      "surugayaPrice": 170,
-      "surugayaSoldOut": true,
-      "raritySlug": "n"
+      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU404896",
+      "surugayaPrice": 380,
+      "surugayaSoldOut": false,
+      "raritySlug": "n",
+      "surugayaBuyPrice": null
     },
     {
       "name": "ふうせん",
