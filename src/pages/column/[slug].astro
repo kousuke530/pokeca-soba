@@ -1,0 +1,140 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { columns, columnBySlug, type ColumnImage } from '../../data/columns';
+
+export function getStaticPaths() {
+  return columns.map((column) => ({ params: { slug: column.slug }, props: { column } }));
+}
+
+const { column } = Astro.props;
+const rawArticles = import.meta.glob('../../../output/column/*.md', { eager: true, query: '?raw', import: 'default' });
+const raw = rawArticles[`../../../output/column/${column.slug}.md`] as string | undefined;
+
+if (!raw) throw new Error(`Column source is missing: ${column.slug}`);
+
+const escapeHtml = (value: string) => value
+  .replaceAll('&', '&amp;')
+  .replaceAll('<', '&lt;')
+  .replaceAll('>', '&gt;')
+  .replaceAll('"', '&quot;')
+  .replaceAll("'", '&#039;');
+
+const inline = (value: string) => escapeHtml(value)
+  .replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>')
+  .replace(/\[([^\]]+)\]\((https?:\/\/[^)]+)\)/g, '<a href="$2" target="_blank" rel="noopener noreferrer">$1</a>');
+
+const figure = (image: ColumnImage) => `<figure class="article-figure"><img src="${image.src}" alt="${escapeHtml(image.alt)}" loading="lazy" /><figcaption>${escapeHtml(image.caption)}</figcaption></figure>`;
+
+function renderArticle(markdown: string, images: ColumnImage[]) {
+  const lines = markdown.replace(/\r/g, '').split('\n');
+  const h1 = lines.findIndex((line) => line.startsWith('# '));
+  const body = lines.slice(h1 + 1);
+  const html: string[] = [];
+  let paragraph: string[] = [];
+  let list: string[] = [];
+  let ordered = false;
+  let h2Count = 0;
+  const flushParagraph = () => {
+    if (paragraph.length) html.push(`<p>${inline(paragraph.join(' '))}</p>`);
+    paragraph = [];
+  };
+  const flushList = () => {
+    if (!list.length) return;
+    html.push(`<${ordered ? 'ol' : 'ul'}>${list.map((item) => `<li>${inline(item)}</li>`).join('')}</${ordered ? 'ol' : 'ul'}>`);
+    list = [];
+  };
+
+  for (const line of body) {
+    const heading = line.match(/^(#{2,3})\s+(.+)$/);
+    const unordered = line.match(/^[-*]\s+(.+)$/);
+    const orderedItem = line.match(/^\d+[.．]\s*(.+)$/);
+    if (heading) {
+      flushParagraph(); flushList();
+      const level = heading[1].length;
+      if (level === 2) {
+        h2Count += 1;
+        html.push(`<h2>${inline(heading[2])}</h2>`);
+        if (h2Count === 3) html.push(figure(images[1]));
+        if (h2Count === 7) html.push(figure(images[2]));
+      } else html.push(`<h3>${inline(heading[2])}</h3>`);
+    } else if (unordered || orderedItem) {
+      flushParagraph();
+      const isOrdered = Boolean(orderedItem);
+      if (list.length && ordered !== isOrdered) flushList();
+      ordered = isOrdered;
+      list.push((unordered ?? orderedItem)![1]);
+    } else if (!line.trim()) {
+      flushParagraph(); flushList();
+    } else {
+      paragraph.push(line.trim());
+    }
+  }
+  flushParagraph(); flushList();
+  return html.join('\n');
+}
+
+const articleHtml = renderArticle(raw, column.images);
+const jsonLd = JSON.stringify({
+  '@context': 'https://schema.org', '@type': 'Article', headline: column.title,
+  description: column.description, inLanguage: 'ja', dateModified: '2026-08-22',
+  mainEntityOfPage: `https://pokeca-soba.com/column/${column.slug}/`,
+  image: `https://pokeca-soba.com${column.images[0].src}`,
+  publisher: { '@type': 'Organization', name: 'ポケカ相場ドットコム', url: 'https://pokeca-soba.com/' },
+});
+---
+
+<BaseLayout title={`${column.title}｜ポケカ相場ドットコム`} description={column.description} path={`/column/${column.slug}/`} ogImage={column.images[0].src} ogImageWidth={1200} ogImageHeight={675} jsonLd={jsonLd}>
+  <article class="column-article">
+    <nav class="breadcrumbs" aria-label="パンくず"><a href="/">ホーム</a><span>›</span><a href="/column/">コラム</a><span>›</span><span>{column.keyword}</span></nav>
+    <header class="article-header">
+      <p class="article-kicker">ポケカコラム</p>
+      <h1>{column.title}</h1>
+      <p class="article-description">{column.description}</p>
+      <p class="article-meta">最終確認日：<time datetime="2026-08-22">2026年8月22日</time></p>
+    </header>
+    <figure class="hero-figure"><img src={column.images[0].src} alt={column.images[0].alt} width="1200" height="675" loading="eager" /><figcaption>{column.images[0].caption}</figcaption></figure>
+    <aside class="key-point" aria-label="この記事の要点"><p>この記事の要点</p><strong>{column.summary}</strong></aside>
+    <div class="article-body" set:html={articleHtml} />
+    <section class="source-box" aria-labelledby="sources-title">
+      <h2 id="sources-title">参照した公式情報</h2>
+      <p>制度・カードテキスト・発送条件は、下記の一次情報を確認して記載しています。最新の条件はリンク先でご確認ください。</p>
+      <ul>{column.sources.map((source) => <li><a href={source.href} target="_blank" rel="noopener noreferrer">{source.label}</a></li>)}</ul>
+    </section>
+  </article>
+</BaseLayout>
+
+<style>
+  .column-article { max-width: 800px; margin: 0 auto; }
+  .breadcrumbs { display: flex; flex-wrap: wrap; gap: 8px; color: var(--text-sub); font-size: 13px; font-weight: 700; }
+  .breadcrumbs a { color: var(--brand); text-decoration: none; }
+  .article-header { padding: 30px 0 12px; }
+  .article-kicker { display: inline-flex; margin: 0 0 12px; padding: 4px 10px; border-radius: 999px; color: var(--brand); background: var(--brand-light); font-size: 13px; font-weight: 900; }
+  h1 { margin: 0; color: var(--text-strong); font-size: clamp(28px, 5vw, 40px); line-height: 1.38; letter-spacing: -.02em; }
+  .article-description { margin: 18px 0 0; color: var(--text); font-size: 16px; font-weight: 600; }
+  .article-meta { margin: 12px 0 0; color: var(--text-sub); font-size: 13px; }
+  .hero-figure, :global(.article-figure) { margin: 24px 0; overflow: hidden; border: 1px solid var(--border); border-radius: 16px; background: #fff; box-shadow: var(--shadow-sm); }
+  .hero-figure img, :global(.article-figure img) { display: block; width: 100%; aspect-ratio: 16 / 9; object-fit: cover; }
+  .hero-figure figcaption, :global(.article-figure figcaption) { padding: 8px 12px; color: var(--text-sub); font-size: 12px; }
+  .key-point { margin: 28px 0 38px; padding: 20px 22px; border: 1px solid #a9cef9; border-radius: 14px; background: linear-gradient(135deg, #ebf6ff, #fff); }
+  .key-point p { margin: 0 0 6px; color: var(--brand); font-size: 13px; font-weight: 900; }
+  .key-point strong { color: var(--text-strong); font-size: 16px; line-height: 1.75; }
+  :global(.article-body) { font-size: 16px; line-height: 2; }
+  :global(.article-body h2), .source-box h2 { position: relative; margin: 52px 0 18px; padding: 0 0 12px 16px; color: var(--text-strong); font-size: clamp(22px, 4vw, 28px); line-height: 1.48; }
+  :global(.article-body h2::before), .source-box h2::before { position: absolute; top: 4px; bottom: 16px; left: 0; width: 5px; border-radius: 99px; background: var(--brand); content: ''; }
+  :global(.article-body h2::after), .source-box h2::after { position: absolute; right: 0; bottom: 0; left: 0; height: 3px; border-radius: 99px; background: linear-gradient(90deg, var(--brand), #90c2ff 45%, transparent 70%); content: ''; }
+  :global(.article-body h3) { margin: 32px 0 12px; color: #123a73; font-size: 19px; line-height: 1.55; }
+  :global(.article-body p) { margin: 0 0 20px; }
+  :global(.article-body ul), :global(.article-body ol) { margin: 0 0 22px; padding: 16px 20px 16px 40px; border-radius: 12px; background: #f6faff; }
+  :global(.article-body li + li) { margin-top: 8px; }
+  :global(.article-body strong) { color: #052c66; font-weight: 900; text-decoration: underline; text-decoration-color: #8fc1ff; text-decoration-thickness: 3px; text-underline-offset: 4px; }
+  :global(.article-body a), .source-box a { color: var(--brand-dark); font-weight: 800; text-underline-offset: 3px; }
+  .source-box { margin-top: 56px; padding: 8px 24px 22px; border: 1px solid var(--border); border-radius: 16px; background: #fff; box-shadow: var(--shadow-sm); }
+  .source-box h2 { margin-top: 22px; font-size: 21px; }
+  .source-box p { color: var(--text-sub); font-size: 14px; }
+  .source-box ul { margin: 0; padding-left: 20px; }
+  .source-box li + li { margin-top: 8px; }
+  @media (max-width: 640px) {
+    .article-header { padding-top: 22px; } .article-description, :global(.article-body) { font-size: 15px; }
+    .key-point { padding: 18px; } .source-box { padding: 8px 18px 20px; }
+  }
+</style>

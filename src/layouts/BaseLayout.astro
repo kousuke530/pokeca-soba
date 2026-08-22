@@ -12,8 +12,12 @@ interface Props {
   noindexQuery?: boolean;
   /** OGP/Twitterカード用の画像パス（省略時はサイト共通のロゴアイコン） */
   ogImage?: string;
+  /** OGP画像の横幅 */
+  ogImageWidth?: number;
+  /** OGP画像の縦幅 */
+  ogImageHeight?: number;
 }
-const { title, description, path = '', jsonLd, noCanonical = false, noindexQuery = false, ogImage = '/logo-icon.png' } = Astro.props;
+const { title, description, path = '', jsonLd, noCanonical = false, noindexQuery = false, ogImage = '/logo-icon.png', ogImageWidth = 600, ogImageHeight = 600 } = Astro.props;
 const canonical = new URL(path, Astro.site).href;
 const ogImageUrl = new URL(ogImage, Astro.site).href;
 const currentPath = Astro.url.pathname;
@@ -22,6 +26,7 @@ const navItems = [
   { href: '/list/', label: 'ポケモン一覧', match: '/list' },
   { href: '/packs/', label: 'パック一覧', match: '/packs' },
   { href: '/ranking/', label: 'ランキング', match: '/ranking' },
+  { href: '/column/', label: 'コラム', match: '/column' },
 ];
 ---
 
@@ -67,8 +72,8 @@ const navItems = [
     <meta property="og:url" content={canonical} />
     <meta property="og:site_name" content="ポケカ相場ドットコム" />
     <meta property="og:image" content={ogImageUrl} />
-    <meta property="og:image:width" content="600" />
-    <meta property="og:image:height" content="600" />
+    <meta property="og:image:width" content={String(ogImageWidth)} />
+    <meta property="og:image:height" content={String(ogImageHeight)} />
     <meta property="og:image:alt" content="ポケカ相場ドットコム" />
     <meta name="twitter:card" content="summary" />
     <meta name="twitter:title" content={title} />
@@ -119,6 +124,7 @@ const navItems = [
           <p>価格をシェアで比較できるカード相場サイトです。</p>
         </div>
         <nav class="footer-nav" aria-label="フッター">
+          <a href="/column/">コラム</a>
           <a href="/about/">運営者情報</a>
           <a href="/terms/">利用規約</a>
           <a href="/privacy/">プライバシーポリシー</a>
