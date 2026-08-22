@@ -23,7 +23,7 @@ const inline = (value: string) => escapeHtml(value)
   .replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>')
   .replace(/\[([^\]]+)\]\((https?:\/\/[^)]+)\)/g, '<a href="$2" target="_blank" rel="noopener noreferrer">$1</a>');
 
-const figure = (image: ColumnImage) => `<figure class="article-figure"><img src="${image.src}" alt="${escapeHtml(image.alt)}" loading="lazy" /><figcaption>${escapeHtml(image.caption)}</figcaption></figure>`;
+const figure = (image: ColumnImage) => `<figure class="article-figure"><img src="${image.src}" alt="${escapeHtml(image.alt)}" loading="lazy" /></figure>`;
 
 function renderArticle(markdown: string, images: ColumnImage[]) {
   const lines = markdown.replace(/\r/g, '').split('\n');
@@ -92,7 +92,7 @@ const jsonLd = JSON.stringify({
       <p class="article-description">{column.description}</p>
       <p class="article-meta">最終確認日：<time datetime="2026-08-22">2026年8月22日</time></p>
     </header>
-    <figure class="hero-figure"><img src={column.images[0].src} alt={column.images[0].alt} width="1200" height="675" loading="eager" /><figcaption>{column.images[0].caption}</figcaption></figure>
+    <figure class="hero-figure"><img src={column.images[0].src} alt={column.images[0].alt} width="1200" height="675" loading="eager" /></figure>
     <aside class="key-point" aria-label="この記事の要点"><p>この記事の要点</p><strong>{column.summary}</strong></aside>
     <div class="article-body" set:html={articleHtml} />
     <section class="source-box" aria-labelledby="sources-title">
@@ -114,7 +114,6 @@ const jsonLd = JSON.stringify({
   .article-meta { margin: 12px 0 0; color: var(--text-sub); font-size: 13px; }
   .hero-figure, :global(.article-figure) { margin: 24px 0; overflow: hidden; border: 1px solid var(--border); border-radius: 16px; background: #fff; box-shadow: var(--shadow-sm); }
   .hero-figure img, :global(.article-figure img) { display: block; width: 100%; aspect-ratio: 16 / 9; object-fit: cover; }
-  .hero-figure figcaption, :global(.article-figure figcaption) { padding: 8px 12px; color: var(--text-sub); font-size: 12px; }
   .key-point { margin: 28px 0 38px; padding: 20px 22px; border: 1px solid #a9cef9; border-radius: 14px; background: linear-gradient(135deg, #ebf6ff, #fff); }
   .key-point p { margin: 0 0 6px; color: var(--brand); font-size: 13px; font-weight: 900; }
   .key-point strong { color: var(--text-strong); font-size: 16px; line-height: 1.75; }

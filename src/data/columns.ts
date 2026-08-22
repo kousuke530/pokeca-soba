@@ -1,7 +1,6 @@
 export type ColumnImage = {
   src: string;
   alt: string;
-  caption: string;
 };
 
 export type Column = {
@@ -15,9 +14,9 @@ export type Column = {
 };
 
 const images = (slug: string, alt: [string, string, string]): ColumnImage[] => [
-  { src: `/images/columns/${slug}/hero.png`, alt: alt[0], caption: '記事の内容をイメージしたオリジナルビジュアル' },
-  { src: `/images/columns/${slug}/point-01.png`, alt: alt[1], caption: 'ポイントを視覚的に整理するためのオリジナルビジュアル' },
-  { src: `/images/columns/${slug}/point-02.png`, alt: alt[2], caption: '実践時の着眼点をイメージしたオリジナルビジュアル' },
+  { src: `/images/columns/${slug}/hero.png`, alt: alt[0] },
+  { src: `/images/columns/${slug}/point-01.png`, alt: alt[1] },
+  { src: `/images/columns/${slug}/point-02.png`, alt: alt[2] },
 ];
 
 export const columns: Column[] = [
