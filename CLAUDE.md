@@ -56,6 +56,22 @@ data/history/             … カード別の日次価格履歴（推移グラ�
 input/ work/ output/      … 受け渡し/作業中/最終成果物（共通規約）
 ```
 
+## コラム作成完了の通知
+
+`output/column/` に新規または改訂した記事を作成し終えたら、Codexの品質確認を依頼するため、`work/column-review-ready.md` を作成または更新する。内容は次の形式にする。
+
+```md
+---
+status: pending
+articles:
+  - output/column/<article-slug>.md
+---
+```
+
+- `articles` には今回作成・改訂した記事だけを列挙する。
+- `status: pending` はCodexの定期チェック対象であることを示す。Codexが品質確認・修正・画像作成・ビルド・commit・pushを成功させたら、処理済みの状態に更新する。
+- 記事の作成中にはこのファイルを更新しない。すべての対象記事を書き終えてから更新する。
+
 ## スクレイピング（実データ取得）
 
 ### 方針・遵守ルール（重要）
