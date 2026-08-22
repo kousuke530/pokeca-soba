@@ -76,7 +76,7 @@ function renderArticle(markdown: string, images: ColumnImage[]) {
 const articleHtml = renderArticle(raw, column.images);
 const jsonLd = JSON.stringify({
   '@context': 'https://schema.org', '@type': 'Article', headline: column.title,
-  description: column.description, inLanguage: 'ja', dateModified: '2026-08-22',
+  description: column.description, inLanguage: 'ja', dateModified: '2026-08-23',
   mainEntityOfPage: `https://pokeca-soba.com/column/${column.slug}/`,
   image: `https://pokeca-soba.com${column.images[0].src}`,
   publisher: { '@type': 'Organization', name: 'ポケカ相場ドットコム', url: 'https://pokeca-soba.com/' },
@@ -90,7 +90,7 @@ const jsonLd = JSON.stringify({
       <p class="article-kicker">ポケカコラム</p>
       <h1>{column.title}</h1>
       <p class="article-description">{column.description}</p>
-      <p class="article-meta">最終確認日：<time datetime="2026-08-22">2026年8月22日</time></p>
+      <p class="article-meta">最終確認日：<time datetime="2026-08-23">2026年8月23日</time></p>
     </header>
     <figure class="hero-figure"><img src={column.images[0].src} alt={column.images[0].alt} width="1200" height="675" loading="eager" /></figure>
     <aside class="key-point" aria-label="この記事の要点"><p>この記事の要点</p><strong>{column.summary}</strong></aside>

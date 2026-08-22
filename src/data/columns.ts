@@ -134,6 +134,122 @@ export const columns: Column[] = [
       { label: '拡張パック「ストームエメラルダ」公式ページ', href: 'https://www.pokemon-card.com/ex/m6/' },
     ],
   },
+  {
+    slug: 'meta-deck', keyword: 'メタデッキ',
+    title: 'メタデッキとは？ポケカ環境の読み方と対策の組み方を解説',
+    description: 'メタデッキの意味、環境を読むための材料、対策カードの選び方を解説します。大会結果と自分の対戦環境を分けて読み、構築を調整する手順を整理します。',
+    summary: 'メタデッキは固定された正解ではありません。大会結果と身近な対戦環境を分け、苦手な相手を具体化してから対策を選びましょう。',
+    images: images('meta-deck', ['3つの構築が相互に影響するカードゲームの対戦卓', '相性関係を示す抽象的な戦略マップ', '大会結果とカードを照らし合わせる戦略ノート']),
+    sources: [
+      { label: 'チャンピオンシップシリーズ（公式）', href: 'https://www.pokemon-card.com/event/championshipseries/' },
+      { label: 'レギュレーション（公式）', href: 'https://www.pokemon-card.com/rules/regulation/' },
+    ],
+  },
+  {
+    slug: 'wcs2024-results', keyword: 'WCS2024 ポケカ',
+    title: 'WCS2024ポケカの結果まとめ｜優勝デッキと上位入賞デッキを解説',
+    description: 'WCS2024のポケカ部門について、開催概要、優勝者、上位入賞デッキ、当時の環境と現在のレギュレーションでの扱いを一次情報をもとに解説します。',
+    summary: 'WCS2024の結果は当時のカードプールで生まれた記録です。現在の対戦に取り入れる前に、使えるカードと現環境の分布を確認しましょう。',
+    images: images('wcs2024-results', ['ホノルルの世界大会を想起させるカードゲームのステージ', '世界大会の組み合わせを表すトーナメント演出', '大会結果を読み解くカードゲームの分析風景']),
+    sources: [
+      { label: 'ポケモンWCS2024カードゲーム部門ライブ配信（公式）', href: 'https://www.pokemon-card.com/info/004568.html' },
+      { label: 'ポケモンワールドチャンピオンシップス（公式）', href: 'https://www.pokemon.com/us/play-pokemon/pokemon-events/pokemon-tournaments/pokemon-world-championships/' },
+      { label: 'レギュレーション（公式）', href: 'https://www.pokemon-card.com/rules/regulation/' },
+    ],
+  },
+  {
+    slug: 'recommended-cards', keyword: 'ポケカ おすすめカード',
+    title: 'ポケカのおすすめカードの選び方｜対戦・コレクション別に解説',
+    description: 'ポケカのおすすめカードを、対戦用・コレクション用・予算別の目的から選ぶ方法を解説します。公式大会の記録、レギュレーション、価格比較の確認順も整理します。',
+    summary: 'おすすめの基準は目的で変わります。対戦なら使用可否と役割、コレクションなら収録情報と状態、購入前には価格を比べる順に確認しましょう。',
+    images: images('recommended-cards', ['目的別に選ばれた架空のトレーディングカードとチェックリスト', '用途ごとに整理したカードとスリーブの俯瞰', 'カード価格と購入条件を比べる手元']),
+    sources: [
+      { label: 'チャンピオンシップシリーズ（公式）', href: 'https://www.pokemon-card.com/event/championshipseries/' },
+      { label: 'カード検索（公式）', href: 'https://www.pokemon-card.com/card-search/' },
+      { label: 'レギュレーション（公式）', href: 'https://www.pokemon-card.com/rules/regulation/' },
+    ],
+  },
+  {
+    slug: 'goodra-deck', keyword: 'ヌメルゴン デッキ',
+    title: 'ヌメルゴンデッキとは？耐久の仕組みと現在の使い方を解説',
+    description: 'ヒスイ ヌメルゴンVSTARを軸にしたヌメルゴンデッキの効果、耐久の仕組み、回し方、苦手な相手、現在のレギュレーションでの扱いを解説します。',
+    summary: 'ヒスイ ヌメルゴンVSTARはHP270、アイアンローリングのダメージ軽減、モイストスターの回復を組み合わせる構築です。使う場のルールを先に確認しましょう。',
+    images: images('goodra-deck', ['防御的な架空のドラゴンとカードゲームのエネルギー', '回復と防御を表す戦略トークンの配置', '防御の光をまとう架空のドラゴンのイメージ']),
+    sources: [
+      { label: 'ヒスイ ヌメルゴンVSTARのカード情報（公式）', href: 'https://www.pokemon-card.com/card-search/details.php/card/44891' },
+      { label: '強化拡張パック「ダークファンタズマ」（公式）', href: 'https://www.pokemon-card.com/products/s/s10a.html' },
+      { label: 'レギュレーション（公式）', href: 'https://www.pokemon-card.com/rules/regulation/' },
+    ],
+  },
+  {
+    slug: 'alpha-card-oripa', keyword: 'アルファカード オリパ',
+    title: 'アルファカードのオリパとは？仕組みと利用前の確認点を解説',
+    description: 'アルファカードで扱われるオリパの仕組み、還元率表示の読み方、利用前に確認したい項目、カードの価値を自分で判断する手順を解説します。',
+    summary: 'オリパの表示だけで価値を判断せず、販売条件、在庫表示、発送条件、カードの相場を分けて確認しましょう。',
+    images: images('alpha-card-oripa', ['未開封の架空カードパックと確認用の小物', 'オリパの購入条件を確認するための抽象的な俯瞰', '価格と内容を比較する抽象的なカードゲーム演出']),
+    sources: [
+      { label: 'Card Shop ALPHA公式サイト', href: 'https://cardshop-alpha.com/' },
+      { label: '通信販売の申込み段階における表示（消費者庁）', href: 'https://www.caa.go.jp/policies/policy/consumer_transaction/specified_commercial_transactions/notice/online/' },
+    ],
+  },
+  {
+    slug: 'tcg-metagame', keyword: 'TCG 環境',
+    title: 'TCGの環境とは？Tier表の読み方と変化の追い方を解説',
+    description: 'TCGで使われる「環境」の意味、Tier表の読み方、環境が変わる要因、公式大会結果を使った確認手順を解説します。ポケカのデッキ選びにも役立ちます。',
+    summary: '環境は全国と身近な対戦場所で異なります。Tier表を結論にせず、大会結果、自分が通う場の分布、採用カードを分けて見ましょう。',
+    images: images('tcg-metagame', ['3つの構築の相性を表す抽象的なカードゲーム盤面', '文字を使わない階層データを表す戦略トークン', '大会傾向を分析するカードゲームのノート']),
+    sources: [
+      { label: 'チャンピオンシップシリーズ（公式）', href: 'https://www.pokemon-card.com/event/championshipseries/' },
+      { label: 'ポケモンカードゲームの遊びかた・ルール（公式）', href: 'https://www.pokemon-card.com/rules/' },
+    ],
+  },
+  {
+    slug: 'champions-league-winners', keyword: 'ポケカ CL 優勝デッキ',
+    title: 'ポケカのCL優勝デッキまとめ｜公式記録の読み方と活かし方を解説',
+    description: 'ポケカのCL優勝デッキについて、チャンピオンズリーグ2026の公式記録、部門別の結果の読み方、構築への活かし方、次シーズンの日程を解説します。',
+    summary: '優勝デッキは大会・部門・カードプールをそろえて読むことが前提です。デッキ名だけでなく、公式の結果とレシピを確認してから採用を検討しましょう。',
+    images: images('champions-league-winners', ['全国規模のカードゲーム大会と優勝トロフィーの演出', '大会の組み合わせとデッキマーカーを表す抽象図', '優勝構築を分析するカードとノート']),
+    sources: [
+      { label: 'チャンピオンズリーグ2026大阪 大会賞品・詳細（公式）', href: 'https://www.pokemon-card.com/info/005392.html' },
+      { label: 'チャンピオンシップシリーズ（公式）', href: 'https://www.pokemon-card.com/event/championshipseries/' },
+      { label: 'チャンピオンシップシリーズ2027について（公式）', href: 'https://www.pokemon-card.com/info/005597.html' },
+    ],
+  },
+  {
+    slug: 'volcanion-deck', keyword: 'ボルケニオン デッキ',
+    title: 'ボルケニオンデッキとは？やけどを絡めた回し方と組み方を解説',
+    description: 'ボルケニオンexを軸に、やけどとエネルギー移動を使うデッキのカード性能、特殊状態のルール、回し方、相性のよいカードを解説します。',
+    summary: 'ボルケニオンexの特性「やけつくじょうき」は相手をやけどにし、ワザ「ヒートサイクロン」は160ダメージとエネルギーのつけ替えを行います。',
+    images: images('volcanion-deck', ['蒸気と炎をまとう架空生物がいるカードゲームの盤面', '炎のエネルギーをベンチへ動かす抽象的な戦略図', '熱を帯びた架空生物とカードゲームの演出']),
+    sources: [
+      { label: '拡張パック「バトルパートナーズ」（公式）', href: 'https://www.pokemon-card.com/ex/sv9/index.html' },
+      { label: 'ポケモンカードゲームの遊びかた・ルール（公式）', href: 'https://www.pokemon-card.com/rules/' },
+      { label: 'ポケカ四天王直伝のデッキレシピ（公式）', href: 'https://www.pokemon-card.com/info/004811.html' },
+    ],
+  },
+  {
+    slug: 'wcs-results', keyword: 'WCS 結果 ポケカ',
+    title: 'WCSの結果まとめ｜ポケカ世界大会の優勝者と結果の追い方を解説',
+    description: 'WCSのポケカ部門について、直近大会の優勝者と開催地、部門ごとの見方、公式結果の確認先、国内環境へ生かす手順を解説します。',
+    summary: 'WCSの結果を読むときは、年度・種目・部門をそろえることが出発点です。公式の大会ページで記録を確認し、国内のカードプールとは分けて判断しましょう。',
+    images: images('wcs-results', ['世界大会を表すカードゲーム会場と地球儀の光', '世界規模の組み合わせを表す抽象的なトーナメント図', '国際大会の結果を確認するカードゲームの手元']),
+    sources: [
+      { label: 'ポケモンワールドチャンピオンシップス（公式）', href: 'https://www.pokemon.com/us/play-pokemon/pokemon-events/pokemon-tournaments/pokemon-world-championships/' },
+      { label: 'チャンピオンシップシリーズとは（公式）', href: 'https://www.pokemon-card.com/event/championshipseries/about/' },
+    ],
+  },
+  {
+    slug: 'tsujido-card-shop', keyword: '辻堂 カードショップ',
+    title: '辻堂のカードショップの探し方｜店選びの基準と買取前の確認点',
+    description: '辻堂でカードショップを探す方法、公式の取扱店舗検索、店選びの確認項目、買う・売る・遊ぶ目的別の選び方、買取前の相場確認を解説します。',
+    summary: '店舗情報は変動します。公式の取扱店舗検索で候補を挙げ、各店舗の公式情報で営業時間・在庫・買取受付を確認してから訪問しましょう。',
+    images: images('tsujido-card-shop', ['駅近くのカードショップを探す街並みのイメージ', '明るいホビー店のカード販売コーナー', '来店前にカード価格を比べる手元']),
+    sources: [
+      { label: 'ポケモンカードゲーム取扱店舗検索（公式）', href: 'https://map.pokemon-card.com/' },
+      { label: 'KaBoS藤沢店（公式）', href: 'https://www.kabos.jp/tenpo/fujisawa/' },
+      { label: 'JR東日本 辻堂駅（公式）', href: 'https://www.jreast.co.jp/estation/station/info.aspx?StationCd=1013' },
+    ],
+  },
 ];
 
 export const columnBySlug = new Map(columns.map((column) => [column.slug, column]));
