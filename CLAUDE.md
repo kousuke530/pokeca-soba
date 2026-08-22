@@ -56,7 +56,7 @@ data/history/             … カード別の日次価格履歴（推移グラ�
 input/ work/ output/      … 受け渡し/作業中/最終成果物（共通規約）
 ```
 
-## コラム作成完了の通知
+## コラム作成完了時のCodexレビュー起動
 
 `output/column/` に新規または改訂した記事を作成し終えたら、Codexの品質確認を依頼するため、`work/column-review-ready.md` を作成または更新する。内容は次の形式にする。
 
@@ -69,8 +69,15 @@ articles:
 ```
 
 - `articles` には今回作成・改訂した記事だけを列挙する。
-- `status: pending` はCodexの定期チェック対象であることを示す。Codexが品質確認・修正・画像作成・ビルド・commit・pushを成功させたら、処理済みの状態に更新する。
+- `status: pending` はCodexレビューの実行対象であることを示す。Codexが品質確認・修正・画像作成・ビルド・commit・pushを成功させたら、処理済みの状態に更新する。
 - 記事の作成中にはこのファイルを更新しない。すべての対象記事を書き終えてから更新する。
+- マーカーの更新直後に、必ず次を実行してCodexへレビュー〜pushを依頼する。完了を待ち、成功または失敗の結果を報告する。
+
+```bash
+bash scripts/column/request-codex-review.sh
+```
+
+- Claude Code自身は、このフローで記事の品質修正・画像生成・commit・pushを行わない。上記スクリプトが起動するCodexに委ねる。
 
 ## スクレイピング（実データ取得）
 
