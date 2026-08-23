@@ -2,7 +2,7 @@
   "pack": "拡張パック「未来の一閃」",
   "packSlug": "sv4m",
   "source": "surugaya",
-  "collectedAt": "2026-08-22T10:45:21.494Z",
+  "collectedAt": "2026-08-23T04:24:35.433Z",
   "count": 95,
   "cards": [
     {
@@ -77,8 +77,8 @@
       "rarity": "C",
       "category": "ポケモン",
       "energyType": "草",
-      "surugayaUrl": "/product/other/GN228528",
-      "surugayaPrice": 60,
+      "surugayaUrl": "/product/detail/GN228528?tenpo_cd=400521",
+      "surugayaPrice": 180,
       "surugayaSoldOut": true,
       "raritySlug": "c"
     },
@@ -550,7 +550,7 @@
       "rarity": "R",
       "category": "ポケモン",
       "energyType": "",
-      "surugayaUrl": "/product/other/GN228571",
+      "surugayaUrl": "/product/detail/GN228571?tenpo_cd=410018",
       "surugayaPrice": 35,
       "surugayaSoldOut": true,
       "raritySlug": "r"
@@ -627,8 +627,8 @@
       "rarity": "RR",
       "category": "ポケモン",
       "energyType": "",
-      "surugayaUrl": "/product/other/GN228578",
-      "surugayaPrice": 60,
+      "surugayaUrl": "/product/detail/GN228578?tenpo_cd=410011",
+      "surugayaPrice": 210,
       "surugayaSoldOut": true,
       "raritySlug": "rr"
     },
@@ -885,14 +885,14 @@
       "surugayaBuyPrice": null
     },
     {
-      "name": "テツノブジンex",
+      "name": "【ランクB】テツノブジンex",
       "cardNumber": "080/066",
       "rarity": "SR",
       "category": "ポケモン",
       "energyType": "超",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN228601",
-      "surugayaPrice": 480,
-      "surugayaSoldOut": false,
+      "surugayaUrl": "/product/detail/GB228601?tenpo_cd=400500",
+      "surugayaPrice": 630,
+      "surugayaSoldOut": true,
       "raritySlug": "sr",
       "surugayaBuyPrice": null
     },
@@ -1053,16 +1053,16 @@
       "surugayaBuyPrice": null
     },
     {
-      "name": "【ランクB】カウンターキャッチャー",
+      "name": "カウンターキャッチャー",
       "cardNumber": "094/066",
       "rarity": "UR",
       "category": "グッズ",
       "energyType": "",
-      "surugayaUrl": "/product/detail/GB228615?tenpo_cd=201206",
-      "surugayaPrice": 1290,
-      "surugayaSoldOut": true,
+      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN228615",
+      "surugayaPrice": 1980,
+      "surugayaSoldOut": false,
       "raritySlug": "ur",
-      "surugayaBuyPrice": null
+      "surugayaBuyPrice": 700
     },
     {
       "name": "基本はがねエネルギー",
