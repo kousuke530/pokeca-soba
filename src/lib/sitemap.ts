@@ -1,8 +1,9 @@
 // サイトマップ生成ヘルパー。
 // 参照: Business/orb/税理士検索サイト制作 の lib/sitemap.ts（種類別インデックス＋チャンク分割）。
-// pokeca では TOP/静的・ポケモン・パック・カード詳細(チャンク) に分けて出力する。
+// pokeca では TOP/静的・ポケモン・パック・コラム・カード詳細(チャンク) に分けて出力する。
 import { allCards, series, latestHistoryDate, PACK_PAGE_SIZE, packVariants } from '../data/cards';
 import { allPacks } from '../data/packs';
+import { columns } from '../data/columns';
 
 export const SITE_URL = 'https://pokeca-soba.com';
 // 価格データの最新日を lastmod に採用（無ければビルド日）
@@ -75,6 +76,7 @@ export function topUrls(): UrlEntry[] {
     { loc: abs('/list/'), lastmod: LASTMOD, changefreq: 'weekly', priority: 0.8 },
     { loc: abs('/packs/'), lastmod: LASTMOD, changefreq: 'weekly', priority: 0.8 },
     { loc: abs('/ranking/'), lastmod: LASTMOD, changefreq: 'daily', priority: 0.8 },
+    { loc: abs('/column/'), lastmod: LASTMOD, changefreq: 'weekly', priority: 0.8 },
     { loc: abs('/search/'), lastmod: LASTMOD, changefreq: 'monthly', priority: 0.5 },
     { loc: abs('/sitemap/'), lastmod: LASTMOD, changefreq: 'monthly', priority: 0.3 },
     { loc: abs('/about/'), lastmod: LASTMOD, changefreq: 'yearly', priority: 0.3 },
@@ -109,6 +111,16 @@ export function packUrls(): UrlEntry[] {
     }
   }
   return urls;
+}
+
+/** コラム記事 /column/[slug] */
+export function columnUrls(): UrlEntry[] {
+  return columns.map((c) => ({
+    loc: abs(`/column/${c.slug}/`),
+    lastmod: LASTMOD,
+    changefreq: 'monthly',
+    priority: 0.6,
+  }));
 }
 
 /** カード詳細ページ /list/[slug]/[番号-レア]（重複URLは除去） */

@@ -7,6 +7,7 @@ export const GET: APIRoute = () => {
     { loc: `${SITE_URL}/sitemap-top.xml`, lastmod: LASTMOD },
     { loc: `${SITE_URL}/sitemap-pokemon.xml`, lastmod: LASTMOD },
     { loc: `${SITE_URL}/sitemap-packs.xml`, lastmod: LASTMOD },
+    { loc: `${SITE_URL}/sitemap-columns.xml`, lastmod: LASTMOD },
     ...Array.from({ length: CARD_PARTS }, (_, i) => ({
       loc: `${SITE_URL}/sitemap-cards-${pad2(i + 1)}.xml`,
       lastmod: LASTMOD,

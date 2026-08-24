@@ -3,6 +3,7 @@ import BaseLayout from '../layouts/BaseLayout.astro';
 import Breadcrumbs from '../components/Breadcrumbs.astro';
 import { packs } from '../data/packs';
 import { pokemonSeries } from '../data/cards';
+import { columns } from '../data/columns';
 
 const title = 'サイトマップ｜ポケカ相場ドットコム';
 const description =
@@ -13,6 +14,7 @@ const mainPages = [
   { href: '/list/', label: 'ポケモン一覧' },
   { href: '/packs/', label: 'パック一覧' },
   { href: '/ranking/', label: '高額カードランキング' },
+  { href: '/column/', label: 'ポケカコラム' },
   { href: '/search/', label: 'カード検索' },
 ];
 const infoPages = [
@@ -43,6 +45,13 @@ const pokemon = pokemonSeries().sort((a, b) => a.name.localeCompare(b.name, 'ja'
       <h2>サイト情報</h2>
       <ul>
         {infoPages.map((p) => <li><a href={p.href}>{p.label}</a></li>)}
+      </ul>
+    </section>
+
+    <section class="col col-wide">
+      <h2>コラムを読む（全{columns.length}記事）</h2>
+      <ul class="cols">
+        {columns.map((c) => <li><a href={`/column/${c.slug}/`}>{c.title}</a></li>)}
       </ul>
     </section>
 
@@ -83,6 +92,11 @@ const pokemon = pokemonSeries().sort((a, b) => a.name.localeCompare(b.name, 'ja'
   .col a:hover { color: var(--brand); text-decoration: underline; }
   /* パックは数が多いので col 内で複数列に */
   .col-wide { grid-column: 1 / -1; }
+  .cols {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 4px 16px;
+  }
   .packs {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
