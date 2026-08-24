@@ -5,12 +5,23 @@ set -euo pipefail
 repo_root="$(cd -- "$(dirname -- "${BASH_SOURCE[0]}")/../.." && pwd)"
 review_file="$repo_root/work/column-review-ready.md"
 
-if [[ ! -f "$review_file" ]] || ! rg -q '^status:[[:space:]]*pending[[:space:]]*$' "$review_file"; then
+if [[ ! -f "$review_file" ]] || ! grep -qE '^status:[[:space:]]*pending[[:space:]]*$' "$review_file"; then
   echo "レビュー待ちの記事はありません。work/column-review-ready.md を status: pending で更新してください。"
   exit 0
 fi
 
-exec codex exec \
+codex_bin="$(command -v codex || true)"
+if [[ -z "$codex_bin" ]]; then
+  for candidate in "/Applications/ChatGPT.app/Contents/Resources/codex" "$HOME/.codex/bin/codex"; do
+    if [[ -x "$candidate" ]]; then codex_bin="$candidate"; break; fi
+  done
+fi
+if [[ -z "$codex_bin" ]]; then
+  echo "codex コマンドが見つかりません。Codex CLI のパスを確認してください。" >&2
+  exit 1
+fi
+
+exec "$codex_bin" exec \
   --dangerously-bypass-approvals-and-sandbox \
   --cd "$repo_root" \
   --add-dir "/Users/kosuke/Desktop/Automation" \
