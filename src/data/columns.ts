@@ -638,9 +638,9 @@ export const columns: Column[] = [
     summary: 'ピクシーexとメガピクシーexは役割が異なります。進化する番、エネルギーを残す枚数、サイド3枚を渡す局面を分けて考えましょう。',
     images: images('clefable-deck', ['月明かりの架空の生き物とカードゲーム盤面', '超タイプのエネルギーを集める戦略盤面', 'ベンチから相手を呼び出す対戦場面']),
     sources: [
-      { label: 'メガピクシーexのカード情報（公式）', href: 'https://www.pokemon-card.com/card-search/details.php/card/50063' },
+      { label: 'メガピクシーexのカード情報（公式）', href: 'https://www.pokemon-card.com/card-search/details.php/card/49663' },
       { label: 'ピクシーexのカード情報（公式）', href: 'https://www.pokemon-card.com/card-search/details.php/card/43750/regu/all' },
-      { label: 'ピッピのカード情報（公式）', href: 'https://www.pokemon-card.com/card-search/details.php/card/50053/regu/all' },
+      { label: 'ピッピのカード情報（公式）', href: 'https://www.pokemon-card.com/card-search/details.php/card/49662/regu/all' },
       { label: 'ピクシーexのQ&A検索結果（公式）', href: 'https://www.pokemon-card.com/rules/faq/search.php?freeword=%E3%83%94%E3%82%AF%E3%82%B7%E3%83%BCex&regulation_faq_main_item1=all' },
     ],
     related: ['zacian-deck', 'psychic-deck', 'slowbro-ex', 'meta-deck', 'recommended-cards'],
