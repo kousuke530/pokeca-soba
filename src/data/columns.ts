@@ -663,3 +663,7 @@ export const columns: Column[] = [
 ];
 
 export const columnBySlug = new Map(columns.map((column) => [column.slug, column]));
+
+/** コラム一覧の1ページあたり記事数（/column/ と /column/page[n]/ で共有） */
+export const COLUMN_PAGE_SIZE = 10;
+export const columnTotalPages = Math.max(1, Math.ceil(columns.length / COLUMN_PAGE_SIZE));

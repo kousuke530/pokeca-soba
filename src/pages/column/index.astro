@@ -1,34 +1,6 @@
 ---
-import BaseLayout from '../../layouts/BaseLayout.astro';
-import { columns } from '../../data/columns';
-const title = 'ポケカコラム｜ポケカ相場ドットコム';
-const description = 'ポケモンカードのデッキ、ルール、大会、梱包について、公式情報を確認しながら分かりやすく解説します。';
+import ColumnList from '../../components/ColumnList.astro';
+import { columns, COLUMN_PAGE_SIZE, columnTotalPages } from '../../data/columns';
 ---
 
-<BaseLayout title={title} description={description} path="/column/">
-  <section class="column-index">
-    <p class="eyebrow">POKÉCA COLUMN</p>
-    <h1>ポケカコラム</h1>
-    <p class="lead">デッキの組み方から大会・発送まで、ポケカをもっと楽しむための情報をまとめています。</p>
-    <ul class="column-list">
-      {columns.map((column) => <li><a href={`/column/${column.slug}/`}><img src={column.images[0].src} alt="" width="360" height="203" loading="lazy" /><div><span>{column.keyword}</span><h2>{column.title}</h2><p>{column.description}</p><b>記事を読む →</b></div></a></li>)}
-    </ul>
-  </section>
-</BaseLayout>
-
-<style>
-  .column-index { max-width: 960px; margin: 0 auto; }
-  .eyebrow { margin: 0; color: var(--brand); font-size: 13px; font-weight: 900; letter-spacing: .12em; }
-  h1 { margin: 6px 0 10px; color: var(--text-strong); font-size: 36px; }
-  .lead { margin: 0 0 28px; color: var(--text-sub); font-weight: 600; }
-  .column-list { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 20px; margin: 0; padding: 0; list-style: none; }
-  .column-list a { display: block; height: 100%; overflow: hidden; color: inherit; border: 1px solid var(--border); border-radius: 14px; background: #fff; box-shadow: var(--shadow-sm); text-decoration: none; transition: transform .2s, box-shadow .2s; }
-  .column-list a:hover { transform: translateY(-3px); box-shadow: var(--shadow); }
-  .column-list img { display: block; width: 100%; aspect-ratio: 16 / 9; object-fit: cover; background: var(--brand-light); }
-  .column-list div { padding: 18px; }
-  .column-list span { color: var(--brand); font-size: 12px; font-weight: 900; }
-  .column-list h2 { margin: 6px 0 8px; color: var(--text-strong); font-size: 19px; line-height: 1.5; }
-  .column-list p { margin: 0; color: var(--text-sub); font-size: 13px; line-height: 1.7; }
-  .column-list b { display: block; margin-top: 14px; color: var(--brand); font-size: 13px; }
-  @media (max-width: 640px) { .column-list { grid-template-columns: 1fr; } }
-</style>
+<ColumnList items={columns.slice(0, COLUMN_PAGE_SIZE)} page={1} totalPages={columnTotalPages} total={columns.length} />

@@ -1,0 +1,21 @@
+---
+import ColumnList from '../../components/ColumnList.astro';
+import { columns, COLUMN_PAGE_SIZE, columnTotalPages } from '../../data/columns';
+
+export function getStaticPaths() {
+  // 1ページ目は /column/ が担当。2ページ目以降のみ生成
+  const paths = [];
+  for (let n = 2; n <= columnTotalPages; n++) {
+    paths.push({ params: { n: String(n) }, props: { page: n } });
+  }
+  return paths;
+}
+
+interface Props {
+  page: number;
+}
+const { page } = Astro.props;
+const items = columns.slice((page - 1) * COLUMN_PAGE_SIZE, page * COLUMN_PAGE_SIZE);
+---
+
+<ColumnList items={items} page={page} totalPages={columnTotalPages} total={columns.length} />
