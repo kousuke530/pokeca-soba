@@ -2,7 +2,7 @@
   "pack": "拡張パック「未来の一閃」",
   "packSlug": "sv4m",
   "source": "surugaya",
-  "collectedAt": "2026-08-24T04:14:59.456Z",
+  "collectedAt": "2026-08-25T00:15:41.467Z",
   "count": 95,
   "cards": [
     {
@@ -77,8 +77,8 @@
       "rarity": "C",
       "category": "ポケモン",
       "energyType": "草",
-      "surugayaUrl": "/product/detail/GN228528?tenpo_cd=400521",
-      "surugayaPrice": 180,
+      "surugayaUrl": "/product/other/GN228528",
+      "surugayaPrice": 60,
       "surugayaSoldOut": true,
       "raritySlug": "c"
     },
@@ -550,7 +550,7 @@
       "rarity": "R",
       "category": "ポケモン",
       "energyType": "",
-      "surugayaUrl": "/product/detail/GN228571?tenpo_cd=410018",
+      "surugayaUrl": "/product/other/GN228571",
       "surugayaPrice": 35,
       "surugayaSoldOut": true,
       "raritySlug": "r"
@@ -627,8 +627,8 @@
       "rarity": "RR",
       "category": "ポケモン",
       "energyType": "",
-      "surugayaUrl": "/product/detail/GN228578?tenpo_cd=410011",
-      "surugayaPrice": 210,
+      "surugayaUrl": "/product/other/GN228578",
+      "surugayaPrice": 60,
       "surugayaSoldOut": true,
       "raritySlug": "rr"
     },
@@ -740,7 +740,8 @@
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN228588",
       "surugayaPrice": 300,
       "surugayaSoldOut": false,
-      "raritySlug": "ar"
+      "raritySlug": "ar",
+      "surugayaBuyPrice": null
     },
     {
       "name": "リククラゲ",
@@ -751,7 +752,8 @@
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN228589",
       "surugayaPrice": 380,
       "surugayaSoldOut": false,
-      "raritySlug": "ar"
+      "raritySlug": "ar",
+      "surugayaBuyPrice": null
     },
     {
       "name": "テツノドクガ",
@@ -762,7 +764,8 @@
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN228590",
       "surugayaPrice": 300,
       "surugayaSoldOut": false,
-      "raritySlug": "ar"
+      "raritySlug": "ar",
+      "surugayaBuyPrice": null
     },
     {
       "name": "バニリッチ",
@@ -773,7 +776,8 @@
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN228591",
       "surugayaPrice": 480,
       "surugayaSoldOut": false,
-      "raritySlug": "ar"
+      "raritySlug": "ar",
+      "surugayaBuyPrice": null
     },
     {
       "name": "テツノツツミ",
@@ -795,7 +799,8 @@
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN228593",
       "surugayaPrice": 380,
       "surugayaSoldOut": false,
-      "raritySlug": "ar"
+      "raritySlug": "ar",
+      "surugayaBuyPrice": null
     },
     {
       "name": "クエスパトラ",
@@ -806,7 +811,8 @@
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN228594",
       "surugayaPrice": 380,
       "surugayaSoldOut": false,
-      "raritySlug": "ar"
+      "raritySlug": "ar",
+      "surugayaBuyPrice": null
     },
     {
       "name": "ハガネール",
@@ -817,7 +823,8 @@
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN228595",
       "surugayaPrice": 780,
       "surugayaSoldOut": false,
-      "raritySlug": "ar"
+      "raritySlug": "ar",
+      "surugayaBuyPrice": 300
     },
     {
       "name": "エイパム",
@@ -828,7 +835,8 @@
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN228596",
       "surugayaPrice": 480,
       "surugayaSoldOut": false,
-      "raritySlug": "ar"
+      "raritySlug": "ar",
+      "surugayaBuyPrice": null
     },
     {
       "name": "チルット",
@@ -850,7 +858,8 @@
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN228598",
       "surugayaPrice": 300,
       "surugayaSoldOut": false,
-      "raritySlug": "ar"
+      "raritySlug": "ar",
+      "surugayaBuyPrice": null
     },
     {
       "name": "テツノコウベ",
@@ -861,7 +870,8 @@
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN228599",
       "surugayaPrice": 300,
       "surugayaSoldOut": false,
-      "raritySlug": "ar"
+      "raritySlug": "ar",
+      "surugayaBuyPrice": null
     },
     {
       "name": "テツノカイナex",
@@ -872,7 +882,8 @@
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN228600",
       "surugayaPrice": 480,
       "surugayaSoldOut": false,
-      "raritySlug": "sr"
+      "raritySlug": "sr",
+      "surugayaBuyPrice": null
     },
     {
       "name": "【ランクB】テツノブジンex",
@@ -881,9 +892,10 @@
       "category": "ポケモン",
       "energyType": "超",
       "surugayaUrl": "/product/detail/GB228601?tenpo_cd=400500",
-      "surugayaPrice": 630,
+      "surugayaPrice": 680,
       "surugayaSoldOut": true,
-      "raritySlug": "sr"
+      "raritySlug": "sr",
+      "surugayaBuyPrice": null
     },
     {
       "name": "ストリンダーex",
@@ -894,7 +906,8 @@
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN228602",
       "surugayaPrice": 380,
       "surugayaSoldOut": false,
-      "raritySlug": "sr"
+      "raritySlug": "sr",
+      "surugayaBuyPrice": null
     },
     {
       "name": "ギルガルドex",
@@ -905,7 +918,8 @@
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN228603",
       "surugayaPrice": 380,
       "surugayaSoldOut": false,
-      "raritySlug": "sr"
+      "raritySlug": "sr",
+      "surugayaBuyPrice": null
     },
     {
       "name": "チルタリスex",
@@ -916,7 +930,8 @@
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN228604",
       "surugayaPrice": 380,
       "surugayaSoldOut": false,
-      "raritySlug": "sr"
+      "raritySlug": "sr",
+      "surugayaBuyPrice": null
     },
     {
       "name": "イッカネズミex",
@@ -927,7 +942,8 @@
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN228605",
       "surugayaPrice": 1080,
       "surugayaSoldOut": false,
-      "raritySlug": "sr"
+      "raritySlug": "sr",
+      "surugayaBuyPrice": 500
     },
     {
       "name": "ヒョウタ",
@@ -938,7 +954,8 @@
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN228606",
       "surugayaPrice": 480,
       "surugayaSoldOut": false,
-      "raritySlug": "sr"
+      "raritySlug": "sr",
+      "surugayaBuyPrice": null
     },
     {
       "name": "フトゥー博士のシナリオ",
@@ -949,18 +966,20 @@
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN228607",
       "surugayaPrice": 580,
       "surugayaSoldOut": false,
-      "raritySlug": "sr"
+      "raritySlug": "sr",
+      "surugayaBuyPrice": null
     },
     {
-      "name": "【ランクB】リップ",
+      "name": "リップ",
       "cardNumber": "087/066",
       "rarity": "SR",
       "category": "サポート",
       "energyType": "",
-      "surugayaUrl": "/product/other/GB228608",
-      "surugayaPrice": 440,
-      "surugayaSoldOut": true,
-      "raritySlug": "sr"
+      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN228608",
+      "surugayaPrice": 680,
+      "surugayaSoldOut": false,
+      "raritySlug": "sr",
+      "surugayaBuyPrice": null
     },
     {
       "name": "テツノカイナex",
@@ -971,7 +990,8 @@
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN228609",
       "surugayaPrice": 1480,
       "surugayaSoldOut": false,
-      "raritySlug": "sar"
+      "raritySlug": "sar",
+      "surugayaBuyPrice": 700
     },
     {
       "name": "テツノブジンex",
@@ -982,7 +1002,8 @@
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN228610",
       "surugayaPrice": 2050,
       "surugayaSoldOut": false,
-      "raritySlug": "sar"
+      "raritySlug": "sar",
+      "surugayaBuyPrice": 2000
     },
     {
       "name": "チルタリスex",
@@ -993,7 +1014,8 @@
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN228611",
       "surugayaPrice": 9980,
       "surugayaSoldOut": false,
-      "raritySlug": "sar"
+      "raritySlug": "sar",
+      "surugayaBuyPrice": 6500
     },
     {
       "name": "フトゥー博士のシナリオ",
@@ -1004,7 +1026,8 @@
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN228612",
       "surugayaPrice": 1280,
       "surugayaSoldOut": false,
-      "raritySlug": "sar"
+      "raritySlug": "sar",
+      "surugayaBuyPrice": 600
     },
     {
       "name": "リップ",
@@ -1015,7 +1038,8 @@
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN228613",
       "surugayaPrice": 1680,
       "surugayaSoldOut": false,
-      "raritySlug": "sar"
+      "raritySlug": "sar",
+      "surugayaBuyPrice": 700
     },
     {
       "name": "テツノブジンex",
@@ -1026,7 +1050,8 @@
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN228614",
       "surugayaPrice": 680,
       "surugayaSoldOut": false,
-      "raritySlug": "ur"
+      "raritySlug": "ur",
+      "surugayaBuyPrice": null
     },
     {
       "name": "カウンターキャッチャー",
@@ -1037,7 +1062,8 @@
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN228615",
       "surugayaPrice": 1980,
       "surugayaSoldOut": false,
-      "raritySlug": "ur"
+      "raritySlug": "ur",
+      "surugayaBuyPrice": 700
     },
     {
       "name": "基本はがねエネルギー",
@@ -1048,7 +1074,8 @@
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN228616",
       "surugayaPrice": 2280,
       "surugayaSoldOut": false,
-      "raritySlug": "ur"
+      "raritySlug": "ur",
+      "surugayaBuyPrice": 1100
     }
   ]
 }

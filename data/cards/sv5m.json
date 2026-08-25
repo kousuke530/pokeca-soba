@@ -2,7 +2,7 @@
   "pack": "拡張パック「サイバージャッジ」",
   "packSlug": "sv5m",
   "source": "surugaya",
-  "collectedAt": "2026-08-24T04:16:01.448Z",
+  "collectedAt": "2026-08-25T00:16:48.638Z",
   "count": 100,
   "cards": [
     {
@@ -660,7 +660,7 @@
       "rarity": "R",
       "category": "ポケモン",
       "energyType": "",
-      "surugayaUrl": "/product/detail/GN369871?tenpo_cd=410018",
+      "surugayaUrl": "/product/other/GN369871",
       "surugayaPrice": 35,
       "surugayaSoldOut": true,
       "raritySlug": "r"
@@ -795,7 +795,8 @@
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN369883",
       "surugayaPrice": 480,
       "surugayaSoldOut": false,
-      "raritySlug": "ar"
+      "raritySlug": "ar",
+      "surugayaBuyPrice": null
     },
     {
       "name": "シキジカ",
@@ -806,7 +807,8 @@
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN369884",
       "surugayaPrice": 1580,
       "surugayaSoldOut": false,
-      "raritySlug": "ar"
+      "raritySlug": "ar",
+      "surugayaBuyPrice": 700
     },
     {
       "name": "メブキジカ",
@@ -817,7 +819,8 @@
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN369885",
       "surugayaPrice": 1480,
       "surugayaSoldOut": false,
-      "raritySlug": "ar"
+      "raritySlug": "ar",
+      "surugayaBuyPrice": 700
     },
     {
       "name": "ニャビー",
@@ -839,7 +842,8 @@
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN369887",
       "surugayaPrice": 300,
       "surugayaSoldOut": false,
-      "raritySlug": "ar"
+      "raritySlug": "ar",
+      "surugayaBuyPrice": null
     },
     {
       "name": "テツノイバラ",
@@ -862,7 +866,8 @@
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN369889",
       "surugayaPrice": 300,
       "surugayaSoldOut": false,
-      "raritySlug": "ar"
+      "raritySlug": "ar",
+      "surugayaBuyPrice": null
     },
     {
       "name": "ドリュウズ",
@@ -873,7 +878,8 @@
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN369890",
       "surugayaPrice": 480,
       "surugayaSoldOut": false,
-      "raritySlug": "ar"
+      "raritySlug": "ar",
+      "surugayaBuyPrice": null
     },
     {
       "name": "メタグロス",
@@ -882,9 +888,10 @@
       "category": "ポケモン",
       "energyType": "鋼",
       "surugayaUrl": "/product/other/GN369891",
-      "surugayaPrice": 350,
+      "surugayaPrice": 340,
       "surugayaSoldOut": true,
-      "raritySlug": "ar"
+      "raritySlug": "ar",
+      "surugayaBuyPrice": 300
     },
     {
       "name": "メルタン",
@@ -895,7 +902,8 @@
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN369892",
       "surugayaPrice": 480,
       "surugayaSoldOut": false,
-      "raritySlug": "ar"
+      "raritySlug": "ar",
+      "surugayaBuyPrice": null
     },
     {
       "name": "ベロリンガ",
@@ -906,7 +914,8 @@
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN369893",
       "surugayaPrice": 980,
       "surugayaSoldOut": false,
-      "raritySlug": "ar"
+      "raritySlug": "ar",
+      "surugayaBuyPrice": 400
     },
     {
       "name": "ジジーロン",
@@ -917,7 +926,8 @@
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN369894",
       "surugayaPrice": 580,
       "surugayaSoldOut": false,
-      "raritySlug": "ar"
+      "raritySlug": "ar",
+      "surugayaBuyPrice": null
     },
     {
       "name": "テツノイサハex",
@@ -928,7 +938,8 @@
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN369895",
       "surugayaPrice": 580,
       "surugayaSoldOut": false,
-      "raritySlug": "sr"
+      "raritySlug": "sr",
+      "surugayaBuyPrice": null
     },
     {
       "name": "ガオガエンex",
@@ -939,7 +950,8 @@
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN369896",
       "surugayaPrice": 380,
       "surugayaSoldOut": false,
-      "raritySlug": "sr"
+      "raritySlug": "sr",
+      "surugayaBuyPrice": null
     },
     {
       "name": "テツノカシラex",
@@ -950,7 +962,8 @@
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN369897",
       "surugayaPrice": 480,
       "surugayaSoldOut": false,
-      "raritySlug": "sr"
+      "raritySlug": "sr",
+      "surugayaBuyPrice": null
     },
     {
       "name": "テツノイワオex",
@@ -961,7 +974,8 @@
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN369898",
       "surugayaPrice": 480,
       "surugayaSoldOut": false,
-      "raritySlug": "sr"
+      "raritySlug": "sr",
+      "surugayaBuyPrice": null
     },
     {
       "name": "リキキリンex",
@@ -972,7 +986,8 @@
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN369899",
       "surugayaPrice": 480,
       "surugayaSoldOut": false,
-      "raritySlug": "sr"
+      "raritySlug": "sr",
+      "surugayaBuyPrice": null
     },
     {
       "name": "ハッサムex",
@@ -983,7 +998,8 @@
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN369900",
       "surugayaPrice": 580,
       "surugayaSoldOut": false,
-      "raritySlug": "sr"
+      "raritySlug": "sr",
+      "surugayaBuyPrice": null
     },
     {
       "name": "暗号マニアの解読",
@@ -992,9 +1008,10 @@
       "category": "サポート",
       "energyType": "",
       "surugayaUrl": "/product/other/GN369901",
-      "surugayaPrice": 410,
+      "surugayaPrice": 560,
       "surugayaSoldOut": true,
-      "raritySlug": "sr"
+      "raritySlug": "sr",
+      "surugayaBuyPrice": 500
     },
     {
       "name": "セイジ",
@@ -1005,7 +1022,8 @@
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN369902",
       "surugayaPrice": 480,
       "surugayaSoldOut": false,
-      "raritySlug": "sr"
+      "raritySlug": "sr",
+      "surugayaBuyPrice": null
     },
     {
       "name": "ベルのまごころ",
@@ -1016,7 +1034,8 @@
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN369903",
       "surugayaPrice": 1580,
       "surugayaSoldOut": false,
-      "raritySlug": "sr"
+      "raritySlug": "sr",
+      "surugayaBuyPrice": 700
     },
     {
       "name": "テツノイサハex",
@@ -1027,7 +1046,8 @@
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN369904",
       "surugayaPrice": 2480,
       "surugayaSoldOut": false,
-      "raritySlug": "sar"
+      "raritySlug": "sar",
+      "surugayaBuyPrice": 1200
     },
     {
       "name": "テツノカシラex",
@@ -1038,7 +1058,8 @@
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN369905",
       "surugayaPrice": 3480,
       "surugayaSoldOut": false,
-      "raritySlug": "sar"
+      "raritySlug": "sar",
+      "surugayaBuyPrice": 2000
     },
     {
       "name": "テツノイワオex",
@@ -1049,7 +1070,8 @@
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN369906",
       "surugayaPrice": 1280,
       "surugayaSoldOut": false,
-      "raritySlug": "sar"
+      "raritySlug": "sar",
+      "surugayaBuyPrice": 600
     },
     {
       "name": "セイジ",
@@ -1060,7 +1082,8 @@
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN369907",
       "surugayaPrice": 1480,
       "surugayaSoldOut": false,
-      "raritySlug": "sar"
+      "raritySlug": "sar",
+      "surugayaBuyPrice": 700
     },
     {
       "name": "ベルのまごころ",
@@ -1071,7 +1094,8 @@
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN369908",
       "surugayaPrice": 6980,
       "surugayaSoldOut": false,
-      "raritySlug": "sar"
+      "raritySlug": "sar",
+      "surugayaBuyPrice": 4000
     },
     {
       "name": "テツノイサハex",
@@ -1082,7 +1106,8 @@
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN369909",
       "surugayaPrice": 780,
       "surugayaSoldOut": false,
-      "raritySlug": "ur"
+      "raritySlug": "ur",
+      "surugayaBuyPrice": 350
     },
     {
       "name": "テツノカシラex",
@@ -1093,7 +1118,8 @@
       "surugayaUrl": "/product/other/GN369910",
       "surugayaPrice": 550,
       "surugayaSoldOut": true,
-      "raritySlug": "ur"
+      "raritySlug": "ur",
+      "surugayaBuyPrice": null
     },
     {
       "name": "テツノイワオex",
@@ -1104,7 +1130,8 @@
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN369911",
       "surugayaPrice": 680,
       "surugayaSoldOut": false,
-      "raritySlug": "ur"
+      "raritySlug": "ur",
+      "surugayaBuyPrice": null
     }
   ]
 }

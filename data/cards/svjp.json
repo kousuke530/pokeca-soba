@@ -2,7 +2,7 @@
   "pack": "バトルマスターデッキ パオジアンex",
   "packSlug": "svjp",
   "source": "surugaya",
-  "collectedAt": "2026-08-24T04:16:38.958Z",
+  "collectedAt": "2026-08-25T00:17:28.693Z",
   "count": 16,
   "cards": [
     {
@@ -14,7 +14,8 @@
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN511223",
       "surugayaPrice": 400,
       "surugayaSoldOut": false,
-      "raritySlug": "n"
+      "raritySlug": "n",
+      "surugayaBuyPrice": null
     },
     {
       "name": "オリジンパルキアVSTAR",
@@ -36,7 +37,8 @@
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN511225",
       "surugayaPrice": 480,
       "surugayaSoldOut": false,
-      "raritySlug": "n"
+      "raritySlug": "n",
+      "surugayaBuyPrice": null
     },
     {
       "name": "セビエ",
