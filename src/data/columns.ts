@@ -535,6 +535,7 @@ export const columns: Column[] = [
     summary: 'カード名が同じでも、使えるかどうかは現物のレギュレーションマークで決まります。性能と現在の使用可否を分けて確認しましょう。',
     images: images('terastal-charizard', ['炎と悪の力をまとう架空の竜とカードゲーム盤面', '炎のエネルギーを配分するカードゲームの戦略盤面', '終盤の打点を計算するカードゲームの対戦卓']),
     sources: [
+      { label: 'リザードンexのカード情報（公式）', href: 'https://www.pokemon-card.com/card-search/details.php/card/44638' },
       { label: 'ポケカ四天王直伝のデッキレシピ（公式）', href: 'https://www.pokemon-card.com/info/005231.html' },
       { label: 'レギュレーション（公式）', href: 'https://www.pokemon-card.com/rules/regulation/' },
     ],
@@ -547,7 +548,7 @@ export const columns: Column[] = [
     summary: 'メガアブソルexは、サイド3枚を渡す重さと、ダメカン6個を狙う条件を踏まえて評価するカードです。数字をそろえて採用を判断しましょう。',
     images: images('mega-absol', ['月明かりの架空の獣とダークなカードゲーム盤面', 'ダメカンを正確に数える戦略盤面', '手札を選んで捨てる効果を示す抽象的な対戦場面']),
     sources: [
-      { label: 'メガアブソルexのカード情報（公式）', href: 'https://www.pokemon-card.com/card-search/details.php/card/47771/regu/all' },
+      { label: 'メガアブソルexのカード情報（公式）', href: 'https://www.pokemon-card.com/card-search/details.php/card/48436/regu/all' },
       { label: 'レギュレーション（公式）', href: 'https://www.pokemon-card.com/rules/regulation/' },
     ],
     related: ['sharpedo-counter', 'inferno-x-deck', 'meta-deck', 'tcg-metagame', 'recommended-cards'],
@@ -623,6 +624,8 @@ export const columns: Column[] = [
     images: images('zacian-deck', ['鋼の力をまとう架空の獣とカードゲーム盤面', '鋼エネルギーとどうぐを並べた戦略盤面', '攻撃役を交代するカードゲームの対戦場面']),
     sources: [
       { label: 'ホップのザシアンexのカード情報（公式）', href: 'https://www.pokemon-card.com/card-search/details.php/card/47238/regu/all' },
+      { label: 'ホップのバッグのカード情報（公式）', href: 'https://www.pokemon-card.com/card-search/details.php/card/47099/' },
+      { label: 'ホップのこだわりハチマキのカード情報（公式）', href: 'https://www.pokemon-card.com/card-search/details.php/card/48689/regu/all' },
       { label: 'スタートデッキ100 バトルコレクション：デッキ066（公式）', href: 'https://www.pokemon-card.com/ex/mc/list/066' },
       { label: 'レギュレーション（公式）', href: 'https://www.pokemon-card.com/rules/regulation/' },
     ],
@@ -636,6 +639,7 @@ export const columns: Column[] = [
     images: images('clefable-deck', ['月明かりの架空の生き物とカードゲーム盤面', '超タイプのエネルギーを集める戦略盤面', 'ベンチから相手を呼び出す対戦場面']),
     sources: [
       { label: 'メガピクシーexのカード情報（公式）', href: 'https://www.pokemon-card.com/card-search/details.php/card/50063' },
+      { label: 'ピクシーexのカード情報（公式）', href: 'https://www.pokemon-card.com/card-search/details.php/card/43750/regu/all' },
       { label: 'ピッピのカード情報（公式）', href: 'https://www.pokemon-card.com/card-search/details.php/card/50053/regu/all' },
       { label: 'ピクシーexのQ&A検索結果（公式）', href: 'https://www.pokemon-card.com/rules/faq/search.php?freeword=%E3%83%94%E3%82%AF%E3%82%B7%E3%83%BCex&regulation_faq_main_item1=all' },
     ],
@@ -650,6 +654,8 @@ export const columns: Column[] = [
     sources: [
       { label: 'スタートデッキ100 バトルコレクション（公式）', href: 'https://www.pokemon-card.com/ex/mc/' },
       { label: 'スタートデッキ100 バトルコレクション：デッキ一覧（公式）', href: 'https://www.pokemon-card.com/ex/mc/list/002' },
+      { label: '封入内容の誤りと交換対応（公式）', href: 'https://www.pokemon-card.com/info/005344.html' },
+      { label: '追加生産・追加販売のお知らせ（公式）', href: 'https://www.pokemon-card.com/info/005338.html' },
       { label: 'レギュレーション（公式）', href: 'https://www.pokemon-card.com/rules/regulation/' },
     ],
     related: ['starter-deck-upgrade', 'mewtwo-starter-deck', 'recommended-cards', 'zacian-deck', 'clefable-deck'],
