@@ -11,6 +11,7 @@ export type Column = {
   summary: string;
   images: ColumnImage[];
   sources: { label: string; href: string }[];
+  related: string[];
 };
 
 const images = (slug: string, alt: [string, string, string]): ColumnImage[] => [
@@ -31,6 +32,7 @@ export const columns: Column[] = [
       { label: '拡張パック「ロストアビス」公式ページ', href: 'https://www.pokemon-card.com/ex/s11/index.html' },
       { label: 'レギュレーション（公式）', href: 'https://www.pokemon-card.com/rules/regulation/' },
     ],
+    related: ['lost-march', 'dragonite-deck', 'mega-rayquaza-ex-deck', 'meta-deck', 'highlander'],
   },
   {
     slug: 'naic-pokemon-tcg', keyword: 'NAIC ポケカ',
@@ -42,6 +44,7 @@ export const columns: Column[] = [
       { label: 'Pokémon International Championships（公式）', href: 'https://www.pokemon.com/us/play-pokemon/pokemon-events/pokemon-tournaments/international-championships/' },
       { label: 'チャンピオンシップシリーズとは（公式）', href: 'https://www.pokemon-card.com/event/championshipseries/about/' },
     ],
+    related: ['wcs-results', 'wcs2024-results', 'pjcs-winners', 'championship-season', 'champions-league-winners'],
   },
   {
     slug: 'oshinagasu', keyword: 'ポケカ おしながす',
@@ -54,6 +57,7 @@ export const columns: Column[] = [
       { label: 'カメックスのカード情報', href: 'https://www.pokemon-card.com/card-search/details.php/card/25447/regu/DP' },
       { label: 'ヌオーのカード情報', href: 'https://www.pokemon-card.com/card-search/details.php/card/35906' },
     ],
+    related: ['return-to-hand', 'weakness-resistance', 'kyurem-deck', 'volcanion-deck', 'tatsugiri-ex'],
   },
   {
     slug: 'unown-deck', keyword: 'アンノーン デッキ',
@@ -66,6 +70,7 @@ export const columns: Column[] = [
       { label: 'アンノーンVSTARのカード情報', href: 'https://www.pokemon-card.com/card-search/details.php/card/44931' },
       { label: 'レギュレーション（公式）', href: 'https://www.pokemon-card.com/rules/regulation/' },
     ],
+    related: ['lost-march', 'highlander', 'bastiodon-deck', 'bouffalant-deck', 'psychic-deck'],
   },
   {
     slug: 'inferno-x-deck', keyword: 'インフェルノ デッキ',
@@ -78,6 +83,7 @@ export const columns: Column[] = [
       { label: 'メガリザードンXexのカード情報', href: 'https://www.pokemon-card.com/card-search/details.php/card/48353/regu/all' },
       { label: 'ポケカ四天王直伝のデッキレシピ', href: 'https://www.pokemon-card.com/info/005231.html' },
     ],
+    related: ['volcanion-deck', 'heat-wave-arena', 'mega-rayquaza-ex-deck', 'meta-deck', 'dragonite-deck'],
   },
   {
     slug: 'highlander', keyword: 'ポケカ ハイランダー',
@@ -89,6 +95,7 @@ export const columns: Column[] = [
       { label: 'ポケモンカードゲームの遊びかた・ルール', href: 'https://www.pokemon-card.com/rules/' },
       { label: 'レギュレーション（公式）', href: 'https://www.pokemon-card.com/rules/regulation/' },
     ],
+    related: ['recommended-cards', 'starter-deck-upgrade', 'unown-deck', 'meta-deck', 'lost-march'],
   },
   {
     slug: 'championship-season', keyword: 'ポケカ シーズン',
@@ -100,6 +107,7 @@ export const columns: Column[] = [
       { label: 'チャンピオンシップシリーズ2027について', href: 'https://www.pokemon-card.com/info/005597.html' },
       { label: '2027シリーズの開催日程（公式）', href: 'https://www.pokemon-card.com/event/championshipseries/?information=trainers' },
     ],
+    related: ['pjcs-winners', 'champions-league-tokyo', 'champions-league-winners', 'naic-pokemon-tcg', 'wcs-results'],
   },
   {
     slug: 'lurantis', keyword: 'ラランテス ポケカ',
@@ -111,6 +119,7 @@ export const columns: Column[] = [
       { label: 'ラランテスexのカード情報', href: 'https://www.pokemon-card.com/card-search/details.php/card/50223' },
       { label: 'レギュレーション（公式）', href: 'https://www.pokemon-card.com/rules/regulation/' },
     ],
+    related: ['tatsugiri-ex', 'persian', 'slowbro-ex', 'gholdengo-ex', 'recommended-cards'],
   },
   {
     slug: 'cardboard-reinforcement', keyword: 'トレカ 厚紙 補強',
@@ -122,6 +131,7 @@ export const columns: Column[] = [
       { label: '定形郵便物の厚さ（日本郵便）', href: 'https://www.post.japanpost.jp/question/602.html' },
       { label: 'ゆうパケットポスト・mini（日本郵便）', href: 'https://www.post.japanpost.jp/service/send/domestic/delivery/e-shipping/yu-packetpost.html' },
     ],
+    related: ['tsujido-card-shop', 'kumamoto-card-shop', 'alpha-card-oripa', 'recommended-cards', 'heat-wave-arena'],
   },
   {
     slug: 'mega-rayquaza-ex-deck', keyword: 'メガ レックウザ ex デッキ レシピ',
@@ -133,6 +143,7 @@ export const columns: Column[] = [
       { label: 'メガレックウザexのカード情報', href: 'https://www.pokemon-card.com/card-search/details.php/card/50396/regu/XY' },
       { label: '拡張パック「ストームエメラルダ」公式ページ', href: 'https://www.pokemon-card.com/ex/m6/' },
     ],
+    related: ['inferno-x-deck', 'dragonite-deck', 'kyurem-deck', 'meta-deck', 'goodra-deck'],
   },
   {
     slug: 'meta-deck', keyword: 'メタデッキ',
@@ -144,6 +155,7 @@ export const columns: Column[] = [
       { label: 'チャンピオンシップシリーズ（公式）', href: 'https://www.pokemon-card.com/event/championshipseries/' },
       { label: 'レギュレーション（公式）', href: 'https://www.pokemon-card.com/rules/regulation/' },
     ],
+    related: ['tcg-metagame', 'champions-league-winners', 'pjcs-winners', 'wcs-results', 'recommended-cards'],
   },
   {
     slug: 'wcs2024-results', keyword: 'WCS2024 ポケカ',
@@ -156,6 +168,7 @@ export const columns: Column[] = [
       { label: 'ポケモンワールドチャンピオンシップス（公式）', href: 'https://www.pokemon.com/us/play-pokemon/pokemon-events/pokemon-tournaments/pokemon-world-championships/' },
       { label: 'レギュレーション（公式）', href: 'https://www.pokemon-card.com/rules/regulation/' },
     ],
+    related: ['wcs-results', 'pjcs-winners', 'naic-pokemon-tcg', 'champions-league-winners', 'meta-deck'],
   },
   {
     slug: 'recommended-cards', keyword: 'ポケカ おすすめカード',
@@ -168,6 +181,7 @@ export const columns: Column[] = [
       { label: 'カード検索（公式）', href: 'https://www.pokemon-card.com/card-search/' },
       { label: 'レギュレーション（公式）', href: 'https://www.pokemon-card.com/rules/regulation/' },
     ],
+    related: ['starter-deck-upgrade', 'mewtwo-starter-deck', 'meta-deck', 'heat-wave-arena', 'cardboard-reinforcement'],
   },
   {
     slug: 'goodra-deck', keyword: 'ヌメルゴン デッキ',
@@ -180,6 +194,7 @@ export const columns: Column[] = [
       { label: '強化拡張パック「ダークファンタズマ」（公式）', href: 'https://www.pokemon-card.com/products/s/s10a.html' },
       { label: 'レギュレーション（公式）', href: 'https://www.pokemon-card.com/rules/regulation/' },
     ],
+    related: ['bastiodon-deck', 'bouffalant-deck', 'dragonite-deck', 'kyurem-deck', 'mega-rayquaza-ex-deck'],
   },
   {
     slug: 'alpha-card-oripa', keyword: 'アルファカード オリパ',
@@ -191,6 +206,7 @@ export const columns: Column[] = [
       { label: 'Card Shop ALPHA公式サイト', href: 'https://cardshop-alpha.com/' },
       { label: '通信販売の申込み段階における表示（消費者庁）', href: 'https://www.caa.go.jp/policies/policy/consumer_transaction/specified_commercial_transactions/notice/online/' },
     ],
+    related: ['cardboard-reinforcement', 'tsujido-card-shop', 'kumamoto-card-shop', 'heat-wave-arena', 'recommended-cards'],
   },
   {
     slug: 'tcg-metagame', keyword: 'TCG 環境',
@@ -202,6 +218,7 @@ export const columns: Column[] = [
       { label: 'チャンピオンシップシリーズ（公式）', href: 'https://www.pokemon-card.com/event/championshipseries/' },
       { label: 'ポケモンカードゲームの遊びかた・ルール（公式）', href: 'https://www.pokemon-card.com/rules/' },
     ],
+    related: ['meta-deck', 'champions-league-winners', 'wcs-results', 'pjcs-winners', 'championship-season'],
   },
   {
     slug: 'champions-league-winners', keyword: 'ポケカ CL 優勝デッキ',
@@ -214,6 +231,7 @@ export const columns: Column[] = [
       { label: 'チャンピオンシップシリーズ（公式）', href: 'https://www.pokemon-card.com/event/championshipseries/' },
       { label: 'チャンピオンシップシリーズ2027について（公式）', href: 'https://www.pokemon-card.com/info/005597.html' },
     ],
+    related: ['champions-league-tokyo', 'pjcs-winners', 'wcs-results', 'meta-deck', 'tcg-metagame'],
   },
   {
     slug: 'volcanion-deck', keyword: 'ボルケニオン デッキ',
@@ -226,6 +244,7 @@ export const columns: Column[] = [
       { label: 'ポケモンカードゲームの遊びかた・ルール（公式）', href: 'https://www.pokemon-card.com/rules/' },
       { label: 'ポケカ四天王直伝のデッキレシピ（公式）', href: 'https://www.pokemon-card.com/info/004811.html' },
     ],
+    related: ['inferno-x-deck', 'heat-wave-arena', 'kyurem-deck', 'psychic-deck', 'oshinagasu'],
   },
   {
     slug: 'wcs-results', keyword: 'WCS 結果 ポケカ',
@@ -237,6 +256,7 @@ export const columns: Column[] = [
       { label: 'ポケモンワールドチャンピオンシップス（公式）', href: 'https://www.pokemon.com/us/play-pokemon/pokemon-events/pokemon-tournaments/pokemon-world-championships/' },
       { label: 'チャンピオンシップシリーズとは（公式）', href: 'https://www.pokemon-card.com/event/championshipseries/about/' },
     ],
+    related: ['wcs2024-results', 'naic-pokemon-tcg', 'pjcs-winners', 'champions-league-winners', 'championship-season'],
   },
   {
     slug: 'tsujido-card-shop', keyword: '辻堂 カードショップ',
@@ -249,6 +269,7 @@ export const columns: Column[] = [
       { label: 'KaBoS藤沢店（公式）', href: 'https://www.kabos.jp/tenpo/fujisawa/' },
       { label: 'JR東日本 辻堂駅（公式）', href: 'https://www.jreast.co.jp/estation/station/info.aspx?StationCd=1013' },
     ],
+    related: ['kumamoto-card-shop', 'cardboard-reinforcement', 'alpha-card-oripa', 'recommended-cards', 'heat-wave-arena'],
   },
   {
     slug: 'weakness-resistance', keyword: 'ポケカ 相性表',
@@ -260,6 +281,7 @@ export const columns: Column[] = [
       { label: '基本ルールをおぼえよう！ポケモンカードゲームのあそびかた（公式）', href: 'https://www.pokemon-card.com/howtoplay/' },
       { label: 'ポケモンカードゲームQ&A：弱点（公式）', href: 'https://www.pokemon-card.com/rules/faq/search.php?freeword=%E5%BC%B1%E7%82%B9&regulation_faq_main_item1=XY' },
     ],
+    related: ['return-to-hand', 'oshinagasu', 'meta-deck', 'bastiodon-deck', 'recommended-cards'],
   },
   {
     slug: 'bouffalant-deck', keyword: 'バッフロン デッキ',
@@ -272,6 +294,7 @@ export const columns: Column[] = [
       { label: 'メガガルーラexのカード情報（公式）', href: 'https://www.pokemon-card.com/card-search/details.php/card/50172' },
       { label: 'スタートデッキ100 バトルコレクション：デッキ088（公式）', href: 'https://www.pokemon-card.com/ex/mc/list/088' },
     ],
+    related: ['bastiodon-deck', 'goodra-deck', 'persian', 'unown-deck', 'highlander'],
   },
   {
     slug: 'ancient-deck', keyword: '古代 デッキ',
@@ -284,6 +307,7 @@ export const columns: Column[] = [
       { label: 'ブーストエナジー 古代のカード情報（公式）', href: 'https://www.pokemon-card.com/card-search/details.php/card/45211/regu/all' },
       { label: 'トドロクツキexのカード情報（公式）', href: 'https://www.pokemon-card.com/card-search/details.php/card/47139/regu/all' },
     ],
+    related: ['meta-deck', 'psychic-deck', 'kyurem-deck', 'dragonite-deck', 'recommended-cards'],
   },
   {
     slug: 'champions-league-tokyo', keyword: 'CL 東京',
@@ -296,6 +320,7 @@ export const columns: Column[] = [
       { label: 'チャンピオンシップシリーズ2027について（公式）', href: 'https://www.pokemon-card.com/info/005597.html' },
       { label: 'レギュレーション（公式）', href: 'https://www.pokemon-card.com/rules/regulation/' },
     ],
+    related: ['champions-league-winners', 'pjcs-winners', 'championship-season', 'meta-deck', 'wcs-results'],
   },
   {
     slug: 'tatsugiri-ex', keyword: 'シャリタツex',
@@ -307,6 +332,7 @@ export const columns: Column[] = [
       { label: 'シャリタツexのカード情報（公式）', href: 'https://www.pokemon-card.com/card-search/details.php/card/46421' },
       { label: '基本ルールをおぼえよう！ポケモンカードゲームのあそびかた（公式）', href: 'https://www.pokemon-card.com/howtoplay/' },
     ],
+    related: ['slowbro-ex', 'gholdengo-ex', 'oshinagasu', 'kyurem-deck', 'lurantis'],
   },
   {
     slug: 'starter-deck-upgrade', keyword: 'ポケカ スタートデッキ 改造',
@@ -319,6 +345,7 @@ export const columns: Column[] = [
       { label: 'ポケモンカードゲームのあそびかた（公式）', href: 'https://www.pokemon-card.com/howtoplay/' },
       { label: 'レギュレーション（公式）', href: 'https://www.pokemon-card.com/rules/regulation/' },
     ],
+    related: ['mewtwo-starter-deck', 'recommended-cards', 'meta-deck', 'psychic-deck', 'highlander'],
   },
   {
     slug: 'gholdengo-ex', keyword: 'サーフゴーex',
@@ -331,6 +358,7 @@ export const columns: Column[] = [
       { label: 'ポケカ四天王直伝のデッキレシピ（公式）', href: 'https://www.pokemon-card.com/info/004124.html' },
       { label: 'レギュレーション（公式）', href: 'https://www.pokemon-card.com/rules/regulation/' },
     ],
+    related: ['tatsugiri-ex', 'slowbro-ex', 'secret-box', 'meta-deck', 'ancient-deck'],
   },
   {
     slug: 'return-to-hand', keyword: 'ポケカ 手札に戻す',
@@ -343,6 +371,7 @@ export const columns: Column[] = [
       { label: 'ポケモン回収サイクロンのQ&A（公式）', href: 'https://www.pokemon-card.com/rules/faq/search.php?freeword=%E3%83%9D%E3%82%B1%E3%83%A2%E3%83%B3%E5%9B%9E%E5%8F%8E%E3%82%B5%E3%82%A4%E3%82%AF%E3%83%AD%E3%83%B3&regulation_faq_main_item1=all' },
       { label: 'スーパーポケモン回収のQ&A（公式）', href: 'https://www.pokemon-card.com/rules/faq/search.php?freeword=%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%9D%E3%82%B1%E3%83%A2%E3%83%B3%E5%9B%9E%E5%8F%8E&page=2&regulation_faq_main=' },
     ],
+    related: ['oshinagasu', 'weakness-resistance', 'secret-box', 'slowbro-ex', 'psychic-deck'],
   },
   {
     slug: 'persian', keyword: 'ポケカ ペルシアン',
@@ -355,6 +384,7 @@ export const columns: Column[] = [
       { label: 'スタートデッキ100 バトルコレクション（公式）', href: 'https://www.pokemon-card.com/ex/mc/' },
       { label: 'ポケモンカードゲームのあそびかた（公式）', href: 'https://www.pokemon-card.com/howtoplay/' },
     ],
+    related: ['bouffalant-deck', 'lurantis', 'secret-box', 'unown-deck', 'recommended-cards'],
   },
   {
     slug: 'kumamoto-card-shop', keyword: '熊本 カードショップ',
@@ -367,6 +397,7 @@ export const columns: Column[] = [
       { label: 'カードラボ熊本店：プレイヤーズクラブ店舗情報（公式）', href: 'https://players.pokemon-card.com/event/search/19962/list' },
       { label: 'イベント検索：ポケモンカードゲーム プレイヤーズクラブ（公式）', href: 'https://players.pokemon-card.com/event/search' },
     ],
+    related: ['tsujido-card-shop', 'cardboard-reinforcement', 'alpha-card-oripa', 'recommended-cards', 'heat-wave-arena'],
   },
   {
     slug: 'pjcs-winners', keyword: 'JCS 優勝デッキ',
@@ -379,6 +410,7 @@ export const columns: Column[] = [
       { label: 'PJCS2026大会概要（公式）', href: 'https://www.pokemon-card.com/info/005419.html' },
       { label: 'チャンピオンシップシリーズ2026開催日程（公式）', href: 'https://www.pokemon-card.com/info/005154.html' },
     ],
+    related: ['champions-league-winners', 'champions-league-tokyo', 'wcs-results', 'championship-season', 'meta-deck'],
   },
   {
     slug: 'secret-box', keyword: 'シークレットボックス',
@@ -390,6 +422,7 @@ export const columns: Column[] = [
       { label: 'シークレットボックスのカード情報（公式）', href: 'https://www.pokemon-card.com/card-search/details.php/card/45783/regu/all' },
       { label: 'ポケモンカードゲームのあそびかた（公式）', href: 'https://www.pokemon-card.com/howtoplay/' },
     ],
+    related: ['return-to-hand', 'recommended-cards', 'gholdengo-ex', 'heat-wave-arena', 'psychic-deck'],
   },
   {
     slug: 'mewtwo-starter-deck', keyword: 'ミュウツー スタートデッキ',
@@ -402,6 +435,7 @@ export const columns: Column[] = [
       { label: 'ミュウツーexのカード情報（公式）', href: 'https://www.pokemon-card.com/card-search/details.php/card/44165/regu/all' },
       { label: 'ポケモンカードゲームのあそびかた（公式）', href: 'https://www.pokemon-card.com/howtoplay/' },
     ],
+    related: ['starter-deck-upgrade', 'psychic-deck', 'recommended-cards', 'slowbro-ex', 'highlander'],
   },
   {
     slug: 'kyurem-deck', keyword: 'キュレム デッキ',
@@ -414,6 +448,7 @@ export const columns: Column[] = [
       { label: 'ポケカ四天王直伝のキュレムexデッキレシピ（公式）', href: 'https://www.pokemon-card.com/info/005043.html' },
       { label: 'ポケモンカードゲームのあそびかた（公式）', href: 'https://www.pokemon-card.com/howtoplay/' },
     ],
+    related: ['dragonite-deck', 'goodra-deck', 'mega-rayquaza-ex-deck', 'volcanion-deck', 'tatsugiri-ex'],
   },
   {
     slug: 'psychic-deck', keyword: 'ポケカ 超タイプ デッキ',
@@ -426,6 +461,7 @@ export const columns: Column[] = [
       { label: 'ワンダーパッチのカード情報（公式）', href: 'https://www.pokemon-card.com/card-search/details.php/card/50071/regu/all' },
       { label: 'ポケモンカードゲームのあそびかた（公式）', href: 'https://www.pokemon-card.com/howtoplay/' },
     ],
+    related: ['mewtwo-starter-deck', 'slowbro-ex', 'ancient-deck', 'meta-deck', 'lost-march'],
   },
   {
     slug: 'slowbro-ex', keyword: 'ヤドランex',
@@ -438,6 +474,7 @@ export const columns: Column[] = [
       { label: 'プロモカードパック第3弾の紹介（公式）', href: 'https://www.pokemon-card.com/info/005377.html' },
       { label: 'ポケモンカードゲームのあそびかた（公式）', href: 'https://www.pokemon-card.com/howtoplay/' },
     ],
+    related: ['tatsugiri-ex', 'psychic-deck', 'gholdengo-ex', 'return-to-hand', 'oshinagasu'],
   },
   {
     slug: 'heat-wave-arena', keyword: '熱風のアリーナ',
@@ -450,6 +487,7 @@ export const columns: Column[] = [
       { label: '熱風のアリーナの注目デッキレシピ（公式）', href: 'https://www.pokemon-card.com/info/004902.html' },
       { label: 'カードテキスト変更のお知らせ（公式）', href: 'https://www.pokemon-card.com/info/004907.html' },
     ],
+    related: ['inferno-x-deck', 'volcanion-deck', 'recommended-cards', 'alpha-card-oripa', 'meta-deck'],
   },
   {
     slug: 'bastiodon-deck', keyword: 'トリデプス デッキ',
@@ -462,6 +500,7 @@ export const columns: Column[] = [
       { label: 'ポケモンカードゲームのあそびかた（公式）', href: 'https://www.pokemon-card.com/howtoplay/' },
       { label: 'レギュレーション（公式）', href: 'https://www.pokemon-card.com/rules/regulation/' },
     ],
+    related: ['bouffalant-deck', 'goodra-deck', 'unown-deck', 'weakness-resistance', 'highlander'],
   },
   {
     slug: 'lost-march', keyword: 'ロストマーチ',
@@ -474,6 +513,7 @@ export const columns: Column[] = [
       { label: 'ワタッコのカード情報（公式）', href: 'https://www.pokemon-card.com/card-search/details.php/card/37210' },
       { label: 'レギュレーション（公式）', href: 'https://www.pokemon-card.com/rules/regulation/' },
     ],
+    related: ['unown-deck', 'arceus-giratina', 'highlander', 'psychic-deck', 'meta-deck'],
   },
   {
     slug: 'dragonite-deck', keyword: 'カイリュー デッキ',
@@ -486,6 +526,7 @@ export const columns: Column[] = [
       { label: 'メガカイリューexのカード情報（公式）', href: 'https://www.pokemon-card.com/card-search/details.php/card/50006/regu/all' },
       { label: 'ポケモンカードゲームのあそびかた（公式）', href: 'https://www.pokemon-card.com/howtoplay/' },
     ],
+    related: ['kyurem-deck', 'mega-rayquaza-ex-deck', 'goodra-deck', 'arceus-giratina', 'meta-deck'],
   },
 ];
 
