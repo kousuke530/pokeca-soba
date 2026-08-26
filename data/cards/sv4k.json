@@ -2,7 +2,7 @@
   "pack": "拡張パック「古代の咆哮」",
   "packSlug": "sv4k",
   "source": "surugaya",
-  "collectedAt": "2026-08-25T00:15:30.511Z",
+  "collectedAt": "2026-08-26T10:11:49.077Z",
   "count": 96,
   "cards": [
     {
@@ -243,7 +243,7 @@
       "category": "ポケモン",
       "energyType": "水",
       "surugayaUrl": "/product/other/GN228446",
-      "surugayaPrice": 50,
+      "surugayaPrice": 59,
       "surugayaSoldOut": true,
       "raritySlug": "rr"
     },
@@ -923,15 +923,16 @@
       "surugayaBuyPrice": null
     },
     {
-      "name": "【ランクB】スナノケガワex",
+      "name": "スナノケガワex",
       "cardNumber": "083/066",
       "rarity": "SR",
       "category": "ポケモン",
       "energyType": "闘",
-      "surugayaUrl": "/product/detail/GB228507?tenpo_cd=410124",
-      "surugayaPrice": 120,
-      "surugayaSoldOut": true,
-      "raritySlug": "sr"
+      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN228507",
+      "surugayaPrice": 480,
+      "surugayaSoldOut": false,
+      "raritySlug": "sr",
+      "surugayaBuyPrice": null
     },
     {
       "name": "トドロクツキex",
