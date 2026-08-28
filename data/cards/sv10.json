@@ -2,7 +2,7 @@
   "pack": "拡張パック「ロケット団の栄光」",
   "packSlug": "sv10",
   "source": "surugaya",
-  "collectedAt": "2026-08-27T00:20:43.845Z",
+  "collectedAt": "2026-08-28T03:21:16.249Z",
   "count": 130,
   "cards": [
     {
@@ -1210,7 +1210,7 @@
       "category": "ポケモン",
       "energyType": "草",
       "surugayaUrl": "/product/other/GU166812",
-      "surugayaPrice": 460,
+      "surugayaPrice": 450,
       "surugayaSoldOut": true,
       "raritySlug": "sr",
       "surugayaBuyPrice": null
@@ -1245,9 +1245,9 @@
       "rarity": "SR",
       "category": "ポケモン",
       "energyType": "超",
-      "surugayaUrl": "/product/other/GU166815",
-      "surugayaPrice": 2342,
-      "surugayaSoldOut": true,
+      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU166815",
+      "surugayaPrice": 3980,
+      "surugayaSoldOut": false,
       "raritySlug": "sr",
       "surugayaBuyPrice": 2000
     },
@@ -1341,9 +1341,9 @@
       "rarity": "SR",
       "category": "サポート",
       "energyType": "",
-      "surugayaUrl": "/product/other/GU166823",
-      "surugayaPrice": 2370,
-      "surugayaSoldOut": true,
+      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU166823",
+      "surugayaPrice": 3980,
+      "surugayaSoldOut": false,
       "raritySlug": "sr",
       "surugayaBuyPrice": 2000
     },
@@ -1390,10 +1390,10 @@
       "category": "ポケモン",
       "energyType": "悪",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU166808",
-      "surugayaPrice": 13800,
+      "surugayaPrice": 9980,
       "surugayaSoldOut": false,
       "raritySlug": "sar",
-      "surugayaBuyPrice": 8000
+      "surugayaBuyPrice": 6000
     },
     {
       "name": "ロケット団のクロバットex",
@@ -1402,10 +1402,10 @@
       "category": "ポケモン",
       "energyType": "悪",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU166809",
-      "surugayaPrice": 8980,
+      "surugayaPrice": 7980,
       "surugayaSoldOut": false,
       "raritySlug": "sar",
-      "surugayaBuyPrice": 6500
+      "surugayaBuyPrice": 4500
     },
     {
       "name": "ロケット団のアテナ",
@@ -1438,7 +1438,7 @@
       "category": "ポケモン",
       "energyType": "超",
       "surugayaUrl": "/product/other/GU166803",
-      "surugayaPrice": 6011,
+      "surugayaPrice": 5710,
       "surugayaSoldOut": true,
       "raritySlug": "ur",
       "surugayaBuyPrice": 3200

@@ -2,7 +2,7 @@
   "pack": "拡張パック「アビスアイ」",
   "packSlug": "m5",
   "source": "surugaya",
-  "collectedAt": "2026-08-27T00:25:59.911Z",
+  "collectedAt": "2026-08-28T03:25:57.152Z",
   "count": 117,
   "cards": [
     {
@@ -760,7 +760,7 @@
       "category": "グッズ",
       "energyType": "",
       "surugayaUrl": "/product/other/GU730306",
-      "surugayaPrice": 90,
+      "surugayaPrice": 100,
       "surugayaSoldOut": true,
       "raritySlug": "u"
     },
@@ -950,7 +950,7 @@
       "category": "ポケモン",
       "energyType": "超",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU730264",
-      "surugayaPrice": 530,
+      "surugayaPrice": 470,
       "surugayaSoldOut": false,
       "raritySlug": "ar",
       "surugayaBuyPrice": null
@@ -974,10 +974,9 @@
       "category": "ポケモン",
       "energyType": "悪",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU730266",
-      "surugayaPrice": 380,
+      "surugayaPrice": 180,
       "surugayaSoldOut": false,
-      "raritySlug": "ar",
-      "surugayaBuyPrice": null
+      "raritySlug": "ar"
     },
     {
       "name": "ザルード",
@@ -1139,9 +1138,9 @@
       "rarity": "SR",
       "category": "グッズ",
       "energyType": "",
-      "surugayaUrl": "/product/other/GU730250",
-      "surugayaPrice": 150,
-      "surugayaSoldOut": true,
+      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU730250",
+      "surugayaPrice": 280,
+      "surugayaSoldOut": false,
       "raritySlug": "sr"
     },
     {
@@ -1161,9 +1160,9 @@
       "rarity": "SR",
       "category": "グッズ",
       "energyType": "",
-      "surugayaUrl": "/product/other/GU730252",
-      "surugayaPrice": 80,
-      "surugayaSoldOut": true,
+      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU730252",
+      "surugayaPrice": 280,
+      "surugayaSoldOut": false,
       "raritySlug": "sr"
     },
     {
@@ -1270,7 +1269,7 @@
       "surugayaPrice": 23800,
       "surugayaSoldOut": false,
       "raritySlug": "sar",
-      "surugayaBuyPrice": 12000
+      "surugayaBuyPrice": 11000
     },
     {
       "name": "モルペコex",
@@ -1303,10 +1302,10 @@
       "category": "サポート",
       "energyType": "",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU730240",
-      "surugayaPrice": 4980,
+      "surugayaPrice": 4280,
       "surugayaSoldOut": false,
       "raritySlug": "sar",
-      "surugayaBuyPrice": 2200
+      "surugayaBuyPrice": 1800
     },
     {
       "name": "メガダークライex",

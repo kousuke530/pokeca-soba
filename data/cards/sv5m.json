@@ -2,7 +2,7 @@
   "pack": "拡張パック「サイバージャッジ」",
   "packSlug": "sv5m",
   "source": "surugaya",
-  "collectedAt": "2026-08-27T00:17:00.512Z",
+  "collectedAt": "2026-08-28T03:03:09.161Z",
   "count": 100,
   "cards": [
     {
@@ -704,9 +704,9 @@
       "rarity": "ACE",
       "category": "ポケモンのどうぐ",
       "energyType": "",
-      "surugayaUrl": "/product/other/GN369875",
-      "surugayaPrice": 170,
-      "surugayaSoldOut": true,
+      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN369875",
+      "surugayaPrice": 280,
+      "surugayaSoldOut": false,
       "raritySlug": "ace"
     },
     {
@@ -828,10 +828,11 @@
       "rarity": "AR",
       "category": "ポケモン",
       "energyType": "炎",
-      "surugayaUrl": "/product/other/GN369886",
-      "surugayaPrice": 240,
-      "surugayaSoldOut": true,
-      "raritySlug": "ar"
+      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN369886",
+      "surugayaPrice": 980,
+      "surugayaSoldOut": false,
+      "raritySlug": "ar",
+      "surugayaBuyPrice": 400
     },
     {
       "name": "デンヂムシ",
@@ -930,14 +931,14 @@
       "surugayaBuyPrice": null
     },
     {
-      "name": "テツノイサハex",
+      "name": "【ランクB】テツノイサハex",
       "cardNumber": "084/071",
       "rarity": "SR",
       "category": "ポケモン",
       "energyType": "草",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN369895",
-      "surugayaPrice": 580,
-      "surugayaSoldOut": false,
+      "surugayaUrl": "/product/other/GB369895",
+      "surugayaPrice": 320,
+      "surugayaSoldOut": true,
       "raritySlug": "sr",
       "surugayaBuyPrice": null
     },
@@ -1008,7 +1009,7 @@
       "category": "サポート",
       "energyType": "",
       "surugayaUrl": "/product/other/GN369901",
-      "surugayaPrice": 470,
+      "surugayaPrice": 550,
       "surugayaSoldOut": true,
       "raritySlug": "sr",
       "surugayaBuyPrice": 500

@@ -2,7 +2,7 @@
   "pack": "ハイクラスパック 「テラスタルフェスex」",
   "packSlug": "sv8a",
   "source": "surugaya",
-  "collectedAt": "2026-08-27T00:19:44.195Z",
+  "collectedAt": "2026-08-28T03:20:30.689Z",
   "count": 473,
   "cards": [
     {
@@ -80,9 +80,9 @@
       "rarity": "RR",
       "category": "ポケモン",
       "energyType": "草",
-      "surugayaUrl": "/product/other/GN764553",
-      "surugayaPrice": 150,
-      "surugayaSoldOut": true,
+      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN764553",
+      "surugayaPrice": 280,
+      "surugayaSoldOut": false,
       "raritySlug": "rr"
     },
     {
@@ -576,7 +576,7 @@
       "rarity": "ミラー",
       "category": "ポケモン",
       "energyType": "炎",
-      "surugayaUrl": "/product/other/GN764747",
+      "surugayaUrl": "/product/detail/GN764747?tenpo_cd=400468",
       "surugayaPrice": 500,
       "surugayaSoldOut": true,
       "raritySlug": "mirror",
@@ -810,10 +810,11 @@
       "rarity": "ミラー",
       "category": "ポケモン",
       "energyType": "水",
-      "surugayaUrl": "/product/other/GN764753",
-      "surugayaPrice": 240,
-      "surugayaSoldOut": true,
-      "raritySlug": "mirror"
+      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN764753",
+      "surugayaPrice": 300,
+      "surugayaSoldOut": false,
+      "raritySlug": "mirror",
+      "surugayaBuyPrice": null
     },
     {
       "name": "シャワーズex",
@@ -844,9 +845,9 @@
       "rarity": "マスターボール",
       "category": "ポケモン",
       "energyType": "水",
-      "surugayaUrl": "/product/other/GN764610",
-      "surugayaPrice": 410,
-      "surugayaSoldOut": true,
+      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN764610",
+      "surugayaPrice": 780,
+      "surugayaSoldOut": false,
       "raritySlug": "mb",
       "surugayaBuyPrice": 300
     },
@@ -2176,9 +2177,9 @@
       "rarity": "マスターボール",
       "category": "ポケモン",
       "energyType": "闘",
-      "surugayaUrl": "/product/other/GN764646",
+      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN764646",
       "surugayaPrice": 480,
-      "surugayaSoldOut": true,
+      "surugayaSoldOut": false,
       "raritySlug": "mb",
       "surugayaBuyPrice": null
     },
@@ -3447,9 +3448,9 @@
       "rarity": "RR",
       "category": "ポケモン",
       "energyType": "",
-      "surugayaUrl": "/product/other/GN764585",
-      "surugayaPrice": 120,
-      "surugayaSoldOut": true,
+      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN764585",
+      "surugayaPrice": 280,
+      "surugayaSoldOut": false,
       "raritySlug": "rr"
     },
     {
@@ -3568,8 +3569,8 @@
       "rarity": "ミラー",
       "category": "ポケモン",
       "energyType": "",
-      "surugayaUrl": "/product/other/GN764828",
-      "surugayaPrice": 500,
+      "surugayaUrl": "/product/detail/GN764828?tenpo_cd=400521",
+      "surugayaPrice": 580,
       "surugayaSoldOut": true,
       "raritySlug": "mirror",
       "surugayaBuyPrice": null
@@ -4924,7 +4925,7 @@
       "surugayaPrice": 980,
       "surugayaSoldOut": false,
       "raritySlug": "sar",
-      "surugayaBuyPrice": 450
+      "surugayaBuyPrice": 400
     },
     {
       "name": "ソウブレイズex",
@@ -4969,10 +4970,10 @@
       "category": "ポケモン",
       "energyType": "水",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN764506",
-      "surugayaPrice": 9980,
+      "surugayaPrice": 8480,
       "surugayaSoldOut": false,
       "raritySlug": "sar",
-      "surugayaBuyPrice": 6000
+      "surugayaBuyPrice": 5000
     },
     {
       "name": "イルカマンex",
@@ -5032,7 +5033,7 @@
       "surugayaPrice": 19800,
       "surugayaSoldOut": false,
       "raritySlug": "sar",
-      "surugayaBuyPrice": 12000
+      "surugayaBuyPrice": 11000
     },
     {
       "name": "テツノブジンex",
@@ -5101,10 +5102,10 @@
       "category": "ポケモン",
       "energyType": "悪",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN764518",
-      "surugayaPrice": 4280,
+      "surugayaPrice": 3980,
       "surugayaSoldOut": false,
       "raritySlug": "sar",
-      "surugayaBuyPrice": 2500
+      "surugayaBuyPrice": 2200
     },
     {
       "name": "モモワロウex",
