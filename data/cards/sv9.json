@@ -2,7 +2,7 @@
   "pack": "拡張パック「バトルパートナーズ」",
   "packSlug": "sv9",
   "source": "surugaya",
-  "collectedAt": "2026-08-28T03:20:48.457Z",
+  "collectedAt": "2026-08-31T03:43:12.231Z",
   "count": 167,
   "cards": [
     {
@@ -298,11 +298,10 @@
       "rarity": "ノーマル",
       "category": "グッズ",
       "energyType": "",
-      "surugayaUrl": "/product/other/GN833007",
-      "surugayaPrice": 490,
+      "surugayaUrl": "/product/detail/GN833007?tenpo_cd=400544",
+      "surugayaPrice": 280,
       "surugayaSoldOut": true,
-      "raritySlug": "n",
-      "surugayaBuyPrice": null
+      "raritySlug": "n"
     },
     {
       "name": "ハスボー",
@@ -343,7 +342,7 @@
       "rarity": "RR",
       "category": "ポケモン",
       "energyType": "炎",
-      "surugayaUrl": "/product/other/GN832727",
+      "surugayaUrl": "/product/detail/GN832727?tenpo_cd=410018",
       "surugayaPrice": 59,
       "surugayaSoldOut": true,
       "raritySlug": "rr"
@@ -1545,7 +1544,7 @@
       "category": "ポケモン",
       "energyType": "水",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN832717",
-      "surugayaPrice": 390,
+      "surugayaPrice": 680,
       "surugayaSoldOut": false,
       "raritySlug": "ar",
       "surugayaBuyPrice": null
@@ -1800,7 +1799,7 @@
       "surugayaPrice": 12800,
       "surugayaSoldOut": false,
       "raritySlug": "sar",
-      "surugayaBuyPrice": 8000
+      "surugayaBuyPrice": 7000
     },
     {
       "name": "リーリエのピッピex",
@@ -1869,7 +1868,7 @@
       "category": "エネルギー",
       "energyType": "",
       "surugayaUrl": "/product/other/GN832697",
-      "surugayaPrice": 430,
+      "surugayaPrice": 420,
       "surugayaSoldOut": true,
       "raritySlug": "ur",
       "surugayaBuyPrice": null

@@ -2,7 +2,7 @@
   "pack": "拡張パック「サイバージャッジ」",
   "packSlug": "sv5m",
   "source": "surugaya",
-  "collectedAt": "2026-08-28T03:03:09.161Z",
+  "collectedAt": "2026-08-31T03:40:29.478Z",
   "count": 100,
   "cards": [
     {
@@ -704,9 +704,9 @@
       "rarity": "ACE",
       "category": "ポケモンのどうぐ",
       "energyType": "",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN369875",
-      "surugayaPrice": 280,
-      "surugayaSoldOut": false,
+      "surugayaUrl": "/product/other/GN369875",
+      "surugayaPrice": 162,
+      "surugayaSoldOut": true,
       "raritySlug": "ace"
     },
     {
@@ -828,11 +828,10 @@
       "rarity": "AR",
       "category": "ポケモン",
       "energyType": "炎",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN369886",
-      "surugayaPrice": 980,
-      "surugayaSoldOut": false,
-      "raritySlug": "ar",
-      "surugayaBuyPrice": 400
+      "surugayaUrl": "/product/other/GN369886",
+      "surugayaPrice": 250,
+      "surugayaSoldOut": true,
+      "raritySlug": "ar"
     },
     {
       "name": "デンヂムシ",
@@ -889,10 +888,9 @@
       "category": "ポケモン",
       "energyType": "鋼",
       "surugayaUrl": "/product/other/GN369891",
-      "surugayaPrice": 320,
+      "surugayaPrice": 250,
       "surugayaSoldOut": true,
-      "raritySlug": "ar",
-      "surugayaBuyPrice": 300
+      "raritySlug": "ar"
     },
     {
       "name": "メルタン",
@@ -1009,7 +1007,7 @@
       "category": "サポート",
       "energyType": "",
       "surugayaUrl": "/product/other/GN369901",
-      "surugayaPrice": 550,
+      "surugayaPrice": 540,
       "surugayaSoldOut": true,
       "raritySlug": "sr",
       "surugayaBuyPrice": 500

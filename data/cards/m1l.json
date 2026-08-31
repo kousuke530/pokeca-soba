@@ -2,7 +2,7 @@
   "pack": "拡張パック「メガブレイブ」",
   "packSlug": "m1l",
   "source": "surugaya",
-  "collectedAt": "2026-08-28T03:22:40.833Z",
+  "collectedAt": "2026-08-31T03:45:07.958Z",
   "count": 90,
   "cards": [
     {
@@ -683,7 +683,7 @@
       "category": "サポート",
       "energyType": "",
       "surugayaUrl": "/product/other/GU362771",
-      "surugayaPrice": 52,
+      "surugayaPrice": 64,
       "surugayaSoldOut": true,
       "raritySlug": "u"
     },
@@ -835,9 +835,10 @@
       "category": "ポケモン",
       "energyType": "炎",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU362719",
-      "surugayaPrice": 290,
+      "surugayaPrice": 480,
       "surugayaSoldOut": false,
-      "raritySlug": "sr"
+      "raritySlug": "sr",
+      "surugayaBuyPrice": null
     },
     {
       "name": "メガルカリオex",
@@ -939,10 +940,10 @@
       "category": "サポート",
       "energyType": "",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU362728",
-      "surugayaPrice": 8480,
+      "surugayaPrice": 7980,
       "surugayaSoldOut": false,
       "raritySlug": "sr",
-      "surugayaBuyPrice": 4500
+      "surugayaBuyPrice": 4000
     },
     {
       "name": "メガフシギバナex",
@@ -1011,10 +1012,10 @@
       "category": "ポケモン",
       "energyType": "闘",
       "surugayaUrl": "/product/other/GU364211",
-      "surugayaPrice": 59200,
+      "surugayaPrice": 44940,
       "surugayaSoldOut": true,
       "raritySlug": "mur",
-      "surugayaBuyPrice": 42000
+      "surugayaBuyPrice": 32000
     }
   ]
 }

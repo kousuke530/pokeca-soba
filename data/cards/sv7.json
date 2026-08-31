@@ -2,7 +2,7 @@
   "pack": "拡張パック 「ステラミラクル」",
   "packSlug": "sv7",
   "source": "surugaya",
-  "collectedAt": "2026-08-28T03:04:22.534Z",
+  "collectedAt": "2026-08-31T03:41:42.960Z",
   "count": 177,
   "cards": [
     {
@@ -124,7 +124,7 @@
       "rarity": "ノーマル",
       "category": "ポケモン",
       "energyType": "超",
-      "surugayaUrl": "/product/other/GN596207",
+      "surugayaUrl": "/product/detail/GN596207?tenpo_cd=201202",
       "surugayaPrice": 110,
       "surugayaSoldOut": true,
       "raritySlug": "n"
@@ -1611,9 +1611,10 @@
       "category": "ポケモン",
       "energyType": "草",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN596168",
-      "surugayaPrice": 230,
+      "surugayaPrice": 380,
       "surugayaSoldOut": false,
-      "raritySlug": "ar"
+      "raritySlug": "ar",
+      "surugayaBuyPrice": null
     },
     {
       "name": "バクガメス",
@@ -1836,7 +1837,7 @@
       "category": "サポート",
       "energyType": "",
       "surugayaUrl": "/product/other/GN596187",
-      "surugayaPrice": 860,
+      "surugayaPrice": 900,
       "surugayaSoldOut": true,
       "raritySlug": "sr",
       "surugayaBuyPrice": 800
@@ -1908,7 +1909,7 @@
       "category": "ポケモン",
       "energyType": "超",
       "surugayaUrl": "/product/other/GN596193",
-      "surugayaPrice": 2070,
+      "surugayaPrice": 2440,
       "surugayaSoldOut": true,
       "raritySlug": "sar",
       "surugayaBuyPrice": 2200

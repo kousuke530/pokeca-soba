@@ -2,7 +2,7 @@
   "pack": "拡張パック「インフェルノX」",
   "packSlug": "m2",
   "source": "surugaya",
-  "collectedAt": "2026-08-28T03:23:26.710Z",
+  "collectedAt": "2026-08-31T03:45:53.807Z",
   "count": 113,
   "cards": [
     {
@@ -628,8 +628,8 @@
       "rarity": "R",
       "category": "ポケモン",
       "energyType": "悪",
-      "surugayaUrl": "/product/other/GU427995",
-      "surugayaPrice": 170,
+      "surugayaUrl": "/product/detail/GU427995?tenpo_cd=410011",
+      "surugayaPrice": 210,
       "surugayaSoldOut": true,
       "raritySlug": "r"
     },
@@ -1035,10 +1035,10 @@
       "category": "ポケモン",
       "energyType": "炎",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU427953",
-      "surugayaPrice": 5980,
+      "surugayaPrice": 5480,
       "surugayaSoldOut": false,
       "raritySlug": "sr",
-      "surugayaBuyPrice": 3000
+      "surugayaBuyPrice": 2500
     },
     {
       "name": "オドリドリex",
@@ -1269,10 +1269,10 @@
       "category": "ポケモン",
       "energyType": "炎",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU427945",
-      "surugayaPrice": 228000,
+      "surugayaPrice": 198000,
       "surugayaSoldOut": false,
       "raritySlug": "mur",
-      "surugayaBuyPrice": 140000
+      "surugayaBuyPrice": 100000
     }
   ]
 }

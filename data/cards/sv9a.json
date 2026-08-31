@@ -2,7 +2,7 @@
   "pack": "強化拡張パック「熱風のアリーナ」",
   "packSlug": "sv9a",
   "source": "surugaya",
-  "collectedAt": "2026-08-28T03:21:02.625Z",
+  "collectedAt": "2026-08-31T03:43:27.175Z",
   "count": 91,
   "cards": [
     {
@@ -187,9 +187,9 @@
       "rarity": "R",
       "category": "ポケモン",
       "energyType": "炎",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN923808",
-      "surugayaPrice": 180,
-      "surugayaSoldOut": false,
+      "surugayaUrl": "/product/other/GN923808",
+      "surugayaPrice": 154,
+      "surugayaSoldOut": true,
       "raritySlug": "r"
     },
     {
@@ -1029,9 +1029,9 @@
       "rarity": "UR",
       "category": "スタジアム",
       "energyType": "",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN923772",
-      "surugayaPrice": 1280,
-      "surugayaSoldOut": false,
+      "surugayaUrl": "/product/other/GN923772",
+      "surugayaPrice": 950,
+      "surugayaSoldOut": true,
       "raritySlug": "ur",
       "surugayaBuyPrice": 600
     }
