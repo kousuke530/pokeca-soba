@@ -2,7 +2,7 @@
   "pack": "拡張パック「ワイルドフォース」",
   "packSlug": "sv5k",
   "source": "surugaya",
-  "collectedAt": "2026-08-31T03:40:40.714Z",
+  "collectedAt": "2026-09-01T00:03:54.833Z",
   "count": 99,
   "cards": [
     {
@@ -689,16 +689,15 @@
       "raritySlug": "ace"
     },
     {
-      "name": "【ランクB】なかよしポフィン",
+      "name": "なかよしポフィン",
       "cardNumber": "063/071",
       "rarity": "U",
       "category": "グッズ",
       "energyType": "",
-      "surugayaUrl": "/product/other/GB369772",
-      "surugayaPrice": 460,
-      "surugayaSoldOut": true,
-      "raritySlug": "u",
-      "surugayaBuyPrice": null
+      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN369772",
+      "surugayaPrice": 160,
+      "surugayaSoldOut": false,
+      "raritySlug": "u"
     },
     {
       "name": "緊急ボード",

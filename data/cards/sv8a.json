@@ -2,7 +2,7 @@
   "pack": "ハイクラスパック 「テラスタルフェスex」",
   "packSlug": "sv8a",
   "source": "surugaya",
-  "collectedAt": "2026-08-31T03:42:54.288Z",
+  "collectedAt": "2026-09-01T00:06:12.766Z",
   "count": 473,
   "cards": [
     {
@@ -810,11 +810,10 @@
       "rarity": "ミラー",
       "category": "ポケモン",
       "energyType": "水",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN764753",
-      "surugayaPrice": 300,
-      "surugayaSoldOut": false,
-      "raritySlug": "mirror",
-      "surugayaBuyPrice": null
+      "surugayaUrl": "/product/other/GN764753",
+      "surugayaPrice": 240,
+      "surugayaSoldOut": true,
+      "raritySlug": "mirror"
     },
     {
       "name": "シャワーズex",
@@ -846,7 +845,7 @@
       "category": "ポケモン",
       "energyType": "水",
       "surugayaUrl": "/product/other/GN764610",
-      "surugayaPrice": 420,
+      "surugayaPrice": 410,
       "surugayaSoldOut": true,
       "raritySlug": "mb",
       "surugayaBuyPrice": 300
@@ -2885,7 +2884,7 @@
       "category": "ポケモン",
       "energyType": "鋼",
       "surugayaUrl": "/product/other/GN764665",
-      "surugayaPrice": 480,
+      "surugayaPrice": 470,
       "surugayaSoldOut": true,
       "raritySlug": "mb",
       "surugayaBuyPrice": null
@@ -3085,10 +3084,11 @@
       "rarity": "マスターボール",
       "category": "ポケモン",
       "energyType": "鋼",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN764671",
-      "surugayaPrice": 280,
-      "surugayaSoldOut": false,
-      "raritySlug": "mb"
+      "surugayaUrl": "/product/other/GN892304",
+      "surugayaPrice": 312,
+      "surugayaSoldOut": true,
+      "raritySlug": "mb",
+      "surugayaBuyPrice": null
     },
     {
       "name": "ブリジュラス",
@@ -3978,7 +3978,7 @@
       "category": "グッズ",
       "energyType": "",
       "surugayaUrl": "/product/other/GN764986",
-      "surugayaPrice": 44,
+      "surugayaPrice": 47,
       "surugayaSoldOut": true,
       "raritySlug": "n"
     },
@@ -4300,9 +4300,9 @@
       "rarity": "ミラー",
       "category": "サポート",
       "energyType": "",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN764855",
-      "surugayaPrice": 180,
-      "surugayaSoldOut": false,
+      "surugayaUrl": "/product/other/GN764855",
+      "surugayaPrice": 170,
+      "surugayaSoldOut": true,
       "raritySlug": "mirror"
     },
     {

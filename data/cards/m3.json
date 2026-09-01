@@ -2,7 +2,7 @@
   "pack": "拡張パック「ムニキスゼロ」",
   "packSlug": "m3",
   "source": "surugaya",
-  "collectedAt": "2026-08-31T03:47:55.286Z",
+  "collectedAt": "2026-09-01T00:11:22.551Z",
   "count": 117,
   "cards": [
     {
@@ -66,9 +66,9 @@
       "rarity": "R",
       "category": "ポケモン",
       "energyType": "草",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU584322",
-      "surugayaPrice": 160,
-      "surugayaSoldOut": false,
+      "surugayaUrl": "/product/detail/GU584322?tenpo_cd=410018",
+      "surugayaPrice": 29,
+      "surugayaSoldOut": true,
       "raritySlug": "r"
     },
     {
@@ -176,9 +176,9 @@
       "rarity": "RR",
       "category": "ポケモン",
       "energyType": "炎",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU584315",
-      "surugayaPrice": 160,
-      "surugayaSoldOut": false,
+      "surugayaUrl": "/product/other/GU584315",
+      "surugayaPrice": 79,
+      "surugayaSoldOut": true,
       "raritySlug": "rr"
     },
     {
@@ -1294,10 +1294,10 @@
       "category": "サポート",
       "energyType": "",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU584282",
-      "surugayaPrice": 13800,
+      "surugayaPrice": 10800,
       "surugayaSoldOut": false,
       "raritySlug": "sar",
-      "surugayaBuyPrice": 7000
+      "surugayaBuyPrice": 5500
     },
     {
       "name": "ユカリ",
