@@ -2,7 +2,7 @@
   "pack": "拡張パック「未来の一閃」",
   "packSlug": "sv4m",
   "source": "surugaya",
-  "collectedAt": "2026-09-01T00:02:35.461Z",
+  "collectedAt": "2026-09-02T10:21:32.736Z",
   "count": 95,
   "cards": [
     {
@@ -844,11 +844,10 @@
       "rarity": "AR",
       "category": "ポケモン",
       "energyType": "",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN228597",
-      "surugayaPrice": 480,
-      "surugayaSoldOut": false,
-      "raritySlug": "ar",
-      "surugayaBuyPrice": null
+      "surugayaUrl": "/product/other/GN228597",
+      "surugayaPrice": 280,
+      "surugayaSoldOut": true,
+      "raritySlug": "ar"
     },
     {
       "name": "ポリゴンZ",
@@ -887,14 +886,14 @@
       "surugayaBuyPrice": null
     },
     {
-      "name": "テツノブジンex",
+      "name": "【ランクB】テツノブジンex",
       "cardNumber": "080/066",
       "rarity": "SR",
       "category": "ポケモン",
       "energyType": "超",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN228601",
-      "surugayaPrice": 480,
-      "surugayaSoldOut": false,
+      "surugayaUrl": "/product/detail/GB228601?tenpo_cd=400500",
+      "surugayaPrice": 680,
+      "surugayaSoldOut": true,
       "raritySlug": "sr",
       "surugayaBuyPrice": null
     },

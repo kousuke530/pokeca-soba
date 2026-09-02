@@ -2,7 +2,7 @@
   "pack": "強化拡張パック「クリムゾンヘイズ」",
   "packSlug": "sv5a",
   "source": "surugaya",
-  "collectedAt": "2026-09-01T00:04:06.346Z",
+  "collectedAt": "2026-09-02T10:22:57.303Z",
   "count": 95,
   "cards": [
     {
@@ -485,9 +485,10 @@
       "category": "ポケモン",
       "energyType": "闘",
       "surugayaUrl": "/product/other/GN446031",
-      "surugayaPrice": 220,
+      "surugayaPrice": 380,
       "surugayaSoldOut": true,
-      "raritySlug": "rr"
+      "raritySlug": "rr",
+      "surugayaBuyPrice": null
     },
     {
       "name": "ルチャブル",
@@ -856,10 +857,10 @@
       "category": "ポケモン",
       "energyType": "",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN446064",
-      "surugayaPrice": 5480,
+      "surugayaPrice": 4980,
       "surugayaSoldOut": false,
       "raritySlug": "ar",
-      "surugayaBuyPrice": 2800
+      "surugayaBuyPrice": 2500
     },
     {
       "name": "ヤバソチャex",
@@ -916,7 +917,7 @@
       "category": "ポケモン",
       "energyType": "闘",
       "surugayaUrl": "/product/other/GN446069",
-      "surugayaPrice": 1030,
+      "surugayaPrice": 1080,
       "surugayaSoldOut": true,
       "raritySlug": "sr",
       "surugayaBuyPrice": 1000

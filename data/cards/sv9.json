@@ -2,7 +2,7 @@
   "pack": "拡張パック「バトルパートナーズ」",
   "packSlug": "sv9",
   "source": "surugaya",
-  "collectedAt": "2026-09-01T00:06:31.364Z",
+  "collectedAt": "2026-09-02T10:25:12.483Z",
   "count": 167,
   "cards": [
     {
@@ -342,7 +342,7 @@
       "rarity": "RR",
       "category": "ポケモン",
       "energyType": "炎",
-      "surugayaUrl": "/product/detail/GN832727?tenpo_cd=410018",
+      "surugayaUrl": "/product/other/GN832727",
       "surugayaPrice": 59,
       "surugayaSoldOut": true,
       "raritySlug": "rr"
@@ -1607,7 +1607,7 @@
       "surugayaPrice": 2480,
       "surugayaSoldOut": false,
       "raritySlug": "ar",
-      "surugayaBuyPrice": 1100
+      "surugayaBuyPrice": 1000
     },
     {
       "name": "オオタチ",
@@ -1811,7 +1811,7 @@
       "surugayaPrice": 27800,
       "surugayaSoldOut": false,
       "raritySlug": "sar",
-      "surugayaBuyPrice": 16000
+      "surugayaBuyPrice": 13000
     },
     {
       "name": "Nのゾロアークex",
@@ -1868,7 +1868,7 @@
       "category": "エネルギー",
       "energyType": "",
       "surugayaUrl": "/product/other/GN832697",
-      "surugayaPrice": 420,
+      "surugayaPrice": 390,
       "surugayaSoldOut": true,
       "raritySlug": "ur",
       "surugayaBuyPrice": null

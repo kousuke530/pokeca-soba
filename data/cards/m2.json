@@ -2,7 +2,7 @@
   "pack": "拡張パック「インフェルノX」",
   "packSlug": "m2",
   "source": "surugaya",
-  "collectedAt": "2026-09-01T00:09:17.867Z",
+  "collectedAt": "2026-09-02T10:27:46.520Z",
   "count": 113,
   "cards": [
     {
@@ -628,8 +628,8 @@
       "rarity": "R",
       "category": "ポケモン",
       "energyType": "悪",
-      "surugayaUrl": "/product/detail/GU427995?tenpo_cd=410011",
-      "surugayaPrice": 210,
+      "surugayaUrl": "/product/other/GU427995",
+      "surugayaPrice": 190,
       "surugayaSoldOut": true,
       "raritySlug": "r"
     },
@@ -941,10 +941,10 @@
       "category": "ポケモン",
       "energyType": "水",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU427973",
-      "surugayaPrice": 550,
+      "surugayaPrice": 480,
       "surugayaSoldOut": false,
       "raritySlug": "ar",
-      "surugayaBuyPrice": 300
+      "surugayaBuyPrice": null
     },
     {
       "name": "ワンパチ",

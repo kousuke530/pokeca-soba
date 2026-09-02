@@ -2,8 +2,8 @@
   "pack": "拡張パック「超電ブレイカー」",
   "packSlug": "sv8",
   "source": "surugaya",
-  "collectedAt": "2026-09-01T00:05:25.169Z",
-  "count": 136,
+  "collectedAt": "2026-09-02T10:24:09.673Z",
+  "count": 137,
   "cards": [
     {
       "name": "タマタマ",
@@ -1118,6 +1118,18 @@
       "raritySlug": "u"
     },
     {
+      "name": "シアノ",
+      "cardNumber": "102/106",
+      "rarity": "U",
+      "category": "サポート",
+      "energyType": "",
+      "surugayaUrl": "/product/detail/GN709495?tenpo_cd=410011",
+      "surugayaPrice": 833,
+      "surugayaSoldOut": true,
+      "raritySlug": "u",
+      "surugayaBuyPrice": null
+    },
+    {
       "name": "シトロンの機転",
       "cardNumber": "103/106",
       "rarity": "U",
@@ -1408,7 +1420,7 @@
       "category": "サポート",
       "energyType": "",
       "surugayaUrl": "/product/other/GN709431",
-      "surugayaPrice": 1240,
+      "surugayaPrice": 1160,
       "surugayaSoldOut": true,
       "raritySlug": "sr",
       "surugayaBuyPrice": 700

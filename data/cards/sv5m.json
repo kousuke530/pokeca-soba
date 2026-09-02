@@ -2,7 +2,7 @@
   "pack": "拡張パック「サイバージャッジ」",
   "packSlug": "sv5m",
   "source": "surugaya",
-  "collectedAt": "2026-09-01T00:03:43.273Z",
+  "collectedAt": "2026-09-02T10:22:35.170Z",
   "count": 100,
   "cards": [
     {
@@ -704,9 +704,9 @@
       "rarity": "ACE",
       "category": "ポケモンのどうぐ",
       "energyType": "",
-      "surugayaUrl": "/product/other/GN369875",
-      "surugayaPrice": 160,
-      "surugayaSoldOut": true,
+      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN369875",
+      "surugayaPrice": 280,
+      "surugayaSoldOut": false,
       "raritySlug": "ace"
     },
     {
@@ -828,10 +828,11 @@
       "rarity": "AR",
       "category": "ポケモン",
       "energyType": "炎",
-      "surugayaUrl": "/product/other/GN369886",
-      "surugayaPrice": 250,
-      "surugayaSoldOut": true,
-      "raritySlug": "ar"
+      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN369886",
+      "surugayaPrice": 980,
+      "surugayaSoldOut": false,
+      "raritySlug": "ar",
+      "surugayaBuyPrice": 400
     },
     {
       "name": "デンヂムシ",
@@ -888,7 +889,7 @@
       "category": "ポケモン",
       "energyType": "鋼",
       "surugayaUrl": "/product/other/GN369891",
-      "surugayaPrice": 250,
+      "surugayaPrice": 240,
       "surugayaSoldOut": true,
       "raritySlug": "ar"
     },
@@ -1115,7 +1116,7 @@
       "category": "ポケモン",
       "energyType": "超",
       "surugayaUrl": "/product/other/GN369910",
-      "surugayaPrice": 580,
+      "surugayaPrice": 578,
       "surugayaSoldOut": true,
       "raritySlug": "ur",
       "surugayaBuyPrice": null

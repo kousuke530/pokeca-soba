@@ -2,7 +2,7 @@
   "pack": "強化拡張パック「レイジングサーフ」",
   "packSlug": "sv3a",
   "source": "surugaya",
-  "collectedAt": "2026-09-01T00:02:00.494Z",
+  "collectedAt": "2026-09-02T10:21:03.037Z",
   "count": 92,
   "cards": [
     {
@@ -584,7 +584,7 @@
       "category": "グッズ",
       "energyType": "",
       "surugayaUrl": "/product/other/GN170296",
-      "surugayaPrice": 61,
+      "surugayaPrice": 50,
       "surugayaSoldOut": true,
       "raritySlug": "u"
     },
@@ -1017,7 +1017,7 @@
       "category": "ポケモン",
       "energyType": "水",
       "surugayaUrl": "/product/other/GN170333",
-      "surugayaPrice": 1250,
+      "surugayaPrice": 2240,
       "surugayaSoldOut": true,
       "raritySlug": "ur",
       "surugayaBuyPrice": 1200
@@ -1028,9 +1028,9 @@
       "rarity": "UR",
       "category": "スタジアム",
       "energyType": "",
-      "surugayaUrl": "/product/other/GN170334",
-      "surugayaPrice": 360,
-      "surugayaSoldOut": true,
+      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN170334",
+      "surugayaPrice": 480,
+      "surugayaSoldOut": false,
       "raritySlug": "ur",
       "surugayaBuyPrice": null
     },
