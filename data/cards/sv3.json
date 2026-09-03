@@ -2,7 +2,7 @@
   "pack": "拡張パック「黒炎の支配者」",
   "packSlug": "sv3",
   "source": "surugaya",
-  "collectedAt": "2026-09-02T10:20:53.785Z",
+  "collectedAt": "2026-09-03T03:01:21.083Z",
   "count": 174,
   "cards": [
     {
@@ -1821,14 +1821,14 @@
       "surugayaBuyPrice": null
     },
     {
-      "name": "【ランクB】ポピー",
+      "name": "ポピー",
       "cardNumber": "131/108",
       "rarity": "SR",
       "category": "サポート",
       "energyType": "",
-      "surugayaUrl": "/product/detail/GB104378?tenpo_cd=410124",
-      "surugayaPrice": 1330,
-      "surugayaSoldOut": true,
+      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN104378",
+      "surugayaPrice": 480,
+      "surugayaSoldOut": false,
       "raritySlug": "sr",
       "surugayaBuyPrice": null
     },

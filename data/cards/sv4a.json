@@ -2,7 +2,7 @@
   "pack": "ハイクラスパック 「シャイニートレジャーex」",
   "packSlug": "sv4a",
   "source": "surugaya",
-  "collectedAt": "2026-09-02T10:22:20.959Z",
+  "collectedAt": "2026-09-03T03:02:49.883Z",
   "count": 360,
   "cards": [
     {
@@ -160,14 +160,14 @@
       "raritySlug": "rr"
     },
     {
-      "name": "(パラレル)ミニーブ",
+      "name": "ミニーブ",
       "cardNumber": "015/190",
       "rarity": "ノーマル",
       "category": "ポケモン",
       "energyType": "草",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN285108",
-      "surugayaPrice": 160,
-      "surugayaSoldOut": false,
+      "surugayaUrl": "/product/other/GN285107",
+      "surugayaPrice": 18,
+      "surugayaSoldOut": true,
       "raritySlug": "n"
     },
     {
@@ -843,14 +843,14 @@
       "raritySlug": "rr"
     },
     {
-      "name": "(パラレル)ピィ",
+      "name": "ピィ",
       "cardNumber": "077/190",
       "rarity": "ノーマル",
       "category": "ポケモン",
       "energyType": "超",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN285204",
-      "surugayaPrice": 180,
-      "surugayaSoldOut": false,
+      "surugayaUrl": "/product/other/GN285203",
+      "surugayaPrice": 27,
+      "surugayaSoldOut": true,
       "raritySlug": "n"
     },
     {
@@ -1713,13 +1713,13 @@
       "raritySlug": "n"
     },
     {
-      "name": "エレキジェネレーター",
+      "name": "(パラレル)エレキジェネレーター",
       "cardNumber": "156/190",
       "rarity": "ノーマル",
       "category": "グッズ",
       "energyType": "",
-      "surugayaUrl": "/product/other/GN285332",
-      "surugayaPrice": 35,
+      "surugayaUrl": "/product/other/GN285333",
+      "surugayaPrice": 109,
       "surugayaSoldOut": true,
       "raritySlug": "n"
     },
@@ -3102,7 +3102,7 @@
       "category": "ポケモン",
       "energyType": "闘",
       "surugayaUrl": "/product/other/GN285487",
-      "surugayaPrice": 270,
+      "surugayaPrice": 260,
       "surugayaSoldOut": true,
       "raritySlug": "s"
     },
@@ -3869,7 +3869,7 @@
       "surugayaPrice": 89800,
       "surugayaSoldOut": false,
       "raritySlug": "sar",
-      "surugayaBuyPrice": 65000
+      "surugayaBuyPrice": 55000
     },
     {
       "name": "サーナイトex",
