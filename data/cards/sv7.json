@@ -2,7 +2,7 @@
   "pack": "拡張パック 「ステラミラクル」",
   "packSlug": "sv7",
   "source": "surugaya",
-  "collectedAt": "2026-09-03T03:04:15.123Z",
+  "collectedAt": "2026-09-04T00:15:20.135Z",
   "count": 177,
   "cards": [
     {
@@ -79,7 +79,7 @@
       "category": "ポケモン",
       "energyType": "水",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN596205",
-      "surugayaPrice": 480,
+      "surugayaPrice": 380,
       "surugayaSoldOut": false,
       "raritySlug": "n",
       "surugayaBuyPrice": null
@@ -1291,7 +1291,7 @@
       "category": "ポケモン",
       "energyType": "ドラゴン",
       "surugayaUrl": "/product/detail/GN596139?tenpo_cd=410018",
-      "surugayaPrice": 113,
+      "surugayaPrice": 84,
       "surugayaSoldOut": true,
       "raritySlug": "r"
     },
@@ -1765,10 +1765,10 @@
       "category": "ポケモン",
       "energyType": "水",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN596181",
-      "surugayaPrice": 980,
+      "surugayaPrice": 780,
       "surugayaSoldOut": false,
       "raritySlug": "sr",
-      "surugayaBuyPrice": 400
+      "surugayaBuyPrice": 300
     },
     {
       "name": "デンチュラex",
@@ -1908,9 +1908,9 @@
       "rarity": "SAR",
       "category": "ポケモン",
       "energyType": "超",
-      "surugayaUrl": "/product/other/GN596193",
-      "surugayaPrice": 2440,
-      "surugayaSoldOut": true,
+      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN596193",
+      "surugayaPrice": 4280,
+      "surugayaSoldOut": false,
       "raritySlug": "sar",
       "surugayaBuyPrice": 2200
     },

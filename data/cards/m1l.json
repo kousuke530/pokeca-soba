@@ -2,7 +2,7 @@
   "pack": "拡張パック「メガブレイブ」",
   "packSlug": "m1l",
   "source": "surugaya",
-  "collectedAt": "2026-09-03T03:07:31.901Z",
+  "collectedAt": "2026-09-04T00:18:49.980Z",
   "count": 90,
   "cards": [
     {
@@ -187,9 +187,9 @@
       "rarity": "R",
       "category": "ポケモン",
       "energyType": "炎",
-      "surugayaUrl": "/product/detail/GU362746?tenpo_cd=410011",
-      "surugayaPrice": 285,
-      "surugayaSoldOut": true,
+      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU362746",
+      "surugayaPrice": 160,
+      "surugayaSoldOut": false,
       "raritySlug": "r"
     },
     {
@@ -275,9 +275,9 @@
       "rarity": "R",
       "category": "ポケモン",
       "energyType": "闘",
-      "surugayaUrl": "/product/other/GU362747",
-      "surugayaPrice": 159,
-      "surugayaSoldOut": true,
+      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU362747",
+      "surugayaPrice": 160,
+      "surugayaSoldOut": false,
       "raritySlug": "r"
     },
     {
@@ -682,9 +682,9 @@
       "rarity": "U",
       "category": "サポート",
       "energyType": "",
-      "surugayaUrl": "/product/other/GU362771",
-      "surugayaPrice": 64,
-      "surugayaSoldOut": true,
+      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU362771",
+      "surugayaPrice": 160,
+      "surugayaSoldOut": false,
       "raritySlug": "u"
     },
     {
@@ -705,10 +705,10 @@
       "category": "ポケモン",
       "energyType": "草",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU362729",
-      "surugayaPrice": 1280,
+      "surugayaPrice": 1080,
       "surugayaSoldOut": false,
       "raritySlug": "ar",
-      "surugayaBuyPrice": 600
+      "surugayaBuyPrice": 500
     },
     {
       "name": "フシギソウ",
@@ -1012,7 +1012,7 @@
       "category": "ポケモン",
       "energyType": "闘",
       "surugayaUrl": "/product/other/GU364211",
-      "surugayaPrice": 49800,
+      "surugayaPrice": 48780,
       "surugayaSoldOut": true,
       "raritySlug": "mur",
       "surugayaBuyPrice": 32000

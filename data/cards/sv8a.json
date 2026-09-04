@@ -2,7 +2,7 @@
   "pack": "ハイクラスパック 「テラスタルフェスex」",
   "packSlug": "sv8a",
   "source": "surugaya",
-  "collectedAt": "2026-09-03T03:05:22.811Z",
+  "collectedAt": "2026-09-04T00:16:28.961Z",
   "count": 473,
   "cards": [
     {
@@ -845,7 +845,7 @@
       "category": "ポケモン",
       "energyType": "水",
       "surugayaUrl": "/product/other/GN764610",
-      "surugayaPrice": 410,
+      "surugayaPrice": 430,
       "surugayaSoldOut": true,
       "raritySlug": "mb",
       "surugayaBuyPrice": 300
@@ -1047,7 +1047,7 @@
       "category": "ポケモン",
       "energyType": "水",
       "surugayaUrl": "/product/detail/GN764760?tenpo_cd=400499",
-      "surugayaPrice": 350,
+      "surugayaPrice": 360,
       "surugayaSoldOut": true,
       "raritySlug": "mirror",
       "surugayaBuyPrice": null
@@ -1092,10 +1092,11 @@
       "rarity": "ミラー",
       "category": "ポケモン",
       "energyType": "水",
-      "surugayaUrl": "/product/other/GN764761",
-      "surugayaPrice": 280,
-      "surugayaSoldOut": true,
-      "raritySlug": "mirror"
+      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN764761",
+      "surugayaPrice": 480,
+      "surugayaSoldOut": false,
+      "raritySlug": "mirror",
+      "surugayaBuyPrice": null
     },
     {
       "name": "グレイシアex",
@@ -1561,7 +1562,7 @@
       "category": "ポケモン",
       "energyType": "超",
       "surugayaUrl": "/product/other/GN764629",
-      "surugayaPrice": 480,
+      "surugayaPrice": 780,
       "surugayaSoldOut": true,
       "raritySlug": "mb",
       "surugayaBuyPrice": null
@@ -1853,7 +1854,7 @@
       "category": "ポケモン",
       "energyType": "超",
       "surugayaUrl": "/product/other/GN764781",
-      "surugayaPrice": 408,
+      "surugayaPrice": 400,
       "surugayaSoldOut": true,
       "raritySlug": "mirror",
       "surugayaBuyPrice": null
@@ -2541,10 +2542,11 @@
       "rarity": "RR",
       "category": "ポケモン",
       "energyType": "悪",
-      "surugayaUrl": "/product/other/GN764576",
-      "surugayaPrice": 160,
-      "surugayaSoldOut": true,
-      "raritySlug": "rr"
+      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN764576",
+      "surugayaPrice": 480,
+      "surugayaSoldOut": false,
+      "raritySlug": "rr",
+      "surugayaBuyPrice": null
     },
     {
       "name": "ヤブクロン",
@@ -2697,7 +2699,7 @@
       "category": "ポケモン",
       "energyType": "悪",
       "surugayaUrl": "/product/other/GN764661",
-      "surugayaPrice": 170,
+      "surugayaPrice": 210,
       "surugayaSoldOut": true,
       "raritySlug": "mb"
     },
@@ -3987,7 +3989,7 @@
       "category": "グッズ",
       "energyType": "",
       "surugayaUrl": "/product/detail/GN764842?tenpo_cd=400499",
-      "surugayaPrice": 450,
+      "surugayaPrice": 460,
       "surugayaSoldOut": true,
       "raritySlug": "mirror",
       "surugayaBuyPrice": 400
@@ -5182,10 +5184,10 @@
       "category": "ポケモン",
       "energyType": "",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN764526",
-      "surugayaPrice": 980,
+      "surugayaPrice": 780,
       "surugayaSoldOut": false,
       "raritySlug": "sar",
-      "surugayaBuyPrice": 450
+      "surugayaBuyPrice": 300
     },
     {
       "name": "アカマツ",

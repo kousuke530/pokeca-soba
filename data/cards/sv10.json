@@ -2,7 +2,7 @@
   "pack": "拡張パック「ロケット団の栄光」",
   "packSlug": "sv10",
   "source": "surugaya",
-  "collectedAt": "2026-09-03T03:06:08.172Z",
+  "collectedAt": "2026-09-04T00:17:20.726Z",
   "count": 130,
   "cards": [
     {
@@ -363,9 +363,9 @@
       "rarity": "R",
       "category": "ポケモン",
       "energyType": "雷",
-      "surugayaUrl": "/product/other/GU166849",
-      "surugayaPrice": 29,
-      "surugayaSoldOut": true,
+      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU166849",
+      "surugayaPrice": 160,
+      "surugayaSoldOut": false,
       "raritySlug": "r"
     },
     {
@@ -429,9 +429,9 @@
       "rarity": "RR",
       "category": "ポケモン",
       "energyType": "超",
-      "surugayaUrl": "/product/other/GU166840",
-      "surugayaPrice": 150,
-      "surugayaSoldOut": true,
+      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU166840",
+      "surugayaPrice": 180,
+      "surugayaSoldOut": false,
       "raritySlug": "rr"
     },
     {
@@ -539,9 +539,9 @@
       "rarity": "U",
       "category": "ポケモン",
       "energyType": "闘",
-      "surugayaUrl": "/product/other/GU166865",
-      "surugayaPrice": 19,
-      "surugayaSoldOut": true,
+      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU166865",
+      "surugayaPrice": 160,
+      "surugayaSoldOut": false,
       "raritySlug": "u"
     },
     {
@@ -1429,7 +1429,7 @@
       "surugayaPrice": 3280,
       "surugayaSoldOut": false,
       "raritySlug": "sar",
-      "surugayaBuyPrice": 2000
+      "surugayaBuyPrice": 1500
     },
     {
       "name": "ロケット団のミュウツーex",
