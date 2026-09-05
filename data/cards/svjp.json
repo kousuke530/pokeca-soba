@@ -2,7 +2,7 @@
   "pack": "バトルマスターデッキ パオジアンex",
   "packSlug": "svjp",
   "source": "surugaya",
-  "collectedAt": "2026-09-04T00:14:45.584Z",
+  "collectedAt": "2026-09-05T09:36:57.576Z",
   "count": 16,
   "cards": [
     {
@@ -12,7 +12,7 @@
       "category": "ポケモン",
       "energyType": "水",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN511223",
-      "surugayaPrice": 400,
+      "surugayaPrice": 360,
       "surugayaSoldOut": false,
       "raritySlug": "n",
       "surugayaBuyPrice": null
@@ -35,7 +35,7 @@
       "category": "ポケモン",
       "energyType": "水",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN511225",
-      "surugayaPrice": 480,
+      "surugayaPrice": 430,
       "surugayaSoldOut": false,
       "raritySlug": "n",
       "surugayaBuyPrice": null
@@ -167,9 +167,9 @@
       "rarity": "ノーマル",
       "category": "サポート",
       "energyType": "",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN511238",
-      "surugayaPrice": 160,
-      "surugayaSoldOut": false,
+      "surugayaUrl": "/product/other/GN511238",
+      "surugayaPrice": 119,
+      "surugayaSoldOut": true,
       "raritySlug": "n"
     },
     {
