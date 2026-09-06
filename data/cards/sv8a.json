@@ -2,7 +2,7 @@
   "pack": "ハイクラスパック 「テラスタルフェスex」",
   "packSlug": "sv8a",
   "source": "surugaya",
-  "collectedAt": "2026-09-05T09:38:43.455Z",
+  "collectedAt": "2026-09-06T01:38:57.531Z",
   "count": 474,
   "cards": [
     {
@@ -1584,9 +1584,9 @@
       "rarity": "ノーマル",
       "category": "ポケモン",
       "energyType": "超",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN764942",
-      "surugayaPrice": 160,
-      "surugayaSoldOut": false,
+      "surugayaUrl": "/product/detail/GN764942?tenpo_cd=410018",
+      "surugayaPrice": 18,
+      "surugayaSoldOut": true,
       "raritySlug": "n"
     },
     {
@@ -2522,7 +2522,7 @@
       "surugayaPrice": 20520,
       "surugayaSoldOut": false,
       "raritySlug": "mb",
-      "surugayaBuyPrice": 13000
+      "surugayaBuyPrice": 11000
     },
     {
       "name": "ブラッキー",
@@ -4965,9 +4965,9 @@
       "rarity": "SAR",
       "category": "ポケモン",
       "energyType": "水",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN764506",
-      "surugayaPrice": 7630,
-      "surugayaSoldOut": false,
+      "surugayaUrl": "/product/other/GN764506",
+      "surugayaPrice": 5080,
+      "surugayaSoldOut": true,
       "raritySlug": "sar",
       "surugayaBuyPrice": 5000
     },

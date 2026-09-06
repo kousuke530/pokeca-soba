@@ -2,7 +2,7 @@
   "pack": "ハイクラスパック 「シャイニートレジャーex」",
   "packSlug": "sv4a",
   "source": "surugaya",
-  "collectedAt": "2026-09-05T09:36:01.439Z",
+  "collectedAt": "2026-09-06T01:23:32.432Z",
   "count": 360,
   "cards": [
     {
@@ -61,14 +61,14 @@
       "raritySlug": "n"
     },
     {
-      "name": "(パラレル)ポポッコ",
+      "name": "ポポッコ",
       "cardNumber": "006/190",
       "rarity": "ノーマル",
       "category": "ポケモン",
       "energyType": "草",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN285094",
-      "surugayaPrice": 160,
-      "surugayaSoldOut": false,
+      "surugayaUrl": "/product/detail/GN285093?tenpo_cd=410018",
+      "surugayaPrice": 19,
+      "surugayaSoldOut": true,
       "raritySlug": "n"
     },
     {
@@ -1768,13 +1768,13 @@
       "raritySlug": "n"
     },
     {
-      "name": "ハイパーボール",
+      "name": "(パラレル)ハイパーボール",
       "cardNumber": "161/190",
       "rarity": "ノーマル",
       "category": "グッズ",
       "energyType": "",
-      "surugayaUrl": "/product/other/GN285342",
-      "surugayaPrice": 37,
+      "surugayaUrl": "/product/detail/GN285343?tenpo_cd=410018",
+      "surugayaPrice": 149,
       "surugayaSoldOut": true,
       "raritySlug": "n"
     },
@@ -1823,12 +1823,12 @@
       "raritySlug": "n"
     },
     {
-      "name": "ガチガチバンド",
+      "name": "(パラレル)ガチガチバンド",
       "cardNumber": "166/190",
       "rarity": "ノーマル",
       "category": "ポケモンのどうぐ",
       "energyType": "",
-      "surugayaUrl": "/product/other/GN285352",
+      "surugayaUrl": "/product/other/GN285353",
       "surugayaPrice": 50,
       "surugayaSoldOut": true,
       "raritySlug": "n"
@@ -1977,16 +1977,15 @@
       "raritySlug": "n"
     },
     {
-      "name": "(パラレル)ペパー",
+      "name": "ペパー",
       "cardNumber": "180/190",
       "rarity": "ノーマル",
       "category": "サポート",
       "energyType": "",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN285378",
-      "surugayaPrice": 340,
+      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN285377",
+      "surugayaPrice": 160,
       "surugayaSoldOut": false,
-      "raritySlug": "n",
-      "surugayaBuyPrice": null
+      "raritySlug": "n"
     },
     {
       "name": "ボスの指令(ゲーチス)",
@@ -2033,13 +2032,13 @@
       "raritySlug": "n"
     },
     {
-      "name": "ボウルタウン",
+      "name": "(パラレル)ボウルタウン",
       "cardNumber": "185/190",
       "rarity": "ノーマル",
       "category": "スタジアム",
       "energyType": "",
-      "surugayaUrl": "/product/other/GN285386",
-      "surugayaPrice": 49,
+      "surugayaUrl": "/product/other/GN285387",
+      "surugayaPrice": 100,
       "surugayaSoldOut": true,
       "raritySlug": "n"
     },
@@ -2731,9 +2730,9 @@
       "rarity": "S",
       "category": "ポケモン",
       "energyType": "雷",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN285454",
-      "surugayaPrice": 180,
-      "surugayaSoldOut": false,
+      "surugayaUrl": "/product/other/GN285454",
+      "surugayaPrice": 150,
+      "surugayaSoldOut": true,
       "raritySlug": "s"
     },
     {

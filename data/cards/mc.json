@@ -2,7 +2,7 @@
   "pack": "スタートデッキ100 バトルコレクション",
   "packSlug": "mc",
   "source": "surugaya",
-  "collectedAt": "2026-09-05T09:43:38.818Z",
+  "collectedAt": "2026-09-06T01:43:48.569Z",
   "count": 608,
   "cards": [
     {
@@ -1009,9 +1009,9 @@
       "rarity": "ノーマル",
       "category": "ポケモン",
       "energyType": "炎",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU542982",
-      "surugayaPrice": 160,
-      "surugayaSoldOut": false,
+      "surugayaUrl": "/product/detail/GU542982?tenpo_cd=410011",
+      "surugayaPrice": 238,
+      "surugayaSoldOut": true,
       "raritySlug": "n"
     },
     {
@@ -1725,11 +1725,11 @@
       "rarity": "ノーマル",
       "category": "ポケモン",
       "energyType": "水",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU542920",
-      "surugayaPrice": 1080,
-      "surugayaSoldOut": false,
+      "surugayaUrl": "/product/other/GU542992",
+      "surugayaPrice": 780,
+      "surugayaSoldOut": true,
       "raritySlug": "n",
-      "surugayaBuyPrice": 400
+      "surugayaBuyPrice": 300
     },
     {
       "name": "ニューラ",
