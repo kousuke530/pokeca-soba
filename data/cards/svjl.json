@@ -2,7 +2,7 @@
   "pack": "バトルマスターデッキ テラスタル リザードンex",
   "packSlug": "svjl",
   "source": "surugaya",
-  "collectedAt": "2026-09-06T01:37:16.762Z",
+  "collectedAt": "2026-09-07T00:05:05.119Z",
   "count": 21,
   "cards": [
     {
@@ -33,11 +33,10 @@
       "rarity": "ノーマル",
       "category": "ポケモン",
       "energyType": "炎",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN511204",
-      "surugayaPrice": 780,
-      "surugayaSoldOut": false,
-      "raritySlug": "n",
-      "surugayaBuyPrice": 300
+      "surugayaUrl": "/product/other/GN511204",
+      "surugayaPrice": 284,
+      "surugayaSoldOut": true,
+      "raritySlug": "n"
     },
     {
       "name": "ファイヤー",
@@ -68,10 +67,9 @@
       "category": "ポケモン",
       "energyType": "悪",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN511207",
-      "surugayaPrice": 520,
+      "surugayaPrice": 580,
       "surugayaSoldOut": false,
-      "raritySlug": "n",
-      "surugayaBuyPrice": null
+      "raritySlug": "n"
     },
     {
       "name": "ビッパ",
