@@ -2,7 +2,7 @@
   "pack": "拡張パック「アビスアイ」",
   "packSlug": "m5",
   "source": "surugaya",
-  "collectedAt": "2026-09-07T00:12:18.074Z",
+  "collectedAt": "2026-09-08T00:35:37.321Z",
   "count": 117,
   "cards": [
     {
@@ -374,8 +374,8 @@
       "rarity": "C",
       "category": "ポケモン",
       "energyType": "超",
-      "surugayaUrl": "/product/other/GU730332",
-      "surugayaPrice": 60,
+      "surugayaUrl": "/product/detail/GU730332?tenpo_cd=410011",
+      "surugayaPrice": 150,
       "surugayaSoldOut": true,
       "raritySlug": "c"
     },
@@ -474,7 +474,7 @@
       "category": "ポケモン",
       "energyType": "闘",
       "surugayaUrl": "/product/other/GU730336",
-      "surugayaPrice": 60,
+      "surugayaPrice": 100,
       "surugayaSoldOut": true,
       "raritySlug": "c"
     },
@@ -760,7 +760,7 @@
       "category": "グッズ",
       "energyType": "",
       "surugayaUrl": "/product/other/GU730306",
-      "surugayaPrice": 80,
+      "surugayaPrice": 110,
       "surugayaSoldOut": true,
       "raritySlug": "u"
     },
@@ -946,12 +946,12 @@
       "surugayaBuyPrice": null
     },
     {
-      "name": "ヤドラン（Bランク）",
+      "name": "ヤドラン",
       "cardNumber": "087/081",
       "rarity": "AR",
       "category": "ポケモン",
       "energyType": "超",
-      "surugayaUrl": "/product/detail/GU730264?branch_number=0077",
+      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU730264",
       "surugayaPrice": 470,
       "surugayaSoldOut": false,
       "raritySlug": "ar",
@@ -999,10 +999,9 @@
       "category": "ポケモン",
       "energyType": "鋼",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU730268",
-      "surugayaPrice": 300,
+      "surugayaPrice": 280,
       "surugayaSoldOut": false,
-      "raritySlug": "ar",
-      "surugayaBuyPrice": null
+      "raritySlug": "ar"
     },
     {
       "name": "ドデカバシ",
@@ -1011,10 +1010,9 @@
       "category": "ポケモン",
       "energyType": "",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU730269",
-      "surugayaPrice": 300,
+      "surugayaPrice": 280,
       "surugayaSoldOut": false,
-      "raritySlug": "ar",
-      "surugayaBuyPrice": null
+      "raritySlug": "ar"
     },
     {
       "name": "シルヴァディ",
@@ -1233,10 +1231,10 @@
       "category": "サポート",
       "energyType": "",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU730258",
-      "surugayaPrice": 2480,
+      "surugayaPrice": 1010,
       "surugayaSoldOut": false,
       "raritySlug": "sr",
-      "surugayaBuyPrice": 1000
+      "surugayaBuyPrice": 700
     },
     {
       "name": "メガゼラオラex",
@@ -1293,7 +1291,7 @@
       "category": "サポート",
       "energyType": "",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU730239",
-      "surugayaPrice": 890,
+      "surugayaPrice": 1480,
       "surugayaSoldOut": false,
       "raritySlug": "sar",
       "surugayaBuyPrice": 600
