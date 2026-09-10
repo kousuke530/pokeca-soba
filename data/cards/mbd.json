@@ -2,7 +2,7 @@
   "pack": "スターターセットMEGA メガディアンシーex",
   "packSlug": "mbd",
   "source": "surugaya",
-  "collectedAt": "2026-09-08T00:32:49.183Z",
+  "collectedAt": "2026-09-10T00:37:55.560Z",
   "count": 15,
   "cards": [
     {
@@ -23,7 +23,7 @@
       "category": "ポケモン",
       "energyType": "超",
       "surugayaUrl": "/product/other/GU404885",
-      "surugayaPrice": 210,
+      "surugayaPrice": 190,
       "surugayaSoldOut": true,
       "raritySlug": "n"
     },
@@ -143,7 +143,7 @@
       "rarity": "ノーマル",
       "category": "サポート",
       "energyType": "",
-      "surugayaUrl": "/product/detail/GU404900?tenpo_cd=410011",
+      "surugayaUrl": "/product/other/GU404900",
       "surugayaPrice": 150,
       "surugayaSoldOut": true,
       "raritySlug": "n"
@@ -166,10 +166,10 @@
       "category": "ポケモン",
       "energyType": "超",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU404902",
-      "surugayaPrice": 980,
+      "surugayaPrice": 780,
       "surugayaSoldOut": false,
       "raritySlug": "n",
-      "surugayaBuyPrice": 400
+      "surugayaBuyPrice": 300
     }
   ]
 }
