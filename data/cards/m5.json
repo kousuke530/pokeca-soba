@@ -2,7 +2,7 @@
   "pack": "拡張パック「アビスアイ」",
   "packSlug": "m5",
   "source": "surugaya",
-  "collectedAt": "2026-09-10T00:40:54.265Z",
+  "collectedAt": "2026-09-11T00:21:20.985Z",
   "count": 117,
   "cards": [
     {
@@ -915,10 +915,9 @@
       "category": "ポケモン",
       "energyType": "水",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU730261",
-      "surugayaPrice": 480,
+      "surugayaPrice": 290,
       "surugayaSoldOut": false,
-      "raritySlug": "ar",
-      "surugayaBuyPrice": null
+      "raritySlug": "ar"
     },
     {
       "name": "アシレーヌ",
@@ -944,12 +943,12 @@
       "raritySlug": "ar"
     },
     {
-      "name": "ヤドラン",
+      "name": "ヤドラン（Bランク）",
       "cardNumber": "087/081",
       "rarity": "AR",
       "category": "ポケモン",
       "energyType": "超",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU730264",
+      "surugayaUrl": "/product/detail/GU730264?branch_number=0077",
       "surugayaPrice": 470,
       "surugayaSoldOut": false,
       "raritySlug": "ar",
@@ -984,7 +983,7 @@
       "category": "ポケモン",
       "energyType": "悪",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU730267",
-      "surugayaPrice": 280,
+      "surugayaPrice": 170,
       "surugayaSoldOut": false,
       "raritySlug": "ar"
     },
@@ -1040,7 +1039,7 @@
       "category": "ポケモン",
       "energyType": "水",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU730242",
-      "surugayaPrice": 580,
+      "surugayaPrice": 350,
       "surugayaSoldOut": false,
       "raritySlug": "sr",
       "surugayaBuyPrice": null
@@ -1100,7 +1099,7 @@
       "category": "ポケモン",
       "energyType": "悪",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU730247",
-      "surugayaPrice": 580,
+      "surugayaPrice": 350,
       "surugayaSoldOut": false,
       "raritySlug": "sr",
       "surugayaBuyPrice": null
@@ -1214,7 +1213,7 @@
       "category": "サポート",
       "energyType": "",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU730257",
-      "surugayaPrice": 580,
+      "surugayaPrice": 350,
       "surugayaSoldOut": false,
       "raritySlug": "sr",
       "surugayaBuyPrice": null
@@ -1310,7 +1309,7 @@
       "category": "ポケモン",
       "energyType": "悪",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU730234",
-      "surugayaPrice": 59800,
+      "surugayaPrice": 47800,
       "surugayaSoldOut": false,
       "raritySlug": "mur",
       "surugayaBuyPrice": 32000
