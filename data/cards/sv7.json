@@ -2,20 +2,19 @@
   "pack": "拡張パック 「ステラミラクル」",
   "packSlug": "sv7",
   "source": "surugaya",
-  "collectedAt": "2026-09-11T00:14:45.146Z",
+  "collectedAt": "2026-09-12T03:34:19.455Z",
   "count": 177,
   "cards": [
     {
-      "name": "かがやくリザードン（Bランク）",
+      "name": "かがやくリザードン",
       "cardNumber": "001/044",
       "rarity": "ノーマル",
       "category": "ポケモン",
       "energyType": "炎",
-      "surugayaUrl": "/product/detail/GN596202?branch_number=0077",
-      "surugayaPrice": 470,
-      "surugayaSoldOut": false,
-      "raritySlug": "n",
-      "surugayaBuyPrice": 300
+      "surugayaUrl": "/product/other/GN596202",
+      "surugayaPrice": 280,
+      "surugayaSoldOut": true,
+      "raritySlug": "n"
     },
     {
       "name": "レディバ",
@@ -1444,9 +1443,9 @@
       "rarity": "U",
       "category": "グッズ",
       "energyType": "",
-      "surugayaUrl": "/product/other/GN596153",
-      "surugayaPrice": 49,
-      "surugayaSoldOut": true,
+      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN596153",
+      "surugayaPrice": 160,
+      "surugayaSoldOut": false,
       "raritySlug": "u"
     },
     {
@@ -1599,7 +1598,7 @@
       "category": "ポケモン",
       "energyType": "草",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN596167",
-      "surugayaPrice": 170,
+      "surugayaPrice": 280,
       "surugayaSoldOut": false,
       "raritySlug": "ar"
     },
@@ -1621,7 +1620,7 @@
       "category": "ポケモン",
       "energyType": "炎",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN596169",
-      "surugayaPrice": 170,
+      "surugayaPrice": 280,
       "surugayaSoldOut": false,
       "raritySlug": "ar"
     },
@@ -1678,7 +1677,7 @@
       "category": "ポケモン",
       "energyType": "超",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN596174",
-      "surugayaPrice": 350,
+      "surugayaPrice": 580,
       "surugayaSoldOut": false,
       "raritySlug": "ar",
       "surugayaBuyPrice": null
@@ -1702,9 +1701,10 @@
       "category": "ポケモン",
       "energyType": "悪",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN596176",
-      "surugayaPrice": 230,
+      "surugayaPrice": 380,
       "surugayaSoldOut": false,
-      "raritySlug": "ar"
+      "raritySlug": "ar",
+      "surugayaBuyPrice": null
     },
     {
       "name": "ブリジュラス",
@@ -1878,7 +1878,7 @@
       "category": "ポケモン",
       "energyType": "草",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN596191",
-      "surugayaPrice": 1950,
+      "surugayaPrice": 3480,
       "surugayaSoldOut": false,
       "raritySlug": "sar",
       "surugayaBuyPrice": 2000
@@ -1974,7 +1974,7 @@
       "category": "スタジアム",
       "energyType": "",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN596199",
-      "surugayaPrice": 630,
+      "surugayaPrice": 1580,
       "surugayaSoldOut": false,
       "raritySlug": "ur",
       "surugayaBuyPrice": 700

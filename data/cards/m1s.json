@@ -2,7 +2,7 @@
   "pack": "拡張パック「メガシンフォニア」",
   "packSlug": "m1s",
   "source": "surugaya",
-  "collectedAt": "2026-09-11T00:18:13.907Z",
+  "collectedAt": "2026-09-12T03:37:51.640Z",
   "count": 91,
   "cards": [
     {
@@ -796,9 +796,10 @@
       "category": "ポケモン",
       "energyType": "超",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU362644",
-      "surugayaPrice": 180,
+      "surugayaPrice": 300,
       "surugayaSoldOut": false,
-      "raritySlug": "ar"
+      "raritySlug": "ar",
+      "surugayaBuyPrice": null
     },
     {
       "name": "ハカドッグ",
@@ -852,9 +853,10 @@
       "category": "ポケモン",
       "energyType": "雷",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU362626",
-      "surugayaPrice": 290,
+      "surugayaPrice": 480,
       "surugayaSoldOut": false,
-      "raritySlug": "sr"
+      "raritySlug": "sr",
+      "surugayaBuyPrice": null
     },
     {
       "name": "メガサーナイトex",
@@ -886,9 +888,9 @@
       "rarity": "SR",
       "category": "ポケモン",
       "energyType": "",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU362629",
-      "surugayaPrice": 580,
-      "surugayaSoldOut": false,
+      "surugayaUrl": "/product/other/GU362629",
+      "surugayaPrice": 510,
+      "surugayaSoldOut": true,
       "raritySlug": "sr",
       "surugayaBuyPrice": null
     },
@@ -1003,7 +1005,7 @@
       "category": "サポート",
       "energyType": "",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU362624",
-      "surugayaPrice": 590,
+      "surugayaPrice": 980,
       "surugayaSoldOut": false,
       "raritySlug": "sar",
       "surugayaBuyPrice": 300

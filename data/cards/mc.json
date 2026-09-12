@@ -2,8 +2,8 @@
   "pack": "スタートデッキ100 バトルコレクション",
   "packSlug": "mc",
   "source": "surugaya",
-  "collectedAt": "2026-09-11T00:20:39.879Z",
-  "count": 612,
+  "collectedAt": "2026-09-12T03:40:18.585Z",
+  "count": 615,
   "cards": [
     {
       "name": "アイアント",
@@ -931,7 +931,7 @@
       "category": "ポケモン",
       "energyType": "炎",
       "surugayaUrl": "/product/other/GU542981",
-      "surugayaPrice": 3460,
+      "surugayaPrice": 3221,
       "surugayaSoldOut": true,
       "raritySlug": "n",
       "surugayaBuyPrice": 1800
@@ -1008,11 +1008,10 @@
       "rarity": "ノーマル",
       "category": "ポケモン",
       "energyType": "炎",
-      "surugayaUrl": "/product/detail/GU542910?tenpo_cd=201206",
-      "surugayaPrice": 360,
+      "surugayaUrl": "/product/detail/GU542982?tenpo_cd=410011",
+      "surugayaPrice": 238,
       "surugayaSoldOut": true,
-      "raritySlug": "n",
-      "surugayaBuyPrice": null
+      "raritySlug": "n"
     },
     {
       "name": "マグマッグ",
@@ -1229,8 +1228,8 @@
       "rarity": "ノーマル",
       "category": "ポケモン",
       "energyType": "炎",
-      "surugayaUrl": "/product/other/GU542912",
-      "surugayaPrice": 510,
+      "surugayaUrl": "/product/other/GU542983",
+      "surugayaPrice": 690,
       "surugayaSoldOut": true,
       "raritySlug": "n",
       "surugayaBuyPrice": null
@@ -1659,9 +1658,9 @@
       "rarity": "ノーマル",
       "category": "ポケモン",
       "energyType": "水",
-      "surugayaUrl": "/product/detail/GU542919?tenpo_cd=201206",
-      "surugayaPrice": 240,
-      "surugayaSoldOut": true,
+      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU542991",
+      "surugayaPrice": 160,
+      "surugayaSoldOut": false,
       "raritySlug": "n"
     },
     {
@@ -3123,6 +3122,28 @@
       "raritySlug": "n"
     },
     {
+      "name": "ペロッパフ",
+      "cardNumber": "333/742",
+      "rarity": "ノーマル",
+      "category": "ポケモン",
+      "energyType": "超",
+      "surugayaUrl": "/product/detail/GU543439?tenpo_cd=410018",
+      "surugayaPrice": 89,
+      "surugayaSoldOut": true,
+      "raritySlug": "n"
+    },
+    {
+      "name": "ペロリーム",
+      "cardNumber": "334/742",
+      "rarity": "ノーマル",
+      "category": "ポケモン",
+      "energyType": "超",
+      "surugayaUrl": "/product/detail/GU543440?tenpo_cd=410018",
+      "surugayaPrice": 39,
+      "surugayaSoldOut": true,
+      "raritySlug": "n"
+    },
+    {
       "name": "リーリエのアブリー",
       "cardNumber": "338/742",
       "rarity": "ミラー",
@@ -3964,9 +3985,9 @@
       "rarity": "ノーマル",
       "category": "ポケモン",
       "energyType": "悪",
-      "surugayaUrl": "/product/detail/GU543029?tenpo_cd=201206",
-      "surugayaPrice": 120,
-      "surugayaSoldOut": true,
+      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU542944",
+      "surugayaPrice": 160,
+      "surugayaSoldOut": false,
       "raritySlug": "n"
     },
     {
@@ -4415,8 +4436,8 @@
       "rarity": "ノーマル",
       "category": "ポケモン",
       "energyType": "鋼",
-      "surugayaUrl": "/product/detail/GU543567?tenpo_cd=201206",
-      "surugayaPrice": 160,
+      "surugayaUrl": "/product/other/GU543567",
+      "surugayaPrice": 79,
       "surugayaSoldOut": true,
       "raritySlug": "n"
     },
@@ -4583,6 +4604,17 @@
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU543585",
       "surugayaPrice": 160,
       "surugayaSoldOut": false,
+      "raritySlug": "n"
+    },
+    {
+      "name": "メルメタル",
+      "cardNumber": "518/742",
+      "rarity": "ノーマル",
+      "category": "ポケモン",
+      "energyType": "鋼",
+      "surugayaUrl": "/product/detail/GU543586?tenpo_cd=410018",
+      "surugayaPrice": 19,
+      "surugayaSoldOut": true,
       "raritySlug": "n"
     },
     {
@@ -5319,7 +5351,7 @@
       "rarity": "ノーマル",
       "category": "ポケモン",
       "energyType": "",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU542963",
+      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU543055",
       "surugayaPrice": 160,
       "surugayaSoldOut": false,
       "raritySlug": "n"
@@ -6526,7 +6558,7 @@
       "category": "ポケモン",
       "energyType": "炎",
       "surugayaUrl": "/product/other/GU542885",
-      "surugayaPrice": 1160,
+      "surugayaPrice": 1156,
       "surugayaSoldOut": true,
       "raritySlug": "n",
       "surugayaBuyPrice": 800
@@ -6556,14 +6588,14 @@
       "surugayaBuyPrice": 300
     },
     {
-      "name": "マリル（Bランク）",
+      "name": "マリル",
       "cardNumber": "748/742",
       "rarity": "ノーマル",
       "category": "ポケモン",
       "energyType": "超",
-      "surugayaUrl": "/product/detail/GU542888?branch_number=0077",
-      "surugayaPrice": 1550,
-      "surugayaSoldOut": false,
+      "surugayaUrl": "/product/other/GU542888",
+      "surugayaPrice": 2069,
+      "surugayaSoldOut": true,
       "raritySlug": "n",
       "surugayaBuyPrice": 1000
     },
@@ -6634,7 +6666,7 @@
       "category": "ポケモン",
       "energyType": "鋼",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU548618",
-      "surugayaPrice": 1190,
+      "surugayaPrice": 1980,
       "surugayaSoldOut": false,
       "raritySlug": "n",
       "surugayaBuyPrice": 800

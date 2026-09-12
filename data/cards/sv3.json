@@ -2,18 +2,18 @@
   "pack": "拡張パック「黒炎の支配者」",
   "packSlug": "sv3",
   "source": "surugaya",
-  "collectedAt": "2026-09-11T00:11:45.880Z",
+  "collectedAt": "2026-09-12T03:31:08.491Z",
   "count": 174,
   "cards": [
     {
-      "name": "かがやくリザードン（Bランク）",
+      "name": "かがやくリザードン",
       "cardNumber": "001/038",
       "rarity": "ノーマル",
       "category": "ポケモン",
       "energyType": "炎",
-      "surugayaUrl": "/product/detail/GN104843?branch_number=0077",
-      "surugayaPrice": 280,
-      "surugayaSoldOut": false,
+      "surugayaUrl": "/product/other/GN104843",
+      "surugayaPrice": 250,
+      "surugayaSoldOut": true,
       "raritySlug": "n"
     },
     {
@@ -1111,10 +1111,11 @@
       "rarity": "RR",
       "category": "ポケモン",
       "energyType": "悪",
-      "surugayaUrl": "/product/other/GN104313",
-      "surugayaPrice": 130,
-      "surugayaSoldOut": true,
-      "raritySlug": "rr"
+      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN104313",
+      "surugayaPrice": 380,
+      "surugayaSoldOut": false,
+      "raritySlug": "rr",
+      "surugayaBuyPrice": null
     },
     {
       "name": "パルデア ウパー",
@@ -1609,7 +1610,7 @@
       "category": "ポケモン",
       "energyType": "超",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN104360",
-      "surugayaPrice": 840,
+      "surugayaPrice": 1480,
       "surugayaSoldOut": false,
       "raritySlug": "ar",
       "surugayaBuyPrice": 700
@@ -1751,7 +1752,7 @@
       "category": "ポケモン",
       "energyType": "悪",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN104372",
-      "surugayaPrice": 2310,
+      "surugayaPrice": 4280,
       "surugayaSoldOut": false,
       "raritySlug": "sr",
       "surugayaBuyPrice": 2500
@@ -1882,7 +1883,7 @@
       "category": "ポケモン",
       "energyType": "",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN104383",
-      "surugayaPrice": 1940,
+      "surugayaPrice": 3280,
       "surugayaSoldOut": false,
       "raritySlug": "sar",
       "surugayaBuyPrice": 1600

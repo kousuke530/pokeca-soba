@@ -2,7 +2,7 @@
   "pack": "強化拡張パック「クリムゾンヘイズ」",
   "packSlug": "sv5a",
   "source": "surugaya",
-  "collectedAt": "2026-09-11T00:13:51.467Z",
+  "collectedAt": "2026-09-12T03:33:23.259Z",
   "count": 95,
   "cards": [
     {
@@ -573,7 +573,7 @@
       "category": "グッズ",
       "energyType": "",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN446039",
-      "surugayaPrice": 850,
+      "surugayaPrice": 1180,
       "surugayaSoldOut": false,
       "raritySlug": "ace",
       "surugayaBuyPrice": 500
@@ -751,7 +751,7 @@
       "category": "ポケモン",
       "energyType": "炎",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN446055",
-      "surugayaPrice": 170,
+      "surugayaPrice": 280,
       "surugayaSoldOut": false,
       "raritySlug": "ar"
     },
@@ -831,7 +831,7 @@
       "category": "ポケモン",
       "energyType": "闘",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN446062",
-      "surugayaPrice": 170,
+      "surugayaPrice": 280,
       "surugayaSoldOut": false,
       "raritySlug": "ar"
     },
@@ -842,7 +842,7 @@
       "category": "ポケモン",
       "energyType": "ドラゴン",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN446063",
-      "surugayaPrice": 170,
+      "surugayaPrice": 280,
       "surugayaSoldOut": false,
       "raritySlug": "ar"
     },
@@ -853,7 +853,7 @@
       "category": "ポケモン",
       "energyType": "",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN446064",
-      "surugayaPrice": 1590,
+      "surugayaPrice": 3980,
       "surugayaSoldOut": false,
       "raritySlug": "ar",
       "surugayaBuyPrice": 2000
@@ -978,16 +978,16 @@
       "surugayaBuyPrice": 1000
     },
     {
-      "name": "ヤバソチャex",
+      "name": "【ランクB】ヤバソチャex",
       "cardNumber": "089/066",
       "rarity": "SAR",
       "category": "ポケモン",
       "energyType": "草",
-      "surugayaUrl": "/product/other/GN446075",
-      "surugayaPrice": 1173,
+      "surugayaUrl": "/product/detail/GB446075?tenpo_cd=400483",
+      "surugayaPrice": 1280,
       "surugayaSoldOut": true,
       "raritySlug": "sar",
-      "surugayaBuyPrice": 800
+      "surugayaBuyPrice": null
     },
     {
       "name": "ゲッコウガex",

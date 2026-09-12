@@ -2,7 +2,7 @@
   "pack": "拡張パック「ニンジャスピナー」",
   "packSlug": "m4",
   "source": "surugaya",
-  "collectedAt": "2026-09-11T00:21:09.927Z",
+  "collectedAt": "2026-09-12T03:40:48.898Z",
   "count": 119,
   "cards": [
     {
@@ -650,8 +650,8 @@
       "rarity": "U",
       "category": "ポケモン",
       "energyType": "鋼",
-      "surugayaUrl": "/product/detail/GU634010?tenpo_cd=410011",
-      "surugayaPrice": 150,
+      "surugayaUrl": "/product/other/GU634010",
+      "surugayaPrice": 49,
       "surugayaSoldOut": true,
       "raritySlug": "u"
     },
@@ -1099,7 +1099,7 @@
       "category": "ポケモン",
       "energyType": "超",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU634050",
-      "surugayaPrice": 350,
+      "surugayaPrice": 580,
       "surugayaSoldOut": false,
       "raritySlug": "sr",
       "surugayaBuyPrice": null
@@ -1111,9 +1111,10 @@
       "category": "ポケモン",
       "energyType": "超",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU634051",
-      "surugayaPrice": 290,
+      "surugayaPrice": 480,
       "surugayaSoldOut": false,
-      "raritySlug": "sr"
+      "raritySlug": "sr",
+      "surugayaBuyPrice": null
     },
     {
       "name": "コバルオンex",
@@ -1226,7 +1227,7 @@
       "category": "サポート",
       "energyType": "",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU634061",
-      "surugayaPrice": 470,
+      "surugayaPrice": 780,
       "surugayaSoldOut": false,
       "raritySlug": "sr",
       "surugayaBuyPrice": 300
@@ -1332,7 +1333,7 @@
       "category": "ポケモン",
       "energyType": "水",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU634071",
-      "surugayaPrice": 45400,
+      "surugayaPrice": 69800,
       "surugayaSoldOut": false,
       "raritySlug": "mur",
       "surugayaBuyPrice": 40000
