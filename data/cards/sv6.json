@@ -2,7 +2,7 @@
   "pack": "拡張パック 「変幻の仮面」",
   "packSlug": "sv6",
   "source": "surugaya",
-  "collectedAt": "2026-09-12T03:33:38.869Z",
+  "collectedAt": "2026-09-13T03:07:47.232Z",
   "count": 132,
   "cards": [
     {
@@ -177,7 +177,7 @@
       "category": "ポケモン",
       "energyType": "草",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN486485",
-      "surugayaPrice": 180,
+      "surugayaPrice": 160,
       "surugayaSoldOut": false,
       "raritySlug": "rr"
     },
@@ -706,7 +706,7 @@
       "category": "ポケモン",
       "energyType": "闘",
       "surugayaUrl": "/product/other/GN486533",
-      "surugayaPrice": 54,
+      "surugayaPrice": 57,
       "surugayaSoldOut": true,
       "raritySlug": "r"
     },
@@ -1014,7 +1014,7 @@
       "category": "グッズ",
       "energyType": "",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN486561",
-      "surugayaPrice": 680,
+      "surugayaPrice": 610,
       "surugayaSoldOut": false,
       "raritySlug": "ace",
       "surugayaBuyPrice": null
@@ -1125,7 +1125,7 @@
       "category": "ポケモン",
       "energyType": "草",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN486571",
-      "surugayaPrice": 280,
+      "surugayaPrice": 270,
       "surugayaSoldOut": false,
       "raritySlug": "ar"
     },
@@ -1136,7 +1136,7 @@
       "category": "ポケモン",
       "energyType": "草",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN486572",
-      "surugayaPrice": 380,
+      "surugayaPrice": 340,
       "surugayaSoldOut": false,
       "raritySlug": "ar",
       "surugayaBuyPrice": null
@@ -1148,9 +1148,10 @@
       "category": "ポケモン",
       "energyType": "水",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN486573",
-      "surugayaPrice": 230,
+      "surugayaPrice": 340,
       "surugayaSoldOut": false,
-      "raritySlug": "ar"
+      "raritySlug": "ar",
+      "surugayaBuyPrice": null
     },
     {
       "name": "カイデン",
@@ -1159,7 +1160,7 @@
       "category": "ポケモン",
       "energyType": "雷",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN486574",
-      "surugayaPrice": 380,
+      "surugayaPrice": 340,
       "surugayaSoldOut": false,
       "raritySlug": "ar",
       "surugayaBuyPrice": null
@@ -1171,10 +1172,9 @@
       "category": "ポケモン",
       "energyType": "超",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN486575",
-      "surugayaPrice": 300,
+      "surugayaPrice": 270,
       "surugayaSoldOut": false,
-      "raritySlug": "ar",
-      "surugayaBuyPrice": null
+      "raritySlug": "ar"
     },
     {
       "name": "マシマシラ",
@@ -1183,7 +1183,7 @@
       "category": "ポケモン",
       "energyType": "超",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN486576",
-      "surugayaPrice": 580,
+      "surugayaPrice": 520,
       "surugayaSoldOut": false,
       "raritySlug": "ar",
       "surugayaBuyPrice": null
@@ -1195,7 +1195,7 @@
       "category": "ポケモン",
       "energyType": "超",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN486577",
-      "surugayaPrice": 380,
+      "surugayaPrice": 340,
       "surugayaSoldOut": false,
       "raritySlug": "ar",
       "surugayaBuyPrice": null
@@ -1207,10 +1207,9 @@
       "category": "ポケモン",
       "energyType": "闘",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN486578",
-      "surugayaPrice": 300,
+      "surugayaPrice": 270,
       "surugayaSoldOut": false,
-      "raritySlug": "ar",
-      "surugayaBuyPrice": null
+      "raritySlug": "ar"
     },
     {
       "name": "イイネイヌ",
@@ -1219,7 +1218,7 @@
       "category": "ポケモン",
       "energyType": "闘",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN486579",
-      "surugayaPrice": 280,
+      "surugayaPrice": 250,
       "surugayaSoldOut": false,
       "raritySlug": "ar"
     },
@@ -1230,10 +1229,9 @@
       "category": "ポケモン",
       "energyType": "鋼",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN486580",
-      "surugayaPrice": 300,
+      "surugayaPrice": 270,
       "surugayaSoldOut": false,
-      "raritySlug": "ar",
-      "surugayaBuyPrice": null
+      "raritySlug": "ar"
     },
     {
       "name": "シャリタツ",
@@ -1242,7 +1240,7 @@
       "category": "ポケモン",
       "energyType": "ドラゴン",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN486581",
-      "surugayaPrice": 1080,
+      "surugayaPrice": 980,
       "surugayaSoldOut": false,
       "raritySlug": "ar",
       "surugayaBuyPrice": 500
@@ -1422,7 +1420,7 @@
       "category": "ポケモン",
       "energyType": "水",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN486596",
-      "surugayaPrice": 2480,
+      "surugayaPrice": 2250,
       "surugayaSoldOut": false,
       "raritySlug": "sar",
       "surugayaBuyPrice": 1500
@@ -1434,7 +1432,7 @@
       "category": "ポケモン",
       "energyType": "闘",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN486597",
-      "surugayaPrice": 1080,
+      "surugayaPrice": 980,
       "surugayaSoldOut": false,
       "raritySlug": "sar",
       "surugayaBuyPrice": 500
@@ -1446,7 +1444,7 @@
       "category": "サポート",
       "energyType": "",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN486598",
-      "surugayaPrice": 2980,
+      "surugayaPrice": 2700,
       "surugayaSoldOut": false,
       "raritySlug": "sar",
       "surugayaBuyPrice": 1500
@@ -1458,7 +1456,7 @@
       "category": "ポケモン",
       "energyType": "草",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN486600",
-      "surugayaPrice": 1280,
+      "surugayaPrice": 1160,
       "surugayaSoldOut": false,
       "raritySlug": "ur",
       "surugayaBuyPrice": 600
