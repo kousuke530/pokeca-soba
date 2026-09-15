@@ -2,7 +2,7 @@
   "pack": "拡張パック「未来の一閃」",
   "packSlug": "sv4m",
   "source": "surugaya",
-  "collectedAt": "2026-09-13T03:05:33.031Z",
+  "collectedAt": "2026-09-15T03:05:26.903Z",
   "count": 95,
   "cards": [
     {
@@ -738,7 +738,7 @@
       "category": "ポケモン",
       "energyType": "草",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN228588",
-      "surugayaPrice": 270,
+      "surugayaPrice": 280,
       "surugayaSoldOut": false,
       "raritySlug": "ar"
     },
@@ -749,7 +749,7 @@
       "category": "ポケモン",
       "energyType": "草",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN228589",
-      "surugayaPrice": 270,
+      "surugayaPrice": 280,
       "surugayaSoldOut": false,
       "raritySlug": "ar"
     },
@@ -760,9 +760,10 @@
       "category": "ポケモン",
       "energyType": "炎",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN228590",
-      "surugayaPrice": 270,
+      "surugayaPrice": 300,
       "surugayaSoldOut": false,
-      "raritySlug": "ar"
+      "raritySlug": "ar",
+      "surugayaBuyPrice": null
     },
     {
       "name": "バニリッチ",
@@ -783,7 +784,7 @@
       "category": "ポケモン",
       "energyType": "水",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN228592",
-      "surugayaPrice": 250,
+      "surugayaPrice": 280,
       "surugayaSoldOut": false,
       "raritySlug": "ar"
     },
@@ -816,7 +817,7 @@
       "category": "ポケモン",
       "energyType": "鋼",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN228595",
-      "surugayaPrice": 520,
+      "surugayaPrice": 580,
       "surugayaSoldOut": false,
       "raritySlug": "ar",
       "surugayaBuyPrice": null
@@ -828,7 +829,7 @@
       "category": "ポケモン",
       "energyType": "",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN228596",
-      "surugayaPrice": 430,
+      "surugayaPrice": 480,
       "surugayaSoldOut": false,
       "raritySlug": "ar",
       "surugayaBuyPrice": null
@@ -852,7 +853,7 @@
       "category": "ポケモン",
       "energyType": "",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN228598",
-      "surugayaPrice": 270,
+      "surugayaPrice": 280,
       "surugayaSoldOut": false,
       "raritySlug": "ar"
     },
@@ -863,7 +864,7 @@
       "category": "ポケモン",
       "energyType": "",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN228599",
-      "surugayaPrice": 270,
+      "surugayaPrice": 280,
       "surugayaSoldOut": false,
       "raritySlug": "ar"
     },
@@ -964,14 +965,14 @@
       "surugayaBuyPrice": null
     },
     {
-      "name": "リップ",
+      "name": "【ランクB】リップ",
       "cardNumber": "087/066",
       "rarity": "SR",
       "category": "サポート",
       "energyType": "",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN228608",
-      "surugayaPrice": 680,
-      "surugayaSoldOut": false,
+      "surugayaUrl": "/product/other/GB228608",
+      "surugayaPrice": 440,
+      "surugayaSoldOut": true,
       "raritySlug": "sr",
       "surugayaBuyPrice": null
     },
@@ -982,7 +983,7 @@
       "category": "ポケモン",
       "energyType": "雷",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN228609",
-      "surugayaPrice": 1340,
+      "surugayaPrice": 1480,
       "surugayaSoldOut": false,
       "raritySlug": "sar",
       "surugayaBuyPrice": 700
@@ -994,7 +995,7 @@
       "category": "ポケモン",
       "energyType": "超",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN228610",
-      "surugayaPrice": 3160,
+      "surugayaPrice": 3480,
       "surugayaSoldOut": false,
       "raritySlug": "sar",
       "surugayaBuyPrice": 2000
@@ -1006,7 +1007,7 @@
       "category": "ポケモン",
       "energyType": "ドラゴン",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN228611",
-      "surugayaPrice": 8160,
+      "surugayaPrice": 8980,
       "surugayaSoldOut": false,
       "raritySlug": "sar",
       "surugayaBuyPrice": 5000
@@ -1018,7 +1019,7 @@
       "category": "サポート",
       "energyType": "",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN228612",
-      "surugayaPrice": 1160,
+      "surugayaPrice": 1280,
       "surugayaSoldOut": false,
       "raritySlug": "sar",
       "surugayaBuyPrice": 600
@@ -1048,16 +1049,16 @@
       "surugayaBuyPrice": null
     },
     {
-      "name": "カウンターキャッチャー",
+      "name": "【ランクB】カウンターキャッチャー",
       "cardNumber": "094/066",
       "rarity": "UR",
       "category": "グッズ",
       "energyType": "",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN228615",
-      "surugayaPrice": 1980,
-      "surugayaSoldOut": false,
+      "surugayaUrl": "/product/detail/GB228615?tenpo_cd=201206",
+      "surugayaPrice": 1290,
+      "surugayaSoldOut": true,
       "raritySlug": "ur",
-      "surugayaBuyPrice": 700
+      "surugayaBuyPrice": null
     },
     {
       "name": "基本はがねエネルギー",
@@ -1066,7 +1067,7 @@
       "category": "エネルギー",
       "energyType": "",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN228616",
-      "surugayaPrice": 2070,
+      "surugayaPrice": 2280,
       "surugayaSoldOut": false,
       "raritySlug": "ur",
       "surugayaBuyPrice": 1100

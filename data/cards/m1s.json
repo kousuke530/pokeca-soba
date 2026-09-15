@@ -2,7 +2,7 @@
   "pack": "拡張パック「メガシンフォニア」",
   "packSlug": "m1s",
   "source": "surugaya",
-  "collectedAt": "2026-09-14T10:13:00.468Z",
+  "collectedAt": "2026-09-15T03:15:32.636Z",
   "count": 91,
   "cards": [
     {
@@ -33,8 +33,8 @@
       "rarity": "C",
       "category": "ポケモン",
       "energyType": "草",
-      "surugayaUrl": "/product/detail/GU362681?tenpo_cd=410011",
-      "surugayaPrice": 150,
+      "surugayaUrl": "/product/other/GU362681",
+      "surugayaPrice": 50,
       "surugayaSoldOut": true,
       "raritySlug": "c"
     },
@@ -44,8 +44,8 @@
       "rarity": "C",
       "category": "ポケモン",
       "energyType": "草",
-      "surugayaUrl": "/product/detail/GU362682?tenpo_cd=410011",
-      "surugayaPrice": 150,
+      "surugayaUrl": "/product/other/GU362682",
+      "surugayaPrice": 60,
       "surugayaSoldOut": true,
       "raritySlug": "c"
     },
@@ -55,8 +55,8 @@
       "rarity": "R",
       "category": "ポケモン",
       "energyType": "草",
-      "surugayaUrl": "/product/detail/GU362653?tenpo_cd=410011",
-      "surugayaPrice": 165,
+      "surugayaUrl": "/product/other/GU362653",
+      "surugayaPrice": 70,
       "surugayaSoldOut": true,
       "raritySlug": "r"
     },
@@ -561,8 +561,8 @@
       "rarity": "RR",
       "category": "ポケモン",
       "energyType": "",
-      "surugayaUrl": "/product/detail/GU362652?tenpo_cd=410011",
-      "surugayaPrice": 624,
+      "surugayaUrl": "/product/other/GU362652",
+      "surugayaPrice": 550,
       "surugayaSoldOut": true,
       "raritySlug": "rr",
       "surugayaBuyPrice": null
@@ -661,7 +661,7 @@
       "rarity": "U",
       "category": "サポート",
       "energyType": "",
-      "surugayaUrl": "/product/detail/GU362676?tenpo_cd=410174",
+      "surugayaUrl": "/product/other/GU362676",
       "surugayaPrice": 30,
       "surugayaSoldOut": true,
       "raritySlug": "u"
@@ -795,10 +795,9 @@
       "category": "ポケモン",
       "energyType": "超",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU362644",
-      "surugayaPrice": 300,
+      "surugayaPrice": 280,
       "surugayaSoldOut": false,
-      "raritySlug": "ar",
-      "surugayaBuyPrice": null
+      "raritySlug": "ar"
     },
     {
       "name": "ハカドッグ",
@@ -968,7 +967,7 @@
       "category": "ポケモン",
       "energyType": "超",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU362620",
-      "surugayaPrice": 15800,
+      "surugayaPrice": 10800,
       "surugayaSoldOut": false,
       "raritySlug": "sar",
       "surugayaBuyPrice": 5500
@@ -992,10 +991,10 @@
       "category": "サポート",
       "energyType": "",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU362623",
-      "surugayaPrice": 4280,
+      "surugayaPrice": 3480,
       "surugayaSoldOut": false,
       "raritySlug": "sar",
-      "surugayaBuyPrice": 1800
+      "surugayaBuyPrice": 1500
     },
     {
       "name": "ミツルの思いやり",

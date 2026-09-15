@@ -2,7 +2,7 @@
   "pack": "強化拡張パック「ポケモンカード151」",
   "packSlug": "sv2a",
   "source": "surugaya",
-  "collectedAt": "2026-09-12T03:30:49.660Z",
+  "collectedAt": "2026-09-15T03:03:22.810Z",
   "count": 210,
   "cards": [
     {
@@ -45,11 +45,10 @@
       "rarity": "C",
       "category": "ポケモン",
       "energyType": "炎",
-      "surugayaUrl": "/product/other/GL944707",
-      "surugayaPrice": 4570,
+      "surugayaUrl": "/product/other/GL944706",
+      "surugayaPrice": 280,
       "surugayaSoldOut": true,
-      "raritySlug": "c",
-      "surugayaBuyPrice": 4000
+      "raritySlug": "c"
     },
     {
       "name": "リザード",
@@ -81,7 +80,7 @@
       "category": "ポケモン",
       "energyType": "水",
       "surugayaUrl": "/product/other/GL944713",
-      "surugayaPrice": 210,
+      "surugayaPrice": 240,
       "surugayaSoldOut": true,
       "raritySlug": "c"
     },
@@ -137,7 +136,7 @@
       "category": "ポケモン",
       "energyType": "草",
       "surugayaUrl": "/product/other/GL944727",
-      "surugayaPrice": 1611,
+      "surugayaPrice": 1430,
       "surugayaSoldOut": true,
       "raritySlug": "u",
       "surugayaBuyPrice": 800
@@ -172,10 +171,11 @@
       "rarity": "R",
       "category": "ポケモン",
       "energyType": "草",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GL944735",
-      "surugayaPrice": 160,
-      "surugayaSoldOut": false,
-      "raritySlug": "r"
+      "surugayaUrl": "/product/detail/GL944736?tenpo_cd=400392",
+      "surugayaPrice": 1311,
+      "surugayaSoldOut": true,
+      "raritySlug": "r",
+      "surugayaBuyPrice": 600
     },
     {
       "name": "ポッポ",
@@ -242,7 +242,7 @@
       "category": "ポケモン",
       "energyType": "",
       "surugayaUrl": "/product/other/GL944754",
-      "surugayaPrice": 1080,
+      "surugayaPrice": 1090,
       "surugayaSoldOut": true,
       "raritySlug": "c",
       "surugayaBuyPrice": 700
@@ -288,7 +288,7 @@
       "category": "ポケモン",
       "energyType": "雷",
       "surugayaUrl": "/product/other/GL944763",
-      "surugayaPrice": 529,
+      "surugayaPrice": 530,
       "surugayaSoldOut": true,
       "raritySlug": "c",
       "surugayaBuyPrice": 600
@@ -299,11 +299,10 @@
       "rarity": "R",
       "category": "ポケモン",
       "energyType": "雷",
-      "surugayaUrl": "/product/detail/GL944767?tenpo_cd=201007",
-      "surugayaPrice": 2811,
+      "surugayaUrl": "/product/detail/GL944766?tenpo_cd=400464",
+      "surugayaPrice": 160,
       "surugayaSoldOut": true,
-      "raritySlug": "r",
-      "surugayaBuyPrice": 1400
+      "raritySlug": "r"
     },
     {
       "name": "サンド",
@@ -329,15 +328,16 @@
       "raritySlug": "u"
     },
     {
-      "name": "ニドラン♀",
+      "name": "【ランクB】ニドラン♀",
       "cardNumber": "029/165",
       "rarity": "C",
       "category": "ポケモン",
       "energyType": "悪",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GL944775",
-      "surugayaPrice": 160,
-      "surugayaSoldOut": false,
-      "raritySlug": "c"
+      "surugayaUrl": "/product/detail/BL944776?tenpo_cd=201206",
+      "surugayaPrice": 1390,
+      "surugayaSoldOut": true,
+      "raritySlug": "c",
+      "surugayaBuyPrice": null
     },
     {
       "name": "ニドリーナ",
@@ -414,10 +414,11 @@
       "rarity": "U",
       "category": "ポケモン",
       "energyType": "超",
-      "surugayaUrl": "/product/other/GL944796",
-      "surugayaPrice": 150,
+      "surugayaUrl": "/product/other/GL944797",
+      "surugayaPrice": 1911,
       "surugayaSoldOut": true,
-      "raritySlug": "u"
+      "raritySlug": "u",
+      "surugayaBuyPrice": 1000
     },
     {
       "name": "ロコン",
@@ -442,15 +443,16 @@
       "raritySlug": "rr"
     },
     {
-      "name": "プリン",
+      "name": "【ランクB】プリン",
       "cardNumber": "039/165",
       "rarity": "C",
       "category": "ポケモン",
       "energyType": "",
-      "surugayaUrl": "/product/other/GL944803",
-      "surugayaPrice": 60,
+      "surugayaUrl": "/product/detail/BL944804?tenpo_cd=201206",
+      "surugayaPrice": 1290,
       "surugayaSoldOut": true,
-      "raritySlug": "c"
+      "raritySlug": "c",
+      "surugayaBuyPrice": null
     },
     {
       "name": "プクリンex",
@@ -690,11 +692,10 @@
       "rarity": "C",
       "category": "ポケモン",
       "energyType": "水",
-      "surugayaUrl": "/product/other/GL944865",
-      "surugayaPrice": 1290,
+      "surugayaUrl": "/product/detail/GL944864?tenpo_cd=201206",
+      "surugayaPrice": 120,
       "surugayaSoldOut": true,
-      "raritySlug": "c",
-      "surugayaBuyPrice": 1000
+      "raritySlug": "c"
     },
     {
       "name": "ニョロゾ",
@@ -713,10 +714,11 @@
       "rarity": "U",
       "category": "ポケモン",
       "energyType": "水",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GL944870",
-      "surugayaPrice": 160,
-      "surugayaSoldOut": false,
-      "raritySlug": "u"
+      "surugayaUrl": "/product/other/GL944871",
+      "surugayaPrice": 1611,
+      "surugayaSoldOut": true,
+      "raritySlug": "u",
+      "surugayaBuyPrice": 800
     },
     {
       "name": "ケーシィ",
@@ -724,9 +726,9 @@
       "rarity": "C",
       "category": "ポケモン",
       "energyType": "超",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GL944872",
-      "surugayaPrice": 160,
-      "surugayaSoldOut": false,
+      "surugayaUrl": "/product/other/GL944873",
+      "surugayaPrice": 70,
+      "surugayaSoldOut": true,
       "raritySlug": "c"
     },
     {
@@ -781,11 +783,10 @@
       "rarity": "R",
       "category": "ポケモン",
       "energyType": "闘",
-      "surugayaUrl": "/product/other/GL944887",
-      "surugayaPrice": 1180,
+      "surugayaUrl": "/product/detail/GL944886?tenpo_cd=201206",
+      "surugayaPrice": 60,
       "surugayaSoldOut": true,
-      "raritySlug": "r",
-      "surugayaBuyPrice": 600
+      "raritySlug": "r"
     },
     {
       "name": "マダツボミ",
@@ -885,7 +886,7 @@
       "category": "ポケモン",
       "energyType": "炎",
       "surugayaUrl": "/product/other/GL944912",
-      "surugayaPrice": 1011,
+      "surugayaPrice": 990,
       "surugayaSoldOut": true,
       "raritySlug": "c",
       "surugayaBuyPrice": 600
@@ -896,10 +897,11 @@
       "rarity": "U",
       "category": "ポケモン",
       "energyType": "炎",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GL944914",
-      "surugayaPrice": 180,
-      "surugayaSoldOut": false,
-      "raritySlug": "u"
+      "surugayaUrl": "/product/other/GL944915",
+      "surugayaPrice": 1003,
+      "surugayaSoldOut": true,
+      "raritySlug": "u",
+      "surugayaBuyPrice": 800
     },
     {
       "name": "ヤドン",
@@ -907,11 +909,10 @@
       "rarity": "C",
       "category": "ポケモン",
       "energyType": "超",
-      "surugayaUrl": "/product/other/GL944918",
-      "surugayaPrice": 9180,
+      "surugayaUrl": "/product/other/GL944917",
+      "surugayaPrice": 170,
       "surugayaSoldOut": true,
-      "raritySlug": "c",
-      "surugayaBuyPrice": 6500
+      "raritySlug": "c"
     },
     {
       "name": "ヤドラン",
@@ -967,7 +968,7 @@
       "category": "ポケモン",
       "energyType": "",
       "surugayaUrl": "/product/other/GL944933",
-      "surugayaPrice": 1070,
+      "surugayaPrice": 950,
       "surugayaSoldOut": true,
       "raritySlug": "c",
       "surugayaBuyPrice": 400
@@ -979,7 +980,7 @@
       "category": "ポケモン",
       "energyType": "",
       "surugayaUrl": "/product/other/GL944936",
-      "surugayaPrice": 770,
+      "surugayaPrice": 700,
       "surugayaSoldOut": true,
       "raritySlug": "r",
       "surugayaBuyPrice": 350
@@ -1001,11 +1002,10 @@
       "rarity": "U",
       "category": "ポケモン",
       "energyType": "水",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GL944942",
-      "surugayaPrice": 1580,
-      "surugayaSoldOut": false,
-      "raritySlug": "u",
-      "surugayaBuyPrice": 700
+      "surugayaUrl": "/product/other/GL944941",
+      "surugayaPrice": 100,
+      "surugayaSoldOut": true,
+      "raritySlug": "u"
     },
     {
       "name": "ベトベター",
@@ -1106,10 +1106,11 @@
       "rarity": "C",
       "category": "ポケモン",
       "energyType": "超",
-      "surugayaUrl": "/product/detail/GL944968?tenpo_cd=410011",
-      "surugayaPrice": 150,
+      "surugayaUrl": "/product/other/GL944969",
+      "surugayaPrice": 1190,
       "surugayaSoldOut": true,
-      "raritySlug": "c"
+      "raritySlug": "c",
+      "surugayaBuyPrice": 600
     },
     {
       "name": "スリーパー",
@@ -1200,10 +1201,11 @@
       "rarity": "C",
       "category": "ポケモン",
       "energyType": "闘",
-      "surugayaUrl": "/product/other/GL944992",
-      "surugayaPrice": 50,
+      "surugayaUrl": "/product/other/GL944993",
+      "surugayaPrice": 1428,
       "surugayaSoldOut": true,
-      "raritySlug": "c"
+      "raritySlug": "c",
+      "surugayaBuyPrice": 1500
     },
     {
       "name": "ガラガラ",
@@ -1211,9 +1213,9 @@
       "rarity": "R",
       "category": "ポケモン",
       "energyType": "闘",
-      "surugayaUrl": "/product/other/GL944995",
-      "surugayaPrice": 162,
-      "surugayaSoldOut": true,
+      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GL944994",
+      "surugayaPrice": 160,
+      "surugayaSoldOut": false,
       "raritySlug": "r"
     },
     {
@@ -1256,11 +1258,10 @@
       "rarity": "C",
       "category": "ポケモン",
       "energyType": "悪",
-      "surugayaUrl": "/product/other/GL945008",
-      "surugayaPrice": 1580,
-      "surugayaSoldOut": true,
-      "raritySlug": "c",
-      "surugayaBuyPrice": 700
+      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GL945007",
+      "surugayaPrice": 160,
+      "surugayaSoldOut": false,
+      "raritySlug": "c"
     },
     {
       "name": "マタドガス",
@@ -1268,11 +1269,10 @@
       "rarity": "R",
       "category": "ポケモン",
       "energyType": "悪",
-      "surugayaUrl": "/product/other/GL945011",
-      "surugayaPrice": 1060,
+      "surugayaUrl": "/product/detail/GL945010?tenpo_cd=201206",
+      "surugayaPrice": 90,
       "surugayaSoldOut": true,
-      "raritySlug": "r",
-      "surugayaBuyPrice": 500
+      "raritySlug": "r"
     },
     {
       "name": "サイホーン",
@@ -1292,10 +1292,11 @@
       "rarity": "U",
       "category": "ポケモン",
       "energyType": "闘",
-      "surugayaUrl": "/product/other/GL945016",
-      "surugayaPrice": 60,
-      "surugayaSoldOut": true,
-      "raritySlug": "u"
+      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GL945017",
+      "surugayaPrice": 1080,
+      "surugayaSoldOut": false,
+      "raritySlug": "u",
+      "surugayaBuyPrice": 500
     },
     {
       "name": "ラッキー",
@@ -1304,7 +1305,7 @@
       "category": "ポケモン",
       "energyType": "",
       "surugayaUrl": "/product/other/GL945020",
-      "surugayaPrice": 1280,
+      "surugayaPrice": 780,
       "surugayaSoldOut": true,
       "raritySlug": "r",
       "surugayaBuyPrice": 600
@@ -1409,7 +1410,7 @@
       "category": "ポケモン",
       "energyType": "超",
       "surugayaUrl": "/product/other/GL945045",
-      "surugayaPrice": 2210,
+      "surugayaPrice": 1180,
       "surugayaSoldOut": true,
       "raritySlug": "r",
       "surugayaBuyPrice": 1000
@@ -1420,7 +1421,7 @@
       "rarity": "U",
       "category": "ポケモン",
       "energyType": "草",
-      "surugayaUrl": "/product/other/GL945048",
+      "surugayaUrl": "/product/detail/GL945048?tenpo_cd=400512",
       "surugayaPrice": 2330,
       "surugayaSoldOut": true,
       "raritySlug": "u",
@@ -1443,10 +1444,11 @@
       "rarity": "C",
       "category": "ポケモン",
       "energyType": "雷",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GL945051",
-      "surugayaPrice": 160,
+      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GL945052",
+      "surugayaPrice": 1180,
       "surugayaSoldOut": false,
-      "raritySlug": "c"
+      "raritySlug": "c",
+      "surugayaBuyPrice": 600
     },
     {
       "name": "ブーバー",
@@ -1490,7 +1492,7 @@
       "category": "ポケモン",
       "energyType": "水",
       "surugayaUrl": "/product/detail/GL945064?tenpo_cd=400462",
-      "surugayaPrice": 5980,
+      "surugayaPrice": 5970,
       "surugayaSoldOut": true,
       "raritySlug": "c",
       "surugayaBuyPrice": 5000
@@ -1570,9 +1572,9 @@
       "rarity": "R",
       "category": "ポケモン",
       "energyType": "炎",
-      "surugayaUrl": "/product/other/GL945084",
-      "surugayaPrice": 220,
-      "surugayaSoldOut": true,
+      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GL945083",
+      "surugayaPrice": 160,
+      "surugayaSoldOut": false,
       "raritySlug": "r"
     },
     {
@@ -1628,10 +1630,11 @@
       "rarity": "R",
       "category": "ポケモン",
       "energyType": "闘",
-      "surugayaUrl": "/product/other/GL945099",
-      "surugayaPrice": 90,
+      "surugayaUrl": "/product/other/GL945100",
+      "surugayaPrice": 1670,
       "surugayaSoldOut": true,
-      "raritySlug": "r"
+      "raritySlug": "r",
+      "surugayaBuyPrice": 1000
     },
     {
       "name": "プテラ",
@@ -1661,11 +1664,10 @@
       "rarity": "R",
       "category": "ポケモン",
       "energyType": "水",
-      "surugayaUrl": "/product/other/GL945109",
-      "surugayaPrice": 1860,
-      "surugayaSoldOut": true,
-      "raritySlug": "r",
-      "surugayaBuyPrice": 1000
+      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GL945107",
+      "surugayaPrice": 160,
+      "surugayaSoldOut": false,
+      "raritySlug": "r"
     },
     {
       "name": "サンダーex",
@@ -1685,7 +1687,7 @@
       "category": "ポケモン",
       "energyType": "炎",
       "surugayaUrl": "/product/other/GL945113",
-      "surugayaPrice": 1860,
+      "surugayaPrice": 1840,
       "surugayaSoldOut": true,
       "raritySlug": "r",
       "surugayaBuyPrice": 1000
@@ -1696,10 +1698,11 @@
       "rarity": "C",
       "category": "ポケモン",
       "energyType": "ドラゴン",
-      "surugayaUrl": "/product/other/GL945115",
-      "surugayaPrice": 200,
+      "surugayaUrl": "/product/detail/GL945116?tenpo_cd=400451",
+      "surugayaPrice": 3580,
       "surugayaSoldOut": true,
-      "raritySlug": "c"
+      "raritySlug": "c",
+      "surugayaBuyPrice": 1500
     },
     {
       "name": "ハクリュー",
@@ -1731,11 +1734,10 @@
       "rarity": "R",
       "category": "ポケモン",
       "energyType": "超",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GL945125",
-      "surugayaPrice": 15800,
-      "surugayaSoldOut": false,
-      "raritySlug": "r",
-      "surugayaBuyPrice": 7000
+      "surugayaUrl": "/product/other/GL945123",
+      "surugayaPrice": 60,
+      "surugayaSoldOut": true,
+      "raritySlug": "r"
     },
     {
       "name": "ミュウex",
@@ -1765,10 +1767,11 @@
       "rarity": "U",
       "category": "グッズ",
       "energyType": "",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GL945131",
-      "surugayaPrice": 160,
-      "surugayaSoldOut": false,
-      "raritySlug": "u"
+      "surugayaUrl": "/product/other/GL945132",
+      "surugayaPrice": 580,
+      "surugayaSoldOut": true,
+      "raritySlug": "u",
+      "surugayaBuyPrice": 300
     },
     {
       "name": "古びたかいの化石",
@@ -1800,8 +1803,8 @@
       "rarity": "C",
       "category": "グッズ",
       "energyType": "",
-      "surugayaUrl": "/product/other/GL945141",
-      "surugayaPrice": 701,
+      "surugayaUrl": "/product/detail/GL945141?tenpo_cd=200959",
+      "surugayaPrice": 811,
       "surugayaSoldOut": true,
       "raritySlug": "c",
       "surugayaBuyPrice": null
@@ -1846,10 +1849,11 @@
       "rarity": "U",
       "category": "ポケモンのどうぐ",
       "energyType": "",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GL945152",
-      "surugayaPrice": 160,
-      "surugayaSoldOut": false,
-      "raritySlug": "u"
+      "surugayaUrl": "/product/other/GL945153",
+      "surugayaPrice": 380,
+      "surugayaSoldOut": true,
+      "raritySlug": "u",
+      "surugayaBuyPrice": null
     },
     {
       "name": "エリカの招待",
@@ -1857,11 +1861,10 @@
       "rarity": "U",
       "category": "サポート",
       "energyType": "",
-      "surugayaUrl": "/product/other/GL945156",
-      "surugayaPrice": 4800,
+      "surugayaUrl": "/product/other/GL945154",
+      "surugayaPrice": 46,
       "surugayaSoldOut": true,
-      "raritySlug": "u",
-      "surugayaBuyPrice": 2800
+      "raritySlug": "u"
     },
     {
       "name": "サカキのカリスマ",
@@ -1880,9 +1883,9 @@
       "rarity": "U",
       "category": "サポート",
       "energyType": "",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GL945160",
-      "surugayaPrice": 160,
-      "surugayaSoldOut": false,
+      "surugayaUrl": "/product/other/GL945161",
+      "surugayaPrice": 70,
+      "surugayaSoldOut": true,
       "raritySlug": "u"
     },
     {
@@ -1958,12 +1961,12 @@
       "surugayaBuyPrice": 1000
     },
     {
-      "name": "ゼニガメ（Bランク）",
+      "name": "ゼニガメ",
       "cardNumber": "170/165",
       "rarity": "AR",
       "category": "ポケモン",
       "energyType": "水",
-      "surugayaUrl": "/product/detail/GL945173?branch_number=0077",
+      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GL945173",
       "surugayaPrice": 1970,
       "surugayaSoldOut": false,
       "raritySlug": "ar",
@@ -2324,22 +2327,22 @@
       "category": "ポケモン",
       "energyType": "草",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GL945203",
-      "surugayaPrice": 20800,
+      "surugayaPrice": 19800,
       "surugayaSoldOut": false,
       "raritySlug": "sar",
-      "surugayaBuyPrice": 11000
+      "surugayaBuyPrice": 10000
     },
     {
-      "name": "リザードンex",
+      "name": "【ランクB】リザードンex",
       "cardNumber": "201/165",
       "rarity": "SAR",
       "category": "ポケモン",
       "energyType": "炎",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GL945204",
-      "surugayaPrice": 69800,
-      "surugayaSoldOut": false,
+      "surugayaUrl": "/product/other/BL945204",
+      "surugayaPrice": 39800,
+      "surugayaSoldOut": true,
       "raritySlug": "sar",
-      "surugayaBuyPrice": 45000
+      "surugayaBuyPrice": null
     },
     {
       "name": "カメックスex",
@@ -2384,7 +2387,7 @@
       "category": "ポケモン",
       "energyType": "超",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GL945208",
-      "surugayaPrice": 22900,
+      "surugayaPrice": 45800,
       "surugayaSoldOut": false,
       "raritySlug": "sar",
       "surugayaBuyPrice": 25000

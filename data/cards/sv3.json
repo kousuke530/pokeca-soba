@@ -2,7 +2,7 @@
   "pack": "拡張パック「黒炎の支配者」",
   "packSlug": "sv3",
   "source": "surugaya",
-  "collectedAt": "2026-09-12T03:31:08.491Z",
+  "collectedAt": "2026-09-15T03:04:07.762Z",
   "count": 174,
   "cards": [
     {
@@ -12,7 +12,7 @@
       "category": "ポケモン",
       "energyType": "炎",
       "surugayaUrl": "/product/other/GN104843",
-      "surugayaPrice": 250,
+      "surugayaPrice": 150,
       "surugayaSoldOut": true,
       "raritySlug": "n"
     },
@@ -1575,7 +1575,7 @@
       "category": "ポケモン",
       "energyType": "炎",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN104357",
-      "surugayaPrice": 1980,
+      "surugayaPrice": 990,
       "surugayaSoldOut": false,
       "raritySlug": "ar",
       "surugayaBuyPrice": 800
@@ -1598,10 +1598,9 @@
       "category": "ポケモン",
       "energyType": "雷",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN104359",
-      "surugayaPrice": 300,
+      "surugayaPrice": 280,
       "surugayaSoldOut": false,
-      "raritySlug": "ar",
-      "surugayaBuyPrice": null
+      "raritySlug": "ar"
     },
     {
       "name": "ピィ",
@@ -1622,10 +1621,9 @@
       "category": "ポケモン",
       "energyType": "闘",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN104361",
-      "surugayaPrice": 300,
+      "surugayaPrice": 280,
       "surugayaSoldOut": false,
-      "raritySlug": "ar",
-      "surugayaBuyPrice": null
+      "raritySlug": "ar"
     },
     {
       "name": "デルビル",
@@ -1758,14 +1756,14 @@
       "surugayaBuyPrice": 2500
     },
     {
-      "name": "アブソルex",
+      "name": "【ランクB】アブソルex",
       "cardNumber": "126/108",
       "rarity": "SR",
       "category": "ポケモン",
       "energyType": "悪",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN104373",
-      "surugayaPrice": 480,
-      "surugayaSoldOut": false,
+      "surugayaUrl": "/product/detail/GB104373?tenpo_cd=400451",
+      "surugayaPrice": 340,
+      "surugayaSoldOut": true,
       "raritySlug": "sr",
       "surugayaBuyPrice": null
     },
@@ -1818,14 +1816,14 @@
       "surugayaBuyPrice": null
     },
     {
-      "name": "【ランクB】ポピー",
+      "name": "ポピー",
       "cardNumber": "131/108",
       "rarity": "SR",
       "category": "サポート",
       "energyType": "",
-      "surugayaUrl": "/product/detail/GB104378?tenpo_cd=410124",
-      "surugayaPrice": 300,
-      "surugayaSoldOut": true,
+      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN104378",
+      "surugayaPrice": 480,
+      "surugayaSoldOut": false,
       "raritySlug": "sr",
       "surugayaBuyPrice": null
     },
@@ -1895,10 +1893,10 @@
       "category": "サポート",
       "energyType": "",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN104384",
-      "surugayaPrice": 810,
+      "surugayaPrice": 680,
       "surugayaSoldOut": false,
       "raritySlug": "sar",
-      "surugayaBuyPrice": 500
+      "surugayaBuyPrice": 400
     },
     {
       "name": "ポピー",

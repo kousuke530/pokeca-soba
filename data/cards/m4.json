@@ -2,7 +2,7 @@
   "pack": "拡張パック「ニンジャスピナー」",
   "packSlug": "m4",
   "source": "surugaya",
-  "collectedAt": "2026-09-14T10:16:01.673Z",
+  "collectedAt": "2026-09-15T03:18:43.435Z",
   "count": 119,
   "cards": [
     {
@@ -815,8 +815,8 @@
       "rarity": "U",
       "category": "グッズ",
       "energyType": "",
-      "surugayaUrl": "/product/detail/GU634025?tenpo_cd=410050",
-      "surugayaPrice": 80,
+      "surugayaUrl": "/product/other/GU634025",
+      "surugayaPrice": 50,
       "surugayaSoldOut": true,
       "raritySlug": "u"
     },
@@ -848,8 +848,8 @@
       "rarity": "U",
       "category": "サポート",
       "energyType": "",
-      "surugayaUrl": "/product/detail/GU634028?tenpo_cd=410011",
-      "surugayaPrice": 150,
+      "surugayaUrl": "/product/other/GU634028",
+      "surugayaPrice": 50,
       "surugayaSoldOut": true,
       "raritySlug": "u"
     },
@@ -881,7 +881,7 @@
       "rarity": "U",
       "category": "スタジアム",
       "energyType": "",
-      "surugayaUrl": "/product/detail/GU634031?tenpo_cd=410011",
+      "surugayaUrl": "/product/other/GU634031",
       "surugayaPrice": 150,
       "surugayaSoldOut": true,
       "raritySlug": "u"
@@ -926,10 +926,9 @@
       "category": "ポケモン",
       "energyType": "草",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU634035",
-      "surugayaPrice": 300,
+      "surugayaPrice": 280,
       "surugayaSoldOut": false,
-      "raritySlug": "ar",
-      "surugayaBuyPrice": null
+      "raritySlug": "ar"
     },
     {
       "name": "フォッコ",
@@ -1181,10 +1180,9 @@
       "category": "グッズ",
       "energyType": "",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU634057",
-      "surugayaPrice": 300,
+      "surugayaPrice": 280,
       "surugayaSoldOut": false,
-      "raritySlug": "sr",
-      "surugayaBuyPrice": null
+      "raritySlug": "sr"
     },
     {
       "name": "ツールスクラッパー",
@@ -1239,7 +1237,7 @@
       "category": "サポート",
       "energyType": "",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU634062",
-      "surugayaPrice": 410,
+      "surugayaPrice": 350,
       "surugayaSoldOut": false,
       "raritySlug": "sr",
       "surugayaBuyPrice": null
@@ -1324,7 +1322,7 @@
       "surugayaPrice": 1180,
       "surugayaSoldOut": false,
       "raritySlug": "sar",
-      "surugayaBuyPrice": 500
+      "surugayaBuyPrice": 400
     },
     {
       "name": "メガゲッコウガex",
