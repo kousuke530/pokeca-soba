@@ -2,8 +2,8 @@
   "pack": "拡張パック「超電ブレイカー」",
   "packSlug": "sv8",
   "source": "surugaya",
-  "collectedAt": "2026-09-15T03:09:03.162Z",
-  "count": 137,
+  "collectedAt": "2026-09-17T03:05:04.690Z",
+  "count": 138,
   "cards": [
     {
       "name": "タマタマ",
@@ -209,7 +209,7 @@
       "rarity": "R",
       "category": "ポケモン",
       "energyType": "炎",
-      "surugayaUrl": "/product/other/GN709458",
+      "surugayaUrl": "/product/detail/GN709458?tenpo_cd=410018",
       "surugayaPrice": 57,
       "surugayaSoldOut": true,
       "raritySlug": "r"
@@ -353,7 +353,7 @@
       "category": "ポケモン",
       "energyType": "水",
       "surugayaUrl": "/product/other/GN709459",
-      "surugayaPrice": 40,
+      "surugayaPrice": 60,
       "surugayaSoldOut": true,
       "raritySlug": "r"
     },
@@ -518,7 +518,7 @@
       "rarity": "R",
       "category": "ポケモン",
       "energyType": "超",
-      "surugayaUrl": "/product/other/GN709461",
+      "surugayaUrl": "/product/detail/GN709461?tenpo_cd=410018",
       "surugayaPrice": 79,
       "surugayaSoldOut": true,
       "raritySlug": "r"
@@ -574,7 +574,7 @@
       "category": "ポケモン",
       "energyType": "超",
       "surugayaUrl": "/product/other/GN709462",
-      "surugayaPrice": 60,
+      "surugayaPrice": 75,
       "surugayaSoldOut": true,
       "raritySlug": "r"
     },
@@ -728,7 +728,7 @@
       "category": "ポケモン",
       "energyType": "闘",
       "surugayaUrl": "/product/other/GN709463",
-      "surugayaPrice": 60,
+      "surugayaPrice": 50,
       "surugayaSoldOut": true,
       "raritySlug": "r"
     },
@@ -826,8 +826,8 @@
       "rarity": "U",
       "category": "ポケモン",
       "energyType": "悪",
-      "surugayaUrl": "/product/other/GN709487",
-      "surugayaPrice": 100,
+      "surugayaUrl": "/product/detail/GN709487?tenpo_cd=410011",
+      "surugayaPrice": 80,
       "surugayaSoldOut": true,
       "raritySlug": "u"
     },
@@ -1123,8 +1123,8 @@
       "rarity": "U",
       "category": "サポート",
       "energyType": "",
-      "surugayaUrl": "/product/other/GN709495",
-      "surugayaPrice": 790,
+      "surugayaUrl": "/product/detail/GN709495?tenpo_cd=410011",
+      "surugayaPrice": 980,
       "surugayaSoldOut": true,
       "raritySlug": "u",
       "surugayaBuyPrice": null
@@ -1168,7 +1168,7 @@
       "rarity": "U",
       "category": "スタジアム",
       "energyType": "",
-      "surugayaUrl": "/product/other/GN709499",
+      "surugayaUrl": "/product/detail/GN709499?tenpo_cd=410018",
       "surugayaPrice": 69,
       "surugayaSoldOut": true,
       "raritySlug": "u"
@@ -1419,7 +1419,7 @@
       "category": "サポート",
       "energyType": "",
       "surugayaUrl": "/product/other/GN709431",
-      "surugayaPrice": 1220,
+      "surugayaPrice": 1210,
       "surugayaSoldOut": true,
       "raritySlug": "sr",
       "surugayaBuyPrice": 700
@@ -1459,6 +1459,18 @@
       "surugayaSoldOut": false,
       "raritySlug": "sar",
       "surugayaBuyPrice": 1400
+    },
+    {
+      "name": "ミロカロスex",
+      "cardNumber": "131/106",
+      "rarity": "SAR",
+      "category": "ポケモン",
+      "energyType": "水",
+      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN709418",
+      "surugayaPrice": 11800,
+      "surugayaSoldOut": false,
+      "raritySlug": "sar",
+      "surugayaBuyPrice": 7000
     },
     {
       "name": "ピカチュウex",
@@ -1539,7 +1551,7 @@
       "category": "スタジアム",
       "energyType": "",
       "surugayaUrl": "/product/other/GN709416",
-      "surugayaPrice": 670,
+      "surugayaPrice": 660,
       "surugayaSoldOut": true,
       "raritySlug": "ur",
       "surugayaBuyPrice": 300

@@ -2,7 +2,7 @@
   "pack": "拡張パック 「変幻の仮面」",
   "packSlug": "sv6",
   "source": "surugaya",
-  "collectedAt": "2026-09-15T03:07:41.313Z",
+  "collectedAt": "2026-09-17T03:03:59.506Z",
   "count": 132,
   "cards": [
     {
@@ -232,7 +232,7 @@
       "category": "ポケモン",
       "energyType": "炎",
       "surugayaUrl": "/product/detail/GN486490?tenpo_cd=410011",
-      "surugayaPrice": 360,
+      "surugayaPrice": 480,
       "surugayaSoldOut": true,
       "raritySlug": "r",
       "surugayaBuyPrice": null
@@ -717,7 +717,7 @@
       "category": "ポケモン",
       "energyType": "闘",
       "surugayaUrl": "/product/other/GN486534",
-      "surugayaPrice": 80,
+      "surugayaPrice": 39,
       "surugayaSoldOut": true,
       "raritySlug": "rr"
     },
@@ -837,8 +837,8 @@
       "rarity": "R",
       "category": "ポケモン",
       "energyType": "鋼",
-      "surugayaUrl": "/product/other/GN486545",
-      "surugayaPrice": 39,
+      "surugayaUrl": "/product/detail/GN486545?tenpo_cd=400386",
+      "surugayaPrice": 50,
       "surugayaSoldOut": true,
       "raritySlug": "r"
     },
@@ -1037,7 +1037,7 @@
       "category": "グッズ",
       "energyType": "",
       "surugayaUrl": "/product/other/GN486563",
-      "surugayaPrice": 60,
+      "surugayaPrice": 79,
       "surugayaSoldOut": true,
       "raritySlug": "u"
     },
@@ -1159,10 +1159,9 @@
       "category": "ポケモン",
       "energyType": "雷",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN486574",
-      "surugayaPrice": 380,
+      "surugayaPrice": 280,
       "surugayaSoldOut": false,
-      "raritySlug": "ar",
-      "surugayaBuyPrice": null
+      "raritySlug": "ar"
     },
     {
       "name": "チリーン",
@@ -1171,10 +1170,9 @@
       "category": "ポケモン",
       "energyType": "超",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN486575",
-      "surugayaPrice": 300,
+      "surugayaPrice": 280,
       "surugayaSoldOut": false,
-      "raritySlug": "ar",
-      "surugayaBuyPrice": null
+      "raritySlug": "ar"
     },
     {
       "name": "マシマシラ",

@@ -2,7 +2,7 @@
   "pack": "スターターセットMEGA メガディアンシーex",
   "packSlug": "mbd",
   "source": "surugaya",
-  "collectedAt": "2026-09-15T03:15:38.450Z",
+  "collectedAt": "2026-09-17T03:08:41.734Z",
   "count": 15,
   "cards": [
     {
@@ -23,7 +23,7 @@
       "category": "ポケモン",
       "energyType": "超",
       "surugayaUrl": "/product/other/GU404885",
-      "surugayaPrice": 190,
+      "surugayaPrice": 210,
       "surugayaSoldOut": true,
       "raritySlug": "n"
     },
@@ -44,8 +44,8 @@
       "rarity": "ノーマル",
       "category": "グッズ",
       "energyType": "",
-      "surugayaUrl": "/product/detail/GU404890?tenpo_cd=201206",
-      "surugayaPrice": 190,
+      "surugayaUrl": "/product/detail/GU404890?tenpo_cd=410011",
+      "surugayaPrice": 100,
       "surugayaSoldOut": true,
       "raritySlug": "n"
     },
@@ -78,7 +78,7 @@
       "category": "グッズ",
       "energyType": "",
       "surugayaUrl": "/product/detail/GU404894?tenpo_cd=200984",
-      "surugayaPrice": 180,
+      "surugayaPrice": 189,
       "surugayaSoldOut": true,
       "raritySlug": "n"
     },
@@ -89,9 +89,10 @@
       "category": "グッズ",
       "energyType": "",
       "surugayaUrl": "/product/detail/GU404895?tenpo_cd=410011",
-      "surugayaPrice": 285,
+      "surugayaPrice": 380,
       "surugayaSoldOut": true,
-      "raritySlug": "n"
+      "raritySlug": "n",
+      "surugayaBuyPrice": null
     },
     {
       "name": "ヒーローマント",
@@ -132,7 +133,7 @@
       "rarity": "ノーマル",
       "category": "サポート",
       "energyType": "",
-      "surugayaUrl": "/product/detail/GU404899?tenpo_cd=201206",
+      "surugayaUrl": "/product/detail/GU404899?tenpo_cd=410011",
       "surugayaPrice": 100,
       "surugayaSoldOut": true,
       "raritySlug": "n"
@@ -143,8 +144,8 @@
       "rarity": "ノーマル",
       "category": "サポート",
       "energyType": "",
-      "surugayaUrl": "/product/other/GU404900",
-      "surugayaPrice": 150,
+      "surugayaUrl": "/product/detail/GU404900?tenpo_cd=410011",
+      "surugayaPrice": 100,
       "surugayaSoldOut": true,
       "raritySlug": "n"
     },

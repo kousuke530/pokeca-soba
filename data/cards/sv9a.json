@@ -2,8 +2,8 @@
   "pack": "強化拡張パック「熱風のアリーナ」",
   "packSlug": "sv9a",
   "source": "surugaya",
-  "collectedAt": "2026-09-15T03:11:56.143Z",
-  "count": 91,
+  "collectedAt": "2026-09-17T03:06:29.201Z",
+  "count": 92,
   "cards": [
     {
       "name": "ヒビキのカイロス",
@@ -165,8 +165,8 @@
       "rarity": "C",
       "category": "ポケモン",
       "energyType": "炎",
-      "surugayaUrl": "/product/detail/GN923840?tenpo_cd=201206",
-      "surugayaPrice": 60,
+      "surugayaUrl": "/product/detail/GN923840?tenpo_cd=410011",
+      "surugayaPrice": 80,
       "surugayaSoldOut": true,
       "raritySlug": "c"
     },
@@ -233,6 +233,17 @@
       "energyType": "炎",
       "surugayaUrl": "/product/other/GN923817",
       "surugayaPrice": 19,
+      "surugayaSoldOut": true,
+      "raritySlug": "u"
+    },
+    {
+      "name": "カスミのコダック",
+      "cardNumber": "022/063",
+      "rarity": "U",
+      "category": "ポケモン",
+      "energyType": "水",
+      "surugayaUrl": "/product/detail/GN923818?tenpo_cd=410011",
+      "surugayaPrice": 180,
       "surugayaSoldOut": true,
       "raritySlug": "u"
     },
@@ -308,7 +319,7 @@
       "rarity": "U",
       "category": "ポケモン",
       "energyType": "水",
-      "surugayaUrl": "/product/other/GN923820",
+      "surugayaUrl": "/product/detail/GN923820?tenpo_cd=410018",
       "surugayaPrice": 19,
       "surugayaSoldOut": true,
       "raritySlug": "u"
@@ -385,7 +396,7 @@
       "rarity": "C",
       "category": "ポケモン",
       "energyType": "雷",
-      "surugayaUrl": "/product/other/GN923849",
+      "surugayaUrl": "/product/detail/GN923849?tenpo_cd=410018",
       "surugayaPrice": 29,
       "surugayaSoldOut": true,
       "raritySlug": "c"
@@ -718,10 +729,10 @@
       "category": "ポケモン",
       "energyType": "草",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN923789",
-      "surugayaPrice": 1480,
+      "surugayaPrice": 1080,
       "surugayaSoldOut": false,
       "raritySlug": "ar",
-      "surugayaBuyPrice": 700
+      "surugayaBuyPrice": 500
     },
     {
       "name": "イワパレス",
@@ -766,10 +777,10 @@
       "category": "ポケモン",
       "energyType": "炎",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN923793",
-      "surugayaPrice": 2280,
+      "surugayaPrice": 1190,
       "surugayaSoldOut": false,
       "raritySlug": "ar",
-      "surugayaBuyPrice": 1100
+      "surugayaBuyPrice": 1000
     },
     {
       "name": "カスミのコダック",

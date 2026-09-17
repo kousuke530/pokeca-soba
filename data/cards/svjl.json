@@ -2,7 +2,7 @@
   "pack": "バトルマスターデッキ テラスタル リザードンex",
   "packSlug": "svjl",
   "source": "surugaya",
-  "collectedAt": "2026-09-15T03:07:47.522Z",
+  "collectedAt": "2026-09-17T03:04:06.012Z",
   "count": 21,
   "cards": [
     {
@@ -11,8 +11,8 @@
       "rarity": "ノーマル",
       "category": "ポケモン",
       "energyType": "炎",
-      "surugayaUrl": "/product/detail/GN511202?tenpo_cd=400386",
-      "surugayaPrice": 150,
+      "surugayaUrl": "/product/other/GN511202",
+      "surugayaPrice": 49,
       "surugayaSoldOut": true,
       "raritySlug": "n"
     },
@@ -187,7 +187,7 @@
       "rarity": "ノーマル",
       "category": "サポート",
       "energyType": "",
-      "surugayaUrl": "/product/other/GN511218",
+      "surugayaUrl": "/product/detail/GN511218?tenpo_cd=400386",
       "surugayaPrice": 70,
       "surugayaSoldOut": true,
       "raritySlug": "n"
@@ -231,8 +231,8 @@
       "rarity": "ノーマル",
       "category": "エネルギー",
       "energyType": "",
-      "surugayaUrl": "/product/detail/GN511222?tenpo_cd=400386",
-      "surugayaPrice": 150,
+      "surugayaUrl": "/product/other/GN511222",
+      "surugayaPrice": 80,
       "surugayaSoldOut": true,
       "raritySlug": "n"
     }

@@ -2,8 +2,8 @@
   "pack": "デッキビルドBOX バトルパートナーズ",
   "packSlug": "svn",
   "source": "surugaya",
-  "collectedAt": "2026-09-15T03:11:23.815Z",
-  "count": 35,
+  "collectedAt": "2026-09-17T03:06:19.029Z",
+  "count": 36,
   "cards": [
     {
       "name": "ミュウex",
@@ -66,8 +66,8 @@
       "rarity": "ノーマル",
       "category": "ポケモン",
       "energyType": "",
-      "surugayaUrl": "/product/detail/GN832998?tenpo_cd=201206",
-      "surugayaPrice": 90,
+      "surugayaUrl": "/product/detail/GN832998?tenpo_cd=410011",
+      "surugayaPrice": 80,
       "surugayaSoldOut": true,
       "raritySlug": "n"
     },
@@ -77,7 +77,7 @@
       "rarity": "ノーマル",
       "category": "ポケモン",
       "energyType": "",
-      "surugayaUrl": "/product/detail/GN833000?tenpo_cd=410018",
+      "surugayaUrl": "/product/other/GN833000",
       "surugayaPrice": 79,
       "surugayaSoldOut": true,
       "raritySlug": "n"
@@ -122,7 +122,7 @@
       "category": "グッズ",
       "energyType": "",
       "surugayaUrl": "/product/other/GN833005",
-      "surugayaPrice": 190,
+      "surugayaPrice": 100,
       "surugayaSoldOut": true,
       "raritySlug": "n"
     },
@@ -168,6 +168,17 @@
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN833012",
       "surugayaPrice": 160,
       "surugayaSoldOut": false,
+      "raritySlug": "n"
+    },
+    {
+      "name": "むしとりセット",
+      "cardNumber": "022/045",
+      "rarity": "ノーマル",
+      "category": "グッズ",
+      "energyType": "",
+      "surugayaUrl": "/product/detail/GN833013?tenpo_cd=410011",
+      "surugayaPrice": 80,
+      "surugayaSoldOut": true,
       "raritySlug": "n"
     },
     {
@@ -221,7 +232,7 @@
       "category": "ポケモンのどうぐ",
       "energyType": "",
       "surugayaUrl": "/product/other/GN833018",
-      "surugayaPrice": 90,
+      "surugayaPrice": 50,
       "surugayaSoldOut": true,
       "raritySlug": "n"
     },
@@ -341,7 +352,7 @@
       "rarity": "ノーマル",
       "category": "スタジアム",
       "energyType": "",
-      "surugayaUrl": "/product/other/GN833032",
+      "surugayaUrl": "/product/detail/GN833032?tenpo_cd=410018",
       "surugayaPrice": 77,
       "surugayaSoldOut": true,
       "raritySlug": "n"
@@ -374,7 +385,7 @@
       "rarity": "ノーマル",
       "category": "エネルギー",
       "energyType": "",
-      "surugayaUrl": "/product/other/GN833035",
+      "surugayaUrl": "/product/detail/GN833035?tenpo_cd=410018",
       "surugayaPrice": 57,
       "surugayaSoldOut": true,
       "raritySlug": "n"

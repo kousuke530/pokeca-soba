@@ -2,7 +2,7 @@
   "pack": "拡張パック「サイバージャッジ」",
   "packSlug": "sv5m",
   "source": "surugaya",
-  "collectedAt": "2026-09-15T03:06:32.934Z",
+  "collectedAt": "2026-09-17T03:03:20.901Z",
   "count": 100,
   "cards": [
     {
@@ -243,7 +243,7 @@
       "category": "ポケモン",
       "energyType": "炎",
       "surugayaUrl": "/product/other/GN369833",
-      "surugayaPrice": 79,
+      "surugayaPrice": 49,
       "surugayaSoldOut": true,
       "raritySlug": "rr"
     },
@@ -463,7 +463,7 @@
       "category": "ポケモン",
       "energyType": "悪",
       "surugayaUrl": "/product/other/GN369853",
-      "surugayaPrice": 150,
+      "surugayaPrice": 80,
       "surugayaSoldOut": true,
       "raritySlug": "rr"
     },
@@ -660,7 +660,7 @@
       "rarity": "R",
       "category": "ポケモン",
       "energyType": "",
-      "surugayaUrl": "/product/other/GN369871",
+      "surugayaUrl": "/product/detail/GN369871?tenpo_cd=410018",
       "surugayaPrice": 35,
       "surugayaSoldOut": true,
       "raritySlug": "r"
@@ -705,7 +705,7 @@
       "category": "ポケモンのどうぐ",
       "energyType": "",
       "surugayaUrl": "/product/other/GN369875",
-      "surugayaPrice": 122,
+      "surugayaPrice": 118,
       "surugayaSoldOut": true,
       "raritySlug": "ace"
     },
@@ -771,7 +771,7 @@
       "category": "スタジアム",
       "energyType": "",
       "surugayaUrl": "/product/other/GN369881",
-      "surugayaPrice": 50,
+      "surugayaPrice": 160,
       "surugayaSoldOut": true,
       "raritySlug": "u"
     },
@@ -929,14 +929,14 @@
       "surugayaBuyPrice": null
     },
     {
-      "name": "テツノイサハex",
+      "name": "【ランクB】テツノイサハex",
       "cardNumber": "084/071",
       "rarity": "SR",
       "category": "ポケモン",
       "energyType": "草",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN369895",
-      "surugayaPrice": 580,
-      "surugayaSoldOut": false,
+      "surugayaUrl": "/product/other/GB369895",
+      "surugayaPrice": 330,
+      "surugayaSoldOut": true,
       "raritySlug": "sr",
       "surugayaBuyPrice": null
     },
@@ -1006,8 +1006,8 @@
       "rarity": "SR",
       "category": "サポート",
       "energyType": "",
-      "surugayaUrl": "/product/other/GB369901",
-      "surugayaPrice": 1100,
+      "surugayaUrl": "/product/detail/GB369901?tenpo_cd=200910",
+      "surugayaPrice": 1101,
       "surugayaSoldOut": true,
       "raritySlug": "sr",
       "surugayaBuyPrice": null
@@ -1115,7 +1115,7 @@
       "category": "ポケモン",
       "energyType": "超",
       "surugayaUrl": "/product/other/GN369910",
-      "surugayaPrice": 578,
+      "surugayaPrice": 580,
       "surugayaSoldOut": true,
       "raritySlug": "ur",
       "surugayaBuyPrice": null

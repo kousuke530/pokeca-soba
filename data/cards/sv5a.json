@@ -2,8 +2,8 @@
   "pack": "強化拡張パック「クリムゾンヘイズ」",
   "packSlug": "sv5a",
   "source": "surugaya",
-  "collectedAt": "2026-09-15T03:07:04.618Z",
-  "count": 95,
+  "collectedAt": "2026-09-17T03:03:45.039Z",
+  "count": 96,
   "cards": [
     {
       "name": "モンジャラ",
@@ -58,6 +58,17 @@
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN445991",
       "surugayaPrice": 160,
       "surugayaSoldOut": false,
+      "raritySlug": "u"
+    },
+    {
+      "name": "リーフィア",
+      "cardNumber": "006/066",
+      "rarity": "U",
+      "category": "ポケモン",
+      "energyType": "草",
+      "surugayaUrl": "/product/detail/GN445992?tenpo_cd=410011",
+      "surugayaPrice": 80,
+      "surugayaSoldOut": true,
       "raritySlug": "u"
     },
     {
@@ -276,7 +287,7 @@
       "category": "ポケモン",
       "energyType": "水",
       "surugayaUrl": "/product/other/GN446012",
-      "surugayaPrice": 59,
+      "surugayaPrice": 50,
       "surugayaSoldOut": true,
       "raritySlug": "r"
     },
@@ -451,7 +462,7 @@
       "rarity": "R",
       "category": "ポケモン",
       "energyType": "闘",
-      "surugayaUrl": "/product/detail/GN446028?tenpo_cd=410018",
+      "surugayaUrl": "/product/other/GN446028",
       "surugayaPrice": 29,
       "surugayaSoldOut": true,
       "raritySlug": "r"
@@ -485,7 +496,7 @@
       "category": "ポケモン",
       "energyType": "闘",
       "surugayaUrl": "/product/other/GN446031",
-      "surugayaPrice": 220,
+      "surugayaPrice": 165,
       "surugayaSoldOut": true,
       "raritySlug": "rr"
     },
@@ -761,9 +772,10 @@
       "category": "ポケモン",
       "energyType": "炎",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN446056",
-      "surugayaPrice": 290,
+      "surugayaPrice": 480,
       "surugayaSoldOut": false,
-      "raritySlug": "ar"
+      "raritySlug": "ar",
+      "surugayaBuyPrice": null
     },
     {
       "name": "フィオネ",
@@ -982,7 +994,7 @@
       "category": "ポケモン",
       "energyType": "草",
       "surugayaUrl": "/product/other/GN446075",
-      "surugayaPrice": 1173,
+      "surugayaPrice": 1300,
       "surugayaSoldOut": true,
       "raritySlug": "sar",
       "surugayaBuyPrice": 800

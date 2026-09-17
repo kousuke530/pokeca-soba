@@ -2,7 +2,7 @@
   "pack": "強化拡張パック「ナイトワンダラー」",
   "packSlug": "sv6a",
   "source": "surugaya",
-  "collectedAt": "2026-09-15T03:08:04.663Z",
+  "collectedAt": "2026-09-17T03:04:15.751Z",
   "count": 94,
   "cards": [
     {
@@ -243,7 +243,7 @@
       "category": "ポケモン",
       "energyType": "超",
       "surugayaUrl": "/product/detail/GN544604?tenpo_cd=410011",
-      "surugayaPrice": 150,
+      "surugayaPrice": 50,
       "surugayaSoldOut": true,
       "raritySlug": "u"
     },
@@ -463,7 +463,7 @@
       "category": "ポケモン",
       "energyType": "鋼",
       "surugayaUrl": "/product/other/GN544624",
-      "surugayaPrice": 37,
+      "surugayaPrice": 35,
       "surugayaSoldOut": true,
       "raritySlug": "r"
     },
@@ -617,7 +617,7 @@
       "category": "グッズ",
       "energyType": "",
       "surugayaUrl": "/product/other/GN544638",
-      "surugayaPrice": 80,
+      "surugayaPrice": 120,
       "surugayaSoldOut": true,
       "raritySlug": "u"
     },
@@ -650,7 +650,7 @@
       "category": "サポート",
       "energyType": "",
       "surugayaUrl": "/product/other/GN544641",
-      "surugayaPrice": 90,
+      "surugayaPrice": 99,
       "surugayaSoldOut": true,
       "raritySlug": "u"
     },
@@ -852,14 +852,14 @@
       "raritySlug": "ar"
     },
     {
-      "name": "【ランクB】キングドラex",
+      "name": "キングドラex",
       "cardNumber": "077/064",
       "rarity": "SR",
       "category": "ポケモン",
       "energyType": "水",
-      "surugayaUrl": "/product/detail/GB544659?tenpo_cd=201206",
-      "surugayaPrice": 320,
-      "surugayaSoldOut": true,
+      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN544659",
+      "surugayaPrice": 480,
+      "surugayaSoldOut": false,
       "raritySlug": "sr",
       "surugayaBuyPrice": null
     },
@@ -1049,10 +1049,10 @@
       "category": "グッズ",
       "energyType": "",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN544675",
-      "surugayaPrice": 980,
+      "surugayaPrice": 780,
       "surugayaSoldOut": false,
       "raritySlug": "ur",
-      "surugayaBuyPrice": 400
+      "surugayaBuyPrice": 300
     },
     {
       "name": "力の砂時計（Bランク）",

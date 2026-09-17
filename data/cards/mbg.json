@@ -2,7 +2,7 @@
   "pack": "スターターセットMEGA メガゲンガーex",
   "packSlug": "mbg",
   "source": "surugaya",
-  "collectedAt": "2026-09-15T03:15:41.370Z",
+  "collectedAt": "2026-09-17T03:08:44.792Z",
   "count": 16,
   "cards": [
     {
@@ -11,8 +11,8 @@
       "rarity": "ノーマル",
       "category": "ポケモン",
       "energyType": "悪",
-      "surugayaUrl": "/product/other/GU404859",
-      "surugayaPrice": 60,
+      "surugayaUrl": "/product/detail/GU404859?tenpo_cd=410011",
+      "surugayaPrice": 80,
       "surugayaSoldOut": true,
       "raritySlug": "n"
     },
@@ -23,21 +23,20 @@
       "category": "ポケモン",
       "energyType": "悪",
       "surugayaUrl": "/product/detail/GU404860?tenpo_cd=410011",
-      "surugayaPrice": 150,
+      "surugayaPrice": 80,
       "surugayaSoldOut": true,
       "raritySlug": "n"
     },
     {
-      "name": "メガゲンガーex（Bランク）",
+      "name": "メガゲンガーex",
       "cardNumber": "003/021",
       "rarity": "ノーマル",
       "category": "ポケモン",
       "energyType": "悪",
-      "surugayaUrl": "/product/detail/GU404861?branch_number=0077",
-      "surugayaPrice": 350,
-      "surugayaSoldOut": false,
-      "raritySlug": "n",
-      "surugayaBuyPrice": null
+      "surugayaUrl": "/product/other/GU404861",
+      "surugayaPrice": 280,
+      "surugayaSoldOut": true,
+      "raritySlug": "n"
     },
     {
       "name": "ヤミカラス",
@@ -67,8 +66,8 @@
       "rarity": "ノーマル",
       "category": "グッズ",
       "energyType": "",
-      "surugayaUrl": "/product/other/GU404868",
-      "surugayaPrice": 150,
+      "surugayaUrl": "/product/detail/GU404868?tenpo_cd=200984",
+      "surugayaPrice": 189,
       "surugayaSoldOut": true,
       "raritySlug": "n"
     },
@@ -100,7 +99,7 @@
       "rarity": "ノーマル",
       "category": "グッズ",
       "energyType": "",
-      "surugayaUrl": "/product/other/GU404871",
+      "surugayaUrl": "/product/detail/GU404871?tenpo_cd=410018",
       "surugayaPrice": 89,
       "surugayaSoldOut": true,
       "raritySlug": "n"
@@ -166,8 +165,8 @@
       "rarity": "ノーマル",
       "category": "サポート",
       "energyType": "",
-      "surugayaUrl": "/product/other/GU404879",
-      "surugayaPrice": 80,
+      "surugayaUrl": "/product/detail/GU404879?tenpo_cd=200984",
+      "surugayaPrice": 189,
       "surugayaSoldOut": true,
       "raritySlug": "n"
     },

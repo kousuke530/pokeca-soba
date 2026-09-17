@@ -2,7 +2,7 @@
   "pack": "拡張パック「アビスアイ」",
   "packSlug": "m5",
   "source": "surugaya",
-  "collectedAt": "2026-09-15T03:18:55.144Z",
+  "collectedAt": "2026-09-17T03:11:53.113Z",
   "count": 117,
   "cards": [
     {
@@ -374,8 +374,8 @@
       "rarity": "C",
       "category": "ポケモン",
       "energyType": "超",
-      "surugayaUrl": "/product/other/GU730332",
-      "surugayaPrice": 60,
+      "surugayaUrl": "/product/detail/GU730332?tenpo_cd=410011",
+      "surugayaPrice": 80,
       "surugayaSoldOut": true,
       "raritySlug": "c"
     },
@@ -474,7 +474,7 @@
       "category": "ポケモン",
       "energyType": "闘",
       "surugayaUrl": "/product/other/GU730336",
-      "surugayaPrice": 60,
+      "surugayaPrice": 80,
       "surugayaSoldOut": true,
       "raritySlug": "c"
     },
@@ -682,9 +682,9 @@
       "rarity": "RR",
       "category": "ポケモン",
       "energyType": "鋼",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU730278",
-      "surugayaPrice": 160,
-      "surugayaSoldOut": false,
+      "surugayaUrl": "/product/other/GU730278",
+      "surugayaPrice": 70,
+      "surugayaSoldOut": true,
       "raritySlug": "rr"
     },
     {
@@ -760,7 +760,7 @@
       "category": "グッズ",
       "energyType": "",
       "surugayaUrl": "/product/other/GU730306",
-      "surugayaPrice": 80,
+      "surugayaPrice": 50,
       "surugayaSoldOut": true,
       "raritySlug": "u"
     },
@@ -847,9 +847,9 @@
       "rarity": "U",
       "category": "サポート",
       "energyType": "",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU730312",
-      "surugayaPrice": 160,
-      "surugayaSoldOut": false,
+      "surugayaUrl": "/product/other/GU730312",
+      "surugayaPrice": 60,
+      "surugayaSoldOut": true,
       "raritySlug": "u"
     },
     {
@@ -984,7 +984,7 @@
       "category": "ポケモン",
       "energyType": "悪",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU730267",
-      "surugayaPrice": 170,
+      "surugayaPrice": 280,
       "surugayaSoldOut": false,
       "raritySlug": "ar"
     },
@@ -1135,9 +1135,10 @@
       "category": "グッズ",
       "energyType": "",
       "surugayaUrl": "/product/other/GU730250",
-      "surugayaPrice": 190,
+      "surugayaPrice": 311,
       "surugayaSoldOut": true,
-      "raritySlug": "sr"
+      "raritySlug": "sr",
+      "surugayaBuyPrice": null
     },
     {
       "name": "クラッシュハンマー",

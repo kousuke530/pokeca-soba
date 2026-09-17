@@ -2,7 +2,7 @@
   "pack": "拡張パック「ムニキスゼロ」",
   "packSlug": "m3",
   "source": "surugaya",
-  "collectedAt": "2026-09-15T03:18:25.830Z",
+  "collectedAt": "2026-09-17T03:11:24.344Z",
   "count": 117,
   "cards": [
     {
@@ -66,7 +66,7 @@
       "rarity": "R",
       "category": "ポケモン",
       "energyType": "草",
-      "surugayaUrl": "/product/other/GU584322",
+      "surugayaUrl": "/product/detail/GU584322?tenpo_cd=410018",
       "surugayaPrice": 24,
       "surugayaSoldOut": true,
       "raritySlug": "r"
@@ -133,7 +133,7 @@
       "category": "ポケモン",
       "energyType": "草",
       "surugayaUrl": "/product/other/GU584314",
-      "surugayaPrice": 70,
+      "surugayaPrice": 59,
       "surugayaSoldOut": true,
       "raritySlug": "rr"
     },
@@ -177,7 +177,7 @@
       "category": "ポケモン",
       "energyType": "炎",
       "surugayaUrl": "/product/other/GU584315",
-      "surugayaPrice": 60,
+      "surugayaPrice": 39,
       "surugayaSoldOut": true,
       "raritySlug": "rr"
     },
@@ -672,7 +672,7 @@
       "category": "ポケモン",
       "energyType": "",
       "surugayaUrl": "/product/other/GU584321",
-      "surugayaPrice": 780,
+      "surugayaPrice": 740,
       "surugayaSoldOut": true,
       "raritySlug": "rr",
       "surugayaBuyPrice": 400
@@ -805,7 +805,7 @@
       "category": "サポート",
       "energyType": "",
       "surugayaUrl": "/product/other/GU584351",
-      "surugayaPrice": 37,
+      "surugayaPrice": 50,
       "surugayaSoldOut": true,
       "raritySlug": "u"
     },
@@ -871,7 +871,7 @@
       "category": "エネルギー",
       "energyType": "",
       "surugayaUrl": "/product/other/GU584328",
-      "surugayaPrice": 280,
+      "surugayaPrice": 270,
       "surugayaSoldOut": true,
       "raritySlug": "r"
     },
@@ -882,7 +882,7 @@
       "category": "エネルギー",
       "energyType": "",
       "surugayaUrl": "/product/other/GU584329",
-      "surugayaPrice": 60,
+      "surugayaPrice": 100,
       "surugayaSoldOut": true,
       "raritySlug": "r"
     },
@@ -1028,9 +1028,10 @@
       "category": "ポケモン",
       "energyType": "草",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU584284",
-      "surugayaPrice": 290,
+      "surugayaPrice": 480,
       "surugayaSoldOut": false,
-      "raritySlug": "sr"
+      "raritySlug": "sr",
+      "surugayaBuyPrice": null
     },
     {
       "name": "エンニュートex",
@@ -1156,9 +1157,9 @@
       "rarity": "SR",
       "category": "グッズ",
       "energyType": "",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU584295",
-      "surugayaPrice": 280,
-      "surugayaSoldOut": false,
+      "surugayaUrl": "/product/other/GU584295",
+      "surugayaPrice": 92,
+      "surugayaSoldOut": true,
       "raritySlug": "sr"
     },
     {
@@ -1192,7 +1193,7 @@
       "category": "サポート",
       "energyType": "",
       "surugayaUrl": "/product/other/GU584298",
-      "surugayaPrice": 1370,
+      "surugayaPrice": 1340,
       "surugayaSoldOut": true,
       "raritySlug": "sr",
       "surugayaBuyPrice": 1100
