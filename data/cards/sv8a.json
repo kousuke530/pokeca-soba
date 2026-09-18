@@ -2,7 +2,7 @@
   "pack": "ハイクラスパック 「テラスタルフェスex」",
   "packSlug": "sv8a",
   "source": "surugaya",
-  "collectedAt": "2026-09-17T03:05:53.151Z",
+  "collectedAt": "2026-09-18T00:12:18.568Z",
   "count": 478,
   "cards": [
     {
@@ -12,7 +12,7 @@
       "category": "ポケモン",
       "energyType": "草",
       "surugayaUrl": "/product/other/GN764915",
-      "surugayaPrice": 41,
+      "surugayaPrice": 48,
       "surugayaSoldOut": true,
       "raritySlug": "n"
     },
@@ -1058,7 +1058,7 @@
       "category": "ポケモン",
       "energyType": "水",
       "surugayaUrl": "/product/other/GN764616",
-      "surugayaPrice": 250,
+      "surugayaPrice": 230,
       "surugayaSoldOut": true,
       "raritySlug": "mb"
     },
@@ -1426,7 +1426,7 @@
       "category": "ポケモン",
       "energyType": "雷",
       "surugayaUrl": "/product/other/GN764625",
-      "surugayaPrice": 330,
+      "surugayaPrice": 310,
       "surugayaSoldOut": true,
       "raritySlug": "mb",
       "surugayaBuyPrice": null
@@ -2087,7 +2087,7 @@
       "category": "ポケモン",
       "energyType": "超",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN764643",
-      "surugayaPrice": 280,
+      "surugayaPrice": 180,
       "surugayaSoldOut": false,
       "raritySlug": "mb"
     },
@@ -2429,7 +2429,7 @@
       "category": "ポケモン",
       "energyType": "闘",
       "surugayaUrl": "/product/other/GN764653",
-      "surugayaPrice": 290,
+      "surugayaPrice": 280,
       "surugayaSoldOut": true,
       "raritySlug": "mb"
     },
@@ -3106,10 +3106,11 @@
       "rarity": "マスターボール",
       "category": "ポケモン",
       "energyType": "鋼",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN764671",
-      "surugayaPrice": 280,
-      "surugayaSoldOut": false,
-      "raritySlug": "mb"
+      "surugayaUrl": "/product/other/GN892304",
+      "surugayaPrice": 328,
+      "surugayaSoldOut": true,
+      "raritySlug": "mb",
+      "surugayaBuyPrice": null
     },
     {
       "name": "ブリジュラス",
@@ -3250,7 +3251,7 @@
       "category": "ポケモン",
       "energyType": "ドラゴン",
       "surugayaUrl": "/product/other/GN764675",
-      "surugayaPrice": 410,
+      "surugayaPrice": 400,
       "surugayaSoldOut": true,
       "raritySlug": "mb",
       "surugayaBuyPrice": 300
@@ -3410,7 +3411,7 @@
       "category": "ポケモン",
       "energyType": "ドラゴン",
       "surugayaUrl": "/product/other/GN764823",
-      "surugayaPrice": 100,
+      "surugayaPrice": 90,
       "surugayaSoldOut": true,
       "raritySlug": "mirror"
     },
@@ -3466,9 +3467,9 @@
       "rarity": "RR",
       "category": "ポケモン",
       "energyType": "",
-      "surugayaUrl": "/product/other/GN764585",
-      "surugayaPrice": 150,
-      "surugayaSoldOut": true,
+      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN764585",
+      "surugayaPrice": 280,
+      "surugayaSoldOut": false,
       "raritySlug": "rr"
     },
     {
@@ -4431,7 +4432,7 @@
       "category": "サポート",
       "energyType": "",
       "surugayaUrl": "/product/other/GN764860",
-      "surugayaPrice": 170,
+      "surugayaPrice": 180,
       "surugayaSoldOut": true,
       "raritySlug": "mirror"
     },
@@ -5131,7 +5132,7 @@
       "surugayaPrice": 45400,
       "surugayaSoldOut": false,
       "raritySlug": "sar",
-      "surugayaBuyPrice": 40000
+      "surugayaBuyPrice": 38000
     },
     {
       "name": "トドロクツキex",

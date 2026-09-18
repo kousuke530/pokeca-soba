@@ -2,7 +2,7 @@
   "pack": "拡張パック「ニンジャスピナー」",
   "packSlug": "m4",
   "source": "surugaya",
-  "collectedAt": "2026-09-17T03:11:40.901Z",
+  "collectedAt": "2026-09-18T00:18:31.858Z",
   "count": 119,
   "cards": [
     {
@@ -1087,10 +1087,10 @@
       "category": "ポケモン",
       "energyType": "水",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU634049",
-      "surugayaPrice": 1680,
+      "surugayaPrice": 1480,
       "surugayaSoldOut": false,
       "raritySlug": "sr",
-      "surugayaBuyPrice": 800
+      "surugayaBuyPrice": 600
     },
     {
       "name": "メガフラエッテex",
@@ -1260,9 +1260,9 @@
       "rarity": "SR",
       "category": "スタジアム",
       "energyType": "",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU634064",
-      "surugayaPrice": 280,
-      "surugayaSoldOut": false,
+      "surugayaUrl": "/product/other/GU634064",
+      "surugayaPrice": 127,
+      "surugayaSoldOut": true,
       "raritySlug": "sr"
     },
     {

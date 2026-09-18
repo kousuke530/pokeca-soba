@@ -2,7 +2,7 @@
   "pack": "拡張パック「超電ブレイカー」",
   "packSlug": "sv8",
   "source": "surugaya",
-  "collectedAt": "2026-09-17T03:05:04.690Z",
+  "collectedAt": "2026-09-18T00:11:29.745Z",
   "count": 138,
   "cards": [
     {
@@ -1287,10 +1287,9 @@
       "category": "ポケモン",
       "energyType": "鋼",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN709443",
-      "surugayaPrice": 300,
+      "surugayaPrice": 280,
       "surugayaSoldOut": false,
-      "raritySlug": "ar",
-      "surugayaBuyPrice": null
+      "raritySlug": "ar"
     },
     {
       "name": "ナマケロ",
@@ -1359,10 +1358,10 @@
       "category": "ポケモン",
       "energyType": "雷",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN709426",
-      "surugayaPrice": 8480,
+      "surugayaPrice": 4330,
       "surugayaSoldOut": false,
       "raritySlug": "sr",
-      "surugayaBuyPrice": 4000
+      "surugayaBuyPrice": 3000
     },
     {
       "name": "シロデスナex",
@@ -1419,7 +1418,7 @@
       "category": "サポート",
       "energyType": "",
       "surugayaUrl": "/product/other/GN709431",
-      "surugayaPrice": 1210,
+      "surugayaPrice": 1170,
       "surugayaSoldOut": true,
       "raritySlug": "sr",
       "surugayaBuyPrice": 700
@@ -1479,10 +1478,10 @@
       "category": "ポケモン",
       "energyType": "雷",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN709419",
-      "surugayaPrice": 79800,
+      "surugayaPrice": 69800,
       "surugayaSoldOut": false,
       "raritySlug": "sar",
-      "surugayaBuyPrice": 50000
+      "surugayaBuyPrice": 40000
     },
     {
       "name": "サザンドラex",
