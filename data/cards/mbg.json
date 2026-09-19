@@ -2,7 +2,7 @@
   "pack": "スターターセットMEGA メガゲンガーex",
   "packSlug": "mbg",
   "source": "surugaya",
-  "collectedAt": "2026-09-18T00:15:24.787Z",
+  "collectedAt": "2026-09-19T07:57:17.339Z",
   "count": 16,
   "cards": [
     {
@@ -11,8 +11,8 @@
       "rarity": "ノーマル",
       "category": "ポケモン",
       "energyType": "悪",
-      "surugayaUrl": "/product/detail/GU404859?tenpo_cd=410011",
-      "surugayaPrice": 80,
+      "surugayaUrl": "/product/other/GU404859",
+      "surugayaPrice": 60,
       "surugayaSoldOut": true,
       "raritySlug": "n"
     },
@@ -34,9 +34,10 @@
       "category": "ポケモン",
       "energyType": "悪",
       "surugayaUrl": "/product/other/GU404861",
-      "surugayaPrice": 280,
+      "surugayaPrice": 310,
       "surugayaSoldOut": true,
-      "raritySlug": "n"
+      "raritySlug": "n",
+      "surugayaBuyPrice": null
     },
     {
       "name": "ヤミカラス",
@@ -66,8 +67,8 @@
       "rarity": "ノーマル",
       "category": "グッズ",
       "energyType": "",
-      "surugayaUrl": "/product/detail/GU404868?tenpo_cd=200984",
-      "surugayaPrice": 189,
+      "surugayaUrl": "/product/other/GU404868",
+      "surugayaPrice": 150,
       "surugayaSoldOut": true,
       "raritySlug": "n"
     },
@@ -99,7 +100,7 @@
       "rarity": "ノーマル",
       "category": "グッズ",
       "energyType": "",
-      "surugayaUrl": "/product/detail/GU404871?tenpo_cd=410018",
+      "surugayaUrl": "/product/other/GU404871",
       "surugayaPrice": 89,
       "surugayaSoldOut": true,
       "raritySlug": "n"
@@ -165,8 +166,8 @@
       "rarity": "ノーマル",
       "category": "サポート",
       "energyType": "",
-      "surugayaUrl": "/product/detail/GU404879?tenpo_cd=200984",
-      "surugayaPrice": 189,
+      "surugayaUrl": "/product/other/GU404879",
+      "surugayaPrice": 80,
       "surugayaSoldOut": true,
       "raritySlug": "n"
     },

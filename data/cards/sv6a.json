@@ -2,7 +2,7 @@
   "pack": "強化拡張パック「ナイトワンダラー」",
   "packSlug": "sv6a",
   "source": "surugaya",
-  "collectedAt": "2026-09-18T00:10:41.707Z",
+  "collectedAt": "2026-09-19T07:52:52.172Z",
   "count": 94,
   "cards": [
     {
@@ -617,7 +617,7 @@
       "category": "グッズ",
       "energyType": "",
       "surugayaUrl": "/product/other/GN544638",
-      "surugayaPrice": 120,
+      "surugayaPrice": 80,
       "surugayaSoldOut": true,
       "raritySlug": "u"
     },
@@ -650,7 +650,7 @@
       "category": "サポート",
       "energyType": "",
       "surugayaUrl": "/product/other/GN544641",
-      "surugayaPrice": 99,
+      "surugayaPrice": 90,
       "surugayaSoldOut": true,
       "raritySlug": "u"
     },
@@ -716,7 +716,7 @@
       "category": "ポケモン",
       "energyType": "草",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN544647",
-      "surugayaPrice": 280,
+      "surugayaPrice": 250,
       "surugayaSoldOut": false,
       "raritySlug": "ar"
     },
@@ -727,7 +727,7 @@
       "category": "ポケモン",
       "energyType": "炎",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN544648",
-      "surugayaPrice": 350,
+      "surugayaPrice": 580,
       "surugayaSoldOut": false,
       "raritySlug": "ar",
       "surugayaBuyPrice": null
@@ -763,7 +763,7 @@
       "category": "ポケモン",
       "energyType": "超",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN544651",
-      "surugayaPrice": 330,
+      "surugayaPrice": 580,
       "surugayaSoldOut": false,
       "raritySlug": "ar",
       "surugayaBuyPrice": null
@@ -775,7 +775,7 @@
       "category": "ポケモン",
       "energyType": "超",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN544652",
-      "surugayaPrice": 330,
+      "surugayaPrice": 580,
       "surugayaSoldOut": false,
       "raritySlug": "ar",
       "surugayaBuyPrice": null
@@ -847,19 +847,19 @@
       "category": "ポケモン",
       "energyType": "",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN544658",
-      "surugayaPrice": 280,
+      "surugayaPrice": 250,
       "surugayaSoldOut": false,
       "raritySlug": "ar"
     },
     {
-      "name": "キングドラex",
+      "name": "【ランクB】キングドラex",
       "cardNumber": "077/064",
       "rarity": "SR",
       "category": "ポケモン",
       "energyType": "水",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN544659",
-      "surugayaPrice": 480,
-      "surugayaSoldOut": false,
+      "surugayaUrl": "/product/detail/GB544659?tenpo_cd=201206",
+      "surugayaPrice": 320,
+      "surugayaSoldOut": true,
       "raritySlug": "sr",
       "surugayaBuyPrice": null
     },
@@ -1055,14 +1055,14 @@
       "surugayaBuyPrice": 300
     },
     {
-      "name": "力の砂時計（Bランク）",
+      "name": "力の砂時計",
       "cardNumber": "094/064",
       "rarity": "UR",
       "category": "ポケモンのどうぐ",
       "energyType": "",
-      "surugayaUrl": "/product/detail/GN544676?branch_number=0077",
+      "surugayaUrl": "/product/other/GN544676",
       "surugayaPrice": 570,
-      "surugayaSoldOut": false,
+      "surugayaSoldOut": true,
       "raritySlug": "ur",
       "surugayaBuyPrice": 450
     }
