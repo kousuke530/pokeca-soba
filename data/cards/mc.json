@@ -2,7 +2,7 @@
   "pack": "スタートデッキ100 バトルコレクション",
   "packSlug": "mc",
   "source": "surugaya",
-  "collectedAt": "2026-09-19T07:59:43.784Z",
+  "collectedAt": "2026-09-20T02:41:06.174Z",
   "count": 621,
   "cards": [
     {
@@ -2078,7 +2078,7 @@
       "rarity": "ノーマル",
       "category": "ポケモン",
       "energyType": "水",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU542925",
+      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU542996",
       "surugayaPrice": 160,
       "surugayaSoldOut": false,
       "raritySlug": "n"
@@ -4074,10 +4074,11 @@
       "rarity": "ノーマル",
       "category": "ポケモン",
       "energyType": "悪",
-      "surugayaUrl": "/product/other/GU542945",
-      "surugayaPrice": 240,
+      "surugayaUrl": "/product/detail/GU542945?tenpo_cd=410011",
+      "surugayaPrice": 980,
       "surugayaSoldOut": true,
-      "raritySlug": "n"
+      "raritySlug": "n",
+      "surugayaBuyPrice": null
     },
     {
       "name": "ロケット団のヤミカラス",
@@ -6750,7 +6751,7 @@
       "surugayaPrice": 19800,
       "surugayaSoldOut": false,
       "raritySlug": "n",
-      "surugayaBuyPrice": 7000
+      "surugayaBuyPrice": 5000
     },
     {
       "name": "アオキのムクホーク",

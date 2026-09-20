@@ -2,7 +2,7 @@
   "pack": "バトルマスターデッキ テラスタル リザードンex",
   "packSlug": "svjl",
   "source": "surugaya",
-  "collectedAt": "2026-09-19T07:52:40.783Z",
+  "collectedAt": "2026-09-20T02:34:18.005Z",
   "count": 21,
   "cards": [
     {
@@ -68,9 +68,10 @@
       "category": "ポケモン",
       "energyType": "悪",
       "surugayaUrl": "/product/other/GN511207",
-      "surugayaPrice": 90,
+      "surugayaPrice": 570,
       "surugayaSoldOut": true,
-      "raritySlug": "n"
+      "raritySlug": "n",
+      "surugayaBuyPrice": null
     },
     {
       "name": "ビッパ",

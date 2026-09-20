@@ -2,7 +2,7 @@
   "pack": "ハイクラスパック 「MEGAドリームex」",
   "packSlug": "m2a",
   "source": "surugaya",
-  "collectedAt": "2026-09-19T07:58:33.330Z",
+  "collectedAt": "2026-09-20T02:39:55.816Z",
   "count": 366,
   "cards": [
     {
@@ -116,13 +116,13 @@
       "raritySlug": "n"
     },
     {
-      "name": "アゲハント(エネルギーミラー)",
+      "name": "アゲハント(ボールミラー)",
       "cardNumber": "006/193",
       "rarity": "ミラー",
       "category": "ポケモン",
       "energyType": "草",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU519553",
-      "surugayaPrice": 160,
+      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU519671",
+      "surugayaPrice": 180,
       "surugayaSoldOut": false,
       "raritySlug": "mirror"
     },
@@ -314,14 +314,14 @@
       "raritySlug": "n"
     },
     {
-      "name": "ロケット団のタマンチュラ(ロケット団ミラー)",
+      "name": "ロケット団のタマンチュラ(エネルギーミラー)",
       "cardNumber": "015/193",
       "rarity": "ミラー",
       "category": "ポケモン",
       "energyType": "草",
-      "surugayaUrl": "/product/other/GU519772",
-      "surugayaPrice": 59,
-      "surugayaSoldOut": true,
+      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU519562",
+      "surugayaPrice": 180,
+      "surugayaSoldOut": false,
       "raritySlug": "mirror"
     },
     {
@@ -644,12 +644,12 @@
       "raritySlug": "n"
     },
     {
-      "name": "コダック(エネルギーミラー)",
+      "name": "コダック(ボールミラー)",
       "cardNumber": "032/193",
       "rarity": "ミラー",
       "category": "ポケモン",
       "energyType": "水",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU519575",
+      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU519691",
       "surugayaPrice": 280,
       "surugayaSoldOut": false,
       "raritySlug": "mirror"
@@ -744,14 +744,14 @@
       "raritySlug": "n"
     },
     {
-      "name": "Nのバニプッチ(ボールミラー)",
+      "name": "Nのバニプッチ(エネルギーミラー)",
       "cardNumber": "037/193",
       "rarity": "ミラー",
       "category": "ポケモン",
       "energyType": "水",
-      "surugayaUrl": "/product/other/GU519694",
-      "surugayaPrice": 100,
-      "surugayaSoldOut": true,
+      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU519579",
+      "surugayaPrice": 180,
+      "surugayaSoldOut": false,
       "raritySlug": "mirror"
     },
     {
@@ -1626,12 +1626,12 @@
       "raritySlug": "n"
     },
     {
-      "name": "マシマシラ(ボールミラー)",
+      "name": "マシマシラ(エネルギーミラー)",
       "cardNumber": "081/193",
       "rarity": "ミラー",
       "category": "ポケモン",
       "energyType": "超",
-      "surugayaUrl": "/product/other/GU519727",
+      "surugayaUrl": "/product/other/GU519615",
       "surugayaPrice": 180,
       "surugayaSoldOut": true,
       "raritySlug": "mirror"
@@ -2517,12 +2517,12 @@
       "raritySlug": "n"
     },
     {
-      "name": "レックウザ(エネルギーミラー)",
+      "name": "レックウザ(ボールミラー)",
       "cardNumber": "127/193",
       "rarity": "ミラー",
       "category": "ポケモン",
       "energyType": "ドラゴン",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU519650",
+      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU519755",
       "surugayaPrice": 580,
       "surugayaSoldOut": false,
       "raritySlug": "mirror",
@@ -2838,13 +2838,13 @@
       "raritySlug": "n"
     },
     {
-      "name": "ホップのバイウールー(ボールミラー)",
+      "name": "ホップのバイウールー(エネルギーミラー)",
       "cardNumber": "142/193",
       "rarity": "ミラー",
       "category": "ポケモン",
       "energyType": "",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU519769",
-      "surugayaPrice": 160,
+      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU519664",
+      "surugayaPrice": 180,
       "surugayaSoldOut": false,
       "raritySlug": "mirror"
     },
@@ -4025,7 +4025,7 @@
       "category": "サポート",
       "energyType": "",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU519480",
-      "surugayaPrice": 1190,
+      "surugayaPrice": 1980,
       "surugayaSoldOut": false,
       "raritySlug": "sar",
       "surugayaBuyPrice": 800
@@ -4064,7 +4064,7 @@
       "surugayaPrice": 29800,
       "surugayaSoldOut": false,
       "raritySlug": "mur",
-      "surugayaBuyPrice": 15000
+      "surugayaBuyPrice": 12000
     }
   ]
 }

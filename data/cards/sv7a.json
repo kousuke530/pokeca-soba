@@ -2,7 +2,7 @@
   "pack": "強化拡張パック「楽園ドラゴーナ」",
   "packSlug": "sv7a",
   "source": "surugaya",
-  "collectedAt": "2026-09-19T07:53:25.911Z",
+  "collectedAt": "2026-09-20T02:34:59.187Z",
   "count": 92,
   "cards": [
     {
@@ -764,9 +764,9 @@
       "rarity": "AR",
       "category": "ポケモン",
       "energyType": "超",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN660827",
-      "surugayaPrice": 1580,
-      "surugayaSoldOut": false,
+      "surugayaUrl": "/product/other/GN660827",
+      "surugayaPrice": 1040,
+      "surugayaSoldOut": true,
       "raritySlug": "ar",
       "surugayaBuyPrice": 700
     },
@@ -944,7 +944,7 @@
       "surugayaPrice": 2980,
       "surugayaSoldOut": false,
       "raritySlug": "sr",
-      "surugayaBuyPrice": 1300
+      "surugayaBuyPrice": 1200
     },
     {
       "name": "ラティアスex",
