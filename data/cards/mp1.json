@@ -2,7 +2,7 @@
   "pack": "スタートデッキ100 バトルコレクション コロちゃおVer.",
   "packSlug": "mp1",
   "source": "surugaya",
-  "collectedAt": "2026-09-20T02:41:09.545Z",
+  "collectedAt": "2026-09-21T03:03:43.283Z",
   "count": 19,
   "cards": [
     {
@@ -44,11 +44,10 @@
       "rarity": "ノーマル",
       "category": "ポケモン",
       "energyType": "雷",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU548953",
-      "surugayaPrice": 380,
-      "surugayaSoldOut": false,
-      "raritySlug": "n",
-      "surugayaBuyPrice": null
+      "surugayaUrl": "/product/other/GU548953",
+      "surugayaPrice": 230,
+      "surugayaSoldOut": true,
+      "raritySlug": "n"
     },
     {
       "name": "エモンガ",
@@ -181,7 +180,7 @@
       "surugayaPrice": 670,
       "surugayaSoldOut": true,
       "raritySlug": "n",
-      "surugayaBuyPrice": 600
+      "surugayaBuyPrice": 500
     },
     {
       "name": "ウエートレス",
