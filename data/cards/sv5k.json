@@ -2,7 +2,7 @@
   "pack": "拡張パック「ワイルドフォース」",
   "packSlug": "sv5k",
   "source": "surugaya",
-  "collectedAt": "2026-09-21T02:56:14.884Z",
+  "collectedAt": "2026-09-22T04:26:09.407Z",
   "count": 99,
   "cards": [
     {
@@ -518,7 +518,7 @@
       "category": "ポケモン",
       "energyType": "悪",
       "surugayaUrl": "/product/other/GN369756",
-      "surugayaPrice": 300,
+      "surugayaPrice": 420,
       "surugayaSoldOut": true,
       "raritySlug": "rr",
       "surugayaBuyPrice": null
@@ -1093,9 +1093,9 @@
       "rarity": "UR",
       "category": "ポケモン",
       "energyType": "炎",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN369807",
-      "surugayaPrice": 880,
-      "surugayaSoldOut": false,
+      "surugayaUrl": "/product/other/GN369807",
+      "surugayaPrice": 535,
+      "surugayaSoldOut": true,
       "raritySlug": "ur",
       "surugayaBuyPrice": 400
     },

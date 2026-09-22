@@ -2,8 +2,8 @@
   "pack": "拡張パック「メガシンフォニア」",
   "packSlug": "m1s",
   "source": "surugaya",
-  "collectedAt": "2026-09-21T03:01:06.376Z",
-  "count": 91,
+  "collectedAt": "2026-09-22T04:30:39.580Z",
+  "count": 92,
   "cards": [
     {
       "name": "モンジャラ",
@@ -909,9 +909,9 @@
       "rarity": "SR",
       "category": "グッズ",
       "energyType": "",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU362631",
-      "surugayaPrice": 180,
-      "surugayaSoldOut": false,
+      "surugayaUrl": "/product/other/GU362631",
+      "surugayaPrice": 160,
+      "surugayaSoldOut": true,
       "raritySlug": "sr"
     },
     {
@@ -983,6 +983,18 @@
       "surugayaSoldOut": false,
       "raritySlug": "sar",
       "surugayaBuyPrice": 2000
+    },
+    {
+      "name": "メガガルーラex",
+      "cardNumber": "089/063",
+      "rarity": "SAR",
+      "category": "ポケモン",
+      "energyType": "",
+      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU362622",
+      "surugayaPrice": 3480,
+      "surugayaSoldOut": false,
+      "raritySlug": "sar",
+      "surugayaBuyPrice": 1500
     },
     {
       "name": "アセロラのいたずら",

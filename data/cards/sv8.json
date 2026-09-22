@@ -2,7 +2,7 @@
   "pack": "拡張パック「超電ブレイカー」",
   "packSlug": "sv8",
   "source": "surugaya",
-  "collectedAt": "2026-09-21T02:57:43.451Z",
+  "collectedAt": "2026-09-22T04:27:31.980Z",
   "count": 138,
   "cards": [
     {
@@ -352,8 +352,8 @@
       "rarity": "R",
       "category": "ポケモン",
       "energyType": "水",
-      "surugayaUrl": "/product/other/GN709459",
-      "surugayaPrice": 60,
+      "surugayaUrl": "/product/detail/GN709459?tenpo_cd=410018",
+      "surugayaPrice": 79,
       "surugayaSoldOut": true,
       "raritySlug": "r"
     },
@@ -387,7 +387,7 @@
       "category": "ポケモン",
       "energyType": "雷",
       "surugayaUrl": "/product/other/GN709476",
-      "surugayaPrice": 40,
+      "surugayaPrice": 46,
       "surugayaSoldOut": true,
       "raritySlug": "u"
     },
@@ -1240,10 +1240,10 @@
       "category": "ポケモン",
       "energyType": "雷",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN709439",
-      "surugayaPrice": 1280,
+      "surugayaPrice": 1080,
       "surugayaSoldOut": false,
       "raritySlug": "ar",
-      "surugayaBuyPrice": 500
+      "surugayaBuyPrice": 400
     },
     {
       "name": "マッギョ",
@@ -1418,7 +1418,7 @@
       "category": "サポート",
       "energyType": "",
       "surugayaUrl": "/product/other/GN709431",
-      "surugayaPrice": 1170,
+      "surugayaPrice": 1280,
       "surugayaSoldOut": true,
       "raritySlug": "sr",
       "surugayaBuyPrice": 700
