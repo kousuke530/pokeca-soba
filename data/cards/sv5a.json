@@ -2,7 +2,7 @@
   "pack": "強化拡張パック「クリムゾンヘイズ」",
   "packSlug": "sv5a",
   "source": "surugaya",
-  "collectedAt": "2026-09-22T04:26:20.121Z",
+  "collectedAt": "2026-09-24T03:03:31.938Z",
   "count": 96,
   "cards": [
     {
@@ -898,9 +898,9 @@
       "rarity": "SR",
       "category": "ポケモン",
       "energyType": "雷",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN446067",
-      "surugayaPrice": 480,
-      "surugayaSoldOut": false,
+      "surugayaUrl": "/product/other/GN446067",
+      "surugayaPrice": 330,
+      "surugayaSoldOut": true,
       "raritySlug": "sr",
       "surugayaBuyPrice": null
     },
@@ -971,9 +971,10 @@
       "category": "サポート",
       "energyType": "",
       "surugayaUrl": "/product/other/GN446073",
-      "surugayaPrice": 230,
+      "surugayaPrice": 300,
       "surugayaSoldOut": true,
-      "raritySlug": "sr"
+      "raritySlug": "sr",
+      "surugayaBuyPrice": null
     },
     {
       "name": "スイレンのお世話",
@@ -994,7 +995,7 @@
       "category": "ポケモン",
       "energyType": "草",
       "surugayaUrl": "/product/other/GN446075",
-      "surugayaPrice": 1140,
+      "surugayaPrice": 930,
       "surugayaSoldOut": true,
       "raritySlug": "sar",
       "surugayaBuyPrice": 800
@@ -1066,7 +1067,7 @@
       "category": "ポケモンのどうぐ",
       "energyType": "",
       "surugayaUrl": "/product/other/GN446081",
-      "surugayaPrice": 450,
+      "surugayaPrice": 527,
       "surugayaSoldOut": true,
       "raritySlug": "ur",
       "surugayaBuyPrice": null

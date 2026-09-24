@@ -2,7 +2,7 @@
   "pack": "拡張パック「黒炎の支配者」",
   "packSlug": "sv3",
   "source": "surugaya",
-  "collectedAt": "2026-09-22T04:24:17.737Z",
+  "collectedAt": "2026-09-24T03:01:24.754Z",
   "count": 175,
   "cards": [
     {
@@ -12,9 +12,10 @@
       "category": "ポケモン",
       "energyType": "炎",
       "surugayaUrl": "/product/other/GN104843",
-      "surugayaPrice": 150,
+      "surugayaPrice": 500,
       "surugayaSoldOut": true,
-      "raritySlug": "n"
+      "raritySlug": "n",
+      "surugayaBuyPrice": null
     },
     {
       "name": "ナゾノクサ",
@@ -1123,7 +1124,7 @@
       "category": "ポケモン",
       "energyType": "悪",
       "surugayaUrl": "/product/other/GN104313",
-      "surugayaPrice": 152,
+      "surugayaPrice": 160,
       "surugayaSoldOut": true,
       "raritySlug": "rr"
     },
@@ -1519,7 +1520,7 @@
       "category": "サポート",
       "energyType": "",
       "surugayaUrl": "/product/other/GN104350",
-      "surugayaPrice": 50,
+      "surugayaPrice": 40,
       "surugayaSoldOut": true,
       "raritySlug": "r"
     },

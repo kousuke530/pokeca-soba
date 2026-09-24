@@ -2,7 +2,7 @@
   "pack": "拡張パック「未来の一閃」",
   "packSlug": "sv4m",
   "source": "surugaya",
-  "collectedAt": "2026-09-22T04:24:59.099Z",
+  "collectedAt": "2026-09-24T03:02:08.788Z",
   "count": 95,
   "cards": [
     {
@@ -771,10 +771,9 @@
       "category": "ポケモン",
       "energyType": "水",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN228591",
-      "surugayaPrice": 380,
+      "surugayaPrice": 280,
       "surugayaSoldOut": false,
-      "raritySlug": "ar",
-      "surugayaBuyPrice": null
+      "raritySlug": "ar"
     },
     {
       "name": "テツノツツミ",
@@ -1030,7 +1029,7 @@
       "category": "サポート",
       "energyType": "",
       "surugayaUrl": "/product/other/GN228613",
-      "surugayaPrice": 880,
+      "surugayaPrice": 800,
       "surugayaSoldOut": true,
       "raritySlug": "sar",
       "surugayaBuyPrice": 700

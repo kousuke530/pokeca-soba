@@ -2,7 +2,7 @@
   "pack": "スターターセットMEGA メガゲンガーex",
   "packSlug": "mbg",
   "source": "surugaya",
-  "collectedAt": "2026-09-23T08:31:03.366Z",
+  "collectedAt": "2026-09-24T03:08:04.629Z",
   "count": 16,
   "cards": [
     {
@@ -68,9 +68,10 @@
       "category": "グッズ",
       "energyType": "",
       "surugayaUrl": "/product/detail/GU404868?tenpo_cd=200984",
-      "surugayaPrice": 189,
+      "surugayaPrice": 500,
       "surugayaSoldOut": true,
-      "raritySlug": "n"
+      "raritySlug": "n",
+      "surugayaBuyPrice": null
     },
     {
       "name": "ハイパーボール",
@@ -79,9 +80,10 @@
       "category": "グッズ",
       "energyType": "",
       "surugayaUrl": "/product/detail/GU404869?tenpo_cd=200984",
-      "surugayaPrice": 100,
+      "surugayaPrice": 500,
       "surugayaSoldOut": true,
-      "raritySlug": "n"
+      "raritySlug": "n",
+      "surugayaBuyPrice": null
     },
     {
       "name": "ふしぎなアメ",
@@ -90,9 +92,10 @@
       "category": "グッズ",
       "energyType": "",
       "surugayaUrl": "/product/detail/GU404870?tenpo_cd=200984",
-      "surugayaPrice": 100,
+      "surugayaPrice": 500,
       "surugayaSoldOut": true,
-      "raritySlug": "n"
+      "raritySlug": "n",
+      "surugayaBuyPrice": null
     },
     {
       "name": "プライムキャッチャー",
