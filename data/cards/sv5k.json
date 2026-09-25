@@ -2,7 +2,7 @@
   "pack": "拡張パック「ワイルドフォース」",
   "packSlug": "sv5k",
   "source": "surugaya",
-  "collectedAt": "2026-09-24T03:03:20.878Z",
+  "collectedAt": "2026-09-25T03:07:44.694Z",
   "count": 99,
   "cards": [
     {
@@ -517,9 +517,9 @@
       "rarity": "RR",
       "category": "ポケモン",
       "energyType": "悪",
-      "surugayaUrl": "/product/other/GN369756",
-      "surugayaPrice": 300,
-      "surugayaSoldOut": true,
+      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN369756",
+      "surugayaPrice": 780,
+      "surugayaSoldOut": false,
       "raritySlug": "rr",
       "surugayaBuyPrice": null
     },
@@ -854,10 +854,9 @@
       "category": "ポケモン",
       "energyType": "闘",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN369786",
-      "surugayaPrice": 380,
+      "surugayaPrice": 280,
       "surugayaSoldOut": false,
-      "raritySlug": "ar",
-      "surugayaBuyPrice": null
+      "raritySlug": "ar"
     },
     {
       "name": "バンバドロ",
@@ -1094,7 +1093,7 @@
       "category": "ポケモン",
       "energyType": "炎",
       "surugayaUrl": "/product/other/GN369807",
-      "surugayaPrice": 510,
+      "surugayaPrice": 380,
       "surugayaSoldOut": true,
       "raritySlug": "ur",
       "surugayaBuyPrice": 400

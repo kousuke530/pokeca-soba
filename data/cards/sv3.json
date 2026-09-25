@@ -2,7 +2,7 @@
   "pack": "拡張パック「黒炎の支配者」",
   "packSlug": "sv3",
   "source": "surugaya",
-  "collectedAt": "2026-09-24T03:01:24.754Z",
+  "collectedAt": "2026-09-25T03:04:12.587Z",
   "count": 175,
   "cards": [
     {
@@ -1123,10 +1123,11 @@
       "rarity": "RR",
       "category": "ポケモン",
       "energyType": "悪",
-      "surugayaUrl": "/product/other/GN104313",
-      "surugayaPrice": 160,
-      "surugayaSoldOut": true,
-      "raritySlug": "rr"
+      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN104313",
+      "surugayaPrice": 380,
+      "surugayaSoldOut": false,
+      "raritySlug": "rr",
+      "surugayaBuyPrice": null
     },
     {
       "name": "パルデア ウパー",
@@ -1157,7 +1158,7 @@
       "category": "ポケモン",
       "energyType": "悪",
       "surugayaUrl": "/product/other/GN104317",
-      "surugayaPrice": 150,
+      "surugayaPrice": 111,
       "surugayaSoldOut": true,
       "raritySlug": "u"
     },
@@ -1655,7 +1656,7 @@
       "category": "ポケモン",
       "energyType": "鋼",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN104363",
-      "surugayaPrice": 580,
+      "surugayaPrice": 480,
       "surugayaSoldOut": false,
       "raritySlug": "ar",
       "surugayaBuyPrice": null
@@ -1678,7 +1679,7 @@
       "category": "ポケモン",
       "energyType": "",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN104365",
-      "surugayaPrice": 480,
+      "surugayaPrice": 380,
       "surugayaSoldOut": false,
       "raritySlug": "ar",
       "surugayaBuyPrice": null
@@ -1933,7 +1934,7 @@
       "surugayaPrice": 19800,
       "surugayaSoldOut": false,
       "raritySlug": "ur",
-      "surugayaBuyPrice": 7000
+      "surugayaBuyPrice": 5000
     },
     {
       "name": "ボウルタウン",

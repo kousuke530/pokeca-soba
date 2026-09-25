@@ -2,7 +2,7 @@
   "pack": "強化拡張パック「レイジングサーフ」",
   "packSlug": "sv3a",
   "source": "surugaya",
-  "collectedAt": "2026-09-24T03:01:34.380Z",
+  "collectedAt": "2026-09-25T03:04:38.009Z",
   "count": 92,
   "cards": [
     {
@@ -385,9 +385,9 @@
       "rarity": "U",
       "category": "ポケモン",
       "energyType": "悪",
-      "surugayaUrl": "/product/other/GN170278",
-      "surugayaPrice": 150,
-      "surugayaSoldOut": true,
+      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN170278",
+      "surugayaPrice": 180,
+      "surugayaSoldOut": false,
       "raritySlug": "u"
     },
     {
@@ -694,10 +694,9 @@
       "category": "ポケモン",
       "energyType": "水",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN170306",
-      "surugayaPrice": 380,
+      "surugayaPrice": 280,
       "surugayaSoldOut": false,
-      "raritySlug": "ar",
-      "surugayaBuyPrice": null
+      "raritySlug": "ar"
     },
     {
       "name": "タマンタ",
@@ -1017,7 +1016,7 @@
       "category": "ポケモン",
       "energyType": "水",
       "surugayaUrl": "/product/other/GN170333",
-      "surugayaPrice": 650,
+      "surugayaPrice": 2180,
       "surugayaSoldOut": true,
       "raritySlug": "ur",
       "surugayaBuyPrice": 1200
@@ -1028,9 +1027,9 @@
       "rarity": "UR",
       "category": "スタジアム",
       "energyType": "",
-      "surugayaUrl": "/product/other/GN170334",
-      "surugayaPrice": 270,
-      "surugayaSoldOut": true,
+      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN170334",
+      "surugayaPrice": 290,
+      "surugayaSoldOut": false,
       "raritySlug": "ur"
     },
     {

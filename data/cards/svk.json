@@ -2,7 +2,7 @@
   "pack": "デッキビルドBOX ステラミラクル",
   "packSlug": "svk",
   "source": "surugaya",
-  "collectedAt": "2026-09-24T03:04:05.213Z",
+  "collectedAt": "2026-09-25T03:09:26.861Z",
   "count": 44,
   "cards": [
     {
@@ -11,10 +11,11 @@
       "rarity": "ノーマル",
       "category": "ポケモン",
       "energyType": "炎",
-      "surugayaUrl": "/product/other/GN596202",
-      "surugayaPrice": 280,
-      "surugayaSoldOut": true,
-      "raritySlug": "n"
+      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN596202",
+      "surugayaPrice": 780,
+      "surugayaSoldOut": false,
+      "raritySlug": "n",
+      "surugayaBuyPrice": 300
     },
     {
       "name": "ネオラントV",
