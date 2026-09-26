@@ -2,7 +2,7 @@
   "pack": "強化拡張パック「レイジングサーフ」",
   "packSlug": "sv3a",
   "source": "surugaya",
-  "collectedAt": "2026-09-25T03:04:38.009Z",
+  "collectedAt": "2026-09-26T08:21:49.453Z",
   "count": 92,
   "cards": [
     {
@@ -528,7 +528,7 @@
       "rarity": "R",
       "category": "ポケモン",
       "energyType": "鋼",
-      "surugayaUrl": "/product/detail/GN170291?tenpo_cd=410018",
+      "surugayaUrl": "/product/other/GN170291",
       "surugayaPrice": 54,
       "surugayaSoldOut": true,
       "raritySlug": "r"
@@ -801,7 +801,7 @@
       "category": "ポケモン",
       "energyType": "鋼",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN170315",
-      "surugayaPrice": 380,
+      "surugayaPrice": 340,
       "surugayaSoldOut": false,
       "raritySlug": "ar",
       "surugayaBuyPrice": null
@@ -825,7 +825,7 @@
       "category": "ポケモン",
       "energyType": "",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN170317",
-      "surugayaPrice": 280,
+      "surugayaPrice": 250,
       "surugayaSoldOut": false,
       "raritySlug": "ar"
     },
@@ -883,11 +883,10 @@
       "rarity": "SR",
       "category": "ポケモン",
       "energyType": "鋼",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN170322",
-      "surugayaPrice": 580,
-      "surugayaSoldOut": false,
-      "raritySlug": "sr",
-      "surugayaBuyPrice": null
+      "surugayaUrl": "/product/other/GN170322",
+      "surugayaPrice": 280,
+      "surugayaSoldOut": true,
+      "raritySlug": "sr"
     },
     {
       "name": "オトシドリex",
