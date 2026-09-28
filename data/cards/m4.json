@@ -2,7 +2,7 @@
   "pack": "拡張パック「ニンジャスピナー」",
   "packSlug": "m4",
   "source": "surugaya",
-  "collectedAt": "2026-09-27T07:24:53.256Z",
+  "collectedAt": "2026-09-28T10:24:44.551Z",
   "count": 119,
   "cards": [
     {
@@ -815,8 +815,8 @@
       "rarity": "U",
       "category": "グッズ",
       "energyType": "",
-      "surugayaUrl": "/product/other/GU634025",
-      "surugayaPrice": 50,
+      "surugayaUrl": "/product/detail/GU634025?tenpo_cd=410050",
+      "surugayaPrice": 80,
       "surugayaSoldOut": true,
       "raritySlug": "u"
     },
@@ -848,7 +848,7 @@
       "rarity": "U",
       "category": "サポート",
       "energyType": "",
-      "surugayaUrl": "/product/other/GU634028",
+      "surugayaUrl": "/product/detail/GU634028?tenpo_cd=410011",
       "surugayaPrice": 50,
       "surugayaSoldOut": true,
       "raritySlug": "u"
@@ -881,7 +881,7 @@
       "rarity": "U",
       "category": "スタジアム",
       "energyType": "",
-      "surugayaUrl": "/product/other/GU634031",
+      "surugayaUrl": "/product/detail/GU634031?tenpo_cd=410011",
       "surugayaPrice": 150,
       "surugayaSoldOut": true,
       "raritySlug": "u"
@@ -893,7 +893,7 @@
       "category": "エネルギー",
       "energyType": "",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU634032",
-      "surugayaPrice": 180,
+      "surugayaPrice": 160,
       "surugayaSoldOut": false,
       "raritySlug": "r"
     },
@@ -904,7 +904,7 @@
       "category": "エネルギー",
       "energyType": "",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU634033",
-      "surugayaPrice": 180,
+      "surugayaPrice": 160,
       "surugayaSoldOut": false,
       "raritySlug": "r"
     },
@@ -915,7 +915,7 @@
       "category": "エネルギー",
       "energyType": "",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU634034",
-      "surugayaPrice": 180,
+      "surugayaPrice": 160,
       "surugayaSoldOut": false,
       "raritySlug": "r"
     },
@@ -1227,10 +1227,10 @@
       "category": "サポート",
       "energyType": "",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU634061",
-      "surugayaPrice": 780,
+      "surugayaPrice": 580,
       "surugayaSoldOut": false,
       "raritySlug": "sr",
-      "surugayaBuyPrice": 300
+      "surugayaBuyPrice": null
     },
     {
       "name": "マチエール",

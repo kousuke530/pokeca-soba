@@ -2,7 +2,7 @@
   "pack": "拡張パック「未来の一閃」",
   "packSlug": "sv4m",
   "source": "surugaya",
-  "collectedAt": "2026-09-27T07:16:11.160Z",
+  "collectedAt": "2026-09-28T10:15:35.048Z",
   "count": 95,
   "cards": [
     {
@@ -77,8 +77,8 @@
       "rarity": "C",
       "category": "ポケモン",
       "energyType": "草",
-      "surugayaUrl": "/product/other/GN228528",
-      "surugayaPrice": 60,
+      "surugayaUrl": "/product/detail/GN228528?tenpo_cd=400521",
+      "surugayaPrice": 180,
       "surugayaSoldOut": true,
       "raritySlug": "c"
     },
@@ -418,9 +418,9 @@
       "rarity": "RR",
       "category": "ポケモン",
       "energyType": "超",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN228559",
-      "surugayaPrice": 160,
-      "surugayaSoldOut": false,
+      "surugayaUrl": "/product/other/GN228559",
+      "surugayaPrice": 60,
+      "surugayaSoldOut": true,
       "raritySlug": "rr"
     },
     {
@@ -550,7 +550,7 @@
       "rarity": "R",
       "category": "ポケモン",
       "energyType": "",
-      "surugayaUrl": "/product/other/GN228571",
+      "surugayaUrl": "/product/detail/GN228571?tenpo_cd=410018",
       "surugayaPrice": 35,
       "surugayaSoldOut": true,
       "raritySlug": "r"
@@ -627,8 +627,8 @@
       "rarity": "RR",
       "category": "ポケモン",
       "energyType": "",
-      "surugayaUrl": "/product/other/GN228578",
-      "surugayaPrice": 60,
+      "surugayaUrl": "/product/detail/GN228578?tenpo_cd=410011",
+      "surugayaPrice": 280,
       "surugayaSoldOut": true,
       "raritySlug": "rr"
     },
@@ -933,7 +933,7 @@
       "category": "ポケモン",
       "energyType": "",
       "surugayaUrl": "/product/other/GN228605",
-      "surugayaPrice": 640,
+      "surugayaPrice": 540,
       "surugayaSoldOut": true,
       "raritySlug": "sr",
       "surugayaBuyPrice": 500
@@ -1041,7 +1041,7 @@
       "category": "ポケモン",
       "energyType": "超",
       "surugayaUrl": "/product/other/GN228614",
-      "surugayaPrice": 600,
+      "surugayaPrice": 670,
       "surugayaSoldOut": true,
       "raritySlug": "ur",
       "surugayaBuyPrice": null

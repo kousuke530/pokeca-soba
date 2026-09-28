@@ -2,7 +2,7 @@
   "pack": "拡張パック「アビスアイ」",
   "packSlug": "m5",
   "source": "surugaya",
-  "collectedAt": "2026-09-27T07:25:04.795Z",
+  "collectedAt": "2026-09-28T10:24:55.962Z",
   "count": 117,
   "cards": [
     {
@@ -374,8 +374,8 @@
       "rarity": "C",
       "category": "ポケモン",
       "energyType": "超",
-      "surugayaUrl": "/product/other/GU730332",
-      "surugayaPrice": 60,
+      "surugayaUrl": "/product/detail/GU730332?tenpo_cd=410011",
+      "surugayaPrice": 80,
       "surugayaSoldOut": true,
       "raritySlug": "c"
     },
@@ -474,7 +474,7 @@
       "category": "ポケモン",
       "energyType": "闘",
       "surugayaUrl": "/product/other/GU730336",
-      "surugayaPrice": 60,
+      "surugayaPrice": 80,
       "surugayaSoldOut": true,
       "raritySlug": "c"
     },
@@ -1135,9 +1135,10 @@
       "category": "グッズ",
       "energyType": "",
       "surugayaUrl": "/product/other/GU730250",
-      "surugayaPrice": 200,
+      "surugayaPrice": 330,
       "surugayaSoldOut": true,
-      "raritySlug": "sr"
+      "raritySlug": "sr",
+      "surugayaBuyPrice": null
     },
     {
       "name": "クラッシュハンマー",
