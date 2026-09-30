@@ -2,7 +2,7 @@
   "pack": "拡張パック「黒炎の支配者」",
   "packSlug": "sv3",
   "source": "surugaya",
-  "collectedAt": "2026-09-29T00:09:44.751Z",
+  "collectedAt": "2026-09-30T05:29:37.577Z",
   "count": 175,
   "cards": [
     {
@@ -265,7 +265,7 @@
       "rarity": "ノーマル",
       "category": "グッズ",
       "energyType": "",
-      "surugayaUrl": "/product/other/GN104855",
+      "surugayaUrl": "/product/detail/GN104855?tenpo_cd=410011",
       "surugayaPrice": 80,
       "surugayaSoldOut": true,
       "raritySlug": "n"
@@ -353,8 +353,8 @@
       "rarity": "ノーマル",
       "category": "グッズ",
       "energyType": "",
-      "surugayaUrl": "/product/other/GN104859",
-      "surugayaPrice": 60,
+      "surugayaUrl": "/product/detail/GN104859?tenpo_cd=400521",
+      "surugayaPrice": 180,
       "surugayaSoldOut": true,
       "raritySlug": "n"
     },
@@ -419,7 +419,7 @@
       "rarity": "ノーマル",
       "category": "グッズ",
       "energyType": "",
-      "surugayaUrl": "/product/other/GN104862",
+      "surugayaUrl": "/product/detail/GN104862?tenpo_cd=410011",
       "surugayaPrice": 80,
       "surugayaSoldOut": true,
       "raritySlug": "n"
@@ -431,7 +431,7 @@
       "category": "ポケモン",
       "energyType": "炎",
       "surugayaUrl": "/product/other/GN104267",
-      "surugayaPrice": 40,
+      "surugayaPrice": 59,
       "surugayaSoldOut": true,
       "raritySlug": "rr"
     },
@@ -1191,7 +1191,7 @@
       "category": "ポケモン",
       "energyType": "悪",
       "surugayaUrl": "/product/other/GN104320",
-      "surugayaPrice": 60,
+      "surugayaPrice": 65,
       "surugayaSoldOut": true,
       "raritySlug": "rr"
     },
@@ -1862,7 +1862,7 @@
       "surugayaPrice": 880,
       "surugayaSoldOut": false,
       "raritySlug": "sar",
-      "surugayaBuyPrice": 400
+      "surugayaBuyPrice": null
     },
     {
       "name": "リザードンex",
@@ -1910,7 +1910,7 @@
       "surugayaPrice": 980,
       "surugayaSoldOut": false,
       "raritySlug": "sar",
-      "surugayaBuyPrice": 400
+      "surugayaBuyPrice": null
     },
     {
       "name": "ポピー",
@@ -1922,7 +1922,7 @@
       "surugayaPrice": 980,
       "surugayaSoldOut": false,
       "raritySlug": "sar",
-      "surugayaBuyPrice": 400
+      "surugayaBuyPrice": null
     },
     {
       "name": "リザードンex",
@@ -1946,7 +1946,7 @@
       "surugayaPrice": 980,
       "surugayaSoldOut": false,
       "raritySlug": "ur",
-      "surugayaBuyPrice": 400
+      "surugayaBuyPrice": null
     },
     {
       "name": "基本ほのおエネルギー",

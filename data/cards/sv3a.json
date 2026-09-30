@@ -2,7 +2,7 @@
   "pack": "強化拡張パック「レイジングサーフ」",
   "packSlug": "sv3a",
   "source": "surugaya",
-  "collectedAt": "2026-09-29T00:09:55.022Z",
+  "collectedAt": "2026-09-30T05:29:48.652Z",
   "count": 92,
   "cards": [
     {
@@ -528,7 +528,7 @@
       "rarity": "R",
       "category": "ポケモン",
       "energyType": "鋼",
-      "surugayaUrl": "/product/other/GN170291",
+      "surugayaUrl": "/product/detail/GN170291?tenpo_cd=410018",
       "surugayaPrice": 54,
       "surugayaSoldOut": true,
       "raritySlug": "r"
@@ -584,7 +584,7 @@
       "category": "グッズ",
       "energyType": "",
       "surugayaUrl": "/product/other/GN170296",
-      "surugayaPrice": 61,
+      "surugayaPrice": 59,
       "surugayaSoldOut": true,
       "raritySlug": "u"
     },
@@ -708,7 +708,7 @@
       "surugayaPrice": 980,
       "surugayaSoldOut": false,
       "raritySlug": "ar",
-      "surugayaBuyPrice": 400
+      "surugayaBuyPrice": null
     },
     {
       "name": "プラスル",
@@ -946,7 +946,7 @@
       "surugayaPrice": 1080,
       "surugayaSoldOut": false,
       "raritySlug": "sr",
-      "surugayaBuyPrice": 450
+      "surugayaBuyPrice": null
     },
     {
       "name": "ガブリアスex",
@@ -1041,7 +1041,7 @@
       "surugayaPrice": 780,
       "surugayaSoldOut": false,
       "raritySlug": "ur",
-      "surugayaBuyPrice": 300
+      "surugayaBuyPrice": null
     }
   ]
 }

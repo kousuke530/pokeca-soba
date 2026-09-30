@@ -2,7 +2,7 @@
   "pack": "拡張パック「アビスアイ」",
   "packSlug": "m5",
   "source": "surugaya",
-  "collectedAt": "2026-09-29T00:19:36.195Z",
+  "collectedAt": "2026-09-30T05:39:01.601Z",
   "count": 117,
   "cards": [
     {
@@ -374,8 +374,8 @@
       "rarity": "C",
       "category": "ポケモン",
       "energyType": "超",
-      "surugayaUrl": "/product/other/GU730332",
-      "surugayaPrice": 60,
+      "surugayaUrl": "/product/detail/GU730332?tenpo_cd=410011",
+      "surugayaPrice": 80,
       "surugayaSoldOut": true,
       "raritySlug": "c"
     },
@@ -474,7 +474,7 @@
       "category": "ポケモン",
       "energyType": "闘",
       "surugayaUrl": "/product/other/GU730336",
-      "surugayaPrice": 60,
+      "surugayaPrice": 80,
       "surugayaSoldOut": true,
       "raritySlug": "c"
     },
@@ -1091,7 +1091,7 @@
       "surugayaPrice": 980,
       "surugayaSoldOut": false,
       "raritySlug": "sr",
-      "surugayaBuyPrice": 400
+      "surugayaBuyPrice": null
     },
     {
       "name": "モルペコex",
@@ -1134,11 +1134,10 @@
       "rarity": "SR",
       "category": "グッズ",
       "energyType": "",
-      "surugayaUrl": "/product/other/GU730250",
-      "surugayaPrice": 330,
-      "surugayaSoldOut": true,
-      "raritySlug": "sr",
-      "surugayaBuyPrice": null
+      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU730250",
+      "surugayaPrice": 280,
+      "surugayaSoldOut": false,
+      "raritySlug": "sr"
     },
     {
       "name": "クラッシュハンマー",

@@ -2,7 +2,7 @@
   "pack": "強化拡張パック「楽園ドラゴーナ」",
   "packSlug": "sv7a",
   "source": "surugaya",
-  "collectedAt": "2026-09-29T00:12:54.844Z",
+  "collectedAt": "2026-09-30T05:32:44.037Z",
   "count": 92,
   "cards": [
     {
@@ -122,7 +122,7 @@
       "category": "ポケモン",
       "energyType": "水",
       "surugayaUrl": "/product/other/GN660837",
-      "surugayaPrice": 70,
+      "surugayaPrice": 80,
       "surugayaSoldOut": true,
       "raritySlug": "rr"
     },
@@ -993,7 +993,7 @@
       "surugayaPrice": 780,
       "surugayaSoldOut": false,
       "raritySlug": "sar",
-      "surugayaBuyPrice": 300
+      "surugayaBuyPrice": null
     },
     {
       "name": "ルチアのアピール",
@@ -1017,7 +1017,7 @@
       "surugayaPrice": 780,
       "surugayaSoldOut": false,
       "raritySlug": "ur",
-      "surugayaBuyPrice": 350
+      "surugayaBuyPrice": null
     },
     {
       "name": "カウンターゲイン",
@@ -1029,7 +1029,7 @@
       "surugayaPrice": 880,
       "surugayaSoldOut": false,
       "raritySlug": "ur",
-      "surugayaBuyPrice": 300
+      "surugayaBuyPrice": null
     },
     {
       "name": "ジェットエネルギー",
@@ -1041,7 +1041,7 @@
       "surugayaPrice": 780,
       "surugayaSoldOut": false,
       "raritySlug": "ur",
-      "surugayaBuyPrice": 300
+      "surugayaBuyPrice": null
     }
   ]
 }

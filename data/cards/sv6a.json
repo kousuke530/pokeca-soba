@@ -2,7 +2,7 @@
   "pack": "強化拡張パック「ナイトワンダラー」",
   "packSlug": "sv6a",
   "source": "surugaya",
-  "collectedAt": "2026-09-29T00:12:22.526Z",
+  "collectedAt": "2026-09-30T05:32:12.392Z",
   "count": 94,
   "cards": [
     {
@@ -617,7 +617,7 @@
       "category": "グッズ",
       "energyType": "",
       "surugayaUrl": "/product/other/GN544638",
-      "surugayaPrice": 80,
+      "surugayaPrice": 120,
       "surugayaSoldOut": true,
       "raritySlug": "u"
     },
@@ -650,7 +650,7 @@
       "category": "サポート",
       "energyType": "",
       "surugayaUrl": "/product/other/GN544641",
-      "surugayaPrice": 90,
+      "surugayaPrice": 99,
       "surugayaSoldOut": true,
       "raritySlug": "u"
     },
@@ -908,7 +908,7 @@
       "surugayaPrice": 980,
       "surugayaSoldOut": false,
       "raritySlug": "sr",
-      "surugayaBuyPrice": 400
+      "surugayaBuyPrice": null
     },
     {
       "name": "モモワロウex",
@@ -932,7 +932,7 @@
       "surugayaPrice": 980,
       "surugayaSoldOut": false,
       "raritySlug": "sr",
-      "surugayaBuyPrice": 400
+      "surugayaBuyPrice": null
     },
     {
       "name": "アンズの秘技",
@@ -944,7 +944,7 @@
       "surugayaPrice": 680,
       "surugayaSoldOut": false,
       "raritySlug": "sr",
-      "surugayaBuyPrice": 300
+      "surugayaBuyPrice": null
     },
     {
       "name": "カシオペア",
@@ -980,7 +980,7 @@
       "surugayaPrice": 980,
       "surugayaSoldOut": false,
       "raritySlug": "sar",
-      "surugayaBuyPrice": 450
+      "surugayaBuyPrice": null
     },
     {
       "name": "マシマシラex",
@@ -1040,7 +1040,7 @@
       "surugayaPrice": 780,
       "surugayaSoldOut": false,
       "raritySlug": "ur",
-      "surugayaBuyPrice": 300
+      "surugayaBuyPrice": null
     },
     {
       "name": "大地の器",
@@ -1052,7 +1052,7 @@
       "surugayaPrice": 780,
       "surugayaSoldOut": false,
       "raritySlug": "ur",
-      "surugayaBuyPrice": 300
+      "surugayaBuyPrice": null
     },
     {
       "name": "力の砂時計",
@@ -1064,7 +1064,7 @@
       "surugayaPrice": 980,
       "surugayaSoldOut": false,
       "raritySlug": "ur",
-      "surugayaBuyPrice": 450
+      "surugayaBuyPrice": null
     }
   ]
 }

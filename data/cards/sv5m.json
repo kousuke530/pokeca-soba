@@ -2,7 +2,7 @@
   "pack": "拡張パック「サイバージャッジ」",
   "packSlug": "sv5m",
   "source": "surugaya",
-  "collectedAt": "2026-09-29T00:11:31.467Z",
+  "collectedAt": "2026-09-30T05:31:22.955Z",
   "count": 100,
   "cards": [
     {
@@ -660,7 +660,7 @@
       "rarity": "R",
       "category": "ポケモン",
       "energyType": "",
-      "surugayaUrl": "/product/other/GN369871",
+      "surugayaUrl": "/product/detail/GN369871?tenpo_cd=410018",
       "surugayaPrice": 35,
       "surugayaSoldOut": true,
       "raritySlug": "r"
@@ -771,7 +771,7 @@
       "category": "スタジアム",
       "energyType": "",
       "surugayaUrl": "/product/other/GN369881",
-      "surugayaPrice": 50,
+      "surugayaPrice": 140,
       "surugayaSoldOut": true,
       "raritySlug": "u"
     },
@@ -805,10 +805,10 @@
       "category": "ポケモン",
       "energyType": "草",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN369884",
-      "surugayaPrice": 1580,
+      "surugayaPrice": 1280,
       "surugayaSoldOut": false,
       "raritySlug": "ar",
-      "surugayaBuyPrice": 700
+      "surugayaBuyPrice": 600
     },
     {
       "name": "メブキジカ",
@@ -832,7 +832,7 @@
       "surugayaPrice": 980,
       "surugayaSoldOut": false,
       "raritySlug": "ar",
-      "surugayaBuyPrice": 400
+      "surugayaBuyPrice": null
     },
     {
       "name": "デンヂムシ",
@@ -891,7 +891,7 @@
       "surugayaPrice": 780,
       "surugayaSoldOut": false,
       "raritySlug": "ar",
-      "surugayaBuyPrice": 300
+      "surugayaBuyPrice": null
     },
     {
       "name": "メルタン",
@@ -1011,7 +1011,7 @@
       "surugayaPrice": 980,
       "surugayaSoldOut": false,
       "raritySlug": "sr",
-      "surugayaBuyPrice": 400
+      "surugayaBuyPrice": null
     },
     {
       "name": "セイジ",
@@ -1107,7 +1107,7 @@
       "surugayaPrice": 780,
       "surugayaSoldOut": false,
       "raritySlug": "ur",
-      "surugayaBuyPrice": 350
+      "surugayaBuyPrice": null
     },
     {
       "name": "テツノカシラex",

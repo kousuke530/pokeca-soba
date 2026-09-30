@@ -2,7 +2,7 @@
   "pack": "拡張パック「ムニキスゼロ」",
   "packSlug": "m3",
   "source": "surugaya",
-  "collectedAt": "2026-09-29T00:19:08.368Z",
+  "collectedAt": "2026-09-30T05:38:35.122Z",
   "count": 117,
   "cards": [
     {
@@ -66,7 +66,7 @@
       "rarity": "R",
       "category": "ポケモン",
       "energyType": "草",
-      "surugayaUrl": "/product/other/GU584322",
+      "surugayaUrl": "/product/detail/GU584322?tenpo_cd=410018",
       "surugayaPrice": 24,
       "surugayaSoldOut": true,
       "raritySlug": "r"
@@ -672,10 +672,10 @@
       "category": "ポケモン",
       "energyType": "",
       "surugayaUrl": "/product/other/GU584321",
-      "surugayaPrice": 640,
+      "surugayaPrice": 630,
       "surugayaSoldOut": true,
       "raritySlug": "rr",
-      "surugayaBuyPrice": 400
+      "surugayaBuyPrice": null
     },
     {
       "name": "カビゴン",
@@ -793,9 +793,9 @@
       "rarity": "U",
       "category": "ポケモンのどうぐ",
       "energyType": "",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU584350",
-      "surugayaPrice": 160,
-      "surugayaSoldOut": false,
+      "surugayaUrl": "/product/other/GU584350",
+      "surugayaPrice": 19,
+      "surugayaSoldOut": true,
       "raritySlug": "u"
     },
     {
@@ -882,7 +882,7 @@
       "category": "エネルギー",
       "energyType": "",
       "surugayaUrl": "/product/other/GU584329",
-      "surugayaPrice": 60,
+      "surugayaPrice": 100,
       "surugayaSoldOut": true,
       "raritySlug": "r"
     },
@@ -953,7 +953,7 @@
       "surugayaPrice": 1080,
       "surugayaSoldOut": false,
       "raritySlug": "ar",
-      "surugayaBuyPrice": 400
+      "surugayaBuyPrice": null
     },
     {
       "name": "ニャスパー",
@@ -1091,7 +1091,7 @@
       "surugayaPrice": 780,
       "surugayaSoldOut": false,
       "raritySlug": "sr",
-      "surugayaBuyPrice": 300
+      "surugayaBuyPrice": null
     },
     {
       "name": "メガエアームドex",
@@ -1135,7 +1135,7 @@
       "category": "グッズ",
       "energyType": "",
       "surugayaUrl": "/product/other/GU584293",
-      "surugayaPrice": 120,
+      "surugayaPrice": 110,
       "surugayaSoldOut": true,
       "raritySlug": "sr"
     },
@@ -1254,7 +1254,7 @@
       "surugayaPrice": 2380,
       "surugayaSoldOut": false,
       "raritySlug": "sar",
-      "surugayaBuyPrice": 1100
+      "surugayaBuyPrice": 1000
     },
     {
       "name": "メガジガルデex",

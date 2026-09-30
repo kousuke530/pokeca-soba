@@ -2,7 +2,7 @@
   "pack": "拡張パック「メガブレイブ」",
   "packSlug": "m1l",
   "source": "surugaya",
-  "collectedAt": "2026-09-29T00:16:11.034Z",
+  "collectedAt": "2026-09-30T05:35:50.528Z",
   "count": 91,
   "cards": [
     {
@@ -12,7 +12,7 @@
       "category": "ポケモン",
       "energyType": "草",
       "surugayaUrl": "/product/other/GU362773",
-      "surugayaPrice": 60,
+      "surugayaPrice": 79,
       "surugayaSoldOut": true,
       "raritySlug": "c"
     },
@@ -297,7 +297,7 @@
       "rarity": "U",
       "category": "ポケモン",
       "energyType": "闘",
-      "surugayaUrl": "/product/other/GU362757",
+      "surugayaUrl": "/product/detail/GU362757?tenpo_cd=410018",
       "surugayaPrice": 37,
       "surugayaSoldOut": true,
       "raritySlug": "u"
@@ -440,8 +440,8 @@
       "rarity": "R",
       "category": "ポケモン",
       "energyType": "悪",
-      "surugayaUrl": "/product/other/GU362749",
-      "surugayaPrice": 80,
+      "surugayaUrl": "/product/detail/GU362749?tenpo_cd=410011",
+      "surugayaPrice": 150,
       "surugayaSoldOut": true,
       "raritySlug": "r"
     },
@@ -650,7 +650,7 @@
       "category": "グッズ",
       "energyType": "",
       "surugayaUrl": "/product/other/GU362768",
-      "surugayaPrice": 60,
+      "surugayaPrice": 100,
       "surugayaSoldOut": true,
       "raritySlug": "u"
     },
@@ -693,7 +693,7 @@
       "rarity": "U",
       "category": "スタジアム",
       "energyType": "",
-      "surugayaUrl": "/product/other/GU362772",
+      "surugayaUrl": "/product/detail/GU362772?tenpo_cd=410174",
       "surugayaPrice": 30,
       "surugayaSoldOut": true,
       "raritySlug": "u"
@@ -708,7 +708,7 @@
       "surugayaPrice": 980,
       "surugayaSoldOut": false,
       "raritySlug": "ar",
-      "surugayaBuyPrice": 400
+      "surugayaBuyPrice": null
     },
     {
       "name": "フシギソウ",
@@ -720,7 +720,7 @@
       "surugayaPrice": 780,
       "surugayaSoldOut": false,
       "raritySlug": "ar",
-      "surugayaBuyPrice": 300
+      "surugayaBuyPrice": null
     },
     {
       "name": "ナッシー",
@@ -833,7 +833,7 @@
       "surugayaPrice": 780,
       "surugayaSoldOut": false,
       "raritySlug": "sr",
-      "surugayaBuyPrice": 300
+      "surugayaBuyPrice": null
     },
     {
       "name": "メガバクーダex",
@@ -857,7 +857,7 @@
       "surugayaPrice": 980,
       "surugayaSoldOut": false,
       "raritySlug": "sr",
-      "surugayaBuyPrice": 400
+      "surugayaBuyPrice": null
     },
     {
       "name": "メガアブソルex",
@@ -949,7 +949,7 @@
       "surugayaPrice": 5980,
       "surugayaSoldOut": false,
       "raritySlug": "sr",
-      "surugayaBuyPrice": 3000
+      "surugayaBuyPrice": 2500
     },
     {
       "name": "メガフシギバナex",

@@ -2,7 +2,7 @@
   "pack": "スターターセットMEGA メガゲンガーex",
   "packSlug": "mbg",
   "source": "surugaya",
-  "collectedAt": "2026-09-29T00:16:32.484Z",
+  "collectedAt": "2026-09-30T05:36:10.661Z",
   "count": 16,
   "cards": [
     {
@@ -67,10 +67,11 @@
       "rarity": "ノーマル",
       "category": "グッズ",
       "energyType": "",
-      "surugayaUrl": "/product/other/GU404868",
-      "surugayaPrice": 150,
+      "surugayaUrl": "/product/detail/GU404868?tenpo_cd=200984",
+      "surugayaPrice": 500,
       "surugayaSoldOut": true,
-      "raritySlug": "n"
+      "raritySlug": "n",
+      "surugayaBuyPrice": null
     },
     {
       "name": "ハイパーボール",
@@ -102,7 +103,7 @@
       "rarity": "ノーマル",
       "category": "グッズ",
       "energyType": "",
-      "surugayaUrl": "/product/other/GU404871",
+      "surugayaUrl": "/product/detail/GU404871?tenpo_cd=410018",
       "surugayaPrice": 89,
       "surugayaSoldOut": true,
       "raritySlug": "n"
