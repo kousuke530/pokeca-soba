@@ -2,8 +2,8 @@
   "pack": "スターターセットMEGA メガゲンガーex",
   "packSlug": "mbg",
   "source": "surugaya",
-  "collectedAt": "2026-10-02T00:37:24.044Z",
-  "count": 16,
+  "collectedAt": "2026-10-03T08:51:29.881Z",
+  "count": 17,
   "cards": [
     {
       "name": "ゴース",
@@ -57,6 +57,17 @@
       "category": "ポケモン",
       "energyType": "悪",
       "surugayaUrl": "/product/detail/GU404863?tenpo_cd=410018",
+      "surugayaPrice": 19,
+      "surugayaSoldOut": true,
+      "raritySlug": "n"
+    },
+    {
+      "name": "シャリタツ",
+      "cardNumber": "009/021",
+      "rarity": "ノーマル",
+      "category": "ポケモン",
+      "energyType": "ドラゴン",
+      "surugayaUrl": "/product/detail/GU404867?tenpo_cd=410018",
       "surugayaPrice": 19,
       "surugayaSoldOut": true,
       "raritySlug": "n"
