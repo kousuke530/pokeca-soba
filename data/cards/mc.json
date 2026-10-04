@@ -2,7 +2,7 @@
   "pack": "スタートデッキ100 バトルコレクション",
   "packSlug": "mc",
   "source": "surugaya",
-  "collectedAt": "2026-10-03T08:53:49.539Z",
+  "collectedAt": "2026-10-04T02:08:08.602Z",
   "count": 622,
   "cards": [
     {
@@ -950,11 +950,11 @@
       "rarity": "ノーマル",
       "category": "ポケモン",
       "energyType": "炎",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU542981",
-      "surugayaPrice": 2980,
+      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU542909",
+      "surugayaPrice": 3980,
       "surugayaSoldOut": false,
       "raritySlug": "n",
-      "surugayaBuyPrice": 1000
+      "surugayaBuyPrice": 1200
     },
     {
       "name": "ポニータ",
@@ -6446,9 +6446,9 @@
       "rarity": "ノーマル",
       "category": "サポート",
       "energyType": "",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU543751",
-      "surugayaPrice": 160,
-      "surugayaSoldOut": false,
+      "surugayaUrl": "/product/other/GU543751",
+      "surugayaPrice": 70,
+      "surugayaSoldOut": true,
       "raritySlug": "n"
     },
     {
@@ -6457,9 +6457,9 @@
       "rarity": "ミラー",
       "category": "サポート",
       "energyType": "",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU543177",
-      "surugayaPrice": 280,
-      "surugayaSoldOut": false,
+      "surugayaUrl": "/product/other/GU543177",
+      "surugayaPrice": 210,
+      "surugayaSoldOut": true,
       "raritySlug": "mirror"
     },
     {
@@ -6512,9 +6512,9 @@
       "rarity": "ミラー",
       "category": "サポート",
       "energyType": "",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU543178",
-      "surugayaPrice": 180,
-      "surugayaSoldOut": false,
+      "surugayaUrl": "/product/other/GU543178",
+      "surugayaPrice": 150,
+      "surugayaSoldOut": true,
       "raritySlug": "mirror"
     },
     {

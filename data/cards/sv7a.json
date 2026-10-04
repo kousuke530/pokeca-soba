@@ -2,8 +2,8 @@
   "pack": "強化拡張パック「楽園ドラゴーナ」",
   "packSlug": "sv7a",
   "source": "surugaya",
-  "collectedAt": "2026-10-03T08:47:54.954Z",
-  "count": 92,
+  "collectedAt": "2026-10-04T01:59:59.150Z",
+  "count": 93,
   "cards": [
     {
       "name": "タマタマ",
@@ -444,6 +444,17 @@
       "surugayaPrice": 50,
       "surugayaSoldOut": true,
       "raritySlug": "rr"
+    },
+    {
+      "name": "チルタリス",
+      "cardNumber": "041/064",
+      "rarity": "U",
+      "category": "ポケモン",
+      "energyType": "ドラゴン",
+      "surugayaUrl": "/product/detail/GN660857?tenpo_cd=410018",
+      "surugayaPrice": null,
+      "surugayaSoldOut": true,
+      "raritySlug": "u"
     },
     {
       "name": "ディアルガ",
