@@ -2,7 +2,7 @@
   "pack": "強化拡張パック「レイジングサーフ」",
   "packSlug": "sv3a",
   "source": "surugaya",
-  "collectedAt": "2026-10-02T00:30:44.960Z",
+  "collectedAt": "2026-10-06T00:24:40.179Z",
   "count": 92,
   "cards": [
     {
@@ -789,10 +789,10 @@
       "category": "ポケモン",
       "energyType": "悪",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN170314",
-      "surugayaPrice": 950,
+      "surugayaPrice": 590,
       "surugayaSoldOut": false,
       "raritySlug": "ar",
-      "surugayaBuyPrice": 800
+      "surugayaBuyPrice": null
     },
     {
       "name": "ナットレイ",
@@ -884,7 +884,7 @@
       "category": "ポケモン",
       "energyType": "鋼",
       "surugayaUrl": "/product/other/GN170322",
-      "surugayaPrice": 280,
+      "surugayaPrice": 270,
       "surugayaSoldOut": true,
       "raritySlug": "sr"
     },
@@ -1015,21 +1015,22 @@
       "category": "ポケモン",
       "energyType": "水",
       "surugayaUrl": "/product/other/GN170333",
-      "surugayaPrice": 2180,
+      "surugayaPrice": 2420,
       "surugayaSoldOut": true,
       "raritySlug": "ur",
       "surugayaBuyPrice": 1200
     },
     {
-      "name": "ビーチコート（Bランク）",
+      "name": "ビーチコート",
       "cardNumber": "091/062",
       "rarity": "UR",
       "category": "スタジアム",
       "energyType": "",
-      "surugayaUrl": "/product/detail/GN170334?branch_number=0077",
-      "surugayaPrice": 290,
-      "surugayaSoldOut": false,
-      "raritySlug": "ur"
+      "surugayaUrl": "/product/other/GN170334",
+      "surugayaPrice": 410,
+      "surugayaSoldOut": true,
+      "raritySlug": "ur",
+      "surugayaBuyPrice": null
     },
     {
       "name": "リバーサルエネルギー",
