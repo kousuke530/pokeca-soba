@@ -2,7 +2,7 @@
   "pack": "強化拡張パック「レイジングサーフ」",
   "packSlug": "sv3a",
   "source": "surugaya",
-  "collectedAt": "2026-10-06T00:24:40.179Z",
+  "collectedAt": "2026-10-07T10:20:44.284Z",
   "count": 92,
   "cards": [
     {
@@ -729,10 +729,10 @@
       "category": "ポケモン",
       "energyType": "雷",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN170309",
-      "surugayaPrice": 1680,
+      "surugayaPrice": 890,
       "surugayaSoldOut": false,
       "raritySlug": "ar",
-      "surugayaBuyPrice": 800
+      "surugayaBuyPrice": 700
     },
     {
       "name": "バチュル",
@@ -776,11 +776,10 @@
       "rarity": "AR",
       "category": "ポケモン",
       "energyType": "闘",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN170313",
-      "surugayaPrice": 480,
-      "surugayaSoldOut": false,
-      "raritySlug": "ar",
-      "surugayaBuyPrice": null
+      "surugayaUrl": "/product/other/GN170313",
+      "surugayaPrice": 290,
+      "surugayaSoldOut": true,
+      "raritySlug": "ar"
     },
     {
       "name": "イベルタル",
@@ -789,7 +788,7 @@
       "category": "ポケモン",
       "energyType": "悪",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN170314",
-      "surugayaPrice": 590,
+      "surugayaPrice": 470,
       "surugayaSoldOut": false,
       "raritySlug": "ar",
       "surugayaBuyPrice": null

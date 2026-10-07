@@ -2,7 +2,7 @@
   "pack": "拡張パック「ムニキスゼロ」",
   "packSlug": "m3",
   "source": "surugaya",
-  "collectedAt": "2026-10-06T00:34:08.111Z",
+  "collectedAt": "2026-10-07T10:29:53.473Z",
   "count": 117,
   "cards": [
     {
@@ -226,12 +226,12 @@
       "raritySlug": "c"
     },
     {
-      "name": "メガスターミーex",
+      "name": "メガスターミーex（Bランク）",
       "cardNumber": "021/080",
       "rarity": "RR",
       "category": "ポケモン",
       "energyType": "水",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU584316",
+      "surugayaUrl": "/product/detail/GU584316?branch_number=0077",
       "surugayaPrice": 160,
       "surugayaSoldOut": false,
       "raritySlug": "rr"
@@ -951,7 +951,7 @@
       "category": "ポケモン",
       "energyType": "超",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU584307",
-      "surugayaPrice": 1080,
+      "surugayaPrice": 470,
       "surugayaSoldOut": false,
       "raritySlug": "ar",
       "surugayaBuyPrice": null
@@ -1136,7 +1136,7 @@
       "category": "グッズ",
       "energyType": "",
       "surugayaUrl": "/product/other/GU584293",
-      "surugayaPrice": 100,
+      "surugayaPrice": 90,
       "surugayaSoldOut": true,
       "raritySlug": "sr"
     },
@@ -1267,7 +1267,7 @@
       "surugayaPrice": 2980,
       "surugayaSoldOut": false,
       "raritySlug": "sar",
-      "surugayaBuyPrice": 1200
+      "surugayaBuyPrice": 1000
     },
     {
       "name": "ニャースex",

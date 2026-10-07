@@ -2,8 +2,8 @@
   "pack": "ハイクラスパック 「MEGAドリームex」",
   "packSlug": "m2a",
   "source": "surugaya",
-  "collectedAt": "2026-10-06T00:32:43.938Z",
-  "count": 367,
+  "collectedAt": "2026-10-07T10:28:30.877Z",
+  "count": 368,
   "cards": [
     {
       "name": "ヒビキのカイロス",
@@ -226,14 +226,14 @@
       "raritySlug": "n"
     },
     {
-      "name": "スボミー(ボールミラー)",
+      "name": "スボミー(エネルギーミラー)",
       "cardNumber": "011/193",
       "rarity": "ミラー",
       "category": "ポケモン",
       "energyType": "草",
-      "surugayaUrl": "/product/other/GU519676",
-      "surugayaPrice": 100,
-      "surugayaSoldOut": true,
+      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU519558",
+      "surugayaPrice": 180,
+      "surugayaSoldOut": false,
       "raritySlug": "mirror"
     },
     {
@@ -314,14 +314,14 @@
       "raritySlug": "n"
     },
     {
-      "name": "ロケット団のタマンチュラ(ロケット団ミラー)",
+      "name": "ロケット団のタマンチュラ(エネルギーミラー)",
       "cardNumber": "015/193",
       "rarity": "ミラー",
       "category": "ポケモン",
       "energyType": "草",
-      "surugayaUrl": "/product/other/GU519772",
-      "surugayaPrice": 59,
-      "surugayaSoldOut": true,
+      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU519562",
+      "surugayaPrice": 180,
+      "surugayaSoldOut": false,
       "raritySlug": "mirror"
     },
     {
@@ -893,10 +893,9 @@
       "category": "ポケモン",
       "energyType": "雷",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU519528",
-      "surugayaPrice": 300,
+      "surugayaPrice": 280,
       "surugayaSoldOut": false,
-      "raritySlug": "rr",
-      "surugayaBuyPrice": null
+      "raritySlug": "rr"
     },
     {
       "name": "コイル",
@@ -1240,14 +1239,14 @@
       "raritySlug": "n"
     },
     {
-      "name": "ロケット団のナッシー(エネルギーミラー)",
+      "name": "ロケット団のナッシー(ロケット団ミラー)",
       "cardNumber": "062/193",
       "rarity": "ミラー",
       "category": "ポケモン",
       "energyType": "超",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU519599",
-      "surugayaPrice": 180,
-      "surugayaSoldOut": false,
+      "surugayaUrl": "/product/other/GU519776",
+      "surugayaPrice": 89,
+      "surugayaSoldOut": true,
       "raritySlug": "mirror"
     },
     {
@@ -1383,13 +1382,13 @@
       "raritySlug": "n"
     },
     {
-      "name": "ラルトス(エネルギーミラー)",
+      "name": "ラルトス(ボールミラー)",
       "cardNumber": "069/193",
       "rarity": "ミラー",
       "category": "ポケモン",
       "energyType": "超",
-      "surugayaUrl": "/product/other/GU519605",
-      "surugayaPrice": 150,
+      "surugayaUrl": "/product/other/GU519718",
+      "surugayaPrice": 179,
       "surugayaSoldOut": true,
       "raritySlug": "mirror"
     },
@@ -1587,7 +1586,7 @@
       "category": "ポケモン",
       "energyType": "超",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU519777",
-      "surugayaPrice": 580,
+      "surugayaPrice": 350,
       "surugayaSoldOut": false,
       "raritySlug": "mirror",
       "surugayaBuyPrice": null
@@ -2011,14 +2010,14 @@
       "raritySlug": "n"
     },
     {
-      "name": "ロケット団のゴルバット(エネルギーミラー)",
+      "name": "ロケット団のゴルバット(ロケット団ミラー)",
       "cardNumber": "100/193",
       "rarity": "ミラー",
       "category": "ポケモン",
       "energyType": "悪",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU519631",
-      "surugayaPrice": 180,
-      "surugayaSoldOut": false,
+      "surugayaUrl": "/product/other/GU519781",
+      "surugayaPrice": 129,
+      "surugayaSoldOut": true,
       "raritySlug": "mirror"
     },
     {
@@ -2044,15 +2043,16 @@
       "raritySlug": "n"
     },
     {
-      "name": "ロケット団のヤミカラス(エネルギーミラー)",
+      "name": "ロケット団のヤミカラス(ロケット団ミラー)",
       "cardNumber": "102/193",
       "rarity": "ミラー",
       "category": "ポケモン",
       "energyType": "悪",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU519632",
-      "surugayaPrice": 180,
-      "surugayaSoldOut": false,
-      "raritySlug": "mirror"
+      "surugayaUrl": "/product/other/GU519782",
+      "surugayaPrice": 370,
+      "surugayaSoldOut": true,
+      "raritySlug": "mirror",
+      "surugayaBuyPrice": null
     },
     {
       "name": "ロケット団のドンカラス",
@@ -3764,10 +3764,10 @@
       "category": "ポケモン",
       "energyType": "炎",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU519483",
-      "surugayaPrice": 4580,
+      "surugayaPrice": 3980,
       "surugayaSoldOut": false,
       "raritySlug": "ma",
-      "surugayaBuyPrice": 1800
+      "surugayaBuyPrice": 1500
     },
     {
       "name": "メガユキメノコex",
@@ -3811,10 +3811,9 @@
       "category": "ポケモン",
       "energyType": "超",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU519487",
-      "surugayaPrice": 580,
+      "surugayaPrice": 290,
       "surugayaSoldOut": false,
-      "raritySlug": "ma",
-      "surugayaBuyPrice": null
+      "raritySlug": "ma"
     },
     {
       "name": "メガルカリオex",
@@ -3823,7 +3822,7 @@
       "category": "ポケモン",
       "energyType": "闘",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU519488",
-      "surugayaPrice": 1080,
+      "surugayaPrice": 470,
       "surugayaSoldOut": false,
       "raritySlug": "ma",
       "surugayaBuyPrice": null
@@ -3889,6 +3888,18 @@
       "surugayaBuyPrice": 1100
     },
     {
+      "name": "ピカチュウex",
+      "cardNumber": "234/193",
+      "rarity": "SAR",
+      "category": "ポケモン",
+      "energyType": "雷",
+      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU519467",
+      "surugayaPrice": 19800,
+      "surugayaSoldOut": false,
+      "raritySlug": "sar",
+      "surugayaBuyPrice": 12000
+    },
+    {
       "name": "メガシビルドンex",
       "cardNumber": "235/193",
       "rarity": "SAR",
@@ -3907,10 +3918,10 @@
       "category": "ポケモン",
       "energyType": "雷",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU519469",
-      "surugayaPrice": 3980,
+      "surugayaPrice": 2780,
       "surugayaSoldOut": false,
       "raritySlug": "sar",
-      "surugayaBuyPrice": 1500
+      "surugayaBuyPrice": 1200
     },
     {
       "name": "ロケット団のミュウツーex",
@@ -3955,10 +3966,10 @@
       "category": "ポケモン",
       "energyType": "悪",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU519473",
-      "surugayaPrice": 42800,
+      "surugayaPrice": 31800,
       "surugayaSoldOut": false,
       "raritySlug": "sar",
-      "surugayaBuyPrice": 25000
+      "surugayaBuyPrice": 20000
     },
     {
       "name": "メガズルズキンex",

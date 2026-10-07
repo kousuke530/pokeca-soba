@@ -2,7 +2,7 @@
   "pack": "拡張パック「アビスアイ」",
   "packSlug": "m5",
   "source": "surugaya",
-  "collectedAt": "2026-10-06T00:34:35.472Z",
+  "collectedAt": "2026-10-07T10:30:20.352Z",
   "count": 117,
   "cards": [
     {
@@ -915,10 +915,9 @@
       "category": "ポケモン",
       "energyType": "水",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU730261",
-      "surugayaPrice": 380,
+      "surugayaPrice": 170,
       "surugayaSoldOut": false,
-      "raritySlug": "ar",
-      "surugayaBuyPrice": null
+      "raritySlug": "ar"
     },
     {
       "name": "アシレーヌ",
@@ -1134,9 +1133,9 @@
       "rarity": "SR",
       "category": "グッズ",
       "energyType": "",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU730250",
-      "surugayaPrice": 280,
-      "surugayaSoldOut": false,
+      "surugayaUrl": "/product/other/GU730250",
+      "surugayaPrice": 220,
+      "surugayaSoldOut": true,
       "raritySlug": "sr"
     },
     {
@@ -1262,10 +1261,10 @@
       "category": "ポケモン",
       "energyType": "悪",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU730237",
-      "surugayaPrice": 19800,
+      "surugayaPrice": 12600,
       "surugayaSoldOut": false,
       "raritySlug": "sar",
-      "surugayaBuyPrice": 8000
+      "surugayaBuyPrice": 7000
     },
     {
       "name": "モルペコex",
@@ -1274,10 +1273,10 @@
       "category": "ポケモン",
       "energyType": "悪",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU730238",
-      "surugayaPrice": 2980,
+      "surugayaPrice": 2480,
       "surugayaSoldOut": false,
       "raritySlug": "sar",
-      "surugayaBuyPrice": 1200
+      "surugayaBuyPrice": 1000
     },
     {
       "name": "グラジオの決戦",
@@ -1286,10 +1285,10 @@
       "category": "サポート",
       "energyType": "",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU730239",
-      "surugayaPrice": 1480,
+      "surugayaPrice": 770,
       "surugayaSoldOut": false,
       "raritySlug": "sar",
-      "surugayaBuyPrice": 600
+      "surugayaBuyPrice": 500
     },
     {
       "name": "ムク",
@@ -1297,9 +1296,9 @@
       "rarity": "SAR",
       "category": "サポート",
       "energyType": "",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU730240",
-      "surugayaPrice": 4280,
-      "surugayaSoldOut": false,
+      "surugayaUrl": "/product/other/GU730240",
+      "surugayaPrice": 2400,
+      "surugayaSoldOut": true,
       "raritySlug": "sar",
       "surugayaBuyPrice": 1800
     },
@@ -1310,10 +1309,10 @@
       "category": "ポケモン",
       "energyType": "悪",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU730234",
-      "surugayaPrice": 59800,
+      "surugayaPrice": 31800,
       "surugayaSoldOut": false,
       "raritySlug": "mur",
-      "surugayaBuyPrice": 32000
+      "surugayaBuyPrice": 15000
     }
   ]
 }

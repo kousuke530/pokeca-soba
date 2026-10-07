@@ -2,7 +2,7 @@
   "pack": "拡張パック「バトルパートナーズ」",
   "packSlug": "sv9",
   "source": "surugaya",
-  "collectedAt": "2026-10-06T00:29:06.414Z",
+  "collectedAt": "2026-10-07T10:25:03.516Z",
   "count": 169,
   "cards": [
     {
@@ -660,9 +660,9 @@
       "rarity": "RR",
       "category": "ポケモン",
       "energyType": "超",
-      "surugayaUrl": "/product/other/GN832729",
-      "surugayaPrice": 79,
-      "surugayaSoldOut": true,
+      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN832729",
+      "surugayaPrice": 160,
+      "surugayaSoldOut": false,
       "raritySlug": "rr"
     },
     {
@@ -1565,10 +1565,9 @@
       "category": "ポケモン",
       "energyType": "雷",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN832718",
-      "surugayaPrice": 580,
+      "surugayaPrice": 290,
       "surugayaSoldOut": false,
-      "raritySlug": "ar",
-      "surugayaBuyPrice": null
+      "raritySlug": "ar"
     },
     {
       "name": "リーリエのアブリボン",
@@ -1863,10 +1862,10 @@
       "category": "ポケモン",
       "energyType": "ドラゴン",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN832703",
-      "surugayaPrice": 4980,
+      "surugayaPrice": 2550,
       "surugayaSoldOut": false,
       "raritySlug": "sar",
-      "surugayaBuyPrice": 3000
+      "surugayaBuyPrice": 2000
     },
     {
       "name": "ナンジャモのハラバリーex",
