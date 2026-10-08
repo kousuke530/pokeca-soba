@@ -2,7 +2,7 @@
   "pack": "強化拡張パック「レイジングサーフ」",
   "packSlug": "sv3a",
   "source": "surugaya",
-  "collectedAt": "2026-10-07T10:20:44.284Z",
+  "collectedAt": "2026-10-08T03:01:37.720Z",
   "count": 92,
   "cards": [
     {
@@ -711,24 +711,24 @@
       "surugayaBuyPrice": null
     },
     {
-      "name": "プラスル",
+      "name": "プラスル（Bランク）",
       "cardNumber": "065/062",
       "rarity": "AR",
       "category": "ポケモン",
       "energyType": "雷",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN170308",
+      "surugayaUrl": "/product/detail/GN170308?branch_number=0077",
       "surugayaPrice": 670,
       "surugayaSoldOut": false,
       "raritySlug": "ar",
       "surugayaBuyPrice": 800
     },
     {
-      "name": "マイナン",
+      "name": "マイナン（Bランク）",
       "cardNumber": "066/062",
       "rarity": "AR",
       "category": "ポケモン",
       "energyType": "雷",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN170309",
+      "surugayaUrl": "/product/detail/GN170309?branch_number=0077",
       "surugayaPrice": 890,
       "surugayaSoldOut": false,
       "raritySlug": "ar",
@@ -882,10 +882,11 @@
       "rarity": "SR",
       "category": "ポケモン",
       "energyType": "鋼",
-      "surugayaUrl": "/product/other/GN170322",
-      "surugayaPrice": 270,
-      "surugayaSoldOut": true,
-      "raritySlug": "sr"
+      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN170322",
+      "surugayaPrice": 580,
+      "surugayaSoldOut": false,
+      "raritySlug": "sr",
+      "surugayaBuyPrice": null
     },
     {
       "name": "オトシドリex",

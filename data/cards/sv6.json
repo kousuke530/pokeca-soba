@@ -2,7 +2,7 @@
   "pack": "拡張パック 「変幻の仮面」",
   "packSlug": "sv6",
   "source": "surugaya",
-  "collectedAt": "2026-10-07T10:22:56.093Z",
+  "collectedAt": "2026-10-08T03:03:50.744Z",
   "count": 132,
   "cards": [
     {
@@ -176,9 +176,9 @@
       "rarity": "RR",
       "category": "ポケモン",
       "energyType": "草",
-      "surugayaUrl": "/product/other/GN486485",
-      "surugayaPrice": 90,
-      "surugayaSoldOut": true,
+      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN486485",
+      "surugayaPrice": 180,
+      "surugayaSoldOut": false,
       "raritySlug": "rr"
     },
     {
@@ -1393,9 +1393,9 @@
       "rarity": "SAR",
       "category": "ポケモン",
       "energyType": "草",
-      "surugayaUrl": "/product/other/GN486594",
-      "surugayaPrice": 1230,
-      "surugayaSoldOut": true,
+      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN486594",
+      "surugayaPrice": 2480,
+      "surugayaSoldOut": false,
       "raritySlug": "sar",
       "surugayaBuyPrice": 1200
     },

@@ -2,7 +2,7 @@
   "pack": "拡張パック「アビスアイ」",
   "packSlug": "m5",
   "source": "surugaya",
-  "collectedAt": "2026-10-07T10:30:20.352Z",
+  "collectedAt": "2026-10-08T03:11:21.409Z",
   "count": 117,
   "cards": [
     {
@@ -1098,9 +1098,9 @@
       "rarity": "SR",
       "category": "ポケモン",
       "energyType": "悪",
-      "surugayaUrl": "/product/other/GU730247",
-      "surugayaPrice": 300,
-      "surugayaSoldOut": true,
+      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU730247",
+      "surugayaPrice": 350,
+      "surugayaSoldOut": false,
       "raritySlug": "sr",
       "surugayaBuyPrice": null
     },
@@ -1296,9 +1296,9 @@
       "rarity": "SAR",
       "category": "サポート",
       "energyType": "",
-      "surugayaUrl": "/product/other/GU730240",
-      "surugayaPrice": 2400,
-      "surugayaSoldOut": true,
+      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU730240",
+      "surugayaPrice": 4280,
+      "surugayaSoldOut": false,
       "raritySlug": "sar",
       "surugayaBuyPrice": 1800
     },

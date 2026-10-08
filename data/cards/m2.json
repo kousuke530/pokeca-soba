@@ -2,8 +2,8 @@
   "pack": "拡張パック「インフェルノX」",
   "packSlug": "m2",
   "source": "surugaya",
-  "collectedAt": "2026-10-07T10:27:43.830Z",
-  "count": 115,
+  "collectedAt": "2026-10-08T03:08:44.896Z",
+  "count": 116,
   "cards": [
     {
       "name": "ナゾノクサ",
@@ -1217,6 +1217,18 @@
       "surugayaPrice": 180,
       "surugayaSoldOut": false,
       "raritySlug": "sr"
+    },
+    {
+      "name": "メガリザードンXex",
+      "cardNumber": "110/080",
+      "rarity": "SAR",
+      "category": "ポケモン",
+      "energyType": "炎",
+      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU427946",
+      "surugayaPrice": 94800,
+      "surugayaSoldOut": false,
+      "raritySlug": "sar",
+      "surugayaBuyPrice": 45000
     },
     {
       "name": "オドリドリex",

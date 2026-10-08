@@ -2,7 +2,7 @@
   "pack": "スターターセットMEGA メガディアンシーex",
   "packSlug": "mbd",
   "source": "surugaya",
-  "collectedAt": "2026-10-07T10:27:15.220Z",
+  "collectedAt": "2026-10-08T03:08:16.323Z",
   "count": 15,
   "cards": [
     {
@@ -88,11 +88,10 @@
       "rarity": "ノーマル",
       "category": "グッズ",
       "energyType": "",
-      "surugayaUrl": "/product/detail/GU404895?tenpo_cd=410011",
-      "surugayaPrice": 380,
-      "surugayaSoldOut": true,
-      "raritySlug": "n",
-      "surugayaBuyPrice": null
+      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU404895",
+      "surugayaPrice": 160,
+      "surugayaSoldOut": false,
+      "raritySlug": "n"
     },
     {
       "name": "ヒーローマント",
@@ -100,10 +99,11 @@
       "rarity": "ノーマル",
       "category": "ポケモンのどうぐ",
       "energyType": "",
-      "surugayaUrl": "/product/other/GU404896",
-      "surugayaPrice": 180,
-      "surugayaSoldOut": true,
-      "raritySlug": "n"
+      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU404896",
+      "surugayaPrice": 380,
+      "surugayaSoldOut": false,
+      "raritySlug": "n",
+      "surugayaBuyPrice": null
     },
     {
       "name": "ふうせん",

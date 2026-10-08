@@ -2,7 +2,7 @@
   "pack": "拡張パック 「ステラミラクル」",
   "packSlug": "sv7",
   "source": "surugaya",
-  "collectedAt": "2026-10-07T10:23:33.041Z",
+  "collectedAt": "2026-10-08T03:04:28.889Z",
   "count": 179,
   "cards": [
     {
@@ -11,10 +11,11 @@
       "rarity": "ノーマル",
       "category": "ポケモン",
       "energyType": "炎",
-      "surugayaUrl": "/product/other/GN596202",
-      "surugayaPrice": 280,
-      "surugayaSoldOut": true,
-      "raritySlug": "n"
+      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN596202",
+      "surugayaPrice": 780,
+      "surugayaSoldOut": false,
+      "raritySlug": "n",
+      "surugayaBuyPrice": null
     },
     {
       "name": "レディバ",
@@ -1596,9 +1597,9 @@
       "rarity": "ACE",
       "category": "スタジアム",
       "energyType": "",
-      "surugayaUrl": "/product/other/GN596165",
-      "surugayaPrice": 150,
-      "surugayaSoldOut": true,
+      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN596165",
+      "surugayaPrice": 180,
+      "surugayaSoldOut": false,
       "raritySlug": "ace"
     },
     {
@@ -1922,7 +1923,7 @@
       "category": "ポケモン",
       "energyType": "超",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN596193",
-      "surugayaPrice": 4280,
+      "surugayaPrice": 3480,
       "surugayaSoldOut": false,
       "raritySlug": "sar",
       "surugayaBuyPrice": 1500
@@ -1969,9 +1970,9 @@
       "rarity": "UR",
       "category": "ポケモン",
       "energyType": "",
-      "surugayaUrl": "/product/other/GN596197",
-      "surugayaPrice": 710,
-      "surugayaSoldOut": true,
+      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN596197",
+      "surugayaPrice": 660,
+      "surugayaSoldOut": false,
       "raritySlug": "ur",
       "surugayaBuyPrice": 500
     },

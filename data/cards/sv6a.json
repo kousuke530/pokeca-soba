@@ -2,7 +2,7 @@
   "pack": "強化拡張パック「ナイトワンダラー」",
   "packSlug": "sv6a",
   "source": "surugaya",
-  "collectedAt": "2026-10-07T10:23:10.642Z",
+  "collectedAt": "2026-10-08T03:04:06.254Z",
   "count": 94,
   "cards": [
     {
@@ -750,9 +750,9 @@
       "rarity": "AR",
       "category": "ポケモン",
       "energyType": "超",
-      "surugayaUrl": "/product/other/GN544650",
-      "surugayaPrice": 360,
-      "surugayaSoldOut": true,
+      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN544650",
+      "surugayaPrice": 780,
+      "surugayaSoldOut": false,
       "raritySlug": "ar",
       "surugayaBuyPrice": null
     },
@@ -964,10 +964,9 @@
       "category": "サポート",
       "energyType": "",
       "surugayaUrl": "/product/other/GN544668",
-      "surugayaPrice": 320,
+      "surugayaPrice": 270,
       "surugayaSoldOut": true,
-      "raritySlug": "sr",
-      "surugayaBuyPrice": null
+      "raritySlug": "sr"
     },
     {
       "name": "イイネイヌex",
@@ -1023,9 +1022,9 @@
       "rarity": "SAR",
       "category": "サポート",
       "energyType": "",
-      "surugayaUrl": "/product/other/GN544673",
-      "surugayaPrice": 950,
-      "surugayaSoldOut": true,
+      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN544673",
+      "surugayaPrice": 3280,
+      "surugayaSoldOut": false,
       "raritySlug": "sar",
       "surugayaBuyPrice": 2000
     },

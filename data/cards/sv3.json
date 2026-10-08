@@ -2,7 +2,7 @@
   "pack": "拡張パック「黒炎の支配者」",
   "packSlug": "sv3",
   "source": "surugaya",
-  "collectedAt": "2026-10-06T00:24:28.410Z",
+  "collectedAt": "2026-10-08T03:01:25.801Z",
   "count": 175,
   "cards": [
     {
@@ -11,10 +11,11 @@
       "rarity": "ノーマル",
       "category": "ポケモン",
       "energyType": "炎",
-      "surugayaUrl": "/product/other/GN104843",
-      "surugayaPrice": 255,
-      "surugayaSoldOut": true,
-      "raritySlug": "n"
+      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN104843",
+      "surugayaPrice": 580,
+      "surugayaSoldOut": false,
+      "raritySlug": "n",
+      "surugayaBuyPrice": null
     },
     {
       "name": "ナゾノクサ",
@@ -1678,10 +1679,9 @@
       "category": "ポケモン",
       "energyType": "",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN104365",
-      "surugayaPrice": 380,
+      "surugayaPrice": 280,
       "surugayaSoldOut": false,
-      "raritySlug": "ar",
-      "surugayaBuyPrice": null
+      "raritySlug": "ar"
     },
     {
       "name": "ピジョン",
@@ -1762,7 +1762,7 @@
       "category": "ポケモン",
       "energyType": "悪",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN104372",
-      "surugayaPrice": 4280,
+      "surugayaPrice": 1610,
       "surugayaSoldOut": false,
       "raritySlug": "sr",
       "surugayaBuyPrice": 1200
@@ -1857,9 +1857,9 @@
       "rarity": "SAR",
       "category": "ポケモン",
       "energyType": "炎",
-      "surugayaUrl": "/product/other/GN104380",
-      "surugayaPrice": 620,
-      "surugayaSoldOut": true,
+      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN104380",
+      "surugayaPrice": 520,
+      "surugayaSoldOut": false,
       "raritySlug": "sar",
       "surugayaBuyPrice": null
     },

@@ -2,7 +2,7 @@
   "pack": "拡張パック「古代の咆哮」",
   "packSlug": "sv4k",
   "source": "surugaya",
-  "collectedAt": "2026-10-07T10:21:07.961Z",
+  "collectedAt": "2026-10-08T03:02:00.248Z",
   "count": 96,
   "cards": [
     {
@@ -1053,9 +1053,9 @@
       "rarity": "UR",
       "category": "ポケモンのどうぐ",
       "energyType": "",
-      "surugayaUrl": "/product/other/GN228518",
-      "surugayaPrice": 280,
-      "surugayaSoldOut": true,
+      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN228518",
+      "surugayaPrice": 290,
+      "surugayaSoldOut": false,
       "raritySlug": "ur"
     },
     {
@@ -1064,8 +1064,8 @@
       "rarity": "UR",
       "category": "エネルギー",
       "energyType": "",
-      "surugayaUrl": "/product/detail/GN228519?tenpo_cd=400474",
-      "surugayaPrice": 3960,
+      "surugayaUrl": "/product/other/GN228519",
+      "surugayaPrice": 3300,
       "surugayaSoldOut": true,
       "raritySlug": "ur",
       "surugayaBuyPrice": 2000

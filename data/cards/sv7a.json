@@ -2,7 +2,7 @@
   "pack": "強化拡張パック「楽園ドラゴーナ」",
   "packSlug": "sv7a",
   "source": "surugaya",
-  "collectedAt": "2026-10-07T10:23:42.176Z",
+  "collectedAt": "2026-10-08T03:04:38.184Z",
   "count": 93,
   "cards": [
     {
@@ -976,9 +976,9 @@
       "rarity": "SAR",
       "category": "ポケモン",
       "energyType": "鋼",
-      "surugayaUrl": "/product/other/GN660808",
-      "surugayaPrice": 1400,
-      "surugayaSoldOut": true,
+      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN660808",
+      "surugayaPrice": 2480,
+      "surugayaSoldOut": false,
       "raritySlug": "sar",
       "surugayaBuyPrice": 1200
     },
@@ -1024,9 +1024,9 @@
       "rarity": "UR",
       "category": "ポケモン",
       "energyType": "ドラゴン",
-      "surugayaUrl": "/product/other/GN660804",
-      "surugayaPrice": 680,
-      "surugayaSoldOut": true,
+      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN660804",
+      "surugayaPrice": 780,
+      "surugayaSoldOut": false,
       "raritySlug": "ur",
       "surugayaBuyPrice": null
     },
