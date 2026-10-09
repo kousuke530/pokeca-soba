@@ -2,7 +2,7 @@
   "pack": "拡張パック「メガシンフォニア」",
   "packSlug": "m1s",
   "source": "surugaya",
-  "collectedAt": "2026-10-08T03:08:10.103Z",
+  "collectedAt": "2026-10-09T00:31:33.275Z",
   "count": 92,
   "cards": [
     {
@@ -783,10 +783,9 @@
       "category": "ポケモン",
       "energyType": "超",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU362643",
-      "surugayaPrice": 380,
+      "surugayaPrice": 230,
       "surugayaSoldOut": false,
-      "raritySlug": "ar",
-      "surugayaBuyPrice": null
+      "raritySlug": "ar"
     },
     {
       "name": "ヌケニン",
@@ -851,10 +850,9 @@
       "category": "ポケモン",
       "energyType": "雷",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU362626",
-      "surugayaPrice": 480,
+      "surugayaPrice": 290,
       "surugayaSoldOut": false,
-      "raritySlug": "sr",
-      "surugayaBuyPrice": null
+      "raritySlug": "sr"
     },
     {
       "name": "メガサーナイトex",
@@ -875,20 +873,20 @@
       "category": "ポケモン",
       "energyType": "ドラゴン",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU362628",
-      "surugayaPrice": 580,
+      "surugayaPrice": 350,
       "surugayaSoldOut": false,
       "raritySlug": "sr",
       "surugayaBuyPrice": null
     },
     {
-      "name": "メガガルーラex",
+      "name": "メガガルーラex（Bランク）",
       "cardNumber": "080/063",
       "rarity": "SR",
       "category": "ポケモン",
       "energyType": "",
-      "surugayaUrl": "/product/other/GU362629",
-      "surugayaPrice": 440,
-      "surugayaSoldOut": true,
+      "surugayaUrl": "/product/detail/GU362629?branch_number=0077",
+      "surugayaPrice": 350,
+      "surugayaSoldOut": false,
       "raritySlug": "sr",
       "surugayaBuyPrice": null
     },
@@ -932,7 +930,7 @@
       "category": "サポート",
       "energyType": "",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU362633",
-      "surugayaPrice": 1280,
+      "surugayaPrice": 770,
       "surugayaSoldOut": false,
       "raritySlug": "sr",
       "surugayaBuyPrice": null

@@ -2,7 +2,7 @@
   "pack": "拡張パック「未来の一閃」",
   "packSlug": "sv4m",
   "source": "surugaya",
-  "collectedAt": "2026-10-08T03:02:11.947Z",
+  "collectedAt": "2026-10-09T00:25:38.264Z",
   "count": 95,
   "cards": [
     {
@@ -771,7 +771,7 @@
       "category": "ポケモン",
       "energyType": "水",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN228591",
-      "surugayaPrice": 280,
+      "surugayaPrice": 170,
       "surugayaSoldOut": false,
       "raritySlug": "ar"
     },
@@ -804,7 +804,7 @@
       "category": "ポケモン",
       "energyType": "超",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN228594",
-      "surugayaPrice": 280,
+      "surugayaPrice": 170,
       "surugayaSoldOut": false,
       "raritySlug": "ar"
     },
@@ -815,7 +815,7 @@
       "category": "ポケモン",
       "energyType": "鋼",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN228595",
-      "surugayaPrice": 580,
+      "surugayaPrice": 340,
       "surugayaSoldOut": false,
       "raritySlug": "ar",
       "surugayaBuyPrice": null
@@ -839,10 +839,9 @@
       "category": "ポケモン",
       "energyType": "",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN228597",
-      "surugayaPrice": 480,
+      "surugayaPrice": 290,
       "surugayaSoldOut": false,
-      "raritySlug": "ar",
-      "surugayaBuyPrice": null
+      "raritySlug": "ar"
     },
     {
       "name": "ポリゴンZ",
@@ -927,14 +926,14 @@
       "surugayaBuyPrice": null
     },
     {
-      "name": "イッカネズミex",
+      "name": "イッカネズミex（Bランク）",
       "cardNumber": "084/066",
       "rarity": "SR",
       "category": "ポケモン",
       "energyType": "",
-      "surugayaUrl": "/product/other/GN228605",
-      "surugayaPrice": 530,
-      "surugayaSoldOut": true,
+      "surugayaUrl": "/product/detail/GN228605?branch_number=0077",
+      "surugayaPrice": 650,
+      "surugayaSoldOut": false,
       "raritySlug": "sr",
       "surugayaBuyPrice": 500
     },
@@ -945,10 +944,9 @@
       "category": "サポート",
       "energyType": "",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN228606",
-      "surugayaPrice": 480,
+      "surugayaPrice": 270,
       "surugayaSoldOut": false,
-      "raritySlug": "sr",
-      "surugayaBuyPrice": null
+      "raritySlug": "sr"
     },
     {
       "name": "フトゥー博士のシナリオ",
@@ -957,7 +955,7 @@
       "category": "サポート",
       "energyType": "",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN228607",
-      "surugayaPrice": 580,
+      "surugayaPrice": 340,
       "surugayaSoldOut": false,
       "raritySlug": "sr",
       "surugayaBuyPrice": null
@@ -981,7 +979,7 @@
       "category": "ポケモン",
       "energyType": "雷",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN228609",
-      "surugayaPrice": 1480,
+      "surugayaPrice": 830,
       "surugayaSoldOut": false,
       "raritySlug": "sar",
       "surugayaBuyPrice": 700
@@ -1017,7 +1015,7 @@
       "category": "サポート",
       "energyType": "",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN228612",
-      "surugayaPrice": 1280,
+      "surugayaPrice": 770,
       "surugayaSoldOut": false,
       "raritySlug": "sar",
       "surugayaBuyPrice": 600
@@ -1029,7 +1027,7 @@
       "category": "サポート",
       "energyType": "",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN228613",
-      "surugayaPrice": 1680,
+      "surugayaPrice": 960,
       "surugayaSoldOut": false,
       "raritySlug": "sar",
       "surugayaBuyPrice": 700

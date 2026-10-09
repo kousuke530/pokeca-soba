@@ -2,7 +2,7 @@
   "pack": "拡張パック「メガブレイブ」",
   "packSlug": "m1l",
   "source": "surugaya",
-  "collectedAt": "2026-10-08T03:07:58.875Z",
+  "collectedAt": "2026-10-09T00:31:21.364Z",
   "count": 91,
   "cards": [
     {
@@ -66,8 +66,8 @@
       "rarity": "U",
       "category": "ポケモン",
       "energyType": "草",
-      "surugayaUrl": "/product/detail/GU362753?tenpo_cd=201206",
-      "surugayaPrice": 60,
+      "surugayaUrl": "/product/other/GU362753",
+      "surugayaPrice": 29,
       "surugayaSoldOut": true,
       "raritySlug": "u"
     },
@@ -717,7 +717,7 @@
       "category": "ポケモン",
       "energyType": "草",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU362730",
-      "surugayaPrice": 780,
+      "surugayaPrice": 470,
       "surugayaSoldOut": false,
       "raritySlug": "ar",
       "surugayaBuyPrice": null
@@ -752,10 +752,9 @@
       "category": "ポケモン",
       "energyType": "闘",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU362733",
-      "surugayaPrice": 300,
+      "surugayaPrice": 180,
       "surugayaSoldOut": false,
-      "raritySlug": "ar",
-      "surugayaBuyPrice": null
+      "raritySlug": "ar"
     },
     {
       "name": "キョジオーン",
@@ -830,7 +829,7 @@
       "category": "ポケモン",
       "energyType": "草",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU362718",
-      "surugayaPrice": 780,
+      "surugayaPrice": 470,
       "surugayaSoldOut": false,
       "raritySlug": "sr",
       "surugayaBuyPrice": null
@@ -878,10 +877,9 @@
       "category": "ポケモン",
       "energyType": "鋼",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU362722",
-      "surugayaPrice": 480,
+      "surugayaPrice": 290,
       "surugayaSoldOut": false,
-      "raritySlug": "sr",
-      "surugayaBuyPrice": null
+      "raritySlug": "sr"
     },
     {
       "name": "パワープロテイン",
@@ -946,10 +944,10 @@
       "category": "サポート",
       "energyType": "",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU362728",
-      "surugayaPrice": 5980,
+      "surugayaPrice": 4380,
       "surugayaSoldOut": false,
       "raritySlug": "sr",
-      "surugayaBuyPrice": 2500
+      "surugayaBuyPrice": 2000
     },
     {
       "name": "メガフシギバナex",
@@ -982,7 +980,7 @@
       "category": "ポケモン",
       "energyType": "悪",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU362715",
-      "surugayaPrice": 2680,
+      "surugayaPrice": 1610,
       "surugayaSoldOut": false,
       "raritySlug": "sar",
       "surugayaBuyPrice": 1000

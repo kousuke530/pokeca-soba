@@ -2,7 +2,7 @@
   "pack": "強化拡張パック「レイジングサーフ」",
   "packSlug": "sv3a",
   "source": "surugaya",
-  "collectedAt": "2026-10-08T03:01:37.720Z",
+  "collectedAt": "2026-10-09T00:25:04.981Z",
   "count": 92,
   "cards": [
     {
@@ -705,7 +705,7 @@
       "category": "ポケモン",
       "energyType": "水",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN170307",
-      "surugayaPrice": 980,
+      "surugayaPrice": 590,
       "surugayaSoldOut": false,
       "raritySlug": "ar",
       "surugayaBuyPrice": null
@@ -765,20 +765,20 @@
       "category": "ポケモン",
       "energyType": "闘",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN170312",
-      "surugayaPrice": 2780,
+      "surugayaPrice": 1670,
       "surugayaSoldOut": false,
       "raritySlug": "ar",
       "surugayaBuyPrice": 1200
     },
     {
-      "name": "メテノ",
+      "name": "メテノ（Bランク）",
       "cardNumber": "070/062",
       "rarity": "AR",
       "category": "ポケモン",
       "energyType": "闘",
-      "surugayaUrl": "/product/other/GN170313",
+      "surugayaUrl": "/product/detail/GN170313?branch_number=0077",
       "surugayaPrice": 290,
-      "surugayaSoldOut": true,
+      "surugayaSoldOut": false,
       "raritySlug": "ar"
     },
     {
@@ -800,10 +800,9 @@
       "category": "ポケモン",
       "energyType": "鋼",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN170315",
-      "surugayaPrice": 380,
+      "surugayaPrice": 230,
       "surugayaSoldOut": false,
-      "raritySlug": "ar",
-      "surugayaBuyPrice": null
+      "raritySlug": "ar"
     },
     {
       "name": "ギルガルド",
@@ -847,7 +846,7 @@
       "category": "ポケモン",
       "energyType": "水",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN170319",
-      "surugayaPrice": 1580,
+      "surugayaPrice": 930,
       "surugayaSoldOut": false,
       "raritySlug": "sr",
       "surugayaBuyPrice": 700
@@ -967,7 +966,7 @@
       "category": "ポケモン",
       "energyType": "雷",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN170329",
-      "surugayaPrice": 1980,
+      "surugayaPrice": 1130,
       "surugayaSoldOut": false,
       "raritySlug": "sar",
       "surugayaBuyPrice": 1000
@@ -1003,7 +1002,7 @@
       "category": "サポート",
       "energyType": "",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN170332",
-      "surugayaPrice": 6980,
+      "surugayaPrice": 4260,
       "surugayaSoldOut": false,
       "raritySlug": "sar",
       "surugayaBuyPrice": 3000
@@ -1039,7 +1038,7 @@
       "category": "エネルギー",
       "energyType": "",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN170335",
-      "surugayaPrice": 780,
+      "surugayaPrice": 490,
       "surugayaSoldOut": false,
       "raritySlug": "ur",
       "surugayaBuyPrice": null

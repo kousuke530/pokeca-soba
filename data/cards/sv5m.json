@@ -2,7 +2,7 @@
   "pack": "拡張パック「サイバージャッジ」",
   "packSlug": "sv5m",
   "source": "surugaya",
-  "collectedAt": "2026-10-08T03:03:14.029Z",
+  "collectedAt": "2026-10-09T00:26:38.939Z",
   "count": 100,
   "cards": [
     {
@@ -817,10 +817,10 @@
       "category": "ポケモン",
       "energyType": "草",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN369885",
-      "surugayaPrice": 1480,
+      "surugayaPrice": 1080,
       "surugayaSoldOut": false,
       "raritySlug": "ar",
-      "surugayaBuyPrice": 700
+      "surugayaBuyPrice": 500
     },
     {
       "name": "ニャビー",
@@ -828,11 +828,10 @@
       "rarity": "AR",
       "category": "ポケモン",
       "energyType": "炎",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN369886",
-      "surugayaPrice": 780,
-      "surugayaSoldOut": false,
-      "raritySlug": "ar",
-      "surugayaBuyPrice": null
+      "surugayaUrl": "/product/other/GN369886",
+      "surugayaPrice": 280,
+      "surugayaSoldOut": true,
+      "raritySlug": "ar"
     },
     {
       "name": "デンヂムシ",
@@ -888,7 +887,7 @@
       "category": "ポケモン",
       "energyType": "鋼",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN369891",
-      "surugayaPrice": 780,
+      "surugayaPrice": 440,
       "surugayaSoldOut": false,
       "raritySlug": "ar",
       "surugayaBuyPrice": null
@@ -1031,7 +1030,7 @@
       "category": "サポート",
       "energyType": "",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN369903",
-      "surugayaPrice": 1580,
+      "surugayaPrice": 1030,
       "surugayaSoldOut": false,
       "raritySlug": "sr",
       "surugayaBuyPrice": 700
@@ -1079,10 +1078,10 @@
       "category": "サポート",
       "energyType": "",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN369907",
-      "surugayaPrice": 1480,
+      "surugayaPrice": 1080,
       "surugayaSoldOut": false,
       "raritySlug": "sar",
-      "surugayaBuyPrice": 700
+      "surugayaBuyPrice": 500
     },
     {
       "name": "ベルのまごころ",

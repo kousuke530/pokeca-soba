@@ -2,7 +2,7 @@
   "pack": "拡張パック「古代の咆哮」",
   "packSlug": "sv4k",
   "source": "surugaya",
-  "collectedAt": "2026-10-08T03:02:00.248Z",
+  "collectedAt": "2026-10-09T00:25:27.231Z",
   "count": 96,
   "cards": [
     {
@@ -837,9 +837,9 @@
       "rarity": "AR",
       "category": "ポケモン",
       "energyType": "悪",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN228500",
-      "surugayaPrice": 980,
-      "surugayaSoldOut": false,
+      "surugayaUrl": "/product/other/GN228500",
+      "surugayaPrice": 539,
+      "surugayaSoldOut": true,
       "raritySlug": "ar",
       "surugayaBuyPrice": null
     },
@@ -934,7 +934,7 @@
       "category": "ポケモン",
       "energyType": "悪",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN228508",
-      "surugayaPrice": 580,
+      "surugayaPrice": 350,
       "surugayaSoldOut": false,
       "raritySlug": "sr",
       "surugayaBuyPrice": null
@@ -946,7 +946,7 @@
       "category": "サポート",
       "energyType": "",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN228509",
-      "surugayaPrice": 680,
+      "surugayaPrice": 390,
       "surugayaSoldOut": false,
       "raritySlug": "sr",
       "surugayaBuyPrice": null
@@ -1006,10 +1006,10 @@
       "category": "ポケモン",
       "energyType": "悪",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN228514",
-      "surugayaPrice": 6480,
+      "surugayaPrice": 5980,
       "surugayaSoldOut": false,
       "raritySlug": "sar",
-      "surugayaBuyPrice": 4000
+      "surugayaBuyPrice": 3000
     },
     {
       "name": "オーリム博士の気迫",
@@ -1018,7 +1018,7 @@
       "category": "サポート",
       "energyType": "",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN228515",
-      "surugayaPrice": 1680,
+      "surugayaPrice": 970,
       "surugayaSoldOut": false,
       "raritySlug": "sar",
       "surugayaBuyPrice": 800
@@ -1068,7 +1068,7 @@
       "surugayaPrice": 3300,
       "surugayaSoldOut": true,
       "raritySlug": "ur",
-      "surugayaBuyPrice": 2000
+      "surugayaBuyPrice": 1500
     },
     {
       "name": "コソクムシ",
