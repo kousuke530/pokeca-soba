@@ -2,7 +2,7 @@
   "pack": "拡張パック「ムニキスゼロ」",
   "packSlug": "m3",
   "source": "surugaya",
-  "collectedAt": "2026-10-10T03:53:25.611Z",
+  "collectedAt": "2026-10-12T22:20:17.698Z",
   "count": 117,
   "cards": [
     {
@@ -671,9 +671,9 @@
       "rarity": "RR",
       "category": "ポケモン",
       "energyType": "",
-      "surugayaUrl": "/product/other/GU584321",
-      "surugayaPrice": 720,
-      "surugayaSoldOut": true,
+      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU584321",
+      "surugayaPrice": 980,
+      "surugayaSoldOut": false,
       "raritySlug": "rr",
       "surugayaBuyPrice": null
     },
@@ -871,7 +871,7 @@
       "category": "エネルギー",
       "energyType": "",
       "surugayaUrl": "/product/other/GU584328",
-      "surugayaPrice": 440,
+      "surugayaPrice": 430,
       "surugayaSoldOut": true,
       "raritySlug": "r",
       "surugayaBuyPrice": null
@@ -904,11 +904,10 @@
       "rarity": "AR",
       "category": "ポケモン",
       "energyType": "草",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU584303",
-      "surugayaPrice": 300,
-      "surugayaSoldOut": false,
-      "raritySlug": "ar",
-      "surugayaBuyPrice": null
+      "surugayaUrl": "/product/other/GU584303",
+      "surugayaPrice": 270,
+      "surugayaSoldOut": true,
+      "raritySlug": "ar"
     },
     {
       "name": "ファイアロー",
@@ -1113,7 +1112,7 @@
       "category": "ポケモン",
       "energyType": "",
       "surugayaUrl": "/product/other/GU584291",
-      "surugayaPrice": 1630,
+      "surugayaPrice": 1600,
       "surugayaSoldOut": true,
       "raritySlug": "sr",
       "surugayaBuyPrice": 1200
@@ -1158,9 +1157,9 @@
       "rarity": "SR",
       "category": "グッズ",
       "energyType": "",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU584295",
-      "surugayaPrice": 280,
-      "surugayaSoldOut": false,
+      "surugayaUrl": "/product/other/GU584295",
+      "surugayaPrice": 150,
+      "surugayaSoldOut": true,
       "raritySlug": "sr"
     },
     {
@@ -1194,7 +1193,7 @@
       "category": "サポート",
       "energyType": "",
       "surugayaUrl": "/product/other/GU584298",
-      "surugayaPrice": 1080,
+      "surugayaPrice": 1060,
       "surugayaSoldOut": true,
       "raritySlug": "sr",
       "surugayaBuyPrice": 1100

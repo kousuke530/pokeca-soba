@@ -2,7 +2,7 @@
   "pack": "ハイクラスパック 「テラスタルフェスex」",
   "packSlug": "sv8a",
   "source": "surugaya",
-  "collectedAt": "2026-10-10T03:48:11.867Z",
+  "collectedAt": "2026-10-12T22:14:49.009Z",
   "count": 479,
   "cards": [
     {
@@ -35,7 +35,7 @@
       "category": "ポケモン",
       "energyType": "草",
       "surugayaUrl": "/product/other/GN764732",
-      "surugayaPrice": 89,
+      "surugayaPrice": 140,
       "surugayaSoldOut": true,
       "raritySlug": "mirror"
     },
@@ -389,9 +389,9 @@
       "rarity": "ミラー",
       "category": "ポケモン",
       "energyType": "草",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN764742",
-      "surugayaPrice": 180,
-      "surugayaSoldOut": false,
+      "surugayaUrl": "/product/other/GN764742",
+      "surugayaPrice": 100,
+      "surugayaSoldOut": true,
       "raritySlug": "mirror"
     },
     {
@@ -400,9 +400,9 @@
       "rarity": "ノーマル",
       "category": "ポケモン",
       "energyType": "草",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN764924",
-      "surugayaPrice": 160,
-      "surugayaSoldOut": false,
+      "surugayaUrl": "/product/detail/GN764924?tenpo_cd=410018",
+      "surugayaPrice": 29,
+      "surugayaSoldOut": true,
       "raritySlug": "n"
     },
     {
@@ -777,7 +777,7 @@
       "category": "ポケモン",
       "energyType": "水",
       "surugayaUrl": "/product/other/GN764608",
-      "surugayaPrice": 250,
+      "surugayaPrice": 200,
       "surugayaSoldOut": true,
       "raritySlug": "mb"
     },
@@ -788,7 +788,7 @@
       "category": "ポケモン",
       "energyType": "水",
       "surugayaUrl": "/product/detail/GN764752?tenpo_cd=400500",
-      "surugayaPrice": 180,
+      "surugayaPrice": 220,
       "surugayaSoldOut": true,
       "raritySlug": "mirror"
     },
@@ -1392,7 +1392,7 @@
       "category": "ポケモン",
       "energyType": "雷",
       "surugayaUrl": "/product/other/GN764768",
-      "surugayaPrice": 230,
+      "surugayaPrice": 250,
       "surugayaSoldOut": true,
       "raritySlug": "mirror"
     },
@@ -1403,7 +1403,7 @@
       "category": "ポケモン",
       "energyType": "雷",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN764567",
-      "surugayaPrice": 280,
+      "surugayaPrice": 180,
       "surugayaSoldOut": false,
       "raritySlug": "rr"
     },
@@ -2062,7 +2062,7 @@
       "category": "ポケモン",
       "energyType": "超",
       "surugayaUrl": "/product/other/GN764786",
-      "surugayaPrice": 252,
+      "surugayaPrice": 238,
       "surugayaSoldOut": true,
       "raritySlug": "mirror"
     },
@@ -2904,7 +2904,7 @@
       "category": "ポケモン",
       "energyType": "鋼",
       "surugayaUrl": "/product/other/GN764665",
-      "surugayaPrice": 270,
+      "surugayaPrice": 260,
       "surugayaSoldOut": true,
       "raritySlug": "mb"
     },
@@ -2915,9 +2915,10 @@
       "category": "ポケモン",
       "energyType": "鋼",
       "surugayaUrl": "/product/other/GN764809",
-      "surugayaPrice": 230,
+      "surugayaPrice": 380,
       "surugayaSoldOut": true,
-      "raritySlug": "mirror"
+      "raritySlug": "mirror",
+      "surugayaBuyPrice": null
     },
     {
       "name": "ジラーチ",
@@ -2937,7 +2938,7 @@
       "category": "ポケモン",
       "energyType": "鋼",
       "surugayaUrl": "/product/other/GN764666",
-      "surugayaPrice": 820,
+      "surugayaPrice": 1000,
       "surugayaSoldOut": true,
       "raritySlug": "mb",
       "surugayaBuyPrice": 600
@@ -4768,7 +4769,7 @@
       "category": "エネルギー",
       "energyType": "",
       "surugayaUrl": "/product/detail/GN764875?tenpo_cd=400464",
-      "surugayaPrice": 140,
+      "surugayaPrice": 160,
       "surugayaSoldOut": true,
       "raritySlug": "mirror"
     },
@@ -4957,7 +4958,7 @@
       "category": "ポケモン",
       "energyType": "炎",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN764503",
-      "surugayaPrice": 1390,
+      "surugayaPrice": 2280,
       "surugayaSoldOut": false,
       "raritySlug": "sar",
       "surugayaBuyPrice": 1000
@@ -4969,7 +4970,7 @@
       "category": "ポケモン",
       "energyType": "炎",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN764504",
-      "surugayaPrice": 470,
+      "surugayaPrice": 780,
       "surugayaSoldOut": false,
       "raritySlug": "sar",
       "surugayaBuyPrice": null
@@ -5068,7 +5069,7 @@
       "surugayaPrice": 16800,
       "surugayaSoldOut": false,
       "raritySlug": "sar",
-      "surugayaBuyPrice": 9000
+      "surugayaBuyPrice": 8000
     },
     {
       "name": "テツノブジンex",
@@ -5112,9 +5113,9 @@
       "rarity": "SAR",
       "category": "ポケモン",
       "energyType": "闘",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN764516",
-      "surugayaPrice": 500,
-      "surugayaSoldOut": false,
+      "surugayaUrl": "/product/other/GN764516",
+      "surugayaPrice": 650,
+      "surugayaSoldOut": true,
       "raritySlug": "sar",
       "surugayaBuyPrice": null
     },
@@ -5149,7 +5150,7 @@
       "category": "ポケモン",
       "energyType": "悪",
       "surugayaUrl": "/product/other/GN764519",
-      "surugayaPrice": 440,
+      "surugayaPrice": 410,
       "surugayaSoldOut": true,
       "raritySlug": "sar",
       "surugayaBuyPrice": null
@@ -5185,10 +5186,10 @@
       "category": "ポケモン",
       "energyType": "ドラゴン",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN764522",
-      "surugayaPrice": 1280,
+      "surugayaPrice": 1180,
       "surugayaSoldOut": false,
       "raritySlug": "sar",
-      "surugayaBuyPrice": 600
+      "surugayaBuyPrice": 500
     },
     {
       "name": "イーブイex",
@@ -5245,7 +5246,7 @@
       "category": "サポート",
       "energyType": "",
       "surugayaUrl": "/product/other/GN764527",
-      "surugayaPrice": 730,
+      "surugayaPrice": 710,
       "surugayaSoldOut": true,
       "raritySlug": "sar",
       "surugayaBuyPrice": null
@@ -5316,9 +5317,9 @@
       "rarity": "UR",
       "category": "ポケモン",
       "energyType": "草",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN764495",
-      "surugayaPrice": 580,
-      "surugayaSoldOut": false,
+      "surugayaUrl": "/product/other/GN764495",
+      "surugayaPrice": 441,
+      "surugayaSoldOut": true,
       "raritySlug": "ur",
       "surugayaBuyPrice": null
     },

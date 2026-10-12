@@ -2,7 +2,7 @@
   "pack": "拡張パック「ニンジャスピナー」",
   "packSlug": "m4",
   "source": "surugaya",
-  "collectedAt": "2026-10-10T03:53:41.402Z",
+  "collectedAt": "2026-10-12T22:20:34.041Z",
   "count": 120,
   "cards": [
     {
@@ -1166,9 +1166,9 @@
       "rarity": "SR",
       "category": "グッズ",
       "energyType": "",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU634056",
-      "surugayaPrice": 280,
-      "surugayaSoldOut": false,
+      "surugayaUrl": "/product/other/GU634056",
+      "surugayaPrice": 59,
+      "surugayaSoldOut": true,
       "raritySlug": "sr"
     },
     {
@@ -1330,7 +1330,7 @@
       "category": "サポート",
       "energyType": "",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU634070",
-      "surugayaPrice": 1180,
+      "surugayaPrice": 590,
       "surugayaSoldOut": false,
       "raritySlug": "sar",
       "surugayaBuyPrice": null

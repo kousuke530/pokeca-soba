@@ -2,7 +2,7 @@
   "pack": "拡張パック「バトルパートナーズ」",
   "packSlug": "sv9",
   "source": "surugaya",
-  "collectedAt": "2026-10-10T03:48:32.711Z",
+  "collectedAt": "2026-10-12T22:15:10.027Z",
   "count": 169,
   "cards": [
     {
@@ -265,7 +265,7 @@
       "category": "グッズ",
       "energyType": "",
       "surugayaUrl": "/product/other/GN833005",
-      "surugayaPrice": 73,
+      "surugayaPrice": 100,
       "surugayaSoldOut": true,
       "raritySlug": "n"
     },
@@ -660,9 +660,9 @@
       "rarity": "RR",
       "category": "ポケモン",
       "energyType": "超",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN832729",
-      "surugayaPrice": 160,
-      "surugayaSoldOut": false,
+      "surugayaUrl": "/product/other/GN832729",
+      "surugayaPrice": 79,
+      "surugayaSoldOut": true,
       "raritySlug": "rr"
     },
     {
@@ -1577,7 +1577,7 @@
       "category": "ポケモン",
       "energyType": "超",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN832719",
-      "surugayaPrice": 780,
+      "surugayaPrice": 680,
       "surugayaSoldOut": false,
       "raritySlug": "ar",
       "surugayaBuyPrice": null
@@ -1600,10 +1600,9 @@
       "category": "ポケモン",
       "energyType": "闘",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN832721",
-      "surugayaPrice": 480,
+      "surugayaPrice": 280,
       "surugayaSoldOut": false,
-      "raritySlug": "ar",
-      "surugayaBuyPrice": null
+      "raritySlug": "ar"
     },
     {
       "name": "Nのゾロア",

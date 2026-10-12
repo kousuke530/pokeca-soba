@@ -2,7 +2,7 @@
   "pack": "拡張パック「未来の一閃」",
   "packSlug": "sv4m",
   "source": "surugaya",
-  "collectedAt": "2026-10-10T03:44:44.057Z",
+  "collectedAt": "2026-10-12T22:11:13.243Z",
   "count": 95,
   "cards": [
     {
@@ -627,8 +627,8 @@
       "rarity": "RR",
       "category": "ポケモン",
       "energyType": "",
-      "surugayaUrl": "/product/other/GN228578",
-      "surugayaPrice": 60,
+      "surugayaUrl": "/product/detail/GN228578?tenpo_cd=410011",
+      "surugayaPrice": 280,
       "surugayaSoldOut": true,
       "raritySlug": "rr"
     },
@@ -804,7 +804,7 @@
       "category": "ポケモン",
       "energyType": "超",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN228594",
-      "surugayaPrice": 170,
+      "surugayaPrice": 280,
       "surugayaSoldOut": false,
       "raritySlug": "ar"
     },
@@ -1039,9 +1039,9 @@
       "rarity": "UR",
       "category": "ポケモン",
       "energyType": "超",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN228614",
-      "surugayaPrice": 680,
-      "surugayaSoldOut": false,
+      "surugayaUrl": "/product/other/GN228614",
+      "surugayaPrice": 630,
+      "surugayaSoldOut": true,
       "raritySlug": "ur",
       "surugayaBuyPrice": null
     },

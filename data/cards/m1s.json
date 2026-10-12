@@ -2,7 +2,7 @@
   "pack": "拡張パック「メガシンフォニア」",
   "packSlug": "m1s",
   "source": "surugaya",
-  "collectedAt": "2026-10-10T03:50:43.305Z",
+  "collectedAt": "2026-10-12T22:17:26.261Z",
   "count": 92,
   "cards": [
     {
@@ -850,9 +850,10 @@
       "category": "ポケモン",
       "energyType": "雷",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU362626",
-      "surugayaPrice": 290,
+      "surugayaPrice": 480,
       "surugayaSoldOut": false,
-      "raritySlug": "sr"
+      "raritySlug": "sr",
+      "surugayaBuyPrice": null
     },
     {
       "name": "メガサーナイトex",
@@ -885,7 +886,7 @@
       "category": "ポケモン",
       "energyType": "",
       "surugayaUrl": "/product/other/GU362629",
-      "surugayaPrice": 440,
+      "surugayaPrice": 430,
       "surugayaSoldOut": true,
       "raritySlug": "sr",
       "surugayaBuyPrice": null
@@ -1004,7 +1005,7 @@
       "surugayaPrice": 3480,
       "surugayaSoldOut": false,
       "raritySlug": "sar",
-      "surugayaBuyPrice": 1500
+      "surugayaBuyPrice": 1000
     },
     {
       "name": "ミツルの思いやり",
