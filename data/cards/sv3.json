@@ -2,7 +2,7 @@
   "pack": "拡張パック「黒炎の支配者」",
   "packSlug": "sv3",
   "source": "surugaya",
-  "collectedAt": "2026-10-10T03:43:59.437Z",
+  "collectedAt": "2026-10-13T03:01:39.257Z",
   "count": 175,
   "cards": [
     {
@@ -265,7 +265,7 @@
       "rarity": "ノーマル",
       "category": "グッズ",
       "energyType": "",
-      "surugayaUrl": "/product/other/GN104855",
+      "surugayaUrl": "/product/detail/GN104855?tenpo_cd=410011",
       "surugayaPrice": 80,
       "surugayaSoldOut": true,
       "raritySlug": "n"
@@ -353,8 +353,8 @@
       "rarity": "ノーマル",
       "category": "グッズ",
       "energyType": "",
-      "surugayaUrl": "/product/other/GN104859",
-      "surugayaPrice": 60,
+      "surugayaUrl": "/product/detail/GN104859?tenpo_cd=400521",
+      "surugayaPrice": 180,
       "surugayaSoldOut": true,
       "raritySlug": "n"
     },
@@ -419,7 +419,7 @@
       "rarity": "ノーマル",
       "category": "グッズ",
       "energyType": "",
-      "surugayaUrl": "/product/other/GN104862",
+      "surugayaUrl": "/product/detail/GN104862?tenpo_cd=410011",
       "surugayaPrice": 80,
       "surugayaSoldOut": true,
       "raritySlug": "n"
@@ -431,7 +431,7 @@
       "category": "ポケモン",
       "energyType": "炎",
       "surugayaUrl": "/product/other/GN104267",
-      "surugayaPrice": 40,
+      "surugayaPrice": 59,
       "surugayaSoldOut": true,
       "raritySlug": "rr"
     },
@@ -1191,7 +1191,7 @@
       "category": "ポケモン",
       "energyType": "悪",
       "surugayaUrl": "/product/other/GN104320",
-      "surugayaPrice": 60,
+      "surugayaPrice": 65,
       "surugayaSoldOut": true,
       "raritySlug": "rr"
     },
@@ -1844,9 +1844,10 @@
       "category": "サポート",
       "energyType": "",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN104379",
-      "surugayaPrice": 230,
+      "surugayaPrice": 380,
       "surugayaSoldOut": false,
-      "raritySlug": "sr"
+      "raritySlug": "sr",
+      "surugayaBuyPrice": null
     },
     {
       "name": "コオリッポex",
@@ -1903,7 +1904,7 @@
       "category": "サポート",
       "energyType": "",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN104384",
-      "surugayaPrice": 980,
+      "surugayaPrice": 780,
       "surugayaSoldOut": false,
       "raritySlug": "sar",
       "surugayaBuyPrice": null
@@ -1939,7 +1940,7 @@
       "category": "スタジアム",
       "energyType": "",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN104387",
-      "surugayaPrice": 980,
+      "surugayaPrice": 580,
       "surugayaSoldOut": false,
       "raritySlug": "ur",
       "surugayaBuyPrice": null

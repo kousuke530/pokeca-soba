@@ -2,7 +2,7 @@
   "pack": "強化拡張パック「クリムゾンヘイズ」",
   "packSlug": "sv5a",
   "source": "surugaya",
-  "collectedAt": "2026-10-12T22:12:43.850Z",
+  "collectedAt": "2026-10-13T03:03:51.539Z",
   "count": 96,
   "cards": [
     {
@@ -716,9 +716,9 @@
       "rarity": "U",
       "category": "スタジアム",
       "energyType": "",
-      "surugayaUrl": "/product/other/GN446051",
-      "surugayaPrice": 19,
-      "surugayaSoldOut": true,
+      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN446051",
+      "surugayaPrice": 160,
+      "surugayaSoldOut": false,
       "raritySlug": "u"
     },
     {
@@ -995,7 +995,7 @@
       "category": "ポケモン",
       "energyType": "草",
       "surugayaUrl": "/product/other/GN446075",
-      "surugayaPrice": 920,
+      "surugayaPrice": 930,
       "surugayaSoldOut": true,
       "raritySlug": "sar",
       "surugayaBuyPrice": 800

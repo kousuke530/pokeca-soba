@@ -2,7 +2,7 @@
   "pack": "強化拡張パック「レイジングサーフ」",
   "packSlug": "sv3a",
   "source": "surugaya",
-  "collectedAt": "2026-10-10T03:44:11.236Z",
+  "collectedAt": "2026-10-13T03:01:50.883Z",
   "count": 92,
   "cards": [
     {
@@ -528,7 +528,7 @@
       "rarity": "R",
       "category": "ポケモン",
       "energyType": "鋼",
-      "surugayaUrl": "/product/other/GN170291",
+      "surugayaUrl": "/product/detail/GN170291?tenpo_cd=410018",
       "surugayaPrice": 54,
       "surugayaSoldOut": true,
       "raritySlug": "r"
@@ -776,10 +776,11 @@
       "rarity": "AR",
       "category": "ポケモン",
       "energyType": "闘",
-      "surugayaUrl": "/product/other/GN170313",
-      "surugayaPrice": 290,
-      "surugayaSoldOut": true,
-      "raritySlug": "ar"
+      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN170313",
+      "surugayaPrice": 480,
+      "surugayaSoldOut": false,
+      "raritySlug": "ar",
+      "surugayaBuyPrice": null
     },
     {
       "name": "イベルタル",
@@ -788,7 +789,7 @@
       "category": "ポケモン",
       "energyType": "悪",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN170314",
-      "surugayaPrice": 470,
+      "surugayaPrice": 410,
       "surugayaSoldOut": false,
       "raritySlug": "ar",
       "surugayaBuyPrice": null
