@@ -2,8 +2,8 @@
   "pack": "スターターセットMEGA メガゲンガーex",
   "packSlug": "mbg",
   "source": "surugaya",
-  "collectedAt": "2026-10-13T03:09:05.689Z",
-  "count": 17,
+  "collectedAt": "2026-10-15T04:26:38.689Z",
+  "count": 18,
   "cards": [
     {
       "name": "ゴース",
@@ -11,8 +11,8 @@
       "rarity": "ノーマル",
       "category": "ポケモン",
       "energyType": "悪",
-      "surugayaUrl": "/product/detail/GU404859?tenpo_cd=410011",
-      "surugayaPrice": 80,
+      "surugayaUrl": "/product/other/GU404859",
+      "surugayaPrice": 19,
       "surugayaSoldOut": true,
       "raritySlug": "n"
     },
@@ -57,6 +57,17 @@
       "category": "ポケモン",
       "energyType": "悪",
       "surugayaUrl": "/product/detail/GU404863?tenpo_cd=410018",
+      "surugayaPrice": 19,
+      "surugayaSoldOut": true,
+      "raritySlug": "n"
+    },
+    {
+      "name": "アブソル",
+      "cardNumber": "007/021",
+      "rarity": "ノーマル",
+      "category": "ポケモン",
+      "energyType": "悪",
+      "surugayaUrl": "/product/detail/GU404865?tenpo_cd=410018",
       "surugayaPrice": 19,
       "surugayaSoldOut": true,
       "raritySlug": "n"
@@ -113,7 +124,7 @@
       "rarity": "ノーマル",
       "category": "グッズ",
       "energyType": "",
-      "surugayaUrl": "/product/detail/GU404871?tenpo_cd=410018",
+      "surugayaUrl": "/product/other/GU404871",
       "surugayaPrice": 89,
       "surugayaSoldOut": true,
       "raritySlug": "n"
