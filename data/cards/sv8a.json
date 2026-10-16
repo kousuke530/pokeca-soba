@@ -2,8 +2,8 @@
   "pack": "ハイクラスパック 「テラスタルフェスex」",
   "packSlug": "sv8a",
   "source": "surugaya",
-  "collectedAt": "2026-10-15T04:24:01.978Z",
-  "count": 479,
+  "collectedAt": "2026-10-16T00:16:48.550Z",
+  "count": 480,
   "cards": [
     {
       "name": "スボミー",
@@ -2119,7 +2119,7 @@
       "category": "ポケモン",
       "energyType": "超",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN764644",
-      "surugayaPrice": 280,
+      "surugayaPrice": 180,
       "surugayaSoldOut": false,
       "raritySlug": "mb"
     },
@@ -2531,6 +2531,17 @@
       "surugayaPrice": 160,
       "surugayaSoldOut": false,
       "raritySlug": "rr"
+    },
+    {
+      "name": "ブラッキー",
+      "cardNumber": "092/187",
+      "rarity": "ノーマル",
+      "category": "ポケモン",
+      "energyType": "悪",
+      "surugayaUrl": "/product/detail/GN764956?tenpo_cd=410018",
+      "surugayaPrice": 79,
+      "surugayaSoldOut": true,
+      "raritySlug": "n"
     },
     {
       "name": "ブラッキー",
@@ -5164,10 +5175,10 @@
       "category": "ポケモン",
       "energyType": "鋼",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN764520",
-      "surugayaPrice": 1080,
+      "surugayaPrice": 780,
       "surugayaSoldOut": false,
       "raritySlug": "sar",
-      "surugayaBuyPrice": 500
+      "surugayaBuyPrice": null
     },
     {
       "name": "ドラパルトex",

@@ -2,7 +2,7 @@
   "pack": "拡張パック「黒炎の支配者」",
   "packSlug": "sv3",
   "source": "surugaya",
-  "collectedAt": "2026-10-14T02:53:12.371Z",
+  "collectedAt": "2026-10-16T00:12:40.159Z",
   "count": 175,
   "cards": [
     {
@@ -1124,10 +1124,9 @@
       "category": "ポケモン",
       "energyType": "悪",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN104313",
-      "surugayaPrice": 380,
+      "surugayaPrice": 170,
       "surugayaSoldOut": false,
-      "raritySlug": "rr",
-      "surugayaBuyPrice": null
+      "raritySlug": "rr"
     },
     {
       "name": "パルデア ウパー",
@@ -1521,7 +1520,7 @@
       "category": "サポート",
       "energyType": "",
       "surugayaUrl": "/product/other/GN104350",
-      "surugayaPrice": 49,
+      "surugayaPrice": 40,
       "surugayaSoldOut": true,
       "raritySlug": "r"
     },
@@ -1587,10 +1586,10 @@
       "category": "ポケモン",
       "energyType": "炎",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN104357",
-      "surugayaPrice": 870,
+      "surugayaPrice": 760,
       "surugayaSoldOut": false,
       "raritySlug": "ar",
-      "surugayaBuyPrice": 700
+      "surugayaBuyPrice": 600
     },
     {
       "name": "イルカマン",
@@ -1624,7 +1623,7 @@
       "surugayaPrice": 730,
       "surugayaSoldOut": false,
       "raritySlug": "ar",
-      "surugayaBuyPrice": 600
+      "surugayaBuyPrice": 500
     },
     {
       "name": "ヨーギラス",
@@ -1701,10 +1700,9 @@
       "category": "ポケモン",
       "energyType": "",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN104367",
-      "surugayaPrice": 380,
+      "surugayaPrice": 280,
       "surugayaSoldOut": false,
-      "raritySlug": "ar",
-      "surugayaBuyPrice": null
+      "raritySlug": "ar"
     },
     {
       "name": "コオリッポex",
@@ -1939,9 +1937,9 @@
       "rarity": "UR",
       "category": "スタジアム",
       "energyType": "",
-      "surugayaUrl": "/product/other/GN104387",
-      "surugayaPrice": 400,
-      "surugayaSoldOut": true,
+      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN104387",
+      "surugayaPrice": 580,
+      "surugayaSoldOut": false,
       "raritySlug": "ur",
       "surugayaBuyPrice": null
     },
