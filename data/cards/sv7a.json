@@ -2,7 +2,7 @@
   "pack": "強化拡張パック「楽園ドラゴーナ」",
   "packSlug": "sv7a",
   "source": "surugaya",
-  "collectedAt": "2026-10-17T00:54:58.684Z",
+  "collectedAt": "2026-10-19T07:58:02.196Z",
   "count": 93,
   "cards": [
     {
@@ -728,10 +728,9 @@
       "category": "ポケモン",
       "energyType": "草",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN660823",
-      "surugayaPrice": 380,
+      "surugayaPrice": 280,
       "surugayaSoldOut": false,
-      "raritySlug": "ar",
-      "surugayaBuyPrice": null
+      "raritySlug": "ar"
     },
     {
       "name": "ポワルン たいようのすがた",
@@ -776,7 +775,7 @@
       "category": "ポケモン",
       "energyType": "超",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN660827",
-      "surugayaPrice": 780,
+      "surugayaPrice": 1580,
       "surugayaSoldOut": false,
       "raritySlug": "ar",
       "surugayaBuyPrice": 700
@@ -856,7 +855,7 @@
       "category": "ポケモン",
       "energyType": "超",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN660813",
-      "surugayaPrice": 970,
+      "surugayaPrice": 1680,
       "surugayaSoldOut": false,
       "raritySlug": "sr",
       "surugayaBuyPrice": 800
@@ -1003,7 +1002,7 @@
       "surugayaPrice": 780,
       "surugayaSoldOut": false,
       "raritySlug": "sar",
-      "surugayaBuyPrice": null
+      "surugayaBuyPrice": 300
     },
     {
       "name": "ルチアのアピール",
@@ -1027,7 +1026,7 @@
       "surugayaPrice": 780,
       "surugayaSoldOut": false,
       "raritySlug": "ur",
-      "surugayaBuyPrice": null
+      "surugayaBuyPrice": 350
     },
     {
       "name": "カウンターゲイン",
@@ -1039,7 +1038,7 @@
       "surugayaPrice": 880,
       "surugayaSoldOut": false,
       "raritySlug": "ur",
-      "surugayaBuyPrice": null
+      "surugayaBuyPrice": 300
     },
     {
       "name": "ジェットエネルギー",
@@ -1051,7 +1050,7 @@
       "surugayaPrice": 780,
       "surugayaSoldOut": false,
       "raritySlug": "ur",
-      "surugayaBuyPrice": null
+      "surugayaBuyPrice": 300
     }
   ]
 }

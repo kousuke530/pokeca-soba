@@ -2,7 +2,7 @@
   "pack": "スタートデッキ100 バトルコレクション",
   "packSlug": "mc",
   "source": "surugaya",
-  "collectedAt": "2026-10-17T01:00:56.807Z",
+  "collectedAt": "2026-10-19T08:04:14.300Z",
   "count": 625,
   "cards": [
     {
@@ -365,9 +365,9 @@
       "rarity": "ノーマル",
       "category": "ポケモン",
       "energyType": "草",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU542902",
-      "surugayaPrice": 1280,
-      "surugayaSoldOut": false,
+      "surugayaUrl": "/product/other/GU542902",
+      "surugayaPrice": 1030,
+      "surugayaSoldOut": true,
       "raritySlug": "n",
       "surugayaBuyPrice": 500
     },
@@ -1788,11 +1788,11 @@
       "rarity": "ノーマル",
       "category": "ポケモン",
       "energyType": "水",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU542992",
-      "surugayaPrice": 780,
+      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU542920",
+      "surugayaPrice": 980,
       "surugayaSoldOut": false,
       "raritySlug": "n",
-      "surugayaBuyPrice": null
+      "surugayaBuyPrice": 300
     },
     {
       "name": "ニューラ",
@@ -2968,7 +2968,7 @@
       "rarity": "ノーマル",
       "category": "ポケモン",
       "energyType": "超",
-      "surugayaUrl": "/product/other/GU542934",
+      "surugayaUrl": "/product/other/GU543011",
       "surugayaPrice": 180,
       "surugayaSoldOut": true,
       "raritySlug": "n"
@@ -5725,7 +5725,7 @@
       "category": "グッズ",
       "energyType": "",
       "surugayaUrl": "/product/other/GU543673",
-      "surugayaPrice": 1050,
+      "surugayaPrice": 1080,
       "surugayaSoldOut": true,
       "raritySlug": "n",
       "surugayaBuyPrice": 500
@@ -6728,7 +6728,7 @@
       "surugayaPrice": 1080,
       "surugayaSoldOut": false,
       "raritySlug": "n",
-      "surugayaBuyPrice": null
+      "surugayaBuyPrice": 400
     },
     {
       "name": "カポエラー",
@@ -6740,7 +6740,7 @@
       "surugayaPrice": 780,
       "surugayaSoldOut": false,
       "raritySlug": "n",
-      "surugayaBuyPrice": null
+      "surugayaBuyPrice": 300
     },
     {
       "name": "メレシー",
@@ -6752,7 +6752,7 @@
       "surugayaPrice": 980,
       "surugayaSoldOut": false,
       "raritySlug": "n",
-      "surugayaBuyPrice": null
+      "surugayaBuyPrice": 300
     },
     {
       "name": "グラエナ",
@@ -6764,7 +6764,7 @@
       "surugayaPrice": 980,
       "surugayaSoldOut": false,
       "raritySlug": "n",
-      "surugayaBuyPrice": null
+      "surugayaBuyPrice": 300
     },
     {
       "name": "クチート",
@@ -6785,7 +6785,7 @@
       "category": "ポケモン",
       "energyType": "",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU542893",
-      "surugayaPrice": 7700,
+      "surugayaPrice": 12800,
       "surugayaSoldOut": false,
       "raritySlug": "n",
       "surugayaBuyPrice": 5000
@@ -6800,7 +6800,7 @@
       "surugayaPrice": 980,
       "surugayaSoldOut": false,
       "raritySlug": "n",
-      "surugayaBuyPrice": null
+      "surugayaBuyPrice": 300
     },
     {
       "name": "ニャオハex",
@@ -6836,7 +6836,7 @@
       "surugayaPrice": 980,
       "surugayaSoldOut": false,
       "raritySlug": "n",
-      "surugayaBuyPrice": null
+      "surugayaBuyPrice": 300
     },
     {
       "name": "ボスの指令(カラスバ)",
@@ -6904,11 +6904,11 @@
       "rarity": "ノーマル",
       "category": "ポケモン",
       "energyType": "",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU542901",
-      "surugayaPrice": 32800,
-      "surugayaSoldOut": false,
+      "surugayaUrl": "/product/other/GU542901",
+      "surugayaPrice": 29800,
+      "surugayaSoldOut": true,
       "raritySlug": "n",
-      "surugayaBuyPrice": 15000
+      "surugayaBuyPrice": 14000
     },
     {
       "name": "メガリザードンYex",

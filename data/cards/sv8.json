@@ -2,7 +2,7 @@
   "pack": "拡張パック「超電ブレイカー」",
   "packSlug": "sv8",
   "source": "surugaya",
-  "collectedAt": "2026-10-17T00:55:12.173Z",
+  "collectedAt": "2026-10-19T07:58:16.711Z",
   "count": 138,
   "cards": [
     {
@@ -1241,7 +1241,7 @@
       "surugayaPrice": 1080,
       "surugayaSoldOut": false,
       "raritySlug": "ar",
-      "surugayaBuyPrice": null
+      "surugayaBuyPrice": 400
     },
     {
       "name": "マッギョ",
@@ -1343,7 +1343,7 @@
       "category": "ポケモン",
       "energyType": "水",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN709425",
-      "surugayaPrice": 680,
+      "surugayaPrice": 580,
       "surugayaSoldOut": false,
       "raritySlug": "sr",
       "surugayaBuyPrice": null
@@ -1415,7 +1415,7 @@
       "category": "サポート",
       "energyType": "",
       "surugayaUrl": "/product/other/GN709431",
-      "surugayaPrice": 1200,
+      "surugayaPrice": 1320,
       "surugayaSoldOut": true,
       "raritySlug": "sr",
       "surugayaBuyPrice": 700
@@ -1499,10 +1499,10 @@
       "category": "サポート",
       "energyType": "",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN709421",
-      "surugayaPrice": 1080,
+      "surugayaPrice": 470,
       "surugayaSoldOut": false,
       "raritySlug": "sar",
-      "surugayaBuyPrice": 500
+      "surugayaBuyPrice": 300
     },
     {
       "name": "ミカンのまなざし",
@@ -1550,7 +1550,7 @@
       "surugayaPrice": 670,
       "surugayaSoldOut": true,
       "raritySlug": "ur",
-      "surugayaBuyPrice": null
+      "surugayaBuyPrice": 300
     }
   ]
 }

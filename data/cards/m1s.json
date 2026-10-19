@@ -2,7 +2,7 @@
   "pack": "拡張パック「メガシンフォニア」",
   "packSlug": "m1s",
   "source": "surugaya",
-  "collectedAt": "2026-10-17T00:58:27.450Z",
+  "collectedAt": "2026-10-19T08:01:41.185Z",
   "count": 92,
   "cards": [
     {
@@ -550,9 +550,9 @@
       "rarity": "U",
       "category": "ポケモン",
       "energyType": "ドラゴン",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU362672",
-      "surugayaPrice": 160,
-      "surugayaSoldOut": false,
+      "surugayaUrl": "/product/other/GU362672",
+      "surugayaPrice": 19,
+      "surugayaSoldOut": true,
       "raritySlug": "u"
     },
     {
@@ -886,7 +886,7 @@
       "category": "ポケモン",
       "energyType": "",
       "surugayaUrl": "/product/other/GU362629",
-      "surugayaPrice": 430,
+      "surugayaPrice": 420,
       "surugayaSoldOut": true,
       "raritySlug": "sr",
       "surugayaBuyPrice": null
@@ -931,10 +931,10 @@
       "category": "サポート",
       "energyType": "",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU362633",
-      "surugayaPrice": 710,
+      "surugayaPrice": 1180,
       "surugayaSoldOut": false,
       "raritySlug": "sr",
-      "surugayaBuyPrice": null
+      "surugayaBuyPrice": 300
     },
     {
       "name": "ミツルの思いやり",
@@ -981,7 +981,7 @@
       "surugayaPrice": 5480,
       "surugayaSoldOut": false,
       "raritySlug": "sar",
-      "surugayaBuyPrice": 1200
+      "surugayaBuyPrice": 1000
     },
     {
       "name": "メガガルーラex",

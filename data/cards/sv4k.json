@@ -2,7 +2,7 @@
   "pack": "拡張パック「古代の咆哮」",
   "packSlug": "sv4k",
   "source": "surugaya",
-  "collectedAt": "2026-10-17T00:52:17.902Z",
+  "collectedAt": "2026-10-19T07:55:10.291Z",
   "count": 96,
   "cards": [
     {
@@ -166,7 +166,7 @@
       "category": "ポケモン",
       "energyType": "炎",
       "surugayaUrl": "/product/other/GN228439",
-      "surugayaPrice": 45,
+      "surugayaPrice": 40,
       "surugayaSoldOut": true,
       "raritySlug": "rr"
     },
@@ -221,7 +221,7 @@
       "category": "ポケモン",
       "energyType": "水",
       "surugayaUrl": "/product/other/GN228444",
-      "surugayaPrice": 45,
+      "surugayaPrice": 40,
       "surugayaSoldOut": true,
       "raritySlug": "rr"
     },
@@ -243,7 +243,7 @@
       "category": "ポケモン",
       "energyType": "水",
       "surugayaUrl": "/product/other/GN228446",
-      "surugayaPrice": 45,
+      "surugayaPrice": 40,
       "surugayaSoldOut": true,
       "raritySlug": "rr"
     },
@@ -841,7 +841,7 @@
       "surugayaPrice": 560,
       "surugayaSoldOut": true,
       "raritySlug": "ar",
-      "surugayaBuyPrice": null
+      "surugayaBuyPrice": 400
     },
     {
       "name": "アラブルタケ",
@@ -879,14 +879,14 @@
       "surugayaBuyPrice": null
     },
     {
-      "name": "アマージョex",
+      "name": "【ランクB】アマージョex",
       "cardNumber": "080/066",
       "rarity": "SR",
       "category": "ポケモン",
       "energyType": "水",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN228504",
-      "surugayaPrice": 480,
-      "surugayaSoldOut": false,
+      "surugayaUrl": "/product/detail/GB228504?tenpo_cd=400500",
+      "surugayaPrice": 380,
+      "surugayaSoldOut": true,
       "raritySlug": "sr",
       "surugayaBuyPrice": null
     },
@@ -933,7 +933,7 @@
       "category": "ポケモン",
       "energyType": "悪",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN228508",
-      "surugayaPrice": 350,
+      "surugayaPrice": 580,
       "surugayaSoldOut": false,
       "raritySlug": "sr",
       "surugayaBuyPrice": null
@@ -1044,7 +1044,7 @@
       "surugayaPrice": 980,
       "surugayaSoldOut": false,
       "raritySlug": "ur",
-      "surugayaBuyPrice": null
+      "surugayaBuyPrice": 450
     },
     {
       "name": "ゴージャスマント",

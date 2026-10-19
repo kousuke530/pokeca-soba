@@ -2,7 +2,7 @@
   "pack": "拡張パック「ニンジャスピナー」",
   "packSlug": "m4",
   "source": "surugaya",
-  "collectedAt": "2026-10-17T01:01:26.411Z",
+  "collectedAt": "2026-10-19T08:04:45.689Z",
   "count": 120,
   "cards": [
     {
@@ -1088,7 +1088,7 @@
       "surugayaPrice": 1280,
       "surugayaSoldOut": false,
       "raritySlug": "sr",
-      "surugayaBuyPrice": null
+      "surugayaBuyPrice": 400
     },
     {
       "name": "メガフラエッテex",
@@ -1133,9 +1133,10 @@
       "category": "ポケモン",
       "energyType": "ドラゴン",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU634053",
-      "surugayaPrice": 290,
+      "surugayaPrice": 480,
       "surugayaSoldOut": false,
-      "raritySlug": "sr"
+      "raritySlug": "sr",
+      "surugayaBuyPrice": null
     },
     {
       "name": "チラチーノex",
@@ -1155,9 +1156,9 @@
       "rarity": "SR",
       "category": "グッズ",
       "energyType": "",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU634055",
-      "surugayaPrice": 180,
-      "surugayaSoldOut": false,
+      "surugayaUrl": "/product/other/GU634055",
+      "surugayaPrice": 100,
+      "surugayaSoldOut": true,
       "raritySlug": "sr"
     },
     {
@@ -1167,7 +1168,7 @@
       "category": "グッズ",
       "energyType": "",
       "surugayaUrl": "/product/other/GU634056",
-      "surugayaPrice": 59,
+      "surugayaPrice": 50,
       "surugayaSoldOut": true,
       "raritySlug": "sr"
     },
@@ -1259,7 +1260,7 @@
       "category": "スタジアム",
       "energyType": "",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU634064",
-      "surugayaPrice": 280,
+      "surugayaPrice": 180,
       "surugayaSoldOut": false,
       "raritySlug": "sr"
     },
@@ -1306,10 +1307,10 @@
       "category": "ポケモン",
       "energyType": "",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU634068",
-      "surugayaPrice": 3480,
+      "surugayaPrice": 2980,
       "surugayaSoldOut": false,
       "raritySlug": "sar",
-      "surugayaBuyPrice": 1500
+      "surugayaBuyPrice": 1000
     },
     {
       "name": "AZの安らぎ",
@@ -1321,7 +1322,7 @@
       "surugayaPrice": 980,
       "surugayaSoldOut": false,
       "raritySlug": "sar",
-      "surugayaBuyPrice": null
+      "surugayaBuyPrice": 400
     },
     {
       "name": "ホミカの演奏",
@@ -1330,10 +1331,10 @@
       "category": "サポート",
       "energyType": "",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU634070",
-      "surugayaPrice": 590,
+      "surugayaPrice": 980,
       "surugayaSoldOut": false,
       "raritySlug": "sar",
-      "surugayaBuyPrice": null
+      "surugayaBuyPrice": 300
     },
     {
       "name": "メガゲッコウガex",
