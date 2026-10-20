@@ -2,7 +2,7 @@
   "pack": "スタートデッキ100 バトルコレクション",
   "packSlug": "mc",
   "source": "surugaya",
-  "collectedAt": "2026-10-19T08:04:14.300Z",
+  "collectedAt": "2026-10-20T03:10:25.912Z",
   "count": 625,
   "cards": [
     {
@@ -818,9 +818,9 @@
       "rarity": "ノーマル",
       "category": "ポケモン",
       "energyType": "草",
-      "surugayaUrl": "/product/detail/GU542977?tenpo_cd=201206",
-      "surugayaPrice": 250,
-      "surugayaSoldOut": true,
+      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU542907",
+      "surugayaPrice": 180,
+      "surugayaSoldOut": false,
       "raritySlug": "n"
     },
     {
@@ -3904,7 +3904,7 @@
       "rarity": "ノーマル",
       "category": "ポケモン",
       "energyType": "闘",
-      "surugayaUrl": "/product/detail/GU543025?tenpo_cd=201206",
+      "surugayaUrl": "/product/other/GU543025",
       "surugayaPrice": 280,
       "surugayaSoldOut": true,
       "raritySlug": "n"
@@ -5725,7 +5725,7 @@
       "category": "グッズ",
       "energyType": "",
       "surugayaUrl": "/product/other/GU543673",
-      "surugayaPrice": 1080,
+      "surugayaPrice": 1050,
       "surugayaSoldOut": true,
       "raritySlug": "n",
       "surugayaBuyPrice": 500
@@ -6788,7 +6788,7 @@
       "surugayaPrice": 12800,
       "surugayaSoldOut": false,
       "raritySlug": "n",
-      "surugayaBuyPrice": 5000
+      "surugayaBuyPrice": 4500
     },
     {
       "name": "アオキのムクホーク",
@@ -6904,9 +6904,9 @@
       "rarity": "ノーマル",
       "category": "ポケモン",
       "energyType": "",
-      "surugayaUrl": "/product/other/GU542901",
+      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU542901",
       "surugayaPrice": 29800,
-      "surugayaSoldOut": true,
+      "surugayaSoldOut": false,
       "raritySlug": "n",
       "surugayaBuyPrice": 14000
     },

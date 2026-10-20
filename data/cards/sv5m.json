@@ -2,7 +2,7 @@
   "pack": "拡張パック「サイバージャッジ」",
   "packSlug": "sv5m",
   "source": "surugaya",
-  "collectedAt": "2026-10-19T07:56:28.556Z",
+  "collectedAt": "2026-10-20T03:03:09.409Z",
   "count": 100,
   "cards": [
     {
@@ -997,16 +997,16 @@
       "surugayaBuyPrice": null
     },
     {
-      "name": "暗号マニアの解読",
+      "name": "【ランクB】暗号マニアの解読",
       "cardNumber": "090/071",
       "rarity": "SR",
       "category": "サポート",
       "energyType": "",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN369901",
-      "surugayaPrice": 980,
-      "surugayaSoldOut": false,
+      "surugayaUrl": "/product/other/GB369901",
+      "surugayaPrice": 990,
+      "surugayaSoldOut": true,
       "raritySlug": "sr",
-      "surugayaBuyPrice": 400
+      "surugayaBuyPrice": null
     },
     {
       "name": "セイジ",

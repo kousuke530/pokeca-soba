@@ -2,7 +2,7 @@
   "pack": "ハイクラスパック 「シャイニートレジャーex」",
   "packSlug": "sv4a",
   "source": "surugaya",
-  "collectedAt": "2026-10-19T07:56:13.657Z",
+  "collectedAt": "2026-10-20T03:02:55.535Z",
   "count": 360,
   "cards": [
     {
@@ -909,13 +909,13 @@
       "raritySlug": "rr"
     },
     {
-      "name": "フワンテ",
+      "name": "(パラレル)フワンテ",
       "cardNumber": "083/190",
       "rarity": "ノーマル",
       "category": "ポケモン",
       "energyType": "超",
-      "surugayaUrl": "/product/detail/GN285214?tenpo_cd=410018",
-      "surugayaPrice": 37,
+      "surugayaUrl": "/product/detail/GN285215?tenpo_cd=410018",
+      "surugayaPrice": 103,
       "surugayaSoldOut": true,
       "raritySlug": "n"
     },
@@ -1712,13 +1712,13 @@
       "raritySlug": "n"
     },
     {
-      "name": "エレキジェネレーター",
+      "name": "(パラレル)エレキジェネレーター",
       "cardNumber": "156/190",
       "rarity": "ノーマル",
       "category": "グッズ",
       "energyType": "",
-      "surugayaUrl": "/product/other/GN285332",
-      "surugayaPrice": 35,
+      "surugayaUrl": "/product/other/GN285333",
+      "surugayaPrice": 109,
       "surugayaSoldOut": true,
       "raritySlug": "n"
     },
@@ -2740,7 +2740,7 @@
       "category": "ポケモン",
       "energyType": "雷",
       "surugayaUrl": "/product/other/GN285455",
-      "surugayaPrice": 160,
+      "surugayaPrice": 110,
       "surugayaSoldOut": true,
       "raritySlug": "s"
     },
@@ -2963,7 +2963,7 @@
       "category": "ポケモン",
       "energyType": "超",
       "surugayaUrl": "/product/other/GN285475",
-      "surugayaPrice": 200,
+      "surugayaPrice": 196,
       "surugayaSoldOut": true,
       "raritySlug": "s"
     },
@@ -3764,16 +3764,16 @@
       "surugayaBuyPrice": null
     },
     {
-      "name": "パモ",
+      "name": "【ランクB】パモ",
       "cardNumber": "340/190",
       "rarity": "AR",
       "category": "ポケモン",
       "energyType": "雷",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN285547",
-      "surugayaPrice": 780,
-      "surugayaSoldOut": false,
+      "surugayaUrl": "/product/detail/GB285547?tenpo_cd=400392",
+      "surugayaPrice": 411,
+      "surugayaSoldOut": true,
       "raritySlug": "ar",
-      "surugayaBuyPrice": 300
+      "surugayaBuyPrice": null
     },
     {
       "name": "ミミッキュ",
@@ -3950,7 +3950,7 @@
       "category": "ポケモン",
       "energyType": "草",
       "surugayaUrl": "/product/other/GN285562",
-      "surugayaPrice": 560,
+      "surugayaPrice": 554,
       "surugayaSoldOut": true,
       "raritySlug": "ur",
       "surugayaBuyPrice": null
@@ -3974,7 +3974,7 @@
       "category": "ポケモン",
       "energyType": "水",
       "surugayaUrl": "/product/other/GN285564",
-      "surugayaPrice": 580,
+      "surugayaPrice": 550,
       "surugayaSoldOut": true,
       "raritySlug": "ur",
       "surugayaBuyPrice": 300

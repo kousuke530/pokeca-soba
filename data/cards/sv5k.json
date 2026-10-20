@@ -2,8 +2,8 @@
   "pack": "拡張パック「ワイルドフォース」",
   "packSlug": "sv5k",
   "source": "surugaya",
-  "collectedAt": "2026-10-19T07:56:42.837Z",
-  "count": 99,
+  "collectedAt": "2026-10-20T03:03:22.442Z",
+  "count": 100,
   "cards": [
     {
       "name": "ロゼリア",
@@ -987,14 +987,14 @@
       "surugayaBuyPrice": 2800
     },
     {
-      "name": "【ランクB】タケルライコex",
+      "name": "タケルライコex",
       "cardNumber": "089/071",
       "rarity": "SR",
       "category": "ポケモン",
       "energyType": "ドラゴン",
-      "surugayaUrl": "/product/other/GB369798",
-      "surugayaPrice": 990,
-      "surugayaSoldOut": true,
+      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN369798",
+      "surugayaPrice": 580,
+      "surugayaSoldOut": false,
       "raritySlug": "sr",
       "surugayaBuyPrice": null
     },
@@ -1040,9 +1040,9 @@
       "rarity": "SAR",
       "category": "ポケモン",
       "energyType": "炎",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN369802",
-      "surugayaPrice": 3280,
-      "surugayaSoldOut": false,
+      "surugayaUrl": "/product/other/GN369802",
+      "surugayaPrice": 2380,
+      "surugayaSoldOut": true,
       "raritySlug": "sar",
       "surugayaBuyPrice": 1800
     },
@@ -1081,6 +1081,18 @@
       "surugayaSoldOut": true,
       "raritySlug": "sar",
       "surugayaBuyPrice": 500
+    },
+    {
+      "name": "マツバの確信",
+      "cardNumber": "097/071",
+      "rarity": "SAR",
+      "category": "サポート",
+      "energyType": "",
+      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN369806",
+      "surugayaPrice": 6980,
+      "surugayaSoldOut": false,
+      "raritySlug": "sar",
+      "surugayaBuyPrice": 3500
     },
     {
       "name": "ウガツホムラex",

@@ -2,7 +2,7 @@
   "pack": "拡張パック 「変幻の仮面」",
   "packSlug": "sv6",
   "source": "surugaya",
-  "collectedAt": "2026-10-19T07:57:10.949Z",
+  "collectedAt": "2026-10-20T03:03:48.687Z",
   "count": 132,
   "cards": [
     {
@@ -1013,9 +1013,10 @@
       "category": "グッズ",
       "energyType": "",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN486561",
-      "surugayaPrice": 290,
+      "surugayaPrice": 480,
       "surugayaSoldOut": false,
-      "raritySlug": "ace"
+      "raritySlug": "ace",
+      "surugayaBuyPrice": null
     },
     {
       "name": "ポケモン回収サイクロン",
@@ -1106,12 +1107,12 @@
       "raritySlug": "u"
     },
     {
-      "name": "【ランクB】レガシーエネルギー",
+      "name": "レガシーエネルギー",
       "cardNumber": "101/101",
       "rarity": "ACE",
       "category": "エネルギー",
       "energyType": "",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GB486570",
+      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN486570",
       "surugayaPrice": 160,
       "surugayaSoldOut": false,
       "raritySlug": "ace"
