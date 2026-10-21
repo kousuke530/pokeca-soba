@@ -2,7 +2,7 @@
   "pack": "拡張パック「ロケット団の栄光」",
   "packSlug": "sv10",
   "source": "surugaya",
-  "collectedAt": "2026-10-20T03:06:19.198Z",
+  "collectedAt": "2026-10-21T09:10:58.669Z",
   "count": 131,
   "cards": [
     {
@@ -902,9 +902,9 @@
       "rarity": "C",
       "category": "ポケモン",
       "energyType": "",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU166931",
-      "surugayaPrice": 160,
-      "surugayaSoldOut": false,
+      "surugayaUrl": "/product/other/GU166931",
+      "surugayaPrice": 29,
+      "surugayaSoldOut": true,
       "raritySlug": "c"
     },
     {
@@ -913,9 +913,9 @@
       "rarity": "U",
       "category": "ポケモン",
       "energyType": "",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU166875",
-      "surugayaPrice": 160,
-      "surugayaSoldOut": false,
+      "surugayaUrl": "/product/other/GU166875",
+      "surugayaPrice": 70,
+      "surugayaSoldOut": true,
       "raritySlug": "u"
     },
     {
@@ -1162,9 +1162,10 @@
       "category": "ポケモン",
       "energyType": "悪",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU166832",
-      "surugayaPrice": 290,
+      "surugayaPrice": 480,
       "surugayaSoldOut": false,
-      "raritySlug": "ar"
+      "raritySlug": "ar",
+      "surugayaBuyPrice": null
     },
     {
       "name": "ザマゼンタ",
@@ -1353,7 +1354,7 @@
       "category": "サポート",
       "energyType": "",
       "surugayaUrl": "/product/other/GU166823",
-      "surugayaPrice": 2780,
+      "surugayaPrice": 2720,
       "surugayaSoldOut": true,
       "raritySlug": "sr",
       "surugayaBuyPrice": 1500
@@ -1400,9 +1401,9 @@
       "rarity": "SAR",
       "category": "ポケモン",
       "energyType": "悪",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU166808",
-      "surugayaPrice": 7980,
-      "surugayaSoldOut": false,
+      "surugayaUrl": "/product/other/GU166808",
+      "surugayaPrice": 4742,
+      "surugayaSoldOut": true,
       "raritySlug": "sar",
       "surugayaBuyPrice": 4000
     },
@@ -1449,7 +1450,7 @@
       "category": "ポケモン",
       "energyType": "超",
       "surugayaUrl": "/product/other/GU166803",
-      "surugayaPrice": 5670,
+      "surugayaPrice": 5660,
       "surugayaSoldOut": true,
       "raritySlug": "ur",
       "surugayaBuyPrice": 3200

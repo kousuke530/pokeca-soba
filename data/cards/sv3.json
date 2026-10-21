@@ -2,7 +2,7 @@
   "pack": "拡張パック「黒炎の支配者」",
   "packSlug": "sv3",
   "source": "surugaya",
-  "collectedAt": "2026-10-20T03:01:23.749Z",
+  "collectedAt": "2026-10-21T09:05:52.583Z",
   "count": 175,
   "cards": [
     {
@@ -1765,14 +1765,14 @@
       "surugayaBuyPrice": 1200
     },
     {
-      "name": "【ランクB】アブソルex",
+      "name": "アブソルex",
       "cardNumber": "126/108",
       "rarity": "SR",
       "category": "ポケモン",
       "energyType": "悪",
-      "surugayaUrl": "/product/detail/GB104373?tenpo_cd=400451",
-      "surugayaPrice": 340,
-      "surugayaSoldOut": true,
+      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN104373",
+      "surugayaPrice": 480,
+      "surugayaSoldOut": false,
       "raritySlug": "sr",
       "surugayaBuyPrice": null
     },
@@ -1939,10 +1939,9 @@
       "category": "スタジアム",
       "energyType": "",
       "surugayaUrl": "/product/other/GN104387",
-      "surugayaPrice": 380,
+      "surugayaPrice": 180,
       "surugayaSoldOut": true,
-      "raritySlug": "ur",
-      "surugayaBuyPrice": null
+      "raritySlug": "ur"
     },
     {
       "name": "基本ほのおエネルギー",

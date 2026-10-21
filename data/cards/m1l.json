@@ -2,7 +2,7 @@
   "pack": "拡張パック「メガブレイブ」",
   "packSlug": "m1l",
   "source": "surugaya",
-  "collectedAt": "2026-10-20T03:07:47.258Z",
+  "collectedAt": "2026-10-21T09:12:28.085Z",
   "count": 91,
   "cards": [
     {
@@ -683,7 +683,7 @@
       "category": "サポート",
       "energyType": "",
       "surugayaUrl": "/product/other/GU362771",
-      "surugayaPrice": 60,
+      "surugayaPrice": 51,
       "surugayaSoldOut": true,
       "raritySlug": "u"
     },
@@ -910,9 +910,9 @@
       "rarity": "SR",
       "category": "グッズ",
       "energyType": "",
-      "surugayaUrl": "/product/other/GU362725",
-      "surugayaPrice": 150,
-      "surugayaSoldOut": true,
+      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU362725",
+      "surugayaPrice": 280,
+      "surugayaSoldOut": false,
       "raritySlug": "sr"
     },
     {
@@ -945,7 +945,7 @@
       "category": "サポート",
       "energyType": "",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU362728",
-      "surugayaPrice": 4380,
+      "surugayaPrice": 5480,
       "surugayaSoldOut": false,
       "raritySlug": "sr",
       "surugayaBuyPrice": 2000
