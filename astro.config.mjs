@@ -14,6 +14,9 @@ export default defineConfig({
   site: 'https://pokeca-soba.com',
   output: 'static',
   trailingSlash: 'always',
+  // Astro 7 で既定が 'jsx' に変わり隣接インライン要素間の空白が消えるため、
+  // v5 以前と同じ挙動（空白保持＋圧縮）を維持するため true を明示。
+  compressHTML: true,
 
   build: {
     format: 'directory',
