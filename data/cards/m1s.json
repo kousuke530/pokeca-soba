@@ -2,7 +2,7 @@
   "pack": "拡張パック「メガシンフォニア」",
   "packSlug": "m1s",
   "source": "surugaya",
-  "collectedAt": "2026-10-21T09:12:39.576Z",
+  "collectedAt": "2026-10-24T04:33:43.049Z",
   "count": 92,
   "cards": [
     {
@@ -177,7 +177,7 @@
       "category": "ポケモン",
       "energyType": "水",
       "surugayaUrl": "/product/other/GU362654",
-      "surugayaPrice": 19,
+      "surugayaPrice": 18,
       "surugayaSoldOut": true,
       "raritySlug": "r"
     },
@@ -885,9 +885,9 @@
       "rarity": "SR",
       "category": "ポケモン",
       "energyType": "",
-      "surugayaUrl": "/product/other/GU362629",
-      "surugayaPrice": 420,
-      "surugayaSoldOut": true,
+      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU362629",
+      "surugayaPrice": 580,
+      "surugayaSoldOut": false,
       "raritySlug": "sr",
       "surugayaBuyPrice": null
     },
@@ -908,9 +908,9 @@
       "rarity": "SR",
       "category": "グッズ",
       "energyType": "",
-      "surugayaUrl": "/product/other/GU362631",
-      "surugayaPrice": 100,
-      "surugayaSoldOut": true,
+      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU362631",
+      "surugayaPrice": 180,
+      "surugayaSoldOut": false,
       "raritySlug": "sr"
     },
     {
@@ -969,7 +969,7 @@
       "surugayaPrice": 8980,
       "surugayaSoldOut": false,
       "raritySlug": "sar",
-      "surugayaBuyPrice": 4500
+      "surugayaBuyPrice": 3500
     },
     {
       "name": "メガラティアスex",
@@ -990,10 +990,10 @@
       "category": "ポケモン",
       "energyType": "",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU362622",
-      "surugayaPrice": 3480,
+      "surugayaPrice": 2980,
       "surugayaSoldOut": false,
       "raritySlug": "sar",
-      "surugayaBuyPrice": 1500
+      "surugayaBuyPrice": 1200
     },
     {
       "name": "アセロラのいたずら",
