@@ -2,7 +2,7 @@
   "pack": "スタートデッキ100 バトルコレクション",
   "packSlug": "mc",
   "source": "surugaya",
-  "collectedAt": "2026-10-25T03:19:24.807Z",
+  "collectedAt": "2026-10-26T01:31:45.371Z",
   "count": 625,
   "cards": [
     {
@@ -278,7 +278,7 @@
       "category": "グッズ",
       "energyType": "",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU548962",
-      "surugayaPrice": 160,
+      "surugayaPrice": 180,
       "surugayaSoldOut": false,
       "raritySlug": "n"
     },
@@ -1039,11 +1039,10 @@
       "rarity": "ノーマル",
       "category": "ポケモン",
       "energyType": "炎",
-      "surugayaUrl": "/product/other/GU542910",
-      "surugayaPrice": 360,
+      "surugayaUrl": "/product/detail/GU542982?tenpo_cd=410011",
+      "surugayaPrice": 280,
       "surugayaSoldOut": true,
-      "raritySlug": "n",
-      "surugayaBuyPrice": null
+      "raritySlug": "n"
     },
     {
       "name": "マグマッグ",
@@ -1458,7 +1457,7 @@
       "rarity": "ノーマル",
       "category": "ポケモン",
       "energyType": "炎",
-      "surugayaUrl": "/product/detail/GU542985?tenpo_cd=201206",
+      "surugayaUrl": "/product/detail/GU542914?tenpo_cd=201206",
       "surugayaPrice": 120,
       "surugayaSoldOut": true,
       "raritySlug": "n"
@@ -1568,9 +1567,9 @@
       "rarity": "ノーマル",
       "category": "ポケモン",
       "energyType": "炎",
-      "surugayaUrl": "/product/detail/GU542988?tenpo_cd=201206",
-      "surugayaPrice": 80,
-      "surugayaSoldOut": true,
+      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU542915",
+      "surugayaPrice": 160,
+      "surugayaSoldOut": false,
       "raritySlug": "n"
     },
     {
@@ -1711,10 +1710,11 @@
       "rarity": "ノーマル",
       "category": "ポケモン",
       "energyType": "水",
-      "surugayaUrl": "/product/other/GU542919",
-      "surugayaPrice": 240,
+      "surugayaUrl": "/product/detail/GU542919?tenpo_cd=410011",
+      "surugayaPrice": 380,
       "surugayaSoldOut": true,
-      "raritySlug": "n"
+      "raritySlug": "n",
+      "surugayaBuyPrice": null
     },
     {
       "name": "フリーザー",
@@ -1954,7 +1954,7 @@
       "rarity": "ノーマル",
       "category": "ポケモン",
       "energyType": "水",
-      "surugayaUrl": "/product/other/GU542921",
+      "surugayaUrl": "/product/detail/GU542921?tenpo_cd=410018",
       "surugayaPrice": 90,
       "surugayaSoldOut": true,
       "raritySlug": "n"
@@ -3322,7 +3322,7 @@
       "category": "ポケモン",
       "energyType": "超",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU542938",
-      "surugayaPrice": 160,
+      "surugayaPrice": 180,
       "surugayaSoldOut": false,
       "raritySlug": "n"
     },
@@ -3607,8 +3607,8 @@
       "rarity": "ノーマル",
       "category": "ポケモン",
       "energyType": "闘",
-      "surugayaUrl": "/product/other/GU543023",
-      "surugayaPrice": 90,
+      "surugayaUrl": "/product/detail/GU543023?tenpo_cd=410011",
+      "surugayaPrice": 100,
       "surugayaSoldOut": true,
       "raritySlug": "n"
     },
@@ -4058,9 +4058,9 @@
       "rarity": "ノーマル",
       "category": "ポケモン",
       "energyType": "悪",
-      "surugayaUrl": "/product/detail/GU543029?tenpo_cd=201206",
-      "surugayaPrice": 120,
-      "surugayaSoldOut": true,
+      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU542944",
+      "surugayaPrice": 160,
+      "surugayaSoldOut": false,
       "raritySlug": "n"
     },
     {
@@ -4192,7 +4192,7 @@
       "category": "ポケモン",
       "energyType": "悪",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU542946",
-      "surugayaPrice": 250,
+      "surugayaPrice": 280,
       "surugayaSoldOut": false,
       "raritySlug": "n"
     },
@@ -4422,7 +4422,7 @@
       "rarity": "ノーマル",
       "category": "ポケモン",
       "energyType": "悪",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU543035",
+      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU542949",
       "surugayaPrice": 160,
       "surugayaSoldOut": false,
       "raritySlug": "n"
@@ -5945,10 +5945,11 @@
       "rarity": "ノーマル",
       "category": "グッズ",
       "energyType": "",
-      "surugayaUrl": "/product/other/GU543695",
-      "surugayaPrice": 100,
+      "surugayaUrl": "/product/detail/GU543695?tenpo_cd=410011",
+      "surugayaPrice": 980,
       "surugayaSoldOut": true,
-      "raritySlug": "n"
+      "raritySlug": "n",
+      "surugayaBuyPrice": null
     },
     {
       "name": "プレシャスキャリー",

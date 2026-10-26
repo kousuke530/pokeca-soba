@@ -2,7 +2,7 @@
   "pack": "拡張パック「ロケット団の栄光」",
   "packSlug": "sv10",
   "source": "surugaya",
-  "collectedAt": "2026-10-25T03:14:59.786Z",
+  "collectedAt": "2026-10-26T01:27:47.055Z",
   "count": 131,
   "cards": [
     {
@@ -1126,7 +1126,7 @@
       "category": "ポケモン",
       "energyType": "水",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU166828",
-      "surugayaPrice": 340,
+      "surugayaPrice": 380,
       "surugayaSoldOut": false,
       "raritySlug": "ar",
       "surugayaBuyPrice": null
@@ -1174,7 +1174,7 @@
       "category": "ポケモン",
       "energyType": "鋼",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU166833",
-      "surugayaPrice": 340,
+      "surugayaPrice": 380,
       "surugayaSoldOut": false,
       "raritySlug": "ar",
       "surugayaBuyPrice": null
@@ -1258,7 +1258,7 @@
       "category": "ポケモン",
       "energyType": "超",
       "surugayaUrl": "/product/other/GU166815",
-      "surugayaPrice": 1980,
+      "surugayaPrice": 1960,
       "surugayaSoldOut": true,
       "raritySlug": "sr",
       "surugayaBuyPrice": 1500
@@ -1294,7 +1294,7 @@
       "category": "ポケモン",
       "energyType": "悪",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU166818",
-      "surugayaPrice": 790,
+      "surugayaPrice": 880,
       "surugayaSoldOut": false,
       "raritySlug": "sr",
       "surugayaBuyPrice": 400
@@ -1437,9 +1437,9 @@
       "rarity": "SAR",
       "category": "サポート",
       "energyType": "",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU166811",
-      "surugayaPrice": 2980,
-      "surugayaSoldOut": false,
+      "surugayaUrl": "/product/other/GU166811",
+      "surugayaPrice": 1690,
+      "surugayaSoldOut": true,
       "raritySlug": "sar",
       "surugayaBuyPrice": 1500
     },
@@ -1450,7 +1450,7 @@
       "category": "ポケモン",
       "energyType": "超",
       "surugayaUrl": "/product/other/GU166803",
-      "surugayaPrice": 5660,
+      "surugayaPrice": 5650,
       "surugayaSoldOut": true,
       "raritySlug": "ur",
       "surugayaBuyPrice": 3200
