@@ -2,7 +2,7 @@
   "pack": "強化拡張パック「レイジングサーフ」",
   "packSlug": "sv3a",
   "source": "surugaya",
-  "collectedAt": "2026-10-26T01:22:55.810Z",
+  "collectedAt": "2026-10-27T03:01:43.451Z",
   "count": 92,
   "cards": [
     {
@@ -776,7 +776,7 @@
       "category": "ポケモン",
       "energyType": "闘",
       "surugayaUrl": "/product/other/GN170313",
-      "surugayaPrice": 280,
+      "surugayaPrice": 277,
       "surugayaSoldOut": true,
       "raritySlug": "ar"
     },
@@ -811,10 +811,9 @@
       "category": "ポケモン",
       "energyType": "鋼",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN170316",
-      "surugayaPrice": 480,
+      "surugayaPrice": 230,
       "surugayaSoldOut": false,
-      "raritySlug": "ar",
-      "surugayaBuyPrice": null
+      "raritySlug": "ar"
     },
     {
       "name": "モトトカゲ",
@@ -936,16 +935,16 @@
       "surugayaBuyPrice": 400
     },
     {
-      "name": "【ランクB】パラソルおねえさん",
+      "name": "パラソルおねえさん",
       "cardNumber": "084/062",
       "rarity": "SR",
       "category": "サポート",
       "energyType": "",
-      "surugayaUrl": "/product/detail/GB170327?tenpo_cd=201206",
-      "surugayaPrice": 2290,
-      "surugayaSoldOut": true,
+      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN170327",
+      "surugayaPrice": 1080,
+      "surugayaSoldOut": false,
       "raritySlug": "sr",
-      "surugayaBuyPrice": null
+      "surugayaBuyPrice": 450
     },
     {
       "name": "ガブリアスex",

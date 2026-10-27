@@ -2,7 +2,7 @@
   "pack": "拡張パック「ワイルドフォース」",
   "packSlug": "sv5k",
   "source": "surugaya",
-  "collectedAt": "2026-10-26T01:24:47.335Z",
+  "collectedAt": "2026-10-27T03:03:44.397Z",
   "count": 100,
   "cards": [
     {
@@ -726,9 +726,9 @@
       "rarity": "ACE",
       "category": "ポケモンのどうぐ",
       "energyType": "",
-      "surugayaUrl": "/product/other/GN369775",
-      "surugayaPrice": 50,
-      "surugayaSoldOut": true,
+      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN369775",
+      "surugayaPrice": 160,
+      "surugayaSoldOut": false,
       "raritySlug": "ace"
     },
     {
@@ -771,7 +771,7 @@
       "category": "スタジアム",
       "energyType": "",
       "surugayaUrl": "/product/other/GN369779",
-      "surugayaPrice": 95,
+      "surugayaPrice": 119,
       "surugayaSoldOut": true,
       "raritySlug": "u"
     },

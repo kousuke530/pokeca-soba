@@ -2,7 +2,7 @@
   "pack": "拡張パック「アビスアイ」",
   "packSlug": "m5",
   "source": "surugaya",
-  "collectedAt": "2026-10-26T01:32:25.460Z",
+  "collectedAt": "2026-10-27T03:12:10.295Z",
   "count": 117,
   "cards": [
     {
@@ -374,8 +374,8 @@
       "rarity": "C",
       "category": "ポケモン",
       "energyType": "超",
-      "surugayaUrl": "/product/detail/GU730332?tenpo_cd=410011",
-      "surugayaPrice": 80,
+      "surugayaUrl": "/product/other/GU730332",
+      "surugayaPrice": 60,
       "surugayaSoldOut": true,
       "raritySlug": "c"
     },
@@ -473,8 +473,8 @@
       "rarity": "C",
       "category": "ポケモン",
       "energyType": "闘",
-      "surugayaUrl": "/product/detail/GU730336?tenpo_cd=410011",
-      "surugayaPrice": 80,
+      "surugayaUrl": "/product/other/GU730336",
+      "surugayaPrice": 60,
       "surugayaSoldOut": true,
       "raritySlug": "c"
     },
@@ -1237,10 +1237,10 @@
       "category": "ポケモン",
       "energyType": "雷",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU730235",
-      "surugayaPrice": 2980,
+      "surugayaPrice": 1490,
       "surugayaSoldOut": false,
       "raritySlug": "sar",
-      "surugayaBuyPrice": 1200
+      "surugayaBuyPrice": 1000
     },
     {
       "name": "メガシャンデラex",

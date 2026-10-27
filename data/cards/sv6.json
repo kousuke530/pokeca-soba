@@ -2,8 +2,8 @@
   "pack": "拡張パック 「変幻の仮面」",
   "packSlug": "sv6",
   "source": "surugaya",
-  "collectedAt": "2026-10-26T01:25:12.924Z",
-  "count": 132,
+  "collectedAt": "2026-10-27T03:04:15.242Z",
+  "count": 133,
   "cards": [
     {
       "name": "ヒマナッツ",
@@ -1337,14 +1337,14 @@
       "surugayaBuyPrice": 500
     },
     {
-      "name": "【ランクB】ハピナスex",
+      "name": "ハピナスex",
       "cardNumber": "121/101",
       "rarity": "SR",
       "category": "ポケモン",
       "energyType": "",
-      "surugayaUrl": "/product/detail/GB486590?tenpo_cd=201206",
-      "surugayaPrice": 430,
-      "surugayaSoldOut": true,
+      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN486590",
+      "surugayaPrice": 480,
+      "surugayaSoldOut": false,
       "raritySlug": "sr",
       "surugayaBuyPrice": null
     },
@@ -1445,6 +1445,18 @@
       "surugayaBuyPrice": 1200
     },
     {
+      "name": "ゼイユ",
+      "cardNumber": "130/101",
+      "rarity": "SAR",
+      "category": "サポート",
+      "energyType": "",
+      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN486599",
+      "surugayaPrice": 13800,
+      "surugayaSoldOut": false,
+      "raritySlug": "sar",
+      "surugayaBuyPrice": 8000
+    },
+    {
       "name": "オーガポン みどりのめんex",
       "cardNumber": "131/101",
       "rarity": "UR",
@@ -1463,7 +1475,7 @@
       "category": "グッズ",
       "energyType": "",
       "surugayaUrl": "/product/other/GN486601",
-      "surugayaPrice": 400,
+      "surugayaPrice": 480,
       "surugayaSoldOut": true,
       "raritySlug": "ur",
       "surugayaBuyPrice": null

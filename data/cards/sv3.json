@@ -2,7 +2,7 @@
   "pack": "拡張パック「黒炎の支配者」",
   "packSlug": "sv3",
   "source": "surugaya",
-  "collectedAt": "2026-10-26T01:22:44.494Z",
+  "collectedAt": "2026-10-27T03:01:30.847Z",
   "count": 175,
   "cards": [
     {
@@ -607,7 +607,7 @@
       "category": "サポート",
       "energyType": "",
       "surugayaUrl": "/product/other/GN104871",
-      "surugayaPrice": 84,
+      "surugayaPrice": 90,
       "surugayaSoldOut": true,
       "raritySlug": "n"
     },
@@ -1939,9 +1939,10 @@
       "category": "スタジアム",
       "energyType": "",
       "surugayaUrl": "/product/other/GN104387",
-      "surugayaPrice": 180,
+      "surugayaPrice": 380,
       "surugayaSoldOut": true,
-      "raritySlug": "ur"
+      "raritySlug": "ur",
+      "surugayaBuyPrice": null
     },
     {
       "name": "基本ほのおエネルギー",
