@@ -2,7 +2,7 @@
   "pack": "拡張パック 「変幻の仮面」",
   "packSlug": "sv6",
   "source": "surugaya",
-  "collectedAt": "2026-10-27T03:04:15.242Z",
+  "collectedAt": "2026-10-28T10:35:39.670Z",
   "count": 133,
   "cards": [
     {
@@ -1047,7 +1047,7 @@
       "category": "ポケモンのどうぐ",
       "energyType": "",
       "surugayaUrl": "/product/other/GN486564",
-      "surugayaPrice": 30,
+      "surugayaPrice": 50,
       "surugayaSoldOut": true,
       "raritySlug": "u"
     },
@@ -1415,10 +1415,10 @@
       "category": "ポケモン",
       "energyType": "水",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN486596",
-      "surugayaPrice": 1980,
+      "surugayaPrice": 1580,
       "surugayaSoldOut": false,
       "raritySlug": "sar",
-      "surugayaBuyPrice": 800
+      "surugayaBuyPrice": 600
     },
     {
       "name": "オーガポン いしずえのめんex",
@@ -1475,7 +1475,7 @@
       "category": "グッズ",
       "energyType": "",
       "surugayaUrl": "/product/other/GN486601",
-      "surugayaPrice": 480,
+      "surugayaPrice": 475,
       "surugayaSoldOut": true,
       "raritySlug": "ur",
       "surugayaBuyPrice": null
@@ -1487,10 +1487,10 @@
       "category": "グッズ",
       "energyType": "",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN486602",
-      "surugayaPrice": 1580,
+      "surugayaPrice": 900,
       "surugayaSoldOut": false,
       "raritySlug": "ur",
-      "surugayaBuyPrice": 600
+      "surugayaBuyPrice": 500
     }
   ]
 }

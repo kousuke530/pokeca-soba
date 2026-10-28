@@ -2,7 +2,7 @@
   "pack": "拡張パック「メガブレイブ」",
   "packSlug": "m1l",
   "source": "surugaya",
-  "collectedAt": "2026-10-27T03:08:38.579Z",
+  "collectedAt": "2026-10-28T10:40:08.951Z",
   "count": 91,
   "cards": [
     {
@@ -639,7 +639,7 @@
       "category": "グッズ",
       "energyType": "",
       "surugayaUrl": "/product/other/GU362767",
-      "surugayaPrice": 40,
+      "surugayaPrice": 50,
       "surugayaSoldOut": true,
       "raritySlug": "u"
     },
@@ -683,7 +683,7 @@
       "category": "サポート",
       "energyType": "",
       "surugayaUrl": "/product/other/GU362771",
-      "surugayaPrice": 80,
+      "surugayaPrice": 64,
       "surugayaSoldOut": true,
       "raritySlug": "u"
     },
@@ -693,8 +693,8 @@
       "rarity": "U",
       "category": "スタジアム",
       "energyType": "",
-      "surugayaUrl": "/product/other/GU362772",
-      "surugayaPrice": 30,
+      "surugayaUrl": "/product/detail/GU362772?tenpo_cd=201206",
+      "surugayaPrice": 60,
       "surugayaSoldOut": true,
       "raritySlug": "u"
     },
@@ -758,12 +758,12 @@
       "surugayaBuyPrice": null
     },
     {
-      "name": "キョジオーン",
+      "name": "キョジオーン（【PCG/Pristine10】）",
       "cardNumber": "070/063",
       "rarity": "AR",
       "category": "ポケモン",
       "energyType": "闘",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU362735",
+      "surugayaUrl": "/product/detail/GU362735?branch_number=1552",
       "surugayaPrice": 280,
       "surugayaSoldOut": false,
       "raritySlug": "ar"

@@ -2,7 +2,7 @@
   "pack": "拡張パック「バトルパートナーズ」",
   "packSlug": "sv9",
   "source": "surugaya",
-  "collectedAt": "2026-10-27T03:06:32.963Z",
+  "collectedAt": "2026-10-28T10:38:01.086Z",
   "count": 170,
   "cards": [
     {
@@ -1057,7 +1057,7 @@
       "category": "ポケモン",
       "energyType": "悪",
       "surugayaUrl": "/product/detail/GN832740?tenpo_cd=410018",
-      "surugayaPrice": 18,
+      "surugayaPrice": 19,
       "surugayaSoldOut": true,
       "raritySlug": "r"
     },
@@ -1693,10 +1693,10 @@
       "category": "ポケモン",
       "energyType": "超",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN832706",
-      "surugayaPrice": 1980,
+      "surugayaPrice": 770,
       "surugayaSoldOut": false,
       "raritySlug": "sr",
-      "surugayaBuyPrice": 1000
+      "surugayaBuyPrice": 500
     },
     {
       "name": "マンムーex",
@@ -1717,10 +1717,10 @@
       "category": "ポケモン",
       "energyType": "悪",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN832708",
-      "surugayaPrice": 780,
+      "surugayaPrice": 410,
       "surugayaSoldOut": false,
       "raritySlug": "sr",
-      "surugayaBuyPrice": 300
+      "surugayaBuyPrice": null
     },
     {
       "name": "ホップのザシアンex",
