@@ -2,7 +2,7 @@
   "pack": "強化拡張パック「ナイトワンダラー」",
   "packSlug": "sv6a",
   "source": "surugaya",
-  "collectedAt": "2026-10-28T10:35:57.500Z",
+  "collectedAt": "2026-10-29T03:04:29.312Z",
   "count": 94,
   "cards": [
     {
@@ -650,7 +650,7 @@
       "category": "サポート",
       "energyType": "",
       "surugayaUrl": "/product/other/GN544641",
-      "surugayaPrice": 90,
+      "surugayaPrice": 99,
       "surugayaSoldOut": true,
       "raritySlug": "u"
     },
@@ -851,14 +851,14 @@
       "raritySlug": "ar"
     },
     {
-      "name": "【ランクB】キングドラex",
+      "name": "キングドラex",
       "cardNumber": "077/064",
       "rarity": "SR",
       "category": "ポケモン",
       "energyType": "水",
-      "surugayaUrl": "/product/detail/GB544659?tenpo_cd=201206",
-      "surugayaPrice": 320,
-      "surugayaSoldOut": true,
+      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN544659",
+      "surugayaPrice": 480,
+      "surugayaSoldOut": false,
       "raritySlug": "sr",
       "surugayaBuyPrice": null
     },
@@ -868,9 +868,9 @@
       "rarity": "SR",
       "category": "ポケモン",
       "energyType": "雷",
-      "surugayaUrl": "/product/other/GN544660",
-      "surugayaPrice": 250,
-      "surugayaSoldOut": true,
+      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN544660",
+      "surugayaPrice": 280,
+      "surugayaSoldOut": false,
       "raritySlug": "sr"
     },
     {
@@ -1011,9 +1011,9 @@
       "rarity": "SAR",
       "category": "ポケモン",
       "energyType": "悪",
-      "surugayaUrl": "/product/other/GN544672",
-      "surugayaPrice": 580,
-      "surugayaSoldOut": true,
+      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN544672",
+      "surugayaPrice": 930,
+      "surugayaSoldOut": false,
       "raritySlug": "sar",
       "surugayaBuyPrice": 800
     },

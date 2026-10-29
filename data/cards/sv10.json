@@ -2,7 +2,7 @@
   "pack": "拡張パック「ロケット団の栄光」",
   "packSlug": "sv10",
   "source": "surugaya",
-  "collectedAt": "2026-10-28T10:38:32.320Z",
+  "collectedAt": "2026-10-29T03:06:59.434Z",
   "count": 131,
   "cards": [
     {
@@ -716,7 +716,7 @@
       "category": "ポケモン",
       "energyType": "悪",
       "surugayaUrl": "/product/other/GU166870",
-      "surugayaPrice": 60,
+      "surugayaPrice": 69,
       "surugayaSoldOut": true,
       "raritySlug": "u"
     },
@@ -858,9 +858,9 @@
       "rarity": "C",
       "category": "ポケモン",
       "energyType": "",
-      "surugayaUrl": "/product/other/GU166928",
-      "surugayaPrice": null,
-      "surugayaSoldOut": true,
+      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU166928",
+      "surugayaPrice": 160,
+      "surugayaSoldOut": false,
       "raritySlug": "c"
     },
     {
@@ -913,9 +913,9 @@
       "rarity": "U",
       "category": "ポケモン",
       "energyType": "",
-      "surugayaUrl": "/product/other/GU166875",
-      "surugayaPrice": 70,
-      "surugayaSoldOut": true,
+      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU166875",
+      "surugayaPrice": 160,
+      "surugayaSoldOut": false,
       "raritySlug": "u"
     },
     {
@@ -1012,7 +1012,7 @@
       "rarity": "U",
       "category": "サポート",
       "energyType": "",
-      "surugayaUrl": "/product/other/GU166881",
+      "surugayaUrl": "/product/detail/GU166881?tenpo_cd=410018",
       "surugayaPrice": 47,
       "surugayaSoldOut": true,
       "raritySlug": "u"
@@ -1079,7 +1079,7 @@
       "category": "エネルギー",
       "energyType": "",
       "surugayaUrl": "/product/other/GU166887",
-      "surugayaPrice": 70,
+      "surugayaPrice": 129,
       "surugayaSoldOut": true,
       "raritySlug": "u"
     },
@@ -1221,9 +1221,9 @@
       "rarity": "SR",
       "category": "ポケモン",
       "energyType": "草",
-      "surugayaUrl": "/product/other/GU166812",
-      "surugayaPrice": 370,
-      "surugayaSoldOut": true,
+      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU166812",
+      "surugayaPrice": 680,
+      "surugayaSoldOut": false,
       "raritySlug": "sr",
       "surugayaBuyPrice": null
     },
@@ -1257,9 +1257,9 @@
       "rarity": "SR",
       "category": "ポケモン",
       "energyType": "超",
-      "surugayaUrl": "/product/other/GU166815",
-      "surugayaPrice": 1880,
-      "surugayaSoldOut": true,
+      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU166815",
+      "surugayaPrice": 3480,
+      "surugayaSoldOut": false,
       "raritySlug": "sr",
       "surugayaBuyPrice": 1500
     },
@@ -1437,9 +1437,9 @@
       "rarity": "SAR",
       "category": "サポート",
       "energyType": "",
-      "surugayaUrl": "/product/other/GU166811",
-      "surugayaPrice": 1690,
-      "surugayaSoldOut": true,
+      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU166811",
+      "surugayaPrice": 2980,
+      "surugayaSoldOut": false,
       "raritySlug": "sar",
       "surugayaBuyPrice": 1500
     },

@@ -2,7 +2,7 @@
   "pack": "拡張パック「メガブレイブ」",
   "packSlug": "m1l",
   "source": "surugaya",
-  "collectedAt": "2026-10-28T10:40:08.951Z",
+  "collectedAt": "2026-10-29T03:08:34.781Z",
   "count": 91,
   "cards": [
     {
@@ -12,7 +12,7 @@
       "category": "ポケモン",
       "energyType": "草",
       "surugayaUrl": "/product/other/GU362773",
-      "surugayaPrice": 60,
+      "surugayaPrice": 79,
       "surugayaSoldOut": true,
       "raritySlug": "c"
     },
@@ -66,7 +66,7 @@
       "rarity": "U",
       "category": "ポケモン",
       "energyType": "草",
-      "surugayaUrl": "/product/other/GU362753",
+      "surugayaUrl": "/product/detail/GU362753?tenpo_cd=410018",
       "surugayaPrice": 29,
       "surugayaSoldOut": true,
       "raritySlug": "u"
@@ -276,7 +276,7 @@
       "category": "ポケモン",
       "energyType": "闘",
       "surugayaUrl": "/product/other/GU362747",
-      "surugayaPrice": 160,
+      "surugayaPrice": 210,
       "surugayaSoldOut": true,
       "raritySlug": "r"
     },
@@ -308,7 +308,7 @@
       "rarity": "C",
       "category": "ポケモン",
       "energyType": "闘",
-      "surugayaUrl": "/product/other/GU362789",
+      "surugayaUrl": "/product/detail/GU362789?tenpo_cd=410018",
       "surugayaPrice": 19,
       "surugayaSoldOut": true,
       "raritySlug": "c"
@@ -319,9 +319,9 @@
       "rarity": "RR",
       "category": "ポケモン",
       "energyType": "闘",
-      "surugayaUrl": "/product/other/GU362743",
-      "surugayaPrice": 110,
-      "surugayaSoldOut": true,
+      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU362743",
+      "surugayaPrice": 180,
+      "surugayaSoldOut": false,
       "raritySlug": "rr"
     },
     {
@@ -440,8 +440,8 @@
       "rarity": "R",
       "category": "ポケモン",
       "energyType": "悪",
-      "surugayaUrl": "/product/other/GU362749",
-      "surugayaPrice": 80,
+      "surugayaUrl": "/product/detail/GU362749?tenpo_cd=410011",
+      "surugayaPrice": 150,
       "surugayaSoldOut": true,
       "raritySlug": "r"
     },
@@ -649,8 +649,8 @@
       "rarity": "U",
       "category": "グッズ",
       "energyType": "",
-      "surugayaUrl": "/product/other/GU362768",
-      "surugayaPrice": 60,
+      "surugayaUrl": "/product/detail/GU362768?tenpo_cd=410011",
+      "surugayaPrice": 100,
       "surugayaSoldOut": true,
       "raritySlug": "u"
     },
@@ -683,7 +683,7 @@
       "category": "サポート",
       "energyType": "",
       "surugayaUrl": "/product/other/GU362771",
-      "surugayaPrice": 64,
+      "surugayaPrice": 80,
       "surugayaSoldOut": true,
       "raritySlug": "u"
     },
@@ -992,9 +992,9 @@
       "rarity": "SAR",
       "category": "サポート",
       "energyType": "",
-      "surugayaUrl": "/product/other/GU362716",
-      "surugayaPrice": 420,
-      "surugayaSoldOut": true,
+      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU362716",
+      "surugayaPrice": 350,
+      "surugayaSoldOut": false,
       "raritySlug": "sar",
       "surugayaBuyPrice": null
     },

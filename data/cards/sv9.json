@@ -2,7 +2,7 @@
   "pack": "拡張パック「バトルパートナーズ」",
   "packSlug": "sv9",
   "source": "surugaya",
-  "collectedAt": "2026-10-28T10:38:01.086Z",
+  "collectedAt": "2026-10-29T03:06:28.510Z",
   "count": 170,
   "cards": [
     {
@@ -33,8 +33,8 @@
       "rarity": "ノーマル",
       "category": "ポケモン",
       "energyType": "悪",
-      "surugayaUrl": "/product/detail/GN832993?tenpo_cd=400490",
-      "surugayaPrice": 200,
+      "surugayaUrl": "/product/detail/GN832993?tenpo_cd=201007",
+      "surugayaPrice": 211,
       "surugayaSoldOut": true,
       "raritySlug": "n"
     },
@@ -264,7 +264,7 @@
       "rarity": "ノーマル",
       "category": "グッズ",
       "energyType": "",
-      "surugayaUrl": "/product/other/GN833005",
+      "surugayaUrl": "/product/detail/GN833005?tenpo_cd=410011",
       "surugayaPrice": 100,
       "surugayaSoldOut": true,
       "raritySlug": "n"
@@ -506,9 +506,9 @@
       "rarity": "R",
       "category": "ポケモン",
       "energyType": "水",
-      "surugayaUrl": "/product/other/GN832737",
-      "surugayaPrice": 35,
-      "surugayaSoldOut": true,
+      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN832737",
+      "surugayaPrice": 160,
+      "surugayaSoldOut": false,
       "raritySlug": "r"
     },
     {
@@ -814,7 +814,7 @@
       "rarity": "ノーマル",
       "category": "スタジアム",
       "energyType": "",
-      "surugayaUrl": "/product/other/GN833032",
+      "surugayaUrl": "/product/detail/GN833032?tenpo_cd=410018",
       "surugayaPrice": 77,
       "surugayaSoldOut": true,
       "raritySlug": "n"
@@ -880,7 +880,7 @@
       "rarity": "ノーマル",
       "category": "エネルギー",
       "energyType": "",
-      "surugayaUrl": "/product/other/GN833035",
+      "surugayaUrl": "/product/detail/GN833035?tenpo_cd=410018",
       "surugayaPrice": 57,
       "surugayaSoldOut": true,
       "raritySlug": "n"
@@ -1078,8 +1078,8 @@
       "rarity": "C",
       "category": "ポケモン",
       "energyType": "悪",
-      "surugayaUrl": "/product/other/GN832813",
-      "surugayaPrice": 60,
+      "surugayaUrl": "/product/detail/GN832813?tenpo_cd=410018",
+      "surugayaPrice": 65,
       "surugayaSoldOut": true,
       "raritySlug": "c"
     },

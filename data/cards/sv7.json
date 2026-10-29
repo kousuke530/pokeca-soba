@@ -2,7 +2,7 @@
   "pack": "拡張パック 「ステラミラクル」",
   "packSlug": "sv7",
   "source": "surugaya",
-  "collectedAt": "2026-10-28T10:36:22.835Z",
+  "collectedAt": "2026-10-29T03:04:54.678Z",
   "count": 179,
   "cards": [
     {
@@ -629,7 +629,7 @@
       "rarity": "ノーマル",
       "category": "ポケモンのどうぐ",
       "energyType": "",
-      "surugayaUrl": "/product/other/GN596230",
+      "surugayaUrl": "/product/detail/GN596230?tenpo_cd=410011",
       "surugayaPrice": 50,
       "surugayaSoldOut": true,
       "raritySlug": "n"
@@ -739,7 +739,7 @@
       "rarity": "ノーマル",
       "category": "サポート",
       "energyType": "",
-      "surugayaUrl": "/product/other/GN596235",
+      "surugayaUrl": "/product/detail/GN596235?tenpo_cd=400502",
       "surugayaPrice": 50,
       "surugayaSoldOut": true,
       "raritySlug": "n"
@@ -959,7 +959,7 @@
       "rarity": "ノーマル",
       "category": "エネルギー",
       "energyType": "",
-      "surugayaUrl": "/product/other/GN596245",
+      "surugayaUrl": "/product/detail/GN596245?tenpo_cd=410018",
       "surugayaPrice": 57,
       "surugayaSoldOut": true,
       "raritySlug": "n"
@@ -1532,7 +1532,7 @@
       "category": "ポケモンのどうぐ",
       "energyType": "",
       "surugayaUrl": "/product/other/GN596159",
-      "surugayaPrice": 50,
+      "surugayaPrice": 80,
       "surugayaSoldOut": true,
       "raritySlug": "u"
     },
@@ -1597,9 +1597,9 @@
       "rarity": "ACE",
       "category": "スタジアム",
       "energyType": "",
-      "surugayaUrl": "/product/other/GN596165",
-      "surugayaPrice": 110,
-      "surugayaSoldOut": true,
+      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN596165",
+      "surugayaPrice": 180,
+      "surugayaSoldOut": false,
       "raritySlug": "ace"
     },
     {
@@ -1851,7 +1851,7 @@
       "category": "サポート",
       "energyType": "",
       "surugayaUrl": "/product/other/GN596187",
-      "surugayaPrice": 580,
+      "surugayaPrice": 568,
       "surugayaSoldOut": true,
       "raritySlug": "sr",
       "surugayaBuyPrice": 500
@@ -1922,9 +1922,9 @@
       "rarity": "SAR",
       "category": "ポケモン",
       "energyType": "超",
-      "surugayaUrl": "/product/other/GN596193",
-      "surugayaPrice": 1980,
-      "surugayaSoldOut": true,
+      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN596193",
+      "surugayaPrice": 3480,
+      "surugayaSoldOut": false,
       "raritySlug": "sar",
       "surugayaBuyPrice": 1500
     },
@@ -1982,9 +1982,9 @@
       "rarity": "UR",
       "category": "ポケモンのどうぐ",
       "energyType": "",
-      "surugayaUrl": "/product/other/GN596198",
-      "surugayaPrice": 380,
-      "surugayaSoldOut": true,
+      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN596198",
+      "surugayaPrice": 580,
+      "surugayaSoldOut": false,
       "raritySlug": "ur",
       "surugayaBuyPrice": null
     },

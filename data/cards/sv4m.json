@@ -2,7 +2,7 @@
   "pack": "拡張パック「未来の一閃」",
   "packSlug": "sv4m",
   "source": "surugaya",
-  "collectedAt": "2026-10-28T10:33:42.894Z",
+  "collectedAt": "2026-10-29T03:02:21.673Z",
   "count": 95,
   "cards": [
     {
@@ -77,8 +77,8 @@
       "rarity": "C",
       "category": "ポケモン",
       "energyType": "草",
-      "surugayaUrl": "/product/other/GN228528",
-      "surugayaPrice": 60,
+      "surugayaUrl": "/product/detail/GN228528?tenpo_cd=400521",
+      "surugayaPrice": 180,
       "surugayaSoldOut": true,
       "raritySlug": "c"
     },
@@ -867,14 +867,14 @@
       "raritySlug": "ar"
     },
     {
-      "name": "【ランクB】テツノカイナex",
+      "name": "テツノカイナex",
       "cardNumber": "079/066",
       "rarity": "SR",
       "category": "ポケモン",
       "energyType": "雷",
-      "surugayaUrl": "/product/detail/GB228600?tenpo_cd=201206",
-      "surugayaPrice": 1090,
-      "surugayaSoldOut": true,
+      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN228600",
+      "surugayaPrice": 480,
+      "surugayaSoldOut": false,
       "raritySlug": "sr",
       "surugayaBuyPrice": null
     },
@@ -1047,16 +1047,16 @@
       "surugayaBuyPrice": null
     },
     {
-      "name": "【ランクB】カウンターキャッチャー",
+      "name": "カウンターキャッチャー",
       "cardNumber": "094/066",
       "rarity": "UR",
       "category": "グッズ",
       "energyType": "",
-      "surugayaUrl": "/product/detail/GB228615?tenpo_cd=201206",
-      "surugayaPrice": 1290,
-      "surugayaSoldOut": true,
+      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN228615",
+      "surugayaPrice": 1980,
+      "surugayaSoldOut": false,
       "raritySlug": "ur",
-      "surugayaBuyPrice": null
+      "surugayaBuyPrice": 700
     },
     {
       "name": "基本はがねエネルギー",

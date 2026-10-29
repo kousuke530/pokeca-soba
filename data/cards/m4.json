@@ -2,7 +2,7 @@
   "pack": "拡張パック「ニンジャスピナー」",
   "packSlug": "m4",
   "source": "surugaya",
-  "collectedAt": "2026-10-28T10:43:38.800Z",
+  "collectedAt": "2026-10-29T03:11:41.391Z",
   "count": 120,
   "cards": [
     {
@@ -220,7 +220,7 @@
       "rarity": "C",
       "category": "ポケモン",
       "energyType": "水",
-      "surugayaUrl": "/product/other/GU633971",
+      "surugayaUrl": "/product/detail/GU633971?tenpo_cd=410018",
       "surugayaPrice": 35,
       "surugayaSoldOut": true,
       "raritySlug": "c"
@@ -814,8 +814,8 @@
       "rarity": "U",
       "category": "グッズ",
       "energyType": "",
-      "surugayaUrl": "/product/other/GU634025",
-      "surugayaPrice": 50,
+      "surugayaUrl": "/product/detail/GU634025?tenpo_cd=410050",
+      "surugayaPrice": 80,
       "surugayaSoldOut": true,
       "raritySlug": "u"
     },
@@ -847,7 +847,7 @@
       "rarity": "U",
       "category": "サポート",
       "energyType": "",
-      "surugayaUrl": "/product/other/GU634028",
+      "surugayaUrl": "/product/detail/GU634028?tenpo_cd=410011",
       "surugayaPrice": 50,
       "surugayaSoldOut": true,
       "raritySlug": "u"
@@ -880,7 +880,7 @@
       "rarity": "U",
       "category": "スタジアム",
       "energyType": "",
-      "surugayaUrl": "/product/other/GU634031",
+      "surugayaUrl": "/product/detail/GU634031?tenpo_cd=410011",
       "surugayaPrice": 150,
       "surugayaSoldOut": true,
       "raritySlug": "u"
@@ -1156,9 +1156,9 @@
       "rarity": "SR",
       "category": "グッズ",
       "energyType": "",
-      "surugayaUrl": "/product/other/GU634055",
-      "surugayaPrice": 100,
-      "surugayaSoldOut": true,
+      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU634055",
+      "surugayaPrice": 180,
+      "surugayaSoldOut": false,
       "raritySlug": "sr"
     },
     {
@@ -1167,9 +1167,9 @@
       "rarity": "SR",
       "category": "グッズ",
       "energyType": "",
-      "surugayaUrl": "/product/other/GU634056",
-      "surugayaPrice": 149,
-      "surugayaSoldOut": true,
+      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU634056",
+      "surugayaPrice": 280,
+      "surugayaSoldOut": false,
       "raritySlug": "sr"
     },
     {

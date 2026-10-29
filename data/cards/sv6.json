@@ -2,7 +2,7 @@
   "pack": "拡張パック 「変幻の仮面」",
   "packSlug": "sv6",
   "source": "surugaya",
-  "collectedAt": "2026-10-28T10:35:39.670Z",
+  "collectedAt": "2026-10-29T03:04:12.827Z",
   "count": 133,
   "cards": [
     {
@@ -231,10 +231,11 @@
       "rarity": "R",
       "category": "ポケモン",
       "energyType": "炎",
-      "surugayaUrl": "/product/other/GN486490",
-      "surugayaPrice": 280,
+      "surugayaUrl": "/product/detail/GN486490?tenpo_cd=410011",
+      "surugayaPrice": 480,
       "surugayaSoldOut": true,
-      "raritySlug": "r"
+      "raritySlug": "r",
+      "surugayaBuyPrice": null
     },
     {
       "name": "オーガポン かまどのめんex",
@@ -1036,7 +1037,7 @@
       "category": "グッズ",
       "energyType": "",
       "surugayaUrl": "/product/other/GN486563",
-      "surugayaPrice": 60,
+      "surugayaPrice": 79,
       "surugayaSoldOut": true,
       "raritySlug": "u"
     },
