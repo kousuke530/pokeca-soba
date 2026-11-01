@@ -2,7 +2,7 @@
   "pack": "ハイクラスパック 「シャイニートレジャーex」",
   "packSlug": "sv4a",
   "source": "surugaya",
-  "collectedAt": "2026-10-31T06:41:47.736Z",
+  "collectedAt": "2026-11-01T03:03:10.193Z",
   "count": 360,
   "cards": [
     {
@@ -716,9 +716,9 @@
       "rarity": "ノーマル",
       "category": "ポケモン",
       "energyType": "雷",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN285185",
-      "surugayaPrice": 160,
-      "surugayaSoldOut": false,
+      "surugayaUrl": "/product/other/GN285185",
+      "surugayaPrice": 18,
+      "surugayaSoldOut": true,
       "raritySlug": "n"
     },
     {
@@ -1371,12 +1371,12 @@
       "raritySlug": "n"
     },
     {
-      "name": "(パラレル)オラチフ",
+      "name": "オラチフ",
       "cardNumber": "125/190",
       "rarity": "ノーマル",
       "category": "ポケモン",
       "energyType": "悪",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN285280",
+      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN285279",
       "surugayaPrice": 160,
       "surugayaSoldOut": false,
       "raritySlug": "n"
@@ -2963,7 +2963,7 @@
       "category": "ポケモン",
       "energyType": "超",
       "surugayaUrl": "/product/other/GN285475",
-      "surugayaPrice": 238,
+      "surugayaPrice": 213,
       "surugayaSoldOut": true,
       "raritySlug": "s"
     },
@@ -3119,9 +3119,9 @@
       "rarity": "S",
       "category": "ポケモン",
       "energyType": "闘",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN285489",
+      "surugayaUrl": "/product/other/GN285489",
       "surugayaPrice": 180,
-      "surugayaSoldOut": false,
+      "surugayaSoldOut": true,
       "raritySlug": "s"
     },
     {
@@ -3421,7 +3421,7 @@
       "category": "ポケモン",
       "energyType": "",
       "surugayaUrl": "/product/other/GN285516",
-      "surugayaPrice": 1100,
+      "surugayaPrice": 1190,
       "surugayaSoldOut": true,
       "raritySlug": "s",
       "surugayaBuyPrice": 1000
@@ -3444,9 +3444,9 @@
       "rarity": "S",
       "category": "ポケモン",
       "energyType": "",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN285518",
-      "surugayaPrice": 180,
-      "surugayaSoldOut": false,
+      "surugayaUrl": "/product/other/GN285518",
+      "surugayaPrice": 100,
+      "surugayaSoldOut": true,
       "raritySlug": "s"
     },
     {
@@ -3455,9 +3455,9 @@
       "rarity": "S",
       "category": "ポケモン",
       "energyType": "",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN285519",
-      "surugayaPrice": 180,
-      "surugayaSoldOut": false,
+      "surugayaUrl": "/product/other/GN285519",
+      "surugayaPrice": 100,
+      "surugayaSoldOut": true,
       "raritySlug": "s"
     },
     {

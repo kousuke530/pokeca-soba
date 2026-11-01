@@ -2,7 +2,7 @@
   "pack": "拡張パック「ニンジャスピナー」",
   "packSlug": "m4",
   "source": "surugaya",
-  "collectedAt": "2026-10-31T06:50:40.894Z",
+  "collectedAt": "2026-11-01T03:11:17.659Z",
   "count": 120,
   "cards": [
     {
@@ -825,9 +825,9 @@
       "rarity": "U",
       "category": "サポート",
       "energyType": "",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU634026",
-      "surugayaPrice": 160,
-      "surugayaSoldOut": false,
+      "surugayaUrl": "/product/detail/GU634026?tenpo_cd=410011",
+      "surugayaPrice": 50,
+      "surugayaSoldOut": true,
       "raritySlug": "u"
     },
     {
@@ -1156,9 +1156,9 @@
       "rarity": "SR",
       "category": "グッズ",
       "energyType": "",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU634055",
-      "surugayaPrice": 180,
-      "surugayaSoldOut": false,
+      "surugayaUrl": "/product/other/GU634055",
+      "surugayaPrice": 100,
+      "surugayaSoldOut": true,
       "raritySlug": "sr"
     },
     {
@@ -1260,7 +1260,7 @@
       "category": "スタジアム",
       "energyType": "",
       "surugayaUrl": "/product/other/GU634064",
-      "surugayaPrice": 99,
+      "surugayaPrice": 100,
       "surugayaSoldOut": true,
       "raritySlug": "sr"
     },

@@ -2,7 +2,7 @@
   "pack": "強化拡張パック「クリムゾンヘイズ」",
   "packSlug": "sv5a",
   "source": "surugaya",
-  "collectedAt": "2026-10-31T06:42:29.769Z",
+  "collectedAt": "2026-11-01T03:03:47.041Z",
   "count": 96,
   "cards": [
     {
@@ -33,9 +33,9 @@
       "rarity": "C",
       "category": "ポケモン",
       "energyType": "草",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN445989",
-      "surugayaPrice": 160,
-      "surugayaSoldOut": false,
+      "surugayaUrl": "/product/other/GN445989",
+      "surugayaPrice": null,
+      "surugayaSoldOut": true,
       "raritySlug": "c"
     },
     {
@@ -496,7 +496,7 @@
       "category": "ポケモン",
       "energyType": "闘",
       "surugayaUrl": "/product/other/GN446031",
-      "surugayaPrice": 110,
+      "surugayaPrice": 220,
       "surugayaSoldOut": true,
       "raritySlug": "rr"
     },
@@ -988,16 +988,16 @@
       "surugayaBuyPrice": 500
     },
     {
-      "name": "【ランクB】ヤバソチャex",
+      "name": "ヤバソチャex",
       "cardNumber": "089/066",
       "rarity": "SAR",
       "category": "ポケモン",
       "energyType": "草",
-      "surugayaUrl": "/product/detail/GB446075?tenpo_cd=400483",
-      "surugayaPrice": 1220,
-      "surugayaSoldOut": true,
+      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN446075",
+      "surugayaPrice": 1580,
+      "surugayaSoldOut": false,
       "raritySlug": "sar",
-      "surugayaBuyPrice": null
+      "surugayaBuyPrice": 800
     },
     {
       "name": "ゲッコウガex",

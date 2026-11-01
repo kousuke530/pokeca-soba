@@ -2,7 +2,7 @@
   "pack": "拡張パック「黒炎の支配者」",
   "packSlug": "sv3",
   "source": "surugaya",
-  "collectedAt": "2026-10-31T06:39:55.781Z",
+  "collectedAt": "2026-11-01T03:01:29.004Z",
   "count": 175,
   "cards": [
     {
@@ -1654,11 +1654,10 @@
       "rarity": "AR",
       "category": "ポケモン",
       "energyType": "鋼",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN104363",
-      "surugayaPrice": 480,
-      "surugayaSoldOut": false,
-      "raritySlug": "ar",
-      "surugayaBuyPrice": null
+      "surugayaUrl": "/product/other/GN104363",
+      "surugayaPrice": 225,
+      "surugayaSoldOut": true,
+      "raritySlug": "ar"
     },
     {
       "name": "ブロロン",
