@@ -2,7 +2,7 @@
   "pack": "強化拡張パック「クリムゾンヘイズ」",
   "packSlug": "sv5a",
   "source": "surugaya",
-  "collectedAt": "2026-11-02T00:56:45.106Z",
+  "collectedAt": "2026-11-03T03:01:05.418Z",
   "count": 96,
   "cards": [
     {
@@ -578,16 +578,16 @@
       "raritySlug": "rr"
     },
     {
-      "name": "アンフェアスタンプ",
+      "name": "【ランクB】アンフェアスタンプ",
       "cardNumber": "053/066",
       "rarity": "ACE",
       "category": "グッズ",
       "energyType": "",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN446039",
-      "surugayaPrice": 1180,
-      "surugayaSoldOut": false,
+      "surugayaUrl": "/product/detail/GB446039?tenpo_cd=400469",
+      "surugayaPrice": 4220,
+      "surugayaSoldOut": true,
       "raritySlug": "ace",
-      "surugayaBuyPrice": 500
+      "surugayaBuyPrice": null
     },
     {
       "name": "改造ハンマー",
