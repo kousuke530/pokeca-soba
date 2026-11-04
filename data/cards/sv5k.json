@@ -2,7 +2,7 @@
   "pack": "拡張パック「ワイルドフォース」",
   "packSlug": "sv5k",
   "source": "surugaya",
-  "collectedAt": "2026-11-03T03:00:54.196Z",
+  "collectedAt": "2026-11-04T10:07:12.887Z",
   "count": 100,
   "cards": [
     {
@@ -987,14 +987,14 @@
       "surugayaBuyPrice": 2800
     },
     {
-      "name": "タケルライコex",
+      "name": "【ランクB】タケルライコex",
       "cardNumber": "089/071",
       "rarity": "SR",
       "category": "ポケモン",
       "energyType": "ドラゴン",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN369798",
-      "surugayaPrice": 580,
-      "surugayaSoldOut": false,
+      "surugayaUrl": "/product/detail/GB369798?tenpo_cd=400388",
+      "surugayaPrice": 1000,
+      "surugayaSoldOut": true,
       "raritySlug": "sr",
       "surugayaBuyPrice": null
     },

@@ -2,7 +2,7 @@
   "pack": "拡張パック「黒炎の支配者」",
   "packSlug": "sv3",
   "source": "surugaya",
-  "collectedAt": "2026-11-03T02:58:43.779Z",
+  "collectedAt": "2026-11-04T10:05:07.557Z",
   "count": 175,
   "cards": [
     {
@@ -485,7 +485,7 @@
       "rarity": "ノーマル",
       "category": "グッズ",
       "energyType": "",
-      "surugayaUrl": "/product/other/GN104865",
+      "surugayaUrl": "/product/detail/GN104865?tenpo_cd=410018",
       "surugayaPrice": 29,
       "surugayaSoldOut": true,
       "raritySlug": "n"
@@ -508,7 +508,7 @@
       "category": "グッズ",
       "energyType": "",
       "surugayaUrl": "/product/other/GN104866",
-      "surugayaPrice": 50,
+      "surugayaPrice": 60,
       "surugayaSoldOut": true,
       "raritySlug": "n"
     },
@@ -804,7 +804,7 @@
       "rarity": "ノーマル",
       "category": "エネルギー",
       "energyType": "",
-      "surugayaUrl": "/product/other/GN104880",
+      "surugayaUrl": "/product/detail/GN104880?tenpo_cd=410018",
       "surugayaPrice": 29,
       "surugayaSoldOut": true,
       "raritySlug": "n"
@@ -1643,10 +1643,9 @@
       "category": "ポケモン",
       "energyType": "悪",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN104362",
-      "surugayaPrice": 380,
+      "surugayaPrice": 170,
       "surugayaSoldOut": false,
-      "raritySlug": "ar",
-      "surugayaBuyPrice": null
+      "raritySlug": "ar"
     },
     {
       "name": "ハッサム",
@@ -1655,7 +1654,7 @@
       "category": "ポケモン",
       "energyType": "鋼",
       "surugayaUrl": "/product/other/GN104363",
-      "surugayaPrice": 220,
+      "surugayaPrice": 216,
       "surugayaSoldOut": true,
       "raritySlug": "ar"
     },

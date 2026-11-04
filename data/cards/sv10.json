@@ -2,7 +2,7 @@
   "pack": "拡張パック「ロケット団の栄光」",
   "packSlug": "sv10",
   "source": "surugaya",
-  "collectedAt": "2026-11-03T03:04:01.760Z",
+  "collectedAt": "2026-11-04T10:10:22.951Z",
   "count": 132,
   "cards": [
     {
@@ -1141,7 +1141,7 @@
       "surugayaPrice": 780,
       "surugayaSoldOut": false,
       "raritySlug": "ar",
-      "surugayaBuyPrice": 300
+      "surugayaBuyPrice": null
     },
     {
       "name": "ロケット団のイオルブ",
@@ -1210,7 +1210,7 @@
       "category": "ポケモン",
       "energyType": "",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU166835",
-      "surugayaPrice": 1580,
+      "surugayaPrice": 830,
       "surugayaSoldOut": false,
       "raritySlug": "ar",
       "surugayaBuyPrice": 600
@@ -1462,7 +1462,7 @@
       "category": "ポケモン",
       "energyType": "超",
       "surugayaUrl": "/product/other/GU166803",
-      "surugayaPrice": 5650,
+      "surugayaPrice": 5640,
       "surugayaSoldOut": true,
       "raritySlug": "ur",
       "surugayaBuyPrice": 3200

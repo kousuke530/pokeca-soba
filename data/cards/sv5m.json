@@ -2,7 +2,7 @@
   "pack": "拡張パック「サイバージャッジ」",
   "packSlug": "sv5m",
   "source": "surugaya",
-  "collectedAt": "2026-11-03T03:00:39.949Z",
+  "collectedAt": "2026-11-04T10:07:01.547Z",
   "count": 100,
   "cards": [
     {
@@ -705,7 +705,7 @@
       "category": "ポケモンのどうぐ",
       "energyType": "",
       "surugayaUrl": "/product/other/GN369875",
-      "surugayaPrice": 100,
+      "surugayaPrice": 95,
       "surugayaSoldOut": true,
       "raritySlug": "ace"
     },
@@ -998,16 +998,16 @@
       "surugayaBuyPrice": null
     },
     {
-      "name": "暗号マニアの解読",
+      "name": "【ランクB】暗号マニアの解読",
       "cardNumber": "090/071",
       "rarity": "SR",
       "category": "サポート",
       "energyType": "",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN369901",
-      "surugayaPrice": 460,
-      "surugayaSoldOut": false,
+      "surugayaUrl": "/product/detail/GB369901?tenpo_cd=201202",
+      "surugayaPrice": 1430,
+      "surugayaSoldOut": true,
       "raritySlug": "sr",
-      "surugayaBuyPrice": 300
+      "surugayaBuyPrice": null
     },
     {
       "name": "セイジ",
@@ -1112,7 +1112,7 @@
       "category": "ポケモン",
       "energyType": "超",
       "surugayaUrl": "/product/other/GN369910",
-      "surugayaPrice": 539,
+      "surugayaPrice": 545,
       "surugayaSoldOut": true,
       "raritySlug": "ur",
       "surugayaBuyPrice": null

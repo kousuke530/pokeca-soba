@@ -2,7 +2,7 @@
   "pack": "拡張パック 「変幻の仮面」",
   "packSlug": "sv6",
   "source": "surugaya",
-  "collectedAt": "2026-11-03T03:01:21.606Z",
+  "collectedAt": "2026-11-04T10:07:40.431Z",
   "count": 133,
   "cards": [
     {
@@ -1433,16 +1433,16 @@
       "surugayaBuyPrice": 400
     },
     {
-      "name": "スグリ",
+      "name": "【ランクB】スグリ",
       "cardNumber": "129/101",
       "rarity": "SAR",
       "category": "サポート",
       "energyType": "",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN486598",
-      "surugayaPrice": 2480,
-      "surugayaSoldOut": false,
+      "surugayaUrl": "/product/detail/GB486598?tenpo_cd=201206",
+      "surugayaPrice": 1990,
+      "surugayaSoldOut": true,
       "raritySlug": "sar",
-      "surugayaBuyPrice": 1200
+      "surugayaBuyPrice": null
     },
     {
       "name": "ゼイユ",
@@ -1475,7 +1475,7 @@
       "category": "グッズ",
       "energyType": "",
       "surugayaUrl": "/product/other/GN486601",
-      "surugayaPrice": 460,
+      "surugayaPrice": 450,
       "surugayaSoldOut": true,
       "raritySlug": "ur",
       "surugayaBuyPrice": null

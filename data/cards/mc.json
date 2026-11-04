@@ -2,8 +2,8 @@
   "pack": "スタートデッキ100 バトルコレクション",
   "packSlug": "mc",
   "source": "surugaya",
-  "collectedAt": "2026-11-03T03:08:17.109Z",
-  "count": 629,
+  "collectedAt": "2026-11-04T10:14:43.134Z",
+  "count": 632,
   "cards": [
     {
       "name": "アイアント",
@@ -928,10 +928,11 @@
       "rarity": "ノーマル",
       "category": "ポケモン",
       "energyType": "草",
-      "surugayaUrl": "/product/other/GU542980",
-      "surugayaPrice": 120,
+      "surugayaUrl": "/product/detail/GU542980?tenpo_cd=410011",
+      "surugayaPrice": 380,
       "surugayaSoldOut": true,
-      "raritySlug": "n"
+      "raritySlug": "n",
+      "surugayaBuyPrice": null
     },
     {
       "name": "ヒトカゲ",
@@ -984,7 +985,7 @@
       "category": "ポケモン",
       "energyType": "炎",
       "surugayaUrl": "/product/other/GU542981",
-      "surugayaPrice": 2400,
+      "surugayaPrice": 2710,
       "surugayaSoldOut": true,
       "raritySlug": "n",
       "surugayaBuyPrice": 1000
@@ -3965,6 +3966,17 @@
       "raritySlug": "n"
     },
     {
+      "name": "オーガポン いしずえのめん",
+      "cardNumber": "427/742",
+      "rarity": "ミラー",
+      "category": "ポケモン",
+      "energyType": "闘",
+      "surugayaUrl": "/product/detail/GU543517?tenpo_cd=201206",
+      "surugayaPrice": 60,
+      "surugayaSoldOut": true,
+      "raritySlug": "mirror"
+    },
+    {
       "name": "オーガポン いしずえのめんex",
       "cardNumber": "428/742",
       "rarity": "ノーマル",
@@ -5507,6 +5519,17 @@
       "raritySlug": "n"
     },
     {
+      "name": "ワシボン",
+      "cardNumber": "606/742",
+      "rarity": "ミラー",
+      "category": "ポケモン",
+      "energyType": "",
+      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU543651",
+      "surugayaPrice": 160,
+      "surugayaSoldOut": false,
+      "raritySlug": "mirror"
+    },
+    {
       "name": "ウォーグル",
       "cardNumber": "607/742",
       "rarity": "ノーマル",
@@ -5516,6 +5539,17 @@
       "surugayaPrice": 160,
       "surugayaSoldOut": false,
       "raritySlug": "n"
+    },
+    {
+      "name": "ウォーグル",
+      "cardNumber": "607/742",
+      "rarity": "ミラー",
+      "category": "ポケモン",
+      "energyType": "",
+      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU543652",
+      "surugayaPrice": 160,
+      "surugayaSoldOut": false,
+      "raritySlug": "mirror"
     },
     {
       "name": "アオキのワシボン",
@@ -5899,9 +5933,9 @@
       "rarity": "ノーマル",
       "category": "グッズ",
       "energyType": "",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU543684",
-      "surugayaPrice": 160,
-      "surugayaSoldOut": false,
+      "surugayaUrl": "/product/detail/GU543684?tenpo_cd=201206",
+      "surugayaPrice": 100,
+      "surugayaSoldOut": true,
       "raritySlug": "n"
     },
     {
