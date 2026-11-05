@@ -2,7 +2,7 @@
   "pack": "ハイクラスパック 「シャイニートレジャーex」",
   "packSlug": "sv4a",
   "source": "surugaya",
-  "collectedAt": "2026-11-04T10:06:46.788Z",
+  "collectedAt": "2026-11-05T00:42:46.926Z",
   "count": 360,
   "cards": [
     {
@@ -1107,12 +1107,12 @@
       "raritySlug": "n"
     },
     {
-      "name": "(パラレル)オコリザル",
+      "name": "オコリザル",
       "cardNumber": "101/190",
       "rarity": "ノーマル",
       "category": "ポケモン",
       "energyType": "闘",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN285244",
+      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN285243",
       "surugayaPrice": 160,
       "surugayaSoldOut": false,
       "raritySlug": "n"
@@ -2638,9 +2638,9 @@
       "rarity": "S",
       "category": "ポケモン",
       "energyType": "雷",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN285446",
-      "surugayaPrice": 280,
-      "surugayaSoldOut": false,
+      "surugayaUrl": "/product/other/GN285446",
+      "surugayaPrice": 150,
+      "surugayaSoldOut": true,
       "raritySlug": "s"
     },
     {
@@ -3436,7 +3436,7 @@
       "surugayaPrice": 1680,
       "surugayaSoldOut": false,
       "raritySlug": "s",
-      "surugayaBuyPrice": 800
+      "surugayaBuyPrice": 700
     },
     {
       "name": "キャモメ",
@@ -3998,7 +3998,7 @@
       "category": "ポケモン",
       "energyType": "闘",
       "surugayaUrl": "/product/other/GN285566",
-      "surugayaPrice": 327,
+      "surugayaPrice": 320,
       "surugayaSoldOut": true,
       "raritySlug": "ur",
       "surugayaBuyPrice": null
