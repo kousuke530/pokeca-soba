@@ -2,8 +2,8 @@
   "pack": "スタートデッキ100 バトルコレクション",
   "packSlug": "mc",
   "source": "surugaya",
-  "collectedAt": "2026-11-05T00:50:34.298Z",
-  "count": 632,
+  "collectedAt": "2026-11-06T00:40:12.285Z",
+  "count": 633,
   "cards": [
     {
       "name": "アイアント",
@@ -1810,11 +1810,11 @@
       "rarity": "ノーマル",
       "category": "ポケモン",
       "energyType": "水",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU542920",
-      "surugayaPrice": 980,
+      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU542992",
+      "surugayaPrice": 780,
       "surugayaSoldOut": false,
       "raritySlug": "n",
-      "surugayaBuyPrice": 300
+      "surugayaBuyPrice": null
     },
     {
       "name": "ニューラ",
@@ -2120,7 +2120,7 @@
       "rarity": "ノーマル",
       "category": "ポケモン",
       "energyType": "水",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU542923",
+      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU542994",
       "surugayaPrice": 160,
       "surugayaSoldOut": false,
       "raritySlug": "n"
@@ -3002,7 +3002,7 @@
       "rarity": "ノーマル",
       "category": "ポケモン",
       "energyType": "超",
-      "surugayaUrl": "/product/other/GU542934",
+      "surugayaUrl": "/product/other/GU543011",
       "surugayaPrice": 180,
       "surugayaSoldOut": true,
       "raritySlug": "n"
@@ -4384,6 +4384,17 @@
       "raritySlug": "n"
     },
     {
+      "name": "バルチャイ",
+      "cardNumber": "474/742",
+      "rarity": "ミラー",
+      "category": "ポケモン",
+      "energyType": "悪",
+      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU543121",
+      "surugayaPrice": 160,
+      "surugayaSoldOut": false,
+      "raritySlug": "mirror"
+    },
+    {
       "name": "バルジーナex",
       "cardNumber": "475/742",
       "rarity": "ノーマル",
@@ -5491,7 +5502,7 @@
       "category": "ポケモン",
       "energyType": "",
       "surugayaUrl": "/product/other/GU542962",
-      "surugayaPrice": 770,
+      "surugayaPrice": 762,
       "surugayaSoldOut": true,
       "raritySlug": "n",
       "surugayaBuyPrice": null
