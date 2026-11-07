@@ -2,7 +2,7 @@
   "pack": "拡張パック「インフェルノX」",
   "packSlug": "m2",
   "source": "surugaya",
-  "collectedAt": "2026-11-06T00:38:14.757Z",
+  "collectedAt": "2026-11-07T06:01:06.087Z",
   "count": 116,
   "cards": [
     {
@@ -121,7 +121,7 @@
       "rarity": "C",
       "category": "ポケモン",
       "energyType": "炎",
-      "surugayaUrl": "/product/other/GU428028",
+      "surugayaUrl": "/product/detail/GU428028?tenpo_cd=410018",
       "surugayaPrice": 19,
       "surugayaSoldOut": true,
       "raritySlug": "c"
@@ -155,8 +155,8 @@
       "rarity": "U",
       "category": "ポケモン",
       "energyType": "炎",
-      "surugayaUrl": "/product/other/GU428001",
-      "surugayaPrice": 50,
+      "surugayaUrl": "/product/detail/GU428001?tenpo_cd=410011",
+      "surugayaPrice": 80,
       "surugayaSoldOut": true,
       "raritySlug": "u"
     },
@@ -629,7 +629,7 @@
       "category": "ポケモン",
       "energyType": "悪",
       "surugayaUrl": "/product/other/GU427995",
-      "surugayaPrice": 110,
+      "surugayaPrice": 270,
       "surugayaSoldOut": true,
       "raritySlug": "r"
     },
@@ -782,7 +782,7 @@
       "rarity": "C",
       "category": "ポケモン",
       "energyType": "",
-      "surugayaUrl": "/product/other/GU428060",
+      "surugayaUrl": "/product/detail/GU428060?tenpo_cd=410018",
       "surugayaPrice": null,
       "surugayaSoldOut": true,
       "raritySlug": "c"
@@ -849,7 +849,7 @@
       "category": "サポート",
       "energyType": "",
       "surugayaUrl": "/product/other/GU428020",
-      "surugayaPrice": 90,
+      "surugayaPrice": 170,
       "surugayaSoldOut": true,
       "raritySlug": "u"
     },
@@ -859,8 +859,8 @@
       "rarity": "U",
       "category": "サポート",
       "energyType": "",
-      "surugayaUrl": "/product/other/GU428021",
-      "surugayaPrice": 50,
+      "surugayaUrl": "/product/detail/GU428021?tenpo_cd=410011",
+      "surugayaPrice": 80,
       "surugayaSoldOut": true,
       "raritySlug": "u"
     },
@@ -871,7 +871,7 @@
       "category": "スタジアム",
       "energyType": "",
       "surugayaUrl": "/product/other/GU428022",
-      "surugayaPrice": 60,
+      "surugayaPrice": 100,
       "surugayaSoldOut": true,
       "raritySlug": "u"
     },
@@ -904,7 +904,7 @@
       "category": "ポケモン",
       "energyType": "草",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU427970",
-      "surugayaPrice": 280,
+      "surugayaPrice": 250,
       "surugayaSoldOut": false,
       "raritySlug": "ar"
     },
@@ -983,7 +983,7 @@
       "category": "ポケモン",
       "energyType": "悪",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU427977",
-      "surugayaPrice": 280,
+      "surugayaPrice": 250,
       "surugayaSoldOut": false,
       "raritySlug": "ar"
     },
@@ -994,7 +994,7 @@
       "category": "ポケモン",
       "energyType": "鋼",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU427978",
-      "surugayaPrice": 280,
+      "surugayaPrice": 250,
       "surugayaSoldOut": false,
       "raritySlug": "ar"
     },
@@ -1016,7 +1016,7 @@
       "category": "ポケモン",
       "energyType": "",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU427980",
-      "surugayaPrice": 280,
+      "surugayaPrice": 250,
       "surugayaSoldOut": false,
       "raritySlug": "ar"
     },
@@ -1099,9 +1099,10 @@
       "category": "ポケモン",
       "energyType": "鋼",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU427958",
-      "surugayaPrice": 290,
+      "surugayaPrice": 480,
       "surugayaSoldOut": false,
-      "raritySlug": "sr"
+      "raritySlug": "sr",
+      "surugayaBuyPrice": null
     },
     {
       "name": "メガミミロップex",
@@ -1122,7 +1123,7 @@
       "category": "グッズ",
       "energyType": "",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU427960",
-      "surugayaPrice": 180,
+      "surugayaPrice": 160,
       "surugayaSoldOut": false,
       "raritySlug": "sr"
     },
@@ -1166,7 +1167,7 @@
       "category": "サポート",
       "energyType": "",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU427964",
-      "surugayaPrice": 580,
+      "surugayaPrice": 520,
       "surugayaSoldOut": false,
       "raritySlug": "sr",
       "surugayaBuyPrice": null
@@ -1213,7 +1214,7 @@
       "category": "エネルギー",
       "energyType": "",
       "surugayaUrl": "/product/other/GU427968",
-      "surugayaPrice": 95,
+      "surugayaPrice": 171,
       "surugayaSoldOut": true,
       "raritySlug": "sr"
     },
