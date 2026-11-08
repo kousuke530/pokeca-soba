@@ -2,7 +2,7 @@
   "pack": "スタートデッキ100 バトルコレクション",
   "packSlug": "mc",
   "source": "surugaya",
-  "collectedAt": "2026-11-07T06:02:55.376Z",
+  "collectedAt": "2026-11-08T08:23:47.459Z",
   "count": 633,
   "cards": [
     {
@@ -278,7 +278,7 @@
       "category": "グッズ",
       "energyType": "",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU548962",
-      "surugayaPrice": 160,
+      "surugayaPrice": 180,
       "surugayaSoldOut": false,
       "raritySlug": "n"
     },
@@ -985,11 +985,11 @@
       "rarity": "ノーマル",
       "category": "ポケモン",
       "energyType": "炎",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU542909",
-      "surugayaPrice": 3980,
-      "surugayaSoldOut": false,
+      "surugayaUrl": "/product/other/GU542981",
+      "surugayaPrice": 2710,
+      "surugayaSoldOut": true,
       "raritySlug": "n",
-      "surugayaBuyPrice": 1200
+      "surugayaBuyPrice": 1000
     },
     {
       "name": "ポニータ",
@@ -2356,11 +2356,10 @@
       "rarity": "ノーマル",
       "category": "ポケモン",
       "energyType": "雷",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU542927",
-      "surugayaPrice": 980,
+      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU543001",
+      "surugayaPrice": 160,
       "surugayaSoldOut": false,
-      "raritySlug": "n",
-      "surugayaBuyPrice": 400
+      "raritySlug": "n"
     },
     {
       "name": "アローラ イシツブテ",
@@ -2489,8 +2488,8 @@
       "rarity": "ミラー",
       "category": "ポケモン",
       "energyType": "雷",
-      "surugayaUrl": "/product/detail/GU543098?tenpo_cd=400540",
-      "surugayaPrice": 440,
+      "surugayaUrl": "/product/other/GU543098",
+      "surugayaPrice": 300,
       "surugayaSoldOut": true,
       "raritySlug": "mirror",
       "surugayaBuyPrice": null
@@ -3362,7 +3361,7 @@
       "category": "ポケモン",
       "energyType": "超",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU542938",
-      "surugayaPrice": 160,
+      "surugayaPrice": 180,
       "surugayaSoldOut": false,
       "raritySlug": "n"
     },
@@ -6407,7 +6406,7 @@
       "category": "サポート",
       "energyType": "",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU543171",
-      "surugayaPrice": 160,
+      "surugayaPrice": 180,
       "surugayaSoldOut": false,
       "raritySlug": "mirror"
     },
