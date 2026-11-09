@@ -2,7 +2,7 @@
   "pack": "拡張パック「ワイルドフォース」",
   "packSlug": "sv5k",
   "source": "surugaya",
-  "collectedAt": "2026-11-08T08:16:34.361Z",
+  "collectedAt": "2026-11-09T00:48:10.884Z",
   "count": 100,
   "cards": [
     {
@@ -693,8 +693,8 @@
       "rarity": "U",
       "category": "グッズ",
       "energyType": "",
-      "surugayaUrl": "/product/detail/GB369772?tenpo_cd=400499",
-      "surugayaPrice": 1450,
+      "surugayaUrl": "/product/other/GB369772",
+      "surugayaPrice": 450,
       "surugayaSoldOut": true,
       "raritySlug": "u",
       "surugayaBuyPrice": null
@@ -1012,14 +1012,14 @@
       "surugayaBuyPrice": null
     },
     {
-      "name": "【ランクB】ビワ",
+      "name": "ビワ",
       "cardNumber": "091/071",
       "rarity": "SR",
       "category": "サポート",
       "energyType": "",
-      "surugayaUrl": "/product/detail/GB369800?tenpo_cd=400388",
-      "surugayaPrice": 1000,
-      "surugayaSoldOut": true,
+      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN369800",
+      "surugayaPrice": 480,
+      "surugayaSoldOut": false,
       "raritySlug": "sr",
       "surugayaBuyPrice": null
     },
