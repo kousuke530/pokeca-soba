@@ -2,7 +2,7 @@
   "pack": "拡張パック 「変幻の仮面」",
   "packSlug": "sv6",
   "source": "surugaya",
-  "collectedAt": "2026-11-09T00:48:36.516Z",
+  "collectedAt": "2026-11-10T00:33:31.374Z",
   "count": 133,
   "cards": [
     {
@@ -231,11 +231,10 @@
       "rarity": "R",
       "category": "ポケモン",
       "energyType": "炎",
-      "surugayaUrl": "/product/detail/GN486490?tenpo_cd=410011",
-      "surugayaPrice": 480,
+      "surugayaUrl": "/product/other/GN486490",
+      "surugayaPrice": 190,
       "surugayaSoldOut": true,
-      "raritySlug": "r",
-      "surugayaBuyPrice": null
+      "raritySlug": "r"
     },
     {
       "name": "オーガポン かまどのめんex",
@@ -1037,7 +1036,7 @@
       "category": "グッズ",
       "energyType": "",
       "surugayaUrl": "/product/other/GN486563",
-      "surugayaPrice": 79,
+      "surugayaPrice": 60,
       "surugayaSoldOut": true,
       "raritySlug": "u"
     },
@@ -1435,16 +1434,16 @@
       "surugayaBuyPrice": 400
     },
     {
-      "name": "スグリ",
+      "name": "【ランクB】スグリ",
       "cardNumber": "129/101",
       "rarity": "SAR",
       "category": "サポート",
       "energyType": "",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN486598",
-      "surugayaPrice": 2480,
-      "surugayaSoldOut": false,
+      "surugayaUrl": "/product/detail/GB486598?tenpo_cd=201206",
+      "surugayaPrice": 1990,
+      "surugayaSoldOut": true,
       "raritySlug": "sar",
-      "surugayaBuyPrice": 1200
+      "surugayaBuyPrice": null
     },
     {
       "name": "ゼイユ",
