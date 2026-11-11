@@ -2,7 +2,7 @@
   "pack": "拡張パック 「ステラミラクル」",
   "packSlug": "sv7",
   "source": "surugaya",
-  "collectedAt": "2026-11-10T00:34:10.901Z",
+  "collectedAt": "2026-11-11T00:33:47.678Z",
   "count": 179,
   "cards": [
     {
@@ -1168,9 +1168,9 @@
       "rarity": "U",
       "category": "ポケモン",
       "energyType": "悪",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN596126",
-      "surugayaPrice": 160,
-      "surugayaSoldOut": false,
+      "surugayaUrl": "/product/detail/GN596126?tenpo_cd=410018",
+      "surugayaPrice": 19,
+      "surugayaSoldOut": true,
       "raritySlug": "u"
     },
     {
@@ -1851,7 +1851,7 @@
       "category": "サポート",
       "energyType": "",
       "surugayaUrl": "/product/other/GN596187",
-      "surugayaPrice": 510,
+      "surugayaPrice": 500,
       "surugayaSoldOut": true,
       "raritySlug": "sr",
       "surugayaBuyPrice": 500
