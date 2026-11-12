@@ -2,7 +2,7 @@
   "pack": "強化拡張パック「クリムゾンヘイズ」",
   "packSlug": "sv5a",
   "source": "surugaya",
-  "collectedAt": "2026-11-11T00:32:44.931Z",
+  "collectedAt": "2026-11-12T00:16:14.442Z",
   "count": 96,
   "cards": [
     {
@@ -242,9 +242,9 @@
       "rarity": "C",
       "category": "ポケモン",
       "energyType": "水",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN446008",
-      "surugayaPrice": 160,
-      "surugayaSoldOut": false,
+      "surugayaUrl": "/product/other/GN446008",
+      "surugayaPrice": 18,
+      "surugayaSoldOut": true,
       "raritySlug": "c"
     },
     {
@@ -579,16 +579,16 @@
       "raritySlug": "rr"
     },
     {
-      "name": "アンフェアスタンプ",
+      "name": "【ランクB】アンフェアスタンプ",
       "cardNumber": "053/066",
       "rarity": "ACE",
       "category": "グッズ",
       "energyType": "",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN446039",
-      "surugayaPrice": 1180,
-      "surugayaSoldOut": false,
+      "surugayaUrl": "/product/detail/GB446039?tenpo_cd=400469",
+      "surugayaPrice": 4180,
+      "surugayaSoldOut": true,
       "raritySlug": "ace",
-      "surugayaBuyPrice": 500
+      "surugayaBuyPrice": null
     },
     {
       "name": "改造ハンマー",
@@ -1007,7 +1007,7 @@
       "category": "ポケモン",
       "energyType": "闘",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN446076",
-      "surugayaPrice": 39800,
+      "surugayaPrice": 34800,
       "surugayaSoldOut": false,
       "raritySlug": "sar",
       "surugayaBuyPrice": 20000
@@ -1067,7 +1067,7 @@
       "category": "ポケモンのどうぐ",
       "energyType": "",
       "surugayaUrl": "/product/other/GN446081",
-      "surugayaPrice": 350,
+      "surugayaPrice": 315,
       "surugayaSoldOut": true,
       "raritySlug": "ur",
       "surugayaBuyPrice": null
