@@ -2,7 +2,7 @@
   "pack": "拡張パック「ムニキスゼロ」",
   "packSlug": "m3",
   "source": "surugaya",
-  "collectedAt": "2026-11-12T00:23:34.803Z",
+  "collectedAt": "2026-11-13T00:34:17.655Z",
   "count": 117,
   "cards": [
     {
@@ -540,7 +540,7 @@
       "category": "ポケモン",
       "energyType": "悪",
       "surugayaUrl": "/product/other/GU584342",
-      "surugayaPrice": 79,
+      "surugayaPrice": 59,
       "surugayaSoldOut": true,
       "raritySlug": "u"
     },
@@ -672,7 +672,7 @@
       "category": "ポケモン",
       "energyType": "",
       "surugayaUrl": "/product/other/GU584321",
-      "surugayaPrice": 880,
+      "surugayaPrice": 850,
       "surugayaSoldOut": true,
       "raritySlug": "rr",
       "surugayaBuyPrice": 400
@@ -870,9 +870,9 @@
       "rarity": "R",
       "category": "エネルギー",
       "energyType": "",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU584328",
-      "surugayaPrice": 480,
-      "surugayaSoldOut": false,
+      "surugayaUrl": "/product/other/GU584328",
+      "surugayaPrice": 430,
+      "surugayaSoldOut": true,
       "raritySlug": "r",
       "surugayaBuyPrice": null
     },
@@ -951,9 +951,9 @@
       "rarity": "AR",
       "category": "ポケモン",
       "energyType": "超",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU584307",
-      "surugayaPrice": 580,
-      "surugayaSoldOut": false,
+      "surugayaUrl": "/product/other/GU584307",
+      "surugayaPrice": 320,
+      "surugayaSoldOut": true,
       "raritySlug": "ar",
       "surugayaBuyPrice": null
     },
@@ -1148,10 +1148,9 @@
       "category": "グッズ",
       "energyType": "",
       "surugayaUrl": "/product/other/GU584294",
-      "surugayaPrice": 300,
+      "surugayaPrice": 290,
       "surugayaSoldOut": true,
-      "raritySlug": "sr",
-      "surugayaBuyPrice": null
+      "raritySlug": "sr"
     },
     {
       "name": "ワンダーパッチ",

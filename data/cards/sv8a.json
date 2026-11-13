@@ -2,7 +2,7 @@
   "pack": "ハイクラスパック 「テラスタルフェスex」",
   "packSlug": "sv8a",
   "source": "surugaya",
-  "collectedAt": "2026-11-12T00:18:17.895Z",
+  "collectedAt": "2026-11-13T00:29:01.620Z",
   "count": 482,
   "cards": [
     {
@@ -212,8 +212,8 @@
       "rarity": "ミラー",
       "category": "ポケモン",
       "energyType": "草",
-      "surugayaUrl": "/product/detail/GN764737?tenpo_cd=410011",
-      "surugayaPrice": 280,
+      "surugayaUrl": "/product/detail/GN764737?tenpo_cd=201170",
+      "surugayaPrice": 180,
       "surugayaSoldOut": true,
       "raritySlug": "mirror"
     },
@@ -821,7 +821,7 @@
       "category": "ポケモン",
       "energyType": "水",
       "surugayaUrl": "/product/other/GN764753",
-      "surugayaPrice": 240,
+      "surugayaPrice": 230,
       "surugayaSoldOut": true,
       "raritySlug": "mirror"
     },
@@ -3438,7 +3438,7 @@
       "category": "ポケモン",
       "energyType": "",
       "surugayaUrl": "/product/detail/GN764971?tenpo_cd=410018",
-      "surugayaPrice": 89,
+      "surugayaPrice": 69,
       "surugayaSoldOut": true,
       "raritySlug": "n"
     },
@@ -3938,7 +3938,7 @@
       "category": "グッズ",
       "energyType": "",
       "surugayaUrl": "/product/other/GN764984",
-      "surugayaPrice": 73,
+      "surugayaPrice": 18,
       "surugayaSoldOut": true,
       "raritySlug": "n"
     },
@@ -4979,7 +4979,7 @@
       "category": "ポケモン",
       "energyType": "炎",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN764502",
-      "surugayaPrice": 6480,
+      "surugayaPrice": 5980,
       "surugayaSoldOut": false,
       "raritySlug": "sar",
       "surugayaBuyPrice": 3000
@@ -5158,9 +5158,9 @@
       "rarity": "SAR",
       "category": "ポケモン",
       "energyType": "悪",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN764517",
-      "surugayaPrice": 49800,
-      "surugayaSoldOut": false,
+      "surugayaUrl": "/product/other/GN764517",
+      "surugayaPrice": 35806,
+      "surugayaSoldOut": true,
       "raritySlug": "sar",
       "surugayaBuyPrice": 35000
     },
@@ -5351,9 +5351,10 @@
       "category": "ポケモン",
       "energyType": "草",
       "surugayaUrl": "/product/other/GN764495",
-      "surugayaPrice": 100,
+      "surugayaPrice": 480,
       "surugayaSoldOut": true,
-      "raritySlug": "ur"
+      "raritySlug": "ur",
+      "surugayaBuyPrice": null
     },
     {
       "name": "オーガポン みどりのめんex",

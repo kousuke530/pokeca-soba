@@ -2,8 +2,8 @@
   "pack": "スターターセットMEGA メガゲンガーex",
   "packSlug": "mbg",
   "source": "surugaya",
-  "collectedAt": "2026-11-12T00:21:00.676Z",
-  "count": 19,
+  "collectedAt": "2026-11-13T00:31:40.795Z",
+  "count": 20,
   "cards": [
     {
       "name": "ゴース",
@@ -57,6 +57,17 @@
       "category": "ポケモン",
       "energyType": "悪",
       "surugayaUrl": "/product/detail/GU404863?tenpo_cd=410018",
+      "surugayaPrice": 19,
+      "surugayaSoldOut": true,
+      "raritySlug": "n"
+    },
+    {
+      "name": "ヤミラミ",
+      "cardNumber": "006/021",
+      "rarity": "ノーマル",
+      "category": "ポケモン",
+      "energyType": "悪",
+      "surugayaUrl": "/product/detail/GU404864?tenpo_cd=410018",
       "surugayaPrice": 19,
       "surugayaSoldOut": true,
       "raritySlug": "n"
