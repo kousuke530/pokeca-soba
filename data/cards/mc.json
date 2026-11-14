@@ -2,7 +2,7 @@
   "pack": "スタートデッキ100 バトルコレクション",
   "packSlug": "mc",
   "source": "surugaya",
-  "collectedAt": "2026-11-13T00:34:03.422Z",
+  "collectedAt": "2026-11-14T09:45:21.330Z",
   "count": 644,
   "cards": [
     {
@@ -289,7 +289,7 @@
       "category": "グッズ",
       "energyType": "",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU548962",
-      "surugayaPrice": 180,
+      "surugayaPrice": 160,
       "surugayaSoldOut": false,
       "raritySlug": "n"
     },
@@ -388,9 +388,9 @@
       "rarity": "ノーマル",
       "category": "サポート",
       "energyType": "",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU548966",
-      "surugayaPrice": 1080,
-      "surugayaSoldOut": false,
+      "surugayaUrl": "/product/other/GU548966",
+      "surugayaPrice": 600,
+      "surugayaSoldOut": true,
       "raritySlug": "n",
       "surugayaBuyPrice": 500
     },
@@ -3467,7 +3467,7 @@
       "category": "ポケモン",
       "energyType": "超",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU542938",
-      "surugayaPrice": 180,
+      "surugayaPrice": 160,
       "surugayaSoldOut": false,
       "raritySlug": "n"
     },
@@ -5933,9 +5933,9 @@
       "rarity": "ノーマル",
       "category": "グッズ",
       "energyType": "",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU543673",
-      "surugayaPrice": 1280,
-      "surugayaSoldOut": false,
+      "surugayaUrl": "/product/other/GU543673",
+      "surugayaPrice": 1180,
+      "surugayaSoldOut": true,
       "raritySlug": "n",
       "surugayaBuyPrice": 500
     },
@@ -6520,7 +6520,7 @@
       "category": "サポート",
       "energyType": "",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU543171",
-      "surugayaPrice": 180,
+      "surugayaPrice": 160,
       "surugayaSoldOut": false,
       "raritySlug": "mirror"
     },
@@ -6874,7 +6874,7 @@
       "category": "ポケモン",
       "energyType": "炎",
       "surugayaUrl": "/product/other/GU542885",
-      "surugayaPrice": 1170,
+      "surugayaPrice": 1040,
       "surugayaSoldOut": true,
       "raritySlug": "n",
       "surugayaBuyPrice": 500
@@ -6969,9 +6969,9 @@
       "rarity": "ノーマル",
       "category": "ポケモン",
       "energyType": "悪",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU542892",
-      "surugayaPrice": 980,
-      "surugayaSoldOut": false,
+      "surugayaUrl": "/product/other/GU542892",
+      "surugayaPrice": 680,
+      "surugayaSoldOut": true,
       "raritySlug": "n",
       "surugayaBuyPrice": 300
     },
@@ -6994,7 +6994,7 @@
       "category": "ポケモン",
       "energyType": "",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU542893",
-      "surugayaPrice": 6500,
+      "surugayaPrice": 10800,
       "surugayaSoldOut": false,
       "raritySlug": "n",
       "surugayaBuyPrice": 4500
@@ -7041,9 +7041,9 @@
       "rarity": "ノーマル",
       "category": "ポケモン",
       "energyType": "",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU548620",
-      "surugayaPrice": 980,
-      "surugayaSoldOut": false,
+      "surugayaUrl": "/product/other/GU548620",
+      "surugayaPrice": 820,
+      "surugayaSoldOut": true,
       "raritySlug": "n",
       "surugayaBuyPrice": 300
     },
@@ -7053,9 +7053,9 @@
       "rarity": "ノーマル",
       "category": "サポート",
       "energyType": "",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU542896",
-      "surugayaPrice": 6980,
-      "surugayaSoldOut": false,
+      "surugayaUrl": "/product/other/GU542896",
+      "surugayaPrice": 4190,
+      "surugayaSoldOut": true,
       "raritySlug": "n",
       "surugayaBuyPrice": 3000
     },
