@@ -2,7 +2,7 @@
   "pack": "スタートデッキ100 バトルコレクション",
   "packSlug": "mc",
   "source": "surugaya",
-  "collectedAt": "2026-11-14T09:45:21.330Z",
+  "collectedAt": "2026-11-16T01:08:17.811Z",
   "count": 644,
   "cards": [
     {
@@ -289,7 +289,7 @@
       "category": "グッズ",
       "energyType": "",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU548962",
-      "surugayaPrice": 160,
+      "surugayaPrice": 180,
       "surugayaSoldOut": false,
       "raritySlug": "n"
     },
@@ -1038,11 +1038,11 @@
       "rarity": "ノーマル",
       "category": "ポケモン",
       "energyType": "炎",
-      "surugayaUrl": "/product/other/GU542981",
-      "surugayaPrice": 2710,
-      "surugayaSoldOut": true,
+      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU542909",
+      "surugayaPrice": 3980,
+      "surugayaSoldOut": false,
       "raritySlug": "n",
-      "surugayaBuyPrice": 1000
+      "surugayaBuyPrice": 1200
     },
     {
       "name": "ポニータ",
@@ -1876,11 +1876,11 @@
       "rarity": "ノーマル",
       "category": "ポケモン",
       "energyType": "水",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU542920",
-      "surugayaPrice": 980,
+      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU542992",
+      "surugayaPrice": 780,
       "surugayaSoldOut": false,
       "raritySlug": "n",
-      "surugayaBuyPrice": 300
+      "surugayaBuyPrice": null
     },
     {
       "name": "ニューラ",
@@ -3467,7 +3467,7 @@
       "category": "ポケモン",
       "energyType": "超",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU542938",
-      "surugayaPrice": 160,
+      "surugayaPrice": 180,
       "surugayaSoldOut": false,
       "raritySlug": "n"
     },
@@ -5469,9 +5469,9 @@
       "rarity": "ノーマル",
       "category": "ポケモン",
       "energyType": "",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU543638",
-      "surugayaPrice": 160,
-      "surugayaSoldOut": false,
+      "surugayaUrl": "/product/detail/GU543638?tenpo_cd=201206",
+      "surugayaPrice": 70,
+      "surugayaSoldOut": true,
       "raritySlug": "n"
     },
     {
@@ -6520,7 +6520,7 @@
       "category": "サポート",
       "energyType": "",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU543171",
-      "surugayaPrice": 160,
+      "surugayaPrice": 180,
       "surugayaSoldOut": false,
       "raritySlug": "mirror"
     },
@@ -7005,9 +7005,9 @@
       "rarity": "ノーマル",
       "category": "ポケモン",
       "energyType": "",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU542894",
-      "surugayaPrice": 980,
-      "surugayaSoldOut": false,
+      "surugayaUrl": "/product/other/GU542894",
+      "surugayaPrice": 880,
+      "surugayaSoldOut": true,
       "raritySlug": "n",
       "surugayaBuyPrice": 300
     },
@@ -7054,7 +7054,7 @@
       "category": "サポート",
       "energyType": "",
       "surugayaUrl": "/product/other/GU542896",
-      "surugayaPrice": 4190,
+      "surugayaPrice": 5350,
       "surugayaSoldOut": true,
       "raritySlug": "n",
       "surugayaBuyPrice": 3000
@@ -7120,16 +7120,16 @@
       "surugayaBuyPrice": 14000
     },
     {
-      "name": "メガリザードンYex",
+      "name": "メガリザードンYex（Bランク）",
       "cardNumber": "766/742",
       "rarity": "ノーマル",
       "category": "ポケモン",
       "energyType": "炎",
-      "surugayaUrl": "/product/other/GU542882",
+      "surugayaUrl": "/product/detail/GU542882?branch_number=0077",
       "surugayaPrice": 298000,
-      "surugayaSoldOut": true,
+      "surugayaSoldOut": false,
       "raritySlug": "n",
-      "surugayaBuyPrice": 300000
+      "surugayaBuyPrice": 250000
     }
   ]
 }
