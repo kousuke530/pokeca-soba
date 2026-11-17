@@ -2,7 +2,7 @@
   "pack": "拡張パック「バトルパートナーズ」",
   "packSlug": "sv9",
   "source": "surugaya",
-  "collectedAt": "2026-11-16T01:03:44.800Z",
+  "collectedAt": "2026-11-17T03:06:14.304Z",
   "count": 170,
   "cards": [
     {
@@ -1067,9 +1067,9 @@
       "rarity": "C",
       "category": "ポケモン",
       "energyType": "悪",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN832812",
-      "surugayaPrice": 160,
-      "surugayaSoldOut": false,
+      "surugayaUrl": "/product/other/GN832812",
+      "surugayaPrice": 18,
+      "surugayaSoldOut": true,
       "raritySlug": "c"
     },
     {
@@ -1658,10 +1658,9 @@
       "category": "ポケモン",
       "energyType": "",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN832726",
-      "surugayaPrice": 380,
+      "surugayaPrice": 280,
       "surugayaSoldOut": false,
-      "raritySlug": "ar",
-      "surugayaBuyPrice": null
+      "raritySlug": "ar"
     },
     {
       "name": "ボルケニオンex",
@@ -1889,7 +1888,7 @@
       "surugayaPrice": 78800,
       "surugayaSoldOut": true,
       "raritySlug": "ur",
-      "surugayaBuyPrice": 40000
+      "surugayaBuyPrice": 35000
     },
     {
       "name": "スパイクエネルギー",

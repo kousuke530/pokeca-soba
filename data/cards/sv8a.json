@@ -2,7 +2,7 @@
   "pack": "ハイクラスパック 「テラスタルフェスex」",
   "packSlug": "sv8a",
   "source": "surugaya",
-  "collectedAt": "2026-11-16T01:03:24.668Z",
+  "collectedAt": "2026-11-17T03:05:53.524Z",
   "count": 482,
   "cards": [
     {
@@ -788,7 +788,7 @@
       "category": "ポケモン",
       "energyType": "水",
       "surugayaUrl": "/product/detail/GN764752?tenpo_cd=400500",
-      "surugayaPrice": 210,
+      "surugayaPrice": 220,
       "surugayaSoldOut": true,
       "raritySlug": "mirror"
     },
@@ -1146,9 +1146,9 @@
       "rarity": "マスターボール",
       "category": "ポケモン",
       "energyType": "水",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN764618",
-      "surugayaPrice": 280,
-      "surugayaSoldOut": false,
+      "surugayaUrl": "/product/other/GN764618",
+      "surugayaPrice": 80,
+      "surugayaSoldOut": true,
       "raritySlug": "mb"
     },
     {
@@ -1680,7 +1680,7 @@
       "category": "ポケモン",
       "energyType": "超",
       "surugayaUrl": "/product/other/GN764632",
-      "surugayaPrice": 1320,
+      "surugayaPrice": 1310,
       "surugayaSoldOut": true,
       "raritySlug": "mb",
       "surugayaBuyPrice": 1000
@@ -2562,7 +2562,7 @@
       "surugayaPrice": 860,
       "surugayaSoldOut": true,
       "raritySlug": "mirror",
-      "surugayaBuyPrice": 700
+      "surugayaBuyPrice": 600
     },
     {
       "name": "ブラッキーex",

@@ -2,7 +2,7 @@
   "pack": "スタートデッキ100 バトルコレクション",
   "packSlug": "mc",
   "source": "surugaya",
-  "collectedAt": "2026-11-16T01:08:17.811Z",
+  "collectedAt": "2026-11-17T03:10:55.722Z",
   "count": 644,
   "cards": [
     {
@@ -389,7 +389,7 @@
       "category": "サポート",
       "energyType": "",
       "surugayaUrl": "/product/other/GU548966",
-      "surugayaPrice": 600,
+      "surugayaPrice": 580,
       "surugayaSoldOut": true,
       "raritySlug": "n",
       "surugayaBuyPrice": 500
@@ -1038,11 +1038,11 @@
       "rarity": "ノーマル",
       "category": "ポケモン",
       "energyType": "炎",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU542909",
-      "surugayaPrice": 3980,
-      "surugayaSoldOut": false,
+      "surugayaUrl": "/product/other/GU542981",
+      "surugayaPrice": 2769,
+      "surugayaSoldOut": true,
       "raritySlug": "n",
-      "surugayaBuyPrice": 1200
+      "surugayaBuyPrice": 1000
     },
     {
       "name": "ポニータ",
@@ -4270,7 +4270,7 @@
       "category": "ポケモン",
       "energyType": "悪",
       "surugayaUrl": "/product/other/GU543030",
-      "surugayaPrice": 270,
+      "surugayaPrice": 280,
       "surugayaSoldOut": true,
       "raritySlug": "n"
     },
@@ -6827,10 +6827,11 @@
       "rarity": "ノーマル",
       "category": "エネルギー",
       "energyType": "",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU543767",
-      "surugayaPrice": 280,
-      "surugayaSoldOut": false,
-      "raritySlug": "n"
+      "surugayaUrl": "/product/other/GU543767",
+      "surugayaPrice": 310,
+      "surugayaSoldOut": true,
+      "raritySlug": "n",
+      "surugayaBuyPrice": null
     },
     {
       "name": "レガシーエネルギー",
@@ -6874,7 +6875,7 @@
       "category": "ポケモン",
       "energyType": "炎",
       "surugayaUrl": "/product/other/GU542885",
-      "surugayaPrice": 1040,
+      "surugayaPrice": 980,
       "surugayaSoldOut": true,
       "raritySlug": "n",
       "surugayaBuyPrice": 500
