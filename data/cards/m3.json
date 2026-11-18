@@ -2,7 +2,7 @@
   "pack": "拡張パック「ムニキスゼロ」",
   "packSlug": "m3",
   "source": "surugaya",
-  "collectedAt": "2026-11-17T03:11:10.303Z",
+  "collectedAt": "2026-11-18T11:17:28.250Z",
   "count": 117,
   "cards": [
     {
@@ -66,7 +66,7 @@
       "rarity": "R",
       "category": "ポケモン",
       "energyType": "草",
-      "surugayaUrl": "/product/other/GU584322",
+      "surugayaUrl": "/product/detail/GU584322?tenpo_cd=410018",
       "surugayaPrice": 22,
       "surugayaSoldOut": true,
       "raritySlug": "r"
@@ -177,7 +177,7 @@
       "category": "ポケモン",
       "energyType": "炎",
       "surugayaUrl": "/product/other/GU584315",
-      "surugayaPrice": 39,
+      "surugayaPrice": 40,
       "surugayaSoldOut": true,
       "raritySlug": "rr"
     },
@@ -507,7 +507,7 @@
       "category": "ポケモン",
       "energyType": "闘",
       "surugayaUrl": "/product/other/GU584318",
-      "surugayaPrice": 99,
+      "surugayaPrice": 40,
       "surugayaSoldOut": true,
       "raritySlug": "rr"
     },
@@ -672,7 +672,7 @@
       "category": "ポケモン",
       "energyType": "",
       "surugayaUrl": "/product/other/GU584321",
-      "surugayaPrice": 830,
+      "surugayaPrice": 810,
       "surugayaSoldOut": true,
       "raritySlug": "rr",
       "surugayaBuyPrice": 400
@@ -804,7 +804,7 @@
       "rarity": "U",
       "category": "サポート",
       "energyType": "",
-      "surugayaUrl": "/product/other/GU584351",
+      "surugayaUrl": "/product/detail/GU584351?tenpo_cd=201170",
       "surugayaPrice": 80,
       "surugayaSoldOut": true,
       "raritySlug": "u"
@@ -815,8 +815,8 @@
       "rarity": "U",
       "category": "サポート",
       "energyType": "",
-      "surugayaUrl": "/product/other/GU584352",
-      "surugayaPrice": 50,
+      "surugayaUrl": "/product/detail/GU584352?tenpo_cd=201170",
+      "surugayaPrice": 80,
       "surugayaSoldOut": true,
       "raritySlug": "u"
     },
@@ -826,7 +826,7 @@
       "rarity": "U",
       "category": "サポート",
       "energyType": "",
-      "surugayaUrl": "/product/other/GU584353",
+      "surugayaUrl": "/product/detail/GU584353?tenpo_cd=201170",
       "surugayaPrice": 80,
       "surugayaSoldOut": true,
       "raritySlug": "u"
@@ -837,7 +837,7 @@
       "rarity": "U",
       "category": "サポート",
       "energyType": "",
-      "surugayaUrl": "/product/other/GU584354",
+      "surugayaUrl": "/product/detail/GU584354?tenpo_cd=201170",
       "surugayaPrice": 50,
       "surugayaSoldOut": true,
       "raritySlug": "u"
@@ -871,7 +871,7 @@
       "category": "エネルギー",
       "energyType": "",
       "surugayaUrl": "/product/other/GU584328",
-      "surugayaPrice": 410,
+      "surugayaPrice": 420,
       "surugayaSoldOut": true,
       "raritySlug": "r",
       "surugayaBuyPrice": null
@@ -889,12 +889,12 @@
       "surugayaBuyPrice": null
     },
     {
-      "name": "コフーライ",
+      "name": "コフーライ（【PCG/Pristine10】）",
       "cardNumber": "081/080",
       "rarity": "AR",
       "category": "ポケモン",
       "energyType": "草",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU584302",
+      "surugayaUrl": "/product/detail/GU584302?branch_number=1552",
       "surugayaPrice": 280,
       "surugayaSoldOut": false,
       "raritySlug": "ar"
@@ -1113,9 +1113,9 @@
       "rarity": "SR",
       "category": "ポケモン",
       "energyType": "",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU584291",
-      "surugayaPrice": 2280,
-      "surugayaSoldOut": false,
+      "surugayaUrl": "/product/other/GU584291",
+      "surugayaPrice": 1370,
+      "surugayaSoldOut": true,
       "raritySlug": "sr",
       "surugayaBuyPrice": 1000
     },
@@ -1125,9 +1125,9 @@
       "rarity": "SR",
       "category": "グッズ",
       "energyType": "",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU584292",
-      "surugayaPrice": 180,
-      "surugayaSoldOut": false,
+      "surugayaUrl": "/product/other/GU584292",
+      "surugayaPrice": 160,
+      "surugayaSoldOut": true,
       "raritySlug": "sr"
     },
     {
@@ -1159,7 +1159,7 @@
       "category": "グッズ",
       "energyType": "",
       "surugayaUrl": "/product/other/GU584295",
-      "surugayaPrice": 130,
+      "surugayaPrice": 140,
       "surugayaSoldOut": true,
       "raritySlug": "sr"
     },
