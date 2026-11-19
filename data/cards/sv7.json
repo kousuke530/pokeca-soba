@@ -2,7 +2,7 @@
   "pack": "拡張パック 「ステラミラクル」",
   "packSlug": "sv7",
   "source": "surugaya",
-  "collectedAt": "2026-11-18T11:11:01.648Z",
+  "collectedAt": "2026-11-19T00:30:57.926Z",
   "count": 179,
   "cards": [
     {
@@ -1940,16 +1940,16 @@
       "surugayaBuyPrice": 1500
     },
     {
-      "name": "タロ",
+      "name": "【ランクB】タロ",
       "cardNumber": "131/102",
       "rarity": "SAR",
       "category": "サポート",
       "energyType": "",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN596195",
-      "surugayaPrice": 4580,
-      "surugayaSoldOut": false,
+      "surugayaUrl": "/product/detail/GB596195?tenpo_cd=201217",
+      "surugayaPrice": 3960,
+      "surugayaSoldOut": true,
       "raritySlug": "sar",
-      "surugayaBuyPrice": 2000
+      "surugayaBuyPrice": null
     },
     {
       "name": "ブライア",
