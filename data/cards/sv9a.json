@@ -2,7 +2,7 @@
   "pack": "強化拡張パック「熱風のアリーナ」",
   "packSlug": "sv9a",
   "source": "surugaya",
-  "collectedAt": "2026-11-19T00:32:42.875Z",
+  "collectedAt": "2026-11-20T00:25:14.129Z",
   "count": 92,
   "cards": [
     {
@@ -66,8 +66,8 @@
       "rarity": "U",
       "category": "ポケモン",
       "energyType": "草",
-      "surugayaUrl": "/product/detail/GN923814?tenpo_cd=201170",
-      "surugayaPrice": 100,
+      "surugayaUrl": "/product/other/GN923814",
+      "surugayaPrice": 90,
       "surugayaSoldOut": true,
       "raritySlug": "u"
     },
@@ -286,7 +286,7 @@
       "rarity": "R",
       "category": "ポケモン",
       "energyType": "水",
-      "surugayaUrl": "/product/detail/GN923810?tenpo_cd=201170",
+      "surugayaUrl": "/product/other/GN923810",
       "surugayaPrice": 80,
       "surugayaSoldOut": true,
       "raritySlug": "r"
@@ -319,7 +319,7 @@
       "rarity": "U",
       "category": "ポケモン",
       "energyType": "水",
-      "surugayaUrl": "/product/detail/GN923820?tenpo_cd=410018",
+      "surugayaUrl": "/product/other/GN923820",
       "surugayaPrice": 19,
       "surugayaSoldOut": true,
       "raritySlug": "u"
@@ -616,8 +616,8 @@
       "rarity": "U",
       "category": "グッズ",
       "energyType": "",
-      "surugayaUrl": "/product/detail/GN923827?tenpo_cd=201170",
-      "surugayaPrice": 80,
+      "surugayaUrl": "/product/other/GN923827",
+      "surugayaPrice": 70,
       "surugayaSoldOut": true,
       "raritySlug": "u"
     },
@@ -788,9 +788,9 @@
       "rarity": "AR",
       "category": "ポケモン",
       "energyType": "水",
-      "surugayaUrl": "/product/other/GN923794",
-      "surugayaPrice": 2080,
-      "surugayaSoldOut": true,
+      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN923794",
+      "surugayaPrice": 4580,
+      "surugayaSoldOut": false,
       "raritySlug": "ar",
       "surugayaBuyPrice": 2500
     },
@@ -1027,9 +1027,9 @@
       "rarity": "UR",
       "category": "ポケモン",
       "energyType": "闘",
-      "surugayaUrl": "/product/other/GN923771",
-      "surugayaPrice": 3000,
-      "surugayaSoldOut": true,
+      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN923771",
+      "surugayaPrice": 5980,
+      "surugayaSoldOut": false,
       "raritySlug": "ur",
       "surugayaBuyPrice": 3000
     },

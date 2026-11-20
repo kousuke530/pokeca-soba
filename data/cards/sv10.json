@@ -2,7 +2,7 @@
   "pack": "拡張パック「ロケット団の栄光」",
   "packSlug": "sv10",
   "source": "surugaya",
-  "collectedAt": "2026-11-19T00:32:57.013Z",
+  "collectedAt": "2026-11-20T00:25:28.882Z",
   "count": 132,
   "cards": [
     {
@@ -550,7 +550,7 @@
       "rarity": "R",
       "category": "ポケモン",
       "energyType": "闘",
-      "surugayaUrl": "/product/detail/GU166852?tenpo_cd=201170",
+      "surugayaUrl": "/product/other/GU166852",
       "surugayaPrice": 80,
       "surugayaSoldOut": true,
       "raritySlug": "r"
@@ -1012,7 +1012,7 @@
       "rarity": "U",
       "category": "サポート",
       "energyType": "",
-      "surugayaUrl": "/product/detail/GU166881?tenpo_cd=410018",
+      "surugayaUrl": "/product/other/GU166881",
       "surugayaPrice": 47,
       "surugayaSoldOut": true,
       "raritySlug": "u"
@@ -1079,7 +1079,7 @@
       "category": "エネルギー",
       "energyType": "",
       "surugayaUrl": "/product/other/GU166887",
-      "surugayaPrice": 79,
+      "surugayaPrice": 70,
       "surugayaSoldOut": true,
       "raritySlug": "u"
     },
@@ -1353,9 +1353,9 @@
       "rarity": "SR",
       "category": "サポート",
       "energyType": "",
-      "surugayaUrl": "/product/other/GU166822",
-      "surugayaPrice": 520,
-      "surugayaSoldOut": true,
+      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU166822",
+      "surugayaPrice": 830,
+      "surugayaSoldOut": false,
       "raritySlug": "sr",
       "surugayaBuyPrice": 600
     },
@@ -1365,9 +1365,9 @@
       "rarity": "SR",
       "category": "サポート",
       "energyType": "",
-      "surugayaUrl": "/product/other/GU166823",
-      "surugayaPrice": 2860,
-      "surugayaSoldOut": true,
+      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU166823",
+      "surugayaPrice": 2980,
+      "surugayaSoldOut": false,
       "raritySlug": "sr",
       "surugayaBuyPrice": 1500
     },

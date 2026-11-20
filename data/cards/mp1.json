@@ -2,8 +2,8 @@
   "pack": "スタートデッキ100 バトルコレクション コロちゃおVer.",
   "packSlug": "mp1",
   "source": "surugaya",
-  "collectedAt": "2026-11-19T00:37:03.421Z",
-  "count": 21,
+  "collectedAt": "2026-11-20T00:29:40.799Z",
+  "count": 22,
   "cards": [
     {
       "name": "アイアント",
@@ -47,6 +47,17 @@
       "surugayaUrl": "/product/detail/GU548951?tenpo_cd=410018",
       "surugayaPrice": 19,
       "surugayaSoldOut": true,
+      "raritySlug": "n"
+    },
+    {
+      "name": "マスカーニャ",
+      "cardNumber": "005/023",
+      "rarity": "ノーマル",
+      "category": "ポケモン",
+      "energyType": "草",
+      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU548952",
+      "surugayaPrice": 160,
+      "surugayaSoldOut": false,
       "raritySlug": "n"
     },
     {
@@ -199,7 +210,7 @@
       "category": "サポート",
       "energyType": "",
       "surugayaUrl": "/product/other/GU548966",
-      "surugayaPrice": 580,
+      "surugayaPrice": 560,
       "surugayaSoldOut": true,
       "raritySlug": "n",
       "surugayaBuyPrice": 500
