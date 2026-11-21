@@ -2,7 +2,7 @@
   "pack": "強化拡張パック「クリムゾンヘイズ」",
   "packSlug": "sv5a",
   "source": "surugaya",
-  "collectedAt": "2026-11-19T00:30:07.020Z",
+  "collectedAt": "2026-11-21T01:04:12.490Z",
   "count": 96,
   "cards": [
     {
@@ -495,11 +495,10 @@
       "rarity": "RR",
       "category": "ポケモン",
       "energyType": "闘",
-      "surugayaUrl": "/product/other/GN446031",
-      "surugayaPrice": 350,
-      "surugayaSoldOut": true,
-      "raritySlug": "rr",
-      "surugayaBuyPrice": null
+      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN446031",
+      "surugayaPrice": 180,
+      "surugayaSoldOut": false,
+      "raritySlug": "rr"
     },
     {
       "name": "ルチャブル",

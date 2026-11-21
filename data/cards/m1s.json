@@ -2,7 +2,7 @@
   "pack": "拡張パック「メガシンフォニア」",
   "packSlug": "m1s",
   "source": "surugaya",
-  "collectedAt": "2026-11-19T00:34:37.172Z",
+  "collectedAt": "2026-11-21T01:09:06.509Z",
   "count": 92,
   "cards": [
     {
@@ -55,8 +55,8 @@
       "rarity": "R",
       "category": "ポケモン",
       "energyType": "草",
-      "surugayaUrl": "/product/detail/GU362653?tenpo_cd=201170",
-      "surugayaPrice": 220,
+      "surugayaUrl": "/product/other/GU362653",
+      "surugayaPrice": 70,
       "surugayaSoldOut": true,
       "raritySlug": "r"
     },
@@ -177,7 +177,7 @@
       "category": "ポケモン",
       "energyType": "水",
       "surugayaUrl": "/product/other/GU362654",
-      "surugayaPrice": 19,
+      "surugayaPrice": 80,
       "surugayaSoldOut": true,
       "raritySlug": "r"
     },
@@ -407,7 +407,7 @@
       "rarity": "U",
       "category": "ポケモン",
       "energyType": "超",
-      "surugayaUrl": "/product/detail/GU362668?tenpo_cd=201170",
+      "surugayaUrl": "/product/other/GU362668",
       "surugayaPrice": 50,
       "surugayaSoldOut": true,
       "raritySlug": "u"
@@ -418,7 +418,7 @@
       "rarity": "R",
       "category": "ポケモン",
       "energyType": "超",
-      "surugayaUrl": "/product/detail/GU362657?tenpo_cd=201170",
+      "surugayaUrl": "/product/other/GU362657",
       "surugayaPrice": 80,
       "surugayaSoldOut": true,
       "raritySlug": "r"
@@ -550,7 +550,7 @@
       "rarity": "U",
       "category": "ポケモン",
       "energyType": "ドラゴン",
-      "surugayaUrl": "/product/detail/GU362672?tenpo_cd=410018",
+      "surugayaUrl": "/product/other/GU362672",
       "surugayaPrice": 19,
       "surugayaSoldOut": true,
       "raritySlug": "u"
@@ -561,11 +561,10 @@
       "rarity": "RR",
       "category": "ポケモン",
       "energyType": "",
-      "surugayaUrl": "/product/detail/GU362652?tenpo_cd=201170",
-      "surugayaPrice": 380,
+      "surugayaUrl": "/product/other/GU362652",
+      "surugayaPrice": 210,
       "surugayaSoldOut": true,
-      "raritySlug": "rr",
-      "surugayaBuyPrice": null
+      "raritySlug": "rr"
     },
     {
       "name": "デリバード",
