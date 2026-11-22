@@ -2,7 +2,7 @@
   "pack": "拡張パック「インフェルノX」",
   "packSlug": "m2",
   "source": "surugaya",
-  "collectedAt": "2026-11-21T01:09:42.940Z",
+  "collectedAt": "2026-11-22T09:46:17.514Z",
   "count": 116,
   "cards": [
     {
@@ -1212,9 +1212,9 @@
       "rarity": "SR",
       "category": "エネルギー",
       "energyType": "",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU427968",
-      "surugayaPrice": 180,
-      "surugayaSoldOut": false,
+      "surugayaUrl": "/product/other/GU427968",
+      "surugayaPrice": 124,
+      "surugayaSoldOut": true,
       "raritySlug": "sr"
     },
     {
@@ -1224,7 +1224,7 @@
       "category": "ポケモン",
       "energyType": "炎",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU427946",
-      "surugayaPrice": 68200,
+      "surugayaPrice": 89800,
       "surugayaSoldOut": false,
       "raritySlug": "sar",
       "surugayaBuyPrice": 50000

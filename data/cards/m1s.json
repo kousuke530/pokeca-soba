@@ -2,7 +2,7 @@
   "pack": "拡張パック「メガシンフォニア」",
   "packSlug": "m1s",
   "source": "surugaya",
-  "collectedAt": "2026-11-21T01:09:06.509Z",
+  "collectedAt": "2026-11-22T09:45:41.751Z",
   "count": 92,
   "cards": [
     {
@@ -562,9 +562,10 @@
       "category": "ポケモン",
       "energyType": "",
       "surugayaUrl": "/product/other/GU362652",
-      "surugayaPrice": 210,
+      "surugayaPrice": 380,
       "surugayaSoldOut": true,
-      "raritySlug": "rr"
+      "raritySlug": "rr",
+      "surugayaBuyPrice": null
     },
     {
       "name": "デリバード",
@@ -908,7 +909,7 @@
       "category": "グッズ",
       "energyType": "",
       "surugayaUrl": "/product/other/GU362631",
-      "surugayaPrice": 160,
+      "surugayaPrice": 140,
       "surugayaSoldOut": true,
       "raritySlug": "sr"
     },

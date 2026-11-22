@@ -2,7 +2,7 @@
   "pack": "ハイクラスパック 「MEGAドリームex」",
   "packSlug": "m2a",
   "source": "surugaya",
-  "collectedAt": "2026-11-21T01:10:33.142Z",
+  "collectedAt": "2026-11-22T09:47:06.617Z",
   "count": 368,
   "cards": [
     {
@@ -1238,12 +1238,12 @@
       "raritySlug": "n"
     },
     {
-      "name": "ロケット団のナッシー(ロケット団ミラー)",
+      "name": "ロケット団のナッシー(エネルギーミラー)",
       "cardNumber": "062/193",
       "rarity": "ミラー",
       "category": "ポケモン",
       "energyType": "超",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU519776",
+      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU519599",
       "surugayaPrice": 180,
       "surugayaSoldOut": false,
       "raritySlug": "mirror"
@@ -1458,14 +1458,14 @@
       "raritySlug": "n"
     },
     {
-      "name": "サマヨール(エネルギーミラー)",
+      "name": "サマヨール(ボールミラー)",
       "cardNumber": "073/193",
       "rarity": "ミラー",
       "category": "ポケモン",
       "energyType": "超",
-      "surugayaUrl": "/product/other/GU519608",
-      "surugayaPrice": 110,
-      "surugayaSoldOut": true,
+      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU519721",
+      "surugayaPrice": 180,
+      "surugayaSoldOut": false,
       "raritySlug": "mirror"
     },
     {
@@ -1712,12 +1712,12 @@
       "raritySlug": "n"
     },
     {
-      "name": "チャーレム(エネルギーミラー)",
+      "name": "チャーレム(ボールミラー)",
       "cardNumber": "085/193",
       "rarity": "ミラー",
       "category": "ポケモン",
       "energyType": "闘",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU519619",
+      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU519729",
       "surugayaPrice": 180,
       "surugayaSoldOut": false,
       "raritySlug": "mirror"
@@ -2605,12 +2605,12 @@
       "raritySlug": "n"
     },
     {
-      "name": "オンバーン(エネルギーミラー)",
+      "name": "オンバーン(ボールミラー)",
       "cardNumber": "131/193",
       "rarity": "ミラー",
       "category": "ポケモン",
       "energyType": "ドラゴン",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU519654",
+      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU519759",
       "surugayaPrice": 180,
       "surugayaSoldOut": false,
       "raritySlug": "mirror"
@@ -2649,14 +2649,14 @@
       "raritySlug": "n"
     },
     {
-      "name": "ドロンチ(エネルギーミラー)",
+      "name": "ドロンチ(ボールミラー)",
       "cardNumber": "133/193",
       "rarity": "ミラー",
       "category": "ポケモン",
       "energyType": "ドラゴン",
-      "surugayaUrl": "/product/other/GU519656",
-      "surugayaPrice": 132,
-      "surugayaSoldOut": true,
+      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU519761",
+      "surugayaPrice": 180,
+      "surugayaSoldOut": false,
       "raritySlug": "mirror"
     },
     {
@@ -3958,7 +3958,7 @@
       "surugayaPrice": 1280,
       "surugayaSoldOut": false,
       "raritySlug": "sar",
-      "surugayaBuyPrice": 600
+      "surugayaBuyPrice": 500
     },
     {
       "name": "メガゲンガーex",
@@ -4063,7 +4063,7 @@
       "category": "サポート",
       "energyType": "",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU519481",
-      "surugayaPrice": 2480,
+      "surugayaPrice": 2980,
       "surugayaSoldOut": false,
       "raritySlug": "sar",
       "surugayaBuyPrice": 1200

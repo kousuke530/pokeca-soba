@@ -2,7 +2,7 @@
   "pack": "スタートデッキ100 バトルコレクション",
   "packSlug": "mc",
   "source": "surugaya",
-  "collectedAt": "2026-11-21T01:11:45.628Z",
+  "collectedAt": "2026-11-22T09:48:19.945Z",
   "count": 656,
   "cards": [
     {
@@ -1580,7 +1580,7 @@
       "rarity": "ノーマル",
       "category": "ポケモン",
       "energyType": "炎",
-      "surugayaUrl": "/product/detail/GU542985?tenpo_cd=201206",
+      "surugayaUrl": "/product/other/GU542985",
       "surugayaPrice": 120,
       "surugayaSoldOut": true,
       "raritySlug": "n"
@@ -3136,8 +3136,8 @@
       "rarity": "ノーマル",
       "category": "ポケモン",
       "energyType": "超",
-      "surugayaUrl": "/product/other/GU542934",
-      "surugayaPrice": 178,
+      "surugayaUrl": "/product/other/GU543011",
+      "surugayaPrice": 180,
       "surugayaSoldOut": true,
       "raritySlug": "n"
     },
@@ -7255,14 +7255,14 @@
       "surugayaBuyPrice": 14000
     },
     {
-      "name": "メガリザードンYex（Bランク）",
+      "name": "メガリザードンYex",
       "cardNumber": "766/742",
       "rarity": "ノーマル",
       "category": "ポケモン",
       "energyType": "炎",
-      "surugayaUrl": "/product/detail/GU542882?branch_number=0077",
+      "surugayaUrl": "/product/other/GU542882",
       "surugayaPrice": 298000,
-      "surugayaSoldOut": false,
+      "surugayaSoldOut": true,
       "raritySlug": "n",
       "surugayaBuyPrice": 250000
     }
