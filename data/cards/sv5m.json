@@ -2,7 +2,7 @@
   "pack": "拡張パック「サイバージャッジ」",
   "packSlug": "sv5m",
   "source": "surugaya",
-  "collectedAt": "2026-11-22T09:40:33.121Z",
+  "collectedAt": "2026-11-23T01:12:50.047Z",
   "count": 100,
   "cards": [
     {
@@ -705,7 +705,7 @@
       "category": "ポケモンのどうぐ",
       "energyType": "",
       "surugayaUrl": "/product/other/GN369875",
-      "surugayaPrice": 133,
+      "surugayaPrice": 130,
       "surugayaSoldOut": true,
       "raritySlug": "ace"
     },
@@ -999,14 +999,14 @@
       "surugayaBuyPrice": null
     },
     {
-      "name": "暗号マニアの解読",
+      "name": "【ランクB】暗号マニアの解読",
       "cardNumber": "090/071",
       "rarity": "SR",
       "category": "サポート",
       "energyType": "",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN369901",
-      "surugayaPrice": 680,
-      "surugayaSoldOut": false,
+      "surugayaUrl": "/product/detail/GB369901?tenpo_cd=201202",
+      "surugayaPrice": 990,
+      "surugayaSoldOut": true,
       "raritySlug": "sr",
       "surugayaBuyPrice": null
     },
