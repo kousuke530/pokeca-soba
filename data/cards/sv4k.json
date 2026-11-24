@@ -2,7 +2,7 @@
   "pack": "拡張パック「古代の咆哮」",
   "packSlug": "sv4k",
   "source": "surugaya",
-  "collectedAt": "2026-11-23T01:11:32.151Z",
+  "collectedAt": "2026-11-24T03:02:03.160Z",
   "count": 96,
   "cards": [
     {
@@ -879,14 +879,14 @@
       "surugayaBuyPrice": null
     },
     {
-      "name": "アマージョex",
+      "name": "【ランクB】アマージョex",
       "cardNumber": "080/066",
       "rarity": "SR",
       "category": "ポケモン",
       "energyType": "水",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN228504",
-      "surugayaPrice": 480,
-      "surugayaSoldOut": false,
+      "surugayaUrl": "/product/detail/GB228504?tenpo_cd=400500",
+      "surugayaPrice": 380,
+      "surugayaSoldOut": true,
       "raritySlug": "sr",
       "surugayaBuyPrice": null
     },
