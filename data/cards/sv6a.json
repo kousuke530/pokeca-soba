@@ -2,7 +2,7 @@
   "pack": "強化拡張パック「ナイトワンダラー」",
   "packSlug": "sv6a",
   "source": "surugaya",
-  "collectedAt": "2026-11-26T00:10:53.097Z",
+  "collectedAt": "2026-11-27T00:33:45.897Z",
   "count": 94,
   "cards": [
     {
@@ -738,11 +738,10 @@
       "rarity": "AR",
       "category": "ポケモン",
       "energyType": "水",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN544649",
-      "surugayaPrice": 580,
-      "surugayaSoldOut": false,
-      "raritySlug": "ar",
-      "surugayaBuyPrice": null
+      "surugayaUrl": "/product/other/GN544649",
+      "surugayaPrice": 228,
+      "surugayaSoldOut": true,
+      "raritySlug": "ar"
     },
     {
       "name": "ヨマワル",
@@ -751,7 +750,7 @@
       "category": "ポケモン",
       "energyType": "超",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN544650",
-      "surugayaPrice": 780,
+      "surugayaPrice": 320,
       "surugayaSoldOut": false,
       "raritySlug": "ar",
       "surugayaBuyPrice": null
@@ -851,14 +850,14 @@
       "raritySlug": "ar"
     },
     {
-      "name": "キングドラex",
+      "name": "【ランクB】キングドラex",
       "cardNumber": "077/064",
       "rarity": "SR",
       "category": "ポケモン",
       "energyType": "水",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN544659",
-      "surugayaPrice": 480,
-      "surugayaSoldOut": false,
+      "surugayaUrl": "/product/detail/GB544659?tenpo_cd=201206",
+      "surugayaPrice": 320,
+      "surugayaSoldOut": true,
       "raritySlug": "sr",
       "surugayaBuyPrice": null
     },
@@ -946,14 +945,14 @@
       "surugayaBuyPrice": 300
     },
     {
-      "name": "カシオペア",
+      "name": "【ランクB】カシオペア",
       "cardNumber": "085/064",
       "rarity": "SR",
       "category": "サポート",
       "energyType": "",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN544667",
-      "surugayaPrice": 480,
-      "surugayaSoldOut": false,
+      "surugayaUrl": "/product/detail/GB544667?tenpo_cd=201217",
+      "surugayaPrice": 550,
+      "surugayaSoldOut": true,
       "raritySlug": "sr",
       "surugayaBuyPrice": null
     },

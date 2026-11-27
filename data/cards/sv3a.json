@@ -2,7 +2,7 @@
   "pack": "強化拡張パック「レイジングサーフ」",
   "packSlug": "sv3a",
   "source": "surugaya",
-  "collectedAt": "2026-11-26T00:08:09.049Z",
+  "collectedAt": "2026-11-27T00:31:13.037Z",
   "count": 92,
   "cards": [
     {
@@ -936,16 +936,16 @@
       "surugayaBuyPrice": 400
     },
     {
-      "name": "パラソルおねえさん",
+      "name": "【ランクB】パラソルおねえさん",
       "cardNumber": "084/062",
       "rarity": "SR",
       "category": "サポート",
       "energyType": "",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN170327",
-      "surugayaPrice": 1080,
-      "surugayaSoldOut": false,
+      "surugayaUrl": "/product/detail/GB170327?tenpo_cd=201206",
+      "surugayaPrice": 2290,
+      "surugayaSoldOut": true,
       "raritySlug": "sr",
-      "surugayaBuyPrice": 450
+      "surugayaBuyPrice": null
     },
     {
       "name": "ガブリアスex",
