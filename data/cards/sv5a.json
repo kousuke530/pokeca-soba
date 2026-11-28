@@ -2,7 +2,7 @@
   "pack": "強化拡張パック「クリムゾンヘイズ」",
   "packSlug": "sv5a",
   "source": "surugaya",
-  "collectedAt": "2026-11-27T00:33:12.767Z",
+  "collectedAt": "2026-11-28T03:43:20.746Z",
   "count": 96,
   "cards": [
     {
@@ -495,9 +495,9 @@
       "rarity": "RR",
       "category": "ポケモン",
       "energyType": "闘",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN446031",
+      "surugayaUrl": "/product/other/GN446031",
       "surugayaPrice": 180,
-      "surugayaSoldOut": false,
+      "surugayaSoldOut": true,
       "raritySlug": "rr"
     },
     {
@@ -828,7 +828,7 @@
       "category": "ポケモン",
       "energyType": "闘",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN446061",
-      "surugayaPrice": 500,
+      "surugayaPrice": 680,
       "surugayaSoldOut": false,
       "raritySlug": "ar",
       "surugayaBuyPrice": null
@@ -862,7 +862,7 @@
       "category": "ポケモン",
       "energyType": "",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN446064",
-      "surugayaPrice": 3680,
+      "surugayaPrice": 3480,
       "surugayaSoldOut": false,
       "raritySlug": "ar",
       "surugayaBuyPrice": 1500

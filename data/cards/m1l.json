@@ -2,7 +2,7 @@
   "pack": "拡張パック「メガブレイブ」",
   "packSlug": "m1l",
   "source": "surugaya",
-  "collectedAt": "2026-11-27T00:37:31.512Z",
+  "collectedAt": "2026-11-28T03:47:39.474Z",
   "count": 91,
   "cards": [
     {
@@ -912,7 +912,7 @@
       "category": "グッズ",
       "energyType": "",
       "surugayaUrl": "/product/other/GU362725",
-      "surugayaPrice": 140,
+      "surugayaPrice": 160,
       "surugayaSoldOut": true,
       "raritySlug": "sr"
     },
@@ -946,7 +946,7 @@
       "category": "サポート",
       "energyType": "",
       "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU362728",
-      "surugayaPrice": 4980,
+      "surugayaPrice": 4580,
       "surugayaSoldOut": false,
       "raritySlug": "sr",
       "surugayaBuyPrice": 2000
@@ -961,7 +961,7 @@
       "surugayaPrice": 3980,
       "surugayaSoldOut": false,
       "raritySlug": "sar",
-      "surugayaBuyPrice": 1800
+      "surugayaBuyPrice": 1500
     },
     {
       "name": "メガルカリオex",
@@ -969,9 +969,9 @@
       "rarity": "SAR",
       "category": "ポケモン",
       "energyType": "闘",
-      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GU362714",
-      "surugayaPrice": 6480,
-      "surugayaSoldOut": false,
+      "surugayaUrl": "/product/other/GU362714",
+      "surugayaPrice": 4150,
+      "surugayaSoldOut": true,
       "raritySlug": "sar",
       "surugayaBuyPrice": 3000
     },

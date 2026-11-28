@@ -2,7 +2,7 @@
   "pack": "拡張パック 「変幻の仮面」",
   "packSlug": "sv6",
   "source": "surugaya",
-  "collectedAt": "2026-11-27T00:33:28.562Z",
+  "collectedAt": "2026-11-28T03:43:36.326Z",
   "count": 133,
   "cards": [
     {
@@ -1338,14 +1338,14 @@
       "surugayaBuyPrice": 500
     },
     {
-      "name": "【ランクB】ハピナスex",
+      "name": "ハピナスex",
       "cardNumber": "121/101",
       "rarity": "SR",
       "category": "ポケモン",
       "energyType": "",
-      "surugayaUrl": "/product/detail/GB486590?tenpo_cd=201206",
-      "surugayaPrice": 430,
-      "surugayaSoldOut": true,
+      "surugayaUrl": "https://www.suruga-ya.jp/product/detail/GN486590",
+      "surugayaPrice": 480,
+      "surugayaSoldOut": false,
       "raritySlug": "sr",
       "surugayaBuyPrice": null
     },
